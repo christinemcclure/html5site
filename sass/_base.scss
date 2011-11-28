@@ -1,0 +1,33 @@
+@import "compass/reset";
+@import "compass/css3";
+@import "compass/utilities";
+
+
+
+/* 
+
+####################################################### 
+################# Start of my CSS #####################
+####################################################### 
+
+*/
+
+
+#page{
+  width:100%;
+}
+
+#content{  
+  margin: 0px auto;
+}
+
+img {max-width:100%;} /* for responsive images */
+
+.accessibility, .hideForm, .hidden{
+	display:none;
+}
+
+.clear {
+ clear:both;
+}
+
