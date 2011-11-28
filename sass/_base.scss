@@ -12,16 +12,21 @@
 
 */
 
+img {max-width:100%} /* for responsive images */
+
+footer img {
+ max-width: 20px !important;
+ margin: 0 5px -5px 5px;
+}
 
 #page{
   width:100%;
+	font-family: 'Federo', Verdana, Arial,  sans-serif;
 }
 
 #content{  
   margin: 0px auto;
 }
-
-img {max-width:100%;} /* for responsive images */
 
 .accessibility, .hideForm, .hidden{
 	display:none;
@@ -30,3 +35,120 @@ img {max-width:100%;} /* for responsive images */
 .clear {
  clear:both;
 }
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Michroma', Verdana, Arial,  sans-serif;
+	font-weight:bold;
+}
+
+a {
+  text-decoration: none; /*Lose underlining on links to make grid easier to see*/
+}
+
+
+/*
+########################################
+########### For Baselind Grid ##########
+########################################
+*/
+
+.t22 {
+  font-size: 14px;
+  line-height: 22px;
+  background-image: url('img/22px-baseline.png');
+}
+
+#homePage header {
+	width: 100%;
+	position: absolute;
+	margin: 400px 0 0 0;
+}
+
+header h1 {
+  font-size:44px;
+	display:inline;
+	float:left;
+	margin: 0 0 0 84px;
+}
+
+p {
+  font-size: 16px;
+}
+
+header p {
+	font-size: 14px;
+	display:inline;
+	float:left;
+	margin: 6px 0 0 50px;
+}
+
+#homePage h2 {
+  font-size: 30px;
+	letter-spacing: 4px;
+	margin: 0 0 14px 0;
+	display:inline;
+	float:left;
+}
+
+#homePage h2#lib {
+	letter-spacing: 5px;
+	float:right;
+	text-align:right;
+}
+
+
+.g978 #page {
+  width: 300px; /*Total width works out to 312px*/
+  padding: 0px 6px 0px 6px;
+  background-image: url('img/300px-6-27-6-8c.png');
+}
+
+
+@media screen and (min-width: 760px) {
+  .g978 #page {
+		width: 748px; /*Total width works out to 768px*/
+		padding: 0px 10px 0px 10px;
+		background-image: url('img/748px-10-44-10-12c.png');
+	}
+
+}
+
+@media screen and (min-width: 1010px) {
+
+  .g978 #page {
+    width: 978px; /*Total with works out to 1008*/
+    padding: 0px 15px 0px 15px;
+    background-image: url('img/978px-15-54-15-12c.png');
+		margin: 0 auto;
+	}
+
+	#homePage nav#galleries ul {
+		 float:left;
+	}
+
+	#homePage nav#galleries ul li{
+		 display:inline;
+		 float:left;
+		 margin: 0 0 0 30px;
+	}
+	
+	p#photoIntro {
+		margin: 0 0 0 336px;;
+	}
+
+	nav a, nav p {
+		width: 108px;
+	  font-size: 26px;
+		letter-spacing: 2px;
+	}
+	
+  #homePage img {
+    width: 138px;
+  }
+
+}
+
+#page footer p.credits img {
+  max-width: 100%;
+}
+
