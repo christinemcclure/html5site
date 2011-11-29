@@ -19,10 +19,6 @@ footer img {
  margin: 0 5px -5px 5px;
 }
 
-#page{
-  width:100%;
-	font-family: 'Federo', Verdana, Arial,  sans-serif;
-}
 
 #content{  
   margin: 0px auto;
@@ -36,9 +32,16 @@ footer img {
  clear:both;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6, li a p {
 	font-family: 'Michroma', Verdana, Arial,  sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
 	font-weight:bold;
+}
+
+html #page p {
+	font-family: 'Federo', Verdana, Arial,  sans-serif;
 }
 
 a {
@@ -59,9 +62,10 @@ a {
 }
 
 #homePage header {
+  clear:both;
 	width: 100%;
 	position: absolute;
-	margin: 400px 0 0 0;
+	margin: 300px 0 22px 0;
 }
 
 header h1 {
@@ -137,16 +141,34 @@ header p {
 	}
 
 	nav a, nav p {
-		width: 108px;
-	  font-size: 26px;
+		width: 138px;
+	  font-size: 22px;
 		letter-spacing: 2px;
 	}
+	
 	
   #homePage img {
     width: 138px;
   }
+	#homePage #galleries img {
+		margin-bottom: 8px;
+	}
+	
+	#homePage nav#photo {
+	 float: left;
+		margin: -198px 0 0 0;
+	}
+	
+	#homePage nav#photo {
+		 float: left;
+		margin: -196px 0 0 0;
+	}	
 
-}
+	#homePage nav#photo ul li {
+		margin: 0 0 18px 0;
+	}	
+	
+} /* end min-width: 1010px */
 
 #page footer p.credits img {
   max-width: 100%;
