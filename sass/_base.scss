@@ -61,44 +61,6 @@ a {
   background-image: url('img/22px-baseline.png');
 }
 
-#homePage header {
-  clear:both;
-	width: 100%;
-	position: absolute;
-	margin: 300px 0 22px 0;
-}
-
-header h1 {
-  font-size:44px;
-	display:inline;
-	float:left;
-	margin: 0 0 0 84px;
-}
-
-p {
-  font-size: 16px;
-}
-
-header p {
-	font-size: 14px;
-	display:inline;
-	float:left;
-	margin: 6px 0 0 50px;
-}
-
-#homePage h2 {
-  font-size: 30px;
-	letter-spacing: 4px;
-	margin: 0 0 14px 0;
-	display:inline;
-	float:left;
-}
-
-#homePage h2#lib {
-	letter-spacing: 5px;
-	float:right;
-	text-align:right;
-}
 
 
 .g978 #page {
@@ -118,6 +80,47 @@ header p {
 }
 
 @media screen and (min-width: 1010px) {
+
+	#homePage header {
+		clear:both;
+		position: absolute;
+		width: 978px;
+		margin: 286px 0 0 0;
+		padding: 19px 0;
+		background-color:yellow;
+	}
+	
+	header h1 {
+		font-size:44px;
+		display:inline;
+		float:left;
+		margin: 0 0 0 84px;
+	}
+	
+	p {
+		font-size: 16px;
+	}
+	
+	header p {
+		font-size: 14px;
+		display:inline;
+		float:left;
+		margin: 6px 0 0 50px;
+	}
+	
+	#homePage h2 {
+		font-size: 30px;
+		letter-spacing: 4px;
+		margin: 0 0 14px 0;
+		display:inline;
+		float:left;
+	}
+	
+	#homePage h2#lib {
+		letter-spacing: 5px;
+		float:right;
+		text-align:right;
+	}
 
   .g978 #page {
     width: 978px; /*Total with works out to 1008*/
