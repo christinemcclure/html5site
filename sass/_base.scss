@@ -85,7 +85,7 @@ a {
 		clear:both;
 		position: absolute;
 		width: 978px;
-		margin: 286px 0 0 0;
+		margin: 264px 0 0 0;
 		padding: 19px 0;
 		background-color:yellow;
 	}
@@ -116,7 +116,7 @@ a {
 		float:left;
 	}
 	
-	#homePage h2#lib {
+	#homePage h2#libHeader {
 		letter-spacing: 5px;
 		float:right;
 		text-align:right;
@@ -148,8 +148,7 @@ a {
 	  font-size: 22px;
 		letter-spacing: 2px;
 	}
-	
-	
+		
   #homePage img {
     width: 138px;
   }
@@ -170,6 +169,15 @@ a {
 	#homePage nav#photo ul li {
 		margin: 0 0 18px 0;
 	}	
+	
+	#homePage #libFigure {
+		margin: 112px 0 0 0;
+	}
+	
+	#homePage #libIntro {
+		width: 524px;
+		margin: -80px 0 0 168px;
+	}
 	
 } /* end min-width: 1010px */
 
