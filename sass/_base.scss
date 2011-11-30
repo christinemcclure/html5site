@@ -22,22 +22,24 @@ img {max-width:100%} /* for responsive images */
 footer {
   clear:both;
 	margin: 88px 0 0 0;
+
+	img {
+		max-width: 18px !important;
+		margin: 0 2px -5px 5px;
+	}
+
+	p {
+		display:inline;
+		font-family: $bodyFont;
+		font-size: 12px;
+	}
+
+	p.copyright {
+		float:right;
+	}
 }
 
-footer img {
- max-width: 18px !important;
- margin: 0 2px -5px 5px;
-}
 
-footer p{
-  display:inline;
-	font-family: $bodyFont;
-	font-size: 12px;
-}
-
-footer p.copyright {
-  float:right;
-}
 #content{  
   margin: 0px auto;
 }
