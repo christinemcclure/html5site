@@ -112,170 +112,32 @@ nav {
   font-family: "Questrial", Verdana, Arial, sans-serif;
 }
 
+/* line 70, ../sass/_base.scss */
+#homePage img, header {
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -o-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -khtml-border-radius: 10px;
+  border-radius: 10px;
+}
+
 /*
 ########################################
 ########### For Baselind Grid ##########
 ########################################
 */
-/* line 75, ../sass/_base.scss */
+/* line 80, ../sass/_base.scss */
 .t22 {
   font-size: 14px;
   line-height: 22px;
   background-image: url("img/22px-baseline.png");
 }
 
-/* line 83, ../sass/_base.scss */
+/* line 88, ../sass/_base.scss */
 .g978 #page {
   width: 300px;
   /*Total width works out to 312px*/
   padding: 0px 6px 0px 6px;
   background-image: url("img/300px-6-27-6-8c.png");
 }
-
-@media screen and (min-width: 760px) {
-  /* line 91, ../sass/_base.scss */
-  .g978 #page {
-    width: 748px;
-    /*Total width works out to 768px*/
-    padding: 0px 10px 0px 10px;
-    background-image: url("img/748px-10-44-10-12c.png");
-  }
-}
-@media screen and (min-width: 1010px) {
-  /* line 101, ../sass/_base.scss */
-  .g978 #page {
-    width: 978px;
-    /*Total with works out to 1008*/
-    padding: 22px 15px 22px 15px;
-    /* added 22px to each for background (change 15 to 37 later after grid is gone)*/
-    background-image: url("img/978px-15-54-15-12c.png");
-    margin: 0 auto;
-  }
-
-  /* line 108, ../sass/_base.scss */
-  #homePage {
-    /* end header */
-    /* end footer*/
-  }
-  /* line 110, ../sass/_base.scss */
-  #homePage header {
-    clear: both;
-    position: absolute;
-    width: 978px;
-    margin: 264px 0 0 0;
-    padding: 19px 0;
-    background-color: yellow;
-  }
-  /* line 118, ../sass/_base.scss */
-  #homePage header h1 {
-    font-size: 44px;
-    display: inline;
-    float: left;
-    letter-spacing: 6px;
-  }
-  /* line 124, ../sass/_base.scss */
-  #homePage header p {
-    font-size: 12px;
-    display: inline;
-    float: right;
-    margin: 6px 0 0 0;
-  }
-  /* line 132, ../sass/_base.scss */
-  #homePage h2 {
-    font-size: 30px;
-    letter-spacing: 4px;
-    margin: 0 0 14px 0;
-    display: inline;
-    float: left;
-  }
-  /* line 140, ../sass/_base.scss */
-  #homePage h2#libHeader {
-    letter-spacing: 5px;
-    float: right;
-    text-align: right;
-    margin: 108px 0 0 0;
-  }
-  /* line 147, ../sass/_base.scss */
-  #homePage p {
-    font-size: 14px;
-  }
-  /* line 151, ../sass/_base.scss */
-  #homePage p#photoIntro {
-    margin: 0 0 0 336px;
-  }
-  /* line 155, ../sass/_base.scss */
-  #homePage img {
-    width: 138px;
-  }
-  /* line 160, ../sass/_base.scss */
-  #homePage #galleries ul li {
-    display: inline;
-    float: left;
-    margin: 0 0 0 30px;
-  }
-  /* line 166, ../sass/_base.scss */
-  #homePage #galleries img {
-    margin-bottom: 8px;
-  }
-  /* line 171, ../sass/_base.scss */
-  #homePage #libFigure {
-    margin: 112px 0 0 0;
-  }
-  /* line 175, ../sass/_base.scss */
-  #homePage #libIntro {
-    width: 558px;
-    margin: -98px 0 0 168px;
-  }
-  /* line 180, ../sass/_base.scss */
-  #homePage footer {
-    clear: both;
-    margin: 88px 0 0 0;
-  }
-  /* line 184, ../sass/_base.scss */
-  #homePage footer img {
-    max-width: 18px !important;
-    margin: 0 2px -5px 5px;
-  }
-  /* line 189, ../sass/_base.scss */
-  #homePage footer p {
-    display: inline;
-    font-family: "Questrial", Verdana, Arial, sans-serif;
-    font-size: 12px;
-  }
-  /* line 195, ../sass/_base.scss */
-  #homePage footer p.copyright {
-    float: right;
-  }
-
-  /* end homePage*/
-  /* line 206, ../sass/_base.scss */
-  nav a, nav p {
-    width: 138px;
-    font-size: 18px;
-    letter-spacing: 2px;
-  }
-
-  /* line 213, ../sass/_base.scss */
-  nav#photo {
-    float: left;
-    margin: -196px 0 0 0;
-    border-left: 2px solid black;
-  }
-  /* line 218, ../sass/_base.scss */
-  nav#photo ul li {
-    margin: 0 8px;
-  }
-
-  /* line 223, ../sass/_base.scss */
-  #homePage nav#lib {
-    float: right;
-    margin: -66px 0 22px 0;
-    text-align: right;
-    border-right: 2px solid black;
-  }
-  /* line 228, ../sass/_base.scss */
-  #homePage nav#lib ul li {
-    margin: 0 8px;
-  }
-}
-/* end min-width: 1010px */
