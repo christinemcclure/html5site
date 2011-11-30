@@ -19,26 +19,6 @@ $borderColor: black;
 
 img {max-width:100%} /* for responsive images */
 
-footer {
-  clear:both;
-	margin: 88px 0 0 0;
-
-	img {
-		max-width: 18px !important;
-		margin: 0 2px -5px 5px;
-	}
-
-	p {
-		display:inline;
-		font-family: $bodyFont;
-		font-size: 12px;
-	}
-
-	p.copyright {
-		float:right;
-	}
-}
-
 
 #content{  
   margin: 0px auto;
@@ -48,10 +28,23 @@ footer {
 	display:none;
 }
 
-.clear {
- clear:both;
-}
+@mixin clearfix {
+ // For modern browsers
+  &:before,
+  &:after {
+    content:"";
+    display:table;
+  }
 
+  &:after {
+    clear:both;
+  }
+
+  // For IE 6/7 (trigger hasLayout)
+  & {
+    zoom:1;
+  }
+}
 
 h1, h2, h3, h4, h5, h6, li a p {
 	font-family: $headingFont;
@@ -61,7 +54,7 @@ h1, h2, h3, h4, h5, h6 {
 	font-weight:900;
 }
 
-html #page p {
+html #page p, ul li {
 	font-family: $bodyFont;
 }
 
@@ -69,6 +62,9 @@ a {
   text-decoration: none; /*Lose underlining on links to make grid easier to see*/
 }
 
+nav {
+	font-family: $bodyFont;
+}
 
 /*
 ########################################
@@ -102,107 +98,139 @@ a {
 
 @media screen and (min-width: 1010px) {
 
-	#homePage header {
-		clear:both;
-		position: absolute;
-		width: 978px;
-		margin: 264px 0 0 0;
-		padding: 19px 0;
-		background-color:yellow;
-	}
-	
-	header h1 {
-		font-size:44px;
-		display:inline;
-		float:left;
-		letter-spacing: 6px;
-	}
-	
-	p {
-		font-size: 14px;
-	}
-	
-	header p {
-		font-size: 12px;
-		display:inline;
-		float:right;
-		margin: 6px 0 0 0;
-	}
-	
-	#homePage h2 {
-		font-size: 30px;
-		letter-spacing: 4px;
-		margin: 0 0 14px 0;
-		display:inline;
-		float:left;
-	}
-	
-	#homePage h2#libHeader {
-		letter-spacing: 5px;
-		float:right;
-		text-align:right;
-    margin: 108px 0 0 0;
-	}
-
   .g978 #page {
     width: 978px; /*Total with works out to 1008*/
-    padding: 0px 15px 0px 15px;
+    padding: 22px 15px 22px 15px; /* added 22px to each for background (change 15 to 37 later after grid is gone)*/
     background-image: url('img/978px-15-54-15-12c.png');
 		margin: 0 auto;
 	}
 
-	#homePage nav#galleries ul {
-		 float:left;
-	}
-
-	#homePage nav#galleries ul li{
-		 display:inline;
-		 float:left;
-		 margin: 0 0 0 30px;
-	}
-	
-	p#photoIntro {
-		margin: 0 0 0 336px;;
-	}
-
-	nav a, nav p {
-		width: 138px;
-	  font-size: 18px;
-		letter-spacing: 2px;
-	}
+	#homePage {
 		
-  #homePage img {
-    width: 138px;
-  }
-	#homePage #galleries img {
-		margin-bottom: 8px;
+		header {
+			clear:both;
+			position: absolute;
+			width: 978px;
+			margin: 264px 0 0 0;
+			padding: 19px 0;
+			background-color:yellow;
+
+			h1 {
+				font-size:44px;
+				display:inline;
+				float:left;
+				letter-spacing: 6px;
+			}
+			p {
+				font-size: 12px;
+				display:inline;
+				float:right;
+				margin: 6px 0 0 0;
+			}
+		} /* end header */
+
+		h2 {
+				font-size: 30px;
+				letter-spacing: 4px;
+				margin: 0 0 14px 0;
+				display:inline;
+				float:left;
+		}
+
+		h2#libHeader {
+			letter-spacing: 5px;
+			float:right;
+			text-align:right;
+			margin: 108px 0 0 0;
+		}
+		
+		p {
+			font-size: 14px;
+		}
+					
+		p#photoIntro {
+			margin: 0 0 0 336px;;
+		}
+
+		img {
+			width: 138px;
+		}
+
+	#galleries {
+		ul li{
+			display:inline;
+			float:left;
+			margin: 0 0 0 30px;
+		}	
+
+		img {
+			margin-bottom: 8px;
+		}
 	}
-
-	#homePage nav#photo {
-		float: left;
-		margin: -196px 0 0 0;
-		border-left: 2px solid $borderColor;
-	}	
-
-	#homePage nav#photo ul li, #homePage nav#lib ul li {
-		margin: 0 8px;
-	}	
 	
-	#homePage #libFigure {
+	#libFigure {
 		margin: 112px 0 0 0;
 	}
-	
-	#homePage #libIntro {
+
+	#libIntro {
 		width: 558px;
 		margin: -98px 0 0 168px;
 	}
+		
+		footer {
+			clear:both;
+			margin: 88px 0 0 0;
+		
+			img {
+				max-width: 18px !important;
+				margin: 0 2px -5px 5px;
+			}
+		
+			p {
+				display:inline;
+				font-family: $bodyFont;
+				font-size: 12px;
+			}
+		
+			p.copyright {
+				float:right;
+			}
+		} /* end footer*/
+			
+		
+	} /* end homePage*/
+	
 
-  #homePage nav#lib {
-    float:right;
+
+	nav {
+		a, p {
+			width: 138px;
+			font-size: 18px;
+			letter-spacing: 2px;
+		}					
+	}
+
+	nav#photo {
+		float: left;
+		margin: -196px 0 0 0;
+		border-left: 2px solid $borderColor;
+		
+		ul li {
+			margin: 0 8px;
+		}
+	}		
+
+	#homePage nav#lib {
+		float:right;
 		margin: -66px 0 22px 0;
 		text-align:right;
 		border-right: 2px solid $borderColor;
-  }
+		ul li {
+			margin: 0 8px;
+		}	
+	}	
+		
+
 	
 } /* end min-width: 1010px */
 
