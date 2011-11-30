@@ -12,19 +12,27 @@
 
 */
 
+
+$headingFont: 'Michroma', Verdana, Arial,  sans-serif;
+$bodyFont: 'Questrial', Verdana, Arial,  sans-serif;
+$borderColor: black;
+
 img {max-width:100%} /* for responsive images */
 
 footer {
   clear:both;
+	margin: 88px 0 0 0;
 }
 
 footer img {
- max-width: 20px !important;
+ max-width: 18px !important;
  margin: 0 2px -5px 5px;
 }
 
 footer p{
   display:inline;
+	font-family: $bodyFont;
+	font-size: 12px;
 }
 
 footer p.copyright {
@@ -42,16 +50,17 @@ footer p.copyright {
  clear:both;
 }
 
+
 h1, h2, h3, h4, h5, h6, li a p {
-	font-family: 'Michroma', Verdana, Arial,  sans-serif;
+	font-family: $headingFont;
 }
 
 h1, h2, h3, h4, h5, h6 {
-	font-weight:bold;
+	font-weight:900;
 }
 
 html #page p {
-	font-family: 'Federo', Verdana, Arial,  sans-serif;
+	font-family: $bodyFont;
 }
 
 a {
@@ -104,18 +113,18 @@ a {
 		font-size:44px;
 		display:inline;
 		float:left;
-		margin: 0 0 0 84px;
+		letter-spacing: 6px;
 	}
 	
 	p {
-		font-size: 16px;
+		font-size: 14px;
 	}
 	
 	header p {
-		font-size: 14px;
+		font-size: 12px;
 		display:inline;
-		float:left;
-		margin: 6px 0 0 50px;
+		float:right;
+		margin: 6px 0 0 0;
 	}
 	
 	#homePage h2 {
@@ -156,7 +165,7 @@ a {
 
 	nav a, nav p {
 		width: 138px;
-	  font-size: 20px;
+	  font-size: 18px;
 		letter-spacing: 2px;
 	}
 		
@@ -170,7 +179,7 @@ a {
 	#homePage nav#photo {
 		float: left;
 		margin: -196px 0 0 0;
-		border-left: 2px solid grey;
+		border-left: 2px solid $borderColor;
 	}	
 
 	#homePage nav#photo ul li, #homePage nav#lib ul li {
@@ -183,14 +192,14 @@ a {
 	
 	#homePage #libIntro {
 		width: 558px;
-		margin: -102px 0 0 168px;
+		margin: -98px 0 0 168px;
 	}
 
   #homePage nav#lib {
     float:right;
 		margin: -66px 0 22px 0;
 		text-align:right;
-		border-right: 2px solid grey;
+		border-right: 2px solid $borderColor;
   }
 	
 } /* end min-width: 1010px */
