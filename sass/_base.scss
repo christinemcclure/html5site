@@ -168,12 +168,13 @@ a {
 	}
 
 	#homePage nav#photo {
-		 float: left;
+		float: left;
 		margin: -196px 0 0 0;
+		border-left: 2px solid grey;
 	}	
 
 	#homePage nav#photo ul li, #homePage nav#lib ul li {
-		margin: 0 0 11px 0;
+		margin: 0 8px;
 	}	
 	
 	#homePage #libFigure {
@@ -188,6 +189,8 @@ a {
   #homePage nav#lib {
     float:right;
 		margin: -66px 0 22px 0;
+		text-align:right;
+		border-right: 2px solid grey;
   }
 	
 } /* end min-width: 1010px */
