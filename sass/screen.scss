@@ -29,20 +29,22 @@ body {
 			position: absolute;
 			width: 978px;
 			margin: 264px 0 0 0;
-			padding: 19px 0;
 			background-color:yellow;
 
 			h1 {
 				font-size:44px;
 				display:inline;
 				float:left;
-				letter-spacing: 6px;
+				letter-spacing: 4px;
+				margin: 0 0 0 54px;
+				padding: 20px 0 24px 0;
 			}
+
 			p {
-				font-size: 12px;
 				display:inline;
 				float:right;
-				margin: 6px 0 0 0;
+				font-size: 12px;
+				margin: 28px 54px 0 0;
 			}
 		} /* end header */
 
@@ -58,7 +60,7 @@ body {
 			letter-spacing: 5px;
 			float:right;
 			text-align:right;
-			margin: 108px 0 0 0;
+			margin: 108px -4px 0 0;
 		}
 		
 		p {
