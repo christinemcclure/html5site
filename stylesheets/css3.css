@@ -1,0 +1,17 @@
+/* 
+
+####################################################### 
+For new CSS3 elements that don't yet validate correctly
+because they are still in development
+####################################################### 
+
+*/
+/* line 13, ../sass/css3.scss */
+#homePage img, header {
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -o-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -khtml-border-radius: 10px;
+  border-radius: 10px;
+}

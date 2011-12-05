@@ -1,0 +1,15 @@
+/* 
+
+####################################################### 
+For new CSS3 elements that don't yet validate correctly
+because they are still in development
+####################################################### 
+
+*/
+@import "compass/css3";
+
+$radius: 10px;
+
+#homePage img, header{
+	@include border-radius($radius);
+}

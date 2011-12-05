@@ -66,11 +66,6 @@ nav {
 	font-family: $bodyFont;
 }
 
-$radius: 10px;
-	#homePage img, header{
-  @include border-radius($radius);
-}
-
 /*
 ########################################
 ########### For Baselind Grid ##########

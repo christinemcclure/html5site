@@ -112,29 +112,19 @@ nav {
   font-family: "Questrial", Verdana, Arial, sans-serif;
 }
 
-/* line 70, ../sass/_base.scss */
-#homePage img, header {
-  -moz-border-radius: 10px;
-  -webkit-border-radius: 10px;
-  -o-border-radius: 10px;
-  -ms-border-radius: 10px;
-  -khtml-border-radius: 10px;
-  border-radius: 10px;
-}
-
 /*
 ########################################
 ########### For Baselind Grid ##########
 ########################################
 */
-/* line 80, ../sass/_base.scss */
+/* line 75, ../sass/_base.scss */
 .t22 {
   font-size: 14px;
   line-height: 22px;
   background-image: url("img/22px-baseline.png");
 }
 
-/* line 88, ../sass/_base.scss */
+/* line 83, ../sass/_base.scss */
 .g978 #page {
   width: 300px;
   /*Total width works out to 312px*/
