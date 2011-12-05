@@ -177,17 +177,18 @@ body {
     display: inline;
     float: left;
     letter-spacing: 4px;
-    margin: 0 0 0 54px;
+    /*margin: 0 0 0 54px;*/
+    margin: 0 0 0 5.52147239263804%;
     padding: 20px 0 24px 0;
   }
-  /* line 45, ../sass/screen.scss */
+  /* line 46, ../sass/screen.scss */
   #homePage header p {
     display: inline;
     float: right;
     font-size: 12px;
     margin: 28px 54px 0 0;
   }
-  /* line 53, ../sass/screen.scss */
+  /* line 54, ../sass/screen.scss */
   #homePage h2 {
     /*width: 306px;*/
     width: 31.28834355828221%;
@@ -197,79 +198,74 @@ body {
     display: inline;
     float: left;
   }
-  /* line 63, ../sass/screen.scss */
+  /* line 64, ../sass/screen.scss */
   #homePage #photoHeader {
     margin: -4px 0 0 0;
   }
-  /* line 66, ../sass/screen.scss */
+  /* line 67, ../sass/screen.scss */
   #homePage #libHeader {
     letter-spacing: 5px;
     float: right;
     text-align: right;
-    margin: 108px 0px 0 0;
+    margin: 172px 0px 0 0;
   }
-  /* line 73, ../sass/screen.scss */
+  /* line 74, ../sass/screen.scss */
   #homePage p {
     font-size: 14px;
   }
-  /* line 77, ../sass/screen.scss */
+  /* line 78, ../sass/screen.scss */
   #homePage p#photoIntro {
     clear: both;
     /*margin: 0 0 0 336px;*/
     margin: 0 0 0 34.3558282208589%;
   }
-  /* line 83, ../sass/screen.scss */
-  #homePage img {
-    /*width: 138px;*/
-  }
-  /* line 89, ../sass/screen.scss */
+  /* line 86, ../sass/screen.scss */
   #homePage #galleries ul li {
     display: inline;
     float: left;
     /*margin: 0 0 2px 30px;*/
     margin: 0 0 2px 3.06748466257669%;
   }
-  /* line 96, ../sass/screen.scss */
+  /* line 93, ../sass/screen.scss */
   #homePage #galleries img {
     margin-bottom: 8px;
   }
-  /* line 101, ../sass/screen.scss */
+  /* line 98, ../sass/screen.scss */
   #homePage #libFigure {
+    /*width: 138px;*/
     width: 14.11042944785276%;
-    margin: 112px 0 0 0;
+    margin: 196px 0 0 0;
   }
-  /* line 106, ../sass/screen.scss */
+  /* line 104, ../sass/screen.scss */
   #homePage #libIntro {
-    width: 558px;
-    margin: -100px 0 0 168px;
+    /*width: 558px;*/
+    width: 57.05521472392638%;
+    /*margin: -100px 0 0 168px;*/
+    margin: -98px 0 0 17.178%;
   }
   /* line 111, ../sass/screen.scss */
   #homePage footer {
     clear: both;
-    margin: 88px 0 0 0;
+    margin: 66px 0 0 0;
   }
   /* line 115, ../sass/screen.scss */
-  #homePage footer img {
-    max-width: 18px !important;
-    margin: 0 2px -5px 5px;
-  }
-  /* line 120, ../sass/screen.scss */
   #homePage footer p {
     display: inline;
     font-family: "Questrial", Verdana, Arial, sans-serif;
     font-size: 12px;
   }
-  /* line 126, ../sass/screen.scss */
+  /* line 121, ../sass/screen.scss */
   #homePage footer p.copyright {
     float: right;
   }
 
   /* end homePage*/
-  /* line 137, ../sass/screen.scss */
+  /* line 132, ../sass/screen.scss */
   nav li, #galleries li {
+    /*width: 138px;*/
     width: 14.11042944785276%;
   }
-  /* line 138, ../sass/screen.scss */
+  /* line 136, ../sass/screen.scss */
   nav p, nav a, #galleries p, #galleries a {
     font-size: 16px;
     letter-spacing: 2px;
@@ -277,22 +273,26 @@ body {
 
   /* line 141, ../sass/screen.scss */
   nav#photo {
-    margin: -198px 0 0 0;
-    border-left: 2px solid black;
+    position: relative;
+    top: -198px;
   }
   /* line 144, ../sass/screen.scss */
+  nav#photo ul {
+    border-left: 2px solid black;
+  }
+  /* line 146, ../sass/screen.scss */
   nav#photo ul li {
     margin: 0 8px;
   }
 
-  /* line 149, ../sass/screen.scss */
+  /* line 152, ../sass/screen.scss */
   #homePage nav#lib {
     float: right;
-    margin: -68px 0 22px 0;
+    margin: -88px 0 22px 0;
     text-align: right;
     border-right: 2px solid black;
   }
-  /* line 154, ../sass/screen.scss */
+  /* line 157, ../sass/screen.scss */
   #homePage nav#lib ul li {
     margin: 0 8px;
   }
