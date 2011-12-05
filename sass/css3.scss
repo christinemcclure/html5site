@@ -10,6 +10,6 @@ because they are still in development
 
 $radius: 10px;
 
-#homePage img, header{
+#homePage img, header, #page{
 	@include border-radius($radius);
 }

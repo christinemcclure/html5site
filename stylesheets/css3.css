@@ -7,7 +7,7 @@ because they are still in development
 
 */
 /* line 13, ../sass/css3.scss */
-#homePage img, header {
+#homePage img, header, #page {
   -moz-border-radius: 10px;
   -webkit-border-radius: 10px;
   -o-border-radius: 10px;
