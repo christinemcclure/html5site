@@ -16,7 +16,8 @@ body {
 @media screen and (min-width: 1010px) {
 
   .g978 #page {
-    width: 978px; /*Total with works out to 1008*/
+    /* width: 978px; Total with works out to 1008*/
+		width: 90%;
     padding: 22px 15px 22px 15px; /* added 22px to each for background (change 15 to 37 later after grid is gone)*/
     background-image: url('img/978px-15-54-15-12c.png');
 		margin: 0 auto;
@@ -27,7 +28,8 @@ body {
 		header {
 			clear:both;
 			position: absolute;
-			width: 978px;
+			/*width: 978px; */
+			width: 90%;
 			margin: 264px 0 0 0;
 			background-color:yellow;
 
@@ -49,15 +51,19 @@ body {
 		} /* end header */
 
 		h2 {
-				width: 306px;
+				/*width: 306px;*/
+				width: 31.28834355828221%;
 				font-size: 30px;
 				letter-spacing: 3px;
-				margin: 0 0 14px 0;
+				margin: 0 0 22px 0;
 				display:inline;
 				float:left;
 		}
 
-		h2#libHeader {
+		#photoHeader {
+			margin: -4px 0 0 0;
+		}
+		#libHeader {
 			letter-spacing: 5px;
 			float:right;
 			text-align:right;
@@ -69,18 +75,22 @@ body {
 		}
 					
 		p#photoIntro {
-			margin: 0 0 0 336px;;
+			clear:both;
+			/*margin: 0 0 0 336px;*/
+			margin: 0 0 0 34.3558282208589%;
 		}
 
 		img {
-			width: 138px;
+			/*width: 138px;*/
+
 		}
 
 	#galleries {
 		ul li{
 			display:inline;
 			float:left;
-			margin: 0 0 2px 30px;
+			/*margin: 0 0 2px 30px;*/
+			margin: 0 0 2px 3.06748466257669%;
 		}	
 
 		img {
@@ -89,6 +99,7 @@ body {
 	}
 	
 	#libFigure {
+		width: 14.11042944785276%;
 		margin: 112px 0 0 0;
 	}
 
@@ -122,19 +133,14 @@ body {
 	
 
 
-	nav, #galleries p {
-		font-size: 16px;
-		a {
-			width: 138px;
-			letter-spacing: 2px;
-		}					
+	nav, #galleries  {
+		li {width: 14.11042944785276%;}
+		p, a {font-size: 16px;letter-spacing: 2px;}
 	}
 
 	nav#photo {
-		float: left;
-		margin: -196px 0 0 0;
+		margin: -198px 0 0 0;
 		border-left: 2px solid $borderColor;
-		
 		ul li {
 			margin: 0 8px;
 		}
@@ -153,5 +159,4 @@ body {
 
 	
 } /* end min-width: 1010px */
-
 
