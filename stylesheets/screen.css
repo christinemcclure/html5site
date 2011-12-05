@@ -200,14 +200,14 @@ body {
   }
   /* line 64, ../sass/screen.scss */
   #homePage #photoHeader {
-    margin: -4px 0 0 0;
+    margin: -6px 0 0 0;
   }
   /* line 67, ../sass/screen.scss */
   #homePage #libHeader {
     letter-spacing: 5px;
     float: right;
     text-align: right;
-    margin: 172px 0px 0 0;
+    margin: 38px 0px 0 0;
   }
   /* line 74, ../sass/screen.scss */
   #homePage p {
@@ -234,14 +234,14 @@ body {
   #homePage #libFigure {
     /*width: 138px;*/
     width: 14.11042944785276%;
-    margin: 196px 0 0 0;
+    margin: 64px 0 0 0;
   }
   /* line 104, ../sass/screen.scss */
   #homePage #libIntro {
     /*width: 558px;*/
     width: 57.05521472392638%;
     /*margin: -100px 0 0 168px;*/
-    margin: -98px 0 0 17.178%;
+    margin: -102px 0 0 17.178%;
   }
   /* line 111, ../sass/screen.scss */
   #homePage footer {
