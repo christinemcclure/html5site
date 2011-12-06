@@ -1,14 +1,5 @@
 @import "_base.scss";
 
-$backgroundLight: #FAFAFA;
-$backgroundDark: #4D4D4D;
-$dark:#424242;
-$dark2: #ADADAD;
-$text: $dark;
-$border: $dark2;
-$hover1: #6F8556;
-$hover2: #BDBF6F;
-$hover3: #4A4457;
 
 body {
   margin: 44px 0 0 0;
@@ -144,10 +135,6 @@ body, a {
 				float:right;
 			}
 			
-			a:hover {
-				color: $hover3;
-				font-weight:900;
-			}
 		} /* end footer*/
 			
 		
@@ -187,17 +174,10 @@ body, a {
 		}	
 	}	
 		
-	#photo a:hover, #galleries a:hover, #lib a:hover{
+	a:hover{
 		font-weight: 900;
-		letter-spacing: 7px;
 	}
 	
-	#photo a:hover, #galleries a:hover {
-		color: $hover1;
-	}
-	#lib a:hover{
-		color: $hover2;
-	}
 
 	
 } /* end min-width: 1010px */

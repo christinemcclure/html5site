@@ -7,9 +7,30 @@ because they are still in development
 
 */
 @import "compass/css3";
+@import "_colors_and_fonts.scss";
 
 $radius: 10px;
 
 #homePage img, header, #page{
 	@include border-radius($radius);
+}
+
+#homePage {
+	#photo a:hover, #galleries a:hover {
+		text: $photoHover;
+		text-shadow: 4px 4px 8px $photoHover;
+		filter: dropshadow(color=$photoHover, offx=4, offy=4);
+	}
+	
+	#lib a:hover {
+		text: $libHover;
+		text-shadow: 4px 4px 8px $libHover;
+		filter: dropshadow(color=$libHover, offx=4, offy=4);
+	}	
+}
+
+footer a:hover {
+	text: $footerHover;
+	text-shadow: 4px 4px 8px $footerHover;
+	filter: dropshadow(color=$footerHover, offx=4, offy=4);
 }

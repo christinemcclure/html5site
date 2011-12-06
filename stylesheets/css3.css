@@ -6,7 +6,8 @@ because they are still in development
 ####################################################### 
 
 */
-/* line 13, ../sass/css3.scss */
+/* Kuler Tumble colors*/
+/* line 14, ../sass/css3.scss */
 #homePage img, header, #page {
   -moz-border-radius: 10px;
   -webkit-border-radius: 10px;
@@ -14,4 +15,24 @@ because they are still in development
   -ms-border-radius: 10px;
   -khtml-border-radius: 10px;
   border-radius: 10px;
+}
+
+/* line 19, ../sass/css3.scss */
+#homePage #photo a:hover, #homePage #galleries a:hover {
+  text: #424242;
+  text-shadow: 4px 4px 8px #424242;
+  filter: dropshadow(color=#424242, offx=4, offy=4);
+}
+/* line 25, ../sass/css3.scss */
+#homePage #lib a:hover {
+  text: #424242;
+  text-shadow: 4px 4px 8px #424242;
+  filter: dropshadow(color=#424242, offx=4, offy=4);
+}
+
+/* line 32, ../sass/css3.scss */
+footer a:hover {
+  text: #424242;
+  text-shadow: 4px 4px 8px #424242;
+  filter: dropshadow(color=#424242, offx=4, offy=4);
 }

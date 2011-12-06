@@ -1,4 +1,4 @@
-/* line 17, ../../../RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 17, ../../.gem/ruby/1.8/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -20,45 +20,45 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
-/* line 20, ../../../RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 20, ../../.gem/ruby/1.8/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 body {
   line-height: 1;
 }
 
-/* line 22, ../../../RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 22, ../../.gem/ruby/1.8/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 24, ../../../RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 24, ../../.gem/ruby/1.8/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 26, ../../../RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 26, ../../.gem/ruby/1.8/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle;
 }
 
-/* line 28, ../../../RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 28, ../../.gem/ruby/1.8/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
   quotes: none;
 }
-/* line 101, ../../../RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 101, ../../.gem/ruby/1.8/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q:before, q:after, blockquote:before, blockquote:after {
   content: "";
   content: none;
 }
 
-/* line 30, ../../../RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 30, ../../.gem/ruby/1.8/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 a img {
   border: none;
 }
 
-/* line 114, ../../../RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 114, ../../.gem/ruby/1.8/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
   display: block;
 }
@@ -70,44 +70,45 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 ####################################################### 
 
 */
-/* line 20, ../sass/_base.scss */
+/* Kuler Tumble colors*/
+/* line 21, ../sass/_base.scss */
 img {
   max-width: 100%;
 }
 
 /* for responsive images */
-/* line 23, ../sass/_base.scss */
+/* line 24, ../sass/_base.scss */
 #content {
   margin: 0px auto;
 }
 
-/* line 27, ../sass/_base.scss */
+/* line 28, ../sass/_base.scss */
 .accessibility, .hideForm, .hidden {
   display: none;
 }
 
-/* line 49, ../sass/_base.scss */
+/* line 50, ../sass/_base.scss */
 h1, h2, h3, h4, h5, h6, li a p {
   font-family: "Michroma", Verdana, Arial, sans-serif;
 }
 
-/* line 53, ../sass/_base.scss */
+/* line 54, ../sass/_base.scss */
 h1, h2, h3, h4, h5, h6 {
   font-weight: 900;
 }
 
-/* line 57, ../sass/_base.scss */
+/* line 58, ../sass/_base.scss */
 html #page p, ul li {
   font-family: "Questrial", Verdana, Arial, sans-serif;
 }
 
-/* line 61, ../sass/_base.scss */
+/* line 62, ../sass/_base.scss */
 a {
   text-decoration: none;
   /*Lose underlining on links to make grid easier to see*/
 }
 
-/* line 65, ../sass/_base.scss */
+/* line 66, ../sass/_base.scss */
 nav {
   font-family: "Questrial", Verdana, Arial, sans-serif;
 }
@@ -117,25 +118,25 @@ nav {
 ########### For Baselind Grid ##########
 ########################################
 */
-/* line 75, ../sass/_base.scss */
+/* line 76, ../sass/_base.scss */
 body {
   font-size: 14px;
   line-height: 22px;
   /*background-image: url('img/22px-baseline.png');*/
 }
 
-/* line 13, ../sass/screen.scss */
+/* line 4, ../sass/screen.scss */
 body {
   margin: 44px 0 0 0;
 }
 
-/* line 17, ../sass/screen.scss */
+/* line 8, ../sass/screen.scss */
 body, a {
   color: #424242;
 }
 
 @media screen and (min-width: 760px) {
-  /* line 22, ../sass/screen.scss */
+  /* line 13, ../sass/screen.scss */
   #page {
     width: 748px;
     /*Total width works out to 768px*/
@@ -144,12 +145,12 @@ body, a {
   }
 }
 @media screen and (min-width: 1010px) {
-  /* line 32, ../sass/screen.scss */
+  /* line 23, ../sass/screen.scss */
   body {
     background: #fafafa url("/img/scrollLight.png");
   }
 
-  /* line 37, ../sass/screen.scss */
+  /* line 28, ../sass/screen.scss */
   #page {
     /* width: 978px; Total with works out to 1008*/
     background: #fff;
@@ -159,12 +160,12 @@ body, a {
     margin: 0 auto;
   }
 
-  /* line 45, ../sass/screen.scss */
+  /* line 36, ../sass/screen.scss */
   #homePage {
     /* end header */
     /* end footer*/
   }
-  /* line 47, ../sass/screen.scss */
+  /* line 38, ../sass/screen.scss */
   #homePage header {
     clear: both;
     position: absolute;
@@ -174,7 +175,7 @@ body, a {
     background: #4d4d4d url("/img/scrollDark.png");
     color: #fff;
   }
-  /* line 56, ../sass/screen.scss */
+  /* line 47, ../sass/screen.scss */
   #homePage header h1 {
     font-size: 44px;
     display: inline;
@@ -184,14 +185,14 @@ body, a {
     margin: 0 0 0 5.52147239263804%;
     padding: 20px 0 24px 0;
   }
-  /* line 66, ../sass/screen.scss */
+  /* line 57, ../sass/screen.scss */
   #homePage header p {
     display: inline;
     float: right;
     font-size: 12px;
     margin: 28px 54px 0 0;
   }
-  /* line 74, ../sass/screen.scss */
+  /* line 65, ../sass/screen.scss */
   #homePage h2 {
     /*width: 306px;*/
     width: 31.28834355828221%;
@@ -201,128 +202,112 @@ body, a {
     display: inline;
     float: left;
   }
-  /* line 84, ../sass/screen.scss */
+  /* line 75, ../sass/screen.scss */
   #homePage #photoHeader {
     margin: -6px 0 0 0;
   }
-  /* line 87, ../sass/screen.scss */
+  /* line 78, ../sass/screen.scss */
   #homePage #libHeader {
     letter-spacing: 5px;
     float: right;
     text-align: right;
     margin: 38px 0px 0 0;
   }
-  /* line 94, ../sass/screen.scss */
+  /* line 85, ../sass/screen.scss */
   #homePage p {
     font-size: 14px;
   }
-  /* line 98, ../sass/screen.scss */
+  /* line 89, ../sass/screen.scss */
   #homePage p#photoIntro {
     clear: both;
     /*margin: 0 0 0 336px;*/
     margin: 0 0 0 34.3558282208589%;
   }
-  /* line 107, ../sass/screen.scss */
+  /* line 98, ../sass/screen.scss */
   #homePage #galleries ul li {
     display: inline;
     float: left;
     /*margin: 0 0 2px 30px;*/
     margin: 0 0 2px 3.06748466257669%;
   }
-  /* line 115, ../sass/screen.scss */
+  /* line 106, ../sass/screen.scss */
   #homePage #galleries img {
     margin-bottom: 8px;
   }
-  /* line 120, ../sass/screen.scss */
+  /* line 111, ../sass/screen.scss */
   #homePage #libFigure {
     /*width: 138px;*/
     width: 14.11042944785276%;
     margin: 64px 0 0 0;
   }
-  /* line 126, ../sass/screen.scss */
+  /* line 117, ../sass/screen.scss */
   #homePage #libIntro {
     /*width: 558px;*/
     width: 57.05521472392638%;
     /*margin: -100px 0 0 168px;*/
     margin: -102px 0 0 17.178%;
   }
-  /* line 133, ../sass/screen.scss */
+  /* line 124, ../sass/screen.scss */
   #homePage footer {
     clear: both;
     margin: 66px 0 0 0;
   }
-  /* line 137, ../sass/screen.scss */
+  /* line 128, ../sass/screen.scss */
   #homePage footer p {
     display: inline;
     font-family: "Questrial", Verdana, Arial, sans-serif;
     font-size: 12px;
   }
-  /* line 143, ../sass/screen.scss */
+  /* line 134, ../sass/screen.scss */
   #homePage footer p.copyright {
     float: right;
   }
-  /* line 147, ../sass/screen.scss */
-  #homePage footer a:hover {
-    color: #4a4457;
-    font-weight: 900;
-  }
 
   /* end homePage*/
-  /* line 158, ../sass/screen.scss */
+  /* line 145, ../sass/screen.scss */
   nav li, #galleries {
     cursor: pointer;
   }
-  /* line 160, ../sass/screen.scss */
+  /* line 147, ../sass/screen.scss */
   nav li li, #galleries li {
     /*width: 138px;*/
     width: 14.11042944785276%;
   }
-  /* line 164, ../sass/screen.scss */
+  /* line 151, ../sass/screen.scss */
   nav li p, nav li a, #galleries p, #galleries a {
     font-size: 16px;
     letter-spacing: 2px;
   }
 
-  /* line 169, ../sass/screen.scss */
+  /* line 156, ../sass/screen.scss */
   nav#photo {
     position: relative;
     top: -198px;
   }
-  /* line 172, ../sass/screen.scss */
+  /* line 159, ../sass/screen.scss */
   nav#photo ul {
     border-left: 2px solid #adadad;
   }
-  /* line 174, ../sass/screen.scss */
+  /* line 161, ../sass/screen.scss */
   nav#photo ul li {
     margin: 0 8px;
   }
 
-  /* line 180, ../sass/screen.scss */
+  /* line 167, ../sass/screen.scss */
   #homePage nav#lib {
     float: right;
     text-align: right;
     margin: -88px 0 22px 0;
     border-right: 2px solid #adadad;
   }
-  /* line 185, ../sass/screen.scss */
+  /* line 172, ../sass/screen.scss */
   #homePage nav#lib ul li {
     margin: 0 8px;
   }
 
-  /* line 190, ../sass/screen.scss */
-  #photo a:hover, #galleries a:hover, #lib a:hover {
+  /* line 177, ../sass/screen.scss */
+  a:hover {
     font-weight: 900;
-    letter-spacing: 7px;
-  }
-
-  /* line 195, ../sass/screen.scss */
-  #photo a:hover, #galleries a:hover {
-    color: #6f8556;
-  }
-
-  /* line 198, ../sass/screen.scss */
-  #lib a:hover {
-    color: #bdbf6f;
   }
 }
 /* end min-width: 1010px */
