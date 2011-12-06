@@ -16,7 +16,7 @@ $radius: 10px;
 }
 
 #homePage {
-	#photo a:hover, #galleries a:hover {
+	#photo a:hover, #galleries li :hover {
 		text: $photoHover;
 		text-shadow: 4px 4px 8px $photoHover;
 		filter: dropshadow(color=$photoHover, offx=4, offy=4);

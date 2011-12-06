@@ -18,7 +18,7 @@ because they are still in development
 }
 
 /* line 19, ../sass/css3.scss */
-#homePage #photo a:hover, #homePage #galleries a:hover {
+#homePage #photo a:hover, #homePage #galleries li :hover {
   text: #424242;
   text-shadow: 4px 4px 8px #424242;
   filter: dropshadow(color=#424242, offx=4, offy=4);

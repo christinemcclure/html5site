@@ -1,9 +1,6 @@
 @import "_base.scss";
 
 
-body {
-  margin: 44px 0 0 0;
-}
 
 body, a {
 	color:$text;
@@ -21,6 +18,7 @@ body, a {
 @media screen and (min-width: 1010px) {
 
 	body{
+		margin: 44px 0 0 0;
     background:  $backgroundLight url('/img/scrollLight.png');
 	}
 
@@ -143,7 +141,6 @@ body, a {
 
 
 	nav li, #galleries  {
-		cursor: pointer;	
 		li {
 			/*width: 138px;*/
 			width: 14.11042944785276%;
@@ -156,13 +153,19 @@ body, a {
 	nav#photo {
 		position: relative;
   	top: -198px;
+		width: 14.11042944785276%;
 		ul {
 				border-left: 2px solid $border;
 			li {
 				margin: 0 8px;
+			/*width: 138px;*/
 			}
 		}
-	}		
+	}
+	
+	nav, #galleries	{
+	
+	}	
 
 	#homePage nav#lib {
 		float:right;
@@ -180,5 +183,5 @@ body, a {
 	
 
 	
-} /* end min-width: 1010px */
+} /* end min-width: 1010 */
 
