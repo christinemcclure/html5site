@@ -122,16 +122,16 @@ body, a {
 		footer {
 			clear:both;
 			margin: 66px 0 0 0;
-		
 			p {
 				display:inline;
 				font-family: $bodyFont;
 				font-size: 12px;
+				a {	font-weight: 900;	}
 			}
 		
 			p.copyright {
 				float:right;
-			}
+			}			
 			
 		} /* end footer*/
 			

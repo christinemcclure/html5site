@@ -248,11 +248,15 @@ body, a {
     clear: both;
     margin: 66px 0 0 0;
   }
-  /* line 126, ../sass/screen.scss */
+  /* line 125, ../sass/screen.scss */
   #homePage footer p {
     display: inline;
     font-family: "Questrial", Verdana, Arial, sans-serif;
     font-size: 12px;
+  }
+  /* line 129, ../sass/screen.scss */
+  #homePage footer p a {
+    font-weight: 900;
   }
   /* line 132, ../sass/screen.scss */
   #homePage footer p.copyright {
