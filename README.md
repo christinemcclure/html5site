@@ -1,9 +1,12 @@
-FONTS:
+New home page design: simple style, neutral colors to let the photographs pop. 
 
-Google Webfonts:
+TO DO:
+1. Try converting font sizes to ems
+2. Make tablet and mobile versions
+3. Rest of site pages
+4. Experiment with jQuery accessible plugin -- make responsive (separate repo). 
 
-Michroma for headlines, Federo for paragraphs
-<link href='http://fonts.googleapis.com/css?family=Michroma|Federo' rel='stylesheet' type='text/css'>
+
 
 
 978 Widths and Offsets
