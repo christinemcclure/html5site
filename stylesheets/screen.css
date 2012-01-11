@@ -70,45 +70,48 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 ####################################################### 
 
 */
-/* Kuler Tumble colors*/
-/* line 21, ../sass/_base.scss */
+/* very light grey - almost white */
+/* dark grey */
+/* slightly darker grey */
+/* medium grey */
+/* line 19, ../sass/_base.scss */
 img {
   max-width: 100%;
 }
 
 /* for responsive images */
-/* line 24, ../sass/_base.scss */
+/* line 22, ../sass/_base.scss */
 #content {
   margin: 0px auto;
 }
 
-/* line 28, ../sass/_base.scss */
+/* line 26, ../sass/_base.scss */
 .accessibility, .hideForm, .hidden {
   display: none;
 }
 
-/* line 50, ../sass/_base.scss */
+/* line 48, ../sass/_base.scss */
 h1, h2, h3, h4, h5, h6, li a p {
   font-family: "Michroma", Verdana, Arial, sans-serif;
 }
 
-/* line 54, ../sass/_base.scss */
+/* line 52, ../sass/_base.scss */
 h1, h2, h3, h4, h5, h6 {
   font-weight: 900;
 }
 
-/* line 58, ../sass/_base.scss */
+/* line 56, ../sass/_base.scss */
 html #page p, ul li {
   font-family: "Questrial", Verdana, Arial, sans-serif;
 }
 
-/* line 62, ../sass/_base.scss */
+/* line 60, ../sass/_base.scss */
 a {
   text-decoration: none;
   /*Lose underlining on links to make grid easier to see*/
 }
 
-/* line 66, ../sass/_base.scss */
+/* line 64, ../sass/_base.scss */
 nav {
   font-family: "Questrial", Verdana, Arial, sans-serif;
 }
@@ -118,7 +121,7 @@ nav {
 ########### For Baselind Grid ##########
 ########################################
 */
-/* line 76, ../sass/_base.scss */
+/* line 74, ../sass/_base.scss */
 body {
   font-size: 14px;
   line-height: 22px;
@@ -136,7 +139,7 @@ body, a {
     width: 748px;
     /*Total width works out to 768px*/
     padding: 0px 10px 0px 10px;
-    /*background-image: url('img/748px-10-44-10-12c.png');*/
+    /* background-image: url('img/748px-10-44-10-12c.png'); */
   }
 }
 @media screen and (min-width: 1118px) {

@@ -2,17 +2,11 @@ $headingFont: 'Michroma', Verdana, Arial,  sans-serif;
 $bodyFont: 'Questrial', Verdana, Arial,  sans-serif;
 
 
-/* Kuler Tumble colors*/
-$darkBlue: #1A2530;
-$purple: #4A4457;
-$brown: #665B4B;
-$green: #6F8556;
-$yellow: #BDBF6F;
+$backgroundLight: #FAFAFA; /* very light grey - almost white */
+$backgroundDark: #4D4D4D; /* dark grey */
+$dark:#424242; /* slightly darker grey */
+$dark2: #ADADAD; /* medium grey */
 
-$backgroundLight: #FAFAFA;
-$backgroundDark: #4D4D4D;
-$dark:#424242;
-$dark2: #ADADAD;
 $text: $dark;
 $border: $dark2;
 $photoHover: $dark;
