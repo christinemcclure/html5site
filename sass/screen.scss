@@ -15,7 +15,7 @@ body, a {
 
 }
 
-@media screen and (min-width: 1118px) {
+@media screen and (min-width: 1010px) {
 
 	body{
 		margin: $lineHeight*2 0 0 0;
@@ -38,7 +38,7 @@ body, a {
 			position: absolute;
 			/*width: 978px; */
 			width: 86%;
-			margin: $lineHeight*14 0 0 0;
+			margin: $lineHeight*11 0 0 0;
 			background: $backgroundDark  url('/img/scrollDark.png');
 			color:#fff;
 
@@ -108,11 +108,11 @@ body, a {
 		}
 	} /* end galleries */
 	
-		#libFigure {
-			/*width: 138px;*/
-			width: 14.11042944785276%;
-			margin: 64px 0 0 0;
-		}
+	#libFigure {
+		/*width: 138px;*/
+		width: 14.11042944785276%;
+		margin: 64px 0 0 0;
+	}
 
 		#libIntro {
 			/*width: 558px;*/
@@ -183,3 +183,10 @@ body, a {
 	
 } /* end min-width: 1010 */
 
+
+
+@media screen and (min-width: 1118px) {
+	#homePage header{
+			margin: $lineHeight*14 0 0 0;
+	}
+}

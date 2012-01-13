@@ -142,7 +142,7 @@ body, a {
     /* background-image: url('img/748px-10-44-10-12c.png'); */
   }
 }
-@media screen and (min-width: 1118px) {
+@media screen and (min-width: 1010px) {
   /* line 20, ../sass/screen.scss */
   body {
     margin: 44px 0 0 0;
@@ -170,7 +170,7 @@ body, a {
     position: absolute;
     /*width: 978px; */
     width: 86%;
-    margin: 308px 0 0 0;
+    margin: 242px 0 0 0;
     background: #4d4d4d url("/img/scrollDark.png");
     color: #fff;
   }
@@ -309,3 +309,9 @@ body, a {
   /* end footer*/
 }
 /* end min-width: 1010 */
+@media screen and (min-width: 1118px) {
+  /* line 189, ../sass/screen.scss */
+  #homePage header {
+    margin: 308px 0 0 0;
+  }
+}
