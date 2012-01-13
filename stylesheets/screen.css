@@ -121,7 +121,7 @@ nav {
 ########### For Baselind Grid ##########
 ########################################
 */
-/* line 74, ../sass/_base.scss */
+/* line 77, ../sass/_base.scss */
 body {
   font-size: 14px;
   line-height: 22px;
@@ -170,7 +170,7 @@ body, a {
     position: absolute;
     /*width: 978px; */
     width: 86%;
-    margin: 286px 0 0 0;
+    margin: 308px 0 0 0;
     background: #4d4d4d url("/img/scrollDark.png");
     color: #fff;
   }

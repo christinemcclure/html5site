@@ -18,7 +18,7 @@ body, a {
 @media screen and (min-width: 1118px) {
 
 	body{
-		margin: 44px 0 0 0;
+		margin: $lineHeight*2 0 0 0;
     background:  $backgroundLight url('/img/scrollLight.png');
 	}
 
@@ -27,7 +27,7 @@ body, a {
     /* width: 978px; Total with works out to 1008, but need more for padding*/
 		background: #fff;
 		width: 86%;
-    padding: 22px 15px 22px 15px; /* added 22px to each for background (change 15 to 37 later after grid is gone)*/
+    padding: $lineHeight 15px $lineHeight 15px; /* added 22px to each for background (change 15 to 37 later after grid is gone)*/
 		margin: 0 auto;
 	}
 
@@ -38,12 +38,12 @@ body, a {
 			position: absolute;
 			/*width: 978px; */
 			width: 86%;
-			margin: 286px 0 0 0;
+			margin: $lineHeight*14 0 0 0;
 			background: $backgroundDark  url('/img/scrollDark.png');
 			color:#fff;
 
 			h1 {
-				font-size:44px;
+				font-size: $lineHeight*2;
 				display:inline;
 				float:left;
 				letter-spacing: 4px;
@@ -65,7 +65,7 @@ body, a {
 				width: 31.28834355828221%;
 				font-size: 30px;
 				letter-spacing: 3px;
-				margin: 0 0 22px 0;
+				margin: 0 0 $lineHeight 0;
 				display:inline;
 				float:left;
 		}
@@ -81,7 +81,7 @@ body, a {
 		}
 		
 		p {
-			font-size: 14px;
+			font-size: $fontSize;
 		}
 					
 		p#photoIntro {
@@ -121,7 +121,7 @@ body, a {
 		
 		footer {
 			clear:both;
-			margin: 66px 0 0 0;
+			margin: $lineHeight*3 0 0 0;
 			p {
 				display:inline;
 				font-family: $bodyFont;
@@ -167,7 +167,7 @@ body, a {
 	#homePage nav#lib {
 		float:right;
 		text-align: right;
-		margin: -74px 0 22px 0;
+		margin: -74px 0 $lineHeight 0;
 		border-right: 2px solid $border;
 		ul li {
 			margin: 0 8px;
