@@ -162,7 +162,7 @@ body, a {
   /* line 34, ../sass/screen.scss */
   #homePage {
     /* end header */
-    /* end footer*/
+    /* end galleries */
   }
   /* line 36, ../sass/screen.scss */
   #homePage header {
@@ -191,7 +191,7 @@ body, a {
     font-size: 12px;
     margin: 24px 54px 0 0;
   }
-  /* line 63, ../sass/screen.scss */
+  /* line 64, ../sass/screen.scss */
   #homePage h2 {
     /*width: 306px;*/
     width: 31.28834355828221%;
@@ -201,114 +201,111 @@ body, a {
     display: inline;
     float: left;
   }
-  /* line 73, ../sass/screen.scss */
+  /* line 74, ../sass/screen.scss */
+  #homePage p {
+    font-size: 14px;
+  }
+  /* line 77, ../sass/screen.scss */
+  #homePage p#photoIntro {
+    clear: both;
+    /*margin: 0 0 0 336px;*/
+    margin: 0 0 0 34.3558282208589%;
+  }
+  /* line 84, ../sass/screen.scss */
   #homePage #photoHeader {
     margin: -6px 0 0 0;
   }
-  /* line 76, ../sass/screen.scss */
+  /* line 87, ../sass/screen.scss */
   #homePage #libHeader {
     letter-spacing: 5px;
     float: right;
     text-align: right;
     margin: 60px 0px 0 0;
   }
-  /* line 83, ../sass/screen.scss */
-  #homePage p {
-    font-size: 14px;
-  }
-  /* line 87, ../sass/screen.scss */
-  #homePage p#photoIntro {
-    clear: both;
-    /*margin: 0 0 0 336px;*/
-    margin: 0 0 0 34.3558282208589%;
-  }
   /* line 96, ../sass/screen.scss */
   #homePage #galleries ul li {
+    /*width: 138px;*/
+    width: 14.11042944785276%;
     display: inline;
     float: left;
     /*margin: 0 0 2px 30px;*/
     margin: 0 0 2px 3.06748466257669%;
   }
-  /* line 104, ../sass/screen.scss */
+  /* line 106, ../sass/screen.scss */
   #homePage #galleries img {
     margin-bottom: 8px;
   }
-  /* line 109, ../sass/screen.scss */
+  /* line 111, ../sass/screen.scss */
   #homePage #libFigure {
     /*width: 138px;*/
     width: 14.11042944785276%;
     margin: 64px 0 0 0;
   }
-  /* line 115, ../sass/screen.scss */
+  /* line 117, ../sass/screen.scss */
   #homePage #libIntro {
     /*width: 558px;*/
     width: 57.05521472392638%;
     /*margin: -100px 0 0 168px;*/
     margin: -102px 0 0 17.178%;
   }
-  /* line 122, ../sass/screen.scss */
-  #homePage footer {
-    clear: both;
-    margin: 66px 0 0 0;
-  }
-  /* line 125, ../sass/screen.scss */
-  #homePage footer p {
-    display: inline;
-    font-family: "Questrial", Verdana, Arial, sans-serif;
-    font-size: 12px;
-  }
-  /* line 129, ../sass/screen.scss */
-  #homePage footer p a {
-    font-weight: 900;
-  }
-  /* line 132, ../sass/screen.scss */
-  #homePage footer p.copyright {
-    float: right;
-  }
-
-  /* end homePage*/
-  /* line 144, ../sass/screen.scss */
-  nav li li, #galleries li {
-    /*width: 138px;*/
-    width: 14.11042944785276%;
-  }
-  /* line 148, ../sass/screen.scss */
-  nav li p, nav li a, #galleries p, #galleries a {
+  /* line 126, ../sass/screen.scss */
+  #homePage nav li p, #homePage nav li a, #homePage #galleries p, #homePage #galleries a {
     font-size: 16px;
     letter-spacing: 2px;
   }
-
-  /* line 153, ../sass/screen.scss */
-  nav#photo {
+  /* line 132, ../sass/screen.scss */
+  #homePage nav#photo {
     position: relative;
     top: -198px;
     width: 14.11042944785276%;
   }
-  /* line 157, ../sass/screen.scss */
-  nav#photo ul {
+  /* line 136, ../sass/screen.scss */
+  #homePage nav#photo ul {
     border-left: 2px solid #adadad;
   }
-  /* line 159, ../sass/screen.scss */
-  nav#photo ul li {
+  /* line 138, ../sass/screen.scss */
+  #homePage nav#photo ul li {
     margin: 0 8px;
     /*width: 138px;*/
   }
-
-  /* line 167, ../sass/screen.scss */
+  /* line 145, ../sass/screen.scss */
   #homePage nav#lib {
     float: right;
     text-align: right;
     margin: -74px 0 22px 0;
     border-right: 2px solid #adadad;
   }
-  /* line 172, ../sass/screen.scss */
+  /* line 150, ../sass/screen.scss */
   #homePage nav#lib ul li {
     margin: 0 8px;
   }
 
-  /* line 177, ../sass/screen.scss */
+  /* end homePage*/
+  /* line 162, ../sass/screen.scss */
   a:hover {
     font-weight: 900;
   }
+
+  /* line 167, ../sass/screen.scss */
+  footer {
+    clear: both;
+    margin: 66px 0 0 0;
+  }
+  /* line 170, ../sass/screen.scss */
+  footer p {
+    display: inline;
+    font-family: "Questrial", Verdana, Arial, sans-serif;
+    font-size: 12px;
+  }
+  /* line 174, ../sass/screen.scss */
+  footer p a {
+    font-weight: 900;
+  }
+  /* line 177, ../sass/screen.scss */
+  footer p.copyright {
+    float: right;
+  }
+
+  /* end footer*/
 }
 /* end min-width: 1010 */

@@ -60,6 +60,7 @@ body, a {
 			}
 		} /* end header */
 
+
 		h2 {
 				/*width: 306px;*/
 				width: 31.28834355828221%;
@@ -69,6 +70,16 @@ body, a {
 				display:inline;
 				float:left;
 		}
+
+		p {
+			font-size: $fontSize;
+		}
+		p#photoIntro {
+			clear:both;
+			/*margin: 0 0 0 336px;*/
+			margin: 0 0 0 34.3558282208589%;
+		}
+
 
 		#photoHeader {
 			margin: -6px 0 0 0;
@@ -80,20 +91,11 @@ body, a {
 			margin: 60px 0px 0 0;
 		}
 		
-		p {
-			font-size: $fontSize;
-		}
-					
-		p#photoIntro {
-			clear:both;
-			/*margin: 0 0 0 336px;*/
-			margin: 0 0 0 34.3558282208589%;
-		}
-
-
 	#galleries {
 		ul {
 			li{
+				/*width: 138px;*/
+				width: 14.11042944785276%;
 				display:inline;
 				float:left;
 				/*margin: 0 0 2px 30px;*/
@@ -104,81 +106,80 @@ body, a {
 		img {
 			margin-bottom: 8px;
 		}
-	}
+	} /* end galleries */
 	
-	#libFigure {
-		/*width: 138px;*/
-		width: 14.11042944785276%;
-		margin: 64px 0 0 0;
-	}
+		#libFigure {
+			/*width: 138px;*/
+			width: 14.11042944785276%;
+			margin: 64px 0 0 0;
+		}
 
-	#libIntro {
-		/*width: 558px;*/
-		width: 57.05521472392638%; 
-		/*margin: -100px 0 0 168px;*/
-		margin: -102px 0 0 17.17791411042945%;
-	}
-		
-		footer {
-			clear:both;
-			margin: $lineHeight*3 0 0 0;
-			p {
-				display:inline;
-				font-family: $bodyFont;
-				font-size: 12px;
-				a {	font-weight: 900;	}
+		#libIntro {
+			/*width: 558px;*/
+			width: 57.05521472392638%; 
+			/*margin: -100px 0 0 168px;*/
+			margin: -102px 0 0 17.17791411042945%;
+		}
+			
+	
+		nav li, #galleries  {
+			p, a {
+				font-size: 16px;letter-spacing: 2px;
 			}
+		}
+
+
+		nav#photo {
+			position: relative;
+			top: -198px;
+			width: 14.11042944785276%;
+			ul {
+					border-left: 2px solid $border;
+				li {
+					margin: 0 8px;
+				/*width: 138px;*/
+				}
+			}
+		}
 		
-			p.copyright {
-				float:right;
-			}			
-			
-		} /* end footer*/
-			
-		
+		nav#lib {
+			float:right;
+			text-align: right;
+			margin: -74px 0 $lineHeight 0;
+			border-right: 2px solid $border;
+			ul li {
+				margin: 0 8px;
+			}	
+		}	
+
+				
 	} /* end homePage*/
 	
 
 
-	nav li, #galleries  {
-		li {
-			/*width: 138px;*/
-			width: 14.11042944785276%;
-		}
-		p, a {
-			font-size: 16px;letter-spacing: 2px;
-		}
-	}
 
-	nav#photo {
-		position: relative;
-  	top: -198px;
-		width: 14.11042944785276%;
-		ul {
-				border-left: 2px solid $border;
-			li {
-				margin: 0 8px;
-			/*width: 138px;*/
-			}
-		}
-	}
-	
 
-	#homePage nav#lib {
-		float:right;
-		text-align: right;
-		margin: -74px 0 $lineHeight 0;
-		border-right: 2px solid $border;
-		ul li {
-			margin: 0 8px;
-		}	
-	}	
-		
 	a:hover{
 		font-weight: 900;
 	}
 	
 
+	footer {
+		clear:both;
+		margin: $lineHeight*3 0 0 0;
+		p {
+			display:inline;
+			font-family: $bodyFont;
+			font-size: 12px;
+			a {	font-weight: 900;	}
+		}
+	
+		p.copyright {
+			float:right;
+		}			
+		
+	} /* end footer*/
+			
 	
 } /* end min-width: 1010 */
 
