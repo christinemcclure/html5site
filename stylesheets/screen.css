@@ -133,8 +133,13 @@ body, a {
   color: #424242;
 }
 
+/* line 9, ../sass/screen.scss */
+a:hover {
+  font-weight: 900;
+}
+
 @media screen and (min-width: 760px) {
-  /* line 10, ../sass/screen.scss */
+  /* line 15, ../sass/screen.scss */
   #page {
     width: 748px;
     /*Total width works out to 768px*/
@@ -143,13 +148,13 @@ body, a {
   }
 }
 @media screen and (min-width: 1008px) {
-  /* line 20, ../sass/screen.scss */
+  /* line 25, ../sass/screen.scss */
   body {
     margin: 44px 0 0 0;
     background: #fafafa url("/img/scrollLight.png");
   }
 
-  /* line 26, ../sass/screen.scss */
+  /* line 31, ../sass/screen.scss */
   #page {
     /* width: 978px; Total with works out to 1008, but need more for padding*/
     background: #fff;
@@ -159,12 +164,12 @@ body, a {
     margin: 0 auto;
   }
 
-  /* line 34, ../sass/screen.scss */
+  /* line 39, ../sass/screen.scss */
   #homePage {
     /* end header */
     /* end galleries */
   }
-  /* line 36, ../sass/screen.scss */
+  /* line 41, ../sass/screen.scss */
   #homePage header {
     clear: both;
     position: absolute;
@@ -174,7 +179,7 @@ body, a {
     background: #4d4d4d url("/img/scrollDark.png");
     color: #fff;
   }
-  /* line 45, ../sass/screen.scss */
+  /* line 50, ../sass/screen.scss */
   #homePage header h1 {
     font-size: 39.6px;
     display: inline;
@@ -184,14 +189,14 @@ body, a {
     margin: 0 0 0 2%;
     padding: 20px 0 24px 0;
   }
-  /* line 55, ../sass/screen.scss */
+  /* line 60, ../sass/screen.scss */
   #homePage header p {
     display: inline;
     float: right;
     font-size: 12px;
     margin: 24px 2% 0 0;
   }
-  /* line 64, ../sass/screen.scss */
+  /* line 69, ../sass/screen.scss */
   #homePage h2 {
     /*width: 306px;*/
     width: 31.28834355828221%;
@@ -201,29 +206,32 @@ body, a {
     display: inline;
     float: left;
   }
-  /* line 74, ../sass/screen.scss */
+  /* line 79, ../sass/screen.scss */
   #homePage p {
     font-size: 14px;
   }
-  /* line 77, ../sass/screen.scss */
+  /* line 82, ../sass/screen.scss */
   #homePage p#photoIntro {
     clear: both;
     /*margin: 0 0 0 336px;*/
     margin: 0 0 0 34.3558282208589%;
   }
-  /* line 84, ../sass/screen.scss */
+  /* line 89, ../sass/screen.scss */
   #homePage #photoHeader {
     margin: -6px 0 0 0;
   }
-  /* line 87, ../sass/screen.scss */
+  /* line 92, ../sass/screen.scss */
   #homePage #libHeader {
+    position: absolute;
     letter-spacing: 5px;
     float: right;
     text-align: right;
-    /*			margin: 132px 37px 0 0; */
-    margin: 132px 3.67063492063492% 0 0;
+    /*			margin: 132px 37px 0 0; 
+    			margin: 132px 3.67063492063492% 0 0; */
+    top: 440px;
+    right: 7%;
   }
-  /* line 97, ../sass/screen.scss */
+  /* line 105, ../sass/screen.scss */
   #homePage #galleries ul li {
     /*width: 138px;*/
     width: 14.11042944785276%;
@@ -232,77 +240,73 @@ body, a {
     /*margin: 0 0 2px 30px;*/
     margin: 0 0 2px 3.06748466257669%;
   }
-  /* line 107, ../sass/screen.scss */
+  /* line 115, ../sass/screen.scss */
   #homePage #galleries img {
     margin-bottom: 8px;
   }
-  /* line 112, ../sass/screen.scss */
+  /* line 120, ../sass/screen.scss */
   #homePage #libFigure {
-    /*width: 138px;*/
+    /*width: 138px; */
     width: 14.11042944785276%;
-    margin: 154px 0 0 0;
+    margin: 150px 0 0 0;
   }
-  /* line 118, ../sass/screen.scss */
+  /* line 126, ../sass/screen.scss */
   #homePage #libIntro {
     /*width: 558px;*/
     width: 57.05521472392638%;
     /*margin: -100px 0 0 168px;*/
     margin: -88px 0 0 17.178%;
   }
-  /* line 127, ../sass/screen.scss */
+  /* line 135, ../sass/screen.scss */
   #homePage nav li p, #homePage nav li a, #homePage #galleries p, #homePage #galleries a {
     font-size: 16px;
     letter-spacing: 2px;
   }
-  /* line 133, ../sass/screen.scss */
+  /* line 141, ../sass/screen.scss */
   #homePage nav#photo {
     position: absolute;
     top: 110px;
     width: 14.11042944785276%;
   }
-  /* line 137, ../sass/screen.scss */
+  /* line 145, ../sass/screen.scss */
   #homePage nav#photo ul {
     border-left: 2px solid #adadad;
   }
-  /* line 139, ../sass/screen.scss */
+  /* line 147, ../sass/screen.scss */
   #homePage nav#photo ul li {
     margin: 0 8px;
     /*width: 138px;*/
   }
-  /* line 146, ../sass/screen.scss */
+  /* line 154, ../sass/screen.scss */
   #homePage nav#lib {
-    float: right;
+    position: absolute;
+    right: 7%;
     text-align: right;
-    margin: -110px 0 22px 0;
+    top: 484px;
     border-right: 2px solid #adadad;
   }
-  /* line 151, ../sass/screen.scss */
+  /* line 160, ../sass/screen.scss */
   #homePage nav#lib ul li {
     margin: 0 8px;
   }
 
   /* end homePage*/
-  /* line 163, ../sass/screen.scss */
-  a:hover {
-    font-weight: 900;
-  }
-
-  /* line 168, ../sass/screen.scss */
+  /* line 169, ../sass/screen.scss */
   footer {
     clear: both;
     margin: 44px 0 0 0;
   }
-  /* line 171, ../sass/screen.scss */
+  /* line 172, ../sass/screen.scss */
   footer p {
     display: inline;
     font-family: "Questrial", Verdana, Arial, sans-serif;
     font-size: 12px;
   }
-  /* line 175, ../sass/screen.scss */
+  /* line 176, ../sass/screen.scss */
   footer p a {
     font-weight: 900;
   }
-  /* line 178, ../sass/screen.scss */
+  /* line 179, ../sass/screen.scss */
   footer p.copyright {
     display: inline;
     float: right;
@@ -311,3 +315,81 @@ body, a {
   /* end footer*/
 }
 /* end min-width: 1010 */
+@media screen and (min-width: 1080px) {
+  /* line 193, ../sass/screen.scss */
+  #homePage
+  header {
+    margin: 286px 0 0 0;
+  }
+  /* line 195, ../sass/screen.scss */
+  #homePage
+  header h1 {
+    font-size: 44px;
+    margin: 0 0 0 4%;
+  }
+  /* line 199, ../sass/screen.scss */
+  #homePage
+  header p {
+    margin: 24px 4% 0 0;
+  }
+}
+@media screen and (min-width: 1150px) {
+  /* line 208, ../sass/screen.scss */
+  #homePage #libIntro {
+    margin: -132px 0 0 17.178%;
+  }
+  /* line 211, ../sass/screen.scss */
+  #homePage footer {
+    margin: 88px 0 0 0;
+  }
+}
+@media screen and (min-width: 1230px) {
+  /* line 220, ../sass/screen.scss */
+  #homePage header {
+    margin: 264px 0 0 0;
+  }
+  /* line 223, ../sass/screen.scss */
+  #homePage #libHeader {
+    top: 418px;
+  }
+  /* line 226, ../sass/screen.scss */
+  #homePage #libIntro {
+    margin: -110px 0 0 17.178%;
+  }
+  /* line 229, ../sass/screen.scss */
+  #homePage nav#lib {
+    top: 462px;
+  }
+  /* line 232, ../sass/screen.scss */
+  #homePage footer {
+    margin: 66px 0 0 0;
+  }
+}
+@media screen and (min-width: 1300px) {
+  /* line 242, ../sass/screen.scss */
+  #homePage header {
+    margin: 308px 0 0 0;
+  }
+  /* line 245, ../sass/screen.scss */
+  #homePage #libHeader {
+    top: 474px;
+  }
+  /* line 248, ../sass/screen.scss */
+  #homePage nav#lib {
+    top: 528px;
+  }
+  /* line 251, ../sass/screen.scss */
+  #homePage #libIntro {
+    margin: -88px 0 0 17.178%;
+  }
+}
+@media screen and (min-width: 1400px) {
+  /* line 260, ../sass/screen.scss */
+  #homePage #libIntro {
+    margin: -110px 0 0 17.178%;
+  }
+  /* line 263, ../sass/screen.scss */
+  #homePage footer {
+    margin: 88px 0 0 0;
+  }
+}

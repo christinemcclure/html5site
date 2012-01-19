@@ -6,6 +6,11 @@ body, a {
 	color:$text;
 }
 
+	a:hover{
+		font-weight: 900;
+	}
+	
+
 @media screen and (min-width: 760px) {
   #page {
 		width: 748px; /*Total width works out to 768px*/
@@ -85,11 +90,14 @@ body, a {
 			margin: -6px 0 0 0;
 		}
 		#libHeader {
+			position: absolute;
 			letter-spacing: 5px;
 			float:right;
 			text-align:right;
-/*			margin: 132px 37px 0 0; */
-			margin: 132px 3.67063492063492% 0 0;
+/*			margin: 132px 37px 0 0; 
+			margin: 132px 3.67063492063492% 0 0; */
+			top: 440px;			
+			right: 7%;			
 		}
 		
 	#galleries {
@@ -110,9 +118,9 @@ body, a {
 	} /* end galleries */
 	
 	#libFigure {
-		/*width: 138px;*/
-		width: 14.11042944785276%;
-		margin: 154px 0 0 0;
+		/*width: 138px; */
+		width: 14.11042944785276%; 
+		margin: 150px 0 0 0; 
 	}
 
 		#libIntro {
@@ -144,9 +152,10 @@ body, a {
 		}
 		
 		nav#lib {
-			float:right;
+			position: absolute;
+			right: 7%;
 			text-align: right;
-			margin: -110px 0 $lineHeight 0;
+			top: 484px;			
 			border-right: 2px solid $border;
 			ul li {
 				margin: 0 8px;
@@ -155,14 +164,6 @@ body, a {
 
 				
 	} /* end homePage*/
-	
-
-
-
-
-	a:hover{
-		font-weight: 900;
-	}
 	
 
 	footer {
@@ -182,7 +183,85 @@ body, a {
 		
 	} /* end footer*/
 			
+
 	
 } /* end min-width: 1010 */
 
 
+@media screen and (min-width: 1080px) {
+	#homePage 
+		header{
+			margin: $lineHeight*13 0 0 0;
+			h1{
+				font-size: $lineHeight*2;
+				margin: 0 0 0 4%;			
+			}
+			p{
+					margin: 24px 4% 0 0;
+		}
+	}		
+
+}
+
+@media screen and (min-width: 1150px) {
+	#homePage {
+		#libIntro {
+			margin: -132px 0 0 17.17791411042945%;
+		}
+		footer {
+			margin: $lineHeight*4 0 0 0;
+		}
+	}
+}
+	
+
+@media screen and (min-width: 1230px) {
+	#homePage {
+		header{
+			margin: $lineHeight*12 0 0 0;
+		}
+		#libHeader {
+			top: 418px;			
+		}
+		#libIntro {
+			margin: -110px 0 0 17.17791411042945%;
+		}
+		nav#lib {
+			top: 462px;
+		}
+		footer {
+			margin: $lineHeight*3 0 0 0;
+		}
+	}
+}
+
+
+
+@media screen and (min-width: 1300px) {
+	#homePage {
+		header{
+			margin: $lineHeight*14 0 0 0;
+		}
+		#libHeader {
+			top: 474px;			
+		}
+		nav#lib {
+			top: 528px;
+		}
+		#libIntro {
+			margin: -88px 0 0 17.17791411042945%;
+		}
+
+	}
+}
+
+@media screen and (min-width: 1400px) {
+	#homePage {
+		#libIntro {
+			margin: -110px 0 0 17.17791411042945%;
+		}
+		footer {
+			margin: $lineHeight*4 0 0 0;
+		}
+	}
+}
