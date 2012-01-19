@@ -1,7 +1,6 @@
 @import "_base.scss";
 
 
-
 body, a {
 	color:$text;
 }
@@ -94,8 +93,8 @@ body, a {
 			letter-spacing: 5px;
 			float:right;
 			text-align:right;
-/*			margin: 132px 37px 0 0; 
-			margin: 132px 3.67063492063492% 0 0; */
+			/* margin: 132px 37px 0 0; 
+			margin: 132px 3.67063492063492% 0 0;  top works better with absolute */
 			top: 440px;			
 			right: 7%;			
 		}
@@ -185,8 +184,9 @@ body, a {
 			
 
 	
-} /* end min-width: 1010 */
+} /* *** end min-width: 1008 *** */
 
+/* Since using absolute positioning, handle those elements as screen width grows */
 
 @media screen and (min-width: 1080px) {
 	#homePage 
@@ -241,6 +241,10 @@ body, a {
 	#homePage {
 		header{
 			margin: $lineHeight*13 0 0 0;
+			p {
+				font-size: 14px;
+				margin: 22px 4% 0 0;
+			}
 		}
 		#libHeader {
 			top: 452px;			
