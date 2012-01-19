@@ -1,35 +1,13 @@
-<!DOCTYPE html>
-
-<html lang="en"> 
-
-<head>
-  <meta name="description" content="Personal website for photography and librarianship">
-  <meta name="author" content="Christine McClure">
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" /> <!-- For Mobile, specifically iPhones -->
-
-	<!-- FAVICON LINKS:-->
-  <link rel="icon" href="/favicon.png" type="image/png" />
-  <link rel="shortcut icon" href="/favicon.ico" />  
-
-	<link href='http://fonts.googleapis.com/css?family=Questrial|Michroma' rel='stylesheet' type='text/css'>
-  <link rel="stylesheet" type="text/css" media="screen" href="/stylesheets/screen.css" />
-  <link rel="stylesheet" type="text/css" media="screen" href="/stylesheets/css3.css" />
-  <link rel="stylesheet" type="text/css" media="print" href="/stylesheets/print.css" />
-  
-  <script src="/js/modernizr.min.js"></script>  <!-- Modernizer now includes respond.js -->
+<?php include '/includes/head-stub.html' ?>
 
   <title>Christine McClure</title>
 </head>
 
 <body id="homePage">
 
-<div id="page"> 
+<section>
 
-	<header>
-  	<h1>Christine McClure</h1>
-    <p>Librarian. Web developer. Photographer. Geek.</p>
-  </header>
+	<?php include '/includes/header.html'; ?>
   <h2 id="photoHeader">photography</h2>
   <nav id="galleries">
   	<ul>
@@ -59,13 +37,9 @@
     		<li><a href="#">contact</a></li>
     </ul>
   </nav>
-	<footer>
-  	<p>Geek cred: <a href="http://validator.w3.org/check?uri=http%3A%2F%2Fdev.christinemcclure.com%2F">HTML5</a> | 
-    	<a href="http://jigsaw.w3.org/css-validator/validator?uri=http://dev.christinemcclure.com%2Fstylesheets%2Fscreen.css&amp;profile=css3">
-			CSS3</a> | <a href="http://jquery.com/">jQuery</a> | <a href="http://sass-lang.com/">Sass</a></p><p class="copyright">©2011 Christine McClure (design and content)</p>
-  </footer>  
-</div>
+	<?php include '/includes/footer.html'; ?>
 
+</section>
 </body>
 
 </html>

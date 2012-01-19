@@ -140,7 +140,7 @@ a:hover {
 
 @media screen and (min-width: 760px) {
   /* line 14, ../sass/screen.scss */
-  #page {
+  section {
     width: 748px;
     /*Total width works out to 768px*/
     padding: 0px 10px 0px 10px;
@@ -155,7 +155,7 @@ a:hover {
   }
 
   /* line 30, ../sass/screen.scss */
-  #page {
+  section {
     /* width: 978px; Total with works out to 1008, but need more for padding*/
     background: #fff;
     width: 86%;
