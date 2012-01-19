@@ -368,19 +368,19 @@ a:hover {
 @media screen and (min-width: 1300px) {
   /* line 242, ../sass/screen.scss */
   #homePage header {
-    margin: 308px 0 0 0;
+    margin: 286px 0 0 0;
   }
   /* line 245, ../sass/screen.scss */
   #homePage #libHeader {
-    top: 474px;
+    top: 452px;
   }
   /* line 248, ../sass/screen.scss */
   #homePage nav#lib {
-    top: 528px;
+    top: 506px;
   }
   /* line 251, ../sass/screen.scss */
   #homePage #libIntro {
-    margin: -88px 0 0 17.178%;
+    margin: -110px 0 0 17.178%;
   }
 }
 @media screen and (min-width: 1400px) {
@@ -391,5 +391,27 @@ a:hover {
   /* line 263, ../sass/screen.scss */
   #homePage footer {
     margin: 88px 0 0 0;
+  }
+}
+@media screen and (min-width: 1500px) {
+  /* line 271, ../sass/screen.scss */
+  #homePage header {
+    margin: 308px 0 0 0;
+  }
+  /* line 274, ../sass/screen.scss */
+  #homePage #libHeader {
+    top: 474px;
+  }
+  /* line 277, ../sass/screen.scss */
+  #homePage nav#lib {
+    top: 528px;
+  }
+  /* line 280, ../sass/screen.scss */
+  #homePage #libIntro {
+    margin: -132px 0 0 17.178%;
+  }
+  /* line 283, ../sass/screen.scss */
+  #homePage footer {
+    margin: 110px 0 0 0;
   }
 }

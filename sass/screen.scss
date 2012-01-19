@@ -240,16 +240,16 @@ body, a {
 @media screen and (min-width: 1300px) {
 	#homePage {
 		header{
-			margin: $lineHeight*14 0 0 0;
+			margin: $lineHeight*13 0 0 0;
 		}
 		#libHeader {
-			top: 474px;			
+			top: 452px;			
 		}
 		nav#lib {
-			top: 528px;
+			top: 506px;
 		}
 		#libIntro {
-			margin: -88px 0 0 17.17791411042945%;
+			margin: -110px 0 0 17.17791411042945%;
 		}
 
 	}
@@ -262,6 +262,26 @@ body, a {
 		}
 		footer {
 			margin: $lineHeight*4 0 0 0;
+		}
+	}
+}
+
+@media screen and (min-width: 1500px) {
+	#homePage {
+		header{
+			margin: $lineHeight*14 0 0 0;
+		}
+		#libHeader {
+			top: 474px;			
+		}
+		nav#lib {
+			top: 528px;
+		}
+		#libIntro {
+			margin: -132px 0 0 17.17791411042945%;
+		}
+		footer {
+			margin: $lineHeight*5 0 0 0;
 		}
 	}
 }
