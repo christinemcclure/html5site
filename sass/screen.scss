@@ -27,7 +27,7 @@ body, a {
     /* width: 978px; Total with works out to 1008, but need more for padding*/
 		background: #fff;
 		width: 86%;
-    padding: $lineHeight 15px $lineHeight 15px; /* added 22px to each for background (change 15 to 37 later after grid is gone)*/
+    padding: $lineHeight 37px $lineHeight 37px; /* added 22px to each for background (change 15 to 37 later after grid is gone)*/
 		margin: 0 auto;
 	}
 
@@ -88,7 +88,8 @@ body, a {
 			letter-spacing: 5px;
 			float:right;
 			text-align:right;
-			margin: 60px 37px 0 0;
+/*			margin: 132px 37px 0 0; */
+			margin: 132px 3.67063492063492% 0 0;
 		}
 		
 	#galleries {
@@ -111,7 +112,7 @@ body, a {
 	#libFigure {
 		/*width: 138px;*/
 		width: 14.11042944785276%;
-		margin: 86px 0 0 0;
+		margin: 154px 0 0 0;
 	}
 
 		#libIntro {
@@ -130,8 +131,8 @@ body, a {
 
 
 		nav#photo {
-			position: relative;
-			top: -176px;
+			position: absolute;
+			top: 110px;
 			width: 14.11042944785276%;
 			ul {
 					border-left: 2px solid $border;
@@ -145,7 +146,7 @@ body, a {
 		nav#lib {
 			float:right;
 			text-align: right;
-			margin: -96px 0 $lineHeight 0;
+			margin: -110px 0 $lineHeight 0;
 			border-right: 2px solid $border;
 			ul li {
 				margin: 0 8px;
@@ -166,7 +167,7 @@ body, a {
 
 	footer {
 		clear:both;
-		margin: $lineHeight*3 0 0 0;
+		margin: $lineHeight*2 0 0 0;
 		p {
 			display:inline;
 			font-family: $bodyFont;
@@ -175,6 +176,7 @@ body, a {
 		}
 	
 		p.copyright {
+			display:inline;
 			float:right;
 		}			
 		

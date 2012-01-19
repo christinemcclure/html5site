@@ -154,7 +154,7 @@ body, a {
     /* width: 978px; Total with works out to 1008, but need more for padding*/
     background: #fff;
     width: 86%;
-    padding: 22px 15px 22px 15px;
+    padding: 22px 37px 22px 37px;
     /* added 22px to each for background (change 15 to 37 later after grid is gone)*/
     margin: 0 auto;
   }
@@ -220,9 +220,10 @@ body, a {
     letter-spacing: 5px;
     float: right;
     text-align: right;
-    margin: 60px 37px 0 0;
+    /*			margin: 132px 37px 0 0; */
+    margin: 132px 3.67063492063492% 0 0;
   }
-  /* line 96, ../sass/screen.scss */
+  /* line 97, ../sass/screen.scss */
   #homePage #galleries ul li {
     /*width: 138px;*/
     width: 14.11042944785276%;
@@ -231,78 +232,79 @@ body, a {
     /*margin: 0 0 2px 30px;*/
     margin: 0 0 2px 3.06748466257669%;
   }
-  /* line 106, ../sass/screen.scss */
+  /* line 107, ../sass/screen.scss */
   #homePage #galleries img {
     margin-bottom: 8px;
   }
-  /* line 111, ../sass/screen.scss */
+  /* line 112, ../sass/screen.scss */
   #homePage #libFigure {
     /*width: 138px;*/
     width: 14.11042944785276%;
-    margin: 86px 0 0 0;
+    margin: 154px 0 0 0;
   }
-  /* line 117, ../sass/screen.scss */
+  /* line 118, ../sass/screen.scss */
   #homePage #libIntro {
     /*width: 558px;*/
     width: 57.05521472392638%;
     /*margin: -100px 0 0 168px;*/
     margin: -88px 0 0 17.178%;
   }
-  /* line 126, ../sass/screen.scss */
+  /* line 127, ../sass/screen.scss */
   #homePage nav li p, #homePage nav li a, #homePage #galleries p, #homePage #galleries a {
     font-size: 16px;
     letter-spacing: 2px;
   }
-  /* line 132, ../sass/screen.scss */
+  /* line 133, ../sass/screen.scss */
   #homePage nav#photo {
-    position: relative;
-    top: -176px;
+    position: absolute;
+    top: 110px;
     width: 14.11042944785276%;
   }
-  /* line 136, ../sass/screen.scss */
+  /* line 137, ../sass/screen.scss */
   #homePage nav#photo ul {
     border-left: 2px solid #adadad;
   }
-  /* line 138, ../sass/screen.scss */
+  /* line 139, ../sass/screen.scss */
   #homePage nav#photo ul li {
     margin: 0 8px;
     /*width: 138px;*/
   }
-  /* line 145, ../sass/screen.scss */
+  /* line 146, ../sass/screen.scss */
   #homePage nav#lib {
     float: right;
     text-align: right;
-    margin: -96px 0 22px 0;
+    margin: -110px 0 22px 0;
     border-right: 2px solid #adadad;
   }
-  /* line 150, ../sass/screen.scss */
+  /* line 151, ../sass/screen.scss */
   #homePage nav#lib ul li {
     margin: 0 8px;
   }
 
   /* end homePage*/
-  /* line 162, ../sass/screen.scss */
+  /* line 163, ../sass/screen.scss */
   a:hover {
     font-weight: 900;
   }
 
-  /* line 167, ../sass/screen.scss */
+  /* line 168, ../sass/screen.scss */
   footer {
     clear: both;
-    margin: 66px 0 0 0;
+    margin: 44px 0 0 0;
   }
-  /* line 170, ../sass/screen.scss */
+  /* line 171, ../sass/screen.scss */
   footer p {
     display: inline;
     font-family: "Questrial", Verdana, Arial, sans-serif;
     font-size: 12px;
   }
-  /* line 174, ../sass/screen.scss */
+  /* line 175, ../sass/screen.scss */
   footer p a {
     font-weight: 900;
   }
-  /* line 177, ../sass/screen.scss */
+  /* line 178, ../sass/screen.scss */
   footer p.copyright {
+    display: inline;
     float: right;
   }
 
