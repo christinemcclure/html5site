@@ -15,7 +15,7 @@ body, a {
 
 }
 
-@media screen and (min-width: 1010px) {
+@media screen and (min-width: 1008px) {
 
 	body{
 		margin: $lineHeight*2 0 0 0;
@@ -38,17 +38,17 @@ body, a {
 			position: absolute;
 			/*width: 978px; */
 			width: 86%;
-			margin: $lineHeight*11 0 0 0;
+			margin: $lineHeight*12 0 0 0;
 			background: $backgroundDark  url('/img/scrollDark.png');
 			color:#fff;
 
 			h1 {
-				font-size: $lineHeight*2;
+				font-size: $lineHeight*1.8;
 				display:inline;
 				float:left;
 				letter-spacing: 4px;
 				/*margin: 0 0 0 54px;*/
-				margin: 0 0 0 5.52147239263804%;
+				margin: 0 0 0 2%;
 				padding: 20px 0 24px 0;
 			}
 
@@ -56,7 +56,7 @@ body, a {
 				display:inline;
 				float:right;
 				font-size: 12px;
-				margin: 24px 54px 0 0;
+				margin: 24px 2% 0 0;
 			}
 		} /* end header */
 
@@ -88,7 +88,7 @@ body, a {
 			letter-spacing: 5px;
 			float:right;
 			text-align:right;
-			margin: 60px 0px 0 0;
+			margin: 60px 37px 0 0;
 		}
 		
 	#galleries {
@@ -111,14 +111,14 @@ body, a {
 	#libFigure {
 		/*width: 138px;*/
 		width: 14.11042944785276%;
-		margin: 64px 0 0 0;
+		margin: 86px 0 0 0;
 	}
 
 		#libIntro {
 			/*width: 558px;*/
 			width: 57.05521472392638%; 
 			/*margin: -100px 0 0 168px;*/
-			margin: -102px 0 0 17.17791411042945%;
+			margin: -88px 0 0 17.17791411042945%;
 		}
 			
 	
@@ -131,7 +131,7 @@ body, a {
 
 		nav#photo {
 			position: relative;
-			top: -198px;
+			top: -176px;
 			width: 14.11042944785276%;
 			ul {
 					border-left: 2px solid $border;
@@ -145,7 +145,7 @@ body, a {
 		nav#lib {
 			float:right;
 			text-align: right;
-			margin: -74px 0 $lineHeight 0;
+			margin: -96px 0 $lineHeight 0;
 			border-right: 2px solid $border;
 			ul li {
 				margin: 0 8px;
@@ -184,9 +184,3 @@ body, a {
 } /* end min-width: 1010 */
 
 
-
-@media screen and (min-width: 1118px) {
-	#homePage header{
-			margin: $lineHeight*14 0 0 0;
-	}
-}

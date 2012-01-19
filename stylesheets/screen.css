@@ -142,7 +142,7 @@ body, a {
     /* background-image: url('img/748px-10-44-10-12c.png'); */
   }
 }
-@media screen and (min-width: 1010px) {
+@media screen and (min-width: 1008px) {
   /* line 20, ../sass/screen.scss */
   body {
     margin: 44px 0 0 0;
@@ -170,18 +170,18 @@ body, a {
     position: absolute;
     /*width: 978px; */
     width: 86%;
-    margin: 242px 0 0 0;
+    margin: 264px 0 0 0;
     background: #4d4d4d url("/img/scrollDark.png");
     color: #fff;
   }
   /* line 45, ../sass/screen.scss */
   #homePage header h1 {
-    font-size: 44px;
+    font-size: 39.6px;
     display: inline;
     float: left;
     letter-spacing: 4px;
     /*margin: 0 0 0 54px;*/
-    margin: 0 0 0 5.52147239263804%;
+    margin: 0 0 0 2%;
     padding: 20px 0 24px 0;
   }
   /* line 55, ../sass/screen.scss */
@@ -189,7 +189,7 @@ body, a {
     display: inline;
     float: right;
     font-size: 12px;
-    margin: 24px 54px 0 0;
+    margin: 24px 2% 0 0;
   }
   /* line 64, ../sass/screen.scss */
   #homePage h2 {
@@ -220,7 +220,7 @@ body, a {
     letter-spacing: 5px;
     float: right;
     text-align: right;
-    margin: 60px 0px 0 0;
+    margin: 60px 37px 0 0;
   }
   /* line 96, ../sass/screen.scss */
   #homePage #galleries ul li {
@@ -239,14 +239,14 @@ body, a {
   #homePage #libFigure {
     /*width: 138px;*/
     width: 14.11042944785276%;
-    margin: 64px 0 0 0;
+    margin: 86px 0 0 0;
   }
   /* line 117, ../sass/screen.scss */
   #homePage #libIntro {
     /*width: 558px;*/
     width: 57.05521472392638%;
     /*margin: -100px 0 0 168px;*/
-    margin: -102px 0 0 17.178%;
+    margin: -88px 0 0 17.178%;
   }
   /* line 126, ../sass/screen.scss */
   #homePage nav li p, #homePage nav li a, #homePage #galleries p, #homePage #galleries a {
@@ -256,7 +256,7 @@ body, a {
   /* line 132, ../sass/screen.scss */
   #homePage nav#photo {
     position: relative;
-    top: -198px;
+    top: -176px;
     width: 14.11042944785276%;
   }
   /* line 136, ../sass/screen.scss */
@@ -272,7 +272,7 @@ body, a {
   #homePage nav#lib {
     float: right;
     text-align: right;
-    margin: -74px 0 22px 0;
+    margin: -96px 0 22px 0;
     border-right: 2px solid #adadad;
   }
   /* line 150, ../sass/screen.scss */
@@ -309,9 +309,3 @@ body, a {
   /* end footer*/
 }
 /* end min-width: 1010 */
-@media screen and (min-width: 1118px) {
-  /* line 189, ../sass/screen.scss */
-  #homePage header {
-    margin: 308px 0 0 0;
-  }
-}
