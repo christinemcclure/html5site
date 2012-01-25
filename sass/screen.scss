@@ -238,7 +238,12 @@ body, a {
 		#libIntro {
 			margin: -118px 0 0 17.17791411042945%;
 		}
-
+		#libHeader {
+			top: 460px;
+		}
+		nav#lib {
+			top: 506px;			
+		}
 	}
 }
 
@@ -252,10 +257,10 @@ body, a {
 			}
 		}
 		#libHeader {
-			top: 460px;
+			top: 482px;
 		}
 		nav#lib {
-			top: 506px;			
+			top: 528px;			
 		}
 		footer {
 			margin: $lineHeight*5 0 0 0;
@@ -263,23 +268,3 @@ body, a {
 	}
 }
 
-/* check this on mac at home */
-@media screen and (min-width: 1500px) {
-	#homePage {
-		header{
-			margin: $lineHeight*14 0 0 0;
-		}
-		#libHeader {
-			top: 474px;			
-		}
-		nav#lib {
-			top: 528px;
-		}
-		#libIntro {
-			margin: -132px 0 0 17.17791411042945%;
-		}
-		footer {
-			margin: $lineHeight*5 0 0 0;
-		}
-	}
-}
