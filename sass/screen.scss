@@ -8,7 +8,31 @@ body, a {
 	a:hover{
 		font-weight: 900;
 	}
+
+/*   ************ MOBILE ***********     */
 	
+	
+section {
+  width: 90%;
+  margin: 0 auto;
+  padding: 20px 10px;
+}
+
+header, h2, h3 {
+  text-align:center;
+}
+h1 {
+  font-size: 24px;
+  margin: 0 0 10px 0;
+}
+
+header p {
+  margin: 0 0 34px 0;
+}
+
+h2 {
+  font-size: 20px;
+}
 
 @media screen and (min-width: 760px) {
   section {
@@ -33,7 +57,6 @@ body, a {
 /*		background: #fff; */
 		width: 86%;
     padding: $lineHeight 37px $lineHeight 37px; /* added 22px to each for background (change 15 to 37 later after grid is gone)*/
-		margin: 0 auto;
 	}
 
 	#homePage {
@@ -74,6 +97,7 @@ body, a {
 				margin: 0 0 $lineHeight 0;
 				display:inline;
 				float:left;
+				text-align:left;
 		}
 
 		p {
