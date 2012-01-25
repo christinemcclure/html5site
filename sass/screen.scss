@@ -216,6 +216,7 @@ h2 {
 		clear:both;
 		margin: $lineHeight*2 0 0 0;
 		p {
+			width: 40%;
 			display:inline;
 			font-family: $bodyFont;
 			font-size: 12px;
@@ -223,7 +224,7 @@ h2 {
 		}
 	
 		p.copyright {
-			width: 50%; /* width keeps this line from popping down */
+			width: 40%; /* width keeps this line from popping down */
 			display:inline;
 			float:right;
 			text-align:right;
