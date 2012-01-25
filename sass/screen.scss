@@ -23,13 +23,13 @@ body, a {
 
 	body{
 		margin: $lineHeight*2 0 0 0;
-    background:  $backgroundLight url('/img/scrollLight.png');
+/*    background:  $backgroundLight url('/img/scrollLight.png'); uncomment later */
 	}
 
 
   section {
     /* width: 978px; Total with works out to 1008, but need more for padding*/
-		background: #fff;
+/*		background: #fff; */
 		width: 86%;
     padding: $lineHeight 37px $lineHeight 37px; /* added 22px to each for background (change 15 to 37 later after grid is gone)*/
 		margin: 0 auto;
@@ -43,7 +43,7 @@ body, a {
 			/*width: 978px; */
 			width: 86%;
 			margin: $lineHeight*12 0 0 0;
-			background: $backgroundDark  url('/img/scrollDark.png');
+/*			background: $backgroundDark  url('/img/scrollDark.png'); */
 			color:#fff;
 
 			h1 {
@@ -81,12 +81,12 @@ body, a {
 		p#photoIntro {
 			clear:both;
 			/*margin: 0 0 0 336px;*/
-			margin: 0 0 0 34.3558282208589%;
+			margin: 198px 0 0 34.3558282208589%;
 		}
 
 
 		#photoHeader {
-			margin: -6px 0 0 0;
+			margin: -4px 0 0 0;
 		}
 		#libHeader {
 			position: absolute;
@@ -95,7 +95,7 @@ body, a {
 			text-align:right;
 			/* margin: 132px 37px 0 0; 
 			margin: 132px 3.67063492063492% 0 0;  top works better with absolute */
-			top: 440px;			
+			top: 438px;			
 			right: 7%;			
 		}
 		
@@ -126,7 +126,7 @@ body, a {
 			/*width: 558px;*/
 			width: 57.05521472392638%; 
 			/*margin: -100px 0 0 168px;*/
-			margin: -88px 0 0 17.17791411042945%;
+			margin: -102px 0 0 17.17791411042945%;
 		}
 			
 	
@@ -176,8 +176,10 @@ body, a {
 		}
 	
 		p.copyright {
+			width: 50%; /* width keeps this line from popping down */
 			display:inline;
 			float:right;
+			text-align:right;
 		}			
 		
 	} /* end footer*/
@@ -262,7 +264,7 @@ body, a {
 @media screen and (min-width: 1400px) {
 	#homePage {
 		#libIntro {
-			margin: -110px 0 0 17.17791411042945%;
+			margin: -100px 0 0 17.17791411042945%;
 		}
 		footer {
 			margin: $lineHeight*4 0 0 0;
