@@ -14,7 +14,8 @@ body, a {
   section {
 		width: 748px; /*Total width works out to 768px*/
 		padding: 0px 10px 0px 10px;
-		/* background-image: url('img/748px-10-44-10-12c.png'); */
+		/* for columns */
+		 background-image: url('img/748px-10-44-10-12c.png');  
 	}
 
 }
@@ -23,7 +24,7 @@ body, a {
 
 	body{
 		margin: $lineHeight*2 0 0 0;
-/*    background:  $backgroundLight url('/img/scrollLight.png'); uncomment later */
+/*    background:  $backgroundLight url('/img/scrollLight.png');  */
 	}
 
 
@@ -43,7 +44,7 @@ body, a {
 			/*width: 978px; */
 			width: 86%;
 			margin: $lineHeight*12 0 0 0;
-/*			background: $backgroundDark  url('/img/scrollDark.png'); */
+/*			background: $backgroundDark  url('/img/scrollDark.png');  */
 			color:#fff;
 
 			h1 {
@@ -81,12 +82,12 @@ body, a {
 		p#photoIntro {
 			clear:both;
 			/*margin: 0 0 0 336px;*/
-			margin: 198px 0 0 34.3558282208589%;
+			margin: 176px 0 0 34.3558282208589%;
 		}
 
 
 		#photoHeader {
-			margin: -4px 0 0 0;
+			margin: -2px 0 0 0;
 		}
 		#libHeader {
 			position: absolute;
@@ -94,7 +95,7 @@ body, a {
 			float:right;
 			text-align:right;
 			/* margin: 132px 37px 0 0; 
-			margin: 132px 3.67063492063492% 0 0;  top works better with absolute */
+			margin: 0 3.67063492063492% 0 0;  top works better with absolute */
 			top: 438px;			
 			right: 7%;			
 		}
@@ -190,8 +191,9 @@ body, a {
 
 /* Since using absolute positioning, handle those elements as screen width grows */
 
-@media screen and (min-width: 1080px) {
-	#homePage 
+@media screen and (min-width: 1100px) {
+
+	#homePage {
 		header{
 			margin: $lineHeight*13 0 0 0;
 			h1{
@@ -200,62 +202,41 @@ body, a {
 			}
 			p{
 					margin: 24px 4% 0 0;
+			}
+		}	
+		#libIntro {
+			margin: -114px 0 0 17.17791411042945%;
+		}			
+
+		footer {
+			margin: $lineHeight*3 0 0 0;
 		}
 	}		
-
 }
 
-@media screen and (min-width: 1150px) {
+
+@media screen and (min-width: 1238px) { /* where photoIntro goes to two lines */
 	#homePage {
+		p#photoIntro {
+		margin: 198px 0 0 34.3558282208589%;
+		}
+
 		#libIntro {
-			margin: -132px 0 0 17.17791411042945%;
+			margin: -106px 0 0 17.17791411042945%;
 		}
 		footer {
 			margin: $lineHeight*4 0 0 0;
 		}
 	}
 }
-	
 
-@media screen and (min-width: 1230px) {
-	#homePage {
-		header{
-			margin: $lineHeight*12 0 0 0;
-		}
-		#libHeader {
-			top: 418px;			
-		}
-		#libIntro {
-			margin: -110px 0 0 17.17791411042945%;
-		}
-		nav#lib {
-			top: 462px;
-		}
-		footer {
-			margin: $lineHeight*3 0 0 0;
-		}
-	}
-}
 
 
 
 @media screen and (min-width: 1300px) {
 	#homePage {
-		header{
-			margin: $lineHeight*13 0 0 0;
-			p {
-				font-size: 14px;
-				margin: 22px 4% 0 0;
-			}
-		}
-		#libHeader {
-			top: 452px;			
-		}
-		nav#lib {
-			top: 506px;
-		}
 		#libIntro {
-			margin: -110px 0 0 17.17791411042945%;
+			margin: -118px 0 0 17.17791411042945%;
 		}
 
 	}
@@ -263,15 +244,26 @@ body, a {
 
 @media screen and (min-width: 1400px) {
 	#homePage {
-		#libIntro {
-			margin: -100px 0 0 17.17791411042945%;
+		header{
+			margin: $lineHeight*14 0 0 0;
+			p {
+				font-size: 14px;
+				margin: 22px 4% 0 0;
+			}
+		}
+		#libHeader {
+			top: 460px;
+		}
+		nav#lib {
+			top: 506px;			
 		}
 		footer {
-			margin: $lineHeight*4 0 0 0;
+			margin: $lineHeight*5 0 0 0;
 		}
 	}
 }
 
+/* check this on mac at home */
 @media screen and (min-width: 1500px) {
 	#homePage {
 		header{
