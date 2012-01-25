@@ -32,7 +32,29 @@ header p {
 
 h2 {
   font-size: 20px;
+	margin: 0 0 22px 0;
 }
+
+#galleries ul {
+	li {
+  width: 20%;
+  margin: 0 0 0 6%;
+  float:left;
+  font-size: 10px;
+  text-align:center;
+	}
+	
+ li:first-child {
+		margin:0;
+	}
+	
+}
+
+#photoIntro {
+	clear:both;
+}
+
+
 
 @media screen and (min-width: 760px) {
   section {
