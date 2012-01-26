@@ -131,7 +131,7 @@ nav {
 .t22 {
   font-size: 14px;
   line-height: 22px;
-  background-image: url("img/22px-baseline.png");
+  /* background-image: url("img/22px-baseline.png"); */
 }
 
 /* line 66, ../sass/_base.scss */
@@ -217,7 +217,7 @@ nav#photo, nav#lib {
 }
 /* line 62, ../sass/screen.scss */
 nav#photo li, nav#lib li {
-  font-size: 18px;
+  font-size: 14px;
   float: left;
   width: 30%;
   margin: 0 0 44px 5%;
@@ -226,7 +226,7 @@ nav#photo li, nav#lib li {
 /* line 68, ../sass/screen.scss */
 nav#photo li a, nav#lib li a {
   padding: 6px 12px;
-  background: yellow;
+  background: #ccc;
 }
 /* line 73, ../sass/screen.scss */
 nav#photo li:first-child, nav#lib li:first-child {
@@ -268,20 +268,20 @@ footer p {
     /*Total width works out to 768px*/
     padding: 0px 10px 0px 10px;
     /* for columns */
-    background-image: url("img/748px-10-44-10-12c.png");
+    /* background-image: url('img/748px-10-44-10-12c.png');   */
   }
 }
 @media screen and (min-width: 1008px) {
   /* line 116, ../sass/screen.scss */
   body {
     margin: 44px 0 0 0;
-    /*    background:  $backgroundLight url('/img/scrollLight.png');  */
+    background: #fafafa url("/img/scrollLight.png");
   }
 
   /* line 122, ../sass/screen.scss */
   section {
     /* width: 978px; Total with works out to 1008, but need more for padding*/
-    /*		background: #fff; */
+    background: #fff;
     width: 86%;
     padding: 22px 37px 22px 37px;
     /* added 22px to each for background (change 15 to 37 later after grid is gone)*/
@@ -299,7 +299,7 @@ footer p {
     /*width: 978px; */
     width: 86%;
     margin: 264px 0 0 0;
-    /*			background: $backgroundDark  url('/img/scrollDark.png');  */
+    background: #4d4d4d url("/img/scrollDark.png");
     color: #fff;
   }
   /* line 140, ../sass/screen.scss */

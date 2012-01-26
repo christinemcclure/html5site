@@ -11,7 +11,7 @@ because they are still in development
 /* slightly darker grey */
 /* medium grey */
 /* line 14, ../sass/css3.scss */
-#homePage img, header, #page {
+#homePage img, header, #page, nav#lib li a, nav#photo li a {
   -moz-border-radius: 10px;
   -webkit-border-radius: 10px;
   -o-border-radius: 10px;
