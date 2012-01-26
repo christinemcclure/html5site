@@ -239,35 +239,39 @@ nav#lib li {
   width: 20%;
   margin: 0 0 44px 6%;
 }
-/* line 84, ../sass/screen.scss */
+/* line 83, ../sass/screen.scss */
+nav#lib li a {
+  padding: 6px 8px;
+}
+/* line 87, ../sass/screen.scss */
 nav#lib li:first-child {
   margin: 0;
 }
 
-/* line 88, ../sass/screen.scss */
+/* line 91, ../sass/screen.scss */
 #libFigure {
   width: 20%;
   margin: 0 6% 0 0;
   float: left;
 }
 
-/* line 94, ../sass/screen.scss */
+/* line 97, ../sass/screen.scss */
 #libIntro {
   margin: 0 0 44px 0;
 }
 
-/* line 98, ../sass/screen.scss */
+/* line 101, ../sass/screen.scss */
 footer {
   clear: both;
 }
-/* line 100, ../sass/screen.scss */
+/* line 103, ../sass/screen.scss */
 footer p {
   display: block;
   text-align: center;
 }
 
 @media screen and (min-width: 760px) {
-  /* line 107, ../sass/screen.scss */
+  /* line 110, ../sass/screen.scss */
   section {
     width: 748px;
     /*Total width works out to 768px*/
@@ -277,13 +281,13 @@ footer p {
   }
 }
 @media screen and (min-width: 1008px) {
-  /* line 118, ../sass/screen.scss */
+  /* line 121, ../sass/screen.scss */
   body {
     margin: 44px 0 0 0;
     background: #fafafa url("/img/scrollLight.png");
   }
 
-  /* line 124, ../sass/screen.scss */
+  /* line 127, ../sass/screen.scss */
   section {
     /* width: 978px; Total with works out to 1008, but need more for padding*/
     background: #fff;
@@ -292,12 +296,12 @@ footer p {
     /* added 22px to each for background (change 15 to 37 later after grid is gone)*/
   }
 
-  /* line 131, ../sass/screen.scss */
+  /* line 134, ../sass/screen.scss */
   #homePage {
     /* end header */
     /* end galleries */
   }
-  /* line 133, ../sass/screen.scss */
+  /* line 136, ../sass/screen.scss */
   #homePage header {
     clear: both;
     position: absolute;
@@ -307,7 +311,7 @@ footer p {
     background: #4d4d4d url("/img/scrollDark.png");
     color: #fff;
   }
-  /* line 142, ../sass/screen.scss */
+  /* line 145, ../sass/screen.scss */
   #homePage header h1 {
     font-size: 39.6px;
     display: inline;
@@ -317,14 +321,14 @@ footer p {
     margin: 0 0 0 2%;
     padding: 20px 0 24px 0;
   }
-  /* line 152, ../sass/screen.scss */
+  /* line 155, ../sass/screen.scss */
   #homePage header p {
     display: inline;
     float: right;
     font-size: 12px;
     margin: 24px 2% 0 0;
   }
-  /* line 161, ../sass/screen.scss */
+  /* line 164, ../sass/screen.scss */
   #homePage h2 {
     /*width: 306px;*/
     width: 31.28834355828221%;
@@ -335,21 +339,21 @@ footer p {
     float: left;
     text-align: left;
   }
-  /* line 172, ../sass/screen.scss */
+  /* line 175, ../sass/screen.scss */
   #homePage p {
     font-size: 14px;
   }
-  /* line 175, ../sass/screen.scss */
+  /* line 178, ../sass/screen.scss */
   #homePage p#photoIntro {
     clear: both;
     /*margin: 0 0 0 336px;*/
     margin: 176px 0 0 34.3558282208589%;
   }
-  /* line 182, ../sass/screen.scss */
+  /* line 185, ../sass/screen.scss */
   #homePage #photoHeader {
     margin: -2px 0 0 0;
   }
-  /* line 185, ../sass/screen.scss */
+  /* line 188, ../sass/screen.scss */
   #homePage #libHeader {
     position: absolute;
     letter-spacing: 5px;
@@ -360,7 +364,7 @@ footer p {
     top: 438px;
     right: 7%;
   }
-  /* line 198, ../sass/screen.scss */
+  /* line 201, ../sass/screen.scss */
   #homePage #galleries ul li {
     /*width: 138px;*/
     width: 14.11042944785276%;
@@ -369,44 +373,44 @@ footer p {
     /*margin: 0 0 2px 30px;*/
     margin: 0 0 2px 3.06748466257669%;
   }
-  /* line 208, ../sass/screen.scss */
+  /* line 211, ../sass/screen.scss */
   #homePage #galleries img {
     margin-bottom: 8px;
   }
-  /* line 213, ../sass/screen.scss */
+  /* line 216, ../sass/screen.scss */
   #homePage #libFigure {
     clear: both;
     /*width: 138px; */
     width: 14.11042944785276%;
     margin: 150px 0 0 0;
   }
-  /* line 220, ../sass/screen.scss */
+  /* line 223, ../sass/screen.scss */
   #homePage p#libIntro {
     /*width: 558px;*/
     width: 57.05521472392638%;
     /*margin: -100px 0 0 168px;*/
     margin: 198px 0 0 17.178%;
   }
-  /* line 229, ../sass/screen.scss */
+  /* line 232, ../sass/screen.scss */
   #homePage nav li p, #homePage nav li a, #homePage #galleries p, #homePage #galleries a {
     font-size: 16px;
     letter-spacing: 2px;
     background: none;
   }
-  /* line 236, ../sass/screen.scss */
+  /* line 239, ../sass/screen.scss */
   #homePage nav#photo {
     position: absolute;
     top: 110px;
     width: 14.11042944785276%;
     border-left: 2px solid #adadad;
   }
-  /* line 242, ../sass/screen.scss */
+  /* line 245, ../sass/screen.scss */
   #homePage nav#photo ul li {
     margin: 0 8px;
     /*width: 138px;*/
     clear: both;
   }
-  /* line 250, ../sass/screen.scss */
+  /* line 253, ../sass/screen.scss */
   #homePage nav#lib {
     position: absolute;
     right: 7%;
@@ -414,7 +418,7 @@ footer p {
     top: 484px;
     border-right: 2px solid #adadad;
   }
-  /* line 256, ../sass/screen.scss */
+  /* line 259, ../sass/screen.scss */
   #homePage nav#lib ul li {
     width: 90%;
     margin: 0 8px;
@@ -423,23 +427,23 @@ footer p {
   }
 
   /* end homePage*/
-  /* line 268, ../sass/screen.scss */
+  /* line 271, ../sass/screen.scss */
   footer {
     clear: both;
     margin: 44px 0 0 0;
   }
-  /* line 271, ../sass/screen.scss */
+  /* line 274, ../sass/screen.scss */
   footer p {
     width: 40%;
     display: inline;
     font-family: "Questrial", Verdana, Arial, sans-serif;
     font-size: 12px;
   }
-  /* line 276, ../sass/screen.scss */
+  /* line 279, ../sass/screen.scss */
   footer p a {
     font-weight: 900;
   }
-  /* line 279, ../sass/screen.scss */
+  /* line 282, ../sass/screen.scss */
   footer p.copyright {
     width: 40%;
     /* width keeps this line from popping down */
@@ -453,76 +457,76 @@ footer p {
 /* *** end min-width: 1008 *** */
 /* Since using absolute positioning, handle those elements as screen width grows */
 @media screen and (min-width: 1100px) {
-  /* line 297, ../sass/screen.scss */
+  /* line 300, ../sass/screen.scss */
   #homePage header {
     margin: 286px 0 0 0;
   }
-  /* line 299, ../sass/screen.scss */
+  /* line 302, ../sass/screen.scss */
   #homePage header h1 {
     font-size: 44px;
     margin: 0 0 0 4%;
   }
-  /* line 303, ../sass/screen.scss */
+  /* line 306, ../sass/screen.scss */
   #homePage header p {
     margin: 24px 4% 0 0;
   }
-  /* line 307, ../sass/screen.scss */
+  /* line 310, ../sass/screen.scss */
   #homePage #libIntro {
     margin: -114px 0 0 17.178%;
   }
-  /* line 311, ../sass/screen.scss */
+  /* line 314, ../sass/screen.scss */
   #homePage footer {
     margin: 66px 0 0 0;
   }
 }
 @media screen and (min-width: 1238px) {
   /* where photoIntro goes to two lines */
-  /* line 320, ../sass/screen.scss */
+  /* line 323, ../sass/screen.scss */
   #homePage p#photoIntro {
     margin: 198px 0 0 34.3558282208589%;
   }
-  /* line 324, ../sass/screen.scss */
+  /* line 327, ../sass/screen.scss */
   #homePage #libIntro {
     margin: -106px 0 0 17.178%;
   }
-  /* line 327, ../sass/screen.scss */
+  /* line 330, ../sass/screen.scss */
   #homePage footer {
     margin: 88px 0 0 0;
   }
 }
 @media screen and (min-width: 1300px) {
-  /* line 338, ../sass/screen.scss */
+  /* line 341, ../sass/screen.scss */
   #homePage #libIntro {
     margin: -118px 0 0 17.178%;
   }
-  /* line 341, ../sass/screen.scss */
+  /* line 344, ../sass/screen.scss */
   #homePage #libHeader {
     top: 460px;
   }
-  /* line 344, ../sass/screen.scss */
+  /* line 347, ../sass/screen.scss */
   #homePage nav#lib {
     top: 506px;
   }
 }
 @media screen and (min-width: 1400px) {
-  /* line 352, ../sass/screen.scss */
+  /* line 355, ../sass/screen.scss */
   #homePage header {
     margin: 308px 0 0 0;
   }
-  /* line 354, ../sass/screen.scss */
+  /* line 357, ../sass/screen.scss */
   #homePage header p {
     font-size: 14px;
     margin: 22px 4% 0 0;
   }
-  /* line 359, ../sass/screen.scss */
+  /* line 362, ../sass/screen.scss */
   #homePage #libHeader {
     top: 482px;
   }
-  /* line 362, ../sass/screen.scss */
+  /* line 365, ../sass/screen.scss */
   #homePage nav#lib {
     top: 528px;
   }
-  /* line 365, ../sass/screen.scss */
+  /* line 368, ../sass/screen.scss */
   #homePage footer {
     margin: 110px 0 0 0;
   }

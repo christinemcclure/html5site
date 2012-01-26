@@ -80,6 +80,9 @@ nav#lib {
 		font-size:11px;
 		width: 20%;
 		margin: 0 0 $lineHeight*2 6%;
+		 a {
+				padding: 6px 8px;
+		 }
 	}
 	li:first-child {
 		margin:0;
