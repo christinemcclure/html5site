@@ -7,7 +7,7 @@
 
 <section>
 
-	<?php include 'includes/header.html'; ?>
+	<?php include 'includes/headerHome.html'; ?>
   <h2 id="photoHeader">photography</h2>
   <nav id="galleries">
   	<ul>
