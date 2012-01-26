@@ -77,6 +77,7 @@ nav#photo, nav#lib {
 
 nav#lib {
 	li {
+		font-size:11px;
 		width: 20%;
 		margin: 0 0 $lineHeight*2 6%;
 	}
@@ -95,6 +96,7 @@ nav#lib {
 }
 
 footer {
+	clear:both;
 	p {
 		display:block;
 		text-align: center;
