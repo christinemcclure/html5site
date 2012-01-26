@@ -1,4 +1,4 @@
-<?php include '/includes/head-stub.html' ?>
+<?php include 'includes/head-stub.html' ?>
 
   <title>Christine McClure</title>
 </head>
@@ -7,7 +7,7 @@
 
 <section>
 
-	<?php include '/includes/header.html'; ?>
+	<?php include 'includes/header.html'; ?>
   <h2 id="photoHeader">photography</h2>
   <nav id="galleries">
   	<ul>
@@ -37,7 +37,7 @@
     		<li><a href="#">contact</a></li>
     </ul>
   </nav>
-	<?php include '/includes/footer.html'; ?>
+	<?php include 'includes/footer.html'; ?>
 
 </section>
 </body>
