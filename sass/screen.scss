@@ -22,7 +22,7 @@ header, h2, h3 {
   text-align:center;
 }
 h1 {
-  font-size: 24px;
+  font-size: $fontSize+10;
   margin: 0 0 10px 0;
 }
 
@@ -31,16 +31,17 @@ header p {
 }
 
 h2 {
-  font-size: 20px;
-	margin: 0 0 22px 0;
+	clear:both;
+  font-size: $fontSize+6;
+	margin: $lineHeight 0 $lineHeight 0;
 }
 
 #galleries ul {
 	li {
+  font-size: $fontSize;
   width: 20%;
   margin: 0 0 0 6%;
   float:left;
-  font-size: 10px;
   text-align:center;
 	}
 	
@@ -52,9 +53,52 @@ h2 {
 
 #photoIntro {
 	clear:both;
+	margin: 134px 0 $lineHeight 0;
 }
 
+nav#photo, nav#lib {
+	clear:both;
+	li {
+	  font-size: $fontSize +4;
+		float: left;
+ 		width: 30%;
+		margin: 0 0 $lineHeight*2 5%;
+		text-align:center;
+		 a {
+				padding: 6px 12px;
+				background: yellow;
+		 }
+	}
+	 li:first-child {
+		margin:0;
+	}
+}
 
+nav#lib {
+	li {
+		width: 20%;
+		margin: 0 0 $lineHeight*2 6%;
+	}
+	li:first-child {
+		margin:0;
+	}
+}
+#libFigure {
+  width: 20%;
+  margin: 0 6% 0 0;
+	float:left;
+}
+
+#libIntro {
+	margin: 0 0 $lineHeight*2 0;
+}
+
+footer {
+	p {
+		display:block;
+		text-align: center;
+	}
+}
 
 @media screen and (min-width: 760px) {
   section {
@@ -164,35 +208,38 @@ h2 {
 	} /* end galleries */
 	
 	#libFigure {
+		clear:both;
 		/*width: 138px; */
 		width: 14.11042944785276%; 
 		margin: 150px 0 0 0; 
 	}
 
-		#libIntro {
+		p#libIntro {
 			/*width: 558px;*/
 			width: 57.05521472392638%; 
 			/*margin: -100px 0 0 168px;*/
-			margin: -102px 0 0 17.17791411042945%;
+			margin: $lineHeight*9 0 0 17.17791411042945%;
 		}
 			
 	
 		nav li, #galleries  {
 			p, a {
 				font-size: 16px;letter-spacing: 2px;
+				background: none;
 			}
 		}
 
 
 		nav#photo {
-			position: absolute;
+			position: absolute;			
 			top: 110px;
 			width: 14.11042944785276%;
+			border-left: 2px solid $border;
 			ul {
-					border-left: 2px solid $border;
 				li {
 					margin: 0 8px;
 				/*width: 138px;*/
+					clear:both;
 				}
 			}
 		}
@@ -204,7 +251,10 @@ h2 {
 			top: 484px;			
 			border-right: 2px solid $border;
 			ul li {
+		 		width: 90%;
 				margin: 0 8px;
+				clear:both;
+				text-align: right;
 			}	
 		}	
 
