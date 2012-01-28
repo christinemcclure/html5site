@@ -140,7 +140,7 @@ footer {
 			color:#fff;
 
 			h1 {
-				font-size: $lineHeight*1.8;
+				font-size: $lineHeight*1.7;
 				display:inline;
 				float:left;
 				letter-spacing: 4px;
@@ -309,16 +309,21 @@ footer {
 
 @media screen and (min-width: 1100px) {
 
+
+	header{
+		h1{
+			font-size: $lineHeight*2;
+			margin: 0 0 0 4%;			
+		}
+		p{
+				margin: 24px 4% 0 0;
+		}
+	}			
+
+
 	#homePage {
 		header{
 			margin: $lineHeight*13 0 0 0;
-			h1{
-				font-size: $lineHeight*2;
-				margin: 0 0 0 4%;			
-			}
-			p{
-					margin: 24px 4% 0 0;
-			}
 		}	
 		#libIntro {
 			margin: -114px 0 0 17.17791411042945%;
@@ -364,13 +369,18 @@ footer {
 }
 
 @media screen and (min-width: 1400px) {
+
+	header{
+		p {
+			font-size: 14px;
+			margin: 22px 4% 0 0;
+		}
+	}
+
+
 	#homePage {
 		header{
 			margin: $lineHeight*14 0 0 0;
-			p {
-				font-size: 14px;
-				margin: 22px 4% 0 0;
-			}
 		}
 		#libHeader {
 			top: 482px;
@@ -382,5 +392,7 @@ footer {
 			margin: $lineHeight*5 0 0 0;
 		}
 	}
+	
+	
 }
 

@@ -308,7 +308,7 @@ footer p {
   }
   /* line 142, ../sass/screen.scss */
   .page header h1 {
-    font-size: 39.6px;
+    font-size: 37.4px;
     display: inline;
     float: left;
     letter-spacing: 4px;
@@ -468,76 +468,78 @@ footer p {
 /* *** end min-width: 1008 *** */
 /* Since using absolute positioning, handle those elements as screen width grows */
 @media screen and (min-width: 1100px) {
-  /* line 313, ../sass/screen.scss */
-  #homePage header {
-    margin: 286px 0 0 0;
-  }
-  /* line 315, ../sass/screen.scss */
-  #homePage header h1 {
+  /* line 314, ../sass/screen.scss */
+  header h1 {
     font-size: 44px;
     margin: 0 0 0 4%;
   }
-  /* line 319, ../sass/screen.scss */
-  #homePage header p {
+  /* line 318, ../sass/screen.scss */
+  header p {
     margin: 24px 4% 0 0;
   }
-  /* line 323, ../sass/screen.scss */
+
+  /* line 325, ../sass/screen.scss */
+  #homePage header {
+    margin: 286px 0 0 0;
+  }
+  /* line 328, ../sass/screen.scss */
   #homePage #libIntro {
     margin: -114px 0 0 17.178%;
   }
-  /* line 327, ../sass/screen.scss */
+  /* line 332, ../sass/screen.scss */
   #homePage footer {
     margin: 66px 0 0 0;
   }
 }
 @media screen and (min-width: 1238px) {
   /* where photoIntro goes to two lines */
-  /* line 336, ../sass/screen.scss */
+  /* line 341, ../sass/screen.scss */
   #homePage p#photoIntro {
     margin: 198px 0 0 34.3558282208589%;
   }
-  /* line 340, ../sass/screen.scss */
+  /* line 345, ../sass/screen.scss */
   #homePage #libIntro {
     margin: -106px 0 0 17.178%;
   }
-  /* line 343, ../sass/screen.scss */
+  /* line 348, ../sass/screen.scss */
   #homePage footer {
     margin: 88px 0 0 0;
   }
 }
 @media screen and (min-width: 1300px) {
-  /* line 354, ../sass/screen.scss */
+  /* line 359, ../sass/screen.scss */
   #homePage #libIntro {
     margin: -118px 0 0 17.178%;
   }
-  /* line 357, ../sass/screen.scss */
+  /* line 362, ../sass/screen.scss */
   #homePage #libHeader {
     top: 460px;
   }
-  /* line 360, ../sass/screen.scss */
+  /* line 365, ../sass/screen.scss */
   #homePage nav#lib {
     top: 506px;
   }
 }
 @media screen and (min-width: 1400px) {
-  /* line 368, ../sass/screen.scss */
-  #homePage header {
-    margin: 308px 0 0 0;
-  }
-  /* line 370, ../sass/screen.scss */
-  #homePage header p {
+  /* line 374, ../sass/screen.scss */
+  header p {
     font-size: 14px;
     margin: 22px 4% 0 0;
   }
-  /* line 375, ../sass/screen.scss */
+
+  /* line 382, ../sass/screen.scss */
+  #homePage header {
+    margin: 308px 0 0 0;
+  }
+  /* line 385, ../sass/screen.scss */
   #homePage #libHeader {
     top: 482px;
   }
-  /* line 378, ../sass/screen.scss */
+  /* line 388, ../sass/screen.scss */
   #homePage nav#lib {
     top: 528px;
   }
-  /* line 381, ../sass/screen.scss */
+  /* line 391, ../sass/screen.scss */
   #homePage footer {
     margin: 110px 0 0 0;
   }
