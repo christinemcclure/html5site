@@ -5,9 +5,10 @@
 
 <body id="homePage">
 
-<section>
+<div class="page">
 
-	<?php include 'includes/headerHome.html'; ?>
+<?php include 'includes/header.html'; ?>
+
   <h2 id="photoHeader">photography</h2>
   <nav id="galleries">
   	<ul>
@@ -39,7 +40,7 @@
   </nav>
 	<?php include 'includes/footer.html'; ?>
 
-</section>
+</div>
 </body>
 
 </html>

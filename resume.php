@@ -1,12 +1,17 @@
-<?php include '/includes/head-stub.html' ?>
+<?php include 'includes/head-stub.html' ?>
 
   <title>Christine McClure -- Resume</title>
 </head>
 
 <body id="resume">
-	<?php include '/includes/header.html'; ?>
-	<?php include '/includes/libNav.html'; ?>
-<section>
+
+<div class="page">
+	
+<?php include 'includes/header.html'; ?>
+<?php include 'includes/nav.html'; ?>
+<?php include 'includes/libNav.html'; ?>
+
+  
   <h2>Experience</h2>
     <h3>Digital Services Librarian</h3>
 	    <p>Illinois Institute of Technology</p>
@@ -183,8 +188,10 @@
       <li>Graphic design</li>
     </ul>
 
-</section>
-<?php include '/includes/footer.html'; ?>
+
+<?php include 'includes/footer.html'; ?>
+</div>
+
 </body>
 
 </html>
