@@ -164,7 +164,7 @@ a:hover {
 /*   ************ MOBILE ***********     */
 /* change to mobile nav */
 /* line 15, ../sass/screen.scss */
-nav ul {
+nav.navButton {
   display: none;
 }
 
@@ -295,8 +295,8 @@ footer p {
 @media screen and (min-width: 1008px) {
   /* change to desktop nav */
   /* line 125, ../sass/screen.scss */
-  nav ul {
-    display: inline-block;
+  nav.navButton {
+    display: block;
   }
 
   /* line 126, ../sass/screen.scss */

@@ -1,6 +1,12 @@
 <?php include 'includes/head-stub.html' ?>
 
   <title>Christine McClure -- About</title>
+<style>
+	ul#navPhoto{
+		display:none;	
+	}
+</style>
+
 </head>
 
 <body id="about">
@@ -9,9 +15,9 @@
 	
 <?php include 'includes/header.html'; ?>
 
-<nav> 
-
-  <ul>
+<nav id="photo" class="navButton">
+	Photography
+  <ul id="navPhoto">
     <li><a href="about.php" class="active">About</a></li>
     <li><a href="pricing.php">Pricing</a></li>
     <li><a href="fine-art.php">Fine Art Gallery</a></li>
@@ -20,7 +26,9 @@
     <li><a href="travel.php">Travel Gallery</a></li>
     <li><a href="contact.php">Contact</a></li>
   </ul> 
+</nav>
 
+<nav>
   <select>
     <option value="" selected="selected">Photography</option> 
 
@@ -32,7 +40,6 @@
     <option value="events.php">Travel Gallery</option>
     <option value="contact.php">Contact</option>
   </select> 
-
 </nav>
 
 
@@ -67,6 +74,20 @@
 </section>
 <?php include 'includes/footer.html'; ?>
 </div>
+
+<script type="text/javascript">
+$(document).ready(function() {
+
+	$('#photo').click(function () {
+		$('ul#navPhoto').slideToggle('medium');
+	});
+	
+	
+	$("nav select").change(function() {
+		window.location = $(this).find("option:selected").val();
+	});
+});
+</script>
 
 </body>
 

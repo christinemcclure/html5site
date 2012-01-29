@@ -12,7 +12,7 @@ body, a {
 /*   ************ MOBILE ***********     */
 	
 /* change to mobile nav */
-  nav ul     { display: none; }
+  nav.navButton    { display: none; }
   nav select { display: inline-block; }
 	
 .page {
@@ -122,7 +122,7 @@ footer {
 @media screen and (min-width: 1008px) {
 
 /* change to desktop nav */
-  nav ul     { display: inline-block;}
+  nav.navButton     { display: block;}
   nav select {  display: none; }
 
 
