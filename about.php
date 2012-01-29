@@ -1,11 +1,6 @@
 <?php include 'includes/head-stub.html' ?>
 
   <title>Christine McClure -- About</title>
-<style>
-	ul#navPhoto{
-		display:none;	
-	}
-</style>
 
 </head>
 
@@ -16,14 +11,24 @@
 <?php include 'includes/header.html'; ?>
 
 <nav id="photo" class="navButton">
-	Photography
-  <ul id="navPhoto">
-    <li><a href="about.php" class="active">About</a></li>
+	<p>Photography</p>
+  <ul id="navPhoto" class="navList">
+    <li><a href="about.php">About</a></li>
     <li><a href="pricing.php">Pricing</a></li>
     <li><a href="fine-art.php">Fine Art Gallery</a></li>
     <li><a href="portraits.php">Portraiture Gallery</a></li>
     <li><a href="events.php">Events Gallery</a></li>
     <li><a href="travel.php">Travel Gallery</a></li>
+    <li><a href="contact.php">Contact</a></li>
+  </ul> 
+</nav>
+
+<nav id="lib" class="navButton">
+	<p>Librarianship</p>
+  <ul id="navLib"  class="navList">
+    <li><a href="resume.php">Resum&eacute;</a></li>
+    <li><a href="portfolio.php">Portfolio</a></li>
+    <li><a href="the-lab.php">The Lab</a></li>
     <li><a href="contact.php">Contact</a></li>
   </ul> 
 </nav>
@@ -42,6 +47,16 @@
   </select> 
 </nav>
 
+<nav>
+  <select>
+    <option value="" selected="selected">Librarianship</option> 
+
+    <option value="resume.php">Resum&eacute;</option>
+    <option value="portfolio.php">Portfolio</option>
+    <option value="the-lab.php">The Lab</option>
+    <option value="contact.php">Contact</option>
+  </select> 
+</nav>
 
 <section>
 	<h1>Exhibitions</h1>
@@ -81,6 +96,10 @@ $(document).ready(function() {
 	$('#photo').click(function () {
 		$('ul#navPhoto').slideToggle('medium');
 	});
+
+	$('#lib').click(function () {
+		$('ul#navLib').slideToggle('medium');
+	});	
 	
 	
 	$("nav select").change(function() {

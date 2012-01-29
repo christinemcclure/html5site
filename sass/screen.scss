@@ -13,7 +13,12 @@ body, a {
 	
 /* change to mobile nav */
   nav.navButton    { display: none; }
-  nav select { display: inline-block; }
+  nav select { 
+		display: inline-block; 
+		float:left;
+		width: 25%;
+		margin: 0 0 $lineHeight 20%;
+	}
 	
 .page {
   width: 90%;
@@ -22,9 +27,11 @@ body, a {
 }
 
 header, h2, h3 {
+	clear:both;
   text-align:center;
 }
 h1 {
+	clear:both;
   font-size: $fontSize+10;
   margin: 0 0 10px 0;
 }
@@ -40,66 +47,67 @@ h2 {
 	margin: $lineHeight 0 $lineHeight 0;
 }
 
-#galleries ul {
-	li {
-  font-size: 12px;
-  width: 20%;
-  margin: 0 0 0 6%;
-  float:left;
-  text-align:center;
-	}
-	
- li:first-child {
-		margin:0;
-	}
-	
-}
 
-#photoIntro {
-	clear:both;
-	margin: 134px 0 $lineHeight 0;
-}
-
-nav#photo, nav#lib {
-	clear:both;
-	li {
-	  font-size: $fontSize;
-		float: left;
- 		width: 30%;
-		margin: 0 0 $lineHeight*2 5%;
-		text-align:center;
-		 a {
-				padding: 6px 12px;
-				background: #ccc;
-		 }
-	}
-	 li:first-child {
-		margin:0;
-	}
-}
-
-nav#lib {
-	li {
-		font-size:11px;
+	#galleries ul {
+		li {
+		font-size: 12px;
 		width: 20%;
-		margin: 0 0 $lineHeight*2 6%;
-		 a {
-				padding: 6px 8px;
-		 }
+		margin: 0 0 0 6%;
+		float:left;
+		text-align:center;
+		}
+		
+	 li:first-child {
+			margin:0;
+		}
+		
 	}
-	li:first-child {
-		margin:0;
+	
+	#photoIntro {
+		clear:both;
+		margin: 134px 0 $lineHeight 0;
 	}
-}
-#libFigure {
-  width: 20%;
-  margin: 0 6% 0 0;
-	float:left;
-}
-
-#libIntro {
-	margin: 0 0 $lineHeight*2 0;
-}
+	
+	nav#photo, nav#lib {
+		clear:both;
+		li {
+			font-size: $fontSize;
+			float: left;
+			width: 30%;
+			margin: 0 0 $lineHeight*2 5%;
+			text-align:center;
+			 a {
+					padding: 6px 12px;
+					background: #ccc;
+			 }
+		}
+		 li:first-child {
+			margin:0;
+		}
+	}
+	
+	nav#lib {
+		li {
+			font-size:11px;
+			width: 20%;
+			margin: 0 0 $lineHeight*2 6%;
+			 a {
+					padding: 6px 8px;
+			 }
+		}
+		li:first-child {
+			margin:0;
+		}
+	}
+	#libFigure {
+		width: 20%;
+		margin: 0 6% 0 0;
+		float:left;
+	}
+	
+	#libIntro {
+		margin: 0 0 $lineHeight*2 0;
+	}
 
 footer {
 	clear:both;
@@ -122,9 +130,29 @@ footer {
 @media screen and (min-width: 1008px) {
 
 /* change to desktop nav */
-  nav.navButton     { display: block;}
   nav select {  display: none; }
 
+	ul.navList{
+		display:none;	
+	}
+	
+	nav#photo.navButton, nav#lib.navButton {
+		display:inline-block;
+		cursor:pointer;
+		width:30%;
+		li {
+			/*width: 138px;*/
+			width: 100%;
+			text-align:left;
+			float:none;
+			margin:5px 0;
+			a {
+				padding: 0;
+				background:none;
+			}
+		}
+	}
+	
 
 	body{
 		margin: $lineHeight*2 0 0 0;

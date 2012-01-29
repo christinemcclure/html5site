@@ -1,0 +1,101 @@
+<!DOCTYPE html >
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Sliding Menu Tutorial | HV-DESIGNS.CO.UK</title>
+<style>
+
+body {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+}
+
+#container {
+	margin: auto;
+	width: 80%;
+}
+
+#header {
+	background-image: url(images/header.png);
+	background-repeat: no-repeat;
+	height: 42px;
+	width: 490px;
+	margin-bottom: 20px;
+}
+
+#button {
+	height: 32px;
+	width: 184px;
+	margin: auto;
+}
+
+ul, li {
+	margin:0; 
+	padding:0; 
+	list-style:none;
+}
+
+.menu_class {
+	border:1px solid #1c1c1c;
+}
+
+.the_menu {
+	display:none;
+	width:300px;
+	border: 1px solid #1c1c1c;
+}
+
+.the_menu li {
+	background-color: #302f2f;
+}
+
+.the_menu li a {
+	color:#FFFFFF; 
+	text-decoration:none; 
+	padding:10px; 
+	display:block;
+}
+
+.the_menu li a:hover {
+	padding:10px;
+	font-weight:bold;
+	color: #F00880;
+}
+
+</style>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+
+</head>
+
+<body>
+<div id="container">
+<div id="header">
+</div>
+
+<div id="button">
+<img src="testButton.png" width="184" height="32" class="menu_class" />
+<ul class="the_menu">
+<li><a href="#">A Website #1</a></li>
+<li><a href="#">A Website #2</a></li>
+<li><a href="#">A Link #1</a></li>
+<li><a href="#">A Link #2</a></li>
+<li><a href="#">A Website #3</a></li>
+<li><a href="#">A Website #4</a></li>
+<li><a href="#">A Link #3</a></li>
+<li><a href="#">A Link #4</a></li>
+</ul>
+</div>
+
+</div>
+
+
+<script type="text/javascript">
+$(document).ready(function () {
+
+    $('img.menu_class').click(function () {
+	$('ul.the_menu').slideToggle('medium');
+    });
+});
+</script>
+</body>
+</html>
