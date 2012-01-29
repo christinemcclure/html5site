@@ -12,6 +12,8 @@ TO DO:
 
 5. Change URLS from relative to absolute
 
+6. Add accessibility factors
+
 
 
 
