@@ -6,9 +6,11 @@ TO DO:
 
 2. Make tablet and mobile versions
 
-3. Rest of site pages
+3. Navigation changes for mobile
 
 4. Experiment with jQuery accessible plugin -- make responsive (separate repo). 
+
+5. Change URLS from relative to absolute
 
 
 

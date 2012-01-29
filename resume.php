@@ -8,9 +8,6 @@
 <div class="page">
 	
 <?php include 'includes/header.html'; ?>
-<?php include 'includes/nav.html'; ?>
-<?php include 'includes/libNav.html'; ?>
-
   
   <h2>Experience</h2>
     <h3>Digital Services Librarian</h3>
