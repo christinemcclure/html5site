@@ -11,6 +11,9 @@ body, a {
 
 /*   ************ MOBILE ***********     */
 	
+/* change to mobile nav */
+  nav ul     { display: none; }
+  nav select { display: inline-block; }
 	
 .page {
   width: 90%;
@@ -117,6 +120,11 @@ footer {
 }
 
 @media screen and (min-width: 1008px) {
+
+/* change to desktop nav */
+  nav ul     { display: inline-block;}
+  nav select {  display: none; }
+
 
 	body{
 		margin: $lineHeight*2 0 0 0;

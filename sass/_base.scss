@@ -70,12 +70,6 @@ nav {
 ########### For Baselind Grid ##########
 ########################################
 */
-
-/*
-########################################
-########### For Baselind Grid ##########
-########################################
-*/
 /* line 58, ../sass/_base.scss */
 .t22 {
   font-size: 14px;
@@ -103,5 +97,9 @@ body {
 }
 
 
+/* hide mobile nav at first */
 
+nav select {
+	display:none
+}
 

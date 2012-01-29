@@ -8,6 +8,34 @@
 <div class="page">
 	
 <?php include 'includes/header.html'; ?>
+
+<nav> 
+
+  <ul>
+    <li><a href="about.php" class="active">About</a></li>
+    <li><a href="pricing.php">Pricing</a></li>
+    <li><a href="fine-art.php">Fine Art Gallery</a></li>
+    <li><a href="portraits.php">Portraiture Gallery</a></li>
+    <li><a href="events.php">Events Gallery</a></li>
+    <li><a href="travel.php">Travel Gallery</a></li>
+    <li><a href="contact.php">Contact</a></li>
+  </ul> 
+
+  <select>
+    <option value="" selected="selected">Photography</option> 
+
+    <option value="about.php">About</option>
+    <option value="pricing.php">Pricing</option>
+    <option value="fine-art.php">Fine Art Gallery</option>
+    <option value="portraits.php">Portraiture Gallery</option>
+    <option value="events.php">Events Gallery</option>
+    <option value="events.php">Travel Gallery</option>
+    <option value="contact.php">Contact</option>
+  </select> 
+
+</nav>
+
+
 <section>
 	<h1>Exhibitions</h1>
   
