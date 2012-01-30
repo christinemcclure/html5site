@@ -10,9 +10,9 @@
 	
 <?php include 'includes/header.html'; ?>
 
-<nav id="photo" class="navButton">
-	<p>Photography</p>
-  <ul id="navPhoto" class="navList">
+  <nav class="navButton">
+    <p id="photo">Photography</p>
+    <ul id="photoNav" class="navList">
     <li><a href="about.php">About</a></li>
     <li><a href="pricing.php">Pricing</a></li>
     <li><a href="fine-art.php">Fine Art Gallery</a></li>
@@ -20,18 +20,18 @@
     <li><a href="events.php">Events Gallery</a></li>
     <li><a href="travel.php">Travel Gallery</a></li>
     <li><a href="contact.php">Contact</a></li>
-  </ul> 
-</nav>
+    </ul>
+  </nav>
 
-<nav id="lib" class="navButton">
-	<p>Librarianship</p>
-  <ul id="navLib"  class="navList">
+  <nav class="navButton">
+    <p id="lib">Librarianship</p>
+    <ul id="libNav" class="navList">
     <li><a href="resume.php">Resum&eacute;</a></li>
     <li><a href="portfolio.php">Portfolio</a></li>
     <li><a href="the-lab.php">The Lab</a></li>
     <li><a href="contact.php">Contact</a></li>
-  </ul> 
-</nav>
+    </ul>
+  </nav>
 
 <nav>
   <select>
@@ -93,13 +93,13 @@
 <script type="text/javascript">
 $(document).ready(function() {
 
-	$('#photo').click(function () {
-		$('ul#navPhoto').slideToggle('medium');
+	$('p#photo').click(function () {
+		$('ul#photoNav').toggle('medium');
 	});
 
-	$('#lib').click(function () {
-		$('ul#navLib').slideToggle('medium');
-	});	
+	$('p#lib').click(function () {
+		$('ul#libNav').toggle('medium');
+	});
 	
 	
 	$("nav select").change(function() {

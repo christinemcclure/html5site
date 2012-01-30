@@ -132,27 +132,24 @@ footer {
 /* change to desktop nav */
   nav select {  display: none; }
 
-	ul.navList{
-		display:none;	
-	}
 	
-	nav#photo.navButton, nav#lib.navButton {
-		display:inline-block;
-		margin: 50px 0 0 0;
+	nav.navButton {
+		display:block;
+		width: 14.11042944785276%;
+		float:left;
+		text-align:right;
+		margin: 10px 0 22px 0;
 		cursor:pointer;
-		width:30%;
-		background:yellow;
-		li {
-			/*width: 138px;*/
-			width: 100%;
-			text-align:left;
-			float:none;
-			margin:5px 0;
-			a {
-				padding: 0;
-				background:none;
+		
+		.navList {
+			width: 1000px;
+			display:none;
+			li {
+				float:left;
+				margin: 0 54px 0 0;
 			}
 		}
+
 	}
 	
 
