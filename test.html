@@ -5,55 +5,18 @@
 <title>Sliding Menu Tutorial | HV-DESIGNS.CO.UK</title>
 <style>
 
-body {
-	font-family:Arial, Helvetica, sans-serif;
-	font-size:12px;
-}
-
-#container {
-	width: 80%;
-}
-
-
-.button {
-	height: 32px;
-	width: 184px;
-	margin: 20px 100px;
+.navButton {
+	width: 200px;
 	float:left;
+	cursor:pointer;
 }
 
-ul, li {
-	margin:0; 
-	padding:0; 
-	list-style:none;
-}
 
-.menu_class {
-	border:1px solid #1c1c1c;
-}
-
-.the_menu {
+.navList {
 	display:none;
-	width:300px;
-	border: 1px solid #1c1c1c;
 }
 
-.the_menu li {
-	background-color: #302f2f;
-}
 
-.the_menu li a {
-	color:#FFFFFF; 
-	text-decoration:none; 
-	padding:10px; 
-	display:block;
-}
-
-.the_menu li a:hover {
-	padding:10px;
-	font-weight:bold;
-	color: #F00880;
-}
 
 </style>
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
@@ -62,36 +25,30 @@ ul, li {
 
 <body>
 <div id="container">
-  
-  <div class="button">
-    <p id="one" class="menu_class">Photography</p>
-    <ul id="ulone" class="the_menu">
-    <li><a href="#">A Website #1</a></li>
-    <li><a href="#">A Website #2</a></li>
-    <li><a href="#">A Link #1</a></li>
-    <li><a href="#">A Link #2</a></li>
-    <li><a href="#">A Website #3</a></li>
-    <li><a href="#">A Website #4</a></li>
-    <li><a href="#">A Link #3</a></li>
-    <li><a href="#">A Link #4</a></li>
-    </ul>
-  </div>
 
-  
-  <div class="button">
-    <p id="two" class="menu_class">Librarianship</p>
-    <ul id="ultwo" class="the_menu">
-    <li><a href="#">A Website #1</a></li>
-    <li><a href="#">A Website #2</a></li>
-    <li><a href="#">A Link #1</a></li>
-    <li><a href="#">A Link #2</a></li>
-    <li><a href="#">A Website #3</a></li>
-    <li><a href="#">A Website #4</a></li>
-    <li><a href="#">A Link #3</a></li>
-    <li><a href="#">A Link #4</a></li>
-    </ul>
-  </div>
 
+  <nav class="navButton">
+    <p id="photo">Photography</p>
+    <ul id="photoNav" class="navList">
+    <li><a href="about.php">About</a></li>
+    <li><a href="pricing.php">Pricing</a></li>
+    <li><a href="fine-art.php">Fine Art Gallery</a></li>
+    <li><a href="portraits.php">Portraiture Gallery</a></li>
+    <li><a href="events.php">Events Gallery</a></li>
+    <li><a href="travel.php">Travel Gallery</a></li>
+    <li><a href="contact.php">Contact</a></li>
+    </ul>
+  </nav>
+
+  <nav class="navButton">
+    <p id="lib">Librarianship</p>
+    <ul id="libNav" class="navList">
+    <li><a href="resume.php">Resum&eacute;</a></li>
+    <li><a href="portfolio.php">Portfolio</a></li>
+    <li><a href="the-lab.php">The Lab</a></li>
+    <li><a href="contact.php">Contact</a></li>
+    </ul>
+  </nav>
 
 </div>
 
@@ -99,12 +56,12 @@ ul, li {
 <script type="text/javascript">
 $(document).ready(function () {
 
-	$('p#one').click(function () {
-		$('ul#ulone').slideToggle('medium');
+	$('p#photo').click(function () {
+		$('ul#photoNav').slideToggle('medium');
 	});
 
-	$('p#two').click(function () {
-		$('ul#ultwo').slideToggle('medium');
+	$('p#lib').click(function () {
+		$('ul#libNav').slideToggle('medium');
 	});
 	
 	
