@@ -11,22 +11,15 @@ body {
 }
 
 #container {
-	margin: auto;
 	width: 80%;
 }
 
-#header {
-	background-image: url(images/header.png);
-	background-repeat: no-repeat;
-	height: 42px;
-	width: 490px;
-	margin-bottom: 20px;
-}
 
-#button {
+.button {
 	height: 32px;
 	width: 184px;
-	margin: auto;
+	margin: 20px 100px;
+	float:left;
 }
 
 ul, li {
@@ -69,22 +62,36 @@ ul, li {
 
 <body>
 <div id="container">
-<div id="header">
-</div>
+  
+  <div class="button">
+    <p id="one" class="menu_class">Photography</p>
+    <ul id="ulone" class="the_menu">
+    <li><a href="#">A Website #1</a></li>
+    <li><a href="#">A Website #2</a></li>
+    <li><a href="#">A Link #1</a></li>
+    <li><a href="#">A Link #2</a></li>
+    <li><a href="#">A Website #3</a></li>
+    <li><a href="#">A Website #4</a></li>
+    <li><a href="#">A Link #3</a></li>
+    <li><a href="#">A Link #4</a></li>
+    </ul>
+  </div>
 
-<div id="button">
-<img src="testButton.png" width="184" height="32" class="menu_class" />
-<ul class="the_menu">
-<li><a href="#">A Website #1</a></li>
-<li><a href="#">A Website #2</a></li>
-<li><a href="#">A Link #1</a></li>
-<li><a href="#">A Link #2</a></li>
-<li><a href="#">A Website #3</a></li>
-<li><a href="#">A Website #4</a></li>
-<li><a href="#">A Link #3</a></li>
-<li><a href="#">A Link #4</a></li>
-</ul>
-</div>
+  
+  <div class="button">
+    <p id="two" class="menu_class">Librarianship</p>
+    <ul id="ultwo" class="the_menu">
+    <li><a href="#">A Website #1</a></li>
+    <li><a href="#">A Website #2</a></li>
+    <li><a href="#">A Link #1</a></li>
+    <li><a href="#">A Link #2</a></li>
+    <li><a href="#">A Website #3</a></li>
+    <li><a href="#">A Website #4</a></li>
+    <li><a href="#">A Link #3</a></li>
+    <li><a href="#">A Link #4</a></li>
+    </ul>
+  </div>
+
 
 </div>
 
@@ -92,9 +99,15 @@ ul, li {
 <script type="text/javascript">
 $(document).ready(function () {
 
-    $('img.menu_class').click(function () {
-	$('ul.the_menu').slideToggle('medium');
-    });
+	$('p#one').click(function () {
+		$('ul#ulone').slideToggle('medium');
+	});
+
+	$('p#two').click(function () {
+		$('ul#ultwo').slideToggle('medium');
+	});
+	
+	
 });
 </script>
 </body>

@@ -138,8 +138,10 @@ footer {
 	
 	nav#photo.navButton, nav#lib.navButton {
 		display:inline-block;
+		margin: 50px 0 0 0;
 		cursor:pointer;
 		width:30%;
+		background:yellow;
 		li {
 			/*width: 138px;*/
 			width: 100%;
