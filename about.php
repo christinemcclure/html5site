@@ -9,29 +9,30 @@
 <div class="page">
 	
 <?php include 'includes/header.html'; ?>
+<nav>
+	<ul class="mainNav navList">
+  	<li id="photo">Photography</li>
+  	<li id="lib">Librarianship</li>
+  </ul>    
 
-  <nav class="navButton">
-    <p id="photo">Photography</p>
-    <ul id="photoNav" class="navList">
+   <ul id="photoNav" class="navList">
     <li><a href="about.php">About</a></li>
     <li><a href="pricing.php">Pricing</a></li>
-    <li><a href="fine-art.php">Fine Art Gallery</a></li>
-    <li><a href="portraits.php">Portraiture Gallery</a></li>
-    <li><a href="events.php">Events Gallery</a></li>
-    <li><a href="travel.php">Travel Gallery</a></li>
+    <li><a href="fine-art.php">Fine Art</a></li>
+    <li><a href="portraits.php">Portraiture</a></li>
+    <li><a href="events.php">Events</a></li>
+    <li><a href="travel.php">Travel</a></li>
     <li><a href="contact.php">Contact</a></li>
-    </ul>
+  </ul>
   </nav>
 
-  <nav class="navButton">
-    <p id="lib">Librarianship</p>
-    <ul id="libNav" class="navList">
+  <ul id="libNav" class="navList">
     <li><a href="resume.php">Resum&eacute;</a></li>
     <li><a href="portfolio.php">Portfolio</a></li>
     <li><a href="the-lab.php">The Lab</a></li>
     <li><a href="contact.php">Contact</a></li>
-    </ul>
-  </nav>
+  </ul>
+</nav>
 
 <nav>
   <select>
@@ -93,11 +94,13 @@
 <script type="text/javascript">
 $(document).ready(function() {
 
-	$('p#photo').click(function () {
+	$('li#photo').click(function () {
+		$('ul#libNav').hide();
 		$('ul#photoNav').toggle('medium');
 	});
 
-	$('p#lib').click(function () {
+	$('li#lib').click(function () {
+		$('ul#photoNav').hide();
 		$('ul#libNav').toggle('medium');
 	});
 	

@@ -132,33 +132,26 @@ footer {
 /* change to desktop nav */
   nav select {  display: none; }
 
-	
-	nav.navButton {
-		display:block;
-		width: 14.11042944785276%;
-		float:left;
-		text-align:right;
-		margin: 10px 0 22px 0;
-		cursor:pointer;
-		
-		.navList {
-			width: 1000px;
-			display:none;
-			li {
-				float:left;
-				margin: 0 54px 0 0;
-			}
-		}
-
-	}
-	
-
 	body{
 		margin: $lineHeight*2 0 0 0;
     background:  $backgroundLight url('/img/scrollLight.png');  
 	}
+	.navList li {
+		width:168px;
+		float:left;
+		cursor:pointer;
+	}
+	#photoNav, #libNav {
+		display:none;
+		width: 100%;
+		position:absolute;
+		top: 150px;
+		margin: 0 0 $lineHeight 0;
+	}	
 
-
+	section {
+		margin: 100px 0 0 0;
+	}
   .page {
     /* width: 978px; Total with works out to 1008, but need more for padding*/
 		background: #fff; 
