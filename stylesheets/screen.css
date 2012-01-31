@@ -1,4 +1,4 @@
-/* line 17, ../../../RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 17, C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -20,49 +20,50 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
-/* line 20, ../../../RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 20, C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 body {
   line-height: 1;
 }
 
-/* line 22, ../../../RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 22, C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 24, ../../../RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 24, C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 26, ../../../RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 26, C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle;
 }
 
-/* line 28, ../../../RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 28, C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
   quotes: none;
 }
-/* line 101, ../../../RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 101, C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q:before, q:after, blockquote:before, blockquote:after {
   content: "";
   content: none;
 }
 
-/* line 30, ../../../RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 30, C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 a img {
   border: none;
 }
 
-/* line 114, ../../../RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 114, C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
   display: block;
 }
 
+/* may need to move this to css3 file */
 /* 
 
 ####################################################### 
@@ -74,44 +75,44 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 /* dark grey */
 /* slightly darker grey */
 /* medium grey */
-/* line 19, ../sass/_base.scss */
+/* line 19, C:/xampp/htdocs/sass/_base.scss */
 img {
   max-width: 100%;
 }
 
 /* for responsive images */
-/* line 22, ../sass/_base.scss */
+/* line 22, C:/xampp/htdocs/sass/_base.scss */
 #content {
   margin: 0px auto;
 }
 
-/* line 26, ../sass/_base.scss */
+/* line 26, C:/xampp/htdocs/sass/_base.scss */
 .accessibility, .hideForm, .hidden {
   display: none;
 }
 
-/* line 48, ../sass/_base.scss */
+/* line 48, C:/xampp/htdocs/sass/_base.scss */
 h1, h2, h3, h4, h5, h6, li a p {
   font-family: "Michroma", Verdana, Arial, sans-serif;
 }
 
-/* line 52, ../sass/_base.scss */
+/* line 52, C:/xampp/htdocs/sass/_base.scss */
 h1, h2, h3, h4, h5, h6 {
   font-weight: 900;
 }
 
-/* line 56, ../sass/_base.scss */
+/* line 56, C:/xampp/htdocs/sass/_base.scss */
 p, ul li {
   font-family: "Questrial", Verdana, Arial, sans-serif;
 }
 
-/* line 60, ../sass/_base.scss */
+/* line 60, C:/xampp/htdocs/sass/_base.scss */
 a {
   text-decoration: none;
   /*Lose underlining on links to make grid easier to see*/
 }
 
-/* line 64, ../sass/_base.scss */
+/* line 64, C:/xampp/htdocs/sass/_base.scss */
 nav {
   font-family: "Questrial", Verdana, Arial, sans-serif;
 }
@@ -122,31 +123,31 @@ nav {
 ########################################
 */
 /* line 58, ../sass/_base.scss */
-/* line 74, ../sass/_base.scss */
+/* line 74, C:/xampp/htdocs/sass/_base.scss */
 .t22 {
   font-size: 14px;
   line-height: 22px;
-  /* background-image: url("img/22px-baseline.png"); */
+  background-image: url("img/22px-baseline.png");
 }
 
 /* line 66, ../sass/_base.scss */
-/* line 81, ../sass/_base.scss */
+/* line 81, C:/xampp/htdocs/sass/_base.scss */
 .g978 #page {
   width: 300px;
   /*Total width works out to 312px*/
   padding: 0px 6px 0px 6px;
-  /*  background-image: url("img/300px-6-27-6-8c.png"); */
+  background-image: url("img/300px-6-27-6-8c.png");
 }
 
 /* from baseline grid .t22 class */
-/* line 94, ../sass/_base.scss */
+/* line 94, C:/xampp/htdocs/sass/_base.scss */
 body {
   font-size: 14px;
   line-height: 22px;
 }
 
 /* hide mobile nav at first */
-/* line 102, ../sass/_base.scss */
+/* line 102, C:/xampp/htdocs/sass/_base.scss */
 nav select {
   display: none;
 }
@@ -294,7 +295,7 @@ footer p {
     /*Total width works out to 768px*/
     padding: 0px 10px 0px 10px;
     /* for columns */
-    /* background-image: url('img/748px-10-44-10-12c.png');   */
+    background-image: url("img/748px-10-44-10-12c.png");
   }
 }
 @media screen and (min-width: 1008px) {
@@ -307,7 +308,7 @@ footer p {
   /* line 135, ../sass/screen.scss */
   body {
     margin: 44px 0 0 0;
-    background: #fafafa url("/img/scrollLight.png");
+    /*    background:  $backgroundLight url('/img/scrollLight.png');  */
   }
 
   /* line 139, ../sass/screen.scss */
@@ -344,7 +345,7 @@ footer p {
   /* line 160, ../sass/screen.scss */
   .page {
     /* width: 978px; Total with works out to 1008, but need more for padding*/
-    background: #fff;
+    /*		background: #fff; */
     width: 86%;
     padding: 22px 37px 22px 37px;
     /* added 22px to each for background (change 15 to 37 later after grid is gone)*/
@@ -357,7 +358,7 @@ footer p {
     position: relative;
     margin: 0 auto;
     /*width: 978px; */
-    background: #4d4d4d url("/img/scrollDark.png");
+    /*			background: $backgroundDark  url('/img/scrollDark.png');  */
     color: #fff;
   }
   /* line 175, ../sass/screen.scss */

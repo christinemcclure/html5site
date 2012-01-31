@@ -24,7 +24,7 @@
     <li><a href="travel.php">Travel</a></li>
     <li><a href="contact.php">Contact</a></li>
   </ul>
-  </nav>
+
 
   <ul id="libNav" class="navList">
     <li><a href="resume.php">Resum&eacute;</a></li>

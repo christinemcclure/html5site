@@ -63,6 +63,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   display: block;
 }
 
+/* may need to move this to css3 file */
 /* 
 
 ####################################################### 
@@ -126,7 +127,7 @@ nav {
 .t22 {
   font-size: 14px;
   line-height: 22px;
-  /* background-image: url("img/22px-baseline.png"); */
+  background-image: url("img/22px-baseline.png");
 }
 
 /* line 66, ../sass/_base.scss */
@@ -135,7 +136,7 @@ nav {
   width: 300px;
   /*Total width works out to 312px*/
   padding: 0px 6px 0px 6px;
-  /*  background-image: url("img/300px-6-27-6-8c.png"); */
+  background-image: url("img/300px-6-27-6-8c.png");
 }
 
 /* from baseline grid .t22 class */
