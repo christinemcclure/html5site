@@ -98,13 +98,15 @@ $(document).ready(function() {
 	$('#libNav').hide();
 
 	$('li#photo').click(function () {
+		$(this).addClass('activeNav');
 		$('ul#libNav').hide();
-		$('ul#photoNav').toggle('medium');
+		$('ul#photoNav').fadeToggle('slow', 'linear');
 	});
 
 	$('li#lib').click(function () {
+		$(this).addClass('activeNav');
 		$('ul#photoNav').hide();
-		$('ul#libNav').toggle('medium');
+		$('ul#libNav').fadeToggle('slow', 'linear');
 	});
 	
 	

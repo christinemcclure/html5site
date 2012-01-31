@@ -119,10 +119,10 @@ footer {
 
 @media screen and (min-width: 760px) {
   .page {
-		width: 748px; /*Total width works out to 768px*/
-		padding: 0px 10px 0px 10px;
+		width: 748px; /*Total width works out to 768px*/	
 		/* for columns */
-		 background-image: url('img/748px-10-44-10-12c.png');  
+		padding: 0px 10px 0px 10px;
+		background-image: url('img/748px-10-44-10-12c.png'); 
 	}
 
 }
@@ -136,22 +136,30 @@ footer {
 		margin: $lineHeight*2 0 0 0;
 /*    background:  $backgroundLight url('/img/scrollLight.png');  */
 	}
-	.navList li {
-		width:150px;
+	.navList {
+		li {
+		width: 108px;
+		font-size: $fontSize+2;
 		float:left;
 		cursor:pointer;
+		margin: 0;
+		}
+		li:last-child {margin-left: 20px;}
 	}
 	#photoNav, #libNav {
-		width: 100%;
 		position:absolute;
-		top: 154px; /* change this to column later */
-		margin: 0 0 $lineHeight 0;
+		top: $lineHeight*7; /* change this to column later */
+		li {
+			width:108px;
+			font-size: 14px;
+			margin: 0 20px $lineHeight 0;
+			text-align:center;
+		}
+		li:last-child {margin-left:0;}
 	}	
 	#libNav {
-		width: 100%;
-		position:absolute;
-		top: 150px + $lineHeight; /* don't have overlap in case JS is turned off */
-		margin: 0 0 $lineHeight 150px;	/* change this to column later */
+		top: $lineHeight*7; /* don't have overlap in case JS is turned off */
+		margin: 0 0 $lineHeight 60px;	/* left margin to keep from interfering with photo nav and no JS */
 	}
 
 	section {
@@ -160,16 +168,16 @@ footer {
   .page {
     /* width: 978px; Total with works out to 1008, but need more for padding*/
 /*		background: #fff; */
-		width: 86%;
+		width: 86%; 
     padding: $lineHeight 37px $lineHeight 37px; /* added 22px to each for background (change 15 to 37 later after grid is gone)*/
+		padding: $lineHeight 10px $lineHeight 10px;
 
 		header {
 			overflow: auto;
 			width: 100%;
-			position: relative;
 			margin: 0 auto;
 			/*width: 978px; */
-/*			background: $backgroundDark  url('/img/scrollDark.png');  */
+			background: $backgroundDark  url('/img/scrollDark.png');  
 			color:#fff;
 
 			h1 {
