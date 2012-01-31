@@ -1,6 +1,74 @@
-    <nav id="main">
-    	<ul>
-      	<li>Photography</li>
-      	<li>Librarianship</li>
-      </ul>
-    </nav>
+<nav>
+	<ul class="mainNav navList">
+  	<li id="photo">Photography</li>
+  	<li id="lib">Librarianship</li>
+  </ul>    
+
+   <ul id="photoNav" class="navList">
+    <li><a href="about.php">About</a></li>
+    <li><a href="pricing.php">Pricing</a></li>
+    <li><a href="fine-art.php">Fine Art</a></li>
+    <li><a href="portraits.php">Portraiture</a></li>
+    <li><a href="events.php">Events</a></li>
+    <li><a href="travel.php">Travel</a></li>
+    <li><a href="contact.php">Contact</a></li>
+  </ul>
+
+
+  <ul id="libNav" class="navList">
+    <li><a href="resume.php">Resum&eacute;</a></li>
+    <li><a href="portfolio.php">Portfolio</a></li>
+    <li><a href="the-lab.php">The Lab</a></li>
+    <li><a href="contact.php">Contact</a></li>
+  </ul>
+</nav>
+
+<nav>
+  <select>
+    <option value="" selected="selected">Photography</option> 
+
+    <option value="about.php">About</option>
+    <option value="pricing.php">Pricing</option>
+    <option value="fine-art.php">Fine Art Gallery</option>
+    <option value="portraits.php">Portraiture Gallery</option>
+    <option value="events.php">Events Gallery</option>
+    <option value="events.php">Travel Gallery</option>
+    <option value="contact.php">Contact</option>
+  </select> 
+</nav>
+
+<nav>
+  <select>
+    <option value="" selected="selected">Librarianship</option> 
+
+    <option value="resume.php">Resum&eacute;</option>
+    <option value="portfolio.php">Portfolio</option>
+    <option value="the-lab.php">The Lab</option>
+    <option value="contact.php">Contact</option>
+  </select> 
+</nav>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	
+	$('#photoNav').hide();
+	$('#libNav').hide();
+
+	$('li#photo').click(function () {
+		$(this).addClass('activeNav');
+		$('ul#libNav').hide();
+		$('ul#photoNav').fadeToggle('slow', 'linear');
+	});
+
+	$('li#lib').click(function () {
+		$(this).addClass('activeNav');
+		$('ul#photoNav').hide();
+		$('ul#libNav').fadeToggle('slow', 'linear');
+	});
+	
+	
+	$("nav select").change(function() {
+		window.location = $(this).find("option:selected").val();
+	});
+});
+</script>

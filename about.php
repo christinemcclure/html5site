@@ -9,75 +9,31 @@
 <div class="page">
 	
 <?php include 'includes/header.html'; ?>
-<nav>
-	<ul class="mainNav navList">
-  	<li id="photo">Photography</li>
-  	<li id="lib">Librarianship</li>
-  </ul>    
-
-   <ul id="photoNav" class="navList">
-    <li><a href="about.php">About</a></li>
-    <li><a href="pricing.php">Pricing</a></li>
-    <li><a href="fine-art.php">Fine Art</a></li>
-    <li><a href="portraits.php">Portraiture</a></li>
-    <li><a href="events.php">Events</a></li>
-    <li><a href="travel.php">Travel</a></li>
-    <li><a href="contact.php">Contact</a></li>
-  </ul>
-
-
-  <ul id="libNav" class="navList">
-    <li><a href="resume.php">Resum&eacute;</a></li>
-    <li><a href="portfolio.php">Portfolio</a></li>
-    <li><a href="the-lab.php">The Lab</a></li>
-    <li><a href="contact.php">Contact</a></li>
-  </ul>
-</nav>
-
-<nav>
-  <select>
-    <option value="" selected="selected">Photography</option> 
-
-    <option value="about.php">About</option>
-    <option value="pricing.php">Pricing</option>
-    <option value="fine-art.php">Fine Art Gallery</option>
-    <option value="portraits.php">Portraiture Gallery</option>
-    <option value="events.php">Events Gallery</option>
-    <option value="events.php">Travel Gallery</option>
-    <option value="contact.php">Contact</option>
-  </select> 
-</nav>
-
-<nav>
-  <select>
-    <option value="" selected="selected">Librarianship</option> 
-
-    <option value="resume.php">Resum&eacute;</option>
-    <option value="portfolio.php">Portfolio</option>
-    <option value="the-lab.php">The Lab</option>
-    <option value="contact.php">Contact</option>
-  </select> 
-</nav>
+<?php include 'includes/nav.html'; ?>
 
 <section>
 	<h1>Exhibitions</h1>
   
     <h2>Portals</h2>
-    <img class="floatRight" src="/img/fineart/portal.png" alt="construction of portal frame." /><p>This exhibit explored how people experience art. The images were encased in self-lit 6 x 6" boxes, with a large plastic loupe (magnifying glass) mounted to the top. Rather than discretely passing by the images, viewers had to walk directly up to them and peer inside. The images were arranged in groups of three, and let users explore alternate worlds of religion, nature and mythology.</p>
-    <p><a href="fine-art.php">View gallery</a></p>
+    <h3>Looptopia, Chicago IL. May 2007</h3>
+    <img class="floatRight" src="/img/fineart/portal.png" alt="construction of portal frame." /><p>This exhibit explored how people experience art. The images were encased in self-lit 6 x 6" boxes, with a large plastic loupe (magnifying glass) mounted to the top. Rather than discretely passing by the images, viewers had to walk directly up to them and peer inside. The images were arranged in groups of three, and let users explore alternate worlds of religion, nature and mythology. <a href="fine-art.php">View gallery.</a> </p>
 
-    <h2>Retrospective Gallery 302, Chicago IL. August 2004</h2>
+    <h2>Retrospective</h2> 
+    <h3>Gallery 302, Chicago IL. August 2004</h3>
 		<p>This exhibit showcased my favorite digital and silver gelatin prints, including the new piece "Persephone's Garden."</p>
     
-		<h2>Untitled Around the Coyote Festival, Chicago IL. September 2003</h2>
+		<h2>Untitled</h2> 
+    <h3>Around the Coyote Festival, Chicago IL. September 2003</h3>
 		<p>Assorted silver gelatin prints</p>
 
-		<h2>180 Minutes: Residency Program Exhibition, Vital Projects gallery, Chicago IL. February 2003</h2>
+		<h2>180 Minutes</h2>
+    <h3>Residency Program Exhibition, Vital Projects gallery, Chicago IL. February 2003</h3>
 
 		<p>This exhibit was a visual representation of living with illness. 9x9" Silver gelatin prints were mounted between sheets of plexiglass, and digital images (also between plexiglass) printed on transparent film were "floated" above the prints using plastic tubing to keep the two images apart.</p>
 		<p>The prints showed the external word, while the transparencies showed the internal.</p>
 
-		<h2>Untitled Around the Coyote Festival, Chicago IL. August 2002</h2>
+		<h2>Untitled</h2> 
+    <h3>Around the Coyote Festival, Chicago IL. August 2002</h3>
 		<p>Assorted silver gelatin prints</p>
 </section>
 <section>
@@ -91,30 +47,7 @@
 <?php include 'includes/footer.html'; ?>
 </div>
 
-<script type="text/javascript">
-$(document).ready(function() {
-	
-	$('#photoNav').hide();
-	$('#libNav').hide();
 
-	$('li#photo').click(function () {
-		$(this).addClass('activeNav');
-		$('ul#libNav').hide();
-		$('ul#photoNav').fadeToggle('slow', 'linear');
-	});
-
-	$('li#lib').click(function () {
-		$(this).addClass('activeNav');
-		$('ul#photoNav').hide();
-		$('ul#libNav').fadeToggle('slow', 'linear');
-	});
-	
-	
-	$("nav select").change(function() {
-		window.location = $(this).find("option:selected").val();
-	});
-});
-</script>
 
 </body>
 

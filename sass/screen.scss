@@ -12,7 +12,7 @@ body, a {
 /*   ************ MOBILE ***********     */
 	
 /* change to mobile nav */
-  nav.navButton    { display: none; }
+	nav .navList    { display: none; }
   nav select { 
 		display: inline-block; 
 		float:left;
@@ -26,7 +26,7 @@ body, a {
   padding: 20px 10px;
 }
 
-header, h2, h3 {
+header, #homePage h2, #homePage h3 {
 	clear:both;
   text-align:center;
 }
@@ -44,7 +44,7 @@ header p {
 h2 {
 	clear:both;
   font-size: $fontSize+6;
-	margin: $lineHeight 0 $lineHeight 0;
+	margin: $lineHeight 0 0 0;
 }
 
 
@@ -131,6 +131,7 @@ footer {
 
 /* change to desktop nav */
   nav select {  display: none; }
+	nav .navList {display: inline-block;}
 
 	body{
 		margin: $lineHeight*2 0 0 0;
@@ -138,7 +139,7 @@ footer {
 	}
 	.navList {
 		li {
-		width: 108px;
+		width: 108px; /* don't bother w responsive here */
 		font-size: $fontSize+2;
 		float:left;
 		cursor:pointer;
@@ -150,7 +151,7 @@ footer {
 		position:absolute;
 		top: $lineHeight*7; /* change this to column later */
 		li {
-			width:108px;
+		width: 108px; /* don't bother w responsive here */
 			font-size: 14px;
 			margin: 0 20px $lineHeight 0;
 			text-align:center;
@@ -162,15 +163,12 @@ footer {
 		margin: 0 0 $lineHeight 60px;	/* left margin to keep from interfering with photo nav and no JS */
 	}
 
-	section {
-		margin: 100px 0 0 0;
-	}
+
   .page {
     /* width: 978px; Total with works out to 1008, but need more for padding*/
 /*		background: #fff; */
 		width: 86%; 
-    padding: $lineHeight 37px $lineHeight 37px; /* added 22px to each for background (change 15 to 37 later after grid is gone)*/
-		padding: $lineHeight 10px $lineHeight 10px;
+		padding: $lineHeight 10px $lineHeight 10px; /* pad more right and left later */
 
 		header {
 			overflow: auto;
@@ -202,9 +200,28 @@ footer {
 			clear:both;
 		}
 
+		section {
+			margin: $lineHeight*2 0 0 0;
+			
+			h1 {
+					margin: -8px 0 0 0;
+			}
+		}
+	
 	}
 
-
+	#about {
+		h2 + img {
+			width: 108px;
+			float: left;
+		}
+		h2 + img + p {
+			width: 748px;
+			float: left;
+			margin: 0 0 $lineHeight*3 20px;
+		}
+		
+	}
 
 	#homePage {
 		
