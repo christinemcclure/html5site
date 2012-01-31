@@ -137,17 +137,22 @@ footer {
     background:  $backgroundLight url('/img/scrollLight.png');  
 	}
 	.navList li {
-		width:168px;
+		width:150px;
 		float:left;
 		cursor:pointer;
 	}
 	#photoNav, #libNav {
-		display:none;
 		width: 100%;
 		position:absolute;
-		top: 150px;
+		top: 154px; /* change this to column later */
 		margin: 0 0 $lineHeight 0;
 	}	
+	#libNav {
+		width: 100%;
+		position:absolute;
+		top: 150px + $lineHeight; /* don't have overlap in case JS is turned off */
+		margin: 0 0 $lineHeight 150px;	/* change this to column later */
+	}
 
 	section {
 		margin: 100px 0 0 0;

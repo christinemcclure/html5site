@@ -93,6 +93,9 @@
 
 <script type="text/javascript">
 $(document).ready(function() {
+	
+	$('#photoNav').hide();
+	$('#libNav').hide();
 
 	$('li#photo').click(function () {
 		$('ul#libNav').hide();
