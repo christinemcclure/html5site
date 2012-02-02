@@ -401,7 +401,8 @@ footer p {
     margin: 44px 0 0 0;
   }
   /* line 206, ../sass/screen.scss */
-  .page section h1 {
+  .page section h1.firstH1 {
+    /* handle bump from nav */
     margin: -8px 0 0 0;
   }
 

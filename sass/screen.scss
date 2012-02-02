@@ -203,7 +203,7 @@ footer {
 		section {
 			margin: $lineHeight*2 0 0 0;
 			
-			h1 {
+			 h1.firstH1 { /* handle bump from nav */
 					margin: -8px 0 0 0;
 			}
 		}

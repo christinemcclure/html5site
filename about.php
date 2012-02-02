@@ -12,7 +12,7 @@
 <?php include 'includes/nav.html'; ?>
 
 <section>
-	<h1>Exhibitions</h1>
+	<h1 class="firstH1">Exhibitions</h1>
   
     <h2>Portals</h2>
     <h3>Looptopia, Chicago IL. May 2007</h3>
