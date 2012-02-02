@@ -207,7 +207,7 @@ header a:hover, #homePage h2 a:hover, #homePage h3 a:hover {
 h1 {
   clear: both;
   font-size: 24px;
-  margin: 0 0 10px 0;
+  margin: 22px 0 22px 0;
 }
 
 /* line 45, ../sass/screen.scss */
@@ -416,7 +416,7 @@ footer p {
   /* line 212, ../sass/screen.scss */
   .page section h1.firstH1 {
     /* handle bump from nav */
-    margin: -8px 0 0 0;
+    margin: -8px 0 22px 0;
   }
 
   /* line 220, ../sass/screen.scss */
