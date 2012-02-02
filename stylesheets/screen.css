@@ -417,6 +417,7 @@ footer p {
   .page section h1.firstH1 {
     /* handle bump from nav */
     margin: -8px 0 22px 0;
+    /* nudge into place from nav */
   }
 
   /* line 220, ../sass/screen.scss */
