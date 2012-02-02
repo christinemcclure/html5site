@@ -1,4 +1,4 @@
-<?php include 'includes/head-stub.html' ?>
+<?php include '../includes/head-stub.html' ?>
 
   <title>Christine McClure -- Pricing</title>
 </head>
@@ -7,7 +7,8 @@
 
 <div class="page">
 	
-<?php include 'includes/header.html'; ?>
+<?php include '../includes/header.html'; ?>
+<?php include '../includes/nav.html'; ?>
 
 	<h2>Event Photography</h2>
 
@@ -22,7 +23,7 @@
 	<p>Pricing is based on a flat-rate sitting fee for one hour of shooting. Additional time can be purchased for location and wardrobe changes.
 After the event, you will receive a CD of web-quality images (600x400 pixels at 100ppi). Print-quality images can be ordered online at an additional cost.</p>
 
-<?php include 'includes/footer.html'; ?>
+<?php include '../includes/footer.html'; ?>
 </div>
 
 </body>

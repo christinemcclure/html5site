@@ -1,4 +1,4 @@
-<?php include 'includes/head-stub.html' ?>
+<?php include '../includes/head-stub.html' ?>
 
   <title>Christine McClure -- Fine Art Photography</title>
 </head>
@@ -7,7 +7,8 @@
 
 <div class="page">
 	
-<?php include 'includes/header.html'; ?>
+<?php include '../includes/header.html'; ?>
+<?php include '../includes/nav.html'; ?>
 
     <h2>Portals</h2>
     <img class="floatRight" src="/img/fineart/portal.png" alt="construction of portal frame." /><p>This exhibit explored how people experience art. The images were encased in self-lit 6 x 6" boxes, with a large plastic loupe (magnifying glass) mounted to the top. Rather than discretely passing by the images, viewers had to walk directly up to them and peer inside. The images were arranged in groups of three, and let users explore alternate worlds of religion, nature and mythology.</p>
@@ -36,7 +37,7 @@
       <li><img src="/img/fineart/persephone-3.jpg" alt="Digitally-manipulated image of a large fern-like plant in grayscale growing out of large red rocks (magnified pebbles)." /></li>    
     </ul>
 
-<?php include 'includes/footer.html'; ?>
+<?php include '../includes/footer.html'; ?>
 </div>
 
 </body>

@@ -1,4 +1,4 @@
-<?php include 'includes/head-stub.html' ?>
+<?php include '../includes/head-stub.html' ?>
 
   <title>Christine McClure -- Event Photography</title>
 </head>
@@ -7,7 +7,8 @@
 
 <div class="page">
 	
-<?php include 'includes/header.html'; ?>
+<?php include '../includes/header.html'; ?>
+<?php include '../includes/nav.html'; ?>
 
   <h2>Literature For All of Us, Honor Thy Mother Luncheon, 2011</h2>
     <ul>
@@ -33,7 +34,7 @@
       <li><img src="/img/events/2010_District_57_-242.jpg" alt="Photo of woman laughing heartily during the live auction with the auctioneer behind her." /></li>
     </ul>
     
-<?php include 'includes/footer.html'; ?>
+<?php include '../includes/footer.html'; ?>
 </div>
 
 </body>

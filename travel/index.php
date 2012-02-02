@@ -1,4 +1,4 @@
-<?php include 'includes/head-stub.html' ?>
+<?php include '../includes/head-stub.html' ?>
 
   <title>Christine McClure -- Travel Photography</title>
 </head>
@@ -7,7 +7,8 @@
 
 <div class="page">
 	
-<?php include 'includes/header.html'; ?>
+<?php include '../includes/header.html'; ?>
+<?php include '../includes/nav.html'; ?>
 
   <h2>Jerusalem</h2>
     <ul>
@@ -23,7 +24,7 @@
       <li><img src="/img/travel/panamaearlymorning_10.jpg" alt="Photo of an old brick supporting structure, backlit from the sun rising over the ocean." /><p>Panama City.</p></li>
     </ul>  
         
-<?php include 'includes/footer.html'; ?>
+<?php include '../includes/footer.html'; ?>
 </div>
 
 </body>

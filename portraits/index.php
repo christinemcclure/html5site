@@ -1,4 +1,4 @@
-<?php include 'includes/head-stub.html' ?>
+<?php include '../includes/head-stub.html' ?>
 
   <title>Christine McClure -- Portraiture</title>
 </head>
@@ -7,7 +7,8 @@
 
 <div class="page">
 	
-<?php include 'includes/header.html'; ?>
+<?php include '../includes/header.html'; ?>
+<?php include '../includes/nav.html'; ?>
 
 	<h2>Portraiture</h2>
     <ul>
@@ -21,7 +22,7 @@
 				<li><img src="/img/portraits/Lety_Greek_Parade-337.jpg" alt="Young girl in colorful traditional Greek headscarf." /><p>Participant, Greek Independence Day Parade, Chicago IL. </p></li>
     </ul>
         
-<?php include 'includes/footer.html'; ?>
+<?php include '../includes/footer.html'; ?>
 </div>
 
 </body>

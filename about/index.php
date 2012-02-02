@@ -1,4 +1,4 @@
-<?php include 'includes/head-stub.html' ?>
+<?php include '../includes/head-stub.html' ?>
 
   <title>Christine McClure -- About</title>
 
@@ -8,8 +8,8 @@
 
 <div class="page">
 	
-<?php include 'includes/header.html'; ?>
-<?php include 'includes/nav.html'; ?>
+<?php include '../includes/header.html'; ?>
+<?php include '../includes/nav.html'; ?>
 
 <section>
 	<h1 class="firstH1">Exhibitions</h1>
@@ -44,7 +44,7 @@
     <h2>Courses:</h2>
 		<p>Basic exposure and printing, advanced printing, color printing, digital imaging, portraiture lighting. 1994 - present</p>
 </section>
-<?php include 'includes/footer.html'; ?>
+<?php include '../includes/footer.html'; ?>
 </div>
 
 
