@@ -169,6 +169,10 @@ footer {
 		margin: 0 0 $lineHeight 60px;	/* left margin to keep from interfering with photo nav and no JS */
 	}
 
+	nav {
+		.activeMain {color:blue;}
+		.activeSub a {color:yellow;} /* change later, obvs. */
+	}
 
   .page {
     /* width: 978px; Total with works out to 1008, but need more for padding*/

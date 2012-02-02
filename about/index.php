@@ -46,6 +46,21 @@
 <?php include '../includes/footer.html'; ?>
 </div>
 
+<script type="text/javascript">
+$(document).ready(function() {
+	function setNav (navType, pageID) {
+			$('#'+navType+"Nav").show();
+			$('#'+navType).addClass('activeMain');
+			navID = pageID + "Nav";
+			$('#'+navID).addClass('activeSub');
+	}	
+	
+	
+	
+		setNav ("photo", "about");
+});
+</script>
+
 </body>
 
 </html>
