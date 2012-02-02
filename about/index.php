@@ -7,11 +7,10 @@
 <body id="about">
 
 <div class="page">
-	
 <?php include '../includes/header.html'; ?>
 <?php include '../includes/nav.html'; ?>
-
-<section>
+	
+<section id="about">
 	<h1 class="firstH1">Exhibitions</h1>
   
     <h2>Portals</h2>
@@ -46,8 +45,6 @@
 </section>
 <?php include '../includes/footer.html'; ?>
 </div>
-
-
 
 </body>
 

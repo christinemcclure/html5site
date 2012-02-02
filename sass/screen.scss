@@ -29,6 +29,12 @@ body, a {
 header, #homePage h2, #homePage h3 {
 	clear:both;
   text-align:center;
+	a {
+		color: #FFF;
+	}
+	a:hover{
+		font-weight:normal;
+	}
 }
 h1 {
 	clear:both;

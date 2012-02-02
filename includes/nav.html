@@ -1,4 +1,6 @@
 <nav>
+	<h1 class="hide">Navigation</h1>
+	<h2 class="hide">Desktop Navigation</h2>
 	<ul class="mainNav navList">
   	<li id="photo">Photography</li>
   	<li id="lib">Librarianship</li>
@@ -21,9 +23,8 @@
     <li><a href="/the-lab">The Lab</a></li>
     <li><a href="/contact">Contact</a></li>
   </ul>
-</nav>
 
-<nav>
+	<h2 class="hide">Small-screen Navigation: Photography</h2>
   <select>
     <option value="" selected="selected">Photography</option> 
 
@@ -35,9 +36,9 @@
     <option value="/events">Travel Gallery</option>
     <option value="/contact">Contact</option>
   </select> 
-</nav>
 
-<nav>
+
+	<h2 class="hide">Small-screen Navigation: Librarianship</h2>
   <select>
     <option value="" selected="selected">Librarianship</option> 
 
@@ -47,28 +48,3 @@
     <option value="/contact">Contact</option>
   </select> 
 </nav>
-
-<script type="text/javascript">
-$(document).ready(function() {
-	
-	$('#photoNav').hide();
-	$('#libNav').hide();
-
-	$('li#photo').click(function () {
-		$(this).addClass('activeNav');
-		$('ul#libNav').hide();
-		$('ul#photoNav').fadeToggle('slow', 'linear');
-	});
-
-	$('li#lib').click(function () {
-		$(this).addClass('activeNav');
-		$('ul#photoNav').hide();
-		$('ul#libNav').fadeToggle('slow', 'linear');
-	});
-	
-	
-	$("nav select").change(function() {
-		window.location = $(this).find("option:selected").val();
-	});
-});
-</script>

@@ -9,8 +9,9 @@
 	
 <?php include '../includes/header.html'; ?>
 <?php include '../includes/nav.html'; ?>
-
-  <h2>Literature For All of Us, Honor Thy Mother Luncheon, 2011</h2>
+<section>
+  <h1 class="firstH1">Literature For All of Us</h1>
+  	<h2>Honor Thy Mother Luncheon, 2011</h2>
     <ul>
       <li><img src="/img/events/IMG_1002.jpg" alt="Photo of centerpiece flower arrangement." /></li>
       <li><img src="/img/events/IMG_1008.jpg" alt="Photo of event site." /></li>
@@ -24,8 +25,11 @@
       <li><img src="/img/events/IMG_1572.jpg" alt="Photo of volunteers staffing the book signing table, selling books." /></li>
       <li><img src="/img/events/IMG_1566.jpg" alt="Photo of author Jane Hamilton signing books." /></li>
     </ul>
-    
-  <h2>District 57 Education Foundation, Live Auction, 2010</h2>
+</section>    
+
+<section>
+  <h1>District 57 Education Foundation</h1>
+  	<h2>Live Auction, 2010</h2>
     <ul>
       <li><img src="/img/events/2010_District_57_-73.jpg" alt="Photo of several women in cocktail attire at a silent auction table." /></li>
       <li><img src="/img/events/2010_District_57_-291.jpg" alt="Photo of a dessert table." /></li>
@@ -33,10 +37,9 @@
       <li><img src="/img/events/2010_District_57_-411.jpg" alt="Photo of two women in cocktail attire, dancing." /></li>
       <li><img src="/img/events/2010_District_57_-242.jpg" alt="Photo of woman laughing heartily during the live auction with the auctioneer behind her." /></li>
     </ul>
-    
+</section>    
 <?php include '../includes/footer.html'; ?>
 </div>
-
 </body>
 
 </html>

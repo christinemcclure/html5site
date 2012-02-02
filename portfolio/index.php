@@ -10,10 +10,11 @@
 <?php include '../includes/header.html'; ?>
 <?php include '../includes/nav.html'; ?>
 
+	<p class="firstP">Here are a few things I've designed over the years...</p>
 
-		<p>Here are a few things I've designed over the years...</p>
-
-		<h2>Websites</h2>
+	<section>
+		<h1 class="firstH1">Websites</h1>
+  
     <ul>
       <li>This one, of course. The latest rendition of christinemcclure.com is an exercise in:
           <ul class="columnBlock">
@@ -24,10 +25,10 @@
           </ul> </li>
       <li class="clear">I also designed and developed Galvin Library's <a href="http://m.library.iit.edu">first mobile website.</a> This site (released July 2011) uses the jQuery Mobile fremework.</li>
     </ul>
+</section>
 
-
-
-    <h2>Images</h2>
+<section>
+    <h1>Images</h1>
       
       <ul class="gallery">
         <li><img src="/img/portfolio/carys_card.gif" alt="Satirical book cover in pulp fiction style of a man telling a woman: 'Get your coat, dollface. We're going to Cary's." /><p>Business card for a Chicago tavern. </p></li>
@@ -37,7 +38,7 @@
     <li><img src="/img/portfolio/kolb.gif" alt="image of Kolb's Experiential Learning Styles" /><p>Presentation graphic. </p></li>      
       <li><img src="/img/portfolio/photoBusCard.gif" alt="image of Kolb's Experiential Learning Styles" /><p>Ad for fine art and portraiture photography.</p></li>      
       </ul>
-
+</section>
 
 <?php include '../includes/footer.html'; ?>
 </div>
