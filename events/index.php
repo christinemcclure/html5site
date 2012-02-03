@@ -12,7 +12,8 @@
 <section>
   <h1 class="firstH1">Literature For All of Us</h1>
   	<h2>Honor Thy Mother Luncheon, 2011</h2>
-    <ul>
+    <div class="flexslider">
+    <ul class="slides">
       <li><img src="/img/events/IMG_1002.jpg" alt="Photo of centerpiece flower arrangement." /></li>
       <li><img src="/img/events/IMG_1008.jpg" alt="Photo of event site." /></li>
       <li><img src="/img/events/IMG_1143.jpg" alt="Photo of an upright bass misician playing in the reception area." /></li>
@@ -25,6 +26,7 @@
       <li><img src="/img/events/IMG_1572.jpg" alt="Photo of volunteers staffing the book signing table, selling books." /></li>
       <li><img src="/img/events/IMG_1566.jpg" alt="Photo of author Jane Hamilton signing books." /></li>
     </ul>
+    </div>
 </section>    
 
 <section>
