@@ -53,7 +53,7 @@ if (isset($_POST['submitted'])) {
 	
 } // End of main isset() IF.
 ?>
-<?php include '../includes/head-stub.html' ?>
+<?php include 'head-stub.html' ?>
 
   <title>Christine McClure -- Contact</title>
 </head>
@@ -62,15 +62,15 @@ if (isset($_POST['submitted'])) {
 
 <div class="page">
 	
-<?php include '../includes/header.html'; ?>
-<?php include '../includes/nav.html'; ?>
+<?php include 'header.html'; ?>
+<?php include 'nav.html'; ?>
 
   
 <div id="content" class="clear">
 	<h2>Contact Me</h2>
   <?php echo $feedback; ?>  
     <div id="showContactForm" class="<?php echo $cssclass; ?>"> <!--showForm to start-->	
-    <form method="post" action="contact.php" id="contactForm">
+    <form method="post" action="../contact/contact.php" id="contactForm">
       <p>Name:</p>
       <p><input type="text" name="name" id="name" /></p>
       <p>Email:</p>
@@ -88,9 +88,6 @@ if (isset($_POST['submitted'])) {
     </div>
 		</div>
 
-<?php include '../includes/footer.html'; ?>
+<?php include 'footer.html'; ?>
 </div>
-<?php include '../js/site.js'; ?>
-</body>
 
-</html>

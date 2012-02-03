@@ -10,7 +10,7 @@
 <?php include '../includes/header.html'; ?>
 <?php include '../includes/nav.html'; ?>
 	
-<section id="about">
+<section>
 	<h1 class="firstH1">Exhibitions</h1>
   
     <h2>Portals</h2>

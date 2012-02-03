@@ -1,5 +1,7 @@
 $(document).ready(function() {
 
+	contactCallingPage="x";
+	
 	// Navigation	
 	$('#photoNav').hide();
 	$('#libNav').hide();
@@ -23,13 +25,32 @@ $(document).ready(function() {
 	// Sets active navigation classes upon loading page. 
 	// errors resolved from http://www.latentmotion.com/separating-jquery-functions-into-external-files-without-selectors/
 	(function($){
-			setNav=function(navType, pageID) {
+			setNav=function(navType, page) {
 			$('#'+navType+"Nav").show();
 			$('#'+navType).addClass('activeMain');
-			navID = pageID + "Nav";
+			navID = page + "Nav";
 			$('#'+navID).addClass('activeSub');
 			}	;
 		})($);
+		
+		
+	//These aren't working. Can't seem to update the global variable from within a function 
+	// Workaround for now is to have two sep folders for contact. Boo. 
+	$('li#photoContactNav').click(function () {
+		contactCallingPage="photo";
+//		alert ('inside photo '+contactCallingPage);
+	});
+
+	$('li#libContactNav').click(function () {
+		contactCallingPage="lib";
+//		alert ('inside lib '+contactCallingPage);
+	});	
+	
+	(function($){
+			  setNavContact=function() {
+				alert (contactCallingPage);
+			}	;
+		})($);	
 	
 });
 
