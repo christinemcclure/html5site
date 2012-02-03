@@ -47,18 +47,10 @@
 </div>
 
 <script type="text/javascript">
-$(document).ready(function() {
-	function setNav (navType, pageID) {
-			$('#'+navType+"Nav").show();
-			$('#'+navType).addClass('activeMain');
-			navID = pageID + "Nav";
-			$('#'+navID).addClass('activeSub');
-	}	
-	
-	
-	
-		setNav ("photo", "about");
-});
+	$(document).ready(function() {
+		// set initial nav state for this page
+			setNav("photo", "about");			
+	});
 </script>
 
 </body>

@@ -40,6 +40,13 @@
 </section>    
 <?php include '../includes/footer.html'; ?>
 </div>
+<script type="text/javascript">
+	$(document).ready(function() {
+		// set initial nav state for this page
+			setNav("photo", "events");			
+	});
+</script>
+
 </body>
 
 </html>

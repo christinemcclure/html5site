@@ -20,6 +20,16 @@ $(document).ready(function() {
 		window.location = $(this).find("option:selected").val();
 	});
 	
+	// Sets active navigation classes upon loading page. 
+	// errors resolved from http://www.latentmotion.com/separating-jquery-functions-into-external-files-without-selectors/
+	(function($){
+			setNav=function(navType, pageID) {
+			$('#'+navType+"Nav").show();
+			$('#'+navType).addClass('activeMain');
+			navID = pageID + "Nav";
+			$('#'+navID).addClass('activeSub');
+			}	;
+		})($);
 	
 });
 
