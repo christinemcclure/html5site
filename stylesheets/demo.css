@@ -1,0 +1,49 @@
+/* Reset Styles
+***********************/
+html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,a, abbr, acronym, address, big, cite, code,del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var,b, u, i, center,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td,article, aside, canvas, details, embed,figure, figcaption, footer, header, hgroup,menu, nav, output, ruby, section, summary,time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,footer, header, hgroup, menu, nav, section {display: block;}
+body {line-height: 1;}
+ol, ul {list-style: none;}
+blockquote, q {quotes: none;}
+blockquote:before, blockquote:after,q:before, q:after {content: ''; content: none;}
+table {border-collapse: collapse; border-spacing: 0;}
+strong {font-weight: bold;}
+em {font-style: italic;}
+
+body {background: url(body.png) repeat left top; font-family: 'proxima-nova', 'Georgia', 'Arial', sans-serif;}
+#container {width: 80%; max-width: 800px; margin: 0 auto;}
+
+#header {padding: 20px 0 28px; }
+#header h1 {margin: 0; font-size: 100px; font-weight: 800; text-align: center; letter-spacing: -3px; font-family: 'pill-gothic-300mg', 'Arial', sans-serif; color: #231f19; text-transform: uppercase;}
+#header h1 a {color: #231f19; text-decoration: none;}
+#header h1 a:hover {border-bottom: none;}
+#header h2 {margin: 0; font-size: 24px; font-style: italic; font-weight: normal; text-align: center; color: #934729; font-family: 'baltica-web', 'Georgia', serif;}
+#header p {padding: 20px 0 0; text-align: center;}
+#header p a {color: #427f9e; text-decoration: none;}
+#header p a:hover {border-bottom: 1px dotted #427f9e;}
+
+.flex-control-nav {z-index: 1000;}
+
+
+/* Media Queries
+***********************/
+@media only screen and (max-width: 650px) {
+  #header {}
+  #header h1 {font-size: 70px; letter-spacing: -3px;}
+  #header h2 {font-size: 18px; line-height: 22px;}
+
+  #hero #why-flexslider ul li {width: auto; padding-right: 0; float: none; font-size: 14px;}
+}
+@media only screen and (max-width: 320px) {
+  #header h1 {font-size: 50px; letter-spacing: -2px;}
+  #header h2 {font-size: 16px; line-height: 21px;}
+
+}

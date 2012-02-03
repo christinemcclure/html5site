@@ -1,6 +1,16 @@
 <?php include '../includes/head-stub.html' ?>
 
   <title>Christine McClure -- Event Photography</title>
+  <!-- Place in the <head>, after the three links -->
+
+<script type="text/javascript" charset="utf-8">
+  $(window).load(function() {
+    $('.flexslider').flexslider({
+          animation: "slide",
+          controlsContainer: ".flex-container"
+    });
+  });
+</script>
 </head>
 
 <body id="events">
@@ -12,9 +22,11 @@
 <section>
   <h1 class="firstH1">Literature For All of Us</h1>
   	<h2>Honor Thy Mother Luncheon, 2011</h2>
+    <div class="flex-container">
     <div class="flexslider">
     <ul class="slides">
-      <li><img src="/img/events/IMG_1002.jpg" alt="Photo of centerpiece flower arrangement." /></li>
+      <li><img src="/img/events/IMG_1002.jpg" alt="Photo of centerpiece flower arrangement." />
+      </li>
       <li><img src="/img/events/IMG_1008.jpg" alt="Photo of event site." /></li>
       <li><img src="/img/events/IMG_1143.jpg" alt="Photo of an upright bass misician playing in the reception area." /></li>
       <li><img src="/img/events/IMG_1216.jpg" alt="Photo of registration table volunteers checking in attendees." /></li>
@@ -26,6 +38,7 @@
       <li><img src="/img/events/IMG_1572.jpg" alt="Photo of volunteers staffing the book signing table, selling books." /></li>
       <li><img src="/img/events/IMG_1566.jpg" alt="Photo of author Jane Hamilton signing books." /></li>
     </ul>
+    </div>
     </div>
 </section>    
 
