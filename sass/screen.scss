@@ -115,6 +115,23 @@ h2 {
 		margin: 0 0 $lineHeight*2 0;
 	}
 
+
+	#about {
+		p.floatLeft {
+			/* 870 / 978 = 88.9570552147239% */
+			width: 65.6441717791411%;
+			margin: $lineHeight 4% $lineHeight*2 0;
+		}
+		p.floatLeft + p.floatLeft {
+			margin-top: -$lineHeight;
+		}		
+		p.floatLeft + img {
+			/* 222 / 978*/
+			width: 22.6993865030675%;
+			margin: -$lineHeight*9 0 0 2%;
+		}
+	}
+	
 footer {
 	clear:both;
 	p {
@@ -124,11 +141,21 @@ footer {
 }
 
 @media screen and (min-width: 760px) {
+
+
   .page {
 		width: 748px; /*Total width works out to 768px*/	
 		/* for columns */
 		padding: 0px 10px 0px 10px;
 		background-image: url('img/748px-10-44-10-12c.png'); 
+	}
+
+	#about {
+		p.floatLeft {
+			margin: $lineHeight 8.5889570552147% $lineHeight*2 0;
+		}
+		p.floatLeft + img {
+		}
 	}
 
 }
@@ -220,18 +247,6 @@ footer {
 	
 	}
 
-	#about {
-		h2 + img {
-			width: 108px;
-			float: left;
-		}
-		h2 + img + p {
-			width: 748px;
-			float: left;
-			margin: 0 0 $lineHeight*3 20px;
-		}
-		
-	}
 
 	#homePage {
 		
@@ -243,7 +258,7 @@ footer {
 
 
 		h2 {
-				/*width: 306px;*/
+				/*width: 306px / 978px;*/
 				width: 31.28834355828221%;
 				font-size: 30px;
 				letter-spacing: 3px;

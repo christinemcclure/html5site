@@ -67,7 +67,8 @@ if (isset($_POST['submitted'])) {
 
   
 <div id="content" class="clear">
-	<h2>Contact Me</h2>
+<section>
+	<h1 class="firstH1">Contact Me</h1>
   <?php echo $feedback; ?>  
     <div id="showContactForm" class="<?php echo $cssclass; ?>"> <!--showForm to start-->	
     <form method="post" action="../contact/contact.php" id="contactForm">
@@ -87,7 +88,7 @@ if (isset($_POST['submitted'])) {
     </form>
     </div>
 		</div>
-
+	</section>
 <?php include 'footer.html'; ?>
 </div>
 

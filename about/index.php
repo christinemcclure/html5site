@@ -15,7 +15,8 @@
   
     <h2>Portals</h2>
     <h3>Looptopia, Chicago IL. May 2007</h3>
-    <img class="floatRight" src="/img/fineart/portal.png" alt="construction of portal frame." /><p>This exhibit explored how people experience art. The images were encased in self-lit 6 x 6" boxes, with a large plastic loupe (magnifying glass) mounted to the top. Rather than discretely passing by the images, viewers had to walk directly up to them and peer inside. The images were arranged in groups of three, and let users explore alternate worlds of religion, nature and mythology. <a href="fine-art.php">View gallery.</a> </p>
+    <p class="floatLeft">This exhibit explored how people experience art. The images were encased in self-lit 6 x 6" boxes, with a large plastic loupe (magnifying glass) mounted to the top. Rather than discretely passing by the images, viewers had to walk directly up to them and peer inside. The images were arranged in groups of three, and let users explore alternate worlds of religion, nature and mythology.</p>
+    <p class="floatLeft"><a href="fine-art.php">View gallery.</a> </p><img class="floatLeft" src="/img/fineart/portal.png" alt="construction of portal frame." />
 
     <h2>Retrospective</h2> 
     <h3>Gallery 302, Chicago IL. August 2004</h3>

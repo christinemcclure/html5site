@@ -1,4 +1,4 @@
-/* line 17, ../../../RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 17, ../../.gem/ruby/1.8/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -20,45 +20,45 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
-/* line 20, ../../../RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 20, ../../.gem/ruby/1.8/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 body {
   line-height: 1;
 }
 
-/* line 22, ../../../RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 22, ../../.gem/ruby/1.8/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 24, ../../../RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 24, ../../.gem/ruby/1.8/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 26, ../../../RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 26, ../../.gem/ruby/1.8/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle;
 }
 
-/* line 28, ../../../RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 28, ../../.gem/ruby/1.8/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
   quotes: none;
 }
-/* line 101, ../../../RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 101, ../../.gem/ruby/1.8/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q:before, q:after, blockquote:before, blockquote:after {
   content: "";
   content: none;
 }
 
-/* line 30, ../../../RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 30, ../../.gem/ruby/1.8/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 a img {
   border: none;
 }
 
-/* line 114, ../../../RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 114, ../../.gem/ruby/1.8/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
   display: block;
 }
@@ -122,13 +122,23 @@ nav {
   display: none;
 }
 
+/* line 70, ../sass/_base.scss */
+.floatRight {
+  float: right;
+}
+
+/* line 74, ../sass/_base.scss */
+.floatLeft {
+  float: left;
+}
+
 /*
 ########################################
 ########### For Baselind Grid ##########
 ########################################
 */
 /* line 58, ../sass/_base.scss */
-/* line 77, ../sass/_base.scss */
+/* line 83, ../sass/_base.scss */
 .t22 {
   font-size: 14px;
   line-height: 22px;
@@ -136,7 +146,7 @@ nav {
 }
 
 /* line 66, ../sass/_base.scss */
-/* line 84, ../sass/_base.scss */
+/* line 90, ../sass/_base.scss */
 .g978 #page {
   width: 300px;
   /*Total width works out to 312px*/
@@ -145,14 +155,14 @@ nav {
 }
 
 /* from baseline grid .t22 class */
-/* line 97, ../sass/_base.scss */
+/* line 103, ../sass/_base.scss */
 body {
   font-size: 14px;
   line-height: 22px;
 }
 
 /* hide mobile nav at first */
-/* line 105, ../sass/_base.scss */
+/* line 111, ../sass/_base.scss */
 nav select {
   display: none;
 }
@@ -291,18 +301,35 @@ nav#lib li:first-child {
   margin: 0 0 44px 0;
 }
 
-/* line 118, ../sass/screen.scss */
+/* line 120, ../sass/screen.scss */
+#about p.floatLeft {
+  /* 870 / 978 = 88.9570552147239% */
+  width: 65.6441717791411%;
+  margin: 22px 4% 44px 0;
+}
+/* line 125, ../sass/screen.scss */
+#about p.floatLeft + p.floatLeft {
+  margin-top: -22px;
+}
+/* line 128, ../sass/screen.scss */
+#about p.floatLeft + img {
+  /* 222 / 978*/
+  width: 22.6993865030675%;
+  margin: -198px 0 0 2%;
+}
+
+/* line 135, ../sass/screen.scss */
 footer {
   clear: both;
 }
-/* line 120, ../sass/screen.scss */
+/* line 137, ../sass/screen.scss */
 footer p {
   display: block;
   text-align: center;
 }
 
 @media screen and (min-width: 760px) {
-  /* line 127, ../sass/screen.scss */
+  /* line 146, ../sass/screen.scss */
   .page {
     width: 748px;
     /*Total width works out to 768px*/
@@ -310,26 +337,31 @@ footer p {
     padding: 0px 10px 0px 10px;
     background-image: url("img/748px-10-44-10-12c.png");
   }
+
+  /* line 154, ../sass/screen.scss */
+  #about p.floatLeft {
+    margin: 22px 8.589% 44px 0;
+  }
 }
 @media screen and (min-width: 1008px) {
   /* change to desktop nav */
-  /* line 139, ../sass/screen.scss */
+  /* line 166, ../sass/screen.scss */
   nav select {
     display: none;
   }
 
-  /* line 140, ../sass/screen.scss */
+  /* line 167, ../sass/screen.scss */
   nav .navList {
     display: inline-block;
   }
 
-  /* line 142, ../sass/screen.scss */
+  /* line 169, ../sass/screen.scss */
   body {
     margin: 44px 0 0 0;
     /*    background:  $backgroundLight url('/img/scrollLight.png');  */
   }
 
-  /* line 147, ../sass/screen.scss */
+  /* line 174, ../sass/screen.scss */
   .navList li {
     width: 108px;
     /* don't bother w responsive here */
@@ -338,18 +370,18 @@ footer p {
     cursor: pointer;
     margin: 0;
   }
-  /* line 154, ../sass/screen.scss */
+  /* line 181, ../sass/screen.scss */
   .navList li:last-child {
     margin-left: 20px;
   }
 
-  /* line 156, ../sass/screen.scss */
+  /* line 183, ../sass/screen.scss */
   #photoNav, #libNav {
     position: absolute;
     top: 154px;
     /* change this to column later */
   }
-  /* line 159, ../sass/screen.scss */
+  /* line 186, ../sass/screen.scss */
   #photoNav li, #libNav li {
     width: 108px;
     /* don't bother w responsive here */
@@ -357,12 +389,12 @@ footer p {
     margin: 0 20px 22px 0;
     text-align: center;
   }
-  /* line 165, ../sass/screen.scss */
+  /* line 192, ../sass/screen.scss */
   #photoNav li:last-child, #libNav li:last-child {
     margin-left: 0;
   }
 
-  /* line 167, ../sass/screen.scss */
+  /* line 194, ../sass/screen.scss */
   #libNav {
     top: 154px;
     /* don't have overlap in case JS is turned off */
@@ -370,20 +402,20 @@ footer p {
     /* left margin to keep from interfering with photo nav and no JS */
   }
 
-  /* line 172, ../sass/screen.scss */
+  /* line 199, ../sass/screen.scss */
   nav {
     /* change later, obvs. */
   }
-  /* line 173, ../sass/screen.scss */
+  /* line 200, ../sass/screen.scss */
   nav .activeMain {
     color: blue;
   }
-  /* line 174, ../sass/screen.scss */
+  /* line 201, ../sass/screen.scss */
   nav .activeSub a {
     color: yellow;
   }
 
-  /* line 177, ../sass/screen.scss */
+  /* line 204, ../sass/screen.scss */
   .page {
     /* width: 978px; Total with works out to 1008, but need more for padding*/
     /*		background: #fff; */
@@ -392,7 +424,7 @@ footer p {
     /* pad more right and left later */
     /* end header */
   }
-  /* line 183, ../sass/screen.scss */
+  /* line 210, ../sass/screen.scss */
   .page header {
     overflow: auto;
     width: 100%;
@@ -401,7 +433,7 @@ footer p {
     background: #4d4d4d url("/img/scrollDark.png");
     color: #fff;
   }
-  /* line 191, ../sass/screen.scss */
+  /* line 218, ../sass/screen.scss */
   .page header h1 {
     font-size: 37.4px;
     display: inline;
@@ -411,54 +443,42 @@ footer p {
     margin: 0 0 0 2%;
     padding: 20px 0 24px 0;
   }
-  /* line 201, ../sass/screen.scss */
+  /* line 228, ../sass/screen.scss */
   .page header p {
     display: inline;
     float: right;
     font-size: 12px;
     margin: 24px 2% 0 0;
   }
-  /* line 209, ../sass/screen.scss */
+  /* line 236, ../sass/screen.scss */
   .page nav#main {
     clear: both;
   }
-  /* line 213, ../sass/screen.scss */
+  /* line 240, ../sass/screen.scss */
   .page section {
     margin: 44px 0 0 0;
   }
-  /* line 216, ../sass/screen.scss */
+  /* line 243, ../sass/screen.scss */
   .page section h1.firstH1 {
     /* handle bump from nav */
     margin: -8px 0 22px 0;
     /* nudge into place from nav */
   }
 
-  /* line 224, ../sass/screen.scss */
-  #about h2 + img {
-    width: 108px;
-    float: left;
-  }
-  /* line 228, ../sass/screen.scss */
-  #about h2 + img + p {
-    width: 748px;
-    float: left;
-    margin: 0 0 66px 20px;
-  }
-
-  /* line 236, ../sass/screen.scss */
+  /* line 251, ../sass/screen.scss */
   #homePage {
     /* end header */
     /* end galleries */
   }
-  /* line 238, ../sass/screen.scss */
+  /* line 253, ../sass/screen.scss */
   #homePage header {
     width: 86%;
     position: absolute;
     margin: 264px 0 0 0;
   }
-  /* line 245, ../sass/screen.scss */
+  /* line 260, ../sass/screen.scss */
   #homePage h2 {
-    /*width: 306px;*/
+    /*width: 306px / 978px;*/
     width: 31.28834355828221%;
     font-size: 30px;
     letter-spacing: 3px;
@@ -467,21 +487,21 @@ footer p {
     float: left;
     text-align: left;
   }
-  /* line 256, ../sass/screen.scss */
+  /* line 271, ../sass/screen.scss */
   #homePage p {
     font-size: 14px;
   }
-  /* line 259, ../sass/screen.scss */
+  /* line 274, ../sass/screen.scss */
   #homePage p#photoIntro {
     clear: both;
     /*margin: 0 0 0 336px;*/
     margin: 176px 0 0 34.3558282208589%;
   }
-  /* line 266, ../sass/screen.scss */
+  /* line 281, ../sass/screen.scss */
   #homePage #photoHeader {
     margin: -2px 0 0 0;
   }
-  /* line 269, ../sass/screen.scss */
+  /* line 284, ../sass/screen.scss */
   #homePage #libHeader {
     position: absolute;
     letter-spacing: 5px;
@@ -492,7 +512,7 @@ footer p {
     top: 438px;
     right: 7%;
   }
-  /* line 282, ../sass/screen.scss */
+  /* line 297, ../sass/screen.scss */
   #homePage #galleries ul li {
     /*width: 138px;*/
     width: 14.11042944785276%;
@@ -501,44 +521,44 @@ footer p {
     /*margin: 0 0 2px 30px;*/
     margin: 0 0 2px 3.06748466257669%;
   }
-  /* line 292, ../sass/screen.scss */
+  /* line 307, ../sass/screen.scss */
   #homePage #galleries img {
     margin-bottom: 8px;
   }
-  /* line 297, ../sass/screen.scss */
+  /* line 312, ../sass/screen.scss */
   #homePage #libFigure {
     clear: both;
     /*width: 138px; */
     width: 14.11042944785276%;
     margin: 150px 0 0 0;
   }
-  /* line 304, ../sass/screen.scss */
+  /* line 319, ../sass/screen.scss */
   #homePage p#libIntro {
     /*width: 558px;*/
     width: 57.05521472392638%;
     /*margin: -100px 0 0 168px;*/
     margin: 198px 0 0 17.178%;
   }
-  /* line 313, ../sass/screen.scss */
+  /* line 328, ../sass/screen.scss */
   #homePage nav li p, #homePage nav li a, #homePage #galleries p, #homePage #galleries a {
     font-size: 16px;
     letter-spacing: 2px;
     background: none;
   }
-  /* line 320, ../sass/screen.scss */
+  /* line 335, ../sass/screen.scss */
   #homePage nav#photo {
     position: absolute;
     top: 110px;
     width: 14.11042944785276%;
     border-left: 2px solid #adadad;
   }
-  /* line 326, ../sass/screen.scss */
+  /* line 341, ../sass/screen.scss */
   #homePage nav#photo ul li {
     margin: 0 8px;
     /*width: 138px;*/
     clear: both;
   }
-  /* line 334, ../sass/screen.scss */
+  /* line 349, ../sass/screen.scss */
   #homePage nav#lib {
     position: absolute;
     right: 7%;
@@ -546,7 +566,7 @@ footer p {
     top: 484px;
     border-right: 2px solid #adadad;
   }
-  /* line 340, ../sass/screen.scss */
+  /* line 355, ../sass/screen.scss */
   #homePage nav#lib ul li {
     width: 90%;
     margin: 0 8px;
@@ -555,23 +575,23 @@ footer p {
   }
 
   /* end homePage*/
-  /* line 352, ../sass/screen.scss */
+  /* line 367, ../sass/screen.scss */
   footer {
     clear: both;
     margin: 44px 0 0 0;
   }
-  /* line 355, ../sass/screen.scss */
+  /* line 370, ../sass/screen.scss */
   footer p {
     width: 40%;
     display: inline;
     font-family: "Questrial", Verdana, Arial, sans-serif;
     font-size: 12px;
   }
-  /* line 360, ../sass/screen.scss */
+  /* line 375, ../sass/screen.scss */
   footer p a {
     font-weight: 900;
   }
-  /* line 363, ../sass/screen.scss */
+  /* line 378, ../sass/screen.scss */
   footer p.copyright {
     width: 40%;
     /* width keeps this line from popping down */
@@ -585,78 +605,78 @@ footer p {
 /* *** end min-width: 1008 *** */
 /* Since using absolute positioning, handle those elements as screen width grows */
 @media screen and (min-width: 1100px) {
-  /* line 382, ../sass/screen.scss */
+  /* line 397, ../sass/screen.scss */
   header h1 {
     font-size: 44px;
     margin: 0 0 0 4%;
   }
-  /* line 386, ../sass/screen.scss */
+  /* line 401, ../sass/screen.scss */
   header p {
     margin: 24px 4% 0 0;
   }
 
-  /* line 393, ../sass/screen.scss */
+  /* line 408, ../sass/screen.scss */
   #homePage header {
     margin: 286px 0 0 0;
   }
-  /* line 396, ../sass/screen.scss */
+  /* line 411, ../sass/screen.scss */
   #homePage #libIntro {
     margin: -114px 0 0 17.178%;
   }
-  /* line 400, ../sass/screen.scss */
+  /* line 415, ../sass/screen.scss */
   #homePage footer {
     margin: 66px 0 0 0;
   }
 }
 @media screen and (min-width: 1238px) {
   /* where photoIntro goes to two lines */
-  /* line 409, ../sass/screen.scss */
+  /* line 424, ../sass/screen.scss */
   #homePage p#photoIntro {
     margin: 198px 0 0 34.3558282208589%;
   }
-  /* line 413, ../sass/screen.scss */
+  /* line 428, ../sass/screen.scss */
   #homePage #libIntro {
     margin: -106px 0 0 17.178%;
   }
-  /* line 416, ../sass/screen.scss */
+  /* line 431, ../sass/screen.scss */
   #homePage footer {
     margin: 88px 0 0 0;
   }
 }
 @media screen and (min-width: 1300px) {
-  /* line 427, ../sass/screen.scss */
+  /* line 442, ../sass/screen.scss */
   #homePage #libIntro {
     margin: -118px 0 0 17.178%;
   }
-  /* line 430, ../sass/screen.scss */
+  /* line 445, ../sass/screen.scss */
   #homePage #libHeader {
     top: 460px;
   }
-  /* line 433, ../sass/screen.scss */
+  /* line 448, ../sass/screen.scss */
   #homePage nav#lib {
     top: 506px;
   }
 }
 @media screen and (min-width: 1400px) {
-  /* line 442, ../sass/screen.scss */
+  /* line 457, ../sass/screen.scss */
   header p {
     font-size: 14px;
     margin: 22px 4% 0 0;
   }
 
-  /* line 450, ../sass/screen.scss */
+  /* line 465, ../sass/screen.scss */
   #homePage header {
     margin: 308px 0 0 0;
   }
-  /* line 453, ../sass/screen.scss */
+  /* line 468, ../sass/screen.scss */
   #homePage #libHeader {
     top: 482px;
   }
-  /* line 456, ../sass/screen.scss */
+  /* line 471, ../sass/screen.scss */
   #homePage nav#lib {
     top: 528px;
   }
-  /* line 459, ../sass/screen.scss */
+  /* line 474, ../sass/screen.scss */
   #homePage footer {
     margin: 110px 0 0 0;
   }
