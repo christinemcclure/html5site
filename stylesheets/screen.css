@@ -217,7 +217,7 @@ header a:hover, #homePage h2 a:hover, #homePage h3 a:hover {
 /* line 42, ../sass/screen.scss */
 h1 {
   clear: both;
-  font-size: 24px;
+  font-size: 20px;
   margin: 22px 0 22px 0;
 }
 
@@ -230,7 +230,7 @@ header p {
 /* line 53, ../sass/screen.scss */
 h2 {
   clear: both;
-  font-size: 20px;
+  font-size: 16px;
   margin: 22px 0 0 0;
 }
 
