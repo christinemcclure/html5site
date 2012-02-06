@@ -13,7 +13,7 @@
 	<p class="firstP">Here are a few things I've designed over the years...</p>
 
 	<section>
-		<h1 class="firstH1">Websites</h1>
+		<h1>Websites</h1>
   
     <ul>
       <li>This one, of course. The latest rendition of christinemcclure.com is an exercise in:

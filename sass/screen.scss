@@ -239,6 +239,12 @@ footer {
 		nav#main {
 			clear:both;
 		}
+		
+
+		p.firstP {
+			margin: $lineHeight+14 0 0 0;
+		}
+
 
 		section {
 			margin: $lineHeight*2 0 0 0;
@@ -246,6 +252,7 @@ footer {
 			 h1.firstH1 { /* handle bump from nav */
 					margin: -8px 0 $lineHeight 0; /* nudge into place from nav */
 			}
+			
 		}
 	
 	}
