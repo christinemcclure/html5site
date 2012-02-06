@@ -48,9 +48,13 @@
 </div>
 
 <script type="text/javascript">
-	$(document).ready(function() {
-		// set initial nav state for this page
-			setNav("photo", "about");			
+	$(document).ready(function() {												 
+		setNav("photo", "about");
+			$(window).resize(function() {
+					clearTimeout(resizeTimer);
+					resizeTimer = setTimeout(setNav("photo", "about"), 2000);
+			});
+
 	});
 </script>
 

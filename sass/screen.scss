@@ -10,16 +10,19 @@ body, a {
 	}
 
 /*   ************ MOBILE ***********     */
-	
-/* change to mobile nav */
-	nav .navList    { display: none; }
+
+@media screen and (max-width: 1008px){
+	#photoNav.navList, #libNav.navList, #mainNav.navList  { display: none !important; }
   nav select { 
 		display: inline-block; 
 		float:left;
 		width: 25%;
 		margin: 0 0 $lineHeight 20%;
 	}
+}
 	
+/* change to mobile nav */
+
 .page {
   width: 90%;
   margin: 0 auto;
@@ -164,7 +167,7 @@ footer {
 
 /* change to desktop nav */
   nav select {  display: none; }
-	nav .navList {display: inline-block;}
+	#photoNav.navList, #libNav.navList, #mainNav.navList {display: inline-block;}
 
 	body{
 		margin: $lineHeight*2 0 0 0;
