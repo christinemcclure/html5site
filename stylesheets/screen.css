@@ -313,7 +313,7 @@ nav#lib li:first-child {
   margin-top: -22px;
 }
 /* line 131, ../sass/screen.scss */
-#about p.floatLeft + img {
+#about img.floatLeft {
   /* 222 / 978*/
   width: 22.6993865030675%;
   margin: -198px 0 0 2%;

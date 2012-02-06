@@ -128,7 +128,7 @@ h2 {
 		p.floatLeft + p.floatLeft {
 			margin-top: -$lineHeight;
 		}		
-		p.floatLeft + img {
+		img.floatLeft {
 			/* 222 / 978*/
 			width: 22.6993865030675%;
 			margin: -$lineHeight*9 0 0 2%;
