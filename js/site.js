@@ -1,5 +1,7 @@
 $(document).ready(function() {
 
+	var maxHeightPhoto = 600;
+	var maxWinHeight = .8;
 
 	// Navigation	
 	$('#photoNav').hide();
@@ -32,6 +34,13 @@ $(document).ready(function() {
 				$('#'+navID).addClass('activeSub');
 			}
 	})($);
+	
+	(function($){
+				setGalleryHeight=function() {
+				$('div#PhotoSwipeTarget').css({height: Math.round( $(window).height() * maxWinHeight ), 
+				'max-height': maxHeightPhoto+'px'} ); // set max height to whatever output will be from LightRoom
+			}
+	})($);	
 		
 		
 	//These aren't working. Can't seem to update the global variable from within a function 

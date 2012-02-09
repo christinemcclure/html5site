@@ -55,6 +55,10 @@ h2 {
   font-size: $fontSize+2;
 	margin: $lineHeight 0 0 0;
 }
+#events, #art, #portfolio, #portraits, #travel {
+	h1 {margin-bottom:0;}
+	h2 {margin: 0;}
+}
 
 
 	#galleries ul {

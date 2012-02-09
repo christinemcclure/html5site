@@ -82,10 +82,7 @@
 	$(document).ready(function() {
 		// set initial nav state for this page
 			setNav("photo", "events");			
-
-			$('div#PhotoSwipeTarget').css({height: Math.round( $(window).height() * 0.8 ), 
-				'max-height': '600px'} ); // set max height to whatever output will be from LightRoom
-			
+			setGalleryHeight();
 	});
 </script>
 
