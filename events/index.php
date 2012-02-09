@@ -1,11 +1,21 @@
 <?php include '../includes/head-stub.html' ?>
 	
-	<link href="../js/photoSwipe/pstyles.css" type="text/css" rel="stylesheet" />
+	<link href="../js/photoSwipe/styles.css" type="text/css" rel="stylesheet" />
 	<link href="../js/photoSwipe/photoswipe.css" type="text/css" rel="stylesheet" />
 	
 	<script type="text/javascript" src="../js/photoSwipe/lib/klass.min.js"></script>
 	<script type="text/javascript" src="../js/photoSwipe/code.photoswipe-3.0.4.min.js"></script>	
 	<script type="text/javascript">
+		
+		/* 
+			Overview: 
+			---------
+			
+			Demonstrates inline functionality. This demo sets the images using an array.
+			There is nothing stopping you basing this on image dom elements like other examples
+		
+		*/
+		
 		(function(window, Util, PhotoSwipe){
 			
 			Util.Events.domReady(function(e){
