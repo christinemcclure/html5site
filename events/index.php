@@ -1,6 +1,5 @@
 <?php include '../includes/head-stub.html' ?>
 	
-	<link href="../js/photoSwipe/styles.css" type="text/css" rel="stylesheet" />
 	<link href="../js/photoSwipe/photoswipe.css" type="text/css" rel="stylesheet" />
 	
 	<script type="text/javascript" src="../js/photoSwipe/lib/klass.min.js"></script>
@@ -24,21 +23,22 @@
 				
 				instance = PhotoSwipe.attach(
 					[
-						{ url: '/img/events/IMG_1002.jpg', caption: 'Image 001'},
-						{ url: '/img/events/IMG_1008.jpg', caption: 'Image 002'},
-						{ url: '/img/events/IMG_1143.jpg', caption: 'Image 003'},
-						{ url: '/img/events/IMG_1216.jpg', caption: 'Image 004'},
-						{ url: '/img/events/IMG_1231.jpg', caption: 'Image 005'},
-						{ url: '/img/events/LFAOU-DPP-05.jpg', caption: 'Image 006'},
-						{ url: '/img/events/IMG_1459.jpg', caption: 'Image 007'},
-						{ url: '/img/events/IMG_1492.jpg', caption: 'Image 008'},
-						{ url: '/img/events/IMG_1043.jpg', caption: 'Image 009'},
-						{ url: '/img/events/IMG_1572.jpg', caption: 'Image 009'},
-						{ url: '/img/events/IMG_1566.jpg', caption: 'Image 010'}
+						{ url: '/img/events/IMG_1002.jpg'},
+						{ url: '/img/events/IMG_1008.jpg'},
+						{ url: '/img/events/IMG_1143.jpg'},
+						{ url: '/img/events/IMG_1216.jpg'},
+						{ url: '/img/events/IMG_1231.jpg'},
+						{ url: '/img/events/LFAOU-DPP-05.jpg'},
+						{ url: '/img/events/IMG_1459.jpg'},
+						{ url: '/img/events/IMG_1492.jpg'},
+						{ url: '/img/events/IMG_1043.jpg'},
+						{ url: '/img/events/IMG_1572.jpg'},
+						{ url: '/img/events/IMG_1566.jpg'}
 					],
 					{
 						target: window.document.querySelectorAll('#PhotoSwipeTarget')[0],
 						preventHide: true,
+						captionAndToolbarShowEmptyCaptions: false,
 						getImageSource: function(obj){
 							return obj.url;
 						},
@@ -70,7 +70,7 @@
 <section>
   <h1 class="firstH1">Literature For All of Us</h1>
  	<h2>Honor Thy Mother Luncheon, 2011</h2>
-   <div id="MainContent">
+   <div class="gallery">
 	    <div id="PhotoSwipeTarget"></div>
    </div>
 </section>    
@@ -82,6 +82,10 @@
 	$(document).ready(function() {
 		// set initial nav state for this page
 			setNav("photo", "events");			
+
+			$('div#PhotoSwipeTarget').css({height: Math.round( $(window).height() * 0.8 ), 
+				'max-height': '600px'} ); // set max height to whatever output will be from LightRoom
+			
 	});
 </script>
 

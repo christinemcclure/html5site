@@ -1,4 +1,4 @@
-/* line 17, ../../.gem/ruby/1.8/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 17, ../../../RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -20,45 +20,45 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
-/* line 20, ../../.gem/ruby/1.8/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 20, ../../../RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 body {
   line-height: 1;
 }
 
-/* line 22, ../../.gem/ruby/1.8/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 22, ../../../RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 24, ../../.gem/ruby/1.8/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 24, ../../../RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 26, ../../.gem/ruby/1.8/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 26, ../../../RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle;
 }
 
-/* line 28, ../../.gem/ruby/1.8/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 28, ../../../RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
   quotes: none;
 }
-/* line 101, ../../.gem/ruby/1.8/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 101, ../../../RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q:before, q:after, blockquote:before, blockquote:after {
   content: "";
   content: none;
 }
 
-/* line 30, ../../.gem/ruby/1.8/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 30, ../../../RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 a img {
   border: none;
 }
 
-/* line 114, ../../.gem/ruby/1.8/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 114, ../../../RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
   display: block;
 }
@@ -71,63 +71,98 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 ####################################################### 
 
 */
+/* PhotoSwipe settings */
+/* line 16, ../sass/_base.scss */
+#PhotoSwipeTarget {
+  width: 100%;
+  height: 500px;
+  margin: 0 auto;
+}
+
+/* line 17, ../sass/_base.scss */
+#Indicators {
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* line 18, ../sass/_base.scss */
+#Indicators span {
+  display: inline-block;
+  height: 10px;
+  width: 10px;
+  margin: 0 10px 0 0;
+  padding: 0;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  background: #c5c5c5;
+  overflow: hidden;
+}
+
+/* line 19, ../sass/_base.scss */
+#Indicators span.current {
+  background: #EEBF02;
+}
+
 /* very light grey - almost white */
 /* dark grey */
 /* slightly darker grey */
 /* medium grey */
-/* line 19, ../sass/_base.scss */
+/* line 27, ../sass/_base.scss */
 img {
   max-width: 100%;
+  max-height: 100%;
 }
 
 /* for responsive images */
-/* line 22, ../sass/_base.scss */
+/* line 30, ../sass/_base.scss */
 #content {
   margin: 0px auto;
 }
 
-/* line 26, ../sass/_base.scss */
+/* line 34, ../sass/_base.scss */
 .accessibility, .hideForm, .hidden {
   display: none;
 }
 
-/* line 48, ../sass/_base.scss */
+/* line 56, ../sass/_base.scss */
 h1, h2, h3, h4, h5, h6, li a p {
   font-family: "Michroma", Verdana, Arial, sans-serif;
 }
 
-/* line 52, ../sass/_base.scss */
+/* line 60, ../sass/_base.scss */
 h1, h2, h3, h4, h5, h6 {
   font-weight: 900;
 }
 
-/* line 56, ../sass/_base.scss */
+/* line 64, ../sass/_base.scss */
 p, ul li {
   font-family: "Questrial", Verdana, Arial, sans-serif;
 }
 
-/* line 60, ../sass/_base.scss */
+/* line 68, ../sass/_base.scss */
 a {
   text-decoration: none;
   /*Lose underlining on links to make grid easier to see*/
 }
 
-/* line 64, ../sass/_base.scss */
+/* line 72, ../sass/_base.scss */
 nav {
   font-family: "Questrial", Verdana, Arial, sans-serif;
 }
 
-/* line 68, ../sass/_base.scss */
+/* line 76, ../sass/_base.scss */
 .hide {
   display: none;
 }
 
-/* line 70, ../sass/_base.scss */
+/* line 78, ../sass/_base.scss */
 .floatRight {
   float: right;
 }
 
-/* line 74, ../sass/_base.scss */
+/* line 82, ../sass/_base.scss */
 .floatLeft {
   float: left;
 }
@@ -138,7 +173,7 @@ nav {
 ########################################
 */
 /* line 58, ../sass/_base.scss */
-/* line 83, ../sass/_base.scss */
+/* line 91, ../sass/_base.scss */
 .t22 {
   font-size: 14px;
   line-height: 22px;
@@ -146,7 +181,7 @@ nav {
 }
 
 /* line 66, ../sass/_base.scss */
-/* line 90, ../sass/_base.scss */
+/* line 98, ../sass/_base.scss */
 .g978 #page {
   width: 300px;
   /*Total width works out to 312px*/
@@ -155,14 +190,14 @@ nav {
 }
 
 /* from baseline grid .t22 class */
-/* line 103, ../sass/_base.scss */
+/* line 111, ../sass/_base.scss */
 body {
   font-size: 14px;
   line-height: 22px;
 }
 
 /* hide mobile nav at first */
-/* line 111, ../sass/_base.scss */
+/* line 119, ../sass/_base.scss */
 nav select {
   display: none;
 }
