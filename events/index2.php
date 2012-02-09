@@ -5,13 +5,12 @@
 	<meta name="author" content="Ste Brennan - Code Computerlove - http://www.codecomputerlove.com/" />
 	<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0;" name="viewport" />
 	<meta name="apple-mobile-web-app-capable" content="yes" />
-	<link href="events/photoSwipe/examples/styles.css" type="text/css" rel="stylesheet" />
+	<link href="orig-photoSwipe/examples/styles.css" type="text/css" rel="stylesheet" />
 	
-	<link href="events/photoSwipe/photoswipe.css" type="text/css" rel="stylesheet" />
+	<link href="orig-photoSwipe/photoswipe.css" type="text/css" rel="stylesheet" />
 	
-	<script type="text/javascript" src="file:///C:/xampp/htdocs/events/photoSwipe/test.js"></script>
-	<script type="text/javascript" src="/events/photoSwipe/lib/klass.min.js"></script>
-	<script type="text/javascript" src="/events/photoSwipe/code.photoswipe-3.0.4.min.js"></script>
+	<script type="text/javascript" src="orig-photoSwipe/lib/klass.min.js"></script>
+	<script type="text/javascript" src="orig-photoSwipe/code.photoswipe-3.0.4.min.js"></script>
 	
 	
 	<script type="text/javascript">
@@ -33,25 +32,17 @@
 				
 				instance = PhotoSwipe.attach(
 					[
-						{ url: '/events/hpotoSwipe/examples/images/full/001.jpg', caption: 'Image 001'},
-						{ url: '/events/hpotoSwipe/examples/images/full/002.jpg', caption: 'Image 002'},
-						{ url: '/events/hpotoSwipe/examples/images/full/003.jpg', caption: 'Image 003'},
-						{ url: 'http://localhost/events/hpotoSwipe/examples/images/full/004.jpg', caption: 'Image 004'},
-						{ url: 'images/full/005.jpg', caption: 'Image 005'},
-						{ url: 'images/full/006.jpg', caption: 'Image 006'},
-						{ url: 'images/full/007.jpg', caption: 'Image 007'},
-						{ url: 'images/full/008.jpg', caption: 'Image 008'},
-						{ url: 'images/full/009.jpg', caption: 'Image 009'},
-						{ url: 'images/full/009.jpg', caption: 'Image 009'},
-						{ url: 'images/full/010.jpg', caption: 'Image 010'},
-						{ url: 'images/full/011.jpg', caption: 'Image 011'},
-						{ url: 'images/full/012.jpg', caption: 'Image 012'},
-						{ url: 'images/full/013.jpg', caption: 'Image 013'},
-						{ url: 'images/full/014.jpg', caption: 'Image 014'},
-						{ url: 'images/full/015.jpg', caption: 'Image 015'},
-						{ url: 'images/full/016.jpg', caption: 'Image 016'},
-						{ url: 'images/full/017.jpg', caption: 'Image 017'},
-						{ url: 'images/full/018.jpg', caption: 'Image 018'}
+						{ url: '/img/events/IMG_1002.jpg', caption: 'Image 001'},
+						{ url: '/img/events/IMG_1008.jpg', caption: 'Image 002'},
+						{ url: '/img/events/IMG_1143.jpg', caption: 'Image 003'},
+						{ url: '/img/events/IMG_1216.jpg', caption: 'Image 004'},
+						{ url: '/img/events/IMG_1231.jpg', caption: 'Image 005'},
+						{ url: '/img/events/LFAOU-DPP-05.jpg', caption: 'Image 006'},
+						{ url: '/img/events/IMG_1459.jpg', caption: 'Image 007'},
+						{ url: '/img/events/IMG_1492.jpg', caption: 'Image 008'},
+						{ url: '/img/events/IMG_1043.jpg', caption: 'Image 009'},
+						{ url: '/img/events/IMG_1572.jpg', caption: 'Image 009'},
+						{ url: '/img/events/IMG_1566.jpg', caption: 'Image 010'}
 					],
 					{
 						target: window.document.querySelectorAll('#PhotoSwipeTarget')[0],
@@ -76,6 +67,9 @@
 </head>
 <body>
 
+<div id="Header">
+	<a href="http://www.codecomputerlove.com"><img src="orig-photoSwipe/examples/images/codecomputerlovelogo.gif" width="230" height="48" alt="Code Computerlove" /></a>
+</div>
 
 <div id="MainContent">
 
@@ -87,10 +81,10 @@
 	<p><small>&copy; 2011 Code Computerlove Ltd - new media agency / digital marketing agency</small></p>
 
 	<div id="SocialLinks">
-		<a href="http://blog.codecomputerlove.com/"><img src="photoSwipe/examples/images/blogicon.png" width="32" height="32" alt="Blog" /></a>
-		<a href="http://www.twitter.com/computerlovers"><img src="photoSwipe/examples/images/twittericon.png" width="32" height="32" alt="Twitter" /></a>
-		<a href="http://www.facebook.com/CodeComputerlove"><img src="photoSwipe/examples/images/facebookicon.png" width="32" height="32" alt="Facebook" /></a>
-		<a href="http://www.flickr.com/photos/codecomputerlove"><img src="photoSwipe/examples/images/flickricon.png" width="32" height="32" alt="Flickr" /></a>
+		<a href="http://blog.codecomputerlove.com/"><img src="orig-photoSwipe/examples/images/blogicon.png" width="32" height="32" alt="Blog" /></a>
+		<a href="http://www.twitter.com/computerlovers"><img src="orig-photoSwipe/examples/images/twittericon.png" width="32" height="32" alt="Twitter" /></a>
+		<a href="http://www.facebook.com/CodeComputerlove"><img src="orig-photoSwipe/examples/images/facebookicon.png" width="32" height="32" alt="Facebook" /></a>
+		<a href="http://www.flickr.com/photos/codecomputerlove"><img src="orig-photoSwipe/examples/images/flickricon.png" width="32" height="32" alt="Flickr" /></a>
 	</div>
 
 </div>
