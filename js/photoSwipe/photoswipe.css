@@ -66,12 +66,12 @@ div.ps-carousel-item-error
 div.ps-caption
 { 
 	background: #4D4D4D;
-	background: -moz-linear-gradient(top, #FAFAFA 0%, #4D4D4D 100%);
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#FAFAFA), color-stop(100%,#4D4D4D));
+	background: -moz-linear-gradient(top, #4D4D4D  0%, #303030 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#4D4D4D), color-stop(100%,#303030));
 	border-bottom: 1px solid #42403f;
 	color: #ffffff;
 	font-size: 13px;
-	font-family: "Lucida Grande", Helvetica, Arial,Verdana, sans-serif;
+	font-family: Verdana, Arial, sans-serif;
 	text-align: center;
 }
 div.ps-caption *  { display: inline; }
@@ -93,13 +93,13 @@ div.ps-caption-content
 /* Toolbar */
 div.ps-toolbar
 { 
-	background: #4D4D4D;
-	background: -moz-linear-gradient(top, #4D4D4D 0%, #000 100%);
+	background: #424242;
+	background: -moz-linear-gradient(top, #424242 0%, #303030 100%);
 	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#424242), color-stop(100%,#303030));
 	border-top: 1px solid #42403f;
 	color: #ffffff;
 	font-size: 13px;
-	font-family: "Lucida Grande", Helvetica, Arial,Verdana, sans-serif;
+	font-family: Verdana, Arial, sans-serif;
 	text-align: center;
 	height: 44px;
 	display: table;

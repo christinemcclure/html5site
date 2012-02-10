@@ -1,5 +1,9 @@
 <?php include '../includes/head-stub.html' ?>
 
+	<link href="../js/photoSwipe/photoswipe.css" type="text/css" rel="stylesheet" />
+	<script type="text/javascript" src="../js/photoSwipe/lib/klass.min.js"></script>
+	<script type="text/javascript" src="../js/photoSwipe/code.photoswipe-3.0.4.min.js"></script>	
+
   <title>Christine McClure -- Portfolio</title>
 </head>
 
@@ -29,23 +33,55 @@
 
 <section>
     <h1>Images</h1>
-      
-      <ul class="gallery">
-        <li><img src="/img/portfolio/carys_card.gif" alt="Satirical book cover in pulp fiction style of a man telling a woman: 'Get your coat, dollface. We're going to Cary's." /><p>Business card for a Chicago tavern. </p></li>
-        <li><img src="/img/portfolio/logo.gif" alt="Eleventh Hour is the company name, and the logo features a stylized clock with the 11 marker in red." /><p>Logo for a software testing company. </p></li>
-          <li><img src="/img/portfolio/shirtBack.jpg" alt="photo of Dr. Frankenstein and Igor in the lab, 
-        about to bring the monster to life." /><p>Promotional t-shirt for a software testing company. </p></li>
-    <li><img src="/img/portfolio/kolb.gif" alt="image of Kolb's Experiential Learning Styles" /><p>Presentation graphic. </p></li>      
-      <li><img src="/img/portfolio/photoBusCard.gif" alt="image of Kolb's Experiential Learning Styles" /><p>Ad for fine art and portraiture photography.</p></li>      
-      </ul>
+    <div id="gallery1" class="photoSwipe"></div>
+
 </section>
 
 <?php include '../includes/footer.html'; ?>
 </div>
+	<script type="text/javascript">
+		(function(window, Util, PhotoSwipe){			
+			Util.Events.domReady(function(e){				
+				var gallery1;		
+				var gallery2;		
+				var gallery3;
+				gallery1 = PhotoSwipe.attach(
+					[
+						{ url: '/img/portfolio/carys_card.gif', 
+								alt:'Satirical book cover in pulp fiction style of a man telling a woman: "Get your coat, dollface. We\'re going to Cary\'s."',
+								caption: 'Business card for a Chicago tavern'},
+						{ url: '/img/portfolio/logo.gif', 
+								alt:'Eleventh Hour is the company name, and the logo features a stylized clock with the 11 marker in red.',
+								caption: 'Logo for a software testing company'},
+						{ url: '/img/portfolio/shirtBack.jpg', 
+								alt:'photo of Dr. Frankenstein and Igor in the lab, about to bring the monster to life.',
+								caption:'Promotional t-shirt for a software testing company'},
+						{ url: '/img/portfolio/kolb.gif', 
+								alt:'image of Kolb\'s Experiential Learning Styles',
+								caption: 'Presentation graphic'},								
+					],
+					{
+						target: window.document.querySelectorAll('#gallery1')[0],
+						preventHide: true,
+						captionAndToolbarShowEmptyCaptions: false,
+						getImageSource: function(obj){
+							return obj.url;
+						},
+						getImageCaption: function(obj){
+							return obj.caption;
+						}
+					}
+				);
+				gallery1.show(0);				
+			});						
+		}(window, window.Code.Util, window.Code.PhotoSwipe));		
+	</script>
+
 <script type="text/javascript">
 	$(document).ready(function() {
 		// set initial nav state for this page
-			setNav("lib", "portfolio");			
+			setNav("lib", "portfolio");	
+			setAllGalleryHeights('.photoSwipe');								
 	});
 </script>
 </body>
