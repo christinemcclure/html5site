@@ -56,7 +56,7 @@
 								caption:'Promotional t-shirt for a software testing company'},
 						{ url: '/img/portfolio/kolb.gif', 
 								alt:'image of Kolb\'s Experiential Learning Styles',
-								caption: 'Presentation graphic'},								
+								caption: 'Presentation graphic'}								
 					],
 					{
 						target: window.document.querySelectorAll('#gallery1')[0],
