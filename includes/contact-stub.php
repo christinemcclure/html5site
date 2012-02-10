@@ -87,7 +87,6 @@ if (isset($_POST['submitted'])) {
       <input type="hidden" name="submitted" value="TRUE" /></p>
     </form>
     </div>
-		</div>
 	</section>
 <?php include 'footer.html'; ?>
 </div>
