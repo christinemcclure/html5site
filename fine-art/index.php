@@ -21,22 +21,15 @@
 
     <h2><strong>Focus</strong> (Religion as barrier)</h2>
     <h3>Jerusalem, Israel</h3>
-   <div class="gallery">
-	    <div id="gallery1" class="photoSwipe"></div>
-   </div>
+    <div id="gallery1" class="photoSwipe"></div>
 
     <h2><strong>Macro</strong> (Life in the details)</h2>
     <h3>Chicago, Illinois</h3>
-
-   <div class="gallery">
-	    <div id="gallery2" class="photoSwipe"></div>
-   </div>
+    <div id="gallery2" class="photoSwipe"></div>
 
     <h2><strong>Persephone's Garden</strong> (How did she pass the time?)</h2>
     <h3>Chicago, Illinois</h3>
-   <div class="gallery">
-	    <div id="gallery3" class="photoSwipe"></div>
-   </div>
+    <div id="gallery3" class="photoSwipe"></div>
 
 
 </section>

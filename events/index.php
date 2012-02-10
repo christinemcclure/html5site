@@ -17,17 +17,13 @@
 <section>
   <h1 class="firstH1">Literature For All of Us</h1>
  	<h2>Honor Thy Mother Luncheon, 2011</h2>
-   <div class="gallery">
-	    <div id="gallery1" class="photoSwipe"></div>
-   </div>
+   <div id="gallery1" class="photoSwipe"></div>
 </section>    
 
 <section>
   <h1>District 57 Education Foundation</h1>
  	<h2>Live Auction, 2010</h2>
-   <div class="gallery">
-	    <div id="gallery2" class="photoSwipe"></div>
-   </div>
+  <div id="gallery2" class="photoSwipe"></div>
 </section> 
 
 <?php include '../includes/footer.html'; ?>

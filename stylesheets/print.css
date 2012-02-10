@@ -73,7 +73,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 */
 /* PhotoSwipe settings */
 /* line 16, ../sass/_base.scss */
-#gallery1, #gallery2, #gallery3, #gallery4, #gallery5 {
+#gallery1, #gallery2, #gallery3, #gallery4 {
   width: 100%;
   height: 400px;
   margin: 0 auto;
