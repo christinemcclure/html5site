@@ -62,8 +62,6 @@
 					],
 					{
 						target: window.document.querySelectorAll('#gallery1')[0],
-						preventHide: true,
-						captionAndToolbarShowEmptyCaptions: false,
 						getImageSource: function(obj){
 							return obj.url;
 						},

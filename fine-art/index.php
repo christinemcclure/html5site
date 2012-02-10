@@ -53,8 +53,6 @@
 					],
 					{
 						target: window.document.querySelectorAll('#gallery1')[0],
-						preventHide: true,
-						captionAndToolbarShowEmptyCaptions: false,
 						getImageSource: function(obj){
 							return obj.url;
 						},
@@ -74,8 +72,6 @@
 					],
 					{
 						target: window.document.querySelectorAll('#gallery2')[0],
-						preventHide: true,
-						captionAndToolbarShowEmptyCaptions: false,
 						getImageSource: function(obj){
 							return obj.url;
 						},
@@ -96,6 +92,7 @@
 					{
 						target: window.document.querySelectorAll('#gallery3')[0],
 						preventHide: true,
+						enableMouseWheel:false,
 						captionAndToolbarShowEmptyCaptions: false,
 						getImageSource: function(obj){
 							return obj.url;
