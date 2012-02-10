@@ -35,13 +35,16 @@ $(document).ready(function() {
 			}
 	})($);
 	
+
 	(function($){
-				setGalleryHeight=function(galleryID) {
-				$(galleryID).css({height: Math.round( $(window).height() * maxWinHeight ), 
-				'max-height': maxHeightPhoto+'px'} ); // set max height to whatever output will be from LightRoom
+				setAllGalleryHeights=function(galleryClass) {
+					$(galleryClass).each(function(index) {							
+						$(this).css({height: Math.round( $(window).height() * maxWinHeight ), 
+						'max-height': maxHeightPhoto+'px'} ); 
+						// set max height to whatever output will be from LightRoom. Won't just take from image max height																					
+					});
 			}
-	})($);	
-		
+	})($);
 		
 	//These aren't working. Can't seem to update the global variable from within a function 
 	// Workaround for now is to have two sep folders for contact. Boo. 

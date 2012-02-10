@@ -20,7 +20,7 @@
   <h1 class="firstH1">Literature For All of Us</h1>
  	<h2>Honor Thy Mother Luncheon, 2011</h2>
    <div class="gallery">
-	    <div id="gallery1"></div>
+	    <div id="gallery1" class="photoSwipe"></div>
    </div>
 </section>    
 
@@ -28,7 +28,7 @@
   <h1>District 57 Education Foundation</h1>
  	<h2>Live Auction, 2010</h2>
    <div class="gallery">
-	    <div id="gallery2"></div>
+	    <div id="gallery2" class="photoSwipe"></div>
    </div>
 </section> 
 
@@ -94,10 +94,10 @@
 <script type="text/javascript">
 	$(document).ready(function() {
 		// set initial nav state for this page		
-			setNav("photo", "events");			
-			setGalleryHeight('#gallery1');
-					
+		setNav("photo", "events");			
+		setAllGalleryHeights('.photoSwipe');		
 	});
+
 </script>
 
 </body>
