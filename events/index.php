@@ -41,8 +41,8 @@
 				var gallery2;		
 				gallery1 = PhotoSwipe.attach(
 					[
+						{ url: '/img/events/IMG_1008.jpg', alt:'Photo of venue from outside.'},
 						{ url: '/img/events/IMG_1002.jpg', alt:'Photo of centerpiece flower arrangement.'},
-						{ url: '/img/events/IMG_1008.jpg', alt:'Photo of centerpiece flower arrangement.'},
 						{ url: '/img/events/IMG_1043.jpg', alt:'Photo of an upright bass misician playing in the reception area.'},
 						{ url: '/img/events/IMG_1216.jpg', alt:'Photo of registration table volunteers checking in attendees.'},
 						{ url: '/img/events/IMG_1231.jpg', alt: 'Photo of two attendees chatting during the reception.'},
