@@ -36,8 +36,8 @@ $(document).ready(function() {
 	})($);
 	
 	(function($){
-				setGalleryHeight=function() {
-				$('div#PhotoSwipeTarget').css({height: Math.round( $(window).height() * maxWinHeight ), 
+				setGalleryHeight=function(galleryID) {
+				$(galleryID).css({height: Math.round( $(window).height() * maxWinHeight ), 
 				'max-height': maxHeightPhoto+'px'} ); // set max height to whatever output will be from LightRoom
 			}
 	})($);	
