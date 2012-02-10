@@ -55,89 +55,102 @@ h2 {
   font-size: $fontSize+2;
 	margin: $lineHeight 0 0 0;
 }
-#events, #art, #portfolio, #portraits, #travel {
+
+#events, #portfolio, #portraits, #travel {
 	h1 {margin-bottom:0;}
 	h2 {margin: 0;}
 }
 
 
-	#galleries ul {
-		li {
-		font-size: 12px;
-		width: 20%;
-		margin: 0 0 0 6%;
-		float:left;
+#galleries ul {
+	li {
+	font-size: 12px;
+	width: 20%;
+	margin: 0 0 0 6%;
+	float:left;
+	text-align:center;
+	}
+	
+ li:first-child {
+		margin:0;
+	}
+	
+}
+
+#photoIntro {
+	clear:both;
+	margin: 134px 0 $lineHeight 0;
+}
+
+nav#photo, nav#lib {
+	clear:both;
+	li {
+		font-size: $fontSize;
+		float: left;
+		width: 30%;
+		margin: 0 0 $lineHeight*2 5%;
 		text-align:center;
-		}
-		
+		 a {
+				padding: 6px 12px;
+				background: #ccc;
+		 }
+	}
 	 li:first-child {
-			margin:0;
-		}
-		
+		margin:0;
 	}
+}
 	
-	#photoIntro {
-		clear:both;
-		margin: 134px 0 $lineHeight 0;
-	}
-	
-	nav#photo, nav#lib {
-		clear:both;
-		li {
-			font-size: $fontSize;
-			float: left;
-			width: 30%;
-			margin: 0 0 $lineHeight*2 5%;
-			text-align:center;
-			 a {
-					padding: 6px 12px;
-					background: #ccc;
-			 }
-		}
-		 li:first-child {
-			margin:0;
-		}
-	}
-	
-	nav#lib {
-		li {
-			font-size:11px;
-			width: 20%;
-			margin: 0 0 $lineHeight*2 6%;
-			 a {
-					padding: 6px 8px;
-			 }
-		}
-		li:first-child {
-			margin:0;
-		}
-	}
-	#libFigure {
+nav#lib {
+	li {
+		font-size:11px;
 		width: 20%;
-		margin: 0 6% 0 0;
+		margin: 0 0 $lineHeight*2 6%;
+		 a {
+				padding: 6px 8px;
+		 }
+	}
+	li:first-child {
+		margin:0;
+	}
+}
+#libFigure {
+	width: 20%;
+	margin: 0 6% 0 0;
+	float:left;
+}
+
+#libIntro {
+	margin: 0 0 $lineHeight*2 0;
+}
+
+
+#about {
+	p.floatLeft {
+		/* 870 / 978 = 88.9570552147239% */
+		width: 65.6441717791411%;
+		margin: $lineHeight 4% $lineHeight*2 0;
+	}
+	p.floatLeft + p.floatLeft {
+		margin-top: -$lineHeight;
+	}		
+	img.floatLeft {
+		/* 222 / 978*/
+		width: 22.6993865030675%;
+		margin: -$lineHeight*9 0 0 2%;
+	}
+}
+
+#art {
+	p.column {
+	width: 68.71165644171779%;
+	float:left;
+	}
+	img { /* 252 / 978 */
+		width: 25%;
 		float:left;
+		margin: 0 0 0 5%;
 	}
-	
-	#libIntro {
-		margin: 0 0 $lineHeight*2 0;
-	}
-
-
-	#about {
-		p.floatLeft {
-			/* 870 / 978 = 88.9570552147239% */
-			width: 65.6441717791411%;
-			margin: $lineHeight 4% $lineHeight*2 0;
-		}
-		p.floatLeft + p.floatLeft {
-			margin-top: -$lineHeight;
-		}		
-		img.floatLeft {
-			/* 222 / 978*/
-			width: 22.6993865030675%;
-			margin: -$lineHeight*9 0 0 2%;
-		}
-	}
+}
 	
 footer {
 	clear:both;
