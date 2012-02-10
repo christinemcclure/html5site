@@ -43,8 +43,6 @@
 		(function(window, Util, PhotoSwipe){			
 			Util.Events.domReady(function(e){				
 				var gallery1;		
-				var gallery2;		
-				var gallery3;
 				gallery1 = PhotoSwipe.attach(
 					[
 						{ url: '/img/portfolio/carys_card.gif', 
