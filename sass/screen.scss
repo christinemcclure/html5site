@@ -141,7 +141,7 @@ nav#lib {
 }
 
 #art {
-	p.column {
+	p.columnExplain {
 	width: 68.71165644171779%;
 	float:left;
 	}
@@ -150,8 +150,27 @@ nav#lib {
 		float:left;
 		margin: 0 0 0 3%;
 	}
+	
+		h2{
+			margin: $lineHeight 02.04498977505112% $lineHeight 06.5439672801636%;
+		}
+		h3 {
+			display:inline-block;
+			float:left;
+		}
+		h4 {
+			display:inline-block;
+			float:left;
+			font-weight:normal;
+			font-size: 13px;
+			margin-left: 2%;
+		}
+		
+		h4 + p {clear:both;}
 }
 	
+
+
 footer {
 	clear:both;
 	p {
@@ -178,6 +197,15 @@ footer {
 		}
 	}
 
+
+	.column{
+		float:left;
+		margin: 0 02.04498977505112% $lineHeight 06.5439672801636%; /*  20/978  64/978*/
+	}
+	.three {
+		width: 24.13087934560327%; /*236/978*/
+	}
+	
 }
 
 @media screen and (min-width: 1008px) {
@@ -222,7 +250,7 @@ footer {
 	}
 
   .page {
-    /* width: 978px; Total with works out to 1008, but need more for padding*/
+     width: 978px; /*Total with works out to 1008, but need more for padding*/
 /*		background: #fff; */
 		width: 86%; 
 		padding: $lineHeight 10px $lineHeight 10px; /* pad more right and left later */
@@ -389,7 +417,7 @@ footer {
 
 				
 	} /* end homePage*/
-	
+
 
 	footer {
 		clear:both;
