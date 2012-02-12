@@ -31,6 +31,10 @@
     <h3>Chicago, Illinois</h3>
     <div id="gallery3" class="photoSwipe"></div>
 
+    <h2><strong>Perspective</strong> (Religion from a distance)</h2>
+    <h3>Jerusalem, Israel</h3>
+    <div id="gallery4" class="photoSwipe"></div>
+
 
 </section>
 
@@ -39,9 +43,7 @@
 	<script type="text/javascript">
 		(function(window, Util, PhotoSwipe){			
 			Util.Events.domReady(function(e){				
-				var gallery1;		
-				var gallery2;		
-				var gallery3;
+				var gallery1, gallery2, gallery3, gallery4, gallery5, gallery6;
 				gallery1 = PhotoSwipe.attach(
 					[
 						{ url: '/img/fineart/focus-1.jpg', 
@@ -91,9 +93,25 @@
 					],
 					{
 						target: window.document.querySelectorAll('#gallery3')[0],
-						preventHide: true,
-						enableMouseWheel:false,
-						captionAndToolbarShowEmptyCaptions: false,
+						getImageSource: function(obj){
+							return obj.url;
+						},
+						getImageCaption: function(obj){
+							return obj.caption;
+						}
+					}
+				);				
+				gallery4 = PhotoSwipe.attach(
+					[
+						{ url: '/img/fineart/Perspective-1.jpg', 
+								alt:'Digitally-manipulated image of the Kotel made to like very small by perspective.'},
+						{ url: '/img/fineart/Perspective-2.jpg', 
+								alt:'Digitally-manipulated image of the Jerusalem skyline with the Dome of the Rock made to like very small by perspective.'},
+						{ url: '/img/fineart/Perspective-3.jpg', 
+								alt:'Digitally-manipulated image of the Church of the Holy Sepulchre made to like very small by perspective.'}
+					],
+					{
+						target: window.document.querySelectorAll('#gallery4')[0],
 						getImageSource: function(obj){
 							return obj.url;
 						},
@@ -105,6 +123,9 @@
 				gallery1.show(0);				
 				gallery2.show(0);				
 				gallery3.show(0);				
+				gallery4.show(0);				
+				gallery5.show(0);				
+				gallery6.show(0);				
 			});						
 		}(window, window.Code.Util, window.Code.PhotoSwipe));		
 	</script>
