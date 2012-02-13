@@ -143,6 +143,10 @@ nav#lib {
 		h2{
 			margin: $lineHeight 02.04498977505112% $lineHeight 06.5439672801636%;
 		}
+		
+		.three {
+			margin-left:06.5439672801636%;
+		}
 		h3 {
 			display:inline-block;
 			float:left;
@@ -200,12 +204,28 @@ footer {
 
 	.column{
 		float:left;
-		margin: 0 02.04498977505112% $lineHeight 06.5439672801636%; /*  20/978  64/978*/
 	}
-	.three {
-		width: 24.13087934560327%; /*236/978*/
+	ul.twoColumnBlock {
+		li {
+			width: 43.76278118609407%;		
+			float:left;
+			margin: 0 8.58895705521472% $lineHeight 0; /*  20/978  64/978*/
+			
+			h2 {
+				margin-top:0;
+			}
+		}
+		
+		li:nth-child(2n+2){
+			margin-right: 0;
+		}
 	}
 	
+	.three {
+		width: 24.13087934560327%; /*236/978*/
+		margin: 0 02.04498977505112% $lineHeight 0; /*  20/978  64/978*/
+	}
+
 }
 
 @media screen and (min-width: 1008px) {
@@ -291,7 +311,7 @@ footer {
 		section {
 			margin: $lineHeight*2 0 0 0;
 		}
-	
+		
 	}
 
 
