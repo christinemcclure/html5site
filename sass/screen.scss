@@ -166,7 +166,7 @@ footer {
 		}
 	}
 	
-	section H1.top, #contact section  {
+	section H1.top  {
 		margin-top:$lineHeight*4;
 	}
 	
@@ -214,6 +214,20 @@ footer {
 		}
 		margin: $lineHeight 0 $lineHeight 06.5439672801636%;
 	}
+	
+	#contact {
+		input, textarea {
+			width: 100%;		
+			margin-bottom: $lineHeight;
+		}
+		input.button{
+			cursor:pointer;
+			width:33%;
+			margin: 0 0 0 33%;
+			height: $lineHeight*2;
+		}
+	}
+	
 	
 }/* min-width: 760px */
 
