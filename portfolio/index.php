@@ -45,7 +45,7 @@
 				var gallery1;		
 				gallery1 = PhotoSwipe.attach(
 					[
-						{ url: '/img/portfolio/carys_card.gif', 
+						{ url: '/img/portfolio/carys_card.png', 
 								alt:'Satirical book cover in pulp fiction style of a man telling a woman: "Get your coat, dollface. We\'re going to Cary\'s."',
 								caption: 'Business card for a Chicago tavern'},
 						{ url: '/img/portfolio/11th-hr.png', 
