@@ -77,7 +77,7 @@
 	$(document).ready(function() {
 		// set initial nav state for this page
 			setNav("lib", "portfolio");	
-			setAllGalleryHeights('.photoSwipe');								
+			setAllGalleryHeights('.photoSwipe', 500);								
 	});
 </script>
 </body>
