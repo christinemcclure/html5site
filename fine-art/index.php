@@ -18,32 +18,41 @@
     <h1 class="top">Portals</h1>
     <p class="floatLeft">This exhibit explored how people experience art. The images were encased in self-lit 6 x 6" boxes, with a large plastic loupe (magnifying glass) mounted to the top. Rather than discretely passing by the images, viewers had to walk directly up to them and peer inside. The images were arranged in groups of three, and let users explore alternate worlds of religion, nature and mythology.</p>
     <img class="floatLeft" src="/img/fineart/portal.png" alt="construction of portal frame." />
-<h2>Includes six series:</h2>
-	<div class="column three">
-    <h3>Focus</h3> <h4>(Religion as a barrier)</h4>
-    <p>Jerusalem, Israel</p>
-  </div>
-  <div class="column three"> 
-		<h3>Macro</h3> <h4>(Life in the details)</h4>
-  	<p>Chicago, IL</p>
-	</div>
-  <div class="column three">     
-	  <h3>Persephone's Garden</h3> <h4>(How did she pass the time?)</h4>
-  	<p>Chicago, IL</p>
-  </div>
-  <div class="column three">     
-	  <h3>Perspective</h3> <h4>(Religion from a distance)</h4>
-    <p>Jerusalem, Israel</p>
-  </div>
-  <div class="column three">     
-	  <h3>Saturation</h3> <h4>(Color focus)</h4>
-    <p>Panama</p>
-	</div>    
-  <div class="column three">     
-	  <h3>Polarization</h3> <h4>(Religion as ruler)</h4>
-    <p>Jerusalem, Israel</p>    
-	</div>
-  
+    <div id="seriesPortals">
+			<h2>Includes six series:</h2>
+	    <ul class="threeColumnBlock">
+  	  	<li>
+  			  <h3>Focus</h3>
+      	  <h4>(Religion as a barrier)</h4>
+		    	<p>Jerusalem, Israel</p>
+	      </li>
+        <li>
+					<h3>Macro</h3> 
+          <h4>(Life in the details)</h4>
+			  	<p>Chicago, IL</p>
+        </li>
+				<li>
+				  <h3>Persephone's Garden</h3> 
+          <h4>(How did she pass the time?)</h4>
+          <p>Chicago, IL</p>
+        </li>
+        <li>
+				  <h3>Perspective</h3> 
+          <h4>(Religion from a distance)</h4>
+          <p>Jerusalem, Israel</p>
+        </li>
+        <li>
+	  			<h3>Saturation</h3> 
+          <h4>(Color focus)</h4>
+          <p>Panama</p>
+        </li>
+        <li>
+	  			<h3>Polarization</h3> 
+          <h4>(Religion as ruler)</h4>
+			    <p>Jerusalem, Israel</p>    
+        </li>
+      </ul>
+  	</div>
 <div id="gallery1" class="photoSwipe"></div>
 
 </section>
