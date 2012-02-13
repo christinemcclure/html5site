@@ -197,7 +197,7 @@ footer {
 		}
 	}
 	
-	section,  {
+	section  {
 		H1:first-child{margin-top:$lineHeight*4;}
 	}
 
@@ -227,7 +227,6 @@ footer {
 
 /* change to desktop nav */
   nav select {  display: none; }
-/*	#photoNav.navList, #libNav.navList, #mainNav.navList {display: inline;} */
 
  .showNav {display:inline;}
  .hideNav {display:none;}
@@ -252,7 +251,7 @@ footer {
 		li {
 		width: 108px; /* don't bother w responsive here */
 			font-size: 14px;
-			margin: 0 20px $lineHeight 0;
+			margin: 0 20px 0 0;
 			text-align:center;
 		}
 		li:last-child {margin-left:0;}
