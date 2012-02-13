@@ -12,7 +12,7 @@
 <?php include '../includes/header.html'; ?>
 <?php include '../includes/nav.html'; ?>
 <section>
-	<h1>Portraiture</h1>
+	<h1 class="top">Portraiture</h1>
     <div id="gallery1" class="photoSwipe"></div>
 </section>        
 <?php include '../includes/footer.html'; ?>

@@ -10,7 +10,7 @@
 <?php include '../includes/header.html'; ?>
 <?php include '../includes/nav.html'; ?>
 <section>	
-    <h1>New Home Page</h1>
+    <h1 class="top">New Home Page</h1>
     <p>Once I put my new site live, I realized that I hated the layout (of course). I had spent so much time 
     thinking about responsive-ness and mobile-first that I hadn't paid enough attention to the design. 
     So here is the <a href="http://dev.christinemcclure.com">new home page</a> I'm envisioning.</p>

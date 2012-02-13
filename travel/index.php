@@ -13,7 +13,7 @@
 <?php include '../includes/header.html'; ?>
 <?php include '../includes/nav.html'; ?>
 <section>
-  <h1>Jerusalem</h1>
+  <h1 class="top">Jerusalem</h1>
   <div id="gallery1" class="photoSwipe"></div>
 </section>
 <section>    

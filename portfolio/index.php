@@ -14,7 +14,7 @@
 <?php include '../includes/header.html'; ?>
 <?php include '../includes/nav.html'; ?>
 
-	<p>Here are a few things I've designed over the years...</p>
+	<p class="top">Here are a few things I've designed over the years...</p>
 
 	<section>
 		<h1>Websites</h1>

@@ -10,7 +10,7 @@
 <?php include '../includes/header.html'; ?>
 <?php include '../includes/nav.html'; ?>
 <section>
-	<h1>Event Photography</h1>
+	<h1 class="top">Event Photography</h1>
 
 	<p>From children's birthday parties to book signings to corporate functions, you'll receive an accurate record of the occasion. Pricing is by a per-hour shooting fee, with a minimum agreed-upon amount. Additional shooting time can be arranged on the day of the event if necessary.</p>
 

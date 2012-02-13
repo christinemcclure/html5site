@@ -56,11 +56,6 @@ h2 {
 	margin: $lineHeight 0 0 0;
 }
 
-#events, #portfolio, #portraits, #travel {
-	h1 {margin-bottom:0;}
-	h2 {margin: 0;}
-}
-
 
 #galleries ul {
 	li {
@@ -124,7 +119,7 @@ nav#lib {
 }
 
 
-#about {
+#about, #art {
 	p.floatLeft {
 		/* 870 / 978 = 88.9570552147239% */
 		width: 65.6441717791411%;
@@ -136,21 +131,15 @@ nav#lib {
 	img.floatLeft {
 		/* 222 / 978*/
 		width: 22.6993865030675%;
-		margin: -$lineHeight*9 0 0 2%;
+		margin: 0 0 0 2%;
+	}
+	
+	p.floatLeft + p.floatLeft +img{
+		margin-top: -$lineHeight*9;
 	}
 }
 
-#art {
-	p.columnExplain {
-	width: 68.71165644171779%;
-	float:left;
-	}
-	img { /* 252 / 978 */
-		width: 25%;
-		float:left;
-		margin: 0 0 0 3%;
-	}
-	
+#art {	
 		h2{
 			margin: $lineHeight 02.04498977505112% $lineHeight 06.5439672801636%;
 		}
@@ -197,11 +186,7 @@ footer {
 		}
 	}
 	
-	section  {
-		H1:first-child{margin-top:$lineHeight*4;}
-	}
-
-	#contact section{
+	section H1.top, #contact section  {
 		margin-top:$lineHeight*4;
 	}
 	

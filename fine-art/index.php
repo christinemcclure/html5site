@@ -15,9 +15,9 @@
 <?php include '../includes/nav.html'; ?>
 
 	<section>
-    <h1>Portals</h1>
-    <p class="columnExplain">This exhibit explored how people experience art. The images were encased in self-lit 6 x 6" boxes, with a large plastic loupe (magnifying glass) mounted to the top. Rather than discretely passing by the images, viewers had to walk directly up to them and peer inside. The images were arranged in groups of three, and let users explore alternate worlds of religion, nature and mythology.</p>
-    <img src="/img/fineart/portal.png" alt="construction of portal frame." />
+    <h1 class="top">Portals</h1>
+    <p class="floatLeft">This exhibit explored how people experience art. The images were encased in self-lit 6 x 6" boxes, with a large plastic loupe (magnifying glass) mounted to the top. Rather than discretely passing by the images, viewers had to walk directly up to them and peer inside. The images were arranged in groups of three, and let users explore alternate worlds of religion, nature and mythology.</p>
+    <img class="floatLeft" src="/img/fineart/portal.png" alt="construction of portal frame." />
 <h2>Includes six series:</h2>
 	<div class="column three">
     <h3>Focus</h3> <h4>(Religion as a barrier)</h4>
