@@ -196,7 +196,22 @@ footer {
 		p.floatLeft + img {
 		}
 	}
+	
+	section,  {
+		H1:first-child{margin-top:$lineHeight*4;}
+	}
 
+	#contact section{
+		margin-top:$lineHeight*4;
+	}
+	
+	#portfolio {
+		nav + p {
+			clear:both;
+			margin-top: $lineHeight*4;
+		}
+		section H1:first-child {margin-top:$lineHeight*2;}
+	}
 
 	.column{
 		float:left;
