@@ -10,7 +10,7 @@
 <?php include '../includes/header.html'; ?>
 <?php include '../includes/nav.html'; ?>
 <section>
-  <h1 class="firstH1">Experience</h1>
+  <h1>Experience</h1>
     <h2>Digital Services Librarian</h2>
 	    <p>Illinois Institute of Technology</p>
 

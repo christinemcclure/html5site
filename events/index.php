@@ -15,7 +15,7 @@
 <?php include '../includes/header.html'; ?>
 <?php include '../includes/nav.html'; ?>
 <section>
-  <h1 class="firstH1">Literature For All of Us</h1>
+  <h1>Literature For All of Us</h1>
  	<h2>Honor Thy Mother Luncheon, 2011</h2>
    <div id="gallery1" class="photoSwipe"></div>
 </section>    
