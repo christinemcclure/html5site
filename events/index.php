@@ -37,7 +37,7 @@
 					[
 						{ url: '/img/events/IMG_1008.jpg', alt:'Photo of venue from outside.'},
 						{ url: '/img/events/IMG_1002.jpg', alt:'Photo of centerpiece flower arrangement.'},
-						{ url: '/img/events/IMG_1043.jpg', alt:'Photo of an upright bass misician playing in the reception area.'},
+						{ url: '/img/events/IMG_1143.jpg', alt:'Photo of an upright bass musician playing in the reception area.'},
 						{ url: '/img/events/IMG_1216.jpg', alt:'Photo of registration table volunteers checking in attendees.'},
 						{ url: '/img/events/IMG_1231.jpg', alt: 'Photo of two attendees chatting during the reception.'},
 						{ url: '/img/events/LFAOU-DPP-05.jpg', alt:'Photo of luncheon speaker.'},
@@ -60,9 +60,14 @@
 				gallery2 = PhotoSwipe.attach(
 					[
 						{ url: '/img/events/2010_District_57_-73.jpg', alt:'Photo of several women in cocktail attire at a silent auction table.'},
+						{ url: '/img/events/2010_District_57_-140.jpg', alt:'Photo of a raffle drawing.'},
+						{ url: '/img/events/2010_District_57_-125.jpg', alt:'Photo of woman holding an Oscar-type stauette award.'},
+						{ url: '/img/events/2010_District_57_-216.jpg', alt:'Photo of a group of attendees.'},
 						{ url: '/img/events/2010_District_57_-291.jpg', alt:'Photo of a dessert table.'},
+						{ url: '/img/events/2010_District_57_-46.jpg', alt:'Photo of two attendees talking.'},
 						{ url: '/img/events/2010_District_57_-240.jpg', alt:'Photo of woman in cocktail attire holding up an auction paddle to bid during the live auction.'},
 						{ url: '/img/events/2010_District_57_-411.jpg', alt:'Photo of two women in cocktail attire, dancing.'},
+						{ url: '/img/events/2010_District_57_-280.jpg', alt:'Photo of three women wearing prop hats and boas.'},
 						{ url: '/img/events/2010_District_57_-242.jpg', alt:'Photo of woman laughing heartily during the live auction with the auctioneer behind her.'}
 					],
 					{

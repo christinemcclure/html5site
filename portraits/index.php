@@ -32,7 +32,7 @@
 								caption: 'Family portrait day'},
 						{ url: '/img/portraits/gd_book_02.jpg', 
 								alt:'Black and white photo of author Gerry Doyle holding a beer, with the back of a woman\'s head in the foreground.',
-								caption:'Gerry Doyle, <strong>From the Depths</strong> book jacket shoot'},
+								caption:'Gerry Doyle, "From the Depths" book jacket shoot'},
 						{ url: '/img/portraits/birthday.jpg', 
 								alt:'Photo of a two-year-old girl eating a cookie with powdered sugar on her face.',
 								caption: 'Ariana\'s second birthday'},						
