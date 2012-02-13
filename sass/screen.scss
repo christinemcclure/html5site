@@ -212,7 +212,10 @@ footer {
 
 /* change to desktop nav */
   nav select {  display: none; }
-	#photoNav.navList, #libNav.navList, #mainNav.navList {display: inline-block;}
+/*	#photoNav.navList, #libNav.navList, #mainNav.navList {display: inline;} */
+
+ .showNav {display:inline;}
+ .hideNav {display:none;}
 
 	body{
 		margin: $lineHeight*2 0 0 0;

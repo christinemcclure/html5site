@@ -4,19 +4,19 @@ $(document).ready(function() {
 	var maxWinHeight = .8;
 
 	// Navigation	
-	$('#photoNav').hide();
-	$('#libNav').hide();
+//	$('#photoNav').hide();
+//	$('#libNav').hide();
 
 	$('li#photo').click(function () {
 		$(this).addClass('activeNav');
-		$('ul#libNav').hide();
-		$('ul#photoNav').toggle();
+		$('#libNav').removeClass('showNav').addClass('hideNav');	
+		$('#photoNav').removeClass('hideNav').addClass('showNav');
 	});
 
 	$('li#lib').click(function () {
 		$(this).addClass('activeNav');
-		$('ul#photoNav').hide();
-		$('ul#libNav').toggle();
+		$('#libNav').removeClass('hideNav').addClass('showNav');
+		$('#photoNav').removeClass('showNav').addClass('hideNav');				
 	});
 	
 	$("nav select").change(function() {
@@ -28,9 +28,16 @@ $(document).ready(function() {
 	// errors resolved from http://www.latentmotion.com/separating-jquery-functions-into-external-files-without-selectors/		
 	(function($){
 				setNav=function(navType, page) {
-				$('#'+navType+"Nav").show();
-				$('#'+navType).addClass('activeMain');
-				navID = page + "Nav";
+				$('#'+navType).addClass('activeMain'); // emphasize Photography or Librarianship
+				if (navType.indexOf('lib')===-1){ //show photo
+					$('#photoNav').removeClass('hideNav').addClass('showNav');
+					$('#libNav').removeClass('showNav').addClass('hideNav');									
+				}
+				else { //show lib
+					$('#libNav').removeClass('hideNav').addClass('showNav');
+					$('#photoNav').removeClass('showNav').addClass('hideNav');				
+				}
+				navID = page + "Nav"; //add active class 
 				$('#'+navID).addClass('activeSub');
 			}
 	})($);
