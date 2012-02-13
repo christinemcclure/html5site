@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
-	var maxHeightPhoto = 600;
+	var maxHeightPhoto = 800;
 	var maxWinHeight = .8;
 
 	// Navigation	
@@ -10,13 +10,13 @@ $(document).ready(function() {
 	$('li#photo').click(function () {
 		$(this).addClass('activeNav');
 		$('ul#libNav').hide();
-		$('ul#photoNav').fadeToggle('slow', 'linear');
+		$('ul#photoNav').toggle();
 	});
 
 	$('li#lib').click(function () {
 		$(this).addClass('activeNav');
 		$('ul#photoNav').hide();
-		$('ul#libNav').fadeToggle('slow', 'linear');
+		$('ul#libNav').toggle();
 	});
 	
 	$("nav select").change(function() {
@@ -39,12 +39,12 @@ $(document).ready(function() {
 	(function($){
 				setAllGalleryHeights=function(galleryClass, myHeight) {
 					if (!myHeight) {
-						myHeight = maxWinHeight;
+						myHeight = maxHeightPhoto;
 					}
 					$(galleryClass).each(function(index) {							
-						$(this).css({height: Math.round( $(window).height() * myHeight ), 
+						$(this).css({height: Math.round( $(window).height() * maxWinHeight ), 
 						'max-height': myHeight+'px'} ); 
-						// set maxWinHeight to whatever output will be from LightRoom. The plugin won't just take it from image max height																					
+						// set maxWinHeight to whatever output will be from LightRoom. The plugin won't just take from image max height																					
 					});
 			}
 	})($);
