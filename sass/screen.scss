@@ -69,6 +69,10 @@ h2 {
 	margin: $lineHeight 0 0 0;
 }
 
+#art img.floatLeft, #about img.floatLeft {
+	width: 40%;
+	margin: $lineHeight;
+}
 
 #galleries ul {
 	li {
@@ -132,25 +136,6 @@ nav#lib {
 }
 
 
-#about, #art {
-	p.floatLeft {
-		/* 870 / 978 = 88.9570552147239% */
-		width: 65.6441717791411%;
-		margin: $lineHeight 4% $lineHeight*2 0;
-	}
-	p.floatLeft + p.floatLeft {
-		margin-top: -$lineHeight;
-	}		
-	img.floatLeft {
-		/* 222 / 978*/
-		width: 22.6993865030675%;
-		margin: 0 0 0 2%;
-	}
-	
-	p.floatLeft + p.floatLeft +img{
-		margin-top: -$lineHeight*9;
-	}
-}
 
 	#contact {
 		section p {
@@ -199,18 +184,27 @@ footer {
 		background-image: url('img/748px-10-44-10-12c.png'); 
 	}
 
-	#about {
+	#about, #art {
 		p.floatLeft {
-			margin: $lineHeight 8.5889570552147% $lineHeight*2 0;
+			/* 870 / 978 = 88.9570552147239% */
+			width: 65.6441717791411%;
+			margin: $lineHeight 4% $lineHeight*2 0;
 		}
-		p.floatLeft + img {
+		p.floatLeft + p.floatLeft {
+			margin-top: -$lineHeight;
+		}		
+		img.floatLeft {
+			/* 222 / 978*/
+			width: 22.6993865030675%;
+			margin: 0 0 0 2%;
+		}
+		
+		p.floatLeft + p.floatLeft +img{
+			margin-top: -$lineHeight*9;
 		}
 	}
-	
-	section H1.top  {
-		margin-top:$lineHeight*4;
-	}
-	
+
+
 	#portfolio {
 		nav + p {
 			clear:both;
