@@ -69,7 +69,7 @@ header p {
 h2 {
 	clear:both;
   font-size: $fontSize+2;
-	margin: $lineHeight 0 0 0;
+	margin: $lineHeight 0 $lineHeight 0;
 }
 
 #art img.floatLeft, #about img.floatLeft {
