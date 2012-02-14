@@ -23,7 +23,7 @@
   	<ul>
     	<li><a href="/about">about</a></li>
     	<li><a href="/pricing">pricing</a></li>
-    	<li><a href="/contact">contact</a></li>
+    	<li><a href="/contactPhoto">contact</a></li>
     </ul>
   </nav>
 
@@ -35,7 +35,7 @@
     		<li><a href="/resume">resum&eacute;</a></li>
     		<li><a href="/portfolio">portfolio</a></li>
     		<li><a href="/the-lab">the lab</a></li>
-    		<li><a href="/contact">contact</a></li>
+    		<li><a href="/contactLib">contact</a></li>
     </ul>
   </nav>
 	<?php include 'includes/footer.html'; ?>
