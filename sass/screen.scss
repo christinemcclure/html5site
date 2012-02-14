@@ -241,6 +241,7 @@ footer {
 	}
 	
 	ul.threeColumnBlock {
+			margin-top: $lineHeight;
 			li {
 				width: 24.13087934560327%; /*236/978*/
 				float:left;
@@ -250,10 +251,10 @@ footer {
 				margin-right: 0;
 			}			
 		}
-		
+
 	#seriesPortals{
 		h2 {
-			margin: $lineHeight 0 $lineHeight 0;
+			margin: $lineHeight 0 0 0;
 		}
 		margin: $lineHeight 0 $lineHeight 06.5439672801636%;
 	}
