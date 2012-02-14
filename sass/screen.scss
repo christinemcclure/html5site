@@ -1,9 +1,22 @@
 @import "_base.scss";
 
 
-body, a {
+body {
 	color:$text;
 }
+
+a {
+	color:green;
+}
+
+strong {
+	color:red;
+}
+
+em {
+	color:blue;
+}
+
 
 	a:hover{
 		font-weight: 900;
@@ -216,15 +229,16 @@ footer {
 	}
 	
 	#contact {
-		p.formFeedback {
+		p {
 			width: 30.67484662576687%;
-			margin: 0;
+			margin: 0 0 $lineHeight 0;
+		}
+		.formFeedback {			
 			float:left;
 		}
 		.formContainer{
 			width: 43.76278118609407%;
-			float:left;
-			margin: 0 0 $lineHeight*2 8.58895705521472%;
+			margin: -$lineHeight*6 0 $lineHeight*3 39.2638036809816%;
 		}
 		input{
 			margin: 0 0 $lineHeight 0;
