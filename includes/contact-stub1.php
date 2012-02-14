@@ -29,9 +29,8 @@ if (isset($_POST['submitted'])) {
 	// Clean the form data:
 	$scrubbed = array_map('spam_scrubber', $_POST);
 
-	// Minimal form validation:
-	if  (  (!empty($scrubbed['name'])) && (!empty($scrubbed['email'])) ) {
-	
+		// Form validation passed to browser
+			
 		// Create the body:
 		$body = "Name: {$scrubbed['name']} \n E-mail: {$scrubbed['email']}
 		\n Phone: {$scrubbed['phone']} \n {$scrubbed['message']}";
@@ -46,10 +45,6 @@ if (isset($_POST['submitted'])) {
 		
 		// Clear $_POST (so that the form's not sticky):
 		$_POST = array();
-	
-	} else {
-		echo '<p>Please include both your name and e-mail address.</p>';
-	}
 	
 } // End of main isset() IF.
 ?>
