@@ -152,6 +152,34 @@ nav#lib {
 	}
 }
 
+	#contact {
+		section p {
+			margin: 0 0 $lineHeight 0;
+		}
+		.formContainer{ /* make form widths static */
+			width: 100%;
+			margin: 0;
+		}
+		input{
+			margin: 0 0 $lineHeight 0;
+			clera:both;
+			width: 100%;
+		}
+		#message {
+			clear:both;
+			width: 100%;
+			height: $lineHeight*4;
+			margin-bottom: $lineHeight;
+		}
+		input.button{
+			cursor:pointer;
+			width: 100%;
+			height: $lineHeight;
+			padding:5px 10px 23px 10px;
+		}
+	}
+	
+
 
 footer {
 	clear:both;
@@ -231,35 +259,22 @@ footer {
 	#contact {
 		section p {
 			width: 30.67484662576687%;
-			margin: 0 0 $lineHeight 0;
 		}
 		.formFeedback {			
 			float:left;
 		}
-		.formContainer{
-			width: 43.76278118609407%;
+		.formContainer{ /* make form widths static */
+			width: 428px;
 			margin: -$lineHeight*6 0 $lineHeight*3 39.2638036809816%;
 		}
 		input{
 			margin: 0 0 $lineHeight 0;
 			float:left;
-			width: 40.18691588785047%;
+			width: 172px;
 		}
 		input#email{
 			float:right;
-			margin: -$lineHeight*2 0 0 19.6%;
-		}
-		input#message {
-			clear:both;
-			width: 100%;
-			height: $lineHeight*4;
-			margin-bottom: $lineHeight;
-		}
-		input.button{
-			cursor:pointer;
-			width: 25.23364485981308%;
-			height: $lineHeight;
-			padding:5px 10px 23px 10px;
+			margin: -$lineHeight*2 0 0 84px;
 		}
 	}
 	

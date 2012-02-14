@@ -65,6 +65,6 @@ if (isset($_POST['submitted'])) {
 <section>
 	<h1 class="top">Contact Me</h1>
 		  <?php echo $feedback; ?>  
-      <p>Looking for your images? You can order <a href="http://christinemcclure.smugmug.com/">prints online</a>.</p>
+      <p>Looking for your photos? You can order <a href="http://christinemcclure.smugmug.com/">prints online</a>.</p>
   		<div class="formContainer">
       	<div id="showContactForm" class="<?php echo $cssclass; ?>"> <!--showForm to start-->	
