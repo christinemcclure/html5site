@@ -14,10 +14,13 @@
 <?php include '../includes/header.html'; ?>
 <?php include '../includes/nav.html'; ?>
 
-	<p class="top">Here are a few things I've designed over the years...</p>
+	
+
 
 	<section>
-		<h1>Websites</h1>
+  	<h1 class="top">Portfolio</h1>
+		<p>Here are a few things I've designed over the years...</p>
+		<h2>Websites</h2>
   
     <ul>
       <li>This one, of course. The latest rendition of christinemcclure.com is an exercise in:
@@ -29,10 +32,8 @@
           </ul> </li>
       <li class="clear">I also designed and developed Galvin Library's <a href="http://m.library.iit.edu">first mobile website.</a> This site (released July 2011) uses the jQuery Mobile fremework.</li>
     </ul>
-</section>
 
-<section>
-    <h1>Images</h1>
+    <h2>Images</h2>
     <div id="gallery1" class="photoSwipe"></div>
 
 </section>
