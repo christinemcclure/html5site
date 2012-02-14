@@ -266,18 +266,18 @@ footer {
 		.formFeedback {			
 			float:left;
 		}
-		.formContainer{ /* make form widths static */
-			width: 428px;
+		.formContainer{ 
+			width: 43.76278118609407%;
 			margin: -$lineHeight*6 0 $lineHeight*3 39.2638036809816%;
 		}
 		input{
 			margin: 0 0 $lineHeight 0;
 			float:left;
-			width: 172px;
+			width: 40.18691588785047%; /* 172 / 428*/
 		}
 		input#email{
 			float:right;
-			margin: -$lineHeight*2 0 0 84px;
+			margin: -$lineHeight*2 0 0 19.62616822429907%;
 		}
 		input.button{
 			width: 25.23364485981308%;

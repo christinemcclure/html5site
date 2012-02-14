@@ -516,20 +516,20 @@ footer p {
   }
   /* line 269, ../sass/screen.scss */
   #contact .formContainer {
-    /* make form widths static */
-    width: 428px;
+    width: 43.76278118609407%;
     margin: -132px 0 66px 39.264%;
   }
   /* line 273, ../sass/screen.scss */
   #contact input {
     margin: 0 0 22px 0;
     float: left;
-    width: 172px;
+    width: 40.18691588785047%;
+    /* 172 / 428*/
   }
   /* line 278, ../sass/screen.scss */
   #contact input#email {
     float: right;
-    margin: -44px 0 0 84px;
+    margin: -44px 0 0 19.626%;
   }
   /* line 282, ../sass/screen.scss */
   #contact input.button {
