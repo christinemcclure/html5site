@@ -42,6 +42,9 @@ em {
   padding: 20px 10px;
 }
 
+p {
+	margin: 0 0 $lineHeight 0;
+}
 header, #homePage h2, #homePage h3 {
 	clear:both;
   text-align:center;
@@ -75,6 +78,7 @@ h2 {
 }
 
 #galleries ul {
+	p {margin:0;}
 	li {
 	font-size: 12px;
 	width: 20%;
