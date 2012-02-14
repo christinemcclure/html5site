@@ -216,15 +216,36 @@ footer {
 	}
 	
 	#contact {
-		input, textarea {
-			width: 100%;		
+		p.formFeedback {
+			width: 30.67484662576687%;
+			margin: 0;
+			float:left;
+		}
+		.formContainer{
+			width: 43.76278118609407%;
+			float:left;
+			margin: 0 0 $lineHeight*2 8.58895705521472%;
+		}
+		input{
+			margin: 0 0 $lineHeight 0;
+			float:left;
+			width: 40.18691588785047%;
+		}
+		input#email{
+			float:right;
+			margin: -$lineHeight*2 0 0 19.6%;
+		}
+		input#message {
+			clear:both;
+			width: 100%;
+			height: $lineHeight*4;
 			margin-bottom: $lineHeight;
 		}
 		input.button{
 			cursor:pointer;
-			width:33%;
-			margin: 0 0 0 33%;
-			height: $lineHeight*2;
+			width: 25.23364485981308%;
+			height: $lineHeight;
+			padding:5px 10px 23px 10px;
 		}
 	}
 	
