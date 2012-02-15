@@ -10,7 +10,10 @@
 <?php include '../includes/header.html'; ?>
 <?php include '../includes/nav.html'; ?>
 <section>
-	<h1 class="top">Event Photography</h1>
+	
+	<h1 class="top">Pricing</h1>
+
+	<h2 class="top">Event Photography</h2>
 
 	<ul class="twoColumnBlock">
   <li>
@@ -21,8 +24,7 @@
     </li>
   </ul>
 
-<section>
-	<h1>Portraiture</h1>
+	<h2>Portraiture</h2>
 
 	<ul class="twoColumnBlock">
   	<li>
