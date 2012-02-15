@@ -193,10 +193,13 @@ footer {
 		}
 
 	#about, #art {
+		h2 + h3 + h4 {
+			margin-bottom: $lineHeight;
+		}
 		p.floatLeft {
 			/* 870 / 978 = 88.9570552147239% */
 			width: 65.6441717791411%;
-			margin: $lineHeight 4% $lineHeight*2 0;
+			margin: 0 4% $lineHeight*2 0;
 		}
 		p.floatLeft + p.floatLeft {
 			margin-top: -$lineHeight;
@@ -206,7 +209,9 @@ footer {
 			width: 22.6993865030675%;
 			margin: 0 0 0 2%;
 		}
-		
+		p.floatLeft + img {
+			margin-top: -$lineHeight*2;
+		}
 		p.floatLeft + p.floatLeft +img{
 			margin-top: -$lineHeight*9;
 		}

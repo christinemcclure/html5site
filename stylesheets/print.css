@@ -167,42 +167,47 @@ h1, h2, h3, h4, h5, h6, li a p {
 }
 
 /* line 100, ../sass/_base.scss */
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4 {
   font-weight: 900;
 }
 
 /* line 104, ../sass/_base.scss */
+h5, h6 {
+  font-weight: 500;
+}
+
+/* line 109, ../sass/_base.scss */
 p, ul li {
   font-family: "Questrial", Verdana, Arial, sans-serif;
 }
 
-/* line 108, ../sass/_base.scss */
+/* line 113, ../sass/_base.scss */
 a {
   text-decoration: none;
   /*Lose underlining on links to make grid easier to see*/
 }
 
-/* line 112, ../sass/_base.scss */
+/* line 117, ../sass/_base.scss */
 nav {
   font-family: "Questrial", Verdana, Arial, sans-serif;
 }
 
-/* line 116, ../sass/_base.scss */
+/* line 121, ../sass/_base.scss */
 .hide {
   display: none;
 }
 
-/* line 118, ../sass/_base.scss */
+/* line 123, ../sass/_base.scss */
 .floatRight {
   float: right;
 }
 
-/* line 122, ../sass/_base.scss */
+/* line 127, ../sass/_base.scss */
 .floatLeft {
   float: left;
 }
 
-/* line 126, ../sass/_base.scss */
+/* line 131, ../sass/_base.scss */
 .clear {
   clear: both;
 }

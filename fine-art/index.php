@@ -15,40 +15,41 @@
 <?php include '../includes/nav.html'; ?>
 
 	<section>
-    <h1 class="top">Portals</h1>
+    <h1 class="top">Fine Art Photography</h1>
+    <h2>Portals</h2>
     <p class="floatLeft">This exhibit explored how people experience art. The images were encased in self-lit 6 x 6" boxes, with a large plastic loupe (magnifying glass) mounted to the top. Rather than discretely passing by the images, viewers had to walk directly up to them and peer inside. The images were arranged in groups of three, and let users explore alternate worlds of religion, nature and mythology.</p>
     <img class="floatLeft" src="/img/fineart/portal.png" alt="construction of portal frame." />
     <div id="seriesPortals">
-			<h2>Includes six series:</h2>
+			<h3>Includes six series:</h3>
 	    <ul class="threeColumnBlock">
   	  	<li>
-  			  <h3>Focus</h3>
-      	  <h4>(Religion as a barrier)</h4>
+  			  <h4>Focus</h4>
+      	  <h5>(Religion as a barrier)</h5>
 		    	<p>Jerusalem, Israel</p>
 	      </li>
         <li>
-					<h3>Macro</h3> 
-          <h4>(Life in the details)</h4>
+					<h4>Macro</h4> 
+          <h5>(Life in the details)</h5>
 			  	<p>Chicago, IL</p>
         </li>
 				<li>
-				  <h3>Persephone's Garden</h3> 
-          <h4>(How did she pass the time?)</h4>
+				  <h4>Persephone's Garden</h4> 
+          <h5>(How did she pass the time?)</h5>
           <p>Chicago, IL</p>
         </li>
         <li>
-				  <h3>Perspective</h3> 
-          <h4>(Religion from a distance)</h4>
+				  <h4>Perspective</h4> 
+          <h5>(Religion from a distance)</h5>
           <p>Jerusalem, Israel</p>
         </li>
         <li>
-	  			<h3>Saturation</h3> 
-          <h4>(Color focus)</h4>
+	  			<h4>Saturation</h4> 
+          <h5>(Color focus)</h5>
           <p>Panama</p>
         </li>
         <li>
-	  			<h3>Polarization</h3> 
-          <h4>(Religion as ruler)</h4>
+	  			<h4>Polarization</h4> 
+          <h5>(Religion as ruler)</h5>
 			    <p>Jerusalem, Israel</p>    
         </li>
       </ul>
