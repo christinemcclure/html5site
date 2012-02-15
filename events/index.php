@@ -15,14 +15,14 @@
 <?php include '../includes/header.html'; ?>
 <?php include '../includes/nav.html'; ?>
 <section>
-  <h1 class="top">Literature For All of Us</h1>
- 	<h2>Honor Thy Mother Luncheon, 2011</h2>
+  <h1 class="top">Event Photography</h1>
+  
+  <h2>Literature For All of Us</h2>
+ 	<h3>Honor Thy Mother Luncheon, 2011</h3>
    <div id="gallery1" class="photoSwipe"></div>
-</section>    
 
-<section>
-  <h1>District 57 Education Foundation</h1>
- 	<h2>Live Auction, 2010</h2>
+  <h2>District 57 Education Foundation</h2>
+ 	<h3>Live Auction, 2010</h3>
   <div id="gallery2" class="photoSwipe"></div>
 </section> 
 

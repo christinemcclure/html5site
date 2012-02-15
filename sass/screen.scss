@@ -77,6 +77,12 @@ h2 {
 	margin: $lineHeight;
 }
 
+#events {
+	h2{
+		margin: $lineHeight*2 0 0 0;
+	}
+}
+
 #galleries ul {
 	p {margin:0;}
 	li {
