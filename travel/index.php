@@ -13,11 +13,11 @@
 <?php include '../includes/header.html'; ?>
 <?php include '../includes/nav.html'; ?>
 <section>
-  <h1 class="top">Jerusalem</h1>
+  <h1 class="top">Travel Photography</h1>
+
+  <h2>Jerusalem</h2>
   <div id="gallery1" class="photoSwipe"></div>
-</section>
-<section>    
-  <h1>Panama</h1>
+  <h2>Panama</h2>
   <div id="gallery2" class="photoSwipe"></div>
 </section>        
 <?php include '../includes/footer.html'; ?>

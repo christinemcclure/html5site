@@ -306,7 +306,7 @@ h2 {
 }
 
 /* line 81, ../sass/screen.scss */
-#events h2 {
+#events h2, #travel h2 {
   margin: 44px 0 0 0;
 }
 
