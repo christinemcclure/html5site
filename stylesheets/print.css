@@ -64,6 +64,41 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 }
 
 /* may need to move this to css3 file */
+/*
+########################################
+########### For Baselind Grid ##########
+########################################
+*/
+/* from baseline grid .t22 class */
+/* line 58, ../sass/_base.scss */
+/* line 18, ../sass/_base.scss */
+.t22 {
+  font-size: 14px;
+  line-height: 22px;
+  background-image: url("img/22px-baseline.png");
+}
+
+/* line 66, ../sass/_base.scss */
+/* line 25, ../sass/_base.scss */
+.g978 #page {
+  width: 300px;
+  /*Total width works out to 312px*/
+  padding: 0px 6px 0px 6px;
+  background-image: url("img/300px-6-27-6-8c.png");
+}
+
+/* line 34, ../sass/_base.scss */
+body {
+  font-size: 14px;
+  line-height: 22px;
+}
+
+/* hide mobile nav at first */
+/* line 42, ../sass/_base.scss */
+nav select {
+  display: none;
+}
+
 /* 
 
 ####################################################### 
@@ -72,20 +107,20 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 
 */
 /* PhotoSwipe settings */
-/* line 16, ../sass/_base.scss */
+/* line 56, ../sass/_base.scss */
 #gallery1, #gallery2, #gallery3, #gallery4, #gallery5, #gallery6 {
   width: 100%;
   height: 400px;
   margin: 0 auto;
 }
 
-/* line 17, ../sass/_base.scss */
+/* line 57, ../sass/_base.scss */
 #Indicators {
   text-align: center;
   margin-top: 20px;
 }
 
-/* line 18, ../sass/_base.scss */
+/* line 58, ../sass/_base.scss */
 #Indicators span {
   display: inline-block;
   height: 10px;
@@ -100,7 +135,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   overflow: hidden;
 }
 
-/* line 19, ../sass/_base.scss */
+/* line 59, ../sass/_base.scss */
 #Indicators span.current {
   background: #EEBF02;
 }
@@ -109,100 +144,65 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 /* dark grey */
 /* slightly darker grey */
 /* medium grey */
-/* line 27, ../sass/_base.scss */
+/* line 67, ../sass/_base.scss */
 img {
   max-width: 100%;
   max-height: 100%;
 }
 
 /* for responsive images */
-/* line 30, ../sass/_base.scss */
+/* line 70, ../sass/_base.scss */
 #content {
   margin: 0px auto;
 }
 
-/* line 34, ../sass/_base.scss */
+/* line 74, ../sass/_base.scss */
 .accessibility, .hideForm, .hidden {
   display: none;
 }
 
-/* line 56, ../sass/_base.scss */
+/* line 96, ../sass/_base.scss */
 h1, h2, h3, h4, h5, h6, li a p {
   font-family: "Michroma", Verdana, Arial, sans-serif;
 }
 
-/* line 60, ../sass/_base.scss */
+/* line 100, ../sass/_base.scss */
 h1, h2, h3, h4, h5, h6 {
   font-weight: 900;
 }
 
-/* line 64, ../sass/_base.scss */
+/* line 104, ../sass/_base.scss */
 p, ul li {
   font-family: "Questrial", Verdana, Arial, sans-serif;
 }
 
-/* line 68, ../sass/_base.scss */
+/* line 108, ../sass/_base.scss */
 a {
   text-decoration: none;
   /*Lose underlining on links to make grid easier to see*/
 }
 
-/* line 72, ../sass/_base.scss */
+/* line 112, ../sass/_base.scss */
 nav {
   font-family: "Questrial", Verdana, Arial, sans-serif;
 }
 
-/* line 76, ../sass/_base.scss */
+/* line 116, ../sass/_base.scss */
 .hide {
   display: none;
 }
 
-/* line 78, ../sass/_base.scss */
+/* line 118, ../sass/_base.scss */
 .floatRight {
   float: right;
 }
 
-/* line 82, ../sass/_base.scss */
+/* line 122, ../sass/_base.scss */
 .floatLeft {
   float: left;
 }
 
-/* line 86, ../sass/_base.scss */
+/* line 126, ../sass/_base.scss */
 .clear {
   clear: both;
-}
-
-/*
-########################################
-########### For Baselind Grid ##########
-########################################
-*/
-/* line 58, ../sass/_base.scss */
-/* line 95, ../sass/_base.scss */
-.t22 {
-  font-size: 14px;
-  line-height: 22px;
-  background-image: url("img/22px-baseline.png");
-}
-
-/* line 66, ../sass/_base.scss */
-/* line 102, ../sass/_base.scss */
-.g978 #page {
-  width: 300px;
-  /*Total width works out to 312px*/
-  padding: 0px 6px 0px 6px;
-  background-image: url("img/300px-6-27-6-8c.png");
-}
-
-/* from baseline grid .t22 class */
-/* line 115, ../sass/_base.scss */
-body {
-  font-size: 14px;
-  line-height: 22px;
-}
-
-/* hide mobile nav at first */
-/* line 123, ../sass/_base.scss */
-nav select {
-  display: none;
 }
