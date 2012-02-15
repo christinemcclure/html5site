@@ -83,6 +83,27 @@ h2 {
 	}
 }
 
+#resume {
+	h3 {
+
+	}
+	ul.oneColumnBlock {
+		margin: -$lineHeight*3 0 0 39.2638036809816%; /* 384 / 978 */
+		 li {
+			margin: 0 0 $lineHeight 0;
+			li:last-child {
+				margin-bottom: $lineHeight*1.5; /* to ensure starting next block on line */
+			}
+			ul li { /* sublist of responsibilities*/
+				clear:both;
+				list-style: disc;
+				margin: 0 0 $lineHeight/2 05.20833333333333%; 
+					/* 1/2 line spacing between bullet points left: 20 / 384 */
+			 }
+			}
+	 }
+}
+
 #galleries ul {
 	p {margin:0;}
 	li {
