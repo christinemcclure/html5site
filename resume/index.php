@@ -22,9 +22,9 @@
               <ul>
                 <li>Creating new digital content for the library: including web-based tutorials,
                 digitally reformatted collections, subject specific pathfinders, and other digital library services. </li>
-                <li>Developing dynamic, evolving, user-centered content and services for all IIT Library web sites. Designed and <em>developed the library's first <a href="http://m.library.iit.edu" target="_blank">mobile website</a></em> (summer 2011). </li>
-                <li>Presented at the <em>2011 <a href="http://eduiconf.org/sessions/the-jquery-mobile-website/" target="_blank">edUI conference</a></em> on using a particular mobile development framework. </li>
+                <li>Developing dynamic, evolving, user-centered content and services for all IIT Library web sites. </li>
                 <li>Introducing <em>best practices</em> for web development such as version control, usability studies and process documentation.</li>
+               	<li>Designed and <em>developed the library's first <a href="http://m.library.iit.edu">mobile website</a></em> (summer 2011).</li>
               </ul>
           </li>
 
@@ -178,11 +178,11 @@
             </ul>
          </li>
 				<li>
-          <h3>Development Lanagages / Environments</h3>
+          <h3>Programming Languages</h3>
             <ul>
-              <li>PHP, HTML, CSS, JavaScript, Dreamweaver, BBEdit, NetBeans, <em>Git</em></li>
+              <li>HTML, PHP, <em>JavaScript/jQuery</em>, Ruby on Rails, MySQL, Perl</li>
             </ul>
-				</li>
+        </li>
         <li>
           <h3>General</h3>
             <ul>
@@ -203,14 +203,14 @@
           			<li>Windows 7/XP/NT, UNIX, Linux, Mac OSX</li>
           		</ul>
         </li>
-				<li>
-          <h3>Programming Languages</h3>
-            <ul>
-              <li>HTML, PHP, <em>JavaScript/jQuery, Ruby on Rails,</em> MySQL, Perl</li>
-            </ul>
-        </li>
       </ul>
-
+      
+    <h2>Presentations</h2>
+      <ul class="singleList">
+        <li>"A jQuery Mobile Website: How I Learned to Stop Worrying and Love the Alpha Release" <a href="http://eduiconf.org/sessions/the-jquery-mobile-website/">edUI Conference</a>, 2011. Slides <a href="http://www.slideshare.net/camcclure/edui-conference-jquery-mobile-christine-mcclure">available online</a>.
+        </li>
+			</ul>
+      
     <h2>Education</h2>
       <ul class="singleList">
         <li>Master Certificate in <em>Web Design &amp; Application Development</em> (2012)</li>
@@ -221,11 +221,12 @@
         </li>
         <li>Bachelor of Science, Eastern Michigan University, Ypsilanti, MI</li>
       </ul>
-    <h2>Activities / Interests</h2>
+    <h2>Affiliations</h2>
       <ul class="singleList">
-        <li>Active member of ALA, RUSA, and LITA</li>
-        <li><em>Photography</em> (fine art, portraiture and event photography)</li>
-        <li>Graphic design</li>
+        <li>American Library Association</li>
+        <li>Library Information and Technology Association</li>
+        <li>Reference and User Services Association</li>
+        <li>code4lib (2013 conference organizer)</li>
       </ul>
 </section>
 <?php include '../includes/footer.html'; ?>
