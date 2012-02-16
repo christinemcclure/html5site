@@ -41,6 +41,7 @@ a:hover{
   width: 90%;
   margin: 0 auto;
   padding: 20px 10px;
+	background:$backgroundLight;
 }
 
 p {
@@ -48,6 +49,7 @@ p {
 }
 header, #homePage h2, #homePage h3 {
 	clear:both;
+	background: $backgroundDark; 
   text-align:center;
 	a {
 		color: #FFF;
@@ -196,7 +198,7 @@ footer {
 		width: 748px; /*Total width works out to 768px*/	
 		/* for columns */
 		padding: 0px 10px 0px 10px;
-		background-image: url('img/748px-10-44-10-12c.png'); 
+		/*background-image: url('img/748px-10-44-10-12c.png'); */
 	}
 	
 	section H1.top  {
@@ -319,7 +321,7 @@ footer {
 
 	body{
 		margin: $lineHeight*2 0 0 0;
-/*    background:  $backgroundLight url('/img/scrollLight.png');  */
+    background:  $backgroundLight url('/img/scrollLight.png');  
 	}
 	.navList {
 		li {
@@ -349,13 +351,13 @@ footer {
 
 	nav {
 		.activeMain {color:blue;}
-		.activeSub a {color:yellow;} /* change later, obvs. */
+		.activeSub a {color:red;} /* change later, obvs. */
 	}
 
   .page {
-     width: 978px; /*Total with works out to 1008, but need more for padding*/
-/*		background: #fff; */
-/*		width: 86%; */
+    /* width: 978px; */ /*Total with works out to 1008, but need more for padding*/
+		background: #fff; 
+		width: 86%; 
 		padding: $lineHeight 10px $lineHeight 10px; /* pad more right and left later */
 
 		header {
