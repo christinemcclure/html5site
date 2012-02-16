@@ -22,10 +22,11 @@ a:hover{
 	font-weight: 900;
 }
 
-/*   ************ MOBILE ***********     */
+
 
 @media screen and (max-width: 1008px){ /* need this to make navigation display properly */
 	#photoNav.navList, #libNav.navList, #mainNav.navList  { display: none !important; }
+	/* change to mobile nav */
   nav select { 
 		display: inline-block; 
 		float:left;
@@ -33,8 +34,8 @@ a:hover{
 		margin: 0 0 $lineHeight 20%;
 	}
 }
-	
-/* change to mobile nav */
+
+/*   ************ MOBILE / GENERIC SETTINGS ***********     */
 
 .page {
   width: 90%;
@@ -55,6 +56,7 @@ header, #homePage h2, #homePage h3 {
 		font-weight:normal;
 	}
 }
+
 h1 {
 	clear:both;
   font-size: $fontSize+6;
@@ -93,11 +95,9 @@ h2 {
 	float:left;
 	text-align:center;
 	}
-	
  li:first-child {
 		margin:0;
 	}
-	
 }
 
 #photoIntro {
@@ -146,36 +146,41 @@ nav#lib {
 	margin: 0 0 $lineHeight*2 0;
 }
 
-
-
-	#contact {
-		section p {
-			margin: 0 0 $lineHeight 0;
-		}
-		.formContainer{ /* make form widths static */
-			width: 100%;
-			margin: 0;
-		}
-		input{
-			margin: 0 0 $lineHeight 0;
-			clera:both;
-			width: 100%;
-		}
-		#message {
-			clear:both;
-			width: 100%;
-			height: $lineHeight*4;
-			margin-bottom: $lineHeight;
-		}
-		input.button{
-			cursor:pointer;
-			width: 100%;
-			height: $lineHeight;
-			padding:5px 10px 23px 10px;
-		}
+#seriesPortals{
+	margin: $lineHeight 0 $lineHeight 06.5439672801636%;
+	clear:both; /* otherwise floats into image */
+	h2 {
+		margin: $lineHeight 0 0 0;
+	}
+}	
+	
+#contact {
+	section p {
+		margin: 0 0 $lineHeight 0;
+	}
+	.formContainer{ /* make form widths static */
+		width: 100%;
+		margin: 0;
+	}
+	input{
+		margin: 0 0 $lineHeight 0;
+		clera:both;
+		width: 100%;
+	}
+	#message {
+		clear:both;
+		width: 100%;
+		height: $lineHeight*4;
+		margin-bottom: $lineHeight;
+	}
+	input.button{
+		cursor:pointer;
+		width: 100%;
+		height: $lineHeight;
+		padding:5px 10px 23px 10px;
 	}
 	
-
+}
 
 footer {
 	clear:both;
@@ -187,7 +192,6 @@ footer {
 
 @media screen and (min-width: 760px) {
 
-
   .page {
 		width: 748px; /*Total width works out to 768px*/	
 		/* for columns */
@@ -195,9 +199,9 @@ footer {
 		background-image: url('img/748px-10-44-10-12c.png'); 
 	}
 	
-		section H1.top  {
-			margin-top:$lineHeight*4;
-		}
+	section H1.top  {
+		margin-top:$lineHeight*4;
+	}
 
 	#about, #art {
 		h2 + h3 + h4 {
@@ -224,38 +228,6 @@ footer {
 		}
 	}
 
-	#resume {
-		h3, h3 + p {
-			clear:both;
-			margin: 0 02.24948875255624%; /* 22 / 978 */
-		}
-		ul.twoColumnBlock {
-			margin: $lineHeight 08.58895705521472% $lineHeight/2 6.5439672801636%; /* 22 / 978 */
-			ul li { /* sublist of responsibilities*/
-					width:100%;
-					clear:both;
-					list-style: disc;
-					margin: $lineHeight/2 0 0 5.72916666666667%; 
-						/* 1/2 line spacing between bullet points left: 22 / 384 */
-				 }
-		 }
-		 
-		ul.singleList {
-			margin: 0 0 0 08.58895705521472%;
-			li {
-				list-style: disc;
-				ul li {
-					list-style: circle;
-					margin-left: 6.5439672801636%;
-				}
-			}
-		}
-	}
-
-
-	.column{
-		float:left;
-	}
 	ul.twoColumnBlock {
 			li {
 				width: 43.76278118609407%;		
@@ -284,13 +256,34 @@ footer {
 			}			
 		}
 
-	#seriesPortals{
-		h2 {
-			margin: $lineHeight 0 0 0;
+	#resume {
+		h3, h3 + p {
+			clear:both;
+			margin: 0 02.24948875255624%; /* 22 / 978 */
 		}
-		margin: $lineHeight 0 $lineHeight 06.5439672801636%;
-	}
-	
+		ul.twoColumnBlock {
+			margin: $lineHeight 08.58895705521472% $lineHeight/2 6.5439672801636%; /* 22 / 978 */
+			ul li { /* sublist of responsibilities*/
+					width:100%;
+					clear:both;
+					list-style: disc;
+					margin: $lineHeight/2 0 0 5.72916666666667%; 
+						/* 1/2 line spacing between bullet points left: 22 / 384 */
+				 }
+		 }
+		 
+		ul.singleList {
+			margin: 0 0 0 08.58895705521472%;
+			li {
+				list-style: disc;
+				ul li {
+					list-style: circle;
+					margin-left: 6.5439672801636%;
+				}
+			}
+		}
+	}/* end resume */
+
 	#contact {
 		section p {
 			width: 30.67484662576687%;
