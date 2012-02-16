@@ -170,62 +170,63 @@
        </ul>
 
   <h2>Technical Skills</h2>
-    <h3>Software</h3>
 			<ul class="twoColumnBlock">
        	<li>      
-          <h4>Library Systems</h4>
+          <h3>Library Systems</h3>
             <ul>
               <li>Primo Discovery + Delivery, Voyager ILS, Meridian ERM, SFX, MetaLib federated search, ContentDM, ENCompass digital repository</li>
             </ul>
          </li>
 				<li>
-          <h4>Software Development</h4>
+          <h3>Development Lanagages / Environments</h3>
             <ul>
-              <li>Dreamweaver, BBEdit, NetBeans, <em>Git</em></li>
+              <li>PHP, HTML, CSS, JavaScript, Dreamweaver, BBEdit, NetBeans, <em>Git</em></li>
             </ul>
 				</li>
         <li>
-          <h4>General</h4>
+          <h3>General</h3>
             <ul>
               <li>Microsoft Office (including macro and VBA programming)</li>
             </ul>
 				</li>
         <li>      
-          <h4>Graphic Design</h4>
+          <h3>Graphic Design</h3>
             <ul>
               <li>Adobe Creative Suite (Photoshop, Illustrator, InDesign)</li>
             </ul>
 				</li>
        </ul>
-    <h3>Operating Systems</h3>
-      <ul>
-	      <li>Windows 7/XP/NT, UNIX, Linux, Mac OSX</li>
+			<ul class="twoColumnBlock">
+       	<li>     
+				    <h3>Operating Systems</h3>
+        			<ul>
+          			<li>Windows 7/XP/NT, UNIX, Linux, Mac OSX</li>
+          		</ul>
+        </li>
+				<li>
+          <h3>Programming Languages</h3>
+            <ul>
+              <li>HTML, PHP, <em>JavaScript/jQuery, Ruby on Rails,</em> MySQL, Perl</li>
+            </ul>
+        </li>
       </ul>
 
-    <h3>Programming Languages</h3>
-      <ul>
-	      <li>HTML, PHP, <em>JavaScript/jQuery, Ruby on Rails,</em> MySQL, Perl</li>
+    <h2>Education</h2>
+      <ul class="singleList">
+        <li>Master Certificate in <em>Web Design &amp; Application Development</em> (2012)</li>
+        <li>Master of <em>Library and Information Science</em>, Dominican University, River Forest, IL. 
+        <ul class="subList">
+          <li>Beta Phi Mu honor society member</li>
+        </ul>
+        </li>
+        <li>Bachelor of Science, Eastern Michigan University, Ypsilanti, MI</li>
       </ul>
-
-
-  <h2>Education</h2>
-   
-    <ul>
-      <li>Master Certificate in <em>Web Design &amp; Application Development</em> (2012)</li>
-      <li>Master of <em>Library and Information Science</em>, Dominican University, River Forest, IL. 
-      <ul class="subList">
-	      <li>Beta Phi Mu honor society member</li>
+    <h2>Activities / Interests</h2>
+      <ul class="singleList">
+        <li>Active member of ALA, RUSA, and LITA</li>
+        <li><em>Photography</em> (fine art, portraiture and event photography)</li>
+        <li>Graphic design</li>
       </ul>
-      </li>
-      <li>Bachelor of Science, Eastern Michigan University, Ypsilanti, MI</li>
-    </ul>
- 
-  <h2>Activities / Interests</h2>
-    <ul>
-      <li>Active member of ALA, RUSA, and LITA</li>
-      <li><em>Photography</em> (fine art, portraiture and event photography)</li>
-      <li>Graphic design</li>
-    </ul>
 </section>
 <?php include '../includes/footer.html'; ?>
 </div>

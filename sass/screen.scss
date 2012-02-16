@@ -239,6 +239,17 @@ footer {
 						/* 1/2 line spacing between bullet points left: 22 / 384 */
 				 }
 		 }
+		 
+		ul.singleList {
+			margin: 0 0 0 08.58895705521472%;
+			li {
+				list-style: disc;
+				ul li {
+					list-style: circle;
+					margin-left: 6.5439672801636%;
+				}
+			}
+		}
 	}
 
 
