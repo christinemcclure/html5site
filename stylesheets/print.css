@@ -156,58 +156,63 @@ img {
   margin: 0px auto;
 }
 
-/* line 74, ../sass/_base.scss */
-.accessibility, .hideForm, .hidden {
-  display: none;
-}
-
-/* line 96, ../sass/_base.scss */
+/* line 93, ../sass/_base.scss */
 h1, h2, h3, h4, h5, h6, li a p {
   font-family: "Michroma", Verdana, Arial, sans-serif;
 }
 
-/* line 100, ../sass/_base.scss */
+/* line 97, ../sass/_base.scss */
 h1, h2, h3, h4 {
   font-weight: 900;
 }
 
-/* line 104, ../sass/_base.scss */
+/* line 101, ../sass/_base.scss */
 h5, h6 {
   font-weight: 500;
 }
 
-/* line 109, ../sass/_base.scss */
+/* line 106, ../sass/_base.scss */
 p, ul li {
   font-family: "Questrial", Verdana, Arial, sans-serif;
 }
 
-/* line 113, ../sass/_base.scss */
+/* line 110, ../sass/_base.scss */
 a {
   text-decoration: none;
   /*Lose underlining on links to make grid easier to see*/
 }
 
-/* line 117, ../sass/_base.scss */
+/* line 114, ../sass/_base.scss */
 nav {
   font-family: "Questrial", Verdana, Arial, sans-serif;
 }
 
-/* line 121, ../sass/_base.scss */
+/* line 118, ../sass/_base.scss */
 .hide {
   display: none;
 }
 
-/* line 123, ../sass/_base.scss */
+/* line 119, ../sass/_base.scss */
+.showInline {
+  display: inline;
+}
+
+/* line 120, ../sass/_base.scss */
+.showBlock {
+  display: block;
+}
+
+/* line 122, ../sass/_base.scss */
 .floatRight {
   float: right;
 }
 
-/* line 127, ../sass/_base.scss */
+/* line 126, ../sass/_base.scss */
 .floatLeft {
   float: left;
 }
 
-/* line 131, ../sass/_base.scss */
+/* line 130, ../sass/_base.scss */
 .clear {
   clear: both;
 }
