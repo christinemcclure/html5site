@@ -40,7 +40,7 @@
             <h4>Reference Assistance / Instruction</h4>
               <ul>
                 <li>Providing assistance for all method of inquiries while staffing the reference desk, including short instruction sessions. </li>
-                <li>Developing instruction sessions on citation management, advanced search techniques and other digital skills using <em>active learning techniques</em>.</li>
+                <li>Developing instruction sessions on citation management, advanced search techniques and other digital skills using <a href="http://guides.library.iit.edu/content.php?pid=178787&sid=1504474">active learning techniques</a>.</li>
               </ul>
           </li>
 		</ul>
@@ -52,13 +52,7 @@
 				<li>
           <h4>Subject Liaison / Instruction</h4>
             <ul>
-              <li>Supported research at Stuart School of Business and the Institute of Design as subject liaison. </li>
-          </ul>
-				</li>
-        <li>
-          <h4>Instruction</h4>
-          <ul>
-          <li><em>Designed instruction sessions</em> in conjunction with class projects.</li>
+              <li>Supported research at Stuart School of Business and the Institute of Design as subject liaison, including instruction sessions and <a href="http://guides.library.iit.edu/profile.php?uid=7966">research guides</a>. </li>
           </ul>
 				</li>
         <li>
@@ -85,20 +79,20 @@
               <li>Coordinated software installations and upgrades for the Primo discovery and delivery application. </li>
               <li>Communicated issues and requests to the members of the Primo team for resolution and possible 
               inclusion in future product releases.</li>
-              <li>Configured environment and and provided <em>first line support</em> during the implementation cycle.</li>
+              <li>Configured environment and and provided <em>first-line support</em> during the implementation cycle.</li>
             </ul>
          </li>
          <li>
           <h4>Data Analysis</h4>
             <ul>
-              <li>Wrote data map customizations to correct for a variety of display issues.</li>
+              <li>Customized <em>data map configurations</em> to correct and enhance imported data.</li>
               <li>Provided analysis of future software needs and current defects to address.</li>
             </ul>
          </li>
          <li>
           <h4>Training/Documentation</h4>
             <ul>
-              <li>Developed customized web-based and face-to-face instructional programs using active learning techniques. </li>
+              <li>Developed customized web-based and face-to-face <em>instructional programs</em> using active learning techniques. </li>
               <li>Reviewed end user documentation for clarity and accuracy. </li>
             </ul>
          </li>
