@@ -2,7 +2,7 @@
 
 $contact_email="christine@christinemcclure.com";
 $feedback= "<p class=\"formFeedback\">I look forward to discussing any opportunities with you; simply fill out the form.</p>";
-$cssclass = "showForm";
+$cssclass = "showBlock";
 
 
 // Check for form submission:
@@ -39,7 +39,7 @@ if (isset($_POST['submitted'])) {
 		// Send the email:
 		mail($contact_email, "Mail from ChristineMcClure.com", $body, "From: {$scrubbed['email']}");
 
-	$cssclass = "hideForm";
+	$cssclass = "hide";
 	$feedback= "<p class=\"formFeedback\">Thank you for your message; I'll be in touch soon. Enjoy your day.</p>";
 		
 		
@@ -67,4 +67,4 @@ if (isset($_POST['submitted'])) {
 		  <?php echo $feedback; ?>  
       <p id="orderPhotos">Looking for your photos? You can order your <a href="http://christinemcclure.smugmug.com/">prints online</a>.</p>
   		<div class="formContainer">
-      	<div id="showContactForm" class="<?php echo $cssclass; ?>"> <!--showForm to start-->	
+      	<div id="showContactForm" class="<?php echo $cssclass; ?>"> <!--show form to start-->	
