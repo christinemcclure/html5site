@@ -18,13 +18,13 @@ em {
 }
 
 
-	a:hover{
-		font-weight: 900;
-	}
+a:hover{
+	font-weight: 900;
+}
 
 /*   ************ MOBILE ***********     */
 
-@media screen and (max-width: 1008px){
+@media screen {
 	#photoNav.navList, #libNav.navList, #mainNav.navList  { display: none !important; }
   nav select { 
 		display: inline-block; 
@@ -146,34 +146,40 @@ nav#lib {
 	margin: 0 0 $lineHeight*2 0;
 }
 
-
-
-	#contact {
-		section p {
-			margin: 0 0 $lineHeight 0;
-		}
-		.formContainer{ /* make form widths static */
-			width: 100%;
-			margin: 0;
-		}
-		input{
-			margin: 0 0 $lineHeight 0;
-			clera:both;
-			width: 100%;
-		}
-		#message {
-			clear:both;
-			width: 100%;
-			height: $lineHeight*4;
-			margin-bottom: $lineHeight;
-		}
-		input.button{
-			cursor:pointer;
-			width: 100%;
-			height: $lineHeight;
-			padding:5px 10px 23px 10px;
-		}
+#seriesPortals{
+	clear:both;
+	h2 {
+		margin: $lineHeight 0 0 0;
 	}
+	margin: $lineHeight 0 $lineHeight 06.5439672801636%;
+}
+
+#contact {
+	section p {
+		margin: 0 0 $lineHeight 0;
+	}
+	.formContainer{ /* make form widths static */
+		width: 100%;
+		margin: 0;
+	}
+	input{
+		margin: 0 0 $lineHeight 0;
+		clera:both;
+		width: 100%;
+	}
+	#message {
+		clear:both;
+		width: 100%;
+		height: $lineHeight*4;
+		margin-bottom: $lineHeight;
+	}
+	input.button{
+		cursor:pointer;
+		width: 100%;
+		height: $lineHeight;
+		padding:5px 10px 23px 10px;
+	}
+}
 	
 
 
@@ -284,12 +290,6 @@ footer {
 			}			
 		}
 
-	#seriesPortals{
-		h2 {
-			margin: $lineHeight 0 0 0;
-		}
-		margin: $lineHeight 0 $lineHeight 06.5439672801636%;
-	}
 	
 	#contact {
 		section p {

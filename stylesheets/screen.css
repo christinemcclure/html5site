@@ -1,4 +1,4 @@
-/* line 17, C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 17, ../../../RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -20,45 +20,45 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
-/* line 20, C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 20, ../../../RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 body {
   line-height: 1;
 }
 
-/* line 22, C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 22, ../../../RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 24, C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 24, ../../../RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 26, C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 26, ../../../RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle;
 }
 
-/* line 28, C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 28, ../../../RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
   quotes: none;
 }
-/* line 101, C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 101, ../../../RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q:before, q:after, blockquote:before, blockquote:after {
   content: "";
   content: none;
 }
 
-/* line 30, C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 30, ../../../RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 a img {
   border: none;
 }
 
-/* line 114, C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 114, ../../../RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
   display: block;
 }
@@ -243,7 +243,7 @@ a:hover {
 }
 
 /*   ************ MOBILE ***********     */
-@media screen and (max-width: 1008px) {
+@media screen {
   /* line 28, ../sass/screen.scss */
   #photoNav.navList, #libNav.navList, #mainNav.navList {
     display: none !important;
@@ -387,30 +387,40 @@ nav#lib li:first-child {
   margin: 0 0 44px 0;
 }
 
-/* line 152, ../sass/screen.scss */
+/* line 149, ../sass/screen.scss */
+#seriesPortals {
+  clear: both;
+  margin: 22px 0 22px 6.544%;
+}
+/* line 151, ../sass/screen.scss */
+#seriesPortals h2 {
+  margin: 22px 0 0 0;
+}
+
+/* line 158, ../sass/screen.scss */
 #contact section p {
   margin: 0 0 22px 0;
 }
-/* line 155, ../sass/screen.scss */
+/* line 161, ../sass/screen.scss */
 #contact .formContainer {
   /* make form widths static */
   width: 100%;
   margin: 0;
 }
-/* line 159, ../sass/screen.scss */
+/* line 165, ../sass/screen.scss */
 #contact input {
   margin: 0 0 22px 0;
   clera: both;
   width: 100%;
 }
-/* line 164, ../sass/screen.scss */
+/* line 170, ../sass/screen.scss */
 #contact #message {
   clear: both;
   width: 100%;
   height: 88px;
   margin-bottom: 22px;
 }
-/* line 170, ../sass/screen.scss */
+/* line 176, ../sass/screen.scss */
 #contact input.button {
   cursor: pointer;
   width: 100%;
@@ -418,18 +428,18 @@ nav#lib li:first-child {
   padding: 5px 10px 23px 10px;
 }
 
-/* line 180, ../sass/screen.scss */
+/* line 186, ../sass/screen.scss */
 footer {
   clear: both;
 }
-/* line 182, ../sass/screen.scss */
+/* line 188, ../sass/screen.scss */
 footer p {
   display: block;
   text-align: center;
 }
 
 @media screen and (min-width: 760px) {
-  /* line 191, ../sass/screen.scss */
+  /* line 197, ../sass/screen.scss */
   .page {
     width: 748px;
     /*Total width works out to 768px*/
@@ -438,52 +448,52 @@ footer p {
     background-image: url("img/748px-10-44-10-12c.png");
   }
 
-  /* line 198, ../sass/screen.scss */
+  /* line 204, ../sass/screen.scss */
   section H1.top {
     margin-top: 88px;
   }
 
-  /* line 203, ../sass/screen.scss */
+  /* line 209, ../sass/screen.scss */
   #about h2 + h3 + h4, #art h2 + h3 + h4 {
     margin-bottom: 22px;
   }
-  /* line 206, ../sass/screen.scss */
+  /* line 212, ../sass/screen.scss */
   #about p.floatLeft, #art p.floatLeft {
     /* 870 / 978 = 88.9570552147239% */
     width: 65.6441717791411%;
     margin: 0 4% 44px 0;
   }
-  /* line 211, ../sass/screen.scss */
+  /* line 217, ../sass/screen.scss */
   #about p.floatLeft + p.floatLeft, #art p.floatLeft + p.floatLeft {
     margin-top: -22px;
   }
-  /* line 214, ../sass/screen.scss */
+  /* line 220, ../sass/screen.scss */
   #about img.floatLeft, #art img.floatLeft {
     /* 222 / 978*/
     width: 22.6993865030675%;
     margin: 0 0 0 2%;
   }
-  /* line 219, ../sass/screen.scss */
+  /* line 225, ../sass/screen.scss */
   #about p.floatLeft + img, #art p.floatLeft + img {
     margin-top: -44px;
   }
-  /* line 222, ../sass/screen.scss */
+  /* line 228, ../sass/screen.scss */
   #about p.floatLeft + p.floatLeft + img, #art p.floatLeft + p.floatLeft + img {
     margin-top: -198px;
   }
 
-  /* line 228, ../sass/screen.scss */
+  /* line 234, ../sass/screen.scss */
   #resume h3, #resume h3 + p {
     clear: both;
     margin: 0 02.24948875255624%;
     /* 22 / 978 */
   }
-  /* line 232, ../sass/screen.scss */
+  /* line 238, ../sass/screen.scss */
   #resume ul.twoColumnBlock {
     margin: 22px 8.589% 11px 6.544%;
     /* 22 / 978 */
   }
-  /* line 234, ../sass/screen.scss */
+  /* line 240, ../sass/screen.scss */
   #resume ul.twoColumnBlock ul li {
     /* sublist of responsibilities*/
     width: 100%;
@@ -492,46 +502,46 @@ footer p {
     margin: 11px 0 0 5.729%;
     /* 1/2 line spacing between bullet points left: 22 / 384 */
   }
-  /* line 243, ../sass/screen.scss */
+  /* line 249, ../sass/screen.scss */
   #resume ul.singleList {
     margin: 0 0 0 08.58895705521472%;
   }
-  /* line 245, ../sass/screen.scss */
+  /* line 251, ../sass/screen.scss */
   #resume ul.singleList li {
     list-style: disc;
   }
-  /* line 247, ../sass/screen.scss */
+  /* line 253, ../sass/screen.scss */
   #resume ul.singleList li ul li {
     list-style: circle;
     margin-left: 6.5439672801636%;
   }
 
-  /* line 256, ../sass/screen.scss */
+  /* line 262, ../sass/screen.scss */
   .column {
     float: left;
   }
 
-  /* line 260, ../sass/screen.scss */
+  /* line 266, ../sass/screen.scss */
   ul.twoColumnBlock li {
     width: 43.76278118609407%;
     float: left;
     margin: 0 8.589% 22px 0;
     /*  20/978  64/978*/
   }
-  /* line 265, ../sass/screen.scss */
+  /* line 271, ../sass/screen.scss */
   ul.twoColumnBlock li h2 {
     margin-top: 0;
   }
-  /* line 270, ../sass/screen.scss */
+  /* line 276, ../sass/screen.scss */
   ul.twoColumnBlock li:nth-child(2n+2) {
     margin-right: 0;
   }
 
-  /* line 275, ../sass/screen.scss */
+  /* line 281, ../sass/screen.scss */
   ul.threeColumnBlock {
     margin-top: 22px;
   }
-  /* line 277, ../sass/screen.scss */
+  /* line 283, ../sass/screen.scss */
   ul.threeColumnBlock li {
     width: 24.13087934560327%;
     /*236/978*/
@@ -539,18 +549,9 @@ footer p {
     margin: 0 8.589% 22px 0;
     /*  20/978  64/978*/
   }
-  /* line 282, ../sass/screen.scss */
+  /* line 288, ../sass/screen.scss */
   ul.threeColumnBlock li:nth-child(3n+3) {
     margin-right: 0;
-  }
-
-  /* line 287, ../sass/screen.scss */
-  #seriesPortals {
-    margin: 22px 0 22px 6.544%;
-  }
-  /* line 288, ../sass/screen.scss */
-  #seriesPortals h2 {
-    margin: 22px 0 0 0;
   }
 
   /* line 295, ../sass/screen.scss */
