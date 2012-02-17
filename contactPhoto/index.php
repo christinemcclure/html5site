@@ -1,4 +1,7 @@
-<?php include '../includes/contact-stub1.php'; ?>
+<?php 
+$bodyID = "contactPhoto";
+include '../includes/contact-stub1.php'; 
+?>
 
       <form method="post" action="/contactPhoto" id="contactForm">
 

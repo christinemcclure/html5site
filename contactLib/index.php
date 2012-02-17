@@ -1,4 +1,7 @@
-<?php include '../includes/contact-stub1.php'; ?>
+<?php 
+$bodyID = "contactLib";
+include '../includes/contact-stub1.php'; 
+?>
 
       <form method="post" action="/contactLib" id="contactForm">
 

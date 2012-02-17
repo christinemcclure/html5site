@@ -53,7 +53,7 @@ if (isset($_POST['submitted'])) {
   <title>Christine McClure -- Contact</title>
 </head>
 
-<body id="contact">
+<body id="<?php echo $bodyID; ?>">
 
 <div class="page">
 	
