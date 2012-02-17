@@ -1,0 +1,103 @@
+#photoNav.navList, #libNav.navList, #mainNav.navList  { display: none; }
+	/* change to mobile nav */
+  nav select { 
+		display: inline-block; 
+		float:left;
+		width: 25%;
+		margin: 0 0 $lineHeight 20%;
+	}
+
+
+nav#photo, nav#lib {
+	clear:both;
+	li {
+		font-size: $fontSize;
+		float: left;
+		width: 30%;
+		margin: 0 0 $lineHeight*2 5%;
+		text-align:center;
+		 a {
+				padding: 6px 12px;
+				background: #ccc;
+		 }
+	}
+	 li:first-child {
+		margin:0;
+	}
+}
+	
+nav#lib {
+	li {
+		font-size:11px;
+		width: 20%;
+		margin: 0 0 $lineHeight*2 6%;
+		 a {
+				padding: 6px 8px;
+		 }
+	}
+	li:first-child {
+		margin:0;
+	}
+}
+
+
+
+
+
+
+@media screen and (min-width: 1008px) {
+
+/* *****   Check out right after section or orig file  -- extra brace? */
+
+/* change to desktop nav */
+  nav select {  display: none; }
+	#mainNav.navList {display:inline;}
+	#resume, #portfolio, #lab, #contactLib {
+		#libNav.navList {display:inline;}
+	}
+	#about, #pricing, #art, #portraits, #events, #travel, #contactPhoto {
+		#photoNav.navList {display:inline;}
+	}
+	
+
+	.navList {
+		li {
+		width: 108px; /* don't bother w responsive here */
+		font-size: $fontSize+2;
+		float:left;
+		cursor:pointer;
+		margin: 0;
+		}
+		li:last-child {margin-left: 20px;}
+	}
+	#photoNav, #libNav {
+		position:absolute;
+		top: $lineHeight*7; /* change this to column later */
+		li {
+		width: 108px; /* don't bother w responsive here */
+			font-size: 14px;
+			margin: 0 20px 0 0;
+			text-align:center;
+		}
+		li:last-child {margin-left:0;}
+	}	
+	#libNav {
+		top: $lineHeight*7; /* don't have overlap in case JS is turned off */
+		margin: 0 0 $lineHeight 60px;	/* left margin to keep from interfering with photo nav and no JS */
+	}
+
+	nav {
+		.activeMain {color:blue;}
+		.activeSub a {color:red;} /* change later, obvs. */
+	}
+
+		nav#main {
+			clear:both;
+		}
+
+	
+} /* *** end min-width: 1008 *** */
+
+
+
+

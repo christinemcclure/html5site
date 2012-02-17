@@ -913,3 +913,137 @@ footer p {
     margin: 110px 0 0 0;
   }
 }
+/* line 1, ../sass/nav.scss */
+#photoNav.navList, #libNav.navList, #mainNav.navList {
+  display: none;
+}
+
+/* change to mobile nav */
+/* line 3, ../sass/nav.scss */
+nav select {
+  display: inline-block;
+  float: left;
+  width: 25%;
+  margin: 0 0 22px 20%;
+}
+
+/* line 11, ../sass/nav.scss */
+nav#photo, nav#lib {
+  clear: both;
+}
+/* line 13, ../sass/nav.scss */
+nav#photo li, nav#lib li {
+  font-size: 14px;
+  float: left;
+  width: 30%;
+  margin: 0 0 44px 5%;
+  text-align: center;
+}
+/* line 19, ../sass/nav.scss */
+nav#photo li a, nav#lib li a {
+  padding: 6px 12px;
+  background: #ccc;
+}
+/* line 24, ../sass/nav.scss */
+nav#photo li:first-child, nav#lib li:first-child {
+  margin: 0;
+}
+
+/* line 30, ../sass/nav.scss */
+nav#lib li {
+  font-size: 11px;
+  width: 20%;
+  margin: 0 0 44px 6%;
+}
+/* line 34, ../sass/nav.scss */
+nav#lib li a {
+  padding: 6px 8px;
+}
+/* line 38, ../sass/nav.scss */
+nav#lib li:first-child {
+  margin: 0;
+}
+
+@media screen and (min-width: 1008px) {
+  /* *****   Check out right after section or orig file  -- extra brace? */
+  /* change to desktop nav */
+  /* line 53, ../sass/nav.scss */
+  nav select {
+    display: none;
+  }
+
+  /* line 54, ../sass/nav.scss */
+  #mainNav.navList {
+    display: inline;
+  }
+
+  /* line 56, ../sass/nav.scss */
+  #resume #libNav.navList, #portfolio #libNav.navList, #lab #libNav.navList, #contactLib #libNav.navList {
+    display: inline;
+  }
+
+  /* line 59, ../sass/nav.scss */
+  #about #photoNav.navList, #pricing #photoNav.navList, #art #photoNav.navList, #portraits #photoNav.navList, #events #photoNav.navList, #travel #photoNav.navList, #contactPhoto #photoNav.navList {
+    display: inline;
+  }
+
+  /* line 64, ../sass/nav.scss */
+  .navList li {
+    width: 108px;
+    /* don't bother w responsive here */
+    font-size: 16px;
+    float: left;
+    cursor: pointer;
+    margin: 0;
+  }
+  /* line 71, ../sass/nav.scss */
+  .navList li:last-child {
+    margin-left: 20px;
+  }
+
+  /* line 73, ../sass/nav.scss */
+  #photoNav, #libNav {
+    position: absolute;
+    top: 154px;
+    /* change this to column later */
+  }
+  /* line 76, ../sass/nav.scss */
+  #photoNav li, #libNav li {
+    width: 108px;
+    /* don't bother w responsive here */
+    font-size: 14px;
+    margin: 0 20px 0 0;
+    text-align: center;
+  }
+  /* line 82, ../sass/nav.scss */
+  #photoNav li:last-child, #libNav li:last-child {
+    margin-left: 0;
+  }
+
+  /* line 84, ../sass/nav.scss */
+  #libNav {
+    top: 154px;
+    /* don't have overlap in case JS is turned off */
+    margin: 0 0 22px 60px;
+    /* left margin to keep from interfering with photo nav and no JS */
+  }
+
+  /* line 89, ../sass/nav.scss */
+  nav {
+    /* change later, obvs. */
+  }
+  /* line 90, ../sass/nav.scss */
+  nav .activeMain {
+    color: blue;
+  }
+  /* line 91, ../sass/nav.scss */
+  nav .activeSub a {
+    color: red;
+  }
+
+  /* line 94, ../sass/nav.scss */
+  nav#main {
+    clear: both;
+  }
+}
+/* *** end min-width: 1008 *** */
