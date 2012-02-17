@@ -8,42 +8,6 @@
 	}
 
 
-nav#photo, nav#lib {
-	clear:both;
-	li {
-		font-size: $fontSize;
-		float: left;
-		width: 30%;
-		margin: 0 0 $lineHeight*2 5%;
-		text-align:center;
-		 a {
-				padding: 6px 12px;
-				background: #ccc;
-		 }
-	}
-	 li:first-child {
-		margin:0;
-	}
-}
-	
-nav#lib {
-	li {
-		font-size:11px;
-		width: 20%;
-		margin: 0 0 $lineHeight*2 6%;
-		 a {
-				padding: 6px 8px;
-		 }
-	}
-	li:first-child {
-		margin:0;
-	}
-}
-
-
-
-
-
 
 @media screen and (min-width: 1008px) {
 

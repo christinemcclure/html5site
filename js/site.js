@@ -4,15 +4,17 @@ $(document).ready(function() {
 	var maxWinHeight = .8;
 
 	$('li#photo').click(function () {
-		$(this).addClass('activeNav');
-		$('#libNav').removeClass('showInline').addClass('hide');	
-		$('#photoNav').removeClass('hide').addClass('showInline');
+		$(this).toggleClass('activeMain');
+		$('li#lib').toggleClass('activeMain');
+		$('#libNav').hide();	
+		$('#photoNav').css('display','inline');
 	});
 
 	$('li#lib').click(function () {
-		$(this).addClass('activeNav');
-		$('#libNav').removeClass('hide').addClass('showInline');
-		$('#photoNav').removeClass('showInline').addClass('hide');				
+		$(this).toggleClass('activeMain');
+		$('li#photo').toggleClass('activeMain');
+		$('#photoNav').hide();	
+		$('#libNav').css('display','inline');
 	});
 	
 	$("nav select").change(function() {
