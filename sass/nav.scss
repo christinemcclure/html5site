@@ -1,3 +1,7 @@
+$lineHeight: 22px;
+$fontSize: 14px;
+/* don't need when merge into otnerh file */
+
 #photoNav.navList, #libNav.navList, #mainNav.navList  { display: none; }
 	/* change to mobile nav */
   nav select { 
@@ -36,28 +40,22 @@
 	}
 	#photoNav, #libNav {
 		position:absolute;
-		top: $lineHeight*7; /* change this to column later */
+	  margin:$lineHeight 0 $lineHeight -260px;
 		li {
 		width: 108px; /* don't bother w responsive here */
 			font-size: 14px;
 			margin: 0 20px 0 0;
 			text-align:center;
 		}
-		li:last-child {margin-left:0;}
 	}	
 	#libNav {
-		top: $lineHeight*7; /* don't have overlap in case JS is turned off */
-		margin: 0 0 $lineHeight 60px;	/* left margin to keep from interfering with photo nav and no JS */
+		margin-left: -200px;	/* left margin to keep from interfering with photo nav and no JS */
 	}
 
 	nav {
 		.activeMain {color:blue;}
 		.activeSub a {color:red;} /* change later, obvs. */
 	}
-
-		nav#main {
-			clear:both;
-		}
 
 	
 } /* *** end min-width: 1008 *** */
