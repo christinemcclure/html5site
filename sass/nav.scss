@@ -12,60 +12,65 @@ $fontSize: 14px;
 	}
 
 
-
 @media screen and (min-width: 1008px) {
 
 /* *****   Check out right after section or orig file  -- extra brace? */
 
 /* change to desktop nav */
   nav select {  display: none; }
-	#mainNav.navList {
-		display:block;
-		margin-top:$lineHeight;
-		li {
-			width: 12.32876712328767%; /* 108 / 876 */ 
-			background:yellow;
-			clear:both;
-			margin:0 2.5% 0 0; /*20/876*/
-		}
-		li:last-child {margin-bottom: $lineHeight*2;}
-	}
-	#resume, #portfolio, #lab, #contactLib {
-		#libNav.navList {display:inline;}
-	}
-	#about, #pricing, #art, #portraits, #events, #travel, #contactPhoto {
-		#photoNav.navList {display:inline;}
-	}
-
-	.navList {
-		li {
-		width: 10%; 
-		font-size: $fontSize+2;
-		float:left;
-		cursor:pointer;
-		margin: 0;
-		}
-	}
-	#photoNav, #libNav {
-		li {
-			width: 10%;
-			font-size: $fontSize;
-			text-align:center;
-			margin: 0 2% 0 0;
-		}
-		li:last-child {margin-right:0;}
-	}	
-	#libNav li {
-		margin-right:12%;
-	}
 
 	nav {
 		.activeMain {color:blue;}
 		.activeSub a {color:red;} /* change later, obvs. */
-		width: 89.57055214723926%; /* 876 / 978 */
-		margin: 0 0 0 6.5439672801636%;
+		width: 876px; /* using fixed width because it stretches too much otherwise */
+		margin: 0 auto;
+		li {cursor:pointer;}
+		
+	}
+	
+	#mainNav.navList {
+		display:block;
+		float:left;
+		margin-top:$lineHeight;
+		li {
+			clear:both;
+			font-size: $fontSize+2;
+			margin:0 20px 0 0; /*20/876*/
+		}
+		li:last-child {margin-bottom: $lineHeight*2;}
+	}
+	#resume, #portfolio, #lab, #contactLib {
+		#libNav.navList {display:inline-block;}
+	}
+	#about, #pricing, #art, #portraits, #events, #travel, #contactPhoto {
+		#photoNav.navList {display:inline-block;}
 	}
 
+	#photoNav, #libNav {
+		width: 748px; 
+		float:right;
+		li {
+			text-align:center;
+			width: 106px;
+			float:left;
+		}
+	}
+
+	#photoNav {
+		li{
+			margin: $lineHeight 0 0 0;
+		}
+	}
+
+	#libNav {
+		li{
+			margin: $lineHeight*2 13% 0 0;
+		}
+		li:last-child{
+			margin: $lineHeight*2 0 0 0;
+		}
+	}
+	
 	
 } /* *** end min-width: 1008 *** */
 

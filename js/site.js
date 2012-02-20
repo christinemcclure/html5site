@@ -7,14 +7,14 @@ $(document).ready(function() {
 		$(this).toggleClass('activeMain');
 		$('li#lib').toggleClass('activeMain');
 		$('#libNav').hide();	
-		$('#photoNav').css('display','inline');
+		$('#photoNav').css('display','inline-block');
 	});
 
 	$('li#lib').click(function () {
 		$(this).toggleClass('activeMain');
 		$('li#photo').toggleClass('activeMain');
 		$('#photoNav').hide();	
-		$('#libNav').css('display','inline');
+		$('#libNav').css('display','inline-block');
 	});
 	
 	$("nav select").change(function() {

@@ -603,7 +603,7 @@ footer p {
     width: 978px;
     /*Total with works out to 1008, but need more for padding*/
     /*		background: #fff; */
-    /*		width: 86%; */
+    width: 86%;
     padding: 22px 10px 22px 10px;
     /* pad more right and left later */
     /* end header */
@@ -873,80 +873,83 @@ nav select {
 @media screen and (min-width: 1008px) {
   /* *****   Check out right after section or orig file  -- extra brace? */
   /* change to desktop nav */
-  /* line 21, ../sass/nav.scss */
+  /* line 20, ../sass/nav.scss */
   nav select {
     display: none;
   }
 
   /* line 22, ../sass/nav.scss */
+  nav {
+    /* change later, obvs. */
+    width: 876px;
+    /* using fixed width because it stretches too much otherwise */
+    margin: 0 auto;
+  }
+  /* line 23, ../sass/nav.scss */
+  nav .activeMain {
+    color: blue;
+  }
+  /* line 24, ../sass/nav.scss */
+  nav .activeSub a {
+    color: red;
+  }
+  /* line 27, ../sass/nav.scss */
+  nav li {
+    cursor: pointer;
+  }
+
+  /* line 31, ../sass/nav.scss */
   #mainNav.navList {
     display: block;
+    float: left;
     margin-top: 22px;
   }
-  /* line 25, ../sass/nav.scss */
+  /* line 35, ../sass/nav.scss */
   #mainNav.navList li {
-    width: 12.32876712328767%;
-    /* 108 / 876 */
-    background: yellow;
     clear: both;
-    margin: 0 2.5% 0 0;
+    font-size: 16px;
+    margin: 0 20px 0 0;
     /*20/876*/
   }
-  /* line 31, ../sass/nav.scss */
+  /* line 40, ../sass/nav.scss */
   #mainNav.navList li:last-child {
     margin-bottom: 44px;
   }
 
-  /* line 34, ../sass/nav.scss */
+  /* line 43, ../sass/nav.scss */
   #resume #libNav.navList, #portfolio #libNav.navList, #lab #libNav.navList, #contactLib #libNav.navList {
-    display: inline;
+    display: inline-block;
   }
 
-  /* line 37, ../sass/nav.scss */
+  /* line 46, ../sass/nav.scss */
   #about #photoNav.navList, #pricing #photoNav.navList, #art #photoNav.navList, #portraits #photoNav.navList, #events #photoNav.navList, #travel #photoNav.navList, #contactPhoto #photoNav.navList {
-    display: inline;
+    display: inline-block;
   }
 
-  /* line 41, ../sass/nav.scss */
-  .navList li {
-    width: 10%;
-    font-size: 16px;
-    float: left;
-    cursor: pointer;
-    margin: 0;
+  /* line 49, ../sass/nav.scss */
+  #photoNav, #libNav {
+    width: 748px;
+    float: right;
   }
-
-  /* line 50, ../sass/nav.scss */
+  /* line 52, ../sass/nav.scss */
   #photoNav li, #libNav li {
-    width: 10%;
-    font-size: 14px;
     text-align: center;
-    margin: 0 2% 0 0;
-  }
-  /* line 56, ../sass/nav.scss */
-  #photoNav li:last-child, #libNav li:last-child {
-    margin-right: 0;
+    width: 106px;
+    float: left;
   }
 
-  /* line 58, ../sass/nav.scss */
+  /* line 60, ../sass/nav.scss */
+  #photoNav li {
+    margin: 22px 0 0 0;
+  }
+
+  /* line 66, ../sass/nav.scss */
   #libNav li {
-    margin-right: 12%;
+    margin: 44px 13% 0 0;
   }
-
-  /* line 62, ../sass/nav.scss */
-  nav {
-    /* change later, obvs. */
-    width: 89.57055214723926%;
-    /* 876 / 978 */
-    margin: 0 0 0 6.5439672801636%;
-  }
-  /* line 63, ../sass/nav.scss */
-  nav .activeMain {
-    color: blue;
-  }
-  /* line 64, ../sass/nav.scss */
-  nav .activeSub a {
-    color: red;
+  /* line 69, ../sass/nav.scss */
+  #libNav li:last-child {
+    margin: 44px 0 0 0;
   }
 }
 /* *** end min-width: 1008 *** */
