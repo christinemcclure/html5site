@@ -24,18 +24,17 @@ a:hover{
 
 
 
-@media screen and (max-width: 1008px){ /* need this to make navigation display properly */
-	#photoNav.navList, #libNav.navList, #mainNav.navList  { display: none !important; }
-	/* change to mobile nav */
-  nav select { 
-		display: inline-block; 
-		float:left;
-		width: 25%;
-		margin: 0 0 $lineHeight 20%;
-	}
-}
-
 /*   ************ MOBILE / GENERIC SETTINGS ***********     */
+
+/* change to mobile nav */
+nav select { 
+	display: inline-block; 
+	float:left;
+	width: 25%;
+	margin: 0 0 $lineHeight 20%;
+}
+	
+#photoNav.navList, #libNav.navList, #mainNav.navList  { display: none; }
 
 .page {
   width: 90%;
@@ -47,6 +46,7 @@ a:hover{
 p {
 	margin: 0 0 $lineHeight 0;
 }
+
 header, #homePage h2, #homePage h3 {
 	clear:both;
 /*	background: $backgroundDark; */
@@ -191,6 +191,7 @@ footer {
 		text-align: center;
 	}
 }
+
 
 @media screen and (min-width: 760px) {
 
