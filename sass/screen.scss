@@ -23,6 +23,16 @@ a:hover{
 }
 
 
+.hide{display:none !important;}
+.showInline{display:inline-block !important;}
+
+.photoSwipe {
+	font-size: 18px;
+	color:red;
+	clear:both;
+	text-align:center;
+	font-weight:900;
+}
 
 /*   ************ MOBILE / GENERIC SETTINGS ***********     */
 
@@ -340,12 +350,18 @@ footer {
 		}
 		li:last-child {margin-bottom: $lineHeight*2;}
 	}
+	
+/*	
 	#resume, #portfolio, #lab, #contactLib {
 		#libNav.navList {display:inline-block;}
 	}
 	#about, #pricing, #art, #portraits, #events, #travel, #contactPhoto {
 		#photoNav.navList {display:inline-block;}
 	}
+*/
+
+	#photoNav.navList, #libNav.navList {display:inline-block;}	
+
 
 	#photoNav, #libNav {
 		width: 748px; 
@@ -371,6 +387,14 @@ footer {
 			margin: $lineHeight*2 0 0 0;
 		}
 	}
+	
+	#libNav.noJS { /* Need this to position in case user disables JS. Remove class with JS */
+		li {
+			margin-top:0;
+		}
+	}
+
+
 	
 	body{
 		margin: $lineHeight*2 0 0 0;

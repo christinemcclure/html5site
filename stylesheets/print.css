@@ -107,20 +107,20 @@ nav select {
 
 */
 /* PhotoSwipe settings */
-/* line 56, ../sass/_base.scss */
+/* line 55, ../sass/_base.scss */
 #gallery1, #gallery2, #gallery3, #gallery4, #gallery5, #gallery6 {
   width: 100%;
   height: 400px;
   margin: 0 auto;
 }
 
-/* line 57, ../sass/_base.scss */
+/* line 56, ../sass/_base.scss */
 #Indicators {
   text-align: center;
   margin-top: 20px;
 }
 
-/* line 58, ../sass/_base.scss */
+/* line 57, ../sass/_base.scss */
 #Indicators span {
   display: inline-block;
   height: 10px;
@@ -135,7 +135,7 @@ nav select {
   overflow: hidden;
 }
 
-/* line 59, ../sass/_base.scss */
+/* line 58, ../sass/_base.scss */
 #Indicators span.current {
   background: #EEBF02;
 }
@@ -144,75 +144,75 @@ nav select {
 /* dark grey */
 /* slightly darker grey */
 /* medium grey */
-/* line 67, ../sass/_base.scss */
+/* line 66, ../sass/_base.scss */
 img {
   max-width: 100%;
   max-height: 100%;
 }
 
 /* for responsive images */
-/* line 70, ../sass/_base.scss */
+/* line 69, ../sass/_base.scss */
 #content {
   margin: 0px auto;
 }
 
-/* line 93, ../sass/_base.scss */
+/* line 92, ../sass/_base.scss */
 h1, h2, h3, h4, h5, h6, li a p {
   font-family: "Michroma", Verdana, Arial, sans-serif;
 }
 
-/* line 97, ../sass/_base.scss */
+/* line 96, ../sass/_base.scss */
 h1, h2, h3, h4 {
   font-weight: 900;
 }
 
-/* line 101, ../sass/_base.scss */
+/* line 100, ../sass/_base.scss */
 h5, h6 {
   font-weight: 500;
 }
 
-/* line 106, ../sass/_base.scss */
+/* line 105, ../sass/_base.scss */
 p, ul li {
   font-family: "Questrial", Verdana, Arial, sans-serif;
 }
 
-/* line 110, ../sass/_base.scss */
+/* line 109, ../sass/_base.scss */
 a {
   text-decoration: none;
   /*Lose underlining on links to make grid easier to see*/
 }
 
-/* line 114, ../sass/_base.scss */
+/* line 113, ../sass/_base.scss */
 nav {
   font-family: "Questrial", Verdana, Arial, sans-serif;
 }
 
-/* line 118, ../sass/_base.scss */
+/* line 117, ../sass/_base.scss */
 .hide {
   display: none;
 }
 
-/* line 119, ../sass/_base.scss */
+/* line 118, ../sass/_base.scss */
 .showInline {
   display: inline;
 }
 
-/* line 120, ../sass/_base.scss */
+/* line 119, ../sass/_base.scss */
 .showBlock {
   display: block;
 }
 
-/* line 122, ../sass/_base.scss */
+/* line 121, ../sass/_base.scss */
 .floatRight {
   float: right;
 }
 
-/* line 126, ../sass/_base.scss */
+/* line 125, ../sass/_base.scss */
 .floatLeft {
   float: left;
 }
 
-/* line 130, ../sass/_base.scss */
+/* line 129, ../sass/_base.scss */
 .clear {
   clear: both;
 }

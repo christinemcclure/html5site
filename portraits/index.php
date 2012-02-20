@@ -13,7 +13,7 @@
 <?php include '../includes/nav.html'; ?>
 <section>
 	<h1 class="top">Portraiture</h1>
-    <div id="gallery1" class="photoSwipe"></div>
+    <div id="gallery1" class="photoSwipe">Photo galleries require JavaScript to be enabled.</div>
 </section>        
 <?php include '../includes/footer.html'; ?>
 </div>

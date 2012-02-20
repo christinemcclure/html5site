@@ -16,9 +16,9 @@
   <h1 class="top">Travel Photography</h1>
 
   <h2>Jerusalem</h2>
-  <div id="gallery1" class="photoSwipe"></div>
+  <div id="gallery1" class="photoSwipe">Photo galleries require JavaScript to be enabled.</div>
   <h2>Panama</h2>
-  <div id="gallery2" class="photoSwipe"></div>
+  <div id="gallery2" class="photoSwipe">Photo galleries require JavaScript to be enabled.</div>
 </section>        
 <?php include '../includes/footer.html'; ?>
 </div>

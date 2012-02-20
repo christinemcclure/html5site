@@ -2,19 +2,21 @@ $(document).ready(function() {
 
 	var maxHeightPhoto = 800;
 	var maxWinHeight = .8;
+	
+	$('#libNav').removeClass('noJS');
 
 	$('li#photo').click(function () {
 		$(this).toggleClass('activeMain');
 		$('li#lib').toggleClass('activeMain');
-		$('#libNav').hide();	
-		$('#photoNav').css('display','inline-block');
+		$('#libNav').removeClass('showInline').addClass('hide');	
+		$('#photoNav').removeClass('hide').addClass('showInline');	
 	});
 
 	$('li#lib').click(function () {
 		$(this).toggleClass('activeMain');
 		$('li#photo').toggleClass('activeMain');
-		$('#photoNav').hide();	
-		$('#libNav').css('display','inline-block');
+		$('#photoNav').removeClass('showInline').addClass('hide');	
+		$('#libNav').removeClass('hide').addClass('showInline');	
 	});
 	
 	$("nav select").change(function() {

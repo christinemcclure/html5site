@@ -34,7 +34,7 @@
     </ul>
 
     <h2>Images</h2>
-    <div id="gallery1" class="photoSwipe"></div>
+    <div id="gallery1" class="photoSwipe">Galleries require JavaScript to be enabled.</div>
 
 </section>
 

@@ -19,11 +19,11 @@
   
   <h2>Literature For All of Us</h2>
  	<h3>Honor Thy Mother Luncheon, 2011</h3>
-   <div id="gallery1" class="photoSwipe"></div>
+   <div id="gallery1" class="photoSwipe">Photo galleries require JavaScript to be enabled.</div>
 
   <h2>District 57 Education Foundation</h2>
  	<h3>Live Auction, 2010</h3>
-  <div id="gallery2" class="photoSwipe"></div>
+  <div id="gallery2" class="photoSwipe">Photo galleries require JavaScript to be enabled.</div>
 </section> 
 
 <?php include '../includes/footer.html'; ?>

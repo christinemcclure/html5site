@@ -54,7 +54,7 @@
         </li>
       </ul>
   	</div>
-<div id="gallery1" class="photoSwipe"></div>
+<div id="gallery1" class="photoSwipe">Photo galleries require JavaScript to be enabled.</div>
 
 </section>
 
