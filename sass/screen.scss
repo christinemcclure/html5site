@@ -325,9 +325,9 @@ footer {
 	}
 
   .page {
-    /* width: 978px; */ /*Total with works out to 1008, but need more for padding*/
+     width: 978px;  /*Total with works out to 1008, but need more for padding*/
 /*		background: #fff; */
-		width: 86%; 
+/*		width: 86%; */
 		padding: $lineHeight 10px $lineHeight 10px; /* pad more right and left later */
 
 		header {

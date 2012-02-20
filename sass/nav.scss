@@ -1,6 +1,6 @@
 $lineHeight: 22px;
 $fontSize: 14px;
-/* don't need when merge into otnerh file */
+/* don't need when merge into other file */
 
 #photoNav.navList, #libNav.navList, #mainNav.navList  { display: none; }
 	/* change to mobile nav */
@@ -19,42 +19,51 @@ $fontSize: 14px;
 
 /* change to desktop nav */
   nav select {  display: none; }
-	#mainNav.navList {display:inline;}
+	#mainNav.navList {
+		display:block;
+		margin-top:$lineHeight;
+		li {
+			width: 12.32876712328767%; /* 108 / 876 */ 
+			background:yellow;
+			clear:both;
+			margin:0 2.5% 0 0; /*20/876*/
+		}
+		li:last-child {margin-bottom: $lineHeight*2;}
+	}
 	#resume, #portfolio, #lab, #contactLib {
 		#libNav.navList {display:inline;}
 	}
 	#about, #pricing, #art, #portraits, #events, #travel, #contactPhoto {
 		#photoNav.navList {display:inline;}
 	}
-	
 
 	.navList {
 		li {
-		width: 108px; /* don't bother w responsive here */
+		width: 10%; 
 		font-size: $fontSize+2;
 		float:left;
 		cursor:pointer;
 		margin: 0;
 		}
-		li:last-child {margin-left: 20px;}
 	}
 	#photoNav, #libNav {
-		position:absolute;
-	  margin:$lineHeight 0 $lineHeight -260px;
 		li {
-		width: 108px; /* don't bother w responsive here */
-			font-size: 14px;
-			margin: 0 20px 0 0;
+			width: 10%;
+			font-size: $fontSize;
 			text-align:center;
+			margin: 0 2% 0 0;
 		}
+		li:last-child {margin-right:0;}
 	}	
-	#libNav {
-		margin-left: -200px;	/* left margin to keep from interfering with photo nav and no JS */
+	#libNav li {
+		margin-right:12%;
 	}
 
 	nav {
 		.activeMain {color:blue;}
 		.activeSub a {color:red;} /* change later, obvs. */
+		width: 89.57055214723926%; /* 876 / 978 */
+		margin: 0 0 0 6.5439672801636%;
 	}
 
 	
