@@ -6,17 +6,21 @@ $(document).ready(function() {
 	$('#libNav').removeClass('noJS');
 
 	$('li#photo').click(function () {
-		$(this).toggleClass('activeMain');
-		$('li#lib').toggleClass('activeMain');
-		$('#libNav').removeClass('showInline').addClass('hide');	
-		$('#photoNav').removeClass('hide').addClass('showInline');	
+		$(this).addClass('activeMain');
+		$('li#lib').removeClass('activeMain');
+//		$('#libNav').removeClass('showInline').addClass('hide');	
+//		$('#photoNav').removeClass('hide').addClass('showInline');	
+		$('#libNav').css('display','none');	
+		$('#photoNav').css('display','inline');
 	});
 
 	$('li#lib').click(function () {
-		$(this).toggleClass('activeMain');
-		$('li#photo').toggleClass('activeMain');
-		$('#photoNav').removeClass('showInline').addClass('hide');	
-		$('#libNav').removeClass('hide').addClass('showInline');	
+		$(this).addClass('activeMain');
+		$('li#photo').removeClass('activeMain');
+//		$('#photoNav').removeClass('showInline').addClass('hide');	
+//		$('#libNav').removeClass('hide').addClass('showInline');	
+		$('#photoNav').css('display','none');	
+		$('#libNav').css('display','inline');
 	});
 	
 	$("nav select").change(function() {
@@ -30,12 +34,12 @@ $(document).ready(function() {
 				setNav=function(navType, page) {
 				$('#'+navType).addClass('activeMain'); // emphasize Photography or Librarianship
 				if (navType.indexOf('lib')===-1){ //show photo
-					$('#photoNav').removeClass('hide').addClass('showInline');
-					$('#libNav').removeClass('showInline').addClass('hide');									
+					$('#photoNav').css('display','inline');
+					$('#libNav').css('display','none');						
 				}
 				else { //show lib
-					$('#libNav').removeClass('hide').addClass('showInline');
-					$('#photoNav').removeClass('showInline').addClass('hide');				
+					$('#libNav').css('display','inline');
+					$('#photoNav').css('display','none');		
 				}
 				navID = page + "Nav"; //add active class 
 				$('#'+navID).addClass('activeSub');

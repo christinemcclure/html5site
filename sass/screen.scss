@@ -23,9 +23,6 @@ a:hover{
 }
 
 
-.hide{display:none !important;}
-.showInline{display:inline-block !important;}
-
 .photoSwipe {
 	font-size: 18px;
 	color:red;
@@ -118,6 +115,7 @@ h2 {
 }
 
 nav#photo, nav#lib {
+	display:inline-block;
 	clear:both;
 	li {
 		font-size: $fontSize;
