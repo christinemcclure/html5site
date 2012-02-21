@@ -36,10 +36,10 @@
     <h2>Images</h2>
     <div id="gallery1" class="photoSwipe">
 			<ul>
-				<li><img src="/img/portfolio/carys_card.png" alt="Satirical book cover in pulp fiction style of a man telling a woman: Get your coat, dollface. We\'re going to Cary\'s." /></li>
-				<li><img src="/img/portfolio/11th-hr.png" alt="Eleventh Hour is the company name, and the logo features a stylized clock with the 11 marker in red." /></li>
-				<li><img src="/img/portfolio/shirtBack.jpg" alt="Photo of Dr. Frankenstein and Igor in the lab, about to bring the monster to life." /></li>
-				<li><img src="/img/portfolio/11th-hr.png" alt="Image of Kolb\'s Experiential Learning Styles" /></li>
+				<li><p>Business card for a Chicago tavern</p><img src="/img/portfolio/carys_card.png" alt="Satirical book cover in pulp fiction style of a man telling a woman: Get your coat, dollface. We\'re going to Cary\'s." /></li>
+				<li><p>Logo for a software testing company</p><img src="/img/portfolio/11th-hr.png" alt="Eleventh Hour is the company name, and the logo features a stylized clock with the 11 marker in red." /></li>
+				<li><p>Promotional t-shirt for a software testing company</p><img src="/img/portfolio/shirtBack.jpg" alt="Photo of Dr. Frankenstein and Igor in the lab, about to bring the monster to life." /></li>
+				<li><p>Presentation slide</p><img src="/img/portfolio/11th-hr.png" alt="Image of Kolb\'s Experiential Learning Styles" /></li>
 			</ul>
 	</div>
 

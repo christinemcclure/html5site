@@ -24,11 +24,13 @@ a:hover{
 
 
 .photoSwipe {
-	font-size: 18px;
-	color:red;
+	font-size: $fontSize+2;
+	li {
+		margin: 0 0 $lineHeight 0;
+	}
+	p {margin:0;}
 	clear:both;
 	text-align:center;
-	font-weight:900;
 }
 
 /*   ************ MOBILE / GENERIC SETTINGS ***********     */
