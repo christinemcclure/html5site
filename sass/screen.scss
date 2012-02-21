@@ -35,6 +35,10 @@ a:hover{
 
 /*   ************ MOBILE / GENERIC SETTINGS ***********     */
 
+@media screen and (max-width: 1008px) { /* this fixes display problem between desktop and mobile, but not sure why */
+	nav ul.navList  { display: none !important; }
+}
+
 /* change to mobile nav */
 nav select { 
 	display: inline-block; 
@@ -43,8 +47,6 @@ nav select {
 	margin: 0 0 $lineHeight 20%;
 }
 	
-#photoNav.navList, #libNav.navList, #mainNav.navList  { display: none; }
-
 .page {
   width: 90%;
   margin: 0 auto;
@@ -166,24 +168,24 @@ nav#lib {
 	}
 }	
 	
-#contact {
+#contactPhoto, #contactLib {
 	section p {
 		margin: 0 0 $lineHeight 0;
 	}
-	.formContainer{ /* make form widths static */
+	.formContainer{ 
 		width: 100%;
 		margin: 0;
-	}
-	input{
-		margin: 0 0 $lineHeight 0;
-		clera:both;
-		width: 100%;
-	}
-	#message {
-		clear:both;
-		width: 100%;
-		height: $lineHeight*4;
-		margin-bottom: $lineHeight;
+		input{
+			margin: 0 0 $lineHeight 0;
+			clera:both;
+			width: 100%;
+		}
+		#message {
+			clear:both;
+			width: 100%;
+			height: $lineHeight*4;
+			margin-bottom: $lineHeight;
+		}
 	}
 	input.button{
 		cursor:pointer;
@@ -297,31 +299,10 @@ footer {
 		}
 	}/* end resume */
 
-	#contact {
-		section p {
-			width: 30.67484662576687%;
-		}
-		.formFeedback {			
-			float:left;
-		}
-		.formContainer{ 
-			width: 43.76278118609407%;
-			margin: -$lineHeight*6 0 $lineHeight*3 39.2638036809816%;
-		}
-		input{
-			margin: 0 0 $lineHeight 0;
-			float:left;
-			width: 40.18691588785047%; /* 172 / 428*/
-		}
-		input#email{
-			float:right;
-			margin: -$lineHeight*2 0 0 19.62616822429907%;
-		}
-		input.button{
-			width: 25.23364485981308%;
-		}
+	.formContainer{ 
+		width: 40%;
+		float:left;
 	}
-	
 	
 }/* min-width: 760px */
 
@@ -329,7 +310,6 @@ footer {
 
 /* change to desktop nav */
   nav select {  display: none; }
-
 	nav {
 		.activeMain {color:blue;}
 		.activeSub a {color:red;} /* change later, obvs. */
@@ -340,7 +320,7 @@ footer {
 	}
 	
 	#mainNav.navList {
-		display:block;
+		display:block !important;
 		float:left;
 		margin-top:$lineHeight;
 		li {
@@ -353,10 +333,10 @@ footer {
 	
 /*	
 	#resume, #portfolio, #lab, #contactLib {
-		#libNav.navList {display:inline-block;}
+		nav #libNav.navList {display:inline-block !important;}
 	}
 	#about, #pricing, #art, #portraits, #events, #travel, #contactPhoto {
-		#photoNav.navList {display:inline-block;}
+		nav #photoNav.navList {display:inline-block !important;}
 	}
 */
 
