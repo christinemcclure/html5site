@@ -51,7 +51,7 @@ nav select {
   width: 90%;
   margin: 0 auto;
   padding: 20px 10px;
-	/*background:$backgroundLight;*/
+	background:$backgroundLight;
 }
 
 p {
@@ -60,7 +60,7 @@ p {
 
 header, #homePage h2, #homePage h3 {
 	clear:both;
-/*	background: $backgroundDark; */
+	background: $backgroundDark; 
   text-align:center;
 	a {
 		color: #FFF;
@@ -213,7 +213,7 @@ footer {
 		width: 748px; /*Total width works out to 768px*/	
 		/* for columns */
 		padding: 0px 10px 0px 10px;
-	  background-image: url('img/748px-10-44-10-12c.png'); 
+/*	  background-image: url('img/748px-10-44-10-12c.png'); */
 	}
 	
 	header {
@@ -394,12 +394,12 @@ footer {
 	
 	body{
 		margin: $lineHeight*2 0 0 0;
-/*    background:  $backgroundLight url('/img/scrollLight.png');  */
+    background:  $backgroundLight url('/img/scrollLight.png');  
 	}
 
   .page {
      width: 978px;  /*Total with works out to 1008, but need more for padding*/
-/*		background: #fff; */
+		background: #fff; 
 		width: 86%; 
 		padding: $lineHeight 44px; /* pad more right and left later */
 
@@ -456,6 +456,7 @@ footer {
 				display:inline;
 				float:left;
 				text-align:left;
+				background: none;
 		}
 
 		p {
