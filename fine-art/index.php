@@ -54,7 +54,28 @@
         </li>
       </ul>
   	</div>
-<div id="gallery1" class="photoSwipe">Photo galleries require JavaScript to be enabled.</div>
+<div id="gallery1" class="photoSwipe">
+	<ul>
+    <li><img src="/img/fineart/focus-1.jpg" alt="Circular photo. Top half is out-of-focus dark shapes. Bottom half is the top portion of a gate (barrier) in up-close detail." /></li>
+    <li><img src="/img/fineart/focus-2.jpg" alt="Circular photo. Top half is slightly out-of-focus dark shapes. Bottom half is slightly out-of-focus gate (barrier)."  /></li>
+    <li><img src="/img/fineart/focus-3.jpg" alt="Circular photo. Top half shows orthodox Jewish men praying at the Kotel (Wailing Wall) in Jerusalem. Bottom half is out-of-focus gate (barrier)."  /></li>
+    <li><img src="/img/fineart/macro-1.jpg" alt="'Circular photo of a succulent plant (unknown species) taken at the Garfield Park Conservatory in Chicago"  /></li>
+    <li><img src="/img/fineart/macro-2.jpg" alt="Circular photo of a succulent plant (unknown species) taken at the Garfield Park Conservatory in Chicago"  /></li>
+    <li><img src="/img/fineart/macro-3.jpg" alt="Circular photo of a succulent plant (unknown species) taken at the Garfield Park Conservatory in Chicago" /></li>
+    <li><img src="/img/fineart/persephone-1.jpg" alt="Digitally-manipulated image of cement planters with overly-large blue plant erupting from one of them."  /></li>
+    <li><img src="/img/fineart/persephone-2.jpg" alt="Digitally-manipulated image of a decrepit Chicago mansion with overly large cacti as the front lawn."  /></li>
+    <li><img src="/img/fineart/persephone-3.jpg" alt="Digitally-manipulated image of a large fern-like plant in grayscale growing out of large red rocks (magnified pebbles)."  /></li>
+    <li><img src="/img/fineart/Perspective-1.jpg" alt="Digitally-manipulated image of the Kotel made to like very small by perspective."  /></li>
+    <li><img src="/img/fineart/Perspective-2.jpg" alt="Digitally-manipulated image of the Jerusalem skyline with the Dome of the Rock made to like very small by perspective."  /></li>
+    <li><img src="/img/fineart/Perspective-3.jpg" alt="Digitally-manipulated image of the Church of the Holy Sepulchre made to like very small by perspective." /></li>
+    <li><img src="/img/fineart/Saturation-1.jpg" alt="Photo of woman and boy on a boat dock. The woman is wearing brightly-patterned clothing with heavy beaded bands around her wrists and ankles." /></li>
+    <li><img src="/img/fineart/Saturation-2.jpg" alt="Photo of large, backlit fern leaf."/></li> 
+    <li><img src="/img/fineart/Saturation-3.jpg" alt="Photo of a faded blue rickety pier stretching off the Panamanian coast into the Caribbean sea." /></li>
+    <li><img src="/img/fineart/Polarization-1.jpg" alt="Photo of Muslim woman walking in front the Dome on the Rock."  /></li>
+    <li><img src="/img/fineart/Polarization-2.jpg" alt="Photo of the wall in Jerusalem that separates the old city from the new."  /></li>
+    <li><img src="/img/fineart/Polarization-3.jpg" alt="Photo of a of an orthodox Jewish man praying at the Kotel." /></li>			
+  </ul>
+</div>
 
 </section>
 
@@ -67,41 +88,41 @@
 				gallery1 = PhotoSwipe.attach(
 					[
 						{ url: '/img/fineart/focus-1.jpg', 
-								alt:'Circular photo. Top half is out-of-focus dark shapes. Bottom half is the top portion of a gate (barrier) in up-close detail.', caption: 'Focus-1'},
+								alt:'Focus-1'},
 						{ url: '/img/fineart/focus-2.jpg', 
-								alt:'Circular photo. Top half is slightly out-of-focus dark shapes. Bottom half is slightly out-of-focus gate (barrier).', caption: 'Focus-2'},
+								alt:'Focus-2'},
 						{ url: '/img/fineart/focus-3.jpg', 
-								alt:'Circular photo. Top half shows orthodox Jewish men praying at the Kotel (Wailing Wall) in Jerusalem. Bottom half is out-of-focus gate (barrier).', caption: 'Focus-3'},
+								alt:'Focus-3'},
 						{ url: '/img/fineart/macro-1.jpg', 
-								alt:'Circular photo of a succulent plant (unknown species) taken at the Garfield Park Conservatory in Chicago, Illinois.', caption: 'Macro-1'},
+								alt:'Macro-1'},
 						{ url: '/img/fineart/macro-2.jpg', 
-								alt:'Circular photo of a succulent plant (unknown species) taken at the Garfield Park Conservatory in Chicago, Illinois.', caption: 'Macro-2'},
+								alt:'Macro-2'},
 						{ url: '/img/fineart/macro-3.jpg', 
-								alt:'Circular photo of a succulent plant (unknown species) taken at the Garfield Park Conservatory in Chicago, Illinois.', caption: 'Macro-3'},
+								alt:'Macro-3'},
 						{ url: '/img/fineart/persephone-1.jpg', 
-								alt:'Digitally-manipulated image of cement planters with overly-large blue plant erupting from one of them.', caption: 'Persephone-1'},
+								alt:'Persephone-1'},
 						{ url: '/img/fineart/persephone-2.jpg', 
-								alt:'Digitally-manipulated image of a decrepit Chicago mansion with overly large cacti as the front lawn.', caption: 'Persephone-2'},
+								alt:'Persephone-2'},
 						{ url: '/img/fineart/persephone-3.jpg', 
-								alt:'Digitally-manipulated image of a large fern-like plant in grayscale growing out of large red rocks (magnified pebbles).', caption: 'Persephone-3'},
+								alt:'Persephone-3'},
 						{ url: '/img/fineart/Perspective-1.jpg', 
-								alt:'Digitally-manipulated image of the Kotel made to like very small by perspective.', caption: 'Perspective-1'},
+								alt:'Perspective-1'},
 						{ url: '/img/fineart/Perspective-2.jpg', 
-								alt:'Digitally-manipulated image of the Jerusalem skyline with the Dome of the Rock made to like very small by perspective.', caption: 'Perspective-2'},
+								alt:'Perspective-2'},
 						{ url: '/img/fineart/Perspective-3.jpg', 
-								alt:'Digitally-manipulated image of the Church of the Holy Sepulchre made to like very small by perspective.', caption: 'Perspective-3'},								
+								alt:'Perspective-3'},								
 						{ url: '/img/fineart/Saturation-1.jpg', 
-								alt:'Photo of woman and boy on a boat dock. The woman is wearing brightly-patterned clothing with heavy beaded bands around her wrists and ankles.', caption: 'Saturation-1'},
+								alt:'Saturation-1'},
 						{ url: '/img/fineart/Saturation-2.jpg', 
-								alt:'Photo of large, backlit fern leaf.', caption: 'Saturation-2'},
+								alt:'Saturation-2'},
 						{ url: '/img/fineart/Saturation-3.jpg', 
-								alt:'Photo of a faded blue, rickety pier, stretching off the Panamanian coast into the Caribbean sea.', caption: 'Saturation-3'},								
+								alt:'Saturation-3'},								
 						{ url: '/img/fineart/Polarization-1.jpg', 
-								alt:'Photo of Muslim woman walking in front the Dome on the Rock.', caption: 'Polarization-1'},
+								alt:'Polarization-1'},
 						{ url: '/img/fineart/Polarization-2.jpg', 
-								alt:'Photo of the wall in Jerusalem that separates the old city from the new.', caption: 'Polarization-2'},
+								alt:'Polarization-2'},
 						{ url: '/img/fineart/Polarization-3.jpg', 
-								alt:'Photo of a of an orthodox Jewish man praying at the Kotel.', caption: 'Polarization-3'},								
+								alt:'Polarization-3'},								
 					],
 					{
 						target: window.document.querySelectorAll('#gallery1')[0],
