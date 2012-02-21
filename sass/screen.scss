@@ -18,6 +18,12 @@
 	nav ul.navList  { display: none !important; }
 }
 
+body {
+	background: $lightTeal;
+	color:$darkGrey;
+	a {color:$orange;}
+}
+
 /* change to mobile nav */
 nav select { 
 	display: inline-block; 
@@ -30,6 +36,7 @@ nav select {
   width: 90%;
   margin: 0 auto;
   padding: 20px 10px;
+	background:$offWhite;
 }
 
 p {
