@@ -56,24 +56,24 @@
   	</div>
 <div id="gallery1" class="photoSwipe">
 	<ul>
-    <li><img src="/img/fineart/focus-1.jpg" alt="Circular photo. Top half is out-of-focus dark shapes. Bottom half is the top portion of a gate (barrier) in up-close detail." /></li>
-    <li><img src="/img/fineart/focus-2.jpg" alt="Circular photo. Top half is slightly out-of-focus dark shapes. Bottom half is slightly out-of-focus gate (barrier)."  /></li>
-    <li><img src="/img/fineart/focus-3.jpg" alt="Circular photo. Top half shows orthodox Jewish men praying at the Kotel (Wailing Wall) in Jerusalem. Bottom half is out-of-focus gate (barrier)."  /></li>
-    <li><img src="/img/fineart/macro-1.jpg" alt="'Circular photo of a succulent plant (unknown species) taken at the Garfield Park Conservatory in Chicago"  /></li>
-    <li><img src="/img/fineart/macro-2.jpg" alt="Circular photo of a succulent plant (unknown species) taken at the Garfield Park Conservatory in Chicago"  /></li>
-    <li><img src="/img/fineart/macro-3.jpg" alt="Circular photo of a succulent plant (unknown species) taken at the Garfield Park Conservatory in Chicago" /></li>
-    <li><img src="/img/fineart/persephone-1.jpg" alt="Digitally-manipulated image of cement planters with overly-large blue plant erupting from one of them."  /></li>
-    <li><img src="/img/fineart/persephone-2.jpg" alt="Digitally-manipulated image of a decrepit Chicago mansion with overly large cacti as the front lawn."  /></li>
-    <li><img src="/img/fineart/persephone-3.jpg" alt="Digitally-manipulated image of a large fern-like plant in grayscale growing out of large red rocks (magnified pebbles)."  /></li>
-    <li><img src="/img/fineart/Perspective-1.jpg" alt="Digitally-manipulated image of the Kotel made to like very small by perspective."  /></li>
-    <li><img src="/img/fineart/Perspective-2.jpg" alt="Digitally-manipulated image of the Jerusalem skyline with the Dome of the Rock made to like very small by perspective."  /></li>
-    <li><img src="/img/fineart/Perspective-3.jpg" alt="Digitally-manipulated image of the Church of the Holy Sepulchre made to like very small by perspective." /></li>
-    <li><img src="/img/fineart/Saturation-1.jpg" alt="Photo of woman and boy on a boat dock. The woman is wearing brightly-patterned clothing with heavy beaded bands around her wrists and ankles." /></li>
-    <li><img src="/img/fineart/Saturation-2.jpg" alt="Photo of large, backlit fern leaf."/></li> 
-    <li><img src="/img/fineart/Saturation-3.jpg" alt="Photo of a faded blue rickety pier stretching off the Panamanian coast into the Caribbean sea." /></li>
-    <li><img src="/img/fineart/Polarization-1.jpg" alt="Photo of Muslim woman walking in front the Dome on the Rock."  /></li>
-    <li><img src="/img/fineart/Polarization-2.jpg" alt="Photo of the wall in Jerusalem that separates the old city from the new."  /></li>
-    <li><img src="/img/fineart/Polarization-3.jpg" alt="Photo of a of an orthodox Jewish man praying at the Kotel." /></li>			
+    <li><p>Focus-1</p><img src="/img/fineart/focus-1.jpg" alt="Circular photo. Top half is out-of-focus dark shapes. Bottom half is the top portion of a gate (barrier) in up-close detail." /></li>
+    <li><p>Focus-2</p><img src="/img/fineart/focus-2.jpg" alt="Circular photo. Top half is slightly out-of-focus dark shapes. Bottom half is slightly out-of-focus gate (barrier)."  /></li>
+    <li><p>Focus-3</p><img src="/img/fineart/focus-3.jpg" alt="Circular photo. Top half shows orthodox Jewish men praying at the Kotel (Wailing Wall) in Jerusalem. Bottom half is out-of-focus gate (barrier)."  /></li>
+    <li><p>Macro-1</p><img src="/img/fineart/macro-1.jpg" alt="'Circular photo of a succulent plant (unknown species) taken at the Garfield Park Conservatory in Chicago"  /></li>
+    <li><p>Macro-2</p><img src="/img/fineart/macro-2.jpg" alt="Circular photo of a succulent plant (unknown species) taken at the Garfield Park Conservatory in Chicago"  /></li>
+    <li><p>Macro-3</p><img src="/img/fineart/macro-3.jpg" alt="Circular photo of a succulent plant (unknown species) taken at the Garfield Park Conservatory in Chicago" /></li>
+    <li><p>Persephone-1</p><img src="/img/fineart/persephone-1.jpg" alt="Digitally-manipulated image of cement planters with overly-large blue plant erupting from one of them."  /></li>
+    <li><p>Persephone-2</p><img src="/img/fineart/persephone-2.jpg" alt="Digitally-manipulated image of a decrepit Chicago mansion with overly large cacti as the front lawn."  /></li>
+    <li><p>Persephone-3</p><img src="/img/fineart/persephone-3.jpg" alt="Digitally-manipulated image of a large fern-like plant in grayscale growing out of large red rocks (magnified pebbles)."  /></li>
+    <li><p>Perspective-1</p><img src="/img/fineart/Perspective-1.jpg" alt="Digitally-manipulated image of the Kotel made to like very small by perspective."  /></li>
+    <li><p>Perspective-2</p><img src="/img/fineart/Perspective-2.jpg" alt="Digitally-manipulated image of the Jerusalem skyline with the Dome of the Rock made to like very small by perspective."  /></li>
+    <li><p>Perspective-3</p><img src="/img/fineart/Perspective-3.jpg" alt="Digitally-manipulated image of the Church of the Holy Sepulchre made to like very small by perspective." /></li>
+    <li><p>Saturation-1</p><img src="/img/fineart/Saturation-1.jpg" alt="Photo of woman and boy on a boat dock. The woman is wearing brightly-patterned clothing with heavy beaded bands around her wrists and ankles." /></li>
+    <li><p>Saturation-2</p><img src="/img/fineart/Saturation-2.jpg" alt="Photo of large, backlit fern leaf."/></li> 
+    <li><p>Saturation-3</p><img src="/img/fineart/Saturation-3.jpg" alt="Photo of a faded blue rickety pier stretching off the Panamanian coast into the Caribbean sea." /></li>
+    <li><p>Polarization-1</p><img src="/img/fineart/Polarization-1.jpg" alt="Photo of Muslim woman walking in front the Dome on the Rock."  /></li>
+    <li><p>Polarization-2</p><img src="/img/fineart/Polarization-2.jpg" alt="Photo of the wall in Jerusalem that separates the old city from the new."  /></li>
+    <li><p>Polarization-3</p><img src="/img/fineart/Polarization-3.jpg" alt="Photo of a of an orthodox Jewish man praying at the Kotel." /></li>			
   </ul>
 </div>
 
