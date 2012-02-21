@@ -214,6 +214,10 @@ footer {
 	  background-image: url('img/748px-10-44-10-12c.png'); 
 	}
 	
+	header {
+		h1 {font-size: $fontSize+10;}
+	}
+	
 	section H1.top  {
 		margin-top:$lineHeight*4;
 	}
