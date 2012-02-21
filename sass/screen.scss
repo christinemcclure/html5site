@@ -121,6 +121,8 @@ h2 {
 nav#photo, nav#lib {
 	display:inline-block;
 	clear:both;
+	width:90%;
+	margin: $lineHeight 5%;
 	li {
 		font-size: $fontSize;
 		float: left;
@@ -511,15 +513,20 @@ footer {
 		}
 			
 	
-		nav li, #galleries  {
+		nav li  {
 			p, a {
-				font-size: 16px;letter-spacing: 2px;
+				font-size: $fontSize+2;
+				letter-spacing: 2px;
 				background: none;
 			}
 		}
 
+		#galleries a p {
+			font-size:$fontSize;
+		}
 
 		nav#photo {
+			margin: 0;
 			position: absolute;			
 			top: 110px;
 			width: 14.11042944785276%;
@@ -536,6 +543,7 @@ footer {
 		nav#lib {
 			width: 14.11042944785276%;
 			position: absolute;
+			margin:0;
 			right: 7%;
 			text-align: right;
 			top: 484px;			

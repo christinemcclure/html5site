@@ -359,8 +359,10 @@ h2 {
 nav#photo, nav#lib {
   display: inline-block;
   clear: both;
+  width: 90%;
+  margin: 22px 5%;
 }
-/* line 124, ../sass/screen.scss */
+/* line 126, ../sass/screen.scss */
 nav#photo li, nav#lib li {
   font-size: 14px;
   float: left;
@@ -368,77 +370,77 @@ nav#photo li, nav#lib li {
   margin: 0 0 44px 5%;
   text-align: center;
 }
-/* line 130, ../sass/screen.scss */
+/* line 132, ../sass/screen.scss */
 nav#photo li a, nav#lib li a {
   padding: 6px 12px;
   background: #ccc;
 }
-/* line 135, ../sass/screen.scss */
+/* line 137, ../sass/screen.scss */
 nav#photo li:first-child, nav#lib li:first-child {
   margin: 0;
 }
 
-/* line 141, ../sass/screen.scss */
+/* line 143, ../sass/screen.scss */
 nav#lib li {
   font-size: 11px;
   width: 20%;
   margin: 0 0 44px 6%;
 }
-/* line 145, ../sass/screen.scss */
+/* line 147, ../sass/screen.scss */
 nav#lib li a {
   padding: 6px 8px;
 }
-/* line 149, ../sass/screen.scss */
+/* line 151, ../sass/screen.scss */
 nav#lib li:first-child {
   margin: 0;
 }
 
-/* line 153, ../sass/screen.scss */
+/* line 155, ../sass/screen.scss */
 #libFigure {
   width: 20%;
   margin: 0 6% 0 0;
   float: left;
 }
 
-/* line 159, ../sass/screen.scss */
+/* line 161, ../sass/screen.scss */
 #libIntro {
   margin: 0 0 44px 0;
 }
 
-/* line 163, ../sass/screen.scss */
+/* line 165, ../sass/screen.scss */
 #seriesPortals {
   margin: 22px 0 22px 6.544%;
   clear: both;
   /* otherwise floats into image */
 }
-/* line 166, ../sass/screen.scss */
+/* line 168, ../sass/screen.scss */
 #seriesPortals h2 {
   margin: 22px 0 0 0;
 }
 
-/* line 172, ../sass/screen.scss */
+/* line 174, ../sass/screen.scss */
 #contactPhoto section p, #contactLib section p {
   margin: 0 0 22px 0;
 }
-/* line 175, ../sass/screen.scss */
+/* line 177, ../sass/screen.scss */
 #contactPhoto .formContainer, #contactLib .formContainer {
   width: 100%;
   margin: 0;
 }
-/* line 178, ../sass/screen.scss */
+/* line 180, ../sass/screen.scss */
 #contactPhoto .formContainer input, #contactLib .formContainer input {
   margin: 0 0 22px 0;
   clera: both;
   width: 100%;
 }
-/* line 183, ../sass/screen.scss */
+/* line 185, ../sass/screen.scss */
 #contactPhoto .formContainer #message, #contactLib .formContainer #message {
   clear: both;
   width: 100%;
   height: 88px;
   margin-bottom: 22px;
 }
-/* line 190, ../sass/screen.scss */
+/* line 192, ../sass/screen.scss */
 #contactPhoto input.button, #contactLib input.button {
   cursor: pointer;
   width: 100%;
@@ -446,18 +448,18 @@ nav#lib li:first-child {
   padding: 5px 10px 23px 10px;
 }
 
-/* line 199, ../sass/screen.scss */
+/* line 201, ../sass/screen.scss */
 footer {
   clear: both;
 }
-/* line 201, ../sass/screen.scss */
+/* line 203, ../sass/screen.scss */
 footer p {
   display: block;
   text-align: center;
 }
 
 @media screen and (min-width: 760px) {
-  /* line 210, ../sass/screen.scss */
+  /* line 212, ../sass/screen.scss */
   .page {
     width: 748px;
     /*Total width works out to 768px*/
@@ -466,66 +468,66 @@ footer p {
     background-image: url("img/748px-10-44-10-12c.png");
   }
 
-  /* line 218, ../sass/screen.scss */
+  /* line 220, ../sass/screen.scss */
   header h1 {
     font-size: 24px;
   }
 
-  /* line 221, ../sass/screen.scss */
+  /* line 223, ../sass/screen.scss */
   section H1.top {
     margin-top: 88px;
   }
 
-  /* line 226, ../sass/screen.scss */
+  /* line 228, ../sass/screen.scss */
   #about h2 + h3 + h4, #art h2 + h3 + h4 {
     margin-bottom: 22px;
   }
-  /* line 229, ../sass/screen.scss */
+  /* line 231, ../sass/screen.scss */
   #about p.floatLeft, #art p.floatLeft {
     /* 870 / 978 = 88.9570552147239% */
     width: 65.6441717791411%;
     margin: 0 4% 44px 0;
   }
-  /* line 234, ../sass/screen.scss */
+  /* line 236, ../sass/screen.scss */
   #about p.floatLeft + p.floatLeft, #art p.floatLeft + p.floatLeft {
     margin-top: -22px;
   }
-  /* line 237, ../sass/screen.scss */
+  /* line 239, ../sass/screen.scss */
   #about img.floatLeft, #art img.floatLeft {
     /* 222 / 978*/
     width: 22.6993865030675%;
     margin: 0 0 0 2%;
   }
-  /* line 242, ../sass/screen.scss */
+  /* line 244, ../sass/screen.scss */
   #about p.floatLeft + img, #art p.floatLeft + img {
     margin-top: -44px;
   }
-  /* line 245, ../sass/screen.scss */
+  /* line 247, ../sass/screen.scss */
   #about p.floatLeft + p.floatLeft + img, #art p.floatLeft + p.floatLeft + img {
     margin-top: -198px;
   }
 
-  /* line 251, ../sass/screen.scss */
+  /* line 253, ../sass/screen.scss */
   ul.twoColumnBlock li {
     width: 43.76278118609407%;
     float: left;
     margin: 0 8.589% 22px 0;
     /*  20/978  64/978*/
   }
-  /* line 256, ../sass/screen.scss */
+  /* line 258, ../sass/screen.scss */
   ul.twoColumnBlock li h2 {
     margin-top: 0;
   }
-  /* line 261, ../sass/screen.scss */
+  /* line 263, ../sass/screen.scss */
   ul.twoColumnBlock li:nth-child(2n+2) {
     margin-right: 0;
   }
 
-  /* line 266, ../sass/screen.scss */
+  /* line 268, ../sass/screen.scss */
   ul.threeColumnBlock {
     margin-top: 22px;
   }
-  /* line 268, ../sass/screen.scss */
+  /* line 270, ../sass/screen.scss */
   ul.threeColumnBlock li {
     width: 24.13087934560327%;
     /*236/978*/
@@ -533,23 +535,23 @@ footer p {
     margin: 0 8.589% 22px 0;
     /*  20/978  64/978*/
   }
-  /* line 273, ../sass/screen.scss */
+  /* line 275, ../sass/screen.scss */
   ul.threeColumnBlock li:nth-child(3n+3) {
     margin-right: 0;
   }
 
-  /* line 279, ../sass/screen.scss */
+  /* line 281, ../sass/screen.scss */
   #resume h3, #resume h3 + p {
     clear: both;
     margin: 0 02.24948875255624%;
     /* 22 / 978 */
   }
-  /* line 283, ../sass/screen.scss */
+  /* line 285, ../sass/screen.scss */
   #resume ul.twoColumnBlock {
     margin: 22px 8.589% 11px 6.544%;
     /* 22 / 978 */
   }
-  /* line 285, ../sass/screen.scss */
+  /* line 287, ../sass/screen.scss */
   #resume ul.twoColumnBlock ul li {
     /* sublist of responsibilities*/
     width: 100%;
@@ -558,31 +560,31 @@ footer p {
     margin: 11px 0 0 5.729%;
     /* 1/2 line spacing between bullet points left: 22 / 384 */
   }
-  /* line 294, ../sass/screen.scss */
+  /* line 296, ../sass/screen.scss */
   #resume ul.singleList {
     margin: 0 0 0 08.58895705521472%;
   }
-  /* line 296, ../sass/screen.scss */
+  /* line 298, ../sass/screen.scss */
   #resume ul.singleList li {
     list-style: disc;
   }
-  /* line 298, ../sass/screen.scss */
+  /* line 300, ../sass/screen.scss */
   #resume ul.singleList li ul li {
     list-style: circle;
     margin-left: 6.5439672801636%;
   }
 
   /* end resume */
-  /* line 307, ../sass/screen.scss */
+  /* line 309, ../sass/screen.scss */
   #contactPhoto section p, #contactLib section p {
     width: 45%;
     float: left;
   }
-  /* line 311, ../sass/screen.scss */
+  /* line 313, ../sass/screen.scss */
   #contactPhoto p#orderPhotos, #contactLib p#orderPhotos {
     clear: left;
   }
-  /* line 314, ../sass/screen.scss */
+  /* line 316, ../sass/screen.scss */
   #contactPhoto .formContainer, #contactLib .formContainer {
     width: 45%;
     float: right;
@@ -592,45 +594,45 @@ footer p {
 /* min-width: 760px */
 @media screen and (min-width: 1008px) {
   /* change to desktop nav */
-  /* line 326, ../sass/screen.scss */
+  /* line 328, ../sass/screen.scss */
   nav select {
     display: none;
   }
 
-  /* line 327, ../sass/screen.scss */
+  /* line 329, ../sass/screen.scss */
   nav {
     /* change later, obvs. */
     width: 876px;
     /* using fixed width because it stretches too much otherwise */
     margin: 0 auto;
   }
-  /* line 328, ../sass/screen.scss */
+  /* line 330, ../sass/screen.scss */
   nav .activeMain {
     color: blue;
   }
-  /* line 329, ../sass/screen.scss */
+  /* line 331, ../sass/screen.scss */
   nav .activeSub a {
     color: red;
   }
-  /* line 332, ../sass/screen.scss */
+  /* line 334, ../sass/screen.scss */
   nav li {
     cursor: pointer;
   }
 
-  /* line 336, ../sass/screen.scss */
+  /* line 338, ../sass/screen.scss */
   #mainNav.navList {
     display: block !important;
     float: left;
     margin-top: 22px;
   }
-  /* line 340, ../sass/screen.scss */
+  /* line 342, ../sass/screen.scss */
   #mainNav.navList li {
     clear: both;
     font-size: 16px;
     margin: 0 20px 0 0;
     /*20/876*/
   }
-  /* line 345, ../sass/screen.scss */
+  /* line 347, ../sass/screen.scss */
   #mainNav.navList li:last-child {
     margin-bottom: 44px;
   }
@@ -643,53 +645,53 @@ footer p {
   		nav #photoNav.navList {display:inline-block !important;}
   	}
   */
-  /* line 357, ../sass/screen.scss */
+  /* line 359, ../sass/screen.scss */
   #photoNav.navList, #libNav.navList {
     display: inline-block;
   }
 
-  /* line 360, ../sass/screen.scss */
+  /* line 362, ../sass/screen.scss */
   #photoNav, #libNav {
     width: 748px;
     float: right;
   }
-  /* line 363, ../sass/screen.scss */
+  /* line 365, ../sass/screen.scss */
   #photoNav li, #libNav li {
     text-align: center;
     width: 106px;
     float: left;
   }
 
-  /* line 371, ../sass/screen.scss */
+  /* line 373, ../sass/screen.scss */
   #photoNav li {
     margin: 22px 0 0 0;
   }
 
-  /* line 377, ../sass/screen.scss */
+  /* line 379, ../sass/screen.scss */
   #libNav li {
     margin: 44px 13% 0 0;
   }
-  /* line 380, ../sass/screen.scss */
+  /* line 382, ../sass/screen.scss */
   #libNav li:last-child {
     margin: 44px 0 0 0;
   }
 
-  /* line 385, ../sass/screen.scss */
+  /* line 387, ../sass/screen.scss */
   #libNav.noJS {
     /* Need this to position in case user disables JS. Remove class with JS */
   }
-  /* line 386, ../sass/screen.scss */
+  /* line 388, ../sass/screen.scss */
   #libNav.noJS li {
     margin-top: 0;
   }
 
-  /* line 393, ../sass/screen.scss */
+  /* line 395, ../sass/screen.scss */
   body {
     margin: 44px 0 0 0;
     /*    background:  $backgroundLight url('/img/scrollLight.png');  */
   }
 
-  /* line 398, ../sass/screen.scss */
+  /* line 400, ../sass/screen.scss */
   .page {
     width: 978px;
     /*Total with works out to 1008, but need more for padding*/
@@ -699,7 +701,7 @@ footer p {
     /* pad more right and left later */
     /* end header */
   }
-  /* line 404, ../sass/screen.scss */
+  /* line 406, ../sass/screen.scss */
   .page header {
     overflow: auto;
     width: 100%;
@@ -708,7 +710,7 @@ footer p {
     background: #4d4d4d url("/img/scrollDark.png");
     color: #fff;
   }
-  /* line 412, ../sass/screen.scss */
+  /* line 414, ../sass/screen.scss */
   .page header h1 {
     font-size: 37.4px;
     display: inline;
@@ -718,30 +720,30 @@ footer p {
     margin: 0 0 0 2%;
     padding: 20px 0 24px 0;
   }
-  /* line 422, ../sass/screen.scss */
+  /* line 424, ../sass/screen.scss */
   .page header p {
     display: inline;
     float: right;
     font-size: 12px;
     margin: 24px 2% 0 0;
   }
-  /* line 432, ../sass/screen.scss */
+  /* line 434, ../sass/screen.scss */
   .page section {
     margin: 44px 0 0 0;
   }
 
-  /* line 439, ../sass/screen.scss */
+  /* line 441, ../sass/screen.scss */
   #homePage {
     /* end header */
     /* end galleries */
   }
-  /* line 441, ../sass/screen.scss */
+  /* line 443, ../sass/screen.scss */
   #homePage header {
     width: 86%;
     position: absolute;
     margin: 264px 0 0 0;
   }
-  /* line 448, ../sass/screen.scss */
+  /* line 450, ../sass/screen.scss */
   #homePage h2 {
     /*width: 306px / 978px;*/
     width: 31.28834355828221%;
@@ -752,21 +754,21 @@ footer p {
     float: left;
     text-align: left;
   }
-  /* line 459, ../sass/screen.scss */
+  /* line 461, ../sass/screen.scss */
   #homePage p {
     font-size: 14px;
   }
-  /* line 462, ../sass/screen.scss */
+  /* line 464, ../sass/screen.scss */
   #homePage p#photoIntro {
     clear: both;
     /*margin: 0 0 0 336px;*/
     margin: 176px 0 0 34.3558282208589%;
   }
-  /* line 468, ../sass/screen.scss */
+  /* line 470, ../sass/screen.scss */
   #homePage #photoHeader {
     margin: -2px 0 0 0;
   }
-  /* line 471, ../sass/screen.scss */
+  /* line 473, ../sass/screen.scss */
   #homePage #libHeader {
     position: absolute;
     letter-spacing: 5px;
@@ -777,7 +779,7 @@ footer p {
     top: 438px;
     right: 7%;
   }
-  /* line 484, ../sass/screen.scss */
+  /* line 486, ../sass/screen.scss */
   #homePage #galleries ul li {
     /*width: 138px;*/
     width: 14.11042944785276%;
@@ -786,53 +788,59 @@ footer p {
     /*margin: 0 0 2px 30px;*/
     margin: 0 0 2px 3.06748466257669%;
   }
-  /* line 494, ../sass/screen.scss */
+  /* line 496, ../sass/screen.scss */
   #homePage #galleries img {
     margin-bottom: 8px;
   }
-  /* line 499, ../sass/screen.scss */
+  /* line 501, ../sass/screen.scss */
   #homePage #libFigure {
     clear: both;
     /*width: 138px; */
     width: 14.11042944785276%;
     margin: 150px 0 0 0;
   }
-  /* line 506, ../sass/screen.scss */
+  /* line 508, ../sass/screen.scss */
   #homePage p#libIntro {
     /*width: 558px;*/
     width: 57.05521472392638%;
     /*margin: -100px 0 0 168px;*/
     margin: 198px 0 0 17.178%;
   }
-  /* line 515, ../sass/screen.scss */
-  #homePage nav li p, #homePage nav li a, #homePage #galleries p, #homePage #galleries a {
+  /* line 517, ../sass/screen.scss */
+  #homePage nav li p, #homePage nav li a {
     font-size: 16px;
     letter-spacing: 2px;
     background: none;
   }
-  /* line 522, ../sass/screen.scss */
+  /* line 524, ../sass/screen.scss */
+  #homePage #galleries a p {
+    font-size: 14px;
+  }
+  /* line 528, ../sass/screen.scss */
   #homePage nav#photo {
+    margin: 0;
     position: absolute;
     top: 110px;
     width: 14.11042944785276%;
     border-left: 2px solid #adadad;
   }
-  /* line 528, ../sass/screen.scss */
+  /* line 535, ../sass/screen.scss */
   #homePage nav#photo ul li {
     margin: 0 8px;
     /*width: 138px;*/
     clear: both;
   }
-  /* line 536, ../sass/screen.scss */
+  /* line 543, ../sass/screen.scss */
   #homePage nav#lib {
     width: 14.11042944785276%;
     position: absolute;
+    margin: 0;
     right: 7%;
     text-align: right;
     top: 484px;
     border-right: 2px solid #adadad;
   }
-  /* line 543, ../sass/screen.scss */
+  /* line 551, ../sass/screen.scss */
   #homePage nav#lib ul li {
     width: 100%;
     margin: 0 -4px;
@@ -841,23 +849,23 @@ footer p {
   }
 
   /* end homePage*/
-  /* line 555, ../sass/screen.scss */
+  /* line 563, ../sass/screen.scss */
   footer {
     clear: both;
     margin: 44px 0 0 0;
   }
-  /* line 558, ../sass/screen.scss */
+  /* line 566, ../sass/screen.scss */
   footer p {
     width: 40%;
     display: inline;
     font-family: "Questrial", Verdana, Arial, sans-serif;
     font-size: 12px;
   }
-  /* line 563, ../sass/screen.scss */
+  /* line 571, ../sass/screen.scss */
   footer p a {
     font-weight: 900;
   }
-  /* line 566, ../sass/screen.scss */
+  /* line 574, ../sass/screen.scss */
   footer p.copyright {
     width: 40%;
     /* width keeps this line from popping down */
@@ -871,34 +879,34 @@ footer p {
 /* *** end min-width: 1008 *** */
 /* Since using absolute positioning, handle those elements as screen width grows */
 @media screen and (min-width: 1100px) {
-  /* line 585, ../sass/screen.scss */
+  /* line 593, ../sass/screen.scss */
   header h1 {
     font-size: 44px;
     margin: 0 0 0 4%;
   }
-  /* line 589, ../sass/screen.scss */
+  /* line 597, ../sass/screen.scss */
   header p {
     margin: 24px 4% 0 0;
   }
 
-  /* line 595, ../sass/screen.scss */
+  /* line 603, ../sass/screen.scss */
   #homePage header {
     margin: 286px 0 0 0;
   }
-  /* line 598, ../sass/screen.scss */
+  /* line 606, ../sass/screen.scss */
   #homePage #libIntro {
     margin: -114px 0 0 17.178%;
   }
-  /* line 602, ../sass/screen.scss */
+  /* line 610, ../sass/screen.scss */
   #homePage footer {
     margin: 66px 0 0 0;
   }
 
-  /* line 608, ../sass/screen.scss */
+  /* line 616, ../sass/screen.scss */
   #resume .twoColumnBlock {
     /* make into three columns for easier reading on wide screens */
   }
-  /* line 609, ../sass/screen.scss */
+  /* line 617, ../sass/screen.scss */
   #resume .twoColumnBlock li {
     width: 28%;
     /*236/978*/
@@ -906,60 +914,60 @@ footer p {
     margin: 0 8% 22px 0;
     /*  20/978  64/978*/
   }
-  /* line 614, ../sass/screen.scss */
+  /* line 622, ../sass/screen.scss */
   #resume .twoColumnBlock li:nth-child(3n+3) {
     margin-right: 0;
   }
 }
 @media screen and (min-width: 1238px) {
   /* where photoIntro goes to two lines */
-  /* line 624, ../sass/screen.scss */
+  /* line 632, ../sass/screen.scss */
   #homePage p#photoIntro {
     margin: 198px 0 0 34.3558282208589%;
   }
-  /* line 628, ../sass/screen.scss */
+  /* line 636, ../sass/screen.scss */
   #homePage #libIntro {
     margin: -106px 0 0 17.178%;
   }
-  /* line 631, ../sass/screen.scss */
+  /* line 639, ../sass/screen.scss */
   #homePage footer {
     margin: 88px 0 0 0;
   }
 }
 @media screen and (min-width: 1300px) {
-  /* line 642, ../sass/screen.scss */
+  /* line 650, ../sass/screen.scss */
   #homePage #libIntro {
     margin: -118px 0 0 17.178%;
   }
-  /* line 645, ../sass/screen.scss */
+  /* line 653, ../sass/screen.scss */
   #homePage #libHeader {
     top: 460px;
   }
-  /* line 648, ../sass/screen.scss */
+  /* line 656, ../sass/screen.scss */
   #homePage nav#lib {
     top: 506px;
   }
 }
 @media screen and (min-width: 1400px) {
-  /* line 657, ../sass/screen.scss */
+  /* line 665, ../sass/screen.scss */
   header p {
     font-size: 14px;
     margin: 22px 4% 0 0;
   }
 
-  /* line 665, ../sass/screen.scss */
+  /* line 673, ../sass/screen.scss */
   #homePage header {
     margin: 308px 0 0 0;
   }
-  /* line 668, ../sass/screen.scss */
+  /* line 676, ../sass/screen.scss */
   #homePage #libHeader {
     top: 482px;
   }
-  /* line 671, ../sass/screen.scss */
+  /* line 679, ../sass/screen.scss */
   #homePage nav#lib {
     top: 528px;
   }
-  /* line 674, ../sass/screen.scss */
+  /* line 682, ../sass/screen.scss */
   #homePage footer {
     margin: 110px 0 0 0;
   }
