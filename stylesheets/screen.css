@@ -825,38 +825,39 @@ footer p {
   }
   /* line 536, ../sass/screen.scss */
   #homePage nav#lib {
+    width: 14.11042944785276%;
     position: absolute;
     right: 7%;
     text-align: right;
     top: 484px;
     border-right: 2px solid #adadad;
   }
-  /* line 542, ../sass/screen.scss */
+  /* line 543, ../sass/screen.scss */
   #homePage nav#lib ul li {
-    width: 90%;
-    margin: 0 8px;
+    width: 100%;
+    margin: 0 -4px;
     clear: both;
     text-align: right;
   }
 
   /* end homePage*/
-  /* line 554, ../sass/screen.scss */
+  /* line 555, ../sass/screen.scss */
   footer {
     clear: both;
     margin: 44px 0 0 0;
   }
-  /* line 557, ../sass/screen.scss */
+  /* line 558, ../sass/screen.scss */
   footer p {
     width: 40%;
     display: inline;
     font-family: "Questrial", Verdana, Arial, sans-serif;
     font-size: 12px;
   }
-  /* line 562, ../sass/screen.scss */
+  /* line 563, ../sass/screen.scss */
   footer p a {
     font-weight: 900;
   }
-  /* line 565, ../sass/screen.scss */
+  /* line 566, ../sass/screen.scss */
   footer p.copyright {
     width: 40%;
     /* width keeps this line from popping down */
@@ -870,34 +871,34 @@ footer p {
 /* *** end min-width: 1008 *** */
 /* Since using absolute positioning, handle those elements as screen width grows */
 @media screen and (min-width: 1100px) {
-  /* line 584, ../sass/screen.scss */
+  /* line 585, ../sass/screen.scss */
   header h1 {
     font-size: 44px;
     margin: 0 0 0 4%;
   }
-  /* line 588, ../sass/screen.scss */
+  /* line 589, ../sass/screen.scss */
   header p {
     margin: 24px 4% 0 0;
   }
 
-  /* line 594, ../sass/screen.scss */
+  /* line 595, ../sass/screen.scss */
   #homePage header {
     margin: 286px 0 0 0;
   }
-  /* line 597, ../sass/screen.scss */
+  /* line 598, ../sass/screen.scss */
   #homePage #libIntro {
     margin: -114px 0 0 17.178%;
   }
-  /* line 601, ../sass/screen.scss */
+  /* line 602, ../sass/screen.scss */
   #homePage footer {
     margin: 66px 0 0 0;
   }
 
-  /* line 607, ../sass/screen.scss */
+  /* line 608, ../sass/screen.scss */
   #resume .twoColumnBlock {
     /* make into three columns for easier reading on wide screens */
   }
-  /* line 608, ../sass/screen.scss */
+  /* line 609, ../sass/screen.scss */
   #resume .twoColumnBlock li {
     width: 28%;
     /*236/978*/
@@ -905,60 +906,60 @@ footer p {
     margin: 0 8% 22px 0;
     /*  20/978  64/978*/
   }
-  /* line 613, ../sass/screen.scss */
+  /* line 614, ../sass/screen.scss */
   #resume .twoColumnBlock li:nth-child(3n+3) {
     margin-right: 0;
   }
 }
 @media screen and (min-width: 1238px) {
   /* where photoIntro goes to two lines */
-  /* line 623, ../sass/screen.scss */
+  /* line 624, ../sass/screen.scss */
   #homePage p#photoIntro {
     margin: 198px 0 0 34.3558282208589%;
   }
-  /* line 627, ../sass/screen.scss */
+  /* line 628, ../sass/screen.scss */
   #homePage #libIntro {
     margin: -106px 0 0 17.178%;
   }
-  /* line 630, ../sass/screen.scss */
+  /* line 631, ../sass/screen.scss */
   #homePage footer {
     margin: 88px 0 0 0;
   }
 }
 @media screen and (min-width: 1300px) {
-  /* line 641, ../sass/screen.scss */
+  /* line 642, ../sass/screen.scss */
   #homePage #libIntro {
     margin: -118px 0 0 17.178%;
   }
-  /* line 644, ../sass/screen.scss */
+  /* line 645, ../sass/screen.scss */
   #homePage #libHeader {
     top: 460px;
   }
-  /* line 647, ../sass/screen.scss */
+  /* line 648, ../sass/screen.scss */
   #homePage nav#lib {
     top: 506px;
   }
 }
 @media screen and (min-width: 1400px) {
-  /* line 656, ../sass/screen.scss */
+  /* line 657, ../sass/screen.scss */
   header p {
     font-size: 14px;
     margin: 22px 4% 0 0;
   }
 
-  /* line 664, ../sass/screen.scss */
+  /* line 665, ../sass/screen.scss */
   #homePage header {
     margin: 308px 0 0 0;
   }
-  /* line 667, ../sass/screen.scss */
+  /* line 668, ../sass/screen.scss */
   #homePage #libHeader {
     top: 482px;
   }
-  /* line 670, ../sass/screen.scss */
+  /* line 671, ../sass/screen.scss */
   #homePage nav#lib {
     top: 528px;
   }
-  /* line 673, ../sass/screen.scss */
+  /* line 674, ../sass/screen.scss */
   #homePage footer {
     margin: 110px 0 0 0;
   }

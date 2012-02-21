@@ -534,14 +534,15 @@ footer {
 		}
 		
 		nav#lib {
+			width: 14.11042944785276%;
 			position: absolute;
 			right: 7%;
 			text-align: right;
 			top: 484px;			
 			border-right: 2px solid $border;
 			ul li {
-		 		width: 90%;
-				margin: 0 8px;
+				width:100%;
+				margin: 0 -4px;
 				clear:both;
 				text-align: right;
 			}	
