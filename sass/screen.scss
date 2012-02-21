@@ -586,7 +586,6 @@ footer {
 		}
 	}			
 
-
 	#homePage {
 		header{
 			margin: $lineHeight*13 0 0 0;
@@ -599,6 +598,19 @@ footer {
 			margin: $lineHeight*3 0 0 0;
 		}
 	}		
+	
+	#resume {
+		.twoColumnBlock { /* make into three column block for easier reading on wide screens */
+			li {
+				width: 24.13087934560327%; /*236/978*/
+				float:left;
+				margin: 0 8.58895705521472% $lineHeight 0; /*  20/978  64/978*/
+			}
+				li:nth-child(3n+3){
+				margin-right: 0;
+			}					
+		}
+	}
 }
 
 
