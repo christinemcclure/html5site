@@ -299,9 +299,19 @@ footer {
 		}
 	}/* end resume */
 
-	.formContainer{ 
-		width: 40%;
-		float:left;
+	#contactPhoto, #contactLib {
+		section p {
+			width: 45%;
+			float:left;
+		}
+		p#orderPhotos {
+			clear:left;
+		}
+		.formContainer{ 
+			width: 45%;
+			float:right;
+			margin-top: -$lineHeight*3;
+		}
 	}
 	
 }/* min-width: 760px */
