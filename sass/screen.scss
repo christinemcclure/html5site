@@ -6,11 +6,12 @@ body {
 }
 
 a {
-	color:green;
+	color:$orange;
 }
 
 strong {
-	color:red;
+	color:$teal;
+	font-weight:900;
 }
 
 
@@ -323,12 +324,10 @@ footer {
 /* change to desktop nav */
   nav select {  display: none; }
 	nav {
-		.activeMain {color:blue;}
-		.activeSub a {color:red;} /* change later, obvs. */
 		width: 876px; /* using fixed width because it stretches too much otherwise */
 		margin: 0 auto;
 		li {cursor:pointer;}
-		
+		a {color:$teal;}
 	}
 	
 	#mainNav.navList {
@@ -339,9 +338,13 @@ footer {
 			clear:both;
 			font-size: $fontSize+2;
 			margin:0 20px 0 0; /*20/876*/
+			color:$lightTeal;
 		}
 		li:last-child {margin-bottom: $lineHeight*2;}
 	}
+	
+		li.activeMain {color:$teal !important;}
+		li.activeSub a {color:$orange;} 
 	
 /*	
 	#resume, #portfolio, #lab, #contactLib {
@@ -390,12 +393,12 @@ footer {
 	
 	body{
 		margin: $lineHeight*2 0 0 0;
-    background:  $backgroundLight url('/img/scrollLight.png');  
+    background:  $lightTeal;  
 	}
 
   .page {
      width: 978px;  /*Total with works out to 1008, but need more for padding*/
-		background: #fff; 
+		background: $offWhite; 
 		width: 86%; 
 		padding: $lineHeight 44px; /* pad more right and left later */
 
@@ -404,7 +407,7 @@ footer {
 			width: 100%;
 			margin: 0 auto;
 			/*width: 978px; */
-			background: $backgroundDark  url('/img/scrollDark.png');  
+			background: $darkGrey ;  
 			color:#fff;
 
 			h1 {
@@ -423,6 +426,8 @@ footer {
 				font-size: 12px;
 				margin: 24px 2% 0 0;
 			}
+			
+			a {color: $orange;}
 		} /* end header */
 
 
