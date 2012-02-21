@@ -280,7 +280,7 @@ nav select {
   width: 90%;
   margin: 0 auto;
   padding: 20px 10px;
-  background: #fafafa;
+  background: #f2f2f2;
 }
 
 /* line 54, ../sass/screen.scss */
@@ -701,9 +701,9 @@ footer p {
 
   /* line 399, ../sass/screen.scss */
   .page {
-    width: 978px;
+    /* width: 978px; */
     /*Total with works out to 1008, but need more for padding*/
-    background: #f2f2f2;
+    background: #f2f2f2 url("/img/torn-edge.png") repeat-x;
     width: 86%;
     padding: 22px 44px;
     /* pad more right and left later */

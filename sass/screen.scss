@@ -48,7 +48,7 @@ nav select {
   width: 90%;
   margin: 0 auto;
   padding: 20px 10px;
-	background:$backgroundLight;
+	background:$offWhite;
 }
 
 p {
@@ -397,8 +397,8 @@ footer {
 	}
 
   .page {
-     width: 978px;  /*Total with works out to 1008, but need more for padding*/
-		background: $offWhite; 
+    /* width: 978px; */  /*Total with works out to 1008, but need more for padding*/
+		background: $offWhite url('/img/torn-edge.png') repeat-x;
 		width: 86%; 
 		padding: $lineHeight 44px; /* pad more right and left later */
 
