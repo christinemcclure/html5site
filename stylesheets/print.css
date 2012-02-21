@@ -70,31 +70,14 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 ########################################
 */
 /* from baseline grid .t22 class */
-/* line 58, ../sass/_base.scss */
-/* line 18, ../sass/_base.scss */
-.t22 {
-  font-size: 14px;
-  line-height: 22px;
-  /*  background-image: url("img/22px-baseline.png"); */
-}
-
-/* line 66, ../sass/_base.scss */
-/* line 25, ../sass/_base.scss */
-.g978 #page {
-  width: 300px;
-  /*Total width works out to 312px*/
-  padding: 0px 6px 0px 6px;
-  /*  background-image: url("img/300px-6-27-6-8c.png"); */
-}
-
-/* line 34, ../sass/_base.scss */
+/* line 17, ../sass/_base.scss */
 body {
   font-size: 14px;
   line-height: 22px;
 }
 
 /* hide mobile nav at first */
-/* line 42, ../sass/_base.scss */
+/* line 25, ../sass/_base.scss */
 nav select {
   display: none;
 }
@@ -107,19 +90,19 @@ nav select {
 
 */
 /* PhotoSwipe settings */
-/* line 55, ../sass/_base.scss */
+/* line 38, ../sass/_base.scss */
 #gallery1, #gallery2, #gallery3, #gallery4, #gallery5, #gallery6 {
   width: 100%;
   margin: 0 auto;
 }
 
-/* line 56, ../sass/_base.scss */
+/* line 39, ../sass/_base.scss */
 #Indicators {
   text-align: center;
   margin-top: 20px;
 }
 
-/* line 57, ../sass/_base.scss */
+/* line 40, ../sass/_base.scss */
 #Indicators span {
   display: inline-block;
   height: 10px;
@@ -134,84 +117,80 @@ nav select {
   overflow: hidden;
 }
 
-/* line 58, ../sass/_base.scss */
+/* line 41, ../sass/_base.scss */
 #Indicators span.current {
   background: #EEBF02;
 }
 
-/* very light grey - almost white */
-/* dark grey */
-/* slightly darker grey */
-/* medium grey */
-/* line 66, ../sass/_base.scss */
+/* line 49, ../sass/_base.scss */
 img {
   max-width: 100%;
   max-height: 100%;
 }
 
 /* for responsive images */
-/* line 69, ../sass/_base.scss */
+/* line 52, ../sass/_base.scss */
 #content {
   margin: 0px auto;
 }
 
-/* line 92, ../sass/_base.scss */
+/* line 75, ../sass/_base.scss */
 h1, h2, h3, h4, h5, h6, li a p {
   font-family: "Michroma", Verdana, Arial, sans-serif;
 }
 
-/* line 96, ../sass/_base.scss */
+/* line 79, ../sass/_base.scss */
 h1, h2, h3, h4 {
   font-weight: 900;
 }
 
-/* line 100, ../sass/_base.scss */
+/* line 83, ../sass/_base.scss */
 h5, h6 {
   font-weight: 500;
 }
 
-/* line 105, ../sass/_base.scss */
+/* line 88, ../sass/_base.scss */
 p, ul li {
   font-family: "Questrial", Verdana, Arial, sans-serif;
 }
 
-/* line 109, ../sass/_base.scss */
+/* line 92, ../sass/_base.scss */
 a {
   text-decoration: none;
   /*Lose underlining on links to make grid easier to see*/
 }
 
-/* line 113, ../sass/_base.scss */
+/* line 96, ../sass/_base.scss */
 nav {
   font-family: "Questrial", Verdana, Arial, sans-serif;
 }
 
-/* line 117, ../sass/_base.scss */
+/* line 100, ../sass/_base.scss */
 .hide {
   display: none;
 }
 
-/* line 118, ../sass/_base.scss */
+/* line 101, ../sass/_base.scss */
 .showInline {
   display: inline;
 }
 
-/* line 119, ../sass/_base.scss */
+/* line 102, ../sass/_base.scss */
 .showBlock {
   display: block;
 }
 
-/* line 121, ../sass/_base.scss */
+/* line 104, ../sass/_base.scss */
 .floatRight {
   float: right;
 }
 
-/* line 125, ../sass/_base.scss */
+/* line 108, ../sass/_base.scss */
 .floatLeft {
   float: left;
 }
 
-/* line 129, ../sass/_base.scss */
+/* line 112, ../sass/_base.scss */
 .clear {
   clear: both;
 }

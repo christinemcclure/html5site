@@ -1,23 +1,6 @@
 @import "_base.scss";
 
 
-body {
-	color:$text;
-}
-
-a {
-	color:green;
-}
-
-strong {
-	color:red;
-}
-
-
-a:hover{
-	font-weight: 900;
-}
-
 
 .photoSwipe {
 	font-size: $fontSize+2;
@@ -47,7 +30,6 @@ nav select {
   width: 90%;
   margin: 0 auto;
   padding: 20px 10px;
-	background:$backgroundLight;
 }
 
 p {
@@ -56,14 +38,7 @@ p {
 
 header, #homePage h2, #homePage h3 {
 	clear:both;
-	background: $backgroundDark; 
   text-align:center;
-	a {
-		color: #FFF;
-	}
-	a:hover{
-		font-weight:normal;
-	}
 }
 
 h1 {
@@ -127,7 +102,6 @@ nav#photo, nav#lib {
 		text-align:center;
 		 a {
 				padding: 6px 12px;
-				background: #ccc;
 		 }
 	}
 	 li:first-child {
@@ -209,7 +183,6 @@ footer {
 		width: 748px; /*Total width works out to 768px*/	
 		/* for columns */
 		padding: 0px 10px 0px 10px;
-/*	  background-image: url('img/748px-10-44-10-12c.png'); */
 	}
 	
 	header {
@@ -323,8 +296,8 @@ footer {
 /* change to desktop nav */
   nav select {  display: none; }
 	nav {
-		.activeMain {color:blue;}
-		.activeSub a {color:red;} /* change later, obvs. */
+		.activeMain {}
+		.activeSub a {} /* change later, obvs. */
 		width: 876px; /* using fixed width because it stretches too much otherwise */
 		margin: 0 auto;
 		li {cursor:pointer;}
@@ -390,12 +363,10 @@ footer {
 	
 	body{
 		margin: $lineHeight*2 0 0 0;
-    background:  $backgroundLight url('/img/scrollLight.png');  
 	}
 
   .page {
      width: 978px;  /*Total with works out to 1008, but need more for padding*/
-		background: #fff; 
 		width: 86%; 
 		padding: $lineHeight 44px; /* pad more right and left later */
 
@@ -404,8 +375,6 @@ footer {
 			width: 100%;
 			margin: 0 auto;
 			/*width: 978px; */
-			background: $backgroundDark  url('/img/scrollDark.png');  
-			color:#fff;
 
 			h1 {
 				font-size: $lineHeight*1.7;
@@ -452,7 +421,6 @@ footer {
 				display:inline;
 				float:left;
 				text-align:left;
-				background: none;
 		}
 
 		p {
@@ -514,7 +482,6 @@ footer {
 			p, a {
 				font-size: $fontSize+2;
 				letter-spacing: 2px;
-				background: none;
 			}
 		}
 
@@ -527,7 +494,7 @@ footer {
 			position: absolute;			
 			top: 110px;
 			width: 14.11042944785276%;
-			border-left: 2px solid $border;
+			border-left: 2px solid black;
 			ul {
 				li {
 					margin: 0 8px;
@@ -544,7 +511,7 @@ footer {
 			right: 7%;
 			text-align: right;
 			top: 484px;			
-			border-right: 2px solid $border;
+			border-right: 2px solid black;
 			ul li {
 				width:100%;
 				margin: 0 -4px;

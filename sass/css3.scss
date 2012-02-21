@@ -17,20 +17,11 @@ $radius: 10px;
 
 #homePage {
 	#photo a:hover, #galleries li :hover {
-		text: $photoHover;
-		text-shadow: 4px 4px 8px $photoHover;
-		filter: dropshadow(color=$photoHover, offx=4, offy=4);
 	}
 	
 	#lib a:hover {
-		text: $libHover;
-		text-shadow: 4px 4px 8px $libHover;
-		filter: dropshadow(color=$libHover, offx=4, offy=4);
 	}	
 }
 
 footer a:hover {
-	text: $footerHover;
-	text-shadow: 4px 4px 8px $footerHover;
-	filter: dropshadow(color=$footerHover, offx=4, offy=4);
 }
