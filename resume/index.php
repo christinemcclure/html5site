@@ -23,8 +23,8 @@
                 <li>Creating new digital content for the library: including web-based tutorials,
                 digitally reformatted collections, subject specific pathfinders, and other digital library services. </li>
                 <li>Developing dynamic, evolving, user-centered content and services for all IIT Library web sites. </li>
-                <li>Introducing <em>best practices</em> for web development such as version control, usability studies and process documentation.</li>
-               	<li>Designed and <em>developed the library's first <a href="http://m.library.iit.edu">mobile website</a></em> (summer 2011).</li>
+                <li>Introducing <strong>best practices</strong> for web development such as version control, usability studies and process documentation.</li>
+               	<li>Designed and <strong>developed the library's first <a href="http://m.library.iit.edu">mobile website</a></strong> (summer 2011).</li>
               </ul>
           </li>
 
@@ -79,20 +79,20 @@
               <li>Coordinated software installations and upgrades for the Primo discovery and delivery application. </li>
               <li>Communicated issues and requests to the members of the Primo team for resolution and possible 
               inclusion in future product releases.</li>
-              <li>Configured environment and and provided <em>first-line support</em> during the implementation cycle.</li>
+              <li>Configured environment and and provided <strong>first-line support</strong> during the implementation cycle.</li>
             </ul>
          </li>
          <li>
           <h4>Data Analysis</h4>
             <ul>
-              <li>Customized <em>data map configurations</em> to correct and enhance imported data.</li>
+              <li>Customized <strong>data map configurations</strong> to correct and enhance imported data.</li>
               <li>Provided analysis of future software needs and current defects to address.</li>
             </ul>
          </li>
          <li>
           <h4>Training/Documentation</h4>
             <ul>
-              <li>Developed customized web-based and face-to-face <em>instructional programs</em> using active learning techniques. </li>
+              <li>Developed customized web-based and face-to-face <strong>instructional programs</strong> using active learning techniques. </li>
               <li>Reviewed end user documentation for clarity and accuracy. </li>
             </ul>
          </li>
@@ -118,7 +118,7 @@
         <li>      
           <h4>Test Automation/Training</h4>
             <ul>
-              <li>Improved test automation methods, <em>refactored code into functional libraries</em> and cross-trained team members in 
+              <li>Improved test automation methods, <strong>refactored code into functional libraries</strong> and cross-trained team members in 
               programming methodologies.</li>
               <li>Performed tool analysis comparisons for future performance testing goals.</li>
             </ul>
@@ -145,7 +145,7 @@
           <h4>Training/Supervision</h4>
             <ul>
               <li>Conducted standard training classes as well developed customized classes.</li>
-              <li>Co-wrote and presented a <em>conference paper for an audience of 100+ attendees</em>.</li>
+              <li>Co-wrote and presented a <strong>conference paper for an audience of 100+ attendees</strong>.</li>
               <li>Supervised teams of 5-10 people, directing activities and outlining work.</li>
             </ul>
 				</li>     
@@ -158,7 +158,7 @@
         <li>      
           <h4>Graphic Design</h4>
             <ul>
-              <li>Designed marketing materials such as <em>logos, business cards and brochures</em>.</li>
+              <li>Designed marketing materials such as <strong>logos, business cards and brochures</strong>.</li>
             </ul>
 				</li>
        </ul>
@@ -174,7 +174,7 @@
 				<li>
           <h3>Programming Languages</h3>
             <ul>
-              <li>HTML, PHP, <em>JavaScript/jQuery</em>, Ruby on Rails, MySQL, Perl</li>
+              <li>HTML, PHP, <strong>JavaScript/jQuery</strong>, Ruby on Rails, MySQL, Perl</li>
             </ul>
         </li>
         <li>
@@ -207,8 +207,8 @@
       
     <h2>Education</h2>
       <ul class="singleList">
-        <li>Master Certificate in <em>Web Design &amp; Application Development</em> (2012)</li>
-        <li>Master of <em>Library and Information Science</em>, Dominican University, River Forest, IL. 
+        <li>Master Certificate in <strong>Web Design &amp; Application Development</strong> (2012)</li>
+        <li>Master of <strong>Library and Information Science</strong>, Dominican University, River Forest, IL. 
         <ul class="subList">
           <li>Beta Phi Mu honor society member</li>
         </ul>
