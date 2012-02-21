@@ -16,9 +16,33 @@
   <h1 class="top">Travel Photography</h1>
 
   <h2>Jerusalem</h2>
-  <div id="gallery1" class="photoSwipe">Photo galleries require JavaScript to be enabled.</div>
+  <div id="gallery1" class="photoSwipe">
+  	<ul>
+      <li><p>Dome of the Rock</p><img src="/img/travel/jerusalem-templemount-1.jpg" alt="Photo of Muslim woman walking in front the Dome on the Rock." /></li> 
+      <li><p>Men's section of the Kotel</p><img src="/img/travel/jerusalem-kotel.jpg" alt="Photo of men praying in front of the Kotel. Men are out of focus while the gate keeping the visitors out is in focus." /></li> 
+      <li><p>Church of the Holy Sepulchre, Rotunda</p><img src="/img/travel/jerusalem-sepulchre-1.jpg" alt="Photo of the rotunda of the Church of the Holy Sepulchre." /></li> 
+      <li><p>Dome of the Rock tile detail</p><img src="/img/travel/jerusalem-templemount-2.jpg" alt="Photo of tile detail of Dome on the Rock." /></li> 
+      <li><p>The Dead Sea</p><img src="/img/travel/jerusalem-deadsea.jpg" alt="Photo of the beach at the Dead Sea, with a shallow skiff." /></li> 
+      <li><p>Church of the Holy Sepulchre</p><img src="/img/travel/jerusalem-sepulchre-2.jpg" alt="Photo of the exteriour doorway." /></li> 
+      <li><p>Dome of the Rock tile detail</p><img src="/img/travel/jerusalem-templemount-3.jpg" alt="Photo of tile detail of Dome on the Rock." /></li> 
+      <li><p>Church of the Holy Sepulchre</p><img src="/img/travel/jerusalem-sepulchre-3.jpg" alt="Photo of an interior hall." /></li> 
+    </ul>
+  </div>
   <h2>Panama</h2>
-  <div id="gallery2" class="photoSwipe">Photo galleries require JavaScript to be enabled.</div>
+  <div id="gallery2" class="photoSwipe">
+  	<ul>
+      <li><p>Kuna Yala woman in traditional dress.</p><img src="/img/travel/panama-sanblas-4.jpg" alt="Photo of woman and boy on a boat dock. The woman is wearing brightly-patterned clothing with heavy beaded bands around her wrists and ankles." /></li>
+      <li><p>Wannukandi Airport</p><img src="/img/travel/panama-sanblas-1.jpg" alt="Photo of a small regional airport with plastic bottles for runway markers." /></li>
+      <li><p>Boquete National Forest.</p><img src="/img/travel/panama-nationalpark.jpg" alt="Photo of large, backlit fern leaf." /></li>
+      <li><p>El Porvenir, Kuna Yala</p><img src="/img/travel/panama-sanblas-2.jpg" alt="Photo of three tourists and guide walking hand in hand with a girl from San Blas." /></li>
+      <li><p>Kuna Yala resort</p><img src="/img/travel/panama-sanblas-3.jpg" alt="Photo tourists lying in hammocks on a beach." /></li>
+      <li><p>Coffee plantation</p><img src="/img/travel/panama-plantation.jpg" alt="Expanse of a coffee plantation." /></li>
+      <li><p>Boquete National Forest.</p><img src="/img/travel/panama-boquete-1.jpg" alt="Closeup photo of tree bark in a forest." /></li>
+      <li><p>Boquete</p><img src="/img/travel/panama-boquete-3.jpg" alt="Closeup photo of blue flowers." /></li>
+      <li><p>Boquete National Forest.</p><img src="/img/travel/panama-boquete-2.jpg" alt="Photo of the back of a hiker going down the forest path." /></li>
+      <li><p>Panama City</p><img src="/img/travel/panama-morning.jpg" alt="Photo of an old brick supporting structure, backlit from the sun rising over the ocean." /></li>
+    </ul>
+  </div>
 </section>        
 <?php include '../includes/footer.html'; ?>
 </div>
