@@ -890,14 +890,14 @@ footer p {
 
   /* line 603, ../sass/screen.scss */
   #resume .twoColumnBlock {
-    /* make into three column block for easier reading on wide screens */
+    /* make into three columns for easier reading on wide screens */
   }
   /* line 604, ../sass/screen.scss */
   #resume .twoColumnBlock li {
-    width: 24.13087934560327%;
+    width: 28%;
     /*236/978*/
     float: left;
-    margin: 0 8.589% 22px 0;
+    margin: 0 8% 22px 0;
     /*  20/978  64/978*/
   }
   /* line 609, ../sass/screen.scss */
