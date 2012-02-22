@@ -15,7 +15,9 @@ strong {
 
 
 a:hover{
-	font-weight: 900;
+	padding: 2px 4px;
+	font-weight:900;
+	border: 1px solid $orange;
 }
 
 
@@ -364,6 +366,8 @@ footer {
 			width: 106px;
 			float:left;
 		}
+		
+		a:hover{border: 1px solid $teal;}
 	}
 
 	#photoNav {

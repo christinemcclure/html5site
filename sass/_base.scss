@@ -2,6 +2,8 @@
 @import "compass/css3";
 @import "compass/utilities"; /* may need to move this to css3 file */
 
+@import "_colors_and_fonts.scss";
+
 
 /*
 ########################################
@@ -40,9 +42,6 @@ nav select {
 #Indicators span { display: inline-block; height: 10px; width: 10px; margin: 0 10px 0 0; padding: 0; -webkit-border-radius:5px; -moz-border-radius:5px; -o-border-radius:5px; border-radius:5px; background: #c5c5c5; overflow:hidden; }
 #Indicators span.current{ background: #EEBF02; }
 
-
-
-@import "_colors_and_fonts.scss";
 
 
 

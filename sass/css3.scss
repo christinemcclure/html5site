@@ -11,17 +11,7 @@ because they are still in development
 
 $radius: 10px;
 
-#homePage img, header, #page, nav#lib li a, nav#photo li a{
+#homePage img, header, .page, a:hover {
 	@include border-radius($radius);
 }
 
-#homePage {
-	#photo a:hover, #galleries li :hover {
-	}
-	
-	#lib a:hover {
-	}	
-}
-
-footer a:hover {
-}

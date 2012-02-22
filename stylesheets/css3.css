@@ -8,13 +8,13 @@ because they are still in development
 */
 /* Hoot colors from Kuler */
 /* RGB 93 166 158 */
-/* RGB 176 217 213 */
+/* RGB 167 204 200 */
 /* RGB 242 135 5 */
 /* RGB 242 242 242 */
 /* RGB 38 38 38 */
 /* RGB 87 87 87  */
 /* line 14, ../sass/css3.scss */
-#homePage img, header, #page, nav#lib li a, nav#photo li a {
+#homePage img, header, .page, a:hover {
   -moz-border-radius: 10px;
   -webkit-border-radius: 10px;
   -o-border-radius: 10px;
