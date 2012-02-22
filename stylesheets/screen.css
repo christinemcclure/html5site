@@ -70,7 +70,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 /* RGB 242 135 5 */
 /* RGB 242 242 242 */
 /* RGB 38 38 38 */
-/* RGB 87 87 87  */
+/* RGB 102 102 102  */
 /*
 ########################################
 ########### For Baselind Grid ##########
@@ -243,7 +243,7 @@ h1, h2 {
 
 /* line 34, ../sass/screen.scss */
 h3, h4 {
-  color: #8cbdb8;
+  color: #666666;
 }
 
 /* line 38, ../sass/screen.scss */
@@ -289,7 +289,7 @@ h1 {
 
 /* line 74, ../sass/screen.scss */
 header {
-  background: #575757;
+  background: #666666;
   padding: 1px;
 }
 /* line 77, ../sass/screen.scss */
@@ -759,7 +759,7 @@ footer p {
     display: inline;
     float: left;
     text-align: left;
-    color: #575757;
+    color: #666666;
   }
   /* line 476, ../sass/screen.scss */
   #homePage p {
@@ -828,7 +828,7 @@ footer p {
     position: absolute;
     top: 110px;
     width: 14.11042944785276%;
-    border-left: 2px solid #575757;
+    border-left: 2px solid #666666;
   }
   /* line 549, ../sass/screen.scss */
   #homePage nav#photo ul li {
@@ -844,7 +844,7 @@ footer p {
     right: 7%;
     text-align: right;
     top: 484px;
-    border-right: 2px solid #575757;
+    border-right: 2px solid #666666;
   }
   /* line 565, ../sass/screen.scss */
   #homePage nav#lib ul li {
