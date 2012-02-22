@@ -27,8 +27,12 @@ body {
 	}
 }
 
-h1 {
+h1, h2 {
 	color: $teal;
+}
+
+h3, h4 {
+	color: $lightTeal;
 }
 
 strong {
