@@ -41,6 +41,9 @@ strong {
 	font-weight:900;
 }
 
+ul.twoColumnBlock, ul.threecolumnBlock {
+	clear:both;
+}
 
 /* change to mobile nav */
 nav select { 
@@ -106,6 +109,11 @@ h2 {
 	}
 }
 
+#resume {
+	li h4 {
+		margin-top: $lineHeight;
+	}
+}
 
 #galleries ul {
 	p {margin:0;}
@@ -214,6 +222,17 @@ footer {
 	}
 }
 
+.threeColumnBlock{ /* make three column blocks two for mobile */
+	li {
+		width: 43.76278118609407%;		
+		float:left;
+		margin: 0 8.58895705521472% $lineHeight 0; /*  20/978  64/978*/
+	}
+	
+	li:nth-child(2n+2){
+		margin-right: 0;
+	}
+}
 
 
 @media screen and (min-width: 760px) {
@@ -302,6 +321,9 @@ nav select {
 					margin: $lineHeight/2 0 0 5.72916666666667%; 
 						/* 1/2 line spacing between bullet points left: 22 / 384 */
 				 }
+		 }
+		 li h4 {
+			 margin-top: 0;
 		 }
 		 
 		ul.singleList {
