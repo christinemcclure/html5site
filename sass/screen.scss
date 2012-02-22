@@ -67,15 +67,19 @@ h1 {
   margin: $lineHeight 0 $lineHeight 0;
 }
 
-header p {
-	font-size: 12px;
-  margin: 0 0 34px 0;
+header {
+	background: $medGrey;
+	padding: 1px;
+	h1{
+		color:$orange;
+	}
+	p {
+		font-size: 12px;
+	}
+	a {
+		font-weight:normal;
+	}
 }
-
-header h1{
-	color:$orange;
-}
-
 
 h2 {
 	clear:both;
@@ -410,9 +414,8 @@ footer {
 			overflow: auto;
 			width: 100%;
 			margin: 0 auto;
+			padding:0;
 			/*width: 978px; */
-			background: $medGrey ;  
-			color:#fff;
 
 			h1 {
 				font-size: $lineHeight*1.7;
