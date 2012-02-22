@@ -400,16 +400,16 @@ footer {
 
   .page {
     /* width: 978px; */  /*Total with works out to 1008, but need more for padding*/
-		background: $offWhite url('/img/torn-edge.png') repeat-x;
+		background: $offWhite;
 		width: 86%; 
-		padding: $lineHeight*3 44px; /* pad more right and left later */
+		padding: $lineHeight 44px; /* pad more right and left later */
 
 		header {
 			overflow: auto;
 			width: 100%;
 			margin: 0 auto;
 			/*width: 978px; */
-			background: $darkGrey ;  
+			background: $medGrey ;  
 			color:#fff;
 
 			h1 {

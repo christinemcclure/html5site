@@ -128,6 +128,7 @@ nav select {
 /* RGB 242 135 5 */
 /* RGB 242 242 242 */
 /* RGB 38 38 38 */
+/* RGB 87 87 87  */
 /* line 49, ../sass/_base.scss */
 img {
   max-width: 100%;
@@ -688,9 +689,9 @@ footer p {
   .page {
     /* width: 978px; */
     /*Total with works out to 1008, but need more for padding*/
-    background: #f2f2f2 url("/img/torn-edge.png") repeat-x;
+    background: #f2f2f2;
     width: 86%;
-    padding: 66px 44px;
+    padding: 22px 44px;
     /* pad more right and left later */
     /* end header */
   }
@@ -700,7 +701,7 @@ footer p {
     width: 100%;
     margin: 0 auto;
     /*width: 978px; */
-    background: #262626;
+    background: #575757;
     color: #fff;
   }
   /* line 415, ../sass/screen.scss */
