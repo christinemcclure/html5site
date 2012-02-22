@@ -16,8 +16,7 @@
 
     <h3>Digital Services Librarian</h3>
 	    <p>Illinois Institute of Technology</p>
-				<ul class="twoColumnBlock">
-        	<li>
+				<div class="columnBlock">
             <h4>Web Design/Development</h4>
               <ul>
                 <li>Creating new digital content for the library: including web-based tutorials,
@@ -26,29 +25,28 @@
                 <li>Introducing <strong>best practices</strong> for web development such as version control, usability studies and process documentation.</li>
                	<li>Designed and <strong>developed the library's first <a href="http://m.library.iit.edu">mobile website</a></strong> (summer 2011).</li>
               </ul>
-          </li>
+          </div>
 
-    			<li>
+				<div class="columnBlock">
             <h4>Application Administration</h4>
               <ul>
                 <li>Recommending digital services and program content through recommendations, literature review, and statistical reports. </li>
                 <li>Implementing and maintaining applications such as open-URL linkages and federated search software.</li>
               </ul>
-          </li>
+         </div>
           
-          <li>    
+				<div class="columnBlock">
             <h4>Reference Assistance / Instruction</h4>
               <ul>
                 <li>Providing assistance for all method of inquiries while staffing the reference desk, including short instruction sessions. </li>
                 <li>Developing instruction sessions on citation management, advanced search techniques and other digital skills using <a href="http://guides.library.iit.edu/content.php?pid=178787&sid=1504474">active learning techniques</a>.</li>
               </ul>
-          </li>
-		</ul>
+          </div>
     
     <h3>Reference Librarian</h3>
 	    <p>Illinois Institute of Technology</p>
 
-			<ul class="twoColumnBlock">
+			<ul class="columnBlock">
 				<li>
           <h4>Subject Liaison / Instruction</h4>
             <ul>
@@ -72,7 +70,7 @@
       
     <h3>Implementation Librarian </h3>
       <p>Ex Libris Group</p>
-			<ul class="twoColumnBlock">
+			<ul class="columnBlock">
        	<li>      
           <h4>Customer Management</h4>
             <ul>
@@ -100,7 +98,7 @@
 
     <h3>Quality Assurance Analyst</h3>
 	    <p>Endeavor Information Systems</p>
-			<ul class="twoColumnBlock">
+			<ul class="columnBlock">
        	<li>      
           <h4>Software Testing</h4>
             <ul>
@@ -127,7 +125,7 @@
       
     <h3>Senior Technical Consultant</h3>
       <p>11th Hour, Inc.</p>    
-			<ul class="twoColumnBlock">
+			<ul class="columnBlock">
        	<li>      
           <h4>Software Testing</h4>
           <ul>
@@ -164,7 +162,7 @@
        </ul>
 
   <h2>Technical Skills</h2>
-			<ul class="twoColumnBlock">
+			<ul class="columnBlock">
        	<li>      
           <h3>Library Systems</h3>
             <ul>
@@ -190,7 +188,7 @@
             </ul>
 				</li>
        </ul>
-			<ul class="twoColumnBlock">
+			<ul class="columnBlock">
        	<li>     
 				    <h3>Operating Systems</h3>
         			<ul>
@@ -200,13 +198,13 @@
       </ul>
       
     <h2>Presentations</h2>
-      <ul class="singleList">
+      <ul class="columnBlock">
         <li>"A jQuery Mobile Website: How I Learned to Stop Worrying and Love the Alpha Release" <a href="http://eduiconf.org/sessions/the-jquery-mobile-website/">edUI Conference</a>, 2011. Slides <a href="http://www.slideshare.net/camcclure/edui-conference-jquery-mobile-christine-mcclure">available online</a>.
         </li>
 			</ul>
       
     <h2>Education</h2>
-      <ul class="singleList">
+      <ul class="columnBlock">
         <li>Master Certificate in <strong>Web Design &amp; Application Development</strong> (2012)</li>
         <li>Master of <strong>Library and Information Science</strong>, Dominican University, River Forest, IL. 
         <ul class="subList">
@@ -216,7 +214,7 @@
         <li>Bachelor of Science, Eastern Michigan University, Ypsilanti, MI</li>
       </ul>
     <h2>Affiliations</h2>
-      <ul class="singleList">
+      <ul>
         <li>American Library Association</li>
         <li>Library Information and Technology Association</li>
         <li>Reference and User Services Association</li>
