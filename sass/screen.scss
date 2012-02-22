@@ -1,5 +1,22 @@
 @import "_base.scss";
 
+body {
+	color:$darkGrey;
+}
+
+a {
+	color:$orange;
+}
+
+strong {
+	color:$teal;
+	font-weight:900;
+}
+
+
+a:hover{
+	font-weight: 900;
+}
 
 
 .photoSwipe {
@@ -36,7 +53,7 @@ nav select {
   width: 90%;
   margin: 0 auto;
   padding: 20px 10px;
-	background:$offWhite;
+	background:$offWhite ;
 }
 
 p {
@@ -308,7 +325,7 @@ footer {
 		width: 876px; /* using fixed width because it stretches too much otherwise */
 		margin: 0 auto;
 		li {cursor:pointer;}
-		
+		a {color:$teal;}
 	}
 	
 	#mainNav.navList {
@@ -319,9 +336,13 @@ footer {
 			clear:both;
 			font-size: $fontSize+2;
 			margin:0 20px 0 0; /*20/876*/
+			color:$lightTeal;
 		}
 		li:last-child {margin-bottom: $lineHeight*2;}
 	}
+	
+		li.activeMain {color:$teal !important;}
+		li.activeSub a {color:$orange;} 
 	
 /*	
 	#resume, #portfolio, #lab, #contactLib {
@@ -374,14 +395,22 @@ footer {
 
   .page {
      width: 978px;  /*Total with works out to 1008, but need more for padding*/
+    background:  $lightTeal;  
+	}
+
+  .page {
+    /* width: 978px; */  /*Total with works out to 1008, but need more for padding*/
+		background: $offWhite url('/img/torn-edge.png') repeat-x;
 		width: 86%; 
-		padding: $lineHeight 44px; /* pad more right and left later */
+		padding: $lineHeight*3 44px; /* pad more right and left later */
 
 		header {
 			overflow: auto;
 			width: 100%;
 			margin: 0 auto;
 			/*width: 978px; */
+			background: $darkGrey ;  
+			color:#fff;
 
 			h1 {
 				font-size: $lineHeight*1.7;
@@ -399,6 +428,8 @@ footer {
 				font-size: 12px;
 				margin: 24px 2% 0 0;
 			}
+			
+			a {color: $orange;}
 		} /* end header */
 
 
