@@ -25,10 +25,10 @@
     <ul>
       <li>This one, of course. The latest rendition of christinemcclure.com is an exercise in:
           <ul class="threeColumnBlock">
-              <li><p><strong>Mobile first</strong> design methodology: This centers your site around planning for a mobile site, forcing the design to focus on the most importent content of the site, rather than trying to fill up all the real estate of a traditional desktop monitor.</p><p>Read more about <a href="http://www.lukew.com/ff/entry.asp?933">mobile first.</a></p></li>
-              <li><p><strong>Responsive web design:</strong> Users now have so many devices they can use to access your site that it is no longer feasible to create a single, fixed-width design style. Resize your browser to see how the layout of this site changes.</p> <p>Read more about <a href="http://www.abookapart.com/products/responsive-web-design">responsive web design.</a></p>
+              <li><p><strong>Mobile first</strong> design methodology: This centers your site around planning for a mobile site, forcing the design to focus on the most importent content of the site, rather than trying to fill up all the real estate of a traditional desktop monitor.</p><p>Read more about <a href="http://www.lukew.com/ff/entry.asp?933">mobile first</a>.</p></li>
+              <li><p><strong>Responsive web design:</strong> Users now have so many devices they can use to access your site that it is no longer feasible to create a single, fixed-width design style. Resize your browser to see how the layout of this site changes.</p> <p>Read more about <a href="http://www.abookapart.com/products/responsive-web-design">responsive web design</a>.</p>
               </li>
-              <li><p>Setting type to a <strong>baseline grid:</strong> Aligning blocks of text into rows and columns allows for a much better user experience. This was easily done for print products and has only recently been developed for the web by intrepid designers.</p> <p>Read more about <a href="http://www.thegridsystem.org">baseline grids.</a></p></li>
+              <li><p>Setting type to a <strong>baseline grid:</strong> Aligning blocks of text into rows and columns allows for a much better user experience. This was easily done for print products and has only recently been developed for the web by intrepid designers.</p> <p>Read more about <a href="http://www.thegridsystem.org">baseline grids</a>.</p></li>
           </ul> </li>
       <li class="clear">I also designed and developed Galvin Library's <a href="http://m.library.iit.edu">first mobile website.</a> This site (released July 2011) uses the jQuery Mobile fremework.</li>
     </ul>

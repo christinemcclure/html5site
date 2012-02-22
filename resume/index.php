@@ -22,7 +22,7 @@
               <ul>
                 <li>Creating new digital content for the library: including web-based tutorials,
                 digitally reformatted collections, subject specific pathfinders, and other digital library services. </li>
-                <li>Developing dynamic, evolving, user-centered content and services for all IIT Library web sites. </li>
+                <li>Developing dynamic, evolving, <strong>user-centered content</strong> and services for all IIT Library web sites. </li>
                 <li>Introducing <strong>best practices</strong> for web development such as version control, usability studies and process documentation.</li>
                	<li>Designed and <strong>developed the library's first <a href="http://m.library.iit.edu">mobile website</a></strong> (summer 2011).</li>
               </ul>
