@@ -11,7 +11,13 @@ because they are still in development
 
 $radius: 10px;
 
-#homePage img, header, .page, a:hover {
+#homePage img, header, .page {
 	@include border-radius($radius);
 }
 
+a:hover, #galleries li :hover, header {
+  text: $darkGrey;
+  text-shadow: 4px 4px 8px $darkGrey;
+  filter: dropshadow(color=$darkGrey, offx=4, offy=4);
+	border:none;
+}

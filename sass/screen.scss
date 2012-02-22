@@ -1,24 +1,5 @@
 @import "_base.scss";
 
-body {
-	color:$darkGrey;
-}
-
-a {
-	color:$orange;
-}
-
-strong {
-	color:$teal;
-	font-weight:900;
-}
-
-
-a:hover{
-	padding: 2px 4px;
-	font-weight:900;
-	border: 1px solid $orange;
-}
 
 
 .photoSwipe {
@@ -40,8 +21,21 @@ a:hover{
 body {
 	background: $lightTeal;
 	color:$darkGrey;
-	a {color:$orange;}
+	a {
+		color:$orange;
+		font-weight:900;
+	}
 }
+
+h1 {
+	color: $teal;
+}
+
+strong {
+	color:$teal;
+	font-weight:900;
+}
+
 
 /* change to mobile nav */
 nav select { 
@@ -77,6 +71,11 @@ header p {
 	font-size: 12px;
   margin: 0 0 34px 0;
 }
+
+header h1{
+	color:$orange;
+}
+
 
 h2 {
 	clear:both;
@@ -199,10 +198,6 @@ footer {
 	p {
 		display:block;
 		text-align: center;
-	}
-	a:hover{
-		border:none;
-		font-weight:normal;
 	}
 }
 
@@ -331,7 +326,7 @@ footer {
 		width: 876px; /* using fixed width because it stretches too much otherwise */
 		margin: 0 auto;
 		li {cursor:pointer;}
-		a {color:$teal;}
+		a {color:$teal; font-weight:normal;}
 	}
 	
 	#mainNav.navList {
@@ -371,7 +366,6 @@ footer {
 			float:left;
 		}
 		
-		a:hover{border: 1px solid $teal;}
 	}
 
 	#photoNav {
@@ -437,7 +431,6 @@ footer {
 				margin: 24px 2% 0 0;
 			}
 			
-			a {color: $orange;}
 		} /* end header */
 
 
@@ -454,7 +447,10 @@ footer {
 		header {
 			width: 86%;
 			position: absolute;
-			margin: $lineHeight*12 0 0 0;
+			margin: $lineHeight*12 0 0 0;			
+			a:hover {
+				font-weight:normal;
+			}			
 		} /* end header */
 
 
@@ -467,6 +463,7 @@ footer {
 				display:inline;
 				float:left;
 				text-align:left;
+				color:$medGrey;
 		}
 
 		p {
@@ -532,7 +529,7 @@ footer {
 		}
 
 		#galleries a p {
-			font-size:$fontSize;
+			font-size:$fontSize*.9;
 		}
 
 		nav#photo {
@@ -540,7 +537,7 @@ footer {
 			position: absolute;			
 			top: 110px;
 			width: 14.11042944785276%;
-			border-left: 2px solid black;
+			border-left: 2px solid $medGrey;
 			ul {
 				li {
 					margin: 0 8px;
@@ -557,7 +554,7 @@ footer {
 			right: 7%;
 			text-align: right;
 			top: 484px;			
-			border-right: 2px solid black;
+			border-right: 2px solid $medGrey;
 			ul li {
 				width:100%;
 				margin: 0 -4px;

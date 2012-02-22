@@ -14,11 +14,19 @@ because they are still in development
 /* RGB 38 38 38 */
 /* RGB 87 87 87  */
 /* line 14, ../sass/css3.scss */
-#homePage img, header, .page, a:hover {
+#homePage img, header, .page {
   -moz-border-radius: 10px;
   -webkit-border-radius: 10px;
   -o-border-radius: 10px;
   -ms-border-radius: 10px;
   -khtml-border-radius: 10px;
   border-radius: 10px;
+}
+
+/* line 18, ../sass/css3.scss */
+a:hover, #galleries li :hover, header {
+  text: #262626;
+  text-shadow: 4px 4px 8px #262626;
+  filter: dropshadow(color=#262626, offx=4, offy=4);
+  border: none;
 }
