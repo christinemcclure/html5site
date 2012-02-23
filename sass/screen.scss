@@ -242,7 +242,7 @@ nav select {
 	}
 	
 
-	div.columnBlock { /* TWO COLUMNS */
+	div.columnBlock, div.columnEven { /* TWO COLUMNS (columnEven does not stretch to three) */
 		width: 43.76278118609407%;		
 		float:left;
 		margin: $lineHeight 0 $lineHeight 3%; /*  20/978  64/978*/

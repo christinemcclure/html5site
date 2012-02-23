@@ -481,15 +481,15 @@ footer p {
   }
 
   /* line 245, ../sass/screen.scss */
-  div.columnBlock {
-    /* TWO COLUMNS */
+  div.columnBlock, div.columnEven {
+    /* TWO COLUMNS (columnEven does not stretch to three) */
     width: 43.76278118609407%;
     float: left;
     margin: 22px 0 22px 3%;
     /*  20/978  64/978*/
   }
   /* line 249, ../sass/screen.scss */
-  div.columnBlock li {
+  div.columnBlock li, div.columnEven li {
     list-style: disc;
     margin-left: 6%;
   }
