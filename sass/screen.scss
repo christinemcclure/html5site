@@ -266,17 +266,6 @@ nav select {
 		}
 	}
 
-	div.columnBlock { /* TWO COLUMNS */
-
-		width: 43.76278118609407%;		
-		float:left;
-		margin: 0 8.58895705521472% $lineHeight 0; /*  20/978  64/978*/
-	}
-	
-	
-		div.columnBlock:nth-child(2n+2){
-			margin-right: 0;
-		}
 
 	
 
@@ -309,6 +298,19 @@ nav select {
 	}
 	
 }/* min-width: 760px */
+
+@media screen and (min-width: 760px){ /* need to have max width set to keep from being picked up by larger browsers*/
+	div.columnBlock { /* TWO COLUMNS */
+		width: 43.76278118609407%;		
+		float:left;
+		margin: $lineHeight 0 $lineHeight 2%; /*  20/978  64/978*/
+		li {
+			list-style:disc;
+			margin-left:6%;
+		}
+	}
+
+}
 
 @media screen and (min-width: 1008px) {
 
@@ -605,18 +607,11 @@ nav select {
 		}
 	}		
 
-	ul.columnBlock {
-			margin-top: $lineHeight;
-			li {
-				width: 24.13087934560327%; /*236/978*/
-				float:left;
-				margin: 0 8.58895705521472% $lineHeight 0; /*  20/978  64/978*/
-			}
-				li:nth-child(3n+3){
-				margin-right: 0;
-			}			
-		}
-			
+	div.columnBlock { /* THREE COLUMNS Only need to change width */
+			width: 30%; /*236/978*/
+	}
+
+		
 
 }
 
