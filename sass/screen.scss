@@ -240,6 +240,17 @@ nav select {
 	section H1.top  {
 		margin-top:$lineHeight*4;
 	}
+	
+
+	div.columnBlock { /* TWO COLUMNS */
+		width: 43.76278118609407%;		
+		float:left;
+		margin: $lineHeight 0 $lineHeight 3%; /*  20/978  64/978*/
+		li {
+			list-style:disc;
+			margin-left:6%;
+		}
+	}	
 
 	#about, #art {
 		h2 + h3 + h4 {
@@ -266,8 +277,6 @@ nav select {
 		}
 	}
 
-
-	
 
 	#resume {
 		h3, h3 + p {
@@ -299,18 +308,6 @@ nav select {
 	
 }/* min-width: 760px */
 
-@media screen and (min-width: 760px){ /* need to have max width set to keep from being picked up by larger browsers*/
-	div.columnBlock { /* TWO COLUMNS */
-		width: 43.76278118609407%;		
-		float:left;
-		margin: $lineHeight 0 $lineHeight 2%; /*  20/978  64/978*/
-		li {
-			list-style:disc;
-			margin-left:6%;
-		}
-	}
-
-}
 
 @media screen and (min-width: 1008px) {
 
@@ -609,9 +606,7 @@ nav select {
 
 	div.columnBlock { /* THREE COLUMNS Only need to change width */
 			width: 30%; /*236/978*/
-	}
-
-		
+	}		
 
 }
 
