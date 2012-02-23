@@ -19,25 +19,25 @@
 }
 
 body {
-	background: $lightTeal;
+	background: $backgroundColor;
 	padding: 10px 4px;
-	color:$darkGrey;
+	color:$bodyFontColor;
 	a {
-		color:$orange;
+		color:$linkColor1;
 		font-weight:900;
 	}
 }
 
 h1, h2 {
-	color: $teal;
+	color: $headingMain;
 }
 
 h3, h4 {
-	color: $medGrey;
+	color: $headingSub;
 }
 
 strong {
-	color:$teal;
+	color:$strongColor;
 	font-weight:900;
 }
 
@@ -54,7 +54,7 @@ nav select {
   width: 90%;
   margin: 0 auto;
   padding: 10px;
-	background:$offWhite ;
+	background:$textBackground;
 }
 
 p {
@@ -73,10 +73,10 @@ h1 {
 }
 
 header {
-	background: $medGrey;
+	background: $headerBackground;
 	padding: 1px;
 	h1{
-		color:$orange;
+		color:$headerFontColor;
 		font-size: $fontSize+8;
 		margin: 10px 0;
 	}
@@ -317,7 +317,7 @@ nav select {
 		width: 876px; /* using fixed width because it stretches too much otherwise */
 		margin: 0 auto;
 		li {cursor:pointer;}
-		a {color:$teal; font-weight:normal;}
+		a {color:$navBasicColor; font-weight:normal;}
 	}
 	
 	#mainNav.navList {
@@ -328,13 +328,13 @@ nav select {
 			clear:both;
 			font-size: $fontSize+2;
 			margin:0 20px 0 0; /*20/876*/
-			color:$lightTeal;
+			color:$navInactiveColor;
 		}
 		li:last-child {margin-bottom: $lineHeight*2;}
 	}
 	
-		li.activeMain {color:$teal !important;}
-		li.activeSub a {color:$orange; font-weight:900;} 
+		li.activeMain {color:$navBasicColor !important;}
+		li.activeSub a {color:$navHighlightColor; font-weight:900;} 
 	
 /*	
 	#resume, #portfolio, #lab, #contactLib {
@@ -390,7 +390,7 @@ nav select {
 
   .page {
     /* width: 978px; */  /*Total with works out to 1008, but need more for padding*/
-		background: $offWhite;
+		background: $textBackground;
 		width: 86%; 
 		padding: $lineHeight 44px; /* pad more right and left later */
 
@@ -450,7 +450,7 @@ nav select {
 				display:inline;
 				float:left;
 				text-align:left;
-				color:$medGrey;
+				color:$homePageHeader;
 		}
 
 		p {
@@ -524,7 +524,7 @@ nav select {
 			position: absolute;			
 			top: 110px;
 			width: 14.11042944785276%;
-			border-left: 2px solid $medGrey;
+			border-left: 2px solid $homePageBorder;
 			ul {
 				li {
 					margin: 0 8px;
@@ -541,7 +541,7 @@ nav select {
 			right: 7%;
 			text-align: right;
 			top: 484px;			
-			border-right: 2px solid $medGrey;
+			border-right: 2px solid $homePageBorder;
 			ul li {
 				width:100%;
 				margin: 0 -4px;
