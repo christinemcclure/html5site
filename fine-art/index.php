@@ -21,38 +21,59 @@
     <img class="floatLeft" src="/img/fineart/portal.png" alt="construction of portal frame." />
     <div id="seriesPortals">
 			<h3>Includes six series:</h3>
-	    <ul class="threeColumnBlock">
-  	  	<li>
-  			  <h4>Focus</h4>
-      	  <h5>(Religion as a barrier)</h5>
-		    	<p>Jerusalem, Israel</p>
-	      </li>
-        <li>
-					<h4>Macro</h4> 
-          <h5>(Life in the details)</h5>
-			  	<p>Chicago, IL</p>
-        </li>
-				<li>
-				  <h4>Persephone's Garden</h4> 
-          <h5>(How did she pass the time?)</h5>
-          <p>Chicago, IL</p>
-        </li>
-        <li>
-				  <h4>Perspective</h4> 
-          <h5>(Religion from a distance)</h5>
-          <p>Jerusalem, Israel</p>
-        </li>
-        <li>
-	  			<h4>Saturation</h4> 
-          <h5>(Color focus)</h5>
-          <p>Panama</p>
-        </li>
-        <li>
-	  			<h4>Polarization</h4> 
-          <h5>(Religion as ruler)</h5>
-			    <p>Jerusalem, Israel</p>    
-        </li>
-      </ul>
+	    <div class="columnBlock">
+      	<ul>
+          <li>
+            <h4>Focus</h4>
+            <h5>(Religion as a barrier)</h5>
+            <p>Jerusalem, Israel</p>
+          </li>
+        </ul>
+      </div>
+	    <div class="columnBlock">
+      	<ul>
+          <li>
+            <h4>Macro</h4> 
+            <h5>(Life in the details)</h5>
+            <p>Chicago, IL</p>
+          </li>
+        </ul>
+       </div>
+	    <div class="columnBlock">
+      	<ul>
+          <li>
+            <h4>Persephone's Garden</h4> 
+            <h5>(How did she pass the time?)</h5>
+            <p>Chicago, IL</p>
+          </li>
+        </ul>
+      </div>
+	    <div class="columnBlock">
+      	<ul>
+          <li>
+            <h4>Perspective</h4> 
+            <h5>(Religion from a distance)</h5>
+            <p>Jerusalem, Israel</p>
+          </li>
+        </ul>
+      </div>
+	    <div class="columnBlock">
+      	<ul>
+          <li>
+            <h4>Saturation</h4> 
+            <h5>(Color focus)</h5>
+            <p>Panama</p>
+          </li>
+        </ul>
+      </div>
+	    <div class="columnBlock">
+      	<ul>
+          <li>
+            <h4>Polarization</h4> 
+            <h5>(Religion as ruler)</h5>
+            <p>Jerusalem, Israel</p>    
+          </li>
+	      </ul>
   	</div>
 <div id="gallery1" class="photoSwipe">
 	<ul>
