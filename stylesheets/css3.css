@@ -6,12 +6,7 @@ because they are still in development
 ####################################################### 
 
 */
-/* Freshly colors */
-/* RGB 47 41 51 */
-/* RGB 0 153 166 */
-/* RGB 53 217 180 */
-/* RGB  189 242 113 */
-/* RGB  248 222 255 */
+/* Under Construction colors */
 /* Generic references used in the other files */
 /* line 14, ../sass/css3.scss */
 #homePage img, header, .page {
@@ -25,8 +20,8 @@ because they are still in development
 
 /* line 18, ../sass/css3.scss */
 a:hover, #galleries li :hover, header {
-  text: #2f2933;
-  text-shadow: 4px 4px 8px #2f2933;
-  filter: dropshadow(color=#2f2933, offx=4, offy=4);
+  text: #241522;
+  text-shadow: 4px 4px 8px #241522;
+  filter: dropshadow(color=#241522, offx=4, offy=4);
   border: none;
 }

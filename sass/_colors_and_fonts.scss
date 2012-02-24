@@ -2,32 +2,32 @@ $headingFont: 'Michroma', Verdana, Arial,  sans-serif;
 $bodyFont: 'Questrial', Verdana, Arial,  sans-serif;
 
 
-/* Freshly colors */
-$darkGrey: #2F2933; /* RGB 47 41 51 */
-$medBlue: #0099A6; /* RGB 0 153 166 */
-$blueGreen: #35D9B4; /* RGB 53 217 180 */
-$limeGreen: #BDF271; /* RGB  189 242 113 */
-$palePink: #F8DEFF; /* RGB  248 222 255 */
+/* Under Construction colors */
+$darkGrey: #241522; 
+$brown: #5C4517; 
+$olive: #8C8A0F; 
+$yellow: #CFC968; 
+$ltBlue: #B3D5DE; 
 
 
 /* Generic references used in the other files */
 
-$textBackground: $palePink;
+$textBackground: $ltBlue;
 $bodyFontColor: $darkGrey;
-$backgroundColor: $blueGreen;
+$backgroundColor: $yellow;
 
-$headerBackground: $medBlue;
-$homePageHeader: $medBlue;
-$homePageBorder: $medBlue;
-$headerFontColor: $limeGreen;
+$headerBackground: $olive;
+$headerFontColor: $yellow;
+$homePageHeader: $olive;
+$homePageBorder: $olive;
 
-$headingMain: $medBlue;
-$headingSub: $blueGreen;
+$headingMain: $brown;
+$headingSub: $olive;
 
-$strongColor: $medBlue;
+$strongColor: $brown;
 
-$navBasicColor: $medBlue;
-$navHighlightColor: $limeGreen;
-$navInactiveColor: $blueGreen;
+$navBasicColor: $brown;
+$navHighlightColor: $yellow;
+$navInactiveColor: $olive;
 
-$linkColor1: $blueGreen;
+$linkColor1: $olive;
