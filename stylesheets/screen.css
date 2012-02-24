@@ -234,7 +234,7 @@ body a {
 
 /* line 31, ../sass/screen.scss */
 h1, h2 {
-  color: #eb372a;
+  color: #574236;
 }
 
 /* line 35, ../sass/screen.scss */
@@ -244,7 +244,7 @@ h3, h4 {
 
 /* line 39, ../sass/screen.scss */
 strong {
-  color: #574236;
+  color: #c0a367;
   font-weight: 900;
 }
 
@@ -290,7 +290,7 @@ header {
 }
 /* line 78, ../sass/screen.scss */
 header h1 {
-  color: #424242;
+  color: white;
   font-size: 22px;
   margin: 10px 0;
 }
@@ -301,7 +301,7 @@ header p {
 }
 /* line 87, ../sass/screen.scss */
 header a {
-  color: #424242;
+  color: white;
   font-weight: normal;
 }
 
