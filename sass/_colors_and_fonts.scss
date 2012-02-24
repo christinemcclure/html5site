@@ -4,30 +4,30 @@ $bodyFont: 'Questrial', Verdana, Arial,  sans-serif;
 
 /* Under Construction colors */
 $darkGrey: #424242; 
-$medGrey: #707070; 
-$ltGrey: #E9E9E9; 
-$blue: #3299BB; 
-$orange: #FF9900; 
+$brown: #5C4517; 
+$green: #8C8A0F; 
+$yellow: #CFC968; 
+$ltBlue: #B3D5DE; 
 
 
 /* Generic references used in the other files */
 
-$textBackground: $ltGrey;
+$textBackground: $ltBlue;
 $bodyFontColor: $darkGrey;
-$backgroundColor: $blue;
+$backgroundColor: $brown;
 
-$headerBackground: $medGrey;
-$headerFontColor: $orange;
-$homePageHeader: $medGrey;
-$homePageBorder: $medGrey;
+$headerBackground: $green;
+$headerFontColor: $darkGrey;
+$homePageHeader: $green;
+$homePageBorder: $green;
 
-$headingMain: $blue;
-$headingSub: $medGrey;
+$headingMain: $brown;
+$headingSub: $green;
 
-$strongColor: $blue;
+$strongColor: $brown;
 
-$navBasicColor: $blue;
-$navHighlightColor: $orange;
-$navInactiveColor: $medGrey;
+$navBasicColor: $green;
+$navHighlightColor: $darkGrey;
+$navInactiveColor: $brown;
 
-$linkColor1: $orange;
+$linkColor1: $green;
