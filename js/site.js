@@ -36,6 +36,8 @@ $(document).ready(function() {
 				if (navType.indexOf('lib')===-1){ //show photo
 					$('#photoNav').css('display','inline');
 					$('#libNav').css('display','none');						
+//					$('#photoSelect').children('option:selected', 'select').removeAttr('selected');
+					
 				}
 				else { //show lib
 					$('#libNav').css('display','inline');
@@ -43,6 +45,9 @@ $(document).ready(function() {
 				}
 				navID = page + "Nav"; //add active class 
 				$('#'+navID).addClass('activeSub');
+				
+				
+				
 			}
 	})($);
 	
