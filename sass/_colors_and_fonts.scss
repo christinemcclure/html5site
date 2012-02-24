@@ -5,7 +5,8 @@ $bodyFont: 'Questrial', Verdana, Arial,  sans-serif;
 /*Bart colors */
 $darkGrey: #424242; 
 $brown: #574236; 
-$red: #EB372A;
+/*$red: #EB372A;*/
+$red: #ED5045;
 $white: #FFFFFF;
 $tan: #C0A367; 
 $aqua: #7ED9D9; 
@@ -30,5 +31,7 @@ $strongColor: $tan;
 $navBasicColor: $brown;
 $navHighlightColor: $red;
 $navInactiveColor: $tan;
+$textHoverColor: $tan;
+$textShadowColor: $brown;
 
 $linkColor1: $red;
