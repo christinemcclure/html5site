@@ -2,32 +2,33 @@ $headingFont: 'Michroma', Verdana, Arial,  sans-serif;
 $bodyFont: 'Questrial', Verdana, Arial,  sans-serif;
 
 
-/* Under Construction colors */
+/*Bart colors */
 $darkGrey: #424242; 
-$brown: #5C4517; 
-$green: #8C8A0F; 
-$yellow: #CFC968; 
-$ltBlue: #B3D5DE; 
+$brown: #574236; 
+$red: #EB372A;
+$white: #FFFFFF;
+$tan: #C0A367; 
+$aqua: #7ED9D9; 
 
 
 /* Generic references used in the other files */
 
-$textBackground: $ltBlue;
+$textBackground: $white;
 $bodyFontColor: $darkGrey;
-$backgroundColor: $brown;
+$backgroundColor: $aqua;
 
-$headerBackground: $green;
+$headerBackground: $tan;
 $headerFontColor: $darkGrey;
-$homePageHeader: $green;
-$homePageBorder: $green;
+$homePageHeader: $tan;
+$homePageBorder: $tan;
 
-$headingMain: $brown;
-$headingSub: $green;
+$headingMain: $red;
+$headingSub: $brown;
 
 $strongColor: $brown;
 
-$navBasicColor: $green;
-$navHighlightColor: $darkGrey;
-$navInactiveColor: $brown;
+$navBasicColor: $brown;
+$navHighlightColor: $red;
+$navInactiveColor: $tan;
 
-$linkColor1: $green;
+$linkColor1: $red;
