@@ -222,29 +222,29 @@ nav {
 }
 /* line 21, ../sass/screen.scss */
 body {
-  background: #cfc968;
+  background: #3299bb;
   padding: 10px 4px;
-  color: #241522;
+  color: #424242;
 }
 /* line 25, ../sass/screen.scss */
 body a {
-  color: #8c8a0f;
+  color: #ff9900;
   font-weight: 900;
 }
 
 /* line 31, ../sass/screen.scss */
 h1, h2 {
-  color: #5c4517;
+  color: #3299bb;
 }
 
 /* line 35, ../sass/screen.scss */
 h3, h4 {
-  color: #8c8a0f;
+  color: #707070;
 }
 
 /* line 39, ../sass/screen.scss */
 strong {
-  color: #5c4517;
+  color: #3299bb;
   font-weight: 900;
 }
 
@@ -262,7 +262,7 @@ nav select {
   width: 90%;
   margin: 0 auto;
   padding: 10px;
-  background: #b3d5de;
+  background: #e9e9e9;
 }
 
 /* line 60, ../sass/screen.scss */
@@ -285,12 +285,12 @@ h1 {
 
 /* line 75, ../sass/screen.scss */
 header {
-  background: #8c8a0f;
+  background: #707070;
   padding: 1px;
 }
 /* line 78, ../sass/screen.scss */
 header h1 {
-  color: #cfc968;
+  color: #ff9900;
   font-size: 22px;
   margin: 10px 0;
 }
@@ -301,7 +301,7 @@ header p {
 }
 /* line 87, ../sass/screen.scss */
 header a {
-  color: #cfc968;
+  color: #ff9900;
   font-weight: normal;
 }
 
@@ -567,7 +567,7 @@ footer p {
   }
   /* line 321, ../sass/screen.scss */
   nav a {
-    color: #5c4517;
+    color: #3299bb;
     font-weight: normal;
   }
 
@@ -583,7 +583,7 @@ footer p {
     font-size: 16px;
     margin: 0 20px 0 0;
     /*20/876*/
-    color: #8c8a0f;
+    color: #707070;
   }
   /* line 334, ../sass/screen.scss */
   #mainNav.navList li:last-child {
@@ -592,12 +592,12 @@ footer p {
 
   /* line 337, ../sass/screen.scss */
   li.activeMain {
-    color: #5c4517 !important;
+    color: #3299bb !important;
   }
 
   /* line 338, ../sass/screen.scss */
   li.activeSub a {
-    color: #cfc968;
+    color: #ff9900;
     font-weight: 900;
   }
 
@@ -659,7 +659,7 @@ footer p {
   .page {
     /* width: 978px; */
     /*Total with works out to 1008, but need more for padding*/
-    background: #b3d5de;
+    background: #e9e9e9;
     width: 86%;
     padding: 22px 44px;
     /* pad more right and left later */
@@ -720,7 +720,7 @@ footer p {
     display: inline;
     float: left;
     text-align: left;
-    color: #8c8a0f;
+    color: #707070;
   }
   /* line 457, ../sass/screen.scss */
   #homePage p {
@@ -789,7 +789,7 @@ footer p {
     position: absolute;
     top: 110px;
     width: 14.11042944785276%;
-    border-left: 2px solid #8c8a0f;
+    border-left: 2px solid #707070;
   }
   /* line 530, ../sass/screen.scss */
   #homePage nav#photo ul li {
@@ -805,7 +805,7 @@ footer p {
     right: 7%;
     text-align: right;
     top: 484px;
-    border-right: 2px solid #8c8a0f;
+    border-right: 2px solid #707070;
   }
   /* line 546, ../sass/screen.scss */
   #homePage nav#lib ul li {

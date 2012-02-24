@@ -20,8 +20,8 @@ because they are still in development
 
 /* line 18, ../sass/css3.scss */
 a:hover, #galleries li :hover, header {
-  text: #241522;
-  text-shadow: 4px 4px 8px #241522;
-  filter: dropshadow(color=#241522, offx=4, offy=4);
+  text: #424242;
+  text-shadow: 4px 4px 8px #424242;
+  filter: dropshadow(color=#424242, offx=4, offy=4);
   border: none;
 }

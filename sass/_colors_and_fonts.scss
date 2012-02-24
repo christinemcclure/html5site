@@ -3,31 +3,31 @@ $bodyFont: 'Questrial', Verdana, Arial,  sans-serif;
 
 
 /* Under Construction colors */
-$darkGrey: #241522; 
-$brown: #5C4517; 
-$olive: #8C8A0F; 
-$yellow: #CFC968; 
-$ltBlue: #B3D5DE; 
+$darkGrey: #424242; 
+$medGrey: #707070; 
+$ltGrey: #E9E9E9; 
+$blue: #3299BB; 
+$orange: #FF9900; 
 
 
 /* Generic references used in the other files */
 
-$textBackground: $ltBlue;
+$textBackground: $ltGrey;
 $bodyFontColor: $darkGrey;
-$backgroundColor: $yellow;
+$backgroundColor: $blue;
 
-$headerBackground: $olive;
-$headerFontColor: $yellow;
-$homePageHeader: $olive;
-$homePageBorder: $olive;
+$headerBackground: $medGrey;
+$headerFontColor: $orange;
+$homePageHeader: $medGrey;
+$homePageBorder: $medGrey;
 
-$headingMain: $brown;
-$headingSub: $olive;
+$headingMain: $blue;
+$headingSub: $medGrey;
 
-$strongColor: $brown;
+$strongColor: $blue;
 
-$navBasicColor: $brown;
-$navHighlightColor: $yellow;
-$navInactiveColor: $olive;
+$navBasicColor: $blue;
+$navHighlightColor: $orange;
+$navInactiveColor: $medGrey;
 
-$linkColor1: $olive;
+$linkColor1: $orange;
