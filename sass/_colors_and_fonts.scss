@@ -1,33 +1,33 @@
 $headingFont: 'Michroma', Verdana, Arial,  sans-serif;
 $bodyFont: 'Questrial', Verdana, Arial,  sans-serif;
 
-/* Hoot colors from Kuler */
-$teal: #53968F; /* RGB 93 166 158 */
-$lightTeal: #8CBDB8; /* RGB 167 204 200 */
-$orange: #F28705; /* RGB 242 135 5 */
-$offWhite: #f2f2f2; /* RGB 242 242 242 */
-$darkGrey: #262626; /* RGB 38 38 38 */
-$medGrey: #666666; /* RGB 102 102 102  */
+
+/* Freshly colors */
+$darkGrey: #2F2933; /* RGB 47 41 51 */
+$medBlue: #0099A6; /* RGB 0 153 166 */
+$blueGreen: #35D9B4; /* RGB 53 217 180 */
+$limeGreen: #BDF271; /* RGB  189 242 113 */
+$palePink: #F8DEFF; /* RGB  248 222 255 */
 
 
 /* Generic references used in the other files */
 
-$textBackground: $offWhite;
+$textBackground: $palePink;
 $bodyFontColor: $darkGrey;
-$backgroundColor: $lightTeal;
+$backgroundColor: $blueGreen;
 
-$headerBackground: $medGrey;
-$homePageHeader: $medGrey;
-$homePageBorder: $medGrey;
-$headerFontColor: $orange;
+$headerBackground: $medBlue;
+$homePageHeader: $medBlue;
+$homePageBorder: $medBlue;
+$headerFontColor: $limeGreen;
 
-$headingMain: $teal;
-$headingSub: $medGrey;
+$headingMain: $medBlue;
+$headingSub: $blueGreen;
 
-$strongColor: $teal;
+$strongColor: $medBlue;
 
-$navBasicColor: $teal;
-$navHighlightColor: $orange;
-$navInactiveColor: $lightTeal;
+$navBasicColor: $medBlue;
+$navHighlightColor: $limeGreen;
+$navInactiveColor: $blueGreen;
 
-$linkColor1: $orange;
+$linkColor1: $blueGreen;
