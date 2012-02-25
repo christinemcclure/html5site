@@ -10,7 +10,7 @@ because they are still in development
 /*$red: #EB372A;*/
 /* Generic references used in the other files */
 /* line 14, ../sass/css3.scss */
-#homePage img, header, .page, select {
+#homePage img, header, .page, select, #homePage nav#photo li a, #homePage nav#lib li a {
   -moz-border-radius: 10px;
   -webkit-border-radius: 10px;
   -o-border-radius: 10px;

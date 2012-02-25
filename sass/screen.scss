@@ -100,6 +100,18 @@ h2 {
 	margin: $lineHeight 0 $lineHeight 0;
 }
 
+#homePage {
+	nav a {
+		font-size:$fontSize+4;
+	}
+	nav#photo, nav#lib{
+		li a {
+			border: 1px solid $brown;
+			background:$aqua;
+			color:$brown;
+		}
+	}
+}
 #art img.floatLeft, #about img.floatLeft {
 	width: 40%;
 	margin: $lineHeight;
@@ -116,6 +128,7 @@ h2 {
 		margin-top: $lineHeight;
 	}
 }
+
 
 #galleries ul {
 	p {margin:0;}
@@ -523,6 +536,10 @@ nav select {
 				font-size: $fontSize+2;
 				letter-spacing: 2px;
 			}
+		}
+		nav#photo li a, nav#lib li a {
+				border:none;
+				background:none;
 		}
 
 		#galleries a p {
