@@ -11,7 +11,7 @@ because they are still in development
 
 $radius: 10px;
 
-#homePage img, header, .page {
+#homePage img, header, .page, select {
 	@include border-radius($radius);
 }
 

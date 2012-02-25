@@ -48,6 +48,10 @@ nav select {
 	float:left;
 	width: 40%;
 	margin: $lineHeight 0 $lineHeight 7%;
+	color: $navBasicColor;
+	font-size:$fontSize+2;
+	background: $selectBackgroundColor;
+	border: 2px solid $selectBorderColor;
 }
 	
 .page {
