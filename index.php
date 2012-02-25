@@ -12,7 +12,7 @@
   <h2 id="photoHeader">photography</h2>
   <nav id="galleries">
   	<ul>
-    	<li><a href="/fine-art"><p>fine art</p><img src="/img/art.jpg" alt="Photo of tulip curved so that it appears to be drooping over another closeup photo of a person's eye." /></a></li>
+    	<li><a href="/art"><p>fine art</p><img src="/img/art.jpg" alt="Photo of tulip curved so that it appears to be drooping over another closeup photo of a person's eye." /></a></li>
     	<li><a href="/portraits"><p>portraiture</p><img src="/img/portraits.jpg" alt="Photo of a stwo-year-old girl eating a cookie with powdered sugar on her face." /></a></li>
     	<li><a href="/events"><p>events</p><img src="/img/events.jpg" alt="Photo of a speaker from the 2010 Literature For All of Us, Honor Thy Mother Luncheon" /></a></li>    
     	<li><a href="/travel"><p>travel</p><img src="/img/travel.jpg" alt="Closeup photo of a flower in the Boquete national Forest, Panama." /></a></li>    

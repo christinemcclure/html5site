@@ -120,7 +120,6 @@ h2 {
 #galleries ul {
 	p {margin:0;}
 	li {
-	font-size: 12px;
 	width: 20%;
 	margin: 0 0 0 6%;
 	float:left;
@@ -128,6 +127,11 @@ h2 {
 	}
  li:first-child {
 		margin:0;
+	}
+	a p {
+		font-size: 10px;
+		font-weight:normal;
+		color: $navBasicColor;
 	}
 }
 
@@ -246,6 +250,7 @@ nav select {
 		margin-top:$lineHeight*4;
 	}
 	
+#galleries li a p {font-size:$fontSize+2px;}
 
 	div.columnBlock, div.columnEven { /* TWO COLUMNS (columnEven does not stretch to three) */
 		width: 43.76278118609407%;		
