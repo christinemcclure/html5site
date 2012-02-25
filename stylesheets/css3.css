@@ -20,9 +20,9 @@ because they are still in development
 }
 
 /* line 18, ../sass/css3.scss */
-a:hover, #galleries li :hover, header {
+a:hover, #galleries li :hover, header, #mainNav li:hover {
   text: #c0a367;
-  text-shadow: 4px 4px 8px #574236;
-  filter: dropshadow(color=#574236, offx=4, offy=4);
+  text-shadow: 4px 4px 8px #424242;
+  filter: dropshadow(color=#424242, offx=4, offy=4);
   border: none;
 }
