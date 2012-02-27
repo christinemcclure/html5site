@@ -15,6 +15,10 @@ $radius: 10px;
 	@include border-radius($radius);
 }
 
+#homePage img, header, .page, input, textarea {
+	@include border-radius(5px);
+}
+
 a:hover, #galleries li :hover, header {
 	text: $textHoverColor;
   text-shadow: 4px 4px 8px $textShadowColor;

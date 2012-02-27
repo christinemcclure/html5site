@@ -96,6 +96,11 @@ h2 {
 	margin: $lineHeight 0 $lineHeight 0;
 }
 
+section {
+	clear:both;
+	margin: $lineHeight*2 0 0 0;
+}
+
 #art img.floatLeft, #about img.floatLeft {
 	width: 40%;
 	margin: $lineHeight;
@@ -184,15 +189,12 @@ nav#lib {
 }	
 	
 #contactPhoto, #contactLib {
-	section p {
-		margin: 0 0 $lineHeight 0;
-	}
 	.formContainer{ 
 		width: 100%;
-		margin: 0;
+		margin: 0 0 $lineHeight 0;
 		input{
+			clear:both;
 			margin: 0 0 $lineHeight 0;
-			clera:both;
 			width: 100%;
 		}
 		#message {
@@ -207,6 +209,7 @@ nav#lib {
 		width: 100%;
 		height: $lineHeight;
 		padding:5px 10px 23px 10px;
+		margin-bottom: $lineHeight*3;
 	}
 	
 }
@@ -293,17 +296,18 @@ nav select {
 	}/* end resume */
 
 	#contactPhoto, #contactLib {
-		section p {
-			width: 45%;
-			float:left;
-		}
-		p#orderPhotos {
-			clear:left;
+	.contactMessage {
+		float:left;
+		width: 40%;
 		}
 		.formContainer{ 
-			width: 45%;
-			float:right;
-			margin-top: -$lineHeight*3;
+			width: 50%;
+			margin: 0 0 0 5%;
+			float:left;
+			input.button{
+				width: 20%;
+				
+			}
 		}
 	}
 	
@@ -423,9 +427,6 @@ nav select {
 
 
 
-		section {
-			margin: $lineHeight*2 0 0 0;
-		}
 		
 	}
 

@@ -1,7 +1,8 @@
 <?php // this script creates the  email form
 
 $contact_email="christine@christinemcclure.com";
-$feedback= "<p class=\"clear\">I look forward to discussing any opportunities with you; simply fill out the form below.</p>";
+$feedback= "<p>I look forward to discussing any opportunities with you; simply fill out the form below.</p>
+	<p>Looking for your photos? You can order your <a href=\"http://christinemcclure.smugmug.com\">prints online</a>.</p>";
 $cssclass = "showForm";
 
 

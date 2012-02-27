@@ -1,5 +1,7 @@
-    <?php echo $feedback; ?>  
-      <div id="showContactForm" class="<?php echo $cssclass; ?>"> <!--showForm to start-->	
+    <div class="contactMessage">
+			<?php echo $feedback; ?>  
+     </div>
+      <div id="showContactForm" class="<?php echo $cssclass; ?> formContainer"> <!--showForm to start-->	
       <form method="post" action=<?php echo $formAction; ?> id="contactForm">
     	  <input type="text" name="name" id="name" placeholder="Name"/>
   	    <input type="email" name="email" id="email" placeholder="E-mail address" required/>
