@@ -9,26 +9,18 @@
 <div class="page">
 	<?php include '../includes/header.html'; ?>
   <?php include '../includes/nav.html'; ?>
-  <div id="content" class="clear">
+  <section>
     <?php echo $feedback; ?>  
       <div id="showContactForm" class="<?php echo $cssclass; ?>"> <!--showForm to start-->	
       <form method="post" action=<?php echo $formAction; ?> id="contactForm">
-        <p>Name:</p>
-        <p><input type="text" name="name" id="name" /></p>
-        <p>Email:</p>
-        <p><input type="text" name="email" id="email" /></p>
-        <p>Phone:</p>
-        <p><input type="text" name="phone" id="phone" /></p>
-        <p>Message:</p>
-        <p><textarea name="message" cols="20" rows="5" id="message">
-              <?php if (isset($_POST['message'])) echo $_POST['message']; ?>
-              </textarea>
-        </p>
-        <p><input class="button" type="submit" name="submit" value="Send" id="submitButton" />
-        <input type="hidden" name="submitted" value="TRUE" /></p>
-      </form>
+    	  <input type="text" name="name" id="name" placeholder="Name"/>
+  	    <input type="email" name="email" id="email" placeholder="E-mail address" required/>
+  	    <textarea name="message" id="message"  placeholder="Your message here" required /></textarea>
+	      <input class="button" type="submit" name="submit" value="Send" id="submitButton" />
+	      <input type="hidden" name="submitted" value="TRUE" />
+  	  </form>
       </div>
-  </div>
+  </section>
   <?php include '../includes/footer.html'; ?>
 </div>
 
