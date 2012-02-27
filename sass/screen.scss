@@ -188,31 +188,7 @@ nav#lib {
 	}
 }	
 	
-#contactPhoto, #contactLib {
-	.formContainer{ 
-		width: 100%;
-		margin: 0 0 $lineHeight 0;
-		input{
-			clear:both;
-			margin: 0 0 $lineHeight 0;
-			width: 100%;
-		}
-		#message {
-			clear:both;
-			width: 100%;
-			height: $lineHeight*4;
-			margin-bottom: $lineHeight;
-		}
-	}
-	input.button{
-		cursor:pointer;
-		width: 100%;
-		height: $lineHeight;
-		padding:5px 10px 23px 10px;
-		margin-bottom: $lineHeight*3;
-	}
-	
-}
+
 
 footer {
 	clear:both;
@@ -295,21 +271,7 @@ nav select {
 
 	}/* end resume */
 
-	#contactPhoto, #contactLib {
-	.contactMessage {
-		float:left;
-		width: 40%;
-		}
-		.formContainer{ 
-			width: 50%;
-			margin: 0 0 0 5%;
-			float:left;
-			input.button{
-				width: 20%;
-				
-			}
-		}
-	}
+
 	
 }/* min-width: 760px */
 
