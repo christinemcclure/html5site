@@ -1,16 +1,24 @@
 <?php 
-$bodyID = "contactPhoto";
-include '../includes/contact-stub1.php'; 
+	include '../includes/form-validate.php'; 
+	include '../includes/head-stub.html';
+	$formAction = "/contactPhoto/";
 ?>
-
-      <form method="post" action="/contactPhoto" id="contactForm">
-
-<?php include '../includes/contact-stub2.php'; ?>
+  <title>Christine McClure -- Contact</title>
+</head>
+<body id="contactPhoto">
+<div class="page">
+	<?php include '../includes/header.html'; ?>
+  <?php include '../includes/nav.html'; ?>
+  <section>
+	  <?php include '../includes/form.php'; ?>
+  </section>
+  <?php include '../includes/footer.html'; ?>
+</div>
 
 <script type="text/javascript">
 	$(document).ready(function() {
 		// set initial nav state for this page
-			setNav("photo", "photoContact");			
+			setNav("lib", "libContact");			
 	});
 </script>
 </body>
