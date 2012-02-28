@@ -108,11 +108,6 @@ header {
 	}
 }
 
-#art img.floatLeft, #about img.floatLeft {
-	width: 40%;
-	margin: $lineHeight;
-}
-
 
 nav#photo, nav#lib {
 	display:inline-block;
@@ -148,11 +143,20 @@ nav#lib {
 	}
 }
 
+#art img.floatLeft, #about img.floatLeft {
+	width: 40%;
+	margin: $lineHeight;
+}
+
 #seriesPortals{
 	margin: $lineHeight 0 $lineHeight 06.5439672801636%;
 	clear:both; /* otherwise floats into image */
-	h2 {
-		margin: $lineHeight 0 0 0;
+	h4, h5, p {
+		margin: 0;
+	}
+	li {
+		margin-bottom: $lineHeight;
+		list-style:none;
 	}
 }	
 	
