@@ -36,7 +36,7 @@ strong {
 
 /* change to mobile nav */
 nav select { 
-	display: inline-block; 
+	display: none; /* display with JS */
 	float:left;
 	width: 40%;
 	margin: $lineHeight 0 $lineHeight*2 7%;

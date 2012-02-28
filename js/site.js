@@ -3,27 +3,6 @@ $(document).ready(function() {
 	var maxHeightPhoto = 800;
 	var maxWinHeight = .8;
 	
-	$('#libNav').removeClass('noJS');
-
-	$('li#photo').click(function () {
-		$(this).addClass('activeMain');
-		$('li#lib').removeClass('activeMain');
-		$('#libNav').css('display','none');	
-		$('#photoNav').css('display','inline');
-	});
-
-	$('li#lib').click(function () {
-		$(this).addClass('activeMain');
-		$('li#photo').removeClass('activeMain');
-		$('#photoNav').css('display','none');	
-		$('#libNav').css('display','inline');
-	});
-	
-	$("nav select").change(function() {
-		window.location = $(this).find("option:selected").val();
-	});
-	
-			
 	// Sets active navigation classes upon loading page. 
 	// errors resolved from http://www.latentmotion.com/separating-jquery-functions-into-external-files-without-selectors/		
 	(function($){
@@ -45,8 +24,7 @@ $(document).ready(function() {
 				$('#'+navID).addClass('activeSub');
 			}
 	})($);
-	
-
+		
 	(function($){
 				setAllGalleryHeights=function(galleryClass, myHeight) {
 					if (!myHeight) {
@@ -60,23 +38,35 @@ $(document).ready(function() {
 			}
 	})($);
 		
-	//These aren't working. Can't seem to update the global variable from within a function 
-	// Workaround for now is to have two sep folders for contact. Boo. 
-	$('li#photoContactNav').click(function () {
-		contactCallingPage="photo";
-//		alert ('inside photo '+contactCallingPage);
+	$('#libNav').removeClass('noJS');
+
+	$('li#photo').click(function () {
+		$(this).addClass('activeMain');
+		$('li#lib').removeClass('activeMain');
+		$('#libNav').css('display','none');	
+		$('#photoNav').css('display','inline');
 	});
 
-	$('li#libContactNav').click(function () {
-		contactCallingPage="lib";
-//		alert ('inside lib '+contactCallingPage);
-	});	
+	$('li#lib').click(function () {
+		$(this).addClass('activeMain');
+		$('li#photo').removeClass('activeMain');
+		$('#photoNav').css('display','none');	
+		$('#libNav').css('display','inline');
+	});
 	
-	(function($){
-			  setNavContact=function() {
-				alert (contactCallingPage);
-			}	;
-		})($);	
+	$("nav select").change(function() {
+		window.location = $(this).find("option:selected").val();
+	});
 	
+			
+	$(window).resize(function() {
+			if ($(window).width() < 1008 ) {
+				 $('nav select').css('display', 'inline-block');
+			}
+			else {
+				 $('nav select').css('display', 'none');					
+			}
+	});		
+
 });
 

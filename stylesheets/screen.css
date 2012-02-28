@@ -241,7 +241,8 @@ strong {
 /* change to mobile nav */
 /* line 38, ../sass/screen.scss */
 nav select {
-  display: inline-block;
+  display: none;
+  /* display with JS */
   float: left;
   width: 40%;
   margin: 22px 0 44px 7%;
