@@ -17,6 +17,63 @@
 	text-align:center;
 }
 
+
+/* *** NAVIGATION
+
+mobile nav */
+nav select { 
+	display: none; /* display with JS */
+	float:left;
+	width: 40%;
+	margin: $lineHeight 0 $lineHeight*2 7%;
+	color: $navBasicColor;
+	font-size:$fontSize+2;
+	background: $selectBackgroundColor;
+	border: 2px solid $selectBorderColor;
+}
+
+li.activeMain {color:$navBasicColor !important;}
+li.activeSub a, .navList li a:hover {
+	color:$navHighlightColor; 
+	font-weight:900;
+} 
+
+#photoNav.navList, #libNav.navList {display:inline-block !important;}	
+#photoNav, #libNav {
+	position: absolute;
+	width: 100%; 
+	float:left;
+	left: 40px;
+	li {
+		width: 100px;
+		float:left;
+		margin-left: 10px;
+	}
+}
+
+#photoNav {
+	margin-top: $lineHeight*2;
+}
+#libNav {
+	margin-top: $lineHeight*7;
+}
+
+#mainNav.navList {
+	display:inline-block !important;
+	float:left;
+	margin-top:$lineHeight;
+	li {
+		clear:both;
+		font-size: $fontSize+2;
+		margin:0 20px $lineHeight*4 0; /*20/876*/
+		color:$navInactiveColor;
+	}
+	li:last-child {margin-bottom: $lineHeight*2;}
+}
+
+
+
+
 body {
 	background: $backgroundColor;
 	padding: 20px 4px 10px 4px;
@@ -33,18 +90,6 @@ strong {
 	font-weight:900;
 }
 
-
-/* change to mobile nav */
-nav select { 
-	display: none; /* display with JS */
-	float:left;
-	width: 40%;
-	margin: $lineHeight 0 $lineHeight*2 7%;
-	color: $navBasicColor;
-	font-size:$fontSize+2;
-	background: $selectBackgroundColor;
-	border: 2px solid $selectBorderColor;
-}
 	
 .page {
   width: 90%;
@@ -105,41 +150,6 @@ header {
 	a {
 		color:$headerFontColor;
 		font-weight:normal;
-	}
-}
-
-
-nav#photo, nav#lib {
-	display:inline-block;
-	clear:both;
-	width:90%;
-	margin: $lineHeight 5%;
-	li {
-		font-size: $fontSize;
-		float: left;
-		width: 30%;
-		margin: 0 0 $lineHeight*2 5%;
-		text-align:center;
-		 a {
-				padding: 6px 12px;
-		 }
-	}
-	 li:first-child {
-		margin:0;
-	}
-}
-	
-nav#lib {
-	li {
-		font-size:11px;
-		width: 20%;
-		margin: 0 0 $lineHeight*2 6%;
-		 a {
-				padding: 6px 8px;
-		 }
-	}
-	li:first-child {
-		margin:0;
 	}
 }
 
@@ -327,45 +337,19 @@ div.columnBlock, div.columnEven {
 
 @media screen and (min-width: 1008px) {
 
-/* change to desktop nav */
-  nav select {  display: none; }
 	nav {
-		width: 876px; /* using fixed width because it stretches too much otherwise */
-		margin: 0 auto;
-		li {cursor:pointer;}
-		a {color:$navBasicColor; font-weight:normal;}
+			width: 876px; /* using fixed width because it stretches too much otherwise */
+			margin: 0 auto;
+			li {cursor:pointer;}
+			a {color:$navBasicColor; font-weight:normal;}
 	}
-	
+
 	#mainNav.navList {
-		display:block !important;
-		float:left;
-		margin-top:$lineHeight;
 		li {
-			clear:both;
-			font-size: $fontSize+2;
 			margin:0 20px 0 0; /*20/876*/
-			color:$navInactiveColor;
 		}
-		li:last-child {margin-bottom: $lineHeight*2;}
-	}
+	}		
 	
-		li.activeMain {color:$navBasicColor !important;}
-		li.activeSub a, .navList li a:hover {
-			color:$navHighlightColor; 
-			font-weight:900;
-		} 
-
-	
-/*	
-	#resume, #portfolio, #lab, #contactLib {
-		nav #libNav.navList {display:inline-block !important;}
-	}
-	#about, #pricing, #art, #portraits, #events, #travel, #contactPhoto {
-		nav #photoNav.navList {display:inline-block !important;}
-	}
-*/
-
-	#photoNav.navList, #libNav.navList {display:inline-block;}	
 	#photoNav, #libNav {
 		width: 748px; 
 		float:right;
@@ -382,13 +366,13 @@ div.columnBlock, div.columnEven {
 			margin: $lineHeight 0 0 0;
 		}
 	}
-
+	
 	#libNav {
 		li{
-			margin: $lineHeight*2 13% 0 0;
+			margin: 0 13% 0 0;
 		}
 		li:last-child{
-			margin: $lineHeight*2 0 0 0;
+			margin: 0 0 0 0;
 		}
 	}
 	
@@ -397,6 +381,8 @@ div.columnBlock, div.columnEven {
 			margin-top:0;
 		}
 	}
+
+
 
 
 	

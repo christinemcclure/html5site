@@ -24,7 +24,23 @@ $(document).ready(function() {
 				$('#'+navID).addClass('activeSub');
 			}
 	})($);
-		
+
+// Determines whether to display mobile/tablet or desktop navigation
+	(function($){ 
+		setNavType=function() {
+			if ($(window).width() < 1008 ) {
+				 $('#photoSelect').css('display', 'inline-block !important');
+				 $('#libSelect').css('display', 'inline-block !important');
+				 $('.navList').css('display', 'none !important');
+			}
+			else {
+				 $('#photoSelect').css('display', 'none !important');
+				 $('#libSelect').css('display', 'none !important');
+				 $('.navList').css('display', 'inline-block !important');
+			}
+		}
+	})($);
+	
 	(function($){
 				setAllGalleryHeights=function(galleryClass, myHeight) {
 					if (!myHeight) {
@@ -58,14 +74,12 @@ $(document).ready(function() {
 		window.location = $(this).find("option:selected").val();
 	});
 	
+	setNavType();
+
+	
 			
 	$(window).resize(function() {
-			if ($(window).width() < 1008 ) {
-				 $('nav select').css('display', 'inline-block');
-			}
-			else {
-				 $('nav select').css('display', 'none');					
-			}
+			setNavType();
 	});		
 
 });
