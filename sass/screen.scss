@@ -1,6 +1,11 @@
 @import "_base.scss";
 
 
+/*   ************ MOBILE / GENERIC SETTINGS ***********     */
+
+@media screen and (max-width: 1008px) { /* this fixes display problem between desktop and mobile, but not sure why */
+	nav ul.navList  { display: none !important; }
+}
 
 .photoSwipe {
 	font-size: $fontSize+2;
@@ -12,15 +17,9 @@
 	text-align:center;
 }
 
-/*   ************ MOBILE / GENERIC SETTINGS ***********     */
-
-@media screen and (max-width: 1008px) { /* this fixes display problem between desktop and mobile, but not sure why */
-	nav ul.navList  { display: none !important; }
-}
-
 body {
 	background: $backgroundColor;
-	padding: 10px 4px;
+	padding: 20px 4px 10px 4px;
 	color:$bodyFontColor;
 	a {
 		color:$linkColor1;
@@ -47,7 +46,7 @@ nav select {
 	display: inline-block; 
 	float:left;
 	width: 40%;
-	margin: $lineHeight 0 $lineHeight 7%;
+	margin: $lineHeight 0 $lineHeight*2 7%;
 	color: $navBasicColor;
 	font-size:$fontSize+2;
 	background: $selectBackgroundColor;
@@ -57,7 +56,7 @@ nav select {
 .page {
   width: 90%;
   margin: 0 auto;
-  padding: 10px;
+  padding: 20px;
 	background:$textBackground;
 }
 
@@ -66,14 +65,16 @@ p {
 }
 
 header, #homePage h2, #homePage h3 {
-	clear:both;
   text-align:center;
 }
 
+header, h1, h2, h3, h4, h5, h6, section, footer {
+	clear: both;
+  margin: $lineHeight 0;
+}
+
 h1 {
-	clear:both;
   font-size: $fontSize+6;
-  margin: $lineHeight 0 $lineHeight 0;
 }
 
 header {
@@ -95,39 +96,17 @@ header {
 }
 
 h2 {
-	clear:both;
   font-size: $fontSize+2;
-	margin: $lineHeight 0 $lineHeight 0;
 }
 
 section {
-	clear:both;
-	margin: $lineHeight 0 0 0;
+	margin: $lineHeight*2 0 0 0;
 }
 
-
-#homePage {
-	nav a {
-		font-size:$fontSize+4;
-	}
-	nav#photo, nav#lib{
-		li a {
-			border: 1px solid $brown;
-			background:$aqua;
-			color:$brown;
-		}
-	}
-}
 
 #art img.floatLeft, #about img.floatLeft {
 	width: 40%;
 	margin: $lineHeight;
-}
-
-#events, #travel {
-	h2{
-		margin: $lineHeight*2 0 0 0;
-	}
 }
 
 #resume {
@@ -136,29 +115,6 @@ section {
 	}
 }
 
-
-#galleries ul {
-	p {margin:0;}
-	li {
-	width: 20%;
-	margin: 0 0 0 6%;
-	float:left;
-	text-align:center;
-	}
- li:first-child {
-		margin:0;
-	}
-	a p {
-		font-size: 10px;
-		font-weight:normal;
-		color: $navBasicColor;
-	}
-}
-
-#photoIntro {
-	clear:both;
-	margin: 134px 0 $lineHeight 0;
-}
 
 nav#photo, nav#lib {
 	display:inline-block;
@@ -193,15 +149,6 @@ nav#lib {
 		margin:0;
 	}
 }
-#libFigure {
-	width: 20%;
-	margin: 0 6% 0 0;
-	float:left;
-}
-
-#libIntro {
-	margin: 0 0 $lineHeight*2 0;
-}
 
 #seriesPortals{
 	margin: $lineHeight 0 $lineHeight 06.5439672801636%;
@@ -212,11 +159,6 @@ nav#lib {
 }	
 	
 #contactLib, #contactPhoto {
-	.contactMessage {
-		width: 80%;
-		margin: 0 auto;
-	}
-
 	input, textarea {
 		width: 100%;
 		margin: 0 0 $lineHeight 0;	
@@ -232,8 +174,56 @@ footer {
 	}
 }
 
+#homePage {
+	nav a {
+		font-size:$fontSize+4;
+	}
+	nav#photo, nav#lib{
+	margin-bottom:0;
+		li {
+			a {
+				border: 1px solid $brown;
+				background:$aqua;
+				color:$brown;
+			}
+		}
+	}
 
+	#galleries ul {
+		p {margin:0;}
+		li {
+		width: 20%;
+		margin: 0 0 0 6%;
+		float:left;
+		text-align:center;
+		}
+	 li:first-child {
+			margin:0;
+		}
+		a p {
+			font-size: 10px;
+			font-weight:normal;
+			color: $navBasicColor;
+		}
+	}
+	
+	#photoIntro {
+		clear:both;
+		margin: 134px 0 $lineHeight 0;
+	}
 
+	#libFigure {
+		width: 20%;
+		margin: 0 6% 0 0;
+		float:left;
+	}
+	
+	#libIntro {
+		margin: 0 0 $lineHeight*2 0;
+	}
+}
+
+/* end mobile */
 
 @media screen and (min-width: 760px) {
 
