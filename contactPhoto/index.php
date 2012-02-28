@@ -18,7 +18,7 @@
 <script type="text/javascript">
 	$(document).ready(function() {
 		// set initial nav state for this page
-			setNav("photo", "photoContact");			
+			setNav("photo", "contactPhoto");			
 	});
 </script>
 </body>

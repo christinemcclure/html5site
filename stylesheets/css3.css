@@ -10,7 +10,7 @@ because they are still in development
 /*$red: #EB372A;*/
 /* Generic references used in the other files */
 /* line 14, ../sass/css3.scss */
-#homePage img, header, .page {
+#homePage img, header, .page, select, #homePage nav#photo li a, #homePage nav#lib li a {
   -moz-border-radius: 10px;
   -webkit-border-radius: 10px;
   -o-border-radius: 10px;
@@ -30,9 +30,9 @@ because they are still in development
 }
 
 /* line 22, ../sass/css3.scss */
-a:hover, #galleries li :hover, header {
+a:hover, #galleries li :hover, header, #mainNav li:hover {
   text: #c0a367;
-  text-shadow: 4px 4px 8px #574236;
-  filter: dropshadow(color=#574236, offx=4, offy=4);
+  text-shadow: 4px 4px 8px #424242;
+  filter: dropshadow(color=#424242, offx=4, offy=4);
   border: none;
 }

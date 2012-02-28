@@ -11,7 +11,7 @@ because they are still in development
 
 $radius: 10px;
 
-#homePage img, header, .page {
+#homePage img, header, .page, select, #homePage nav#photo li a, #homePage nav#lib li a{
 	@include border-radius($radius);
 }
 
@@ -19,7 +19,7 @@ $radius: 10px;
 	@include border-radius(5px);
 }
 
-a:hover, #galleries li :hover, header {
+a:hover, #galleries li :hover, header, #mainNav li:hover {
 	text: $textHoverColor;
   text-shadow: 4px 4px 8px $textShadowColor;
   filter: dropshadow(color=$textShadowColor, offx=4, offy=4);

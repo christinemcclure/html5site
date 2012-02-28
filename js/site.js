@@ -36,18 +36,17 @@ $(document).ready(function() {
 				if (navType.indexOf('lib')===-1){ //show photo
 					$('#photoNav').css('display','inline');
 					$('#libNav').css('display','none');						
-//					$('#photoSelect').children('option:selected', 'select').removeAttr('selected');
-					
+					$('#photoSelect').children('option:selected', 'select').removeAttr('selected');
+					$('#photoSelect').val('/'+page);
 				}
 				else { //show lib
 					$('#libNav').css('display','inline');
 					$('#photoNav').css('display','none');		
+					$('#libSelect').children('option:selected', 'select').removeAttr('selected');
+					$('#libSelect').val('/'+page);
 				}
 				navID = page + "Nav"; //add active class 
 				$('#'+navID).addClass('activeSub');
-				
-				
-				
 			}
 	})($);
 	

@@ -48,6 +48,10 @@ nav select {
 	float:left;
 	width: 40%;
 	margin: $lineHeight 0 $lineHeight 7%;
+	color: $navBasicColor;
+	font-size:$fontSize+2;
+	background: $selectBackgroundColor;
+	border: 2px solid $selectBorderColor;
 }
 	
 .page {
@@ -98,9 +102,23 @@ h2 {
 
 section {
 	clear:both;
-	margin: $lineHeight*2 0 0 0;
+	margin: $lineHeight 0 0 0;
 }
 
+
+#homePage {
+	nav a {
+		font-size:$fontSize+4;
+	}
+	nav#photo, nav#lib{
+		li a {
+			border: 1px solid $brown;
+			background:$aqua;
+			color:$brown;
+		}
+	}
+}
+>>>>>>> 98daf1803036fd6c0879114916ba4eb715c51c83
 #art img.floatLeft, #about img.floatLeft {
 	width: 40%;
 	margin: $lineHeight;
@@ -118,10 +136,10 @@ section {
 	}
 }
 
+
 #galleries ul {
 	p {margin:0;}
 	li {
-	font-size: 12px;
 	width: 20%;
 	margin: 0 0 0 6%;
 	float:left;
@@ -129,6 +147,11 @@ section {
 	}
  li:first-child {
 		margin:0;
+	}
+	a p {
+		font-size: 10px;
+		font-weight:normal;
+		color: $navBasicColor;
 	}
 }
 
@@ -221,6 +244,7 @@ nav select {
 		margin-top:$lineHeight*4;
 	}
 	
+#galleries li a p {font-size:$fontSize+2px;}
 
 	div.columnBlock, div.columnEven { /* TWO COLUMNS (columnEven does not stretch to three) */
 		width: 43.76278118609407%;		
@@ -477,6 +501,10 @@ nav select {
 				font-size: $fontSize+2;
 				letter-spacing: 2px;
 			}
+		}
+		nav#photo li a, nav#lib li a {
+				border:none;
+				background:none;
 		}
 
 		#galleries a p {
