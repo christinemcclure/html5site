@@ -318,6 +318,10 @@ div.columnBlock, div.columnEven {
 		}
 	}
 	
+	#lab {
+		.columnEven {margin-top: 0;} /* remove extra white space */
+	}
+	
 }/* min-width: 760px */
 
 

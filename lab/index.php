@@ -14,10 +14,8 @@
     <p>What's on the back burner?</p>
 
 		<div class="columnEven">
-	    <h2>New Home Page</h2>
-      <p>Once I put my new site live, I realized that I hated the layout (of course). I had spent so much time 
-      thinking about responsive-ness and mobile-first that I hadn't paid enough attention to the design. 
-      So here is the <a href="http://dev.christinemcclure.com">new home page</a> I'm envisioning.</p>
+	    <h2>Background Designs</h2>
+      <p>This entry used to be "redesigning my site," but now that it's up and running I'm playing around with some of these great background ideas from <a href="http://www.noupe.com/design/outstanding-website-background-guide-60-impressive-resources.html">this article</a>.</p>
     </div>  	
 
 		<div class="columnEven">
