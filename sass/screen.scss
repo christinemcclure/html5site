@@ -207,14 +207,19 @@ nav#lib {
 	}
 }
 
+
 footer {
 	clear:both;
 	margin: $lineHeight*2 0 0 0;
 	p {
+		font-family: $bodyFont;
+		font-size: 12px;
 		display:block;
 		text-align: center;
 	}
-}
+	
+} /* end footer*/
+		
 
 div.columnBlock, div.columnEven {
 	li {
@@ -233,7 +238,7 @@ div.columnBlock, div.columnEven {
 	}
 	
 	header {
-		h1 {font-size: $fontSize+10;}
+		h1 {font-size: $lineHeight*1.7;}
 	}
 		
 	#homePage { 
@@ -395,7 +400,6 @@ div.columnBlock, div.columnEven {
 			/*width: 978px; */
 
 			h1 {
-				font-size: $lineHeight*1.7;
 				display:inline;
 				float:left;
 				letter-spacing: 4px;
@@ -407,7 +411,6 @@ div.columnBlock, div.columnEven {
 			p {
 				display:inline;
 				float:right;
-				font-size: 12px;
 				margin: 24px 2% 0 0;
 			}
 			
@@ -539,8 +542,6 @@ div.columnBlock, div.columnEven {
 		p {
 			width: 40%;
 			display:inline;
-			font-family: $bodyFont;
-			font-size: 12px;
 			a {	font-weight: 900;	}
 		}
 	
