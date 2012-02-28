@@ -2,7 +2,7 @@ $(document).ready(function() {
 
 	var maxHeightPhoto = 800;
 	var maxWinHeight = .8;
-	var bodyID = $('body').attr('id'); // get bodyID so 
+	var bodyID = $('body').attr('id'); // get bodyID so can set navType to lib or photo 
 	var libPageArray = new Array("resume","portfolio","lab", "contactLib");
 	var navType = "";
 	for(var i=0; i<libPageArray.length; i++) {
@@ -15,8 +15,11 @@ $(document).ready(function() {
 	}
 	
 	
-	// Sets active navigation classes upon loading page. 
-	// errors resolved from http://www.latentmotion.com/separating-jquery-functions-into-external-files-without-selectors/		
+	// FUNCTIONS
+	// how to separate jQuery functions into files from
+	// http://www.latentmotion.com/separating-jquery-functions-into-external-files-without-selectors/		
+	
+	// Determines whether to show mobile/tablet or desktop style navigation based on window width
 	(function($){
 		setNavType=function(navType) {
 			if ($(window).width() < 1008 ) { // show mobile navigation select boxes
@@ -26,15 +29,15 @@ $(document).ready(function() {
 				 $('#photoNav').removeClass('showInline').addClass('hide');
 				 $('#libNav').removeClass('showInline').addClass('hide');
 			} // end mobile nav
-			else { // show inline lists
-				$('#photoSelect').removeClass('showInlineBlock').addClass('hide');
-				$('#libSelect').removeClass('showInlineBlock').addClass('hide');
+			else { // show inline lists for desktop
+				$('#photoSelect').removeClass('showInlineBlock').addClass('hide'); // hide photo select box
+				$('#libSelect').removeClass('showInlineBlock').addClass('hide'); // hide lib select box
 				$('#mainNav').removeClass('hide').addClass('showBlock');
-				if (navType.indexOf('lib')===-1){ //show photo
+				if (navType.indexOf('lib')===-1){ //show photo, hide lib
 					$('#photoNav').removeClass('hide').addClass('showInline');
 					$('#libNav').removeClass('showInline').addClass('hide'); 
 				}
-				else { // show lib
+				else { // show lib, hide photo
 					$('#libNav').removeClass('hide').addClass('showInline');
 					$('#photoNav').removeClass('showInline').addClass('hide');		
 				}
@@ -42,20 +45,20 @@ $(document).ready(function() {
 		}
 	})($);
 
-// Determines whether to display mobile/tablet or desktop navigation
+// Sets active classes for both mobile and desktop navigation
 	(function($){ 
 		setNav=function() {		
-				setNavType(navType);	
+				setNavType(navType);	// first choose nav style by window width
 				$('#'+navType).addClass('activeMain'); // emphasize Photography or Librarianship
-				if (navType.indexOf('lib')===-1){ //show photo
+				if (navType.indexOf('lib')===-1){ //set photo select items
 					$('#photoSelect').children('option:selected', 'select').removeAttr('selected');
 					$('#photoSelect').val('/'+bodyID);
 				}
-				else { // show lib
+				else { // set lib items
 					$('#libSelect').children('option:selected', 'select').removeAttr('selected');
 					$('#libSelect').val('/'+bodyID);				
 				}
-				$('#'+bodyID+'Nav').addClass('activeSub');
+				$('#'+bodyID+'Nav').addClass('activeSub'); // add active class for desktop navigation
 			}
 	})($);
 	
@@ -93,9 +96,9 @@ $(document).ready(function() {
 		window.location = $(this).find("option:selected").val();
 	});
 	
-	setNav();
+	setNav(); // set active classes and nav style
 				
-	$(window).resize(function() {
+	$(window).resize(function() { // change nav style upon window resize, if necessary
 			setNavType(navType);
 	});		
 
