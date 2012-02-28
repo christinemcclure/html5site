@@ -350,7 +350,11 @@ div.columnBlock, div.columnEven {
 	}
 	
 		li.activeMain {color:$navBasicColor !important;}
-		li.activeSub a {color:$navHighlightColor; font-weight:900;} 
+		li.activeSub a, .navList li a:hover {
+			color:$navHighlightColor; 
+			font-weight:900;
+		} 
+
 	
 /*	
 	#resume, #portfolio, #lab, #contactLib {
