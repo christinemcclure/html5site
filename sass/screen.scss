@@ -108,11 +108,6 @@ header {
 	margin: $lineHeight;
 }
 
-#resume {
-	li h4 {
-		margin-top: $lineHeight;
-	}
-}
 
 nav#photo, nav#lib {
 	display:inline-block;
@@ -179,7 +174,6 @@ nav#lib {
 	}
 
 	#galleries ul {
-		p {margin:0;}
 		li {
 		width: 20%;
 		margin: 0 0 0 6%;
@@ -190,9 +184,10 @@ nav#lib {
 			margin:0;
 		}
 		a p {
-			font-size: 10px;
+			margin:0;
 			font-weight:normal;
 			color: $navBasicColor;
+			font-size: 10px;
 		}
 	}
 	
@@ -229,6 +224,8 @@ div.columnBlock, div.columnEven {
 }
 /* end mobile */
 
+
+/**** TABLETS ****/
 @media screen and (min-width: 760px) {
 	nav select { 
 		width: 20%;
@@ -239,9 +236,13 @@ div.columnBlock, div.columnEven {
 		h1 {font-size: $fontSize+10;}
 	}
 		
-#galleries li a p {
-	font-size:$fontSize+2px;
-}
+	#homePage { 
+		h2 {font-size: 26px;}
+		#galleries li a p, nav li a {
+			font-size:$fontSize;
+			letter-spacing: 2px;
+		}
+	}
 
 	div.columnBlock, div.columnEven { 
 	/* TWO COLUMNS (columnEven does not stretch to three) */
@@ -281,17 +282,11 @@ div.columnBlock, div.columnEven {
 
 
 	#resume {
-		h3, h3 + p {
+		h3, h3 + p { /* keep job location near title */
 			clear:both;
 			margin: 0 02.24948875255624%; /* 22 / 978 */
 		}
-
-		 li h4 {
-			 margin-top: 0;
-		 }
-		 
-
-	}/* end resume */
+	}
 
 	#contactLib, #contactPhoto {
 		.contactMessage {
@@ -346,8 +341,6 @@ div.columnBlock, div.columnEven {
 */
 
 	#photoNav.navList, #libNav.navList {display:inline-block;}	
-
-
 	#photoNav, #libNav {
 		width: 748px; 
 		float:right;
@@ -419,11 +412,7 @@ div.columnBlock, div.columnEven {
 			}
 			
 		} /* end header */
-
-
-
-		
-	}
+	} /* end page */
 
 
 	#homePage {
@@ -441,7 +430,6 @@ div.columnBlock, div.columnEven {
 		h2 {
 				/*width: 306px / 978px;*/
 				width: 31.28834355828221%;
-				font-size: 30px;
 				letter-spacing: 3px;
 				margin: 0 0 $lineHeight 0;
 				display:inline;
@@ -450,9 +438,8 @@ div.columnBlock, div.columnEven {
 				color:$homePageHeader;
 		}
 
-		p {
-			font-size: $fontSize;
-		}
+
+		
 		p#photoIntro {
 			clear:both;
 			/*margin: 0 0 0 336px;*/
@@ -474,6 +461,7 @@ div.columnBlock, div.columnEven {
 		}
 		
 	#galleries {
+		width: 100%;
 		ul {
 			li{
 				/*width: 138px;*/
@@ -504,27 +492,19 @@ div.columnBlock, div.columnEven {
 			margin: $lineHeight*9 0 0 17.17791411042945%;
 		}
 			
-	
-		nav li  {
-			p, a {
-				font-size: $fontSize+2;
-				letter-spacing: 2px;
-			}
-		}
 		nav#photo li a, nav#lib li a {
 				border:none;
 				background:none;
+				font-size: $fontSize+4;
 		}
 
-		#galleries a p {
-			font-size:$fontSize*.9;
-		}
 
 		nav#photo {
-			margin: 0;
+			width: 14.11042944785276%;
 			position: absolute;			
 			top: 110px;
-			width: 14.11042944785276%;
+			margin:0;
+			left:7%;
 			border-left: 2px solid $homePageBorder;
 			ul {
 				li {
@@ -550,7 +530,7 @@ div.columnBlock, div.columnEven {
 				text-align: right;
 			}	
 		}	
-
+		
 				
 	} /* end homePage*/
 
