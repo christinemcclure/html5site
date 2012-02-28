@@ -42,7 +42,7 @@ if (isset($_POST['submitted'])) {
 		mail($contact_email, "Mail from ChristineMcClure.com", $body, "From: {$scrubbed['email']}");
 
 	$cssclass = "hideForm";
-	$feedback= "<p class=\"clear\">Thank you for your message; I'll be in touch soon. Enjoy your day.</p>";
+	$feedback= "<p class=\"clear\">Thank you for your message; I'll be in touch soon.</p> <p>Enjoy your day.</p>";
 		
 		
 		// Clear $_POST (so that the form's not sticky):
