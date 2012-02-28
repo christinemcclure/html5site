@@ -34,7 +34,7 @@
   	<ul>
     		<li><a href="/resume">resum&eacute;</a></li>
     		<li><a href="/portfolio">portfolio</a></li>
-    		<li><a href="/the-lab">the lab</a></li>
+    		<li><a href="/lab">the lab</a></li>
     		<li><a href="/contactLib">contact</a></li>
     </ul>
   </nav>
