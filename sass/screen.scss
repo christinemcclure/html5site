@@ -300,6 +300,9 @@ div.columnBlock, div.columnEven {
 			clear:both;
 			margin: 0 02.24948875255624%; /* 22 / 978 */
 		}
+		div.columnBlock {
+			margin: 0 0 $lineHeight*2 3%;
+		}
 	}
 
 	#contactLib, #contactPhoto {
