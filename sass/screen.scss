@@ -77,6 +77,14 @@ h1 {
   font-size: $fontSize+6;
 }
 
+h2 {
+  font-size: $fontSize+2;
+}
+
+section {
+	margin: $lineHeight*2 0 0 0;
+}
+
 header {
 	background: $headerBackground;
 	padding: 1px;
@@ -95,15 +103,6 @@ header {
 	}
 }
 
-h2 {
-  font-size: $fontSize+2;
-}
-
-section {
-	margin: $lineHeight*2 0 0 0;
-}
-
-
 #art img.floatLeft, #about img.floatLeft {
 	width: 40%;
 	margin: $lineHeight;
@@ -114,7 +113,6 @@ section {
 		margin-top: $lineHeight;
 	}
 }
-
 
 nav#photo, nav#lib {
 	display:inline-block;
@@ -162,15 +160,6 @@ nav#lib {
 	input, textarea {
 		width: 100%;
 		margin: 0 0 $lineHeight 0;	
-	}
-}
-
-footer {
-	clear:both;
-	margin: $lineHeight*2 0 0 0;
-	p {
-		display:block;
-		text-align: center;
 	}
 }
 
@@ -223,6 +212,21 @@ footer {
 	}
 }
 
+footer {
+	clear:both;
+	margin: $lineHeight*2 0 0 0;
+	p {
+		display:block;
+		text-align: center;
+	}
+}
+
+div.columnBlock, div.columnEven {
+	li {
+		list-style: disc;
+		margin-left: 5%;
+	}
+}
 /* end mobile */
 
 @media screen and (min-width: 760px) {
@@ -251,7 +255,6 @@ nav select {
 		float:left;
 		margin: $lineHeight 0 $lineHeight 3%; /*  20/978  64/978*/
 		li {
-			list-style:disc;
 			margin-left:6%;
 		}
 	}	
