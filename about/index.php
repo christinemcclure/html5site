@@ -17,7 +17,7 @@
     <h3>Portals</h3>
     <h4>Looptopia, Chicago IL. May 2007</h4>
     <p class="floatLeft">This exhibit explored how people experience art. The images were encased in self-lit 6 x 6" boxes, with a large plastic loupe (magnifying glass) mounted to the top. Rather than discretely passing by the images, viewers had to walk directly up to them and peer inside. The images were arranged in groups of three, and let users explore alternate worlds of religion, nature and mythology.</p>
-    <p class="floatLeft"><a href="/fine-art">View gallery</a> </p><img class="floatLeft" src="/img/fineart/portal.png" alt="construction of portal frame." />
+    <p class="floatLeft"><a href="/art">View gallery</a> </p><img class="floatLeft" src="/img/fineart/portal.png" alt="construction of portal frame." />
 
     	<ul class="clear">
         <li>
