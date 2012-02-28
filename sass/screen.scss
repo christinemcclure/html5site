@@ -118,7 +118,7 @@ section {
 		}
 	}
 }
->>>>>>> 98daf1803036fd6c0879114916ba4eb715c51c83
+
 #art img.floatLeft, #about img.floatLeft {
 	width: 40%;
 	margin: $lineHeight;
@@ -211,7 +211,17 @@ nav#lib {
 	}
 }	
 	
+#contactLib, #contactPhoto {
+	.contactMessage {
+		width: 80%;
+		margin: 0 auto;
+	}
 
+	input, textarea {
+		width: 100%;
+		margin: 0 0 $lineHeight 0;	
+	}
+}
 
 footer {
 	clear:both;
@@ -295,7 +305,18 @@ nav select {
 
 	}/* end resume */
 
-
+	#contactLib, #contactPhoto {
+		.contactMessage {
+			width: 40%;
+			float:left;
+		}
+	
+		#showContactForm {
+			width: 50%;
+			float:right;
+			input.button {width: 20%;}
+		}
+	}
 	
 }/* min-width: 760px */
 

@@ -1,4 +1,4 @@
-/* line 17, ../../../RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 17, ../../.rvm/gems/ruby-1.9.2-p290/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -20,45 +20,45 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
-/* line 20, ../../../RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 20, ../../.rvm/gems/ruby-1.9.2-p290/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 body {
   line-height: 1;
 }
 
-/* line 22, ../../../RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 22, ../../.rvm/gems/ruby-1.9.2-p290/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 24, ../../../RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 24, ../../.rvm/gems/ruby-1.9.2-p290/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 26, ../../../RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 26, ../../.rvm/gems/ruby-1.9.2-p290/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle;
 }
 
-/* line 28, ../../../RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 28, ../../.rvm/gems/ruby-1.9.2-p290/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
   quotes: none;
 }
-/* line 101, ../../../RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 101, ../../.rvm/gems/ruby-1.9.2-p290/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q:before, q:after, blockquote:before, blockquote:after {
   content: "";
   content: none;
 }
 
-/* line 30, ../../../RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 30, ../../.rvm/gems/ruby-1.9.2-p290/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 a img {
   border: none;
 }
 
-/* line 114, ../../../RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 114, ../../.rvm/gems/ruby-1.9.2-p290/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
   display: block;
 }
@@ -335,7 +335,6 @@ section {
 }
 
 /* line 122, ../sass/screen.scss */
-> > > > > > > 98daf1803036fd6c0879114916ba4eb715c51c83
 #art img.floatLeft, #about img.floatLeft {
   width: 40%;
   margin: 22px;
@@ -441,45 +440,56 @@ nav#lib li:first-child {
   margin: 22px 0 0 0;
 }
 
-/* line 216, ../sass/screen.scss */
+/* line 215, ../sass/screen.scss */
+#contactLib .contactMessage, #contactPhoto .contactMessage {
+  width: 80%;
+  margin: 0 auto;
+}
+/* line 220, ../sass/screen.scss */
+#contactLib input, #contactLib textarea, #contactPhoto input, #contactPhoto textarea {
+  width: 100%;
+  margin: 0 0 22px 0;
+}
+
+/* line 226, ../sass/screen.scss */
 footer {
   clear: both;
   margin: 44px 0 0 0;
 }
-/* line 219, ../sass/screen.scss */
+/* line 229, ../sass/screen.scss */
 footer p {
   display: block;
   text-align: center;
 }
 
 @media screen and (min-width: 760px) {
-  /* line 230, ../sass/screen.scss */
+  /* line 240, ../sass/screen.scss */
   .page {
     padding: 20px 10px;
   }
 
-  /* line 234, ../sass/screen.scss */
+  /* line 244, ../sass/screen.scss */
   nav select {
     width: 20%;
     margin: 22px 0 22px 20%;
   }
 
-  /* line 240, ../sass/screen.scss */
+  /* line 250, ../sass/screen.scss */
   header h1 {
     font-size: 24px;
   }
 
-  /* line 243, ../sass/screen.scss */
+  /* line 253, ../sass/screen.scss */
   section H1.top {
     margin-top: 88px;
   }
 
-  /* line 247, ../sass/screen.scss */
+  /* line 257, ../sass/screen.scss */
   #galleries li a p {
     font-size: 16px;
   }
 
-  /* line 249, ../sass/screen.scss */
+  /* line 259, ../sass/screen.scss */
   div.columnBlock, div.columnEven {
     /* TWO COLUMNS (columnEven does not stretch to three) */
     width: 43.76278118609407%;
@@ -487,85 +497,99 @@ footer p {
     margin: 22px 0 22px 3%;
     /*  20/978  64/978*/
   }
-  /* line 253, ../sass/screen.scss */
+  /* line 263, ../sass/screen.scss */
   div.columnBlock li, div.columnEven li {
     list-style: disc;
     margin-left: 6%;
   }
 
-  /* line 260, ../sass/screen.scss */
+  /* line 270, ../sass/screen.scss */
   #about h2 + h3 + h4, #art h2 + h3 + h4 {
     margin-bottom: 22px;
   }
-  /* line 263, ../sass/screen.scss */
+  /* line 273, ../sass/screen.scss */
   #about p.floatLeft, #art p.floatLeft {
     /* 870 / 978 = 88.9570552147239% */
     width: 65.6441717791411%;
     margin: 0 4% 44px 0;
   }
-  /* line 268, ../sass/screen.scss */
+  /* line 278, ../sass/screen.scss */
   #about p.floatLeft + p.floatLeft, #art p.floatLeft + p.floatLeft {
     margin-top: -22px;
   }
-  /* line 271, ../sass/screen.scss */
+  /* line 281, ../sass/screen.scss */
   #about img.floatLeft, #art img.floatLeft {
     /* 222 / 978*/
     width: 22.6993865030675%;
     margin: 0 0 0 2%;
   }
-  /* line 276, ../sass/screen.scss */
+  /* line 286, ../sass/screen.scss */
   #about p.floatLeft + img, #art p.floatLeft + img {
     margin-top: -44px;
   }
-  /* line 279, ../sass/screen.scss */
+  /* line 289, ../sass/screen.scss */
   #about p.floatLeft + p.floatLeft + img, #art p.floatLeft + p.floatLeft + img {
     margin-top: -198px;
   }
 
-  /* line 286, ../sass/screen.scss */
+  /* line 296, ../sass/screen.scss */
   #resume h3, #resume h3 + p {
     clear: both;
     margin: 0 02.24948875255624%;
     /* 22 / 978 */
   }
-  /* line 291, ../sass/screen.scss */
+  /* line 301, ../sass/screen.scss */
   #resume li h4 {
     margin-top: 0;
   }
 
   /* end resume */
+  /* line 309, ../sass/screen.scss */
+  #contactLib .contactMessage, #contactPhoto .contactMessage {
+    width: 40%;
+    float: left;
+  }
+  /* line 314, ../sass/screen.scss */
+  #contactLib #showContactForm, #contactPhoto #showContactForm {
+    width: 50%;
+    float: right;
+  }
+  /* line 317, ../sass/screen.scss */
+  #contactLib #showContactForm input.button, #contactPhoto #showContactForm input.button {
+    width: 20%;
+  }
 }
 /* min-width: 760px */
 @media screen and (min-width: 1008px) {
   /* change to desktop nav */
-  /* line 306, ../sass/screen.scss */
+  /* line 327, ../sass/screen.scss */
   nav select {
     display: none;
   }
 
-  /* line 307, ../sass/screen.scss */
+  /* line 328, ../sass/screen.scss */
   nav {
     width: 876px;
     /* using fixed width because it stretches too much otherwise */
     margin: 0 auto;
   }
-  /* line 310, ../sass/screen.scss */
+  /* line 331, ../sass/screen.scss */
   nav li {
     cursor: pointer;
   }
-  /* line 311, ../sass/screen.scss */
+  /* line 332, ../sass/screen.scss */
   nav a {
     color: #574236;
     font-weight: normal;
   }
 
-  /* line 314, ../sass/screen.scss */
+  /* line 335, ../sass/screen.scss */
   #mainNav.navList {
     display: block !important;
     float: left;
     margin-top: 22px;
   }
-  /* line 318, ../sass/screen.scss */
+  /* line 339, ../sass/screen.scss */
   #mainNav.navList li {
     clear: both;
     font-size: 16px;
@@ -573,17 +597,17 @@ footer p {
     /*20/876*/
     color: #c0a367;
   }
-  /* line 324, ../sass/screen.scss */
+  /* line 345, ../sass/screen.scss */
   #mainNav.navList li:last-child {
     margin-bottom: 44px;
   }
 
-  /* line 327, ../sass/screen.scss */
+  /* line 348, ../sass/screen.scss */
   li.activeMain {
     color: #574236 !important;
   }
 
-  /* line 328, ../sass/screen.scss */
+  /* line 349, ../sass/screen.scss */
   li.activeSub a {
     color: #ed5045;
     font-weight: 900;
@@ -597,53 +621,53 @@ footer p {
   		nav #photoNav.navList {display:inline-block !important;}
   	}
   */
-  /* line 339, ../sass/screen.scss */
+  /* line 360, ../sass/screen.scss */
   #photoNav.navList, #libNav.navList {
     display: inline-block;
   }
 
-  /* line 342, ../sass/screen.scss */
+  /* line 363, ../sass/screen.scss */
   #photoNav, #libNav {
     width: 748px;
     float: right;
   }
-  /* line 345, ../sass/screen.scss */
+  /* line 366, ../sass/screen.scss */
   #photoNav li, #libNav li {
     text-align: center;
     width: 106px;
     float: left;
   }
 
-  /* line 354, ../sass/screen.scss */
+  /* line 375, ../sass/screen.scss */
   #photoNav li {
     margin: 22px 0 0 0;
   }
 
-  /* line 360, ../sass/screen.scss */
+  /* line 381, ../sass/screen.scss */
   #libNav li {
     margin: 44px 13% 0 0;
   }
-  /* line 363, ../sass/screen.scss */
+  /* line 384, ../sass/screen.scss */
   #libNav li:last-child {
     margin: 44px 0 0 0;
   }
 
-  /* line 368, ../sass/screen.scss */
+  /* line 389, ../sass/screen.scss */
   #libNav.noJS {
     /* Need this to position in case user disables JS. Remove class with JS */
   }
-  /* line 369, ../sass/screen.scss */
+  /* line 390, ../sass/screen.scss */
   #libNav.noJS li {
     margin-top: 0;
   }
 
-  /* line 376, ../sass/screen.scss */
+  /* line 397, ../sass/screen.scss */
   body {
     margin: 44px 0 0 0;
     padding: 0;
   }
 
-  /* line 382, ../sass/screen.scss */
+  /* line 403, ../sass/screen.scss */
   .page {
     /* width: 978px; */
     /*Total with works out to 1008, but need more for padding*/
@@ -653,7 +677,7 @@ footer p {
     /* pad more right and left later */
     /* end header */
   }
-  /* line 388, ../sass/screen.scss */
+  /* line 409, ../sass/screen.scss */
   .page header {
     overflow: auto;
     width: 100%;
@@ -661,7 +685,7 @@ footer p {
     padding: 0;
     /*width: 978px; */
   }
-  /* line 395, ../sass/screen.scss */
+  /* line 416, ../sass/screen.scss */
   .page header h1 {
     font-size: 37.4px;
     display: inline;
@@ -671,7 +695,7 @@ footer p {
     margin: 0 0 0 2%;
     padding: 20px 0 24px 0;
   }
-  /* line 405, ../sass/screen.scss */
+  /* line 426, ../sass/screen.scss */
   .page header p {
     display: inline;
     float: right;
@@ -679,22 +703,22 @@ footer p {
     margin: 24px 2% 0 0;
   }
 
-  /* line 420, ../sass/screen.scss */
+  /* line 441, ../sass/screen.scss */
   #homePage {
     /* end header */
     /* end galleries */
   }
-  /* line 422, ../sass/screen.scss */
+  /* line 443, ../sass/screen.scss */
   #homePage header {
     width: 86%;
     position: absolute;
     margin: 264px 0 0 0;
   }
-  /* line 426, ../sass/screen.scss */
+  /* line 447, ../sass/screen.scss */
   #homePage header a:hover {
     font-weight: normal;
   }
-  /* line 432, ../sass/screen.scss */
+  /* line 453, ../sass/screen.scss */
   #homePage h2 {
     /*width: 306px / 978px;*/
     width: 31.28834355828221%;
@@ -706,21 +730,21 @@ footer p {
     text-align: left;
     color: #c0a367;
   }
-  /* line 444, ../sass/screen.scss */
+  /* line 465, ../sass/screen.scss */
   #homePage p {
     font-size: 14px;
   }
-  /* line 447, ../sass/screen.scss */
+  /* line 468, ../sass/screen.scss */
   #homePage p#photoIntro {
     clear: both;
     /*margin: 0 0 0 336px;*/
     margin: 176px 0 0 34.3558282208589%;
   }
-  /* line 453, ../sass/screen.scss */
+  /* line 474, ../sass/screen.scss */
   #homePage #photoHeader {
     margin: -2px 0 0 0;
   }
-  /* line 456, ../sass/screen.scss */
+  /* line 477, ../sass/screen.scss */
   #homePage #libHeader {
     position: absolute;
     letter-spacing: 5px;
@@ -731,7 +755,7 @@ footer p {
     top: 438px;
     right: 7%;
   }
-  /* line 469, ../sass/screen.scss */
+  /* line 490, ../sass/screen.scss */
   #homePage #galleries ul li {
     /*width: 138px;*/
     width: 14.11042944785276%;
@@ -740,39 +764,39 @@ footer p {
     /*margin: 0 0 2px 30px;*/
     margin: 0 0 2px 3.06748466257669%;
   }
-  /* line 479, ../sass/screen.scss */
+  /* line 500, ../sass/screen.scss */
   #homePage #galleries img {
     margin-bottom: 8px;
   }
-  /* line 484, ../sass/screen.scss */
+  /* line 505, ../sass/screen.scss */
   #homePage #libFigure {
     clear: both;
     /*width: 138px; */
     width: 14.11042944785276%;
     margin: 150px 0 0 0;
   }
-  /* line 491, ../sass/screen.scss */
+  /* line 512, ../sass/screen.scss */
   #homePage p#libIntro {
     /*width: 558px;*/
     width: 57.05521472392638%;
     /*margin: -100px 0 0 168px;*/
     margin: 198px 0 0 17.178%;
   }
-  /* line 500, ../sass/screen.scss */
+  /* line 521, ../sass/screen.scss */
   #homePage nav li p, #homePage nav li a {
     font-size: 16px;
     letter-spacing: 2px;
   }
-  /* line 505, ../sass/screen.scss */
+  /* line 526, ../sass/screen.scss */
   #homePage nav#photo li a, #homePage nav#lib li a {
     border: none;
     background: none;
   }
-  /* line 510, ../sass/screen.scss */
+  /* line 531, ../sass/screen.scss */
   #homePage #galleries a p {
     font-size: 12.6px;
   }
-  /* line 514, ../sass/screen.scss */
+  /* line 535, ../sass/screen.scss */
   #homePage nav#photo {
     margin: 0;
     position: absolute;
@@ -780,13 +804,13 @@ footer p {
     width: 14.11042944785276%;
     border-left: 2px solid #c0a367;
   }
-  /* line 521, ../sass/screen.scss */
+  /* line 542, ../sass/screen.scss */
   #homePage nav#photo ul li {
     margin: 0 8px;
     /*width: 138px;*/
     clear: both;
   }
-  /* line 529, ../sass/screen.scss */
+  /* line 550, ../sass/screen.scss */
   #homePage nav#lib {
     width: 14.11042944785276%;
     position: absolute;
@@ -796,7 +820,7 @@ footer p {
     top: 484px;
     border-right: 2px solid #c0a367;
   }
-  /* line 537, ../sass/screen.scss */
+  /* line 558, ../sass/screen.scss */
   #homePage nav#lib ul li {
     width: 100%;
     margin: 0 -4px;
@@ -805,18 +829,18 @@ footer p {
   }
 
   /* end homePage*/
-  /* line 550, ../sass/screen.scss */
+  /* line 571, ../sass/screen.scss */
   footer p {
     width: 40%;
     display: inline;
     font-family: "Questrial", Verdana, Arial, sans-serif;
     font-size: 12px;
   }
-  /* line 555, ../sass/screen.scss */
+  /* line 576, ../sass/screen.scss */
   footer p a {
     font-weight: 900;
   }
-  /* line 558, ../sass/screen.scss */
+  /* line 579, ../sass/screen.scss */
   footer p.copyright {
     width: 40%;
     /* width keeps this line from popping down */
@@ -830,30 +854,30 @@ footer p {
 /* *** end min-width: 1008 *** */
 /* Since using absolute positioning, handle those elements as screen width grows */
 @media screen and (min-width: 1100px) {
-  /* line 577, ../sass/screen.scss */
+  /* line 598, ../sass/screen.scss */
   header h1 {
     font-size: 44px;
     margin: 0 0 0 4%;
   }
-  /* line 581, ../sass/screen.scss */
+  /* line 602, ../sass/screen.scss */
   header p {
     margin: 24px 4% 0 0;
   }
 
-  /* line 587, ../sass/screen.scss */
+  /* line 608, ../sass/screen.scss */
   #homePage header {
     margin: 286px 0 0 0;
   }
-  /* line 590, ../sass/screen.scss */
+  /* line 611, ../sass/screen.scss */
   #homePage #libIntro {
     margin: -114px 0 0 17.178%;
   }
-  /* line 594, ../sass/screen.scss */
+  /* line 615, ../sass/screen.scss */
   #homePage footer {
     margin: 66px 0 0 0;
   }
 
-  /* line 599, ../sass/screen.scss */
+  /* line 620, ../sass/screen.scss */
   div.columnBlock {
     /* THREE COLUMNS Only need to change width */
     width: 30%;
@@ -862,53 +886,53 @@ footer p {
 }
 @media screen and (min-width: 1238px) {
   /* where photoIntro goes to two lines */
-  /* line 608, ../sass/screen.scss */
+  /* line 629, ../sass/screen.scss */
   #homePage p#photoIntro {
     margin: 198px 0 0 34.3558282208589%;
   }
-  /* line 612, ../sass/screen.scss */
+  /* line 633, ../sass/screen.scss */
   #homePage #libIntro {
     margin: -106px 0 0 17.178%;
   }
-  /* line 615, ../sass/screen.scss */
+  /* line 636, ../sass/screen.scss */
   #homePage footer {
     margin: 88px 0 0 0;
   }
 }
 @media screen and (min-width: 1300px) {
-  /* line 626, ../sass/screen.scss */
+  /* line 647, ../sass/screen.scss */
   #homePage #libIntro {
     margin: -118px 0 0 17.178%;
   }
-  /* line 629, ../sass/screen.scss */
+  /* line 650, ../sass/screen.scss */
   #homePage #libHeader {
     top: 460px;
   }
-  /* line 632, ../sass/screen.scss */
+  /* line 653, ../sass/screen.scss */
   #homePage nav#lib {
     top: 506px;
   }
 }
 @media screen and (min-width: 1400px) {
-  /* line 641, ../sass/screen.scss */
+  /* line 662, ../sass/screen.scss */
   header p {
     font-size: 14px;
     margin: 22px 4% 0 0;
   }
 
-  /* line 649, ../sass/screen.scss */
+  /* line 670, ../sass/screen.scss */
   #homePage header {
     margin: 308px 0 0 0;
   }
-  /* line 652, ../sass/screen.scss */
+  /* line 673, ../sass/screen.scss */
   #homePage #libHeader {
     top: 482px;
   }
-  /* line 655, ../sass/screen.scss */
+  /* line 676, ../sass/screen.scss */
   #homePage nav#lib {
     top: 528px;
   }
-  /* line 658, ../sass/screen.scss */
+  /* line 679, ../sass/screen.scss */
   #homePage footer {
     margin: 110px 0 0 0;
   }
