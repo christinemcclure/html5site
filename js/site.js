@@ -8,8 +8,6 @@ $(document).ready(function() {
 	$('li#photo').click(function () {
 		$(this).addClass('activeMain');
 		$('li#lib').removeClass('activeMain');
-//		$('#libNav').removeClass('showInline').addClass('hide');	
-//		$('#photoNav').removeClass('hide').addClass('showInline');	
 		$('#libNav').css('display','none');	
 		$('#photoNav').css('display','inline');
 	});
@@ -17,8 +15,6 @@ $(document).ready(function() {
 	$('li#lib').click(function () {
 		$(this).addClass('activeMain');
 		$('li#photo').removeClass('activeMain');
-//		$('#photoNav').removeClass('showInline').addClass('hide');	
-//		$('#libNav').removeClass('hide').addClass('showInline');	
 		$('#photoNav').css('display','none');	
 		$('#libNav').css('display','inline');
 	});
