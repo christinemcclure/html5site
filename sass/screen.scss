@@ -68,7 +68,7 @@ header, #homePage h2, #homePage h3 {
   text-align:center;
 }
 
-header, h1, h2, h3, h4, h5, h6, section, footer {
+h1, h2, h3, h4, h5, h6, section, footer {
 	clear: both;
   margin: $lineHeight 0;
 }
@@ -230,27 +230,21 @@ div.columnBlock, div.columnEven {
 /* end mobile */
 
 @media screen and (min-width: 760px) {
-
-  .page {
-		padding: 20px 10px;
+	nav select { 
+		width: 20%;
+		margin: $lineHeight 0 $lineHeight 20%;
 	}
-
-nav select { 
-	width: 20%;
-	margin: $lineHeight 0 $lineHeight 20%;
-}
 	
 	header {
 		h1 {font-size: $fontSize+10;}
 	}
-	
-	section H1.top  {
-		margin-top:$lineHeight*4;
-	}
-	
-#galleries li a p {font-size:$fontSize+2px;}
+		
+#galleries li a p {
+	font-size:$fontSize+2px;
+}
 
-	div.columnBlock, div.columnEven { /* TWO COLUMNS (columnEven does not stretch to three) */
+	div.columnBlock, div.columnEven { 
+	/* TWO COLUMNS (columnEven does not stretch to three) */
 		width: 43.76278118609407%;		
 		float:left;
 		margin: $lineHeight 0 $lineHeight 3%; /*  20/978  64/978*/
@@ -260,9 +254,6 @@ nav select {
 	}	
 
 	#about, #art {
-		h2 + h3 + h4 {
-			margin-bottom: $lineHeight;
-		}
 		p.floatLeft {
 			/* 870 / 978 = 88.9570552147239% */
 			width: 65.6441717791411%;
