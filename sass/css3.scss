@@ -19,9 +19,10 @@ $radius: 10px;
 	@include border-radius(5px);
 }
 
-a:hover, #galleries li :hover, header, #mainNav li:hover {
+a:hover, #galleries li :hover, header, #mainNav li:hover:not(.activeMain) {
 	text: $textHoverColor;
   text-shadow: 4px 4px 8px $textShadowColor;
   filter: dropshadow(color=$textShadowColor, offx=4, offy=4);
 	border:none;
 }
+

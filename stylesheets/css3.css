@@ -29,7 +29,7 @@ because they are still in development
 }
 
 /* line 22, ../sass/css3.scss */
-a:hover, #galleries li :hover, header, #mainNav li:hover {
+a:hover, #galleries li :hover, header, #mainNav li:hover:not(.activeMain) {
   text: #c0a367;
   text-shadow: 4px 4px 8px #424242;
   filter: dropshadow(color=#424242, offx=4, offy=4);
