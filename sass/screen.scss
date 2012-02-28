@@ -232,7 +232,7 @@ div.columnBlock, div.columnEven {
 @media screen and (min-width: 760px) {
 	nav select { 
 		width: 20%;
-		margin: $lineHeight 0 $lineHeight 20%;
+		margin-left: 20%;
 	}
 	
 	header {
@@ -272,6 +272,10 @@ div.columnBlock, div.columnEven {
 		}
 		p.floatLeft + p.floatLeft +img{
 			margin-top: -$lineHeight*9;
+		}
+
+		div.columnBlock li {
+			list-style:none;	
 		}
 	}
 
