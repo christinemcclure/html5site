@@ -96,9 +96,10 @@ nav {
 	font-family: $bodyFont;
 }
 
-.hide {display:none;} 
+.hide {display:none !important;} 
 .showInline {display:inline;}
 .showBlock {display:block;}
+.showInlineBlock {display:inline-block;}
 
 .floatRight {
 	float:right;

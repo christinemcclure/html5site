@@ -7,16 +7,13 @@ $(document).ready(function() {
 	// errors resolved from http://www.latentmotion.com/separating-jquery-functions-into-external-files-without-selectors/		
 	(function($){
 				setNav=function(navType, page) {
+				setNavType();
 				$('#'+navType).addClass('activeMain'); // emphasize Photography or Librarianship
 				if (navType.indexOf('lib')===-1){ //show photo
-					$('#photoNav').css('display','inline');
-					$('#libNav').css('display','none');						
 					$('#photoSelect').children('option:selected', 'select').removeAttr('selected');
 					$('#photoSelect').val('/'+page);
 				}
 				else { //show lib
-					$('#libNav').css('display','inline');
-					$('#photoNav').css('display','none');		
 					$('#libSelect').children('option:selected', 'select').removeAttr('selected');
 					$('#libSelect').val('/'+page);
 				}
@@ -29,14 +26,18 @@ $(document).ready(function() {
 	(function($){ 
 		setNavType=function() {
 			if ($(window).width() < 1008 ) {
-				 $('#photoSelect').css('display', 'inline-block !important');
-				 $('#libSelect').css('display', 'inline-block !important');
-				 $('.navList').css('display', 'none !important');
+				 $('#photoSelect').removeClass('hide').addClass('showInlineBlock');
+				 $('#libSelect').removeClass('hide').addClass('showInlineBlock');
+				 $('#mainNav').removeClass('showBlock').addClass('hide');
+				 $('#photoNav').removeClass('showInline').addClass('hide');
+				 $('#libNav').removeClass('showInline').addClass('hide');
 			}
 			else {
-				 $('#photoSelect').css('display', 'none !important');
-				 $('#libSelect').css('display', 'none !important');
-				 $('.navList').css('display', 'inline-block !important');
+				 $('#photoSelect').removeClass('showInlineBlock').addClass('hide');
+				 $('#libSelect').removeClass('showInlineBlock').addClass('hide');
+				 $('#mainNav').removeClass('hide').addClass('showBlock');
+				 $('#photoNav').removeClass('hide').addClass('showInline');
+				 $('#libNav').removeClass('hide').addClass('showInline');
 			}
 		}
 	})($);
@@ -73,9 +74,6 @@ $(document).ready(function() {
 	$("nav select").change(function() {
 		window.location = $(this).find("option:selected").val();
 	});
-	
-	setNavType();
-
 	
 			
 	$(window).resize(function() {

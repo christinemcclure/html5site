@@ -3,9 +3,6 @@
 
 /*   ************ MOBILE / GENERIC SETTINGS ***********     */
 
-@media screen and (max-width: 1008px) { /* this fixes display problem between desktop and mobile, but not sure why */
-	nav ul.navList  { display: none !important; }
-}
 
 .photoSwipe {
 	font-size: $fontSize+2;
@@ -38,7 +35,6 @@ li.activeSub a, .navList li a:hover {
 	font-weight:900;
 } 
 
-#photoNav.navList, #libNav.navList {display:inline-block !important;}	
 #photoNav, #libNav {
 	position: absolute;
 	width: 100%; 
@@ -59,7 +55,7 @@ li.activeSub a, .navList li a:hover {
 }
 
 #mainNav.navList {
-	display:inline-block !important;
+	display:inline-block;
 	float:left;
 	margin-top:$lineHeight;
 	li {
@@ -71,6 +67,7 @@ li.activeSub a, .navList li a:hover {
 	li:last-child {margin-bottom: $lineHeight*2;}
 }
 
+#photoNav.navList, #libNav.navList {display:inline-block;}	
 
 
 

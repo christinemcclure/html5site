@@ -1,12 +1,12 @@
 <nav>
 	<h1 class="hide">Navigation</h1>
 	<h2 class="hide">Desktop Navigation</h2>
-	<ul id="mainNav" class="navList">
+	<ul id="mainNav" class="navList showBlock">
   	<li id="photo">Photography</li>
   	<li id="lib">Librarianship</li>
   </ul>    
 
-   <ul id="photoNav" class="navList">
+   <ul id="photoNav" class="navList showInline">
     <li id="aboutNav"><a href="/about">About</a></li>
     <li id="pricingNav"><a href="/pricing">Pricing</a></li>
     <li id="artNav"><a href="/art">Fine Art</a></li>
@@ -16,7 +16,7 @@
     <li id="contactPhotoNav"><a href="/contactPhoto">Contact</a></li>
   </ul>
 
-  <ul id="libNav" class="navList noJS">
+  <ul id="libNav" class="navList showInline">
     <li id="resumeNav"><a href="/resume">Resum&eacute;</a></li>
     <li id="portfolioNav"><a href="/portfolio">Portfolio</a></li>
     <li id="labNav"><a href="/lab">The Lab</a></li>
@@ -25,7 +25,7 @@
 
 	<h2 class="hide">Small-screen Navigation: Photography</h2>
   
-  <select id="photoSelect">
+  <select id="photoSelect" class="hide">
     <option value="" selected="selected">Photography</option> 
     <option value="/about">About</option>
     <option value="/pricing">Pricing</option>
@@ -38,9 +38,8 @@
 
 
 	<h2 class="hide">Small-screen Navigation: Librarianship</h2>
-  <select id="libSelect">
+  <select id="libSelect" class="hide">
     <option value="" selected="selected">Librarianship</option> 
-
     <option value="/resume">Resum&eacute;</option>
     <option value="/portfolio">Portfolio</option>
     <option value="/lab">The Lab</option>
