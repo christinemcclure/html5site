@@ -30,12 +30,6 @@ After the event, you will receive a CD of web-quality images (600x400 pixels at 
 
 <?php include '../includes/footer.html'; ?>
 </div>
-<script type="text/javascript">
-	$(document).ready(function() {
-		// set initial nav state for this page
-			setNav("photo", "pricing");			
-	});
-</script>
 </body>
 
 </html>

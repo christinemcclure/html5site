@@ -58,17 +58,6 @@
 <?php include '../includes/footer.html'; ?>
 </div>
 
-<script type="text/javascript">
-	$(document).ready(function() {												 
-		setNav("photo", "about");
-			$(window).resize(function() {
-					clearTimeout(resizeTimer);
-					resizeTimer = setTimeout(setNav("photo", "about"), 2000);
-			});
-
-	});
-</script>
-
 </body>
 
 </html>

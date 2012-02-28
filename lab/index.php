@@ -26,12 +26,7 @@
 
 <?php include '../includes/footer.html'; ?>
 </div>
-<script type="text/javascript">
-	$(document).ready(function() {
-		// set initial nav state for this page
-			setNav("lib", "lab");			
-	});
-</script>
+
 </body>
 
 </html>

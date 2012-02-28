@@ -14,9 +14,6 @@
 <?php include '../includes/header.html'; ?>
 <?php include '../includes/nav.html'; ?>
 
-	
-
-
 	<section>
   	<h1 class="top">Portfolio</h1>
 		<p>Here are a few things I've designed over the years...</p>
@@ -92,7 +89,6 @@
 <script type="text/javascript">
 	$(document).ready(function() {
 		// set initial nav state for this page
-			setNav("lib", "portfolio");	
 			setAllGalleryHeights('.photoSwipe', 500);								
 	});
 </script>

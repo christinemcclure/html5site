@@ -163,8 +163,6 @@
 
 <script type="text/javascript">
 	$(document).ready(function() {
-		// set initial nav state for this page
-			setNav("photo", "art");		
 			setAllGalleryHeights('.photoSwipe');			
 	});
 </script>

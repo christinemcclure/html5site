@@ -20,14 +20,16 @@
 mobile nav */
 nav select { 
 	display: none; /* display with JS */
-	float:left;
-	width: 40%;
-	margin: $lineHeight 0 $lineHeight*2 7%;
+	width: 70%;
+	margin: $lineHeight 0 $lineHeight 15%;
 	color: $navBasicColor;
 	font-size:$fontSize+2;
 	background: $selectBackgroundColor;
 	border: 2px solid $selectBorderColor;
 }
+
+
+#photoSelect {margin-top: $lineHeight*2;}
 
 li.activeMain {color:$navBasicColor !important;}
 li.activeSub a, .navList li a:hover {
@@ -67,7 +69,7 @@ li.activeSub a, .navList li a:hover {
 	li:last-child {margin-bottom: $lineHeight*2;}
 }
 
-#photoNav.navList, #libNav.navList {display:inline-block;}	
+#photoNav.navList, #libNav.navList {display:inline;}	
 
 
 
@@ -249,8 +251,9 @@ div.columnBlock, div.columnEven {
 /**** TABLETS ****/
 @media screen and (min-width: 760px) {
 	nav select { 
-		width: 20%;
-		margin-left: 20%;
+		width: 30%;
+		float:left;
+		margin: $lineHeight*2 0 $lineHeight*2 15%;
 	}
 	
 	header {
@@ -335,44 +338,38 @@ div.columnBlock, div.columnEven {
 @media screen and (min-width: 1008px) {
 
 	nav {
-			width: 876px; /* using fixed width because it stretches too much otherwise */
-			margin: 0 auto;
+		width: 100%;
+		border:1 px solid green;
+		padding: 0 6px;
 			li {cursor:pointer;}
 			a {color:$navBasicColor; font-weight:normal;}
 	}
 
 	#mainNav.navList {
+		width: 15%;
 		li {
-			margin:0 20px 0 0; /*20/876*/
+			margin:0;
 		}
 	}		
 	
 	#photoNav, #libNav {
-		width: 748px; 
+		width: 85%;
+		position: relative;
 		float:right;
+		margin: $lineHeight 0 0 0;
 		li {
-			text-align:center;
-			width: 106px;
+			width: 14%;
 			float:left;
+			margin: 0;
+			border: 1 px solid green;
 		}
 		
 	}
-
-	#photoNav {
-		li{
-			margin: $lineHeight 0 0 0;
-		}
-	}
 	
 	#libNav {
-		li{
-			margin: 0 13% 0 0;
-		}
-		li:last-child{
-			margin: 0 0 0 0;
-		}
+		margin: 0;
 	}
-	
+
 	#libNav.noJS { /* Need this to position in case user disables JS. Remove class with JS */
 		li {
 			margin-top:0;

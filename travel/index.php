@@ -138,9 +138,7 @@
 	</script>
 
 <script type="text/javascript">
-	$(document).ready(function() {
-		// set initial nav state for this page
-			setNav("photo", "travel");			
+	$(document).ready(function() {			
 			setAllGalleryHeights('.photoSwipe');								
 	});
 </script>
