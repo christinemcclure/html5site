@@ -10,6 +10,7 @@
 	<?php include '../includes/header.html'; ?>
   <?php include '../includes/nav.html'; ?>
   <section>
+		<h1>Contact Me</h1>
 	  <?php include '../includes/form.php'; ?>
   </section>
   <?php include '../includes/footer.html'; ?>
