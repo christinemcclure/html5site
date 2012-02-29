@@ -27,7 +27,7 @@ body {
 
 /* *** NAVIGATION
 
-mobile nav */
+mobile nav with JS*/
 nav select { 
 	display: none; /* display with JS */
 	width: 70%;
@@ -37,26 +37,24 @@ nav select {
 	background: $selectBackgroundColor;
 	border: 2px solid $selectBorderColor;
 }
-
-
 #photoSelect {margin-top: $lineHeight*2;}
 
-li.activeMain {color:$navBasicColor !important;}
-.navList li a:hover {
-	color:$navHighlightColor; 
-	font-weight:900;
-} 
-
+/*basic nav settings */
 nav {
 	padding: 0 6px;
 		li {cursor:pointer;}
 		a {color:$navBasicColor; font-weight:normal;}
 }
 
+.navList li a:hover {
+	color:$navHighlightColor; 
+	font-weight:900;
+} 
 
 #photoNav, #libNav {
 	position: absolute;
 	margin-left:2%;
+	margin-top: $lineHeight*2;
 	float:left;
 	left: 40px;
 	li {
@@ -67,15 +65,16 @@ nav {
 	}
 }
 
-#photoNav {
-	margin-top: $lineHeight*2;
-}
 #libNav {
 	margin-top: $lineHeight*7;
 }
 
 #libNav.noJS { /* Need this to position in case user disables JS. Remove class with JS */
 	margin-top: $lineHeight*6;
+}
+
+nav.noJS + section h1{
+	padding-top: $lineHeight*2;
 }
 
 #mainNav.navList {
@@ -89,22 +88,16 @@ nav {
 		color:$navInactiveColor;
 	}
 	li:last-child {margin-bottom: $lineHeight*2;}
+	li.activeMain {color:$navBasicColor !important;}
 }
 
-#photoNav.navList, #libNav.navList {display:inline;}	
-
-  #about #aboutNav a, #pricing #pricingNav a, #art #artNav a, 
-	#portraits #portraitsNav a, #events #eventsNav a, #travel #travelNav a, 
-	#contactPhoto #contactPhotoNav a, #resume #resumeNav a, #portfolio #portfolioNav a, 
-	#lab #labNav a, #contactLib #contactLibNav a {
-    font-weight:900;
-		color: $navHighlightColor;
-	}
-
-nav.noJS + section h1{
-	padding-top: $lineHeight*2;
+#about #aboutNav a, #pricing #pricingNav a, #art #artNav a, 
+#portraits #portraitsNav a, #events #eventsNav a, #travel #travelNav a, 
+#contactPhoto #contactPhotoNav a, #resume #resumeNav a, #portfolio #portfolioNav a, 
+#lab #labNav a, #contactLib #contactLibNav a {
+	font-weight:900;
+	color: $navHighlightColor;
 }
-
 
 strong {
 	color:$strongColor;
