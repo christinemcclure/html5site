@@ -48,7 +48,6 @@ li.activeMain {color:$navBasicColor !important;}
 } 
 
 nav {
-	width: 100%;
 	padding: 0 6px;
 		li {cursor:pointer;}
 		a {color:$navBasicColor; font-weight:normal;}
@@ -57,13 +56,12 @@ nav {
 
 #photoNav, #libNav {
 	position: absolute;
-	width: 100%; 
+	margin-left:2%;
 	float:left;
 	left: 40px;
 	li {
 		width: 100px;
 		float:left;
-		margin-left: 10px;
 		a {
 		}
 	}
@@ -278,6 +276,13 @@ div.columnBlock, div.columnEven {
 		width: 30%;
 		float:left;
 		margin: $lineHeight*2 0 $lineHeight*2 15%;
+	}
+
+	#mainNav.navList li{
+		margin-bottom: $lineHeight*2;
+	}
+	#libNav.noJS { 
+		margin-top: $lineHeight*5;
 	}
 
 	nav.noJS + section h1{
