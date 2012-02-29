@@ -231,7 +231,7 @@ header {
 	}
 	#lib {
 		li{
-			margin: 0 0 0 4%;
+			margin: 0 0 0 3.7%;
 		}
 	}
 
@@ -290,7 +290,16 @@ div.columnBlock, div.columnEven {
 }
 /* end mobile */
 
+@media screen and (min-width: 400px) {
+	#homePage #lib {
+	}
+}
 
+@media screen and (min-width: 630px) {
+	#homePage #lib {
+		padding: $lineHeight*2 0;
+	}
+}
 /**** TABLETS ****/
 @media screen and (min-width: 760px) {
 	nav select { 
