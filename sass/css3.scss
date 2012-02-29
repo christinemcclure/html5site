@@ -15,6 +15,7 @@ $radius: 10px;
 	@include border-radius($radius);
 }
 
+
 #homePage img, header, .page, input, textarea {
 	@include border-radius(5px);
 }

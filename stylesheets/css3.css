@@ -18,7 +18,7 @@ because they are still in development
   border-radius: 10px;
 }
 
-/* line 18, ../sass/css3.scss */
+/* line 19, ../sass/css3.scss */
 #homePage img, header, .page, input, textarea {
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
@@ -28,7 +28,7 @@ because they are still in development
   border-radius: 5px;
 }
 
-/* line 22, ../sass/css3.scss */
+/* line 23, ../sass/css3.scss */
 a:hover, #galleries li :hover, header, #mainNav li:hover:not(.activeMain) {
   text: #c0a367;
   text-shadow: 4px 4px 8px #424242;
@@ -37,19 +37,19 @@ a:hover, #galleries li :hover, header, #mainNav li:hover:not(.activeMain) {
 }
 
 /* PhotoSwipe settings */
-/* line 31, ../sass/css3.scss */
+/* line 32, ../sass/css3.scss */
 #gallery1, #gallery2, #gallery3, #gallery4, #gallery5, #gallery6 {
   width: 100%;
   margin: 0 auto;
 }
 
-/* line 32, ../sass/css3.scss */
+/* line 33, ../sass/css3.scss */
 #Indicators {
   text-align: center;
   margin-top: 20px;
 }
 
-/* line 33, ../sass/css3.scss */
+/* line 34, ../sass/css3.scss */
 #Indicators span {
   display: inline-block;
   height: 10px;
@@ -64,7 +64,7 @@ a:hover, #galleries li :hover, header, #mainNav li:hover:not(.activeMain) {
   overflow: hidden;
 }
 
-/* line 34, ../sass/css3.scss */
+/* line 35, ../sass/css3.scss */
 #Indicators span.current {
   background: #EEBF02;
 }

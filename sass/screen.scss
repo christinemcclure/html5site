@@ -199,7 +199,10 @@ header {
 }
 
 #homePage {
-	h2 {font-size: $fontSize+6;}
+	h2 {
+		font-size: $fontSize+6;
+		color:$homePageHeader;
+	}
 	nav li {
 		font-size: 9px;
 	}
@@ -211,13 +214,13 @@ header {
 			width: 20%;
 			float:left;
 			text-align:center;
-			background:yellow;
-			border: 1px solid $brown;
-			background:$aqua;
-			color:$brown;
+			border: 2px solid $homePageNavBorder;
+			color:$navBasicColor;
 			white-space:nowrap;
 		}
 		a {
+			color:$red;
+			font-weight:900;
 			padding: 4px 10px;
 		}
 	}
@@ -227,6 +230,7 @@ header {
 		}
 	}
 	#lib {
+		padding: $lineHeight*2 0;
 		li{
 			margin: 0 0 0 4%;
 		}
@@ -556,10 +560,12 @@ div.columnBlock, div.columnEven {
 			margin: $lineHeight*9 0 0 17.17791411042945%;
 		}
 			
-		nav#photo li, nav#lib li, nav li a {
+		#photo a, #lib a, #photo li, #lib li {
 				border:none;
 				background:none;
 				font-size: $fontSize+4;
+				font-weight:normal;
+				color:$navBasicColor;
 		}
 
 
