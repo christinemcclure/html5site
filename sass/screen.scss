@@ -367,13 +367,11 @@ div.columnBlock, div.columnEven {
 	}
 	
 	#libNav {
-		margin: 0;
+		margin-top: $lineHeight*2;
 	}
 
 	#libNav.noJS { /* Need this to position in case user disables JS. Remove class with JS */
-		li {
-			margin-top:0;
-		}
+		margin-top:0;
 	}
 
 
