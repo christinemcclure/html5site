@@ -76,6 +76,7 @@ $(document).ready(function() {
 	
 		
 	$('#libNav').removeClass('noJS');
+	$('nav').removeClass('noJS');
 
 	$('li#photo').click(function () {
 		$(this).addClass('activeMain');

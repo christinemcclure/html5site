@@ -3,6 +3,16 @@
 
 /*   ************ MOBILE / GENERIC SETTINGS ***********     */
 
+body {
+	background: $backgroundColor;
+	padding: 20px 4px 10px 4px;
+	color:$bodyFontColor;
+	a {
+		color:$linkColor1;
+		font-weight:900;
+	}
+}
+
 
 .photoSwipe {
 	font-size: $fontSize+2;
@@ -37,6 +47,14 @@ li.activeMain {color:$navBasicColor !important;}
 	font-weight:900;
 } 
 
+nav {
+	width: 100%;
+	padding: 0 6px;
+		li {cursor:pointer;}
+		a {color:$navBasicColor; font-weight:normal;}
+}
+
+
 #photoNav, #libNav {
 	position: absolute;
 	width: 100%; 
@@ -46,6 +64,8 @@ li.activeMain {color:$navBasicColor !important;}
 		width: 100px;
 		float:left;
 		margin-left: 10px;
+		a {
+		}
 	}
 }
 
@@ -56,6 +76,10 @@ li.activeMain {color:$navBasicColor !important;}
 	margin-top: $lineHeight*7;
 }
 
+#libNav.noJS { /* Need this to position in case user disables JS. Remove class with JS */
+	margin-top: $lineHeight*6;
+}
+
 #mainNav.navList {
 	display:inline-block;
 	float:left;
@@ -63,7 +87,7 @@ li.activeMain {color:$navBasicColor !important;}
 	li {
 		clear:both;
 		font-size: $fontSize+2;
-		margin:0 20px $lineHeight*4 0; /*20/876*/
+		margin:0 20px $lineHeight*3 0; /*20/876*/
 		color:$navInactiveColor;
 	}
 	li:last-child {margin-bottom: $lineHeight*2;}
@@ -79,16 +103,8 @@ li.activeMain {color:$navBasicColor !important;}
 		color: $navHighlightColor;
 	}
 
-
-
-body {
-	background: $backgroundColor;
-	padding: 20px 4px 10px 4px;
-	color:$bodyFontColor;
-	a {
-		color:$linkColor1;
-		font-weight:900;
-	}
+nav.noJS + section h1{
+	padding-top: $lineHeight*2;
 }
 
 
@@ -263,6 +279,10 @@ div.columnBlock, div.columnEven {
 		float:left;
 		margin: $lineHeight*2 0 $lineHeight*2 15%;
 	}
+
+	nav.noJS + section h1{
+		padding-top: $lineHeight;
+	}
 	
 	header {
 		h1 {font-size: $lineHeight*1.7;}
@@ -345,20 +365,16 @@ div.columnBlock, div.columnEven {
 
 @media screen and (min-width: 1008px) {
 
-	nav {
-		width: 100%;
-		border:1 px solid green;
-		padding: 0 6px;
-			li {cursor:pointer;}
-			a {color:$navBasicColor; font-weight:normal;}
-	}
-
 	#mainNav.navList {
 		width: 15%;
 		li {
 			margin:0;
 		}
 	}		
+
+	nav.noJS + section h1{
+		padding-top:0;
+	}
 	
 	#photoNav, #libNav {
 		width: 85%;
@@ -369,7 +385,6 @@ div.columnBlock, div.columnEven {
 			width: 14%;
 			float:left;
 			margin: 0;
-			border: 1 px solid green;
 		}
 		
 	}
@@ -379,9 +394,8 @@ div.columnBlock, div.columnEven {
 	}
 
 	#libNav.noJS { /* Need this to position in case user disables JS. Remove class with JS */
-		margin-top:0;
+		margin-top: 0;
 	}
-
 	
 	body{
 		margin: $lineHeight*2 0 0 0;
