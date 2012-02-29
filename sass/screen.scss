@@ -201,32 +201,35 @@ header {
 #homePage {
 	h2 {font-size: $fontSize+6;}
 	nav a {
-		font-size:$fontSize+4;
+		font-size:$fontSize;
 	}
 
 	#lib, #photo {
+		width: 100%;
 		clear:both;
 		padding: $lineHeight*2 0;
 		li {
-			width: 18%;
+			width: 20%;
 			float:left;
-			white-space:nowrap;
 		}
 		a {
 			padding: 4px 10px;
 				border: 1px solid $brown;
 				background:$aqua;
 				color:$brown;
+				white-space:nowrap;
 		}
 	}
 	#photo {
+		margin-left: 25%;
 		li {
-			margin-left: 13%;
+			margin-left: 0; /* just use rough estimates for mobile */
 		}
 	}
 	#lib {
+		margin-left: 15%;
 		li {
-			margin-left: 5%;
+			margin-left: 0;
 		}
 	}
 
@@ -244,7 +247,7 @@ header {
 			margin:0;
 			font-weight:normal;
 			color: $navBasicColor;
-			font-size: 10px;
+			font-size: 8px;
 		}
 	}
 	
@@ -505,8 +508,8 @@ div.columnBlock, div.columnEven {
 		
 		p#photoIntro {
 			clear:both;
-			/*margin: 0 0 0 336px;*/
-			margin: 176px 0 0 34.3558282208589%;
+			/*margin: 0 0 0 308px;*/
+			margin: 176px 0 0 31.49284253578732%;
 		}
 
 		#photoHeader {
@@ -533,6 +536,7 @@ div.columnBlock, div.columnEven {
 				float:left;
 				/*margin: 0 0 2px 30px;*/
 				margin: 0 0 2px 3.06748466257669%;
+				text-align:left;
 			}
 		}	
 
