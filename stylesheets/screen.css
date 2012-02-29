@@ -426,7 +426,7 @@ header a {
 /* line 207, ../sass/screen.scss */
 #homePage #lib, #homePage #photo {
   clear: both;
-  padding: 44px 0;
+  padding: 0 0 44px 0;
 }
 /* line 210, ../sass/screen.scss */
 #homePage #lib li, #homePage #photo li {
