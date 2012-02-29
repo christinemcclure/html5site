@@ -7,3 +7,12 @@ nav {
 #homePage nav {
 	display:block;
 }
+
+a:link, a:visited {
+	color:#000;
+	text-decoration:underline;
+}
+
+.ps-document-overlay, .ps-uilayer, .ps-toolbar, .ps-caption {
+	display:none;
+}
