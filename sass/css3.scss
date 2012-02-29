@@ -26,3 +26,9 @@ a:hover, #galleries li :hover, header, #mainNav li:hover:not(.activeMain) {
 	border:none;
 }
 
+
+/* PhotoSwipe settings */
+#gallery1, #gallery2, #gallery3, #gallery4, #gallery5, #gallery6 { width: 100%;  margin: 0 auto;}
+#Indicators { text-align: center; margin-top: 20px; }
+#Indicators span { display: inline-block; height: 10px; width: 10px; margin: 0 10px 0 0; padding: 0; -webkit-border-radius:5px; -moz-border-radius:5px; -o-border-radius:5px; border-radius:5px; background: #c5c5c5; overflow:hidden; }
+#Indicators span.current{ background: #EEBF02; }

@@ -1,4 +1,4 @@
-/* line 17, ../../../RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 17, C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -20,45 +20,45 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
-/* line 20, ../../../RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 20, C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 body {
   line-height: 1;
 }
 
-/* line 22, ../../../RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 22, C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 24, ../../../RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 24, C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 26, ../../../RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 26, C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle;
 }
 
-/* line 28, ../../../RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 28, C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
   quotes: none;
 }
-/* line 101, ../../../RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 101, C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q:before, q:after, blockquote:before, blockquote:after {
   content: "";
   content: none;
 }
 
-/* line 30, ../../../RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 30, C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 a img {
   border: none;
 }
 
-/* line 114, ../../../RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 114, C:/RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
   display: block;
 }
@@ -72,14 +72,14 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 ########################################
 */
 /* from baseline grid .t22 class */
-/* line 19, ../sass/_base.scss */
+/* line 19, C:/xampp/htdocs/sass/_base.scss */
 body {
   font-size: 14px;
   line-height: 22px;
 }
 
 /* hide mobile nav at first */
-/* line 27, ../sass/_base.scss */
+/* line 27, C:/xampp/htdocs/sass/_base.scss */
 nav select {
   display: none;
 }
@@ -91,113 +91,80 @@ nav select {
 ####################################################### 
 
 */
-/* PhotoSwipe settings */
-/* line 40, ../sass/_base.scss */
-#gallery1, #gallery2, #gallery3, #gallery4, #gallery5, #gallery6 {
-  width: 100%;
-  margin: 0 auto;
-}
-
-/* line 41, ../sass/_base.scss */
-#Indicators {
-  text-align: center;
-  margin-top: 20px;
-}
-
-/* line 42, ../sass/_base.scss */
-#Indicators span {
-  display: inline-block;
-  height: 10px;
-  width: 10px;
-  margin: 0 10px 0 0;
-  padding: 0;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  -o-border-radius: 5px;
-  border-radius: 5px;
-  background: #c5c5c5;
-  overflow: hidden;
-}
-
-/* line 43, ../sass/_base.scss */
-#Indicators span.current {
-  background: #EEBF02;
-}
-
-/* line 48, ../sass/_base.scss */
+/* line 41, C:/xampp/htdocs/sass/_base.scss */
 img {
   max-width: 100%;
   max-height: 100%;
 }
 
 /* for responsive images */
-/* line 51, ../sass/_base.scss */
+/* line 44, C:/xampp/htdocs/sass/_base.scss */
 #content {
   margin: 0px auto;
 }
 
-/* line 74, ../sass/_base.scss */
+/* line 67, C:/xampp/htdocs/sass/_base.scss */
 h1, h2, h3, li a p {
   font-family: "Michroma", Verdana, Arial, sans-serif;
 }
 
-/* line 78, ../sass/_base.scss */
+/* line 71, C:/xampp/htdocs/sass/_base.scss */
 h1, h2, h3, h4 {
   font-weight: 900;
 }
 
-/* line 82, ../sass/_base.scss */
+/* line 75, C:/xampp/htdocs/sass/_base.scss */
 h5, h6 {
   font-weight: 500;
 }
 
-/* line 87, ../sass/_base.scss */
+/* line 80, C:/xampp/htdocs/sass/_base.scss */
 p, ul li, h4, h5, h6 {
   font-family: "Questrial", Verdana, Arial, sans-serif;
 }
 
-/* line 91, ../sass/_base.scss */
+/* line 84, C:/xampp/htdocs/sass/_base.scss */
 a {
   text-decoration: none;
   /*Lose underlining on links to make grid easier to see*/
 }
 
-/* line 95, ../sass/_base.scss */
+/* line 88, C:/xampp/htdocs/sass/_base.scss */
 nav {
   font-family: "Questrial", Verdana, Arial, sans-serif;
 }
 
-/* line 99, ../sass/_base.scss */
+/* line 92, C:/xampp/htdocs/sass/_base.scss */
 .hide {
   display: none !important;
 }
 
-/* line 100, ../sass/_base.scss */
+/* line 93, C:/xampp/htdocs/sass/_base.scss */
 .showInline {
   display: inline;
 }
 
-/* line 101, ../sass/_base.scss */
+/* line 94, C:/xampp/htdocs/sass/_base.scss */
 .showBlock {
   display: block;
 }
 
-/* line 102, ../sass/_base.scss */
+/* line 95, C:/xampp/htdocs/sass/_base.scss */
 .showInlineBlock {
   display: inline-block;
 }
 
-/* line 104, ../sass/_base.scss */
+/* line 97, C:/xampp/htdocs/sass/_base.scss */
 .floatRight {
   float: right;
 }
 
-/* line 108, ../sass/_base.scss */
+/* line 101, C:/xampp/htdocs/sass/_base.scss */
 .floatLeft {
   float: left;
 }
 
-/* line 112, ../sass/_base.scss */
+/* line 105, C:/xampp/htdocs/sass/_base.scss */
 .clear {
   clear: both;
 }
