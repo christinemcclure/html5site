@@ -363,7 +363,10 @@ div.columnBlock, div.columnEven {
 		#showContactForm {
 			width: 50%;
 			float:right;
-			input.button {width: 20%;}
+			input.button {
+				width: 20%;
+				margin-bottom: $lineHeight*2;
+			}
 		}
 	}
 	
@@ -371,6 +374,24 @@ div.columnBlock, div.columnEven {
 		.columnEven {margin-top: 0;} /* remove extra white space */
 	}
 	
+
+	footer {
+		p {
+			width: 40%;
+			display:inline;
+			a {	font-weight: 900;	}
+		}
+	
+		p.copyright {
+			width: 40%; /* width keeps this line from popping down */
+			display:inline;
+			float:right;
+			text-align:right;
+		}			
+		
+	} /* end footer*/
+
+
 }/* min-width: 760px */
 
 
@@ -566,21 +587,7 @@ div.columnBlock, div.columnEven {
 	} /* end homePage*/
 
 
-	footer {
-		p {
-			width: 40%;
-			display:inline;
-			a {	font-weight: 900;	}
-		}
-	
-		p.copyright {
-			width: 40%; /* width keeps this line from popping down */
-			display:inline;
-			float:right;
-			text-align:right;
-		}			
-		
-	} /* end footer*/
+
 			
 
 	
