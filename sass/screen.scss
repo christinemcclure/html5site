@@ -200,8 +200,8 @@ header {
 
 #homePage {
 	h2 {font-size: $fontSize+6;}
-	nav a {
-		font-size:$fontSize*.9;
+	nav li {
+		font-size: $fontSize*.7142857142857143;
 	}
 
 	#lib, #photo {
@@ -246,7 +246,6 @@ header {
 			margin:0;
 			font-weight:normal;
 			color: $navBasicColor;
-			font-size: 8px;
 		}
 	}
 	
