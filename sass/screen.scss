@@ -201,11 +201,10 @@ header {
 #homePage {
 	h2 {font-size: $fontSize+6;}
 	nav a {
-		font-size:$fontSize;
+		font-size:$fontSize*.9;
 	}
 
 	#lib, #photo {
-		width: 100%;
 		clear:both;
 		padding: $lineHeight*2 0;
 		li {
@@ -213,10 +212,10 @@ header {
 			float:left;
 			text-align:center;
 			background:yellow;
-				border: 1px solid $brown;
-				background:$aqua;
-				color:$brown;
-				white-space:nowrap;
+			border: 1px solid $brown;
+			background:$aqua;
+			color:$brown;
+			white-space:nowrap;
 		}
 		a {
 			padding: 4px 10px;
@@ -224,13 +223,12 @@ header {
 	}
 	#photo {
 		li {
-			margin-left: 0; /* just use rough estimates for mobile */
+			margin-left: 10%; /* just use rough estimates for mobile */
 		}
 	}
 	#lib {
-		li a{
-			width: 20%;
-			margin: 0 0 0 20px%;
+		li{
+			margin: 0 0 0 4%;
 		}
 	}
 
@@ -505,7 +503,6 @@ div.columnBlock, div.columnEven {
 				color:$homePageHeader;
 		}
 
-
 		
 		p#photoIntro {
 			clear:both;
@@ -560,7 +557,7 @@ div.columnBlock, div.columnEven {
 			margin: $lineHeight*9 0 0 17.17791411042945%;
 		}
 			
-		nav#photo li a, nav#lib li a {
+		nav#photo li, nav#lib li, nav li a {
 				border:none;
 				background:none;
 				font-size: $fontSize+4;

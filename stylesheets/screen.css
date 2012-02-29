@@ -421,15 +421,14 @@ header a {
 }
 /* line 203, ../sass/screen.scss */
 #homePage nav a {
-  font-size: 14px;
+  font-size: 12.6px;
 }
 /* line 207, ../sass/screen.scss */
 #homePage #lib, #homePage #photo {
-  width: 100%;
   clear: both;
   padding: 44px 0;
 }
-/* line 211, ../sass/screen.scss */
+/* line 210, ../sass/screen.scss */
 #homePage #lib li, #homePage #photo li {
   width: 20%;
   float: left;
@@ -440,60 +439,59 @@ header a {
   color: #574236;
   white-space: nowrap;
 }
-/* line 221, ../sass/screen.scss */
+/* line 220, ../sass/screen.scss */
 #homePage #lib a, #homePage #photo a {
   padding: 4px 10px;
 }
-/* line 226, ../sass/screen.scss */
+/* line 225, ../sass/screen.scss */
 #homePage #photo li {
-  margin-left: 0;
+  margin-left: 10%;
   /* just use rough estimates for mobile */
 }
-/* line 231, ../sass/screen.scss */
-#homePage #lib li a {
-  width: 20%;
-  margin: 0 0 0 20px%;
+/* line 230, ../sass/screen.scss */
+#homePage #lib li {
+  margin: 0 0 0 4%;
 }
-/* line 238, ../sass/screen.scss */
+/* line 236, ../sass/screen.scss */
 #homePage #galleries ul li {
   width: 20%;
   margin: 0 0 0 6%;
   float: left;
   text-align: center;
 }
-/* line 244, ../sass/screen.scss */
+/* line 242, ../sass/screen.scss */
 #homePage #galleries ul li:first-child {
   margin: 0;
 }
-/* line 247, ../sass/screen.scss */
+/* line 245, ../sass/screen.scss */
 #homePage #galleries ul a p {
   margin: 0;
   font-weight: normal;
   color: #574236;
   font-size: 8px;
 }
-/* line 255, ../sass/screen.scss */
+/* line 253, ../sass/screen.scss */
 #homePage #photoIntro {
   clear: both;
   margin: 134px 0 22px 0;
 }
-/* line 260, ../sass/screen.scss */
+/* line 258, ../sass/screen.scss */
 #homePage #libFigure {
   width: 20%;
   margin: 0 6% 0 0;
   float: left;
 }
-/* line 266, ../sass/screen.scss */
+/* line 264, ../sass/screen.scss */
 #homePage #libIntro {
   margin: 0 0 44px 0;
 }
 
-/* line 272, ../sass/screen.scss */
+/* line 270, ../sass/screen.scss */
 footer {
   clear: both;
   margin: 44px 0 0 0;
 }
-/* line 275, ../sass/screen.scss */
+/* line 273, ../sass/screen.scss */
 footer p {
   font-family: "Questrial", Verdana, Arial, sans-serif;
   font-size: 12px;
@@ -502,7 +500,7 @@ footer p {
 }
 
 /* end footer*/
-/* line 286, ../sass/screen.scss */
+/* line 284, ../sass/screen.scss */
 div.columnBlock li, div.columnEven li {
   list-style: disc;
   margin-left: 5%;
@@ -511,44 +509,44 @@ div.columnBlock li, div.columnEven li {
 /* end mobile */
 /**** TABLETS ****/
 @media screen and (min-width: 760px) {
-  /* line 296, ../sass/screen.scss */
+  /* line 294, ../sass/screen.scss */
   nav select {
     width: 30%;
     float: left;
     margin: 44px 0 44px 15%;
   }
 
-  /* line 302, ../sass/screen.scss */
+  /* line 300, ../sass/screen.scss */
   #mainNav.navList li {
     margin-bottom: 44px;
   }
 
-  /* line 305, ../sass/screen.scss */
+  /* line 303, ../sass/screen.scss */
   #libNav.noJS {
     margin-top: 110px;
   }
 
-  /* line 309, ../sass/screen.scss */
+  /* line 307, ../sass/screen.scss */
   nav.noJS + section h1 {
     padding-top: 22px;
   }
 
-  /* line 314, ../sass/screen.scss */
+  /* line 312, ../sass/screen.scss */
   header h1 {
     font-size: 37.4px;
   }
 
-  /* line 318, ../sass/screen.scss */
+  /* line 316, ../sass/screen.scss */
   #homePage h2 {
     font-size: 26px;
   }
-  /* line 319, ../sass/screen.scss */
+  /* line 317, ../sass/screen.scss */
   #homePage #galleries li a p, #homePage nav li a {
     font-size: 14px;
     letter-spacing: 2px;
   }
 
-  /* line 325, ../sass/screen.scss */
+  /* line 323, ../sass/screen.scss */
   div.columnBlock, div.columnEven {
     /* TWO COLUMNS (columnEven does not stretch to three) */
     width: 43.76278118609407%;
@@ -556,87 +554,87 @@ div.columnBlock li, div.columnEven li {
     margin: 22px 0 22px 3%;
     /*  20/978  64/978*/
   }
-  /* line 330, ../sass/screen.scss */
+  /* line 328, ../sass/screen.scss */
   div.columnBlock li, div.columnEven li {
     margin-left: 6%;
   }
 
-  /* line 336, ../sass/screen.scss */
+  /* line 334, ../sass/screen.scss */
   #about p.floatLeft, #art p.floatLeft {
     /* 870 / 978 = 88.9570552147239% */
     width: 65.6441717791411%;
     margin: 0 4% 44px 0;
   }
-  /* line 341, ../sass/screen.scss */
+  /* line 339, ../sass/screen.scss */
   #about p.floatLeft + p.floatLeft, #art p.floatLeft + p.floatLeft {
     margin-top: -22px;
   }
-  /* line 344, ../sass/screen.scss */
+  /* line 342, ../sass/screen.scss */
   #about img.floatLeft, #art img.floatLeft {
     /* 222 / 978*/
     width: 22.6993865030675%;
     margin: 0 0 0 2%;
   }
-  /* line 349, ../sass/screen.scss */
+  /* line 347, ../sass/screen.scss */
   #about p.floatLeft + img, #art p.floatLeft + img {
     margin-top: -44px;
   }
-  /* line 352, ../sass/screen.scss */
+  /* line 350, ../sass/screen.scss */
   #about p.floatLeft + p.floatLeft + img, #art p.floatLeft + p.floatLeft + img {
     margin-top: -198px;
   }
-  /* line 356, ../sass/screen.scss */
+  /* line 354, ../sass/screen.scss */
   #about div.columnBlock li, #art div.columnBlock li {
     list-style: none;
   }
 
-  /* line 363, ../sass/screen.scss */
+  /* line 361, ../sass/screen.scss */
   #resume h3, #resume h3 + p {
     /* keep job location near title */
     clear: both;
     margin: 0 02.24948875255624%;
     /* 22 / 978 */
   }
-  /* line 367, ../sass/screen.scss */
+  /* line 365, ../sass/screen.scss */
   #resume div.columnBlock {
     margin: 0 0 44px 3%;
   }
 
-  /* line 373, ../sass/screen.scss */
+  /* line 371, ../sass/screen.scss */
   #contactLib .contactMessage, #contactPhoto .contactMessage {
     width: 40%;
     float: left;
   }
-  /* line 378, ../sass/screen.scss */
+  /* line 376, ../sass/screen.scss */
   #contactLib #showContactForm, #contactPhoto #showContactForm {
     width: 50%;
     float: right;
   }
-  /* line 381, ../sass/screen.scss */
+  /* line 379, ../sass/screen.scss */
   #contactLib #showContactForm input.button, #contactPhoto #showContactForm input.button {
     width: 20%;
     margin-bottom: 44px;
   }
 
-  /* line 388, ../sass/screen.scss */
+  /* line 386, ../sass/screen.scss */
   #lab {
     /* remove extra white space */
   }
-  /* line 389, ../sass/screen.scss */
+  /* line 387, ../sass/screen.scss */
   #lab .columnEven {
     margin-top: 0;
   }
 
-  /* line 394, ../sass/screen.scss */
+  /* line 392, ../sass/screen.scss */
   footer p {
     width: 40%;
     display: inline;
   }
-  /* line 397, ../sass/screen.scss */
+  /* line 395, ../sass/screen.scss */
   footer p a {
     font-weight: 900;
   }
-  /* line 400, ../sass/screen.scss */
+  /* line 398, ../sass/screen.scss */
   footer p.copyright {
     width: 40%;
     /* width keeps this line from popping down */
@@ -649,52 +647,52 @@ div.columnBlock li, div.columnEven li {
 }
 /* min-width: 760px */
 @media screen and (min-width: 1008px) {
-  /* line 415, ../sass/screen.scss */
+  /* line 413, ../sass/screen.scss */
   #mainNav.navList {
     width: 15%;
   }
-  /* line 417, ../sass/screen.scss */
+  /* line 415, ../sass/screen.scss */
   #mainNav.navList li {
     margin: 0;
   }
 
-  /* line 422, ../sass/screen.scss */
+  /* line 420, ../sass/screen.scss */
   nav.noJS + section h1 {
     padding-top: 0;
   }
 
-  /* line 426, ../sass/screen.scss */
+  /* line 424, ../sass/screen.scss */
   #photoNav, #libNav {
     width: 85%;
     position: relative;
     float: right;
     margin: 22px 0 0 0;
   }
-  /* line 431, ../sass/screen.scss */
+  /* line 429, ../sass/screen.scss */
   #photoNav li, #libNav li {
     width: 14%;
     float: left;
     margin: 0;
   }
 
-  /* line 439, ../sass/screen.scss */
+  /* line 437, ../sass/screen.scss */
   #libNav {
     margin-top: 44px;
   }
 
-  /* line 443, ../sass/screen.scss */
+  /* line 441, ../sass/screen.scss */
   #libNav.noJS {
     /* Need this to position in case user disables JS. Remove class with JS */
     margin-top: 0;
   }
 
-  /* line 447, ../sass/screen.scss */
+  /* line 445, ../sass/screen.scss */
   body {
     margin: 44px 0 0 0;
     padding: 0;
   }
 
-  /* line 453, ../sass/screen.scss */
+  /* line 451, ../sass/screen.scss */
   .page {
     /* width: 978px; */
     /*Total with works out to 1008, but need more for padding*/
@@ -704,7 +702,7 @@ div.columnBlock li, div.columnEven li {
     /* pad more right and left later */
     /* end header */
   }
-  /* line 459, ../sass/screen.scss */
+  /* line 457, ../sass/screen.scss */
   .page header {
     overflow: auto;
     width: 100%;
@@ -712,7 +710,7 @@ div.columnBlock li, div.columnEven li {
     padding: 0;
     /*width: 978px; */
   }
-  /* line 466, ../sass/screen.scss */
+  /* line 464, ../sass/screen.scss */
   .page header h1 {
     display: inline;
     float: left;
@@ -721,7 +719,7 @@ div.columnBlock li, div.columnEven li {
     margin: 0 0 0 2%;
     padding: 20px 0 24px 0;
   }
-  /* line 475, ../sass/screen.scss */
+  /* line 473, ../sass/screen.scss */
   .page header p {
     display: inline;
     float: right;
@@ -729,22 +727,22 @@ div.columnBlock li, div.columnEven li {
   }
 
   /* end page */
-  /* line 485, ../sass/screen.scss */
+  /* line 483, ../sass/screen.scss */
   #homePage {
     /* end header */
     /* end galleries */
   }
-  /* line 487, ../sass/screen.scss */
+  /* line 485, ../sass/screen.scss */
   #homePage header {
     width: 86%;
     position: absolute;
     margin: 264px 0 0 0;
   }
-  /* line 491, ../sass/screen.scss */
+  /* line 489, ../sass/screen.scss */
   #homePage header a:hover {
     font-weight: normal;
   }
-  /* line 497, ../sass/screen.scss */
+  /* line 495, ../sass/screen.scss */
   #homePage h2 {
     /*width: 306px / 978px;*/
     width: 31.28834355828221%;
@@ -755,17 +753,17 @@ div.columnBlock li, div.columnEven li {
     text-align: left;
     color: #c0a367;
   }
-  /* line 510, ../sass/screen.scss */
+  /* line 507, ../sass/screen.scss */
   #homePage p#photoIntro {
     clear: both;
     /*margin: 0 0 0 308px;*/
     margin: 176px 0 0 31.49284253578732%;
   }
-  /* line 516, ../sass/screen.scss */
+  /* line 513, ../sass/screen.scss */
   #homePage #photoHeader {
     margin: -2px 0 0 0;
   }
-  /* line 519, ../sass/screen.scss */
+  /* line 516, ../sass/screen.scss */
   #homePage #libHeader {
     position: absolute;
     letter-spacing: 5px;
@@ -776,11 +774,11 @@ div.columnBlock li, div.columnEven li {
     top: 438px;
     right: 7%;
   }
-  /* line 530, ../sass/screen.scss */
+  /* line 527, ../sass/screen.scss */
   #homePage #galleries {
     width: 100%;
   }
-  /* line 533, ../sass/screen.scss */
+  /* line 530, ../sass/screen.scss */
   #homePage #galleries ul li {
     /*width: 138px;*/
     width: 14.11042944785276%;
@@ -790,31 +788,31 @@ div.columnBlock li, div.columnEven li {
     margin: 0 0 2px 3.06748466257669%;
     text-align: left;
   }
-  /* line 544, ../sass/screen.scss */
+  /* line 541, ../sass/screen.scss */
   #homePage #galleries img {
     margin-bottom: 8px;
   }
-  /* line 549, ../sass/screen.scss */
+  /* line 546, ../sass/screen.scss */
   #homePage #libFigure {
     clear: both;
     /*width: 138px; */
     width: 14.11042944785276%;
     margin: 150px 0 0 0;
   }
-  /* line 556, ../sass/screen.scss */
+  /* line 553, ../sass/screen.scss */
   #homePage p#libIntro {
     /*width: 558px;*/
     width: 57.05521472392638%;
     /*margin: -100px 0 0 168px;*/
     margin: 198px 0 0 17.178%;
   }
-  /* line 563, ../sass/screen.scss */
-  #homePage nav#photo li a, #homePage nav#lib li a {
+  /* line 560, ../sass/screen.scss */
+  #homePage nav#photo li, #homePage nav#lib li, #homePage nav li a {
     border: none;
     background: none;
     font-size: 18px;
   }
-  /* line 570, ../sass/screen.scss */
+  /* line 567, ../sass/screen.scss */
   #homePage nav#photo {
     width: 14.11042944785276%;
     position: absolute;
@@ -824,13 +822,13 @@ div.columnBlock li, div.columnEven li {
     left: 7%;
     border-left: 2px solid #c0a367;
   }
-  /* line 579, ../sass/screen.scss */
+  /* line 576, ../sass/screen.scss */
   #homePage nav#photo ul li {
     margin: 0 8px;
     /*width: 138px;*/
     clear: both;
   }
-  /* line 587, ../sass/screen.scss */
+  /* line 584, ../sass/screen.scss */
   #homePage nav#lib {
     width: 14.11042944785276%;
     position: absolute;
@@ -841,7 +839,7 @@ div.columnBlock li, div.columnEven li {
     top: 484px;
     border-right: 2px solid #c0a367;
   }
-  /* line 596, ../sass/screen.scss */
+  /* line 593, ../sass/screen.scss */
   #homePage nav#lib ul li {
     width: 100%;
     margin: 0 -4px;
@@ -854,30 +852,30 @@ div.columnBlock li, div.columnEven li {
 /* *** end min-width: 1008 *** */
 /* Since using absolute positioning, handle those elements as screen width grows */
 @media screen and (min-width: 1100px) {
-  /* line 620, ../sass/screen.scss */
+  /* line 617, ../sass/screen.scss */
   header h1 {
     font-size: 44px;
     margin: 0 0 0 4%;
   }
-  /* line 624, ../sass/screen.scss */
+  /* line 621, ../sass/screen.scss */
   header p {
     margin: 24px 4% 0 0;
   }
 
-  /* line 630, ../sass/screen.scss */
+  /* line 627, ../sass/screen.scss */
   #homePage header {
     margin: 286px 0 0 0;
   }
-  /* line 633, ../sass/screen.scss */
+  /* line 630, ../sass/screen.scss */
   #homePage #libIntro {
     margin: -114px 0 0 17.178%;
   }
-  /* line 637, ../sass/screen.scss */
+  /* line 634, ../sass/screen.scss */
   #homePage footer {
     margin: 66px 0 0 0;
   }
 
-  /* line 642, ../sass/screen.scss */
+  /* line 639, ../sass/screen.scss */
   div.columnBlock {
     /* THREE COLUMNS Only need to change width */
     width: 30%;
@@ -886,53 +884,53 @@ div.columnBlock li, div.columnEven li {
 }
 @media screen and (min-width: 1238px) {
   /* where photoIntro goes to two lines */
-  /* line 651, ../sass/screen.scss */
+  /* line 648, ../sass/screen.scss */
   #homePage p#photoIntro {
     margin: 198px 0 0 34.3558282208589%;
   }
-  /* line 655, ../sass/screen.scss */
+  /* line 652, ../sass/screen.scss */
   #homePage #libIntro {
     margin: -106px 0 0 17.178%;
   }
-  /* line 658, ../sass/screen.scss */
+  /* line 655, ../sass/screen.scss */
   #homePage footer {
     margin: 88px 0 0 0;
   }
 }
 @media screen and (min-width: 1300px) {
-  /* line 669, ../sass/screen.scss */
+  /* line 666, ../sass/screen.scss */
   #homePage #libIntro {
     margin: -118px 0 0 17.178%;
   }
-  /* line 672, ../sass/screen.scss */
+  /* line 669, ../sass/screen.scss */
   #homePage #libHeader {
     top: 460px;
   }
-  /* line 675, ../sass/screen.scss */
+  /* line 672, ../sass/screen.scss */
   #homePage nav#lib {
     top: 506px;
   }
 }
 @media screen and (min-width: 1400px) {
-  /* line 684, ../sass/screen.scss */
+  /* line 681, ../sass/screen.scss */
   header p {
     font-size: 14px;
     margin: 22px 4% 0 0;
   }
 
-  /* line 692, ../sass/screen.scss */
+  /* line 689, ../sass/screen.scss */
   #homePage header {
     margin: 308px 0 0 0;
   }
-  /* line 695, ../sass/screen.scss */
+  /* line 692, ../sass/screen.scss */
   #homePage #libHeader {
     top: 482px;
   }
-  /* line 698, ../sass/screen.scss */
+  /* line 695, ../sass/screen.scss */
   #homePage nav#lib {
     top: 528px;
   }
-  /* line 701, ../sass/screen.scss */
+  /* line 698, ../sass/screen.scss */
   #homePage footer {
     margin: 110px 0 0 0;
   }
