@@ -41,7 +41,7 @@ if (isset($_POST['submitted'])) {
 		// Send the email:
 		mail($contact_email, "Mail from ChristineMcClure.com", $body, "From: {$scrubbed['email']}");
 
-	$cssclass = "hideForm";
+	$cssclass = "hide";
 	$feedback= "<p class=\"clear\">Thank you for your message; I'll be in touch soon.</p> <p>Enjoy your day.</p>";
 		
 		
