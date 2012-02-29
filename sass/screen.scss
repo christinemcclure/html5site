@@ -198,6 +198,12 @@ header {
 	}
 }
 
+#contactLib {
+	.contactMessage p + p { /* Don't show SmugMug link on lib page */
+		display:none;
+	}
+}
+
 #homePage {
 	nav a {
 		font-size:$fontSize+4;
