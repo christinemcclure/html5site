@@ -121,28 +121,20 @@ header, #homePage h2, #homePage h3 {
   text-align:center;
 }
 
-h1, h2, h3, h4, h5, h6, section, footer {
-	clear: both;
-  margin: $lineHeight 0;
-}
 
 h1 {
-  font-size: $fontSize+6;
 	color: $headingMain;
 }
 
 h2 {
-  font-size: $fontSize+4;
 	color: $headingMain;
 }
 
 h3 {
-  font-size: $fontSize+2;
 	color: $headingSub;
 }
 
 h4 {
-  font-size: $fontSize;
 	color: $headingSub;
 }
 

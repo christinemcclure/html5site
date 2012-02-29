@@ -81,6 +81,28 @@ p, ul li, h4, h5, h6 {
 	font-family: $bodyFont;
 }
 
+h1, h2, h3, h4, h5, h6, section, footer {
+	clear: both;
+  margin: $lineHeight 0;
+}
+
+h1 {
+  font-size: $fontSize+6;
+}
+
+h2 {
+  font-size: $fontSize+4;
+}
+
+h3 {
+  font-size: $fontSize+2;
+}
+
+h4 {
+  font-size: $fontSize;
+}
+
+
 a {
   text-decoration: none; /*Lose underlining on links to make grid easier to see*/
 }

@@ -1,1 +1,9 @@
 @import "_base.scss";
+
+nav {
+	display:none;
+}
+
+#homePage nav {
+	display:block;
+}
