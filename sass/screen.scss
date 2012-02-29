@@ -221,7 +221,7 @@ header {
 		a {
 			color:$red;
 			font-weight:900;
-			padding: 4px 10px;
+			padding: 4px 8px;
 		}
 	}
 	#photo {
@@ -230,7 +230,6 @@ header {
 		}
 	}
 	#lib {
-		padding: $lineHeight*2 0;
 		li{
 			margin: 0 0 0 4%;
 		}
