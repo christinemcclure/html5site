@@ -211,25 +211,26 @@ header {
 		li {
 			width: 20%;
 			float:left;
-		}
-		a {
-			padding: 4px 10px;
+			text-align:center;
+			background:yellow;
 				border: 1px solid $brown;
 				background:$aqua;
 				color:$brown;
 				white-space:nowrap;
 		}
+		a {
+			padding: 4px 10px;
+		}
 	}
 	#photo {
-		margin-left: 25%;
 		li {
 			margin-left: 0; /* just use rough estimates for mobile */
 		}
 	}
 	#lib {
-		margin-left: 15%;
-		li {
-			margin-left: 0;
+		li a{
+			width: 20%;
+			margin: 0 0 0 20px%;
 		}
 	}
 
