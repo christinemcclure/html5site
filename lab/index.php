@@ -15,7 +15,7 @@
 
 		<div class="columnEven">
 	    <h2>Background Designs</h2>
-      <p>This entry used to be "redesigning my site," but now that it's up and running I'm playing around with some of these great background ideas from <a href="http://www.noupe.com/design/outstanding-website-background-guide-60-impressive-resources.html">this article</a>.</p>
+      <p>This first entry used to be "redesigning my site," but now that it's up and running I'm playing around with some of these great background ideas from <a href="http://www.noupe.com/design/outstanding-website-background-guide-60-impressive-resources.html">this article</a>.</p>
     </div>  	
 
 		<div class="columnEven">
