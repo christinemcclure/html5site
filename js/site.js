@@ -58,7 +58,6 @@ $(document).ready(function() {
 					$('#libSelect').children('option:selected', 'select').removeAttr('selected');
 					$('#libSelect').val('/'+bodyID);				
 				}
-				$('#'+bodyID+'Nav').addClass('activeSub'); // add active class for desktop navigation
 			}
 	})($);
 	
