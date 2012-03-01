@@ -16,8 +16,7 @@
   <h1 class="top">Travel Photography</h1>
 
   <h2>Jerusalem</h2>
-  <div id="gallery1" class="photoSwipe">
-  	<ul>
+  	<ul class="print">
       <li><p>Dome of the Rock</p><img src="/img/travel/jerusalem-templemount-1.jpg" alt="Photo of Muslim woman walking in front the Dome on the Rock." /></li> 
       <li><p>Men's section of the Kotel</p><img src="/img/travel/jerusalem-kotel.jpg" alt="Photo of men praying in front of the Kotel. Men are out of focus while the gate keeping the visitors out is in focus." /></li> 
       <li><p>Church of the Holy Sepulchre, Rotunda</p><img src="/img/travel/jerusalem-sepulchre-1.jpg" alt="Photo of the rotunda of the Church of the Holy Sepulchre." /></li> 
@@ -27,6 +26,7 @@
       <li><p>Dome of the Rock tile detail</p><img src="/img/travel/jerusalem-templemount-3.jpg" alt="Photo of tile detail of Dome on the Rock." /></li> 
       <li><p>Church of the Holy Sepulchre</p><img src="/img/travel/jerusalem-sepulchre-3.jpg" alt="Photo of an interior hall." /></li> 
     </ul>
+  <div id="gallery1" class="photoSwipe">
   </div>
   <h2>Panama</h2>
   <div id="gallery2" class="photoSwipe">
