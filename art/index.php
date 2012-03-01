@@ -75,8 +75,7 @@
           </li>
 	      </ul>
   	</div>
-<div id="gallery1" class="photoSwipe">
-	<ul>
+	<ul class="print">
     <li><p>Focus-1</p><img src="/img/fineart/focus-1.jpg" alt="Circular photo. Top half is out-of-focus dark shapes. Bottom half is the top portion of a gate (barrier) in up-close detail." /></li>
     <li><p>Focus-2</p><img src="/img/fineart/focus-2.jpg" alt="Circular photo. Top half is slightly out-of-focus dark shapes. Bottom half is slightly out-of-focus gate (barrier)."  /></li>
     <li><p>Focus-3</p><img src="/img/fineart/focus-3.jpg" alt="Circular photo. Top half shows orthodox Jewish men praying at the Kotel (Wailing Wall) in Jerusalem. Bottom half is out-of-focus gate (barrier)."  /></li>
@@ -96,6 +95,8 @@
     <li><p>Polarization-2</p><img src="/img/fineart/Polarization-2.jpg" alt="Photo of the wall in Jerusalem that separates the old city from the new."  /></li>
     <li><p>Polarization-3</p><img src="/img/fineart/Polarization-3.jpg" alt="Photo of a of an orthodox Jewish man praying at the Kotel." /></li>			
   </ul>
+
+<div id="gallery1" class="photoSwipe">
 </div>
 
 </section>
