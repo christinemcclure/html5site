@@ -2,38 +2,36 @@ $headingFont: 'Michroma', Verdana, Arial,  sans-serif;
 $bodyFont: 'Questrial', Verdana, Arial,  sans-serif;
 
 /* Sounds of Sax colors from colorlouvers*/
-$brown: #4D162A;
-$mauve: #69464B;
-$ltMauve: #8F6B70;
-$orange: #CC5C25;
-$tan: #FFDEAA;
-$pink: #FF2F7C;
-$black: #1B1521;
-$white: #FCFAF7;
+$darkGrey: #322938;
+$green: #89A194;
+$darkGreen: #597566;
+$tan: #A39B60;
+$orange: #CC883A;
+$red: #A14016;
+$white: #FAF9F5;
 
 /* Generic references used in the other files */
 
 $textBackground: $white;
-$bodyFontColor: $brown;
-$backgroundColor: $orange;
+$bodyFontColor: $darkGrey;
+$backgroundColor: $green;
 
-$headerBackground: $mauve;
-$headerFontColor: $tan;
-$homePageHeader: $mauve;
-$homePageBorder: $orange;
-$homePageNavBorder: $mauve;
+$headerBackground: $orange;
+$headerFontColor: $white;
+$homePageHeader: $headerBackground;
+$homePageBorder: $green;
+$homePageNavBorder: $green;
 
-$headingMain: $orange;
-$headingSub: $mauve;
+$headingMain: $red;
+$headingSub: $darkGreen;
 
+$textShadowColor: $darkGrey;
 $strongColor: $orange;
-
-$navBasicColor: $brown;
-$navHighlightColor: $pink;
-$navInactiveColor: $mauve;
-$textHoverColor: $pink;
-$textShadowColor: $black;
 $selectBackgroundColor: $tan;
-$selectBorderColor: $mauve;
+$selectBorderColor: $green;
 
-$linkColor1: $pink;
+$navBasicColor: $darkGrey;
+$navInactiveColor: $tan;
+$textHoverColor: $red;
+$navHighlightColor: $red;
+$linkColor1: $red;

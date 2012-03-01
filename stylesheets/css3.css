@@ -30,9 +30,9 @@ because they are still in development
 
 /* line 24, ../sass/css3.scss */
 a:hover, #galleries li :hover, header, #mainNav li:hover:not(.activeMain) {
-  text: #ff2f7c;
-  text-shadow: 4px 4px 8px #1b1521;
-  filter: dropshadow(color=#1b1521, offx=4, offy=4);
+  text: #a14016;
+  text-shadow: 4px 4px 8px #322938;
+  filter: dropshadow(color=#322938, offx=4, offy=4);
   border: none;
 }
 
