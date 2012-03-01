@@ -1,39 +1,39 @@
 $headingFont: 'Michroma', Verdana, Arial,  sans-serif;
 $bodyFont: 'Questrial', Verdana, Arial,  sans-serif;
 
-
-/*Bart colors */
-$darkGrey: #424242; 
-$brown: #574236; 
-$red: #ED5045;
-$white: #FFFFFF;
-$tan: #C0A367; 
-$aqua: #7ED9D9; 
-
+/* Sounds of Sax colors from colorlouvers*/
+$brown: #4D162A;
+$mauve: #69464B;
+$ltMauve: #8F6B70;
+$orange: #CC5C25;
+$tan: #FFDEAA;
+$pink: #FF2F7C;
+$black: #1B1521;
+$white: #FCFAF7;
 
 /* Generic references used in the other files */
 
 $textBackground: $white;
-$bodyFontColor: $darkGrey;
-$backgroundColor: $aqua;
+$bodyFontColor: $brown;
+$backgroundColor: $orange;
 
-$headerBackground: $tan;
-$headerFontColor: $white;
-$homePageHeader: $tan;
-$homePageBorder: $tan;
-$homePageNavBorder: $aqua;
+$headerBackground: $mauve;
+$headerFontColor: $tan;
+$homePageHeader: $mauve;
+$homePageBorder: $orange;
+$homePageNavBorder: $mauve;
 
-$headingMain: $brown;
-$headingSub: $brown;
+$headingMain: $orange;
+$headingSub: $mauve;
 
-$strongColor: $tan;
+$strongColor: $orange;
 
 $navBasicColor: $brown;
-$navHighlightColor: $red;
-$navInactiveColor: $tan;
-$textHoverColor: $tan;
-$textShadowColor: $darkGrey;
-$selectBackgroundColor: $white;
-$selectBorderColor: $tan;
+$navHighlightColor: $pink;
+$navInactiveColor: $mauve;
+$textHoverColor: $pink;
+$textShadowColor: $black;
+$selectBackgroundColor: $tan;
+$selectBorderColor: $mauve;
 
-$linkColor1: $red;
+$linkColor1: $pink;

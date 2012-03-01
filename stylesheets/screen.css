@@ -64,7 +64,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 }
 
 /* may need to move this to css3 file */
-/*Bart colors */
+/* Sounds of Sax colors from colorlouvers*/
 /* Generic references used in the other files */
 /*
 ########################################
@@ -216,13 +216,13 @@ nav {
 /*   ************ MOBILE / GENERIC SETTINGS ***********     */
 /* line 6, ../sass/screen.scss */
 body {
-  background: #7ed9d9;
+  background: #cc5c25;
   padding: 20px 4px 10px 4px;
-  color: #424242;
+  color: #4d162a;
 }
 /* line 10, ../sass/screen.scss */
 body a {
-  color: #ed5045;
+  color: #ff2f7c;
   font-weight: 900;
 }
 
@@ -250,10 +250,10 @@ nav select {
   /* display with JS */
   width: 70%;
   margin: 22px 0 22px 15%;
-  color: #574236;
+  color: #4d162a;
   font-size: 16px;
-  background: white;
-  border: 2px solid #c0a367;
+  background: #ffdeaa;
+  border: 2px solid #69464b;
 }
 
 /* line 40, ../sass/screen.scss */
@@ -272,13 +272,13 @@ nav li {
 }
 /* line 46, ../sass/screen.scss */
 nav a {
-  color: #574236;
+  color: #4d162a;
   font-weight: normal;
 }
 
 /* line 49, ../sass/screen.scss */
 .navList li a:hover {
-  color: #ed5045;
+  color: #ff2f7c;
   font-weight: 900;
 }
 
@@ -324,7 +324,7 @@ nav.noJS + section h1 {
   font-size: 16px;
   margin: 0 20px 66px 0;
   /*20/876*/
-  color: #c0a367;
+  color: #69464b;
 }
 /* line 90, ../sass/screen.scss */
 #mainNav.navList li:last-child {
@@ -332,7 +332,7 @@ nav.noJS + section h1 {
 }
 /* line 91, ../sass/screen.scss */
 #mainNav.navList li.activeMain {
-  color: #574236 !important;
+  color: #4d162a !important;
 }
 
 /* line 98, ../sass/screen.scss */
@@ -341,12 +341,12 @@ nav.noJS + section h1 {
 #contactPhoto #contactPhotoNav a, #resume #resumeNav a, #portfolio #portfolioNav a,
 #lab #labNav a, #contactLib #contactLibNav a {
   font-weight: 900;
-  color: #ed5045;
+  color: #ff2f7c;
 }
 
 /* line 103, ../sass/screen.scss */
 strong {
-  color: #c0a367;
+  color: #cc5c25;
   font-weight: 900;
 }
 
@@ -355,7 +355,7 @@ strong {
   width: 90%;
   margin: 0 auto;
   padding: 20px;
-  background: white;
+  background: #fcfaf7;
 }
 
 /* line 116, ../sass/screen.scss */
@@ -370,22 +370,22 @@ header, #homePage h2, #homePage h3 {
 
 /* line 125, ../sass/screen.scss */
 h1 {
-  color: #574236;
+  color: #cc5c25;
 }
 
 /* line 129, ../sass/screen.scss */
 h2 {
-  color: #574236;
+  color: #cc5c25;
 }
 
 /* line 133, ../sass/screen.scss */
 h3 {
-  color: #574236;
+  color: #69464b;
 }
 
 /* line 137, ../sass/screen.scss */
 h4 {
-  color: #574236;
+  color: #69464b;
 }
 
 /* line 141, ../sass/screen.scss */
@@ -395,12 +395,12 @@ section {
 
 /* line 145, ../sass/screen.scss */
 header {
-  background: #c0a367;
+  background: #69464b;
   padding: 1px;
 }
 /* line 148, ../sass/screen.scss */
 header h1 {
-  color: white;
+  color: #ffdeaa;
   font-size: 22px;
   margin: 10px 0;
 }
@@ -411,7 +411,7 @@ header p {
 }
 /* line 157, ../sass/screen.scss */
 header a {
-  color: white;
+  color: #ffdeaa;
   font-weight: normal;
 }
 
@@ -452,7 +452,7 @@ header a {
 /* line 194, ../sass/screen.scss */
 #homePage h2 {
   font-size: 20px;
-  color: #c0a367;
+  color: #69464b;
 }
 /* line 198, ../sass/screen.scss */
 #homePage nav li {
@@ -468,13 +468,13 @@ header a {
   width: 20%;
   float: left;
   text-align: center;
-  border: 2px solid #7ed9d9;
-  color: #574236;
+  border: 2px solid #69464b;
+  color: #4d162a;
   white-space: nowrap;
 }
 /* line 213, ../sass/screen.scss */
 #homePage #lib a, #homePage #photo a {
-  color: #ed5045;
+  color: #ff2f7c;
   font-weight: 900;
   padding: 4px 8px;
 }
@@ -502,7 +502,7 @@ header a {
 #homePage #galleries ul a p {
   margin: 0;
   font-weight: normal;
-  color: #574236;
+  color: #4d162a;
 }
 /* line 247, ../sass/screen.scss */
 #homePage #photoIntro {
@@ -736,7 +736,7 @@ div.columnBlock li, div.columnEven li {
   .page {
     /* width: 978px; */
     /*Total with works out to 1008, but need more for padding*/
-    background: white;
+    background: #fcfaf7;
     width: 86%;
     padding: 22px 44px;
     /* pad more right and left later */
@@ -791,7 +791,7 @@ div.columnBlock li, div.columnEven li {
     display: inline;
     float: left;
     text-align: left;
-    color: #c0a367;
+    color: #69464b;
   }
   /* line 510, ../sass/screen.scss */
   #homePage p#photoIntro {
@@ -852,7 +852,7 @@ div.columnBlock li, div.columnEven li {
     background: none;
     font-size: 18px;
     font-weight: normal;
-    color: #574236;
+    color: #4d162a;
   }
   /* line 572, ../sass/screen.scss */
   #homePage nav#photo {
@@ -862,7 +862,7 @@ div.columnBlock li, div.columnEven li {
     margin: 0;
     padding: 0;
     left: 7%;
-    border-left: 2px solid #c0a367;
+    border-left: 2px solid #cc5c25;
   }
   /* line 581, ../sass/screen.scss */
   #homePage nav#photo ul li {
@@ -879,7 +879,7 @@ div.columnBlock li, div.columnEven li {
     right: 7%;
     text-align: right;
     top: 484px;
-    border-right: 2px solid #c0a367;
+    border-right: 2px solid #cc5c25;
   }
   /* line 598, ../sass/screen.scss */
   #homePage nav#lib ul li {
