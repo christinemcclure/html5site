@@ -1,6 +1,6 @@
 @import "_base.scss";
 
-nav {
+nav, footer {
 	display:none;
 }
 
@@ -19,6 +19,6 @@ ul.print.hide, ul.print {
 }
 
 /* hide photoswipe objects */
-#gallery1, div.carousel, div.ps-uilayer, div.ps-document-overlay, div.ps-toolbar, div.ps.caption {
+#gallery1, #gallery2, #gallery3, #gallery4, div.carousel, div.ps-uilayer, div.ps-document-overlay, div.ps-toolbar, div.ps.caption {
 	display:none !important;
 }

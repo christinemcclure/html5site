@@ -68,9 +68,10 @@ ul.print { /* these are applied for both print and no JS */
 	li {
 		float:left;
 		margin-left:20px;
+		p {margin: $lineHeight 0 0 20px;}
 	}
 	img {
-		max-width: 300px;
+		max-width: 300px !important;
 	}
 }
 
