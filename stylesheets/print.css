@@ -104,93 +104,107 @@ img {
 }
 
 /* line 67, ../sass/_base.scss */
+ul.print {
+  /* these are applied for both print and no JS */
+}
+/* line 68, ../sass/_base.scss */
+ul.print li {
+  float: left;
+  margin-left: 20px;
+}
+/* line 72, ../sass/_base.scss */
+ul.print img {
+  max-width: 300px;
+}
+
+/* line 77, ../sass/_base.scss */
 h1, h2, h3, li a p {
   font-family: "Michroma", Verdana, Arial, sans-serif;
 }
 
-/* line 71, ../sass/_base.scss */
+/* line 81, ../sass/_base.scss */
 h1, h2, h3, h4 {
   font-weight: 900;
 }
 
-/* line 75, ../sass/_base.scss */
+/* line 85, ../sass/_base.scss */
 h5, h6 {
   font-weight: 500;
 }
 
-/* line 80, ../sass/_base.scss */
+/* line 90, ../sass/_base.scss */
 p, ul li, h4, h5, h6 {
   font-family: "Questrial", Verdana, Arial, sans-serif;
 }
 
-/* line 84, ../sass/_base.scss */
+/* line 94, ../sass/_base.scss */
 h1, h2, h3, h4, h5, h6, section, footer {
   clear: both;
   margin: 22px 0;
 }
 
-/* line 89, ../sass/_base.scss */
+/* line 99, ../sass/_base.scss */
 h1 {
   font-size: 20px;
 }
 
-/* line 93, ../sass/_base.scss */
+/* line 103, ../sass/_base.scss */
 h2 {
   font-size: 18px;
 }
 
-/* line 97, ../sass/_base.scss */
+/* line 107, ../sass/_base.scss */
 h3 {
   font-size: 16px;
 }
 
-/* line 101, ../sass/_base.scss */
+/* line 111, ../sass/_base.scss */
 h4 {
   font-size: 14px;
 }
 
-/* line 106, ../sass/_base.scss */
+/* line 116, ../sass/_base.scss */
 a {
   text-decoration: none;
   /*Lose underlining on links to make grid easier to see*/
 }
 
-/* line 110, ../sass/_base.scss */
+/* line 120, ../sass/_base.scss */
 nav {
   font-family: "Questrial", Verdana, Arial, sans-serif;
 }
 
-/* line 114, ../sass/_base.scss */
+/* line 124, ../sass/_base.scss */
 .hide {
   display: none !important;
 }
 
-/* line 115, ../sass/_base.scss */
+/* line 125, ../sass/_base.scss */
 .showInline {
   display: inline;
 }
 
-/* line 116, ../sass/_base.scss */
+/* line 126, ../sass/_base.scss */
 .showBlock {
   display: block;
 }
 
-/* line 117, ../sass/_base.scss */
+/* line 127, ../sass/_base.scss */
 .showInlineBlock {
   display: inline-block;
 }
 
-/* line 119, ../sass/_base.scss */
+/* line 129, ../sass/_base.scss */
 .floatRight {
   float: right;
 }
 
-/* line 123, ../sass/_base.scss */
+/* line 133, ../sass/_base.scss */
 .floatLeft {
   float: left;
 }
 
-/* line 127, ../sass/_base.scss */
+/* line 137, ../sass/_base.scss */
 .clear {
   clear: both;
 }
@@ -216,13 +230,9 @@ a:link, a:visited {
 ul.print.hide, ul.print {
   display: block !important;
 }
-/* line 19, ../sass/print.scss */
-ul.print.hide img, ul.print img {
-  max-width: 400px;
-}
 
 /* hide photoswipe objects */
-/* line 24, ../sass/print.scss */
+/* line 22, ../sass/print.scss */
 #gallery1, div.carousel, div.ps-uilayer, div.ps-document-overlay, div.ps-toolbar, div.ps.caption {
   display: none !important;
 }
