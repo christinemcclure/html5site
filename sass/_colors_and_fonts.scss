@@ -7,6 +7,7 @@ $green: #89A194;
 $darkGreen: #597566;
 $tan: #A39B60;
 $orange: #CC883A;
+$darkOrange: #C4843B;
 $red: #A14016;
 $white: #FAF9F5;
 
@@ -19,16 +20,16 @@ $backgroundColor: $green;
 $headerBackground: $orange;
 $headerFontColor: $white;
 $homePageHeader: $headerBackground;
-$homePageBorder: $green;
-$homePageNavBorder: $green;
+$homePageBorder: $tan;
+$homePageNavBorder: $tan;
 
 $headingMain: $red;
 $headingSub: $darkGreen;
 
 $textShadowColor: $darkGrey;
-$strongColor: $orange;
-$selectBackgroundColor: $tan;
-$selectBorderColor: $green;
+$strongColor: $darkOrange;
+$selectBackgroundColor: $white;
+$selectBorderColor: $red;
 
 $navBasicColor: $darkGrey;
 $navInactiveColor: $tan;

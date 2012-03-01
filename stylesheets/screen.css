@@ -252,8 +252,8 @@ nav select {
   margin: 22px 0 22px 15%;
   color: #322938;
   font-size: 16px;
-  background: #a39b60;
-  border: 2px solid #89a194;
+  background: #faf9f5;
+  border: 2px solid #a14016;
 }
 
 /* line 40, ../sass/screen.scss */
@@ -346,7 +346,7 @@ nav.noJS + section h1 {
 
 /* line 103, ../sass/screen.scss */
 strong {
-  color: #cc883a;
+  color: #c4843b;
   font-weight: 900;
 }
 
@@ -468,7 +468,7 @@ header a {
   width: 20%;
   float: left;
   text-align: center;
-  border: 2px solid #89a194;
+  border: 2px solid #a39b60;
   color: #322938;
   white-space: nowrap;
 }
@@ -862,7 +862,7 @@ div.columnBlock li, div.columnEven li {
     margin: 0;
     padding: 0;
     left: 7%;
-    border-left: 2px solid #89a194;
+    border-left: 2px solid #a39b60;
   }
   /* line 581, ../sass/screen.scss */
   #homePage nav#photo ul li {
@@ -879,7 +879,7 @@ div.columnBlock li, div.columnEven li {
     right: 7%;
     text-align: right;
     top: 484px;
-    border-right: 2px solid #89a194;
+    border-right: 2px solid #a39b60;
   }
   /* line 598, ../sass/screen.scss */
   #homePage nav#lib ul li {
