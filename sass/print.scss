@@ -13,6 +13,14 @@ a:link, a:visited {
 	text-decoration:underline;
 }
 
-.ps-document-overlay, .ps-uilayer, .ps-toolbar, .ps-caption {
-	display:none;
+/* use no JS ul list to display as print */
+ul.print.hide, ul.print {
+	display:block !important;
+	img {
+		max-width: 400px;
+	}
+}
+/* hide photoswipe objects */
+#gallery1, div.carousel, div.ps-uilayer, div.ps-document-overlay, div.ps-toolbar, div.ps.caption {
+	display:none !important;
 }

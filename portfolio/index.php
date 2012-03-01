@@ -39,14 +39,14 @@
     <p class="clear">I also designed and developed Galvin Library's <a href="http://m.library.iit.edu">first mobile website.</a> This site (released July 2011) uses the jQuery Mobile fremework.</p>
 
     <h2>Images</h2>
-    <div id="gallery1" class="photoSwipe">
-			<ul>
+			<ul class="print">
 				<li><p>Business card for a Chicago tavern</p><img src="/img/portfolio/carys_card.png" alt="Satirical book cover in pulp fiction style of a man telling a woman: Get your coat, dollface. We\'re going to Cary\'s." /></li>
 				<li><p>Logo for a software testing company</p><img src="/img/portfolio/11th-hr.png" alt="Eleventh Hour is the company name, and the logo features a stylized clock with the 11 marker in red." /></li>
 				<li><p>Promotional t-shirt for a software testing company</p><img src="/img/portfolio/shirtBack.jpg" alt="Photo of Dr. Frankenstein and Igor in the lab, about to bring the monster to life." /></li>
-				<li><p>Presentation slide</p><img src="/img/portfolio/11th-hr.png" alt="Image of Kolb\'s Experiential Learning Styles" /></li>
+				<li><p>Presentation slide</p><img src="/img/portfolio/kolb.png" alt="Image of Kolb\'s Experiential Learning Styles" /></li>
 			</ul>
-	</div>
+    <div id="gallery1" class="photoSwipe">
+		</div>
 
 </section>
 
