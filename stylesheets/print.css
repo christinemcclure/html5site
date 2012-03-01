@@ -1,4 +1,4 @@
-/* line 17, /Users/christine/.rvm/gems/ruby-1.9.2-p290/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 17, ../../../RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -20,45 +20,45 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
-/* line 20, /Users/christine/.rvm/gems/ruby-1.9.2-p290/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 20, ../../../RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 body {
   line-height: 1;
 }
 
-/* line 22, /Users/christine/.rvm/gems/ruby-1.9.2-p290/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 22, ../../../RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 24, /Users/christine/.rvm/gems/ruby-1.9.2-p290/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 24, ../../../RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 26, /Users/christine/.rvm/gems/ruby-1.9.2-p290/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 26, ../../../RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle;
 }
 
-/* line 28, /Users/christine/.rvm/gems/ruby-1.9.2-p290/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 28, ../../../RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
   quotes: none;
 }
-/* line 101, /Users/christine/.rvm/gems/ruby-1.9.2-p290/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 101, ../../../RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q:before, q:after, blockquote:before, blockquote:after {
   content: "";
   content: none;
 }
 
-/* line 30, /Users/christine/.rvm/gems/ruby-1.9.2-p290/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 30, ../../../RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 a img {
   border: none;
 }
 
-/* line 114, /Users/christine/.rvm/gems/ruby-1.9.2-p290/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 114, ../../../RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
   display: block;
 }
@@ -72,14 +72,14 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 ########################################
 */
 /* from baseline grid .t22 class */
-/* line 19, /Users/christine/Sites/sass/_base.scss */
+/* line 19, ../sass/_base.scss */
 body {
   font-size: 14px;
   line-height: 22px;
 }
 
 /* hide mobile nav at first */
-/* line 27, /Users/christine/Sites/sass/_base.scss */
+/* line 27, ../sass/_base.scss */
 nav select {
   display: none;
 }
@@ -91,124 +91,124 @@ nav select {
 ####################################################### 
 
 */
-/* line 41, /Users/christine/Sites/sass/_base.scss */
+/* line 41, ../sass/_base.scss */
 img {
   max-width: 100%;
   max-height: 100%;
 }
 
 /* for responsive images */
-/* line 44, /Users/christine/Sites/sass/_base.scss */
+/* line 44, ../sass/_base.scss */
 #content {
   margin: 0px auto;
 }
 
-/* line 67, /Users/christine/Sites/sass/_base.scss */
+/* line 67, ../sass/_base.scss */
 ul.print {
   /* these are applied for both print and no JS */
 }
-/* line 68, /Users/christine/Sites/sass/_base.scss */
+/* line 68, ../sass/_base.scss */
 ul.print li {
   float: left;
   margin-left: 20px;
 }
-/* line 71, /Users/christine/Sites/sass/_base.scss */
+/* line 71, ../sass/_base.scss */
 ul.print li p {
-  margin: 22px 0 0 20px;
+  margin: 22px 0 0 0;
 }
-/* line 73, /Users/christine/Sites/sass/_base.scss */
+/* line 73, ../sass/_base.scss */
 ul.print img {
-  max-width: 300px !important;
+  max-width: 500px !important;
 }
 
-/* line 78, /Users/christine/Sites/sass/_base.scss */
+/* line 78, ../sass/_base.scss */
 h1, h2, h3, li a p {
   font-family: "Michroma", Verdana, Arial, sans-serif;
 }
 
-/* line 82, /Users/christine/Sites/sass/_base.scss */
+/* line 82, ../sass/_base.scss */
 h1, h2, h3, h4 {
   font-weight: 900;
 }
 
-/* line 86, /Users/christine/Sites/sass/_base.scss */
+/* line 86, ../sass/_base.scss */
 h5, h6 {
   font-weight: 500;
 }
 
-/* line 91, /Users/christine/Sites/sass/_base.scss */
+/* line 91, ../sass/_base.scss */
 p, ul li, h4, h5, h6 {
   font-family: "Questrial", Verdana, Arial, sans-serif;
 }
 
-/* line 95, /Users/christine/Sites/sass/_base.scss */
+/* line 95, ../sass/_base.scss */
 h1, h2, h3, h4, h5, h6, section, footer {
   clear: both;
   margin: 22px 0;
 }
 
-/* line 100, /Users/christine/Sites/sass/_base.scss */
+/* line 100, ../sass/_base.scss */
 h1 {
   font-size: 20px;
 }
 
-/* line 104, /Users/christine/Sites/sass/_base.scss */
+/* line 104, ../sass/_base.scss */
 h2 {
   font-size: 18px;
 }
 
-/* line 108, /Users/christine/Sites/sass/_base.scss */
+/* line 108, ../sass/_base.scss */
 h3 {
   font-size: 16px;
 }
 
-/* line 112, /Users/christine/Sites/sass/_base.scss */
+/* line 112, ../sass/_base.scss */
 h4 {
   font-size: 14px;
 }
 
-/* line 117, /Users/christine/Sites/sass/_base.scss */
+/* line 117, ../sass/_base.scss */
 a {
   text-decoration: none;
   /*Lose underlining on links to make grid easier to see*/
 }
 
-/* line 121, /Users/christine/Sites/sass/_base.scss */
+/* line 121, ../sass/_base.scss */
 nav {
   font-family: "Questrial", Verdana, Arial, sans-serif;
 }
 
-/* line 125, /Users/christine/Sites/sass/_base.scss */
+/* line 125, ../sass/_base.scss */
 .hide {
   display: none !important;
 }
 
-/* line 126, /Users/christine/Sites/sass/_base.scss */
+/* line 126, ../sass/_base.scss */
 .showInline {
   display: inline;
 }
 
-/* line 127, /Users/christine/Sites/sass/_base.scss */
+/* line 127, ../sass/_base.scss */
 .showBlock {
   display: block;
 }
 
-/* line 128, /Users/christine/Sites/sass/_base.scss */
+/* line 128, ../sass/_base.scss */
 .showInlineBlock {
   display: inline-block;
 }
 
-/* line 130, /Users/christine/Sites/sass/_base.scss */
+/* line 130, ../sass/_base.scss */
 .floatRight {
   float: right;
 }
 
-/* line 134, /Users/christine/Sites/sass/_base.scss */
+/* line 134, ../sass/_base.scss */
 .floatLeft {
   float: left;
 }
 
-/* line 138, /Users/christine/Sites/sass/_base.scss */
+/* line 138, ../sass/_base.scss */
 .clear {
   clear: both;
 }
