@@ -29,8 +29,7 @@
   <div id="gallery1" class="photoSwipe">
   </div>
   <h2>Panama</h2>
-  <div id="gallery2" class="photoSwipe">
-  	<ul>
+  	<ul class="print">
       <li><p>Kuna Yala woman in traditional dress.</p><img src="/img/travel/panama-sanblas-4.jpg" alt="Photo of woman and boy on a boat dock. The woman is wearing brightly-patterned clothing with heavy beaded bands around her wrists and ankles." /></li>
       <li><p>Wannukandi Airport</p><img src="/img/travel/panama-sanblas-1.jpg" alt="Photo of a small regional airport with plastic bottles for runway markers." /></li>
       <li><p>Boquete National Forest.</p><img src="/img/travel/panama-nationalpark.jpg" alt="Photo of large, backlit fern leaf." /></li>
@@ -42,6 +41,7 @@
       <li><p>Boquete National Forest.</p><img src="/img/travel/panama-boquete-2.jpg" alt="Photo of the back of a hiker going down the forest path." /></li>
       <li><p>Panama City</p><img src="/img/travel/panama-morning.jpg" alt="Photo of an old brick supporting structure, backlit from the sun rising over the ocean." /></li>
     </ul>
+  <div id="gallery2" class="photoSwipe">
   </div>
 </section>        
 <?php include '../includes/footer.html'; ?>
