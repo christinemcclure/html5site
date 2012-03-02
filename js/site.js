@@ -74,8 +74,7 @@ $(document).ready(function() {
 					}
 					$(galleryClass).each(function(index) {							
 						$(this).css({height: myHeight, 
-						'max-height': myHeight+'px'} ); 
-																											
+						'max-height': myHeight+'px'} ); 																
 					});
 			}
 	})($);
