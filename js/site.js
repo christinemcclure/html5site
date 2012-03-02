@@ -63,13 +63,19 @@ $(document).ready(function() {
 	
 	(function($){
 				setAllGalleryHeights=function(galleryClass, myHeight) {
+				// set maxWinHeight to whatever output will be from LightRoom. 
+				// The plugin won't just take from image max height
 					if (!myHeight) {
-						myHeight = maxHeightPhoto;
+						myHeight = maxHeightPhoto; 
+					}
+					var currentHeight = Math.round( $(window).height() * maxWinHeight );
+					if (myHeight > currentHeight) {
+						myHeight = currentHeight; // don't let gallery window be larger than image 
 					}
 					$(galleryClass).each(function(index) {							
-						$(this).css({height: Math.round( $(window).height() * maxWinHeight ), 
+						$(this).css({height: myHeight, 
 						'max-height': myHeight+'px'} ); 
-						// set maxWinHeight to whatever output will be from LightRoom. The plugin won't just take from image max height																					
+																											
 					});
 			}
 	})($);
