@@ -1,4 +1,4 @@
-/* line 17, ../../.rvm/gems/ruby-1.9.2-p290/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 17, ../../../RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -20,51 +20,51 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
-/* line 20, ../../.rvm/gems/ruby-1.9.2-p290/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 20, ../../../RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 body {
   line-height: 1;
 }
 
-/* line 22, ../../.rvm/gems/ruby-1.9.2-p290/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 22, ../../../RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 24, ../../.rvm/gems/ruby-1.9.2-p290/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 24, ../../../RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 26, ../../.rvm/gems/ruby-1.9.2-p290/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 26, ../../../RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle;
 }
 
-/* line 28, ../../.rvm/gems/ruby-1.9.2-p290/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 28, ../../../RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
   quotes: none;
 }
-/* line 101, ../../.rvm/gems/ruby-1.9.2-p290/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 101, ../../../RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q:before, q:after, blockquote:before, blockquote:after {
   content: "";
   content: none;
 }
 
-/* line 30, ../../.rvm/gems/ruby-1.9.2-p290/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 30, ../../../RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 a img {
   border: none;
 }
 
-/* line 114, ../../.rvm/gems/ruby-1.9.2-p290/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 114, ../../../RailsInstaller/Ruby1.9.2/lib/ruby/gems/1.9.1/gems/compass-0.11.5/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
   display: block;
 }
 
 /* may need to move this to css3 file */
-/*Bart colors */
+/* Sounds of Sax colors from colorlouvers*/
 /* Generic references used in the other files */
 /*
 ########################################
@@ -114,11 +114,11 @@ ul.print li {
 }
 /* line 71, ../sass/_base.scss */
 ul.print li p {
-  margin: 22px 0 0 20px;
+  margin: 22px 0 0 0;
 }
 /* line 73, ../sass/_base.scss */
 ul.print img {
-  max-width: 300px !important;
+  max-width: 500px !important;
 }
 
 /* line 78, ../sass/_base.scss */
@@ -216,13 +216,13 @@ nav {
 /*   ************ MOBILE / GENERIC SETTINGS ***********     */
 /* line 6, ../sass/screen.scss */
 body {
-  background: #7ed9d9;
+  background: #89a194;
   padding: 20px 4px 10px 4px;
-  color: #424242;
+  color: #322938;
 }
 /* line 10, ../sass/screen.scss */
 body a {
-  color: #ed5045;
+  color: #a14016;
   font-weight: 900;
 }
 
@@ -250,10 +250,10 @@ nav select {
   /* display with JS */
   width: 70%;
   margin: 22px 0 22px 15%;
-  color: #574236;
+  color: #322938;
   font-size: 16px;
-  background: white;
-  border: 2px solid #c0a367;
+  background: #faf9f5;
+  border: 2px solid #a14016;
 }
 
 /* line 40, ../sass/screen.scss */
@@ -272,13 +272,13 @@ nav li {
 }
 /* line 46, ../sass/screen.scss */
 nav a {
-  color: #574236;
+  color: #322938;
   font-weight: normal;
 }
 
 /* line 49, ../sass/screen.scss */
 .navList li a:hover {
-  color: #ed5045;
+  color: #a14016;
   font-weight: 900;
 }
 
@@ -324,7 +324,7 @@ nav.noJS + section h1 {
   font-size: 16px;
   margin: 0 20px 66px 0;
   /*20/876*/
-  color: #c0a367;
+  color: #a39b60;
 }
 /* line 90, ../sass/screen.scss */
 #mainNav.navList li:last-child {
@@ -332,7 +332,7 @@ nav.noJS + section h1 {
 }
 /* line 91, ../sass/screen.scss */
 #mainNav.navList li.activeMain {
-  color: #574236 !important;
+  color: #322938 !important;
 }
 
 /* line 98, ../sass/screen.scss */
@@ -341,12 +341,12 @@ nav.noJS + section h1 {
 #contactPhoto #contactPhotoNav a, #resume #resumeNav a, #portfolio #portfolioNav a,
 #lab #labNav a, #contactLib #contactLibNav a {
   font-weight: 900;
-  color: #ed5045;
+  color: #a14016;
 }
 
 /* line 103, ../sass/screen.scss */
 strong {
-  color: #c0a367;
+  color: #c4843b;
   font-weight: 900;
 }
 
@@ -355,7 +355,7 @@ strong {
   width: 90%;
   margin: 0 auto;
   padding: 20px;
-  background: white;
+  background: #faf9f5;
 }
 
 /* line 116, ../sass/screen.scss */
@@ -370,22 +370,22 @@ header, #homePage h2, #homePage h3 {
 
 /* line 125, ../sass/screen.scss */
 h1 {
-  color: #574236;
+  color: #a14016;
 }
 
 /* line 129, ../sass/screen.scss */
 h2 {
-  color: #574236;
+  color: #a14016;
 }
 
 /* line 133, ../sass/screen.scss */
 h3 {
-  color: #574236;
+  color: #597566;
 }
 
 /* line 137, ../sass/screen.scss */
 h4 {
-  color: #574236;
+  color: #597566;
 }
 
 /* line 141, ../sass/screen.scss */
@@ -395,12 +395,12 @@ section {
 
 /* line 145, ../sass/screen.scss */
 header {
-  background: #c0a367;
+  background: #cc883a;
   padding: 1px;
 }
 /* line 148, ../sass/screen.scss */
 header h1 {
-  color: white;
+  color: #faf9f5;
   font-size: 22px;
   margin: 10px 0;
 }
@@ -411,7 +411,7 @@ header p {
 }
 /* line 157, ../sass/screen.scss */
 header a {
-  color: white;
+  color: #faf9f5;
   font-weight: normal;
 }
 
@@ -452,7 +452,7 @@ header a {
 /* line 194, ../sass/screen.scss */
 #homePage h2 {
   font-size: 20px;
-  color: #c0a367;
+  color: #cc883a;
 }
 /* line 198, ../sass/screen.scss */
 #homePage nav li {
@@ -468,13 +468,13 @@ header a {
   width: 20%;
   float: left;
   text-align: center;
-  border: 2px solid #7ed9d9;
-  color: #574236;
+  border: 2px solid #a39b60;
+  color: #322938;
   white-space: nowrap;
 }
 /* line 213, ../sass/screen.scss */
 #homePage #lib a, #homePage #photo a {
-  color: #ed5045;
+  color: #a14016;
   font-weight: 900;
   padding: 4px 8px;
 }
@@ -502,7 +502,7 @@ header a {
 #homePage #galleries ul a p {
   margin: 0;
   font-weight: normal;
-  color: #574236;
+  color: #322938;
 }
 /* line 247, ../sass/screen.scss */
 #homePage #photoIntro {
@@ -736,7 +736,7 @@ div.columnBlock li, div.columnEven li {
   .page {
     /* width: 978px; */
     /*Total with works out to 1008, but need more for padding*/
-    background: white;
+    background: #faf9f5;
     width: 86%;
     padding: 22px 44px;
     /* pad more right and left later */
@@ -791,7 +791,7 @@ div.columnBlock li, div.columnEven li {
     display: inline;
     float: left;
     text-align: left;
-    color: #c0a367;
+    color: #cc883a;
   }
   /* line 510, ../sass/screen.scss */
   #homePage p#photoIntro {
@@ -852,7 +852,7 @@ div.columnBlock li, div.columnEven li {
     background: none;
     font-size: 18px;
     font-weight: normal;
-    color: #574236;
+    color: #322938;
   }
   /* line 572, ../sass/screen.scss */
   #homePage nav#photo {
@@ -862,7 +862,7 @@ div.columnBlock li, div.columnEven li {
     margin: 0;
     padding: 0;
     left: 7%;
-    border-left: 2px solid #c0a367;
+    border-left: 2px solid #a39b60;
   }
   /* line 581, ../sass/screen.scss */
   #homePage nav#photo ul li {
@@ -879,7 +879,7 @@ div.columnBlock li, div.columnEven li {
     right: 7%;
     text-align: right;
     top: 484px;
-    border-right: 2px solid #c0a367;
+    border-right: 2px solid #a39b60;
   }
   /* line 598, ../sass/screen.scss */
   #homePage nav#lib ul li {
