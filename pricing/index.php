@@ -18,6 +18,7 @@
 		<h2>Event Photography</h2>
 		<p>From children's birthday parties to book signings to corporate functions, you'll receive an accurate record of the occasion. Pricing is by a per-hour shooting fee, with a minimum agreed-upon amount. Additional shooting time can be arranged on the day of the event if necessary.</p>
       <p>After the event, you will receive a CD of web-quality images (600x400 pixels at 100ppi). Print-quality images can be <a href="http://christinemcclure.smugmug.com/">ordered online</a> for an additional cost.</p>
+		<p>Need a wedding photographer? Contact my good friend, <a href="http://www.davesuarez.com/">Dave Suarez</a>.</p>
   </div>
 
 	<div class="columnEven">
