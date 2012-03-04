@@ -21,7 +21,7 @@
 		<p>This one, of course. The latest rendition of christinemcclure.com is an exercise in:</p>
     <div class="columnBlock">
 			<ul>
-	      <li><p><strong>Mobile first</strong> design methodology: This centers your site around planning for a mobile site, forcing the design to focus on the most importent content of the site, rather than trying to fill up all the real estate of a traditional desktop monitor.</p><p>Read more about <a href="http://www.lukew.com/ff/entry.asp?933">mobile first</a>.</p></li>
+	      <li><p><strong>Mobile first</strong> design methodology: Planning for the mobile site first, instead of later. This allows you to focus on the most important content of the site, rather than filling up all the real estate of a traditional desktop monitor simply because there is space.</p><p>Read more about <a href="http://www.lukew.com/ff/entry.asp?933">mobile first</a>.</p></li>
      	</ul>
      </div>
     <div class="columnBlock">
