@@ -6,7 +6,7 @@ $(document).ready(function() {
 	var libPageArray = new Array("resume","portfolio","lab", "contactLib");
 	var navType = "";
 	for(var i=0; i<libPageArray.length; i++) {
-		if (libPageArray.indexOf(bodyID)===-1) {
+		if (libPageArray[i].indexOf(bodyID)===-1) {
 			navType = 'photo'; // if not in lib array, set as photo
 		}
 		else {
