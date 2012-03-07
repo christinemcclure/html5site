@@ -1,11 +1,8 @@
 <?php include($_SERVER['DOCUMENT_ROOT']."/includes/head-stub.html"); ?>
-	
-	<link href="../js/photoSwipe/photoswipe.css" type="text/css" rel="stylesheet" />
-	<script type="text/javascript" src="../js/photoSwipe/lib/klass.min.js"></script>
-	<script type="text/javascript" src="../js/photoSwipe/code.photoswipe-3.0.4.min.js"></script>	
-    
+	<link href="/js/photoSwipe/photoswipe.css" type="text/css" rel="stylesheet" />
+	<script type="text/javascript" src="/js/photoSwipe/lib/klass.min.js"></script>
+	<script type="text/javascript" src="/js/photoSwipe/code.photoswipe.jquery-3.0.4.min.js"></script>	   
   <title>Christine McClure -- Event Photography</title>
-  <!-- Place in the <head>, after the three links -->
 </head>
 
 <body id="events">

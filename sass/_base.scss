@@ -75,6 +75,11 @@ ul.print { /* these are applied for both print and no JS */
 	}
 }
 
+ul.print {
+	_display:block; /* show to IE */
+	_color:yellow;
+}
+
 h1, h2, h3, li a p {
 	font-family: $headingFont;
 }

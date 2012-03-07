@@ -1,10 +1,6 @@
 <?php include($_SERVER['DOCUMENT_ROOT']."/includes/head-stub.html"); ?>
-
-	<link href="/js/photoSwipe/photoswipe.css" type="text/css" rel="stylesheet" />
-	<script type="text/javascript" src="/js/photoSwipe/lib/klass.min.js"></script>
-	<script type="text/javascript" src="/js/photoSwipe/code.photoswipe-3.0.4.min.js"></script>	
-
   <title>Christine McClure -- Portfolio</title>
+<?php include($_SERVER['DOCUMENT_ROOT']."/includes/gallery-stub.html"); ?>
 </head>
 
 <body id="portfolio">
@@ -38,8 +34,8 @@
     <p class="clear">I also designed and developed Galvin Library's <a href="http://m.library.iit.edu">first mobile website.</a> This site (released July 2011) uses the jQuery Mobile fremework.</p>
 
     <h2>Images</h2>
-			<ul class="print">
-				<li><p>Business card for a Chicago tavern</p><img src="/img/portfolio/carys_card.png" alt="Satirical book cover in pulp fiction style of a man telling a woman: Get your coat, dollface. We\'re going to Cary\'s." /></li>
+			<ul id="ulGallery1" class="print">
+				<li><p>Business card for a Chicago tavern</p><img src="/img/portfolio/carys_card.png" alt="Satirical book cover in pulp fiction style of a man telling a woman: Get your coat, dollface. We\'re going to Cary's." /></li>
 				<li><p>Logo for a software testing company</p><img src="/img/portfolio/11th-hr.png" alt="Eleventh Hour is the company name, and the logo features a stylized clock with the 11 marker in red." /></li>
 				<li><p>Promotional t-shirt for a software testing company</p><img src="/img/portfolio/shirtBack.jpg" alt="Photo of Dr. Frankenstein and Igor in the lab, about to bring the monster to life." /></li>
 				<li><p>Presentation slide</p><img src="/img/portfolio/kolb.png" alt="Image of Kolb\'s Experiential Learning Styles" /></li>
