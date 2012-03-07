@@ -4,13 +4,14 @@ $(document).ready(function() {
 	var maxWinHeight = 0.8;
 	var bodyID = $('body').attr('id'); // get bodyID so can set navType to lib or photo 
 	var libPageArray = new Array("resume","portfolio","lab", "contactLib");
-	var navType = "";
+	var navType;
 	for(var i=0; i<libPageArray.length; i++) {
-		if (libPageArray[i].indexOf(bodyID)===-1) {
-			navType = 'photo'; // if not in lib array, set as photo
+		if (libPageArray[i].indexOf(bodyID)>= 0) {
+			navType = 'lib'; // if in lib array, set as lib and breka out of loop
+			break;
 		}
 		else {
-			navType = 'lib'; // or lib
+			navType = 'photo'; // otherwise, set photo
 		}
 	}
 	
@@ -109,4 +110,3 @@ $(document).ready(function() {
 	});		
 
 });
-
