@@ -1,6 +1,6 @@
 <?php include($_SERVER['DOCUMENT_ROOT']."/includes/head-stub.html"); ?>
-  <title>Christine McClure -- Portfolio</title>
 <?php include($_SERVER['DOCUMENT_ROOT']."/includes/gallery-stub.html"); ?>
+  <title>Christine McClure -- Portfolio</title>
 </head>
 
 <body id="portfolio">

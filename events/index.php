@@ -1,7 +1,5 @@
 <?php include($_SERVER['DOCUMENT_ROOT']."/includes/head-stub.html"); ?>
-	<link href="/js/photoSwipe/photoswipe.css" type="text/css" rel="stylesheet" />
-	<script type="text/javascript" src="/js/photoSwipe/lib/klass.min.js"></script>
-	<script type="text/javascript" src="/js/photoSwipe/code.photoswipe.jquery-3.0.4.min.js"></script>	   
+<?php include($_SERVER['DOCUMENT_ROOT']."/includes/gallery-stub.html"); ?>
   <title>Christine McClure -- Event Photography</title>
 </head>
 
