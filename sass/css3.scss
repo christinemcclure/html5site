@@ -24,7 +24,7 @@ $radius: 10px;
 a:hover, #galleries li :hover, header, #mainNav li:hover:not(.activeMain) {
 	text: $textHoverColor;
   text-shadow: 4px 4px 8px $textShadowColor;
-  filter: dropshadow(color=$textShadowColor, offx=4, offy=4);
+  /* filter: dropshadow(color=$textShadowColor, offx=4, offy=4); remove because looks horrible in IE9 */
 	border:none;
 }
 
