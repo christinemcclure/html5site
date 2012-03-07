@@ -1,8 +1,8 @@
-<?php include '../includes/head-stub.html' ?>
+<?php include($_SERVER['DOCUMENT_ROOT']."/includes/head-stub.html"); ?>
 
-	<link href="../js/photoSwipe/photoswipe.css" type="text/css" rel="stylesheet" />
-	<script type="text/javascript" src="../js/photoSwipe/lib/klass.min.js"></script>
-	<script type="text/javascript" src="../js/photoSwipe/code.photoswipe-3.0.4.min.js"></script>	
+	<link href="/js/photoSwipe/photoswipe.css" type="text/css" rel="stylesheet" />
+	<script type="text/javascript" src="/js/photoSwipe/lib/klass.min.js"></script>
+	<script type="text/javascript" src="/js/photoSwipe/code.photoswipe-3.0.4.min.js"></script>	
 
   <title>Christine McClure -- Portfolio</title>
 </head>
@@ -10,9 +10,8 @@
 <body id="portfolio">
 
 <div class="page">
-	
-<?php include '../includes/header.html'; ?>
-<?php include '../includes/nav.html'; ?>
+<?php include($_SERVER['DOCUMENT_ROOT']."/includes/header.html"); ?>
+<?php include($_SERVER['DOCUMENT_ROOT']."/includes/nav.html"); ?>
 
 	<section>
   	<h1 class="top">Portfolio</h1>
@@ -50,7 +49,7 @@
 
 </section>
 
-<?php include '../includes/footer.html'; ?>
+<?php include($_SERVER['DOCUMENT_ROOT']."/includes/footer.html"); ?>
 </div>
 	<script type="text/javascript">
 		(function(window, Util, PhotoSwipe){			

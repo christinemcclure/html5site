@@ -1,4 +1,4 @@
-<?php include 'includes/head-stub.html' ?>
+<?php include($_SERVER['DOCUMENT_ROOT']."/includes/head-stub.html"); ?>
 
   <title>Christine McClure</title>
 </head>
@@ -7,7 +7,8 @@
 
 <div class="page">
 
-<?php include 'includes/header.html'; ?>
+<?php include($_SERVER['DOCUMENT_ROOT']."/includes/header.html"); ?>
+
 
   <h2 id="photoHeader">photography</h2>
   <nav id="galleries">
@@ -38,7 +39,7 @@
     		<li><a href="/contactLib">contact</a></li>
     </ul>
   </nav>
-	<?php include 'includes/footer.html'; ?>
+	<?php include($_SERVER['DOCUMENT_ROOT']."/includes/footer.html"); ?>
 
 </div>
 </body>

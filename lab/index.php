@@ -1,4 +1,4 @@
-<?php include '../includes/head-stub.html' ?>
+<?php include($_SERVER['DOCUMENT_ROOT']."/includes/head-stub.html"); ?>
 
   <title>Christine McClure -- The Lab</title>
 </head>
@@ -6,9 +6,8 @@
 <body id="lab">
 
 <div class="page">
-	
-<?php include '../includes/header.html'; ?>
-<?php include '../includes/nav.html'; ?>
+<?php include($_SERVER['DOCUMENT_ROOT']."/includes/header.html"); ?>
+<?php include($_SERVER['DOCUMENT_ROOT']."/includes/nav.html"); ?>
 <section>	
     <h1 class="top">The Lab</h1>
     <p>What's on the back burner?</p>
@@ -24,7 +23,7 @@
 		</div>
 </section>    
 
-<?php include '../includes/footer.html'; ?>
+<?php include($_SERVER['DOCUMENT_ROOT']."/includes/footer.html"); ?>
 </div>
 
 </body>

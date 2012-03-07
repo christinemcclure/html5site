@@ -1,4 +1,4 @@
-<?php include '../includes/head-stub.html' ?>
+<?php include($_SERVER['DOCUMENT_ROOT']."/includes/head-stub.html"); ?>
 
 	<link href="../js/photoSwipe/photoswipe.css" type="text/css" rel="stylesheet" />
 	<script type="text/javascript" src="../js/photoSwipe/lib/klass.min.js"></script>
@@ -11,8 +11,8 @@
 
 <div class="page">
 	
-<?php include '../includes/header.html'; ?>
-<?php include '../includes/nav.html'; ?>
+<?php include($_SERVER['DOCUMENT_ROOT']."/includes/header.html"); ?>
+<?php include($_SERVER['DOCUMENT_ROOT']."/includes/nav.html"); ?>
 
 	<section>
     <h1 class="top">Fine Art Photography</h1>
@@ -101,7 +101,7 @@
 
 </section>
 
-<?php include '../includes/footer.html'; ?>
+<?php include($_SERVER['DOCUMENT_ROOT']."/includes/footer.html"); ?>
 </div>
 	<script type="text/javascript">
 		(function(window, Util, PhotoSwipe){			

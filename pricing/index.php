@@ -1,4 +1,4 @@
-<?php include '../includes/head-stub.html' ?>
+<?php include($_SERVER['DOCUMENT_ROOT']."/includes/head-stub.html"); ?>
 
   <title>Christine McClure -- Pricing</title>
 </head>
@@ -6,13 +6,11 @@
 <body id="pricing">
 
 <div class="page">
-	
-<?php include '../includes/header.html'; ?>
-<?php include '../includes/nav.html'; ?>
+<?php include($_SERVER['DOCUMENT_ROOT']."/includes/header.html"); ?>
+<?php include($_SERVER['DOCUMENT_ROOT']."/includes/nav.html"); ?>
 <section>
 	
 	<h1>Pricing</h1>
-
 
 	<div class="columnEven">
 		<h2>Event Photography</h2>
@@ -29,7 +27,7 @@ After the event, you will receive a CD of web-quality images (600x400 pixels at 
 	</div>
 </section>
 
-<?php include '../includes/footer.html'; ?>
+<?php include($_SERVER['DOCUMENT_ROOT']."/includes/footer.html"); ?>
 </div>
 </body>
 
