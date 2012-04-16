@@ -13,6 +13,12 @@
     <p>What's on the back burner?</p>
 
 		<div class="columnEven">
+	    <h2>Honeypot Form Validation</h2>
+      <p> I started getting  some spam, so I added a <a href="http://devgrow.com/simple-php-honey-pot/">honeypot</a> to my mail forms. This is a hidden form element that only robots scripts will fill in. You check the element's value once the form is submitted. If it isn't empty, you can reject bot spam emails and keep your inbox clean. </p>
+    </div>  	
+
+
+		<div class="columnEven">
 	    <h2>Background Designs</h2>
       <p>This first entry used to be "redesigning my site," but now that it's up and running I'm playing around with some of these great background ideas from <a href="http://www.noupe.com/design/outstanding-website-background-guide-60-impressive-resources.html">this article</a>.</p>
     </div>  	

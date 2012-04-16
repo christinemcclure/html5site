@@ -177,6 +177,7 @@ header {
 }	
 	
 #contactLib, #contactPhoto {
+	.honeypot {display:none;} /* honeypot for robo forms. hide from humans */
 	input, textarea {
 		width: 100%;
 		margin: 0 0 $lineHeight 0;	
