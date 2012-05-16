@@ -195,7 +195,7 @@
 		<div class="columnBlock">
       <h2>Education</h2>
         <ul class="columnBlock">
-          <li>Master Certificate in <strong>Web Design &amp; Application Development</strong> (2012)</li>
+          <li>Master Certificate in <strong>Web Design &amp; Application Development</strong></li>
           <li>Master of <strong>Library and Information Science</strong>, Dominican University, River Forest, IL. 
           <ul class="subList">
             <li>Beta Phi Mu honor society member</li>
