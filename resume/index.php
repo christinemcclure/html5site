@@ -68,7 +68,7 @@
     <h3>Implementation Librarian </h3>
       <p>Ex Libris Group</p>
 				<div class="columnBlock">
-          <h4>Customer Management</h4>
+          <h4>Project Management</h4>
             <ul>
               <li>Coordinated software installations and upgrades for the Primo discovery and delivery application. </li>
               <li>Communicated issues and requests to the members of the Primo team for resolution and possible 
