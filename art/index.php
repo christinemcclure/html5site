@@ -72,15 +72,15 @@
 	      </ul>
   	</div>
 	<ul class="print">
-    <li><p>Focus-1</p><img src="/img/fineart/focus-1.jpg" alt="Circular photo. Top half is out-of-focus dark shapes. Bottom half is the top portion of a gate (barrier) in up-close detail." /></li>
-    <li><p>Focus-2</p><img src="/img/fineart/focus-2.jpg" alt="Circular photo. Top half is slightly out-of-focus dark shapes. Bottom half is slightly out-of-focus gate (barrier)."  /></li>
-    <li><p>Focus-3</p><img src="/img/fineart/focus-3.jpg" alt="Circular photo. Top half shows orthodox Jewish men praying at the Kotel (Wailing Wall) in Jerusalem. Bottom half is out-of-focus gate (barrier)."  /></li>
-    <li><p>Macro-1</p><img src="/img/fineart/macro-1.jpg" alt="'Circular photo of a succulent plant (unknown species) taken at the Garfield Park Conservatory in Chicago"  /></li>
-    <li><p>Macro-2</p><img src="/img/fineart/macro-2.jpg" alt="Circular photo of a succulent plant (unknown species) taken at the Garfield Park Conservatory in Chicago"  /></li>
-    <li><p>Macro-3</p><img src="/img/fineart/macro-3.jpg" alt="Circular photo of a succulent plant (unknown species) taken at the Garfield Park Conservatory in Chicago" /></li>
-    <li><p>Persephone-1</p><img src="/img/fineart/persephone-1.jpg" alt="Digitally-manipulated image of cement planters with overly-large blue plant erupting from one of them."  /></li>
-    <li><p>Persephone-2</p><img src="/img/fineart/persephone-2.jpg" alt="Digitally-manipulated image of a decrepit Chicago mansion with overly large cacti as the front lawn."  /></li>
-    <li><p>Persephone-3</p><img src="/img/fineart/persephone-3.jpg" alt="Digitally-manipulated image of a large fern-like plant in grayscale growing out of large red rocks (magnified pebbles)."  /></li>
+    <li><p>Focus-1</p><img src="/img/fineart/Focus-1.jpg" alt="Circular photo. Top half is out-of-focus dark shapes. Bottom half is the top portion of a gate (barrier) in up-close detail." /></li>
+    <li><p>Focus-2</p><img src="/img/fineart/Focus-2.jpg" alt="Circular photo. Top half is slightly out-of-focus dark shapes. Bottom half is slightly out-of-focus gate (barrier)."  /></li>
+    <li><p>Focus-3</p><img src="/img/fineart/Focus-3.jpg" alt="Circular photo. Top half shows orthodox Jewish men praying at the Kotel (Wailing Wall) in Jerusalem. Bottom half is out-of-focus gate (barrier)."  /></li>
+    <li><p>Macro-1</p><img src="/img/fineart/Macro-1.jpg" alt="'Circular photo of a succulent plant (unknown species) taken at the Garfield Park Conservatory in Chicago"  /></li>
+    <li><p>Macro-2</p><img src="/img/fineart/Macro-2.jpg" alt="Circular photo of a succulent plant (unknown species) taken at the Garfield Park Conservatory in Chicago"  /></li>
+    <li><p>Macro-3</p><img src="/img/fineart/Macro-3.jpg" alt="Circular photo of a succulent plant (unknown species) taken at the Garfield Park Conservatory in Chicago" /></li>
+    <li><p>Persephone-1</p><img src="/img/fineart/Persephone-1.jpg" alt="Digitally-manipulated image of cement planters with overly-large blue plant erupting from one of them."  /></li>
+    <li><p>Persephone-2</p><img src="/img/fineart/Persephone-2.jpg" alt="Digitally-manipulated image of a decrepit Chicago mansion with overly large cacti as the front lawn."  /></li>
+    <li><p>Persephone-3</p><img src="/img/fineart/Persephone-3.jpg" alt="Digitally-manipulated image of a large fern-like plant in grayscale growing out of large red rocks (magnified pebbles)."  /></li>
     <li><p>Perspective-1</p><img src="/img/fineart/Perspective-1.jpg" alt="Digitally-manipulated image of the Kotel made to like very small by perspective."  /></li>
     <li><p>Perspective-2</p><img src="/img/fineart/Perspective-2.jpg" alt="Digitally-manipulated image of the Jerusalem skyline with the Dome of the Rock made to like very small by perspective."  /></li>
     <li><p>Perspective-3</p><img src="/img/fineart/Perspective-3.jpg" alt="Digitally-manipulated image of the Church of the Holy Sepulchre made to like very small by perspective." /></li>
@@ -105,23 +105,23 @@
 				var gallery1, gallery2, gallery3, gallery4, gallery5, gallery6;
 				gallery1 = PhotoSwipe.attach(
 					[
-						{ url: '/img/fineart/focus-1.jpg', 
+						{ url: '/img/fineart/Focus-1.jpg', 
 								caption:'Focus-1'},
-						{ url: '/img/fineart/focus-2.jpg', 
+						{ url: '/img/fineart/Focus-2.jpg', 
 								caption:'Focus-2'},
-						{ url: '/img/fineart/focus-3.jpg', 
+						{ url: '/img/fineart/Focus-3.jpg', 
 								caption:'Focus-3'},
-						{ url: '/img/fineart/macro-1.jpg', 
+						{ url: '/img/fineart/Macro-1.jpg', 
 								caption:'Macro-1'},
-						{ url: '/img/fineart/macro-2.jpg', 
+						{ url: '/img/fineart/Macro-2.jpg', 
 								caption:'Macro-2'},
-						{ url: '/img/fineart/macro-3.jpg', 
+						{ url: '/img/fineart/Macro-3.jpg', 
 								caption:'Macro-3'},
-						{ url: '/img/fineart/persephone-1.jpg', 
+						{ url: '/img/fineart/Persephone-1.jpg', 
 								caption:'Persephone-1'},
-						{ url: '/img/fineart/persephone-2.jpg', 
+						{ url: '/img/fineart/Persephone-2.jpg', 
 								caption:'Persephone-2'},
-						{ url: '/img/fineart/persephone-3.jpg', 
+						{ url: '/img/fineart/Persephone-3.jpg', 
 								caption:'Persephone-3'},
 						{ url: '/img/fineart/Perspective-1.jpg', 
 								caption:'Perspective-1'},
