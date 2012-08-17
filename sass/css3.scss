@@ -29,6 +29,14 @@ a:hover, #galleries li :hover, header, #mainNav li:hover:not(.activeMain) {
 }
 
 
+strong {
+    padding: 2px 6px;
+    background-color: #E3DEC8;
+    -webkit-border-radius: 80px;
+    border-radius: 80px;
+}
+
+
 /* PhotoSwipe settings */
 #gallery1, #gallery2, #gallery3, #gallery4, #gallery5, #gallery6 { width: 100%;  margin: 0 auto;}
 #Indicators { text-align: center; margin-top: 20px; }
