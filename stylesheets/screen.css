@@ -123,9 +123,9 @@ ul.print img {
 
 /* line 78, ../sass/_base.scss */
 ul.print {
-  _display: block;
+  display: block;
   /* show to IE */
-  _color: yellow;
+  color: yellow;
 }
 
 /* line 83, ../sass/_base.scss */
