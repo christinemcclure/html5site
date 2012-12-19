@@ -1,0 +1,24 @@
+@import "_base.scss";
+
+nav, footer {
+	display:none;
+}
+
+#homePage nav {
+	display:block;
+}
+
+a:link, a:visited {
+	color:#000;
+	text-decoration:underline;
+}
+
+/* use no JS ul list to display as print */
+ul.print.hide, ul.print {
+	display:block !important;
+}
+
+/* hide photoswipe objects */
+#gallery1, #gallery2, #gallery3, #gallery4, div.carousel, div.ps-uilayer, div.ps-document-overlay, div.ps-toolbar, div.ps.caption {
+	display:none !important;
+}
