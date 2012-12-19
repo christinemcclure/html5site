@@ -1,0 +1,2 @@
+[19-Dec-2012 22:40:49 UTC] PHP Warning:  include(/home/cmcclure/public_html/includes/footer.html) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/cmcclure/public_html/index.php on line 42
+[19-Dec-2012 22:40:49 UTC] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening '/home/cmcclure/public_html/includes/footer.html' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/cmcclure/public_html/index.php on line 42

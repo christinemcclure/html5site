@@ -1,0 +1,705 @@
+@import "_base.scss";
+
+/*   ************ MOBILE / GENERIC SETTINGS ***********     */
+
+body {
+	background: $backgroundColor;
+	padding: 20px 10px 10px 10px;
+	color:$bodyFontColor;
+	a {
+		color:$linkColor1;
+		font-weight:900;
+	}
+}
+
+
+.photoSwipe {
+	font-size: $fontSize+2;
+	li {
+		margin: 0 0 $lineHeight 0;
+	}
+	p {margin:0;}
+	clear:both;
+	text-align:center;
+}
+
+
+/* *** NAVIGATION
+
+mobile nav with JS*/
+nav select { 
+	display: none; /* display with JS */
+	width: 70%;
+	margin: $lineHeight 0 $lineHeight 15%;
+	color: $navBasicColor;
+	font-size:$fontSize+2;
+	background: $selectBackgroundColor;
+	border: 2px solid $selectBorderColor;
+}
+#photoSelect {margin-top: $lineHeight*2;}
+
+/*basic nav settings */
+nav {
+	padding: 0 6px;
+		li {cursor:pointer;}
+		a {color:$navBasicColor; font-weight:normal;}
+}
+
+.navList li a:hover {
+	color:$navHighlightColor; 
+	font-weight:900;
+} 
+
+#photoNav, #libNav {
+	position: absolute;
+	margin-left:2%;
+	margin-top: $lineHeight*2;
+	float:left;
+	left: 40px;
+	li {
+		width: 100px;
+		float:left;
+		a {
+		}
+	}
+}
+
+#libNav {
+	margin-top: $lineHeight*7;
+}
+
+#libNav.noJS { /* Need this to position in case user disables JS. Remove class with JS */
+	margin-top: $lineHeight*6;
+}
+
+nav.noJS + section h1{
+	padding-top: $lineHeight*2;
+}
+
+#mainNav.navList {
+	display:inline-block;
+	float:left;
+	margin-top:$lineHeight;
+	li {
+		clear:both;
+		font-size: $fontSize+2;
+		margin:0 20px $lineHeight*3 0; /*20/876*/
+		color:$navInactiveColor;
+	}
+	li:last-child {margin-bottom: $lineHeight*2;}
+	li.activeMain {color:$navBasicColor !important;}
+}
+
+
+#about #aboutNav a, #pricing #pricingNav a, #art #artNav a, 
+#portraits #portraitsNav a, #events #eventsNav a, #travel #travelNav a, 
+#contactPhoto #contactPhotoNav a, #resume #resumeNav a, #portfolio #portfolioNav a, 
+#lab #labNav a, #contactLib #contactLibNav a {
+	font-weight:900;
+	color: $navHighlightColor;
+}
+
+	
+.page {
+  width: 90%;
+  margin: 0 auto;
+  padding: 20px;
+	background:$textBackground;
+}
+
+p {
+	margin: 0 0 $lineHeight 0;
+}
+
+header, #homePage h2, #homePage h3 {
+  text-align:center;
+}
+
+
+h1 {
+	color: $headingMain;
+}
+
+h2 {
+	color: $headingMain;
+}
+
+h3 {
+	color: $headingSub;
+}
+
+h4 {
+	color: $headingSub;
+}
+
+section {
+	margin: $lineHeight*2 0 0 0;
+}
+
+header {
+	background: $headerBackground;
+	padding: 1px;
+	h1{
+		color:$headerFontColor;
+		font-size: $fontSize+8;
+		margin: 10px 0;
+	}
+	p {
+		font-size: 12px;
+		margin:0;
+	}
+	a {
+		color:$headerFontColor;
+		font-weight:normal;
+	}
+}
+
+#art img.floatLeft, #about img.floatLeft {
+	width: 40%;
+	margin: $lineHeight;
+}
+
+#seriesPortals{
+	margin: $lineHeight 0 $lineHeight 06.5439672801636%;
+	clear:both; /* otherwise floats into image */
+	h4, h5, p {
+		margin: 0;
+	}
+	li {
+		margin-bottom: $lineHeight;
+		list-style:none;
+	}
+}	
+	
+#contactLib, #contactPhoto {
+	.honeypot {display:none;} /* honeypot for robo forms. hide from humans */
+	input, textarea {
+		width: 100%;
+		margin: 0 0 $lineHeight 0;	
+	}
+}
+
+#contactLib {
+	.contactMessage p + p { /* Don't show SmugMug link on lib page */
+		display:none;
+	}
+}
+
+#homePage {
+	h2 {
+		font-size: $fontSize+6;
+		color:$homePageHeader;
+	}
+	nav li {
+		font-size: 9px;
+	}
+
+	#lib, #photo {
+		clear:both;
+		padding: 0 0 $lineHeight*2 0;
+		li {
+			width: 20%;
+			float:left;
+			text-align:center;
+			border: 2px solid $homePageNavBorder;
+			color:$navBasicColor;
+			white-space:nowrap;
+		}
+		a {
+			color:$linkColor1;
+			font-weight:900;
+			padding: 4px 8px;
+		}
+	}
+	#photo {
+		li {
+			margin-left: 10%; /* just use rough estimates for mobile */
+		}
+	}
+	#lib {
+		li{
+			margin: 0 0 0 3.7%;
+		}
+	}
+
+	#galleries ul {
+		li {
+		width: 20%;
+		margin: 0 0 0 6%;
+		float:left;
+		text-align:center;
+		}
+	 li:first-child {
+			margin:0;
+		}
+		a p {
+			margin:0;
+			font-weight:normal;
+			color: $navBasicColor;
+		}
+	}
+	
+	#photoIntro {
+		clear:both;
+		margin: 134px 0 $lineHeight 0;
+	}
+
+	#libFigure {
+		width: 20%;
+		margin: 0 6% 0 0;
+		float:left;
+	}
+	
+	#libIntro {
+		margin: 0 0 $lineHeight*2 0;
+	}
+}
+
+
+footer {
+	clear:both;
+	margin: $lineHeight*2 0 0 0;
+	p {
+		font-family: $bodyFont;
+		font-size: 12px;
+		display:block;
+		text-align: center;
+	}
+	
+} /* end footer*/
+		
+
+div.columnBlock, div.columnEven {
+	li {
+		list-style: disc;
+		margin-left: 5%;
+	}
+}
+/* end mobile */
+
+@media screen and (min-width: 400px) {
+	#homePage #lib {
+	}
+}
+
+@media screen and (min-width: 630px) {
+	#homePage #lib {
+		padding: $lineHeight*2 0;
+	}
+}
+/**** TABLETS ****/
+@media screen and (min-width: 760px) {
+	nav select { 
+		width: 30%;
+		float:left;
+		margin: $lineHeight*2 0 $lineHeight*2 15%;
+	}
+
+	#mainNav.navList li{
+		margin-bottom: $lineHeight*2;
+	}
+	#libNav.noJS { 
+		margin-top: $lineHeight*5;
+	}
+
+	nav.noJS + section h1{
+		padding-top: $lineHeight;
+	}
+	
+	header {
+		h1 {font-size: $lineHeight*1.7;}
+	}
+		
+	#homePage { 
+		h2 {font-size: 26px;}
+		#galleries li a p, nav li a {
+			font-size:$fontSize;
+			letter-spacing: 2px;
+		}
+	}
+
+	div.columnBlock, div.columnEven { 
+	/* TWO COLUMNS (columnEven does not stretch to three) */
+		width: 43.76278118609407%;		
+		float:left;
+		margin: $lineHeight 0 $lineHeight 3%; /*  20/978  64/978*/
+		li {
+			margin-left:6%;
+		}
+	}	
+
+	#about, #art {
+		p.floatLeft {
+			/* 870 / 978 = 88.9570552147239% */
+			width: 65.6441717791411%;
+			margin: 0 4% $lineHeight*2 0;
+		}
+		p.floatLeft + p.floatLeft {
+			margin-top: -$lineHeight;
+		}		
+		img.floatLeft {
+			/* 222 / 978*/
+			width: 22.6993865030675%;
+			margin: 0 0 0 2%;
+		}
+		p.floatLeft + img {
+			margin-top: -$lineHeight*2;
+		}
+		p.floatLeft + p.floatLeft +img{
+			margin-top: -$lineHeight*9;
+		}
+
+		div.columnBlock li {
+			list-style:none;	
+		}
+	}
+
+
+	#resume {
+		h3, h3 + p { /* keep job location near title */
+			clear:both;
+			margin: 0 02.24948875255624%; /* 22 / 978 */
+		}
+		div.columnBlock {
+			margin: 0 0 $lineHeight*2 3%;
+		}
+	}
+
+	#contactLib, #contactPhoto {
+		.contactMessage {
+			width: 40%;
+			float:left;
+		}
+	
+		#showContactForm {
+			width: 50%;
+			float:right;
+			input.button {
+				width: 20%;
+				margin-bottom: $lineHeight*2;
+			}
+		}
+	}
+	
+	#lab {
+		.columnEven {margin-top: 0;} /* remove extra white space */
+	}
+	
+
+	footer {
+		p {
+			width: 40%;
+			display:inline;
+			a {	font-weight: 900;	}
+		}
+	
+		p.copyright {
+			width: 40%; /* width keeps this line from popping down */
+			display:inline;
+			float:right;
+			text-align:right;
+		}			
+		
+	} /* end footer*/
+
+
+}/* min-width: 760px */
+
+
+@media screen and (min-width: 1008px) {
+
+	#mainNav.navList {
+		width: 15%;
+		li {
+			margin:0;
+		}
+	}		
+
+	nav.noJS + section h1{
+		padding-top:0;
+	}
+	
+	#photoNav, #libNav {
+		width: 85%;
+		position: relative;
+		float:right;
+		margin: $lineHeight 0 0 0;
+		li {
+			width: 14%;
+			float:left;
+			margin: 0;
+		}
+		
+	}
+	
+	#libNav {
+		margin-top: $lineHeight*2;
+	}
+
+	#libNav.noJS { /* Need this to position in case user disables JS. Remove class with JS */
+		margin-top: 0;
+	}
+	
+	body{
+		margin: $lineHeight*2 0 0 0;
+		padding:0;
+	}
+
+
+  .page {
+    /* width: 978px; */  /*Total with works out to 1008, but need more for padding*/
+		background: $textBackground;
+		width: 86%; 
+		padding: $lineHeight 44px; /* pad more right and left later */
+
+		header {
+			overflow: auto;
+			width: 100%;
+			margin: 0 auto;
+			padding:0;
+			/*width: 978px; */
+
+			h1 {
+				display:inline;
+				float:left;
+				letter-spacing: 4px;
+				/*margin: 0 0 0 54px;*/
+				margin: 0 0 0 2%;
+				padding: 20px 0 24px 0;
+			}
+
+			p {
+				display:inline;
+				float:right;
+				margin: 24px 2% 0 0;
+			}
+			
+		} /* end header */
+	} /* end page */
+
+
+	#homePage {
+		
+		header {
+			width: 86%;
+			position: absolute;
+			margin: $lineHeight*12 0 0 0;			
+			a:hover {
+				font-weight:normal;
+			}			
+		} /* end header */
+
+
+		h2 {
+				/*width: 306px / 978px;*/
+				width: 31.28834355828221%;
+				letter-spacing: 3px;
+				margin: 0 0 $lineHeight 0;
+				display:inline;
+				float:left;
+				text-align:left;
+				color:$homePageHeader;
+		}
+
+		
+		p#photoIntro {
+			clear:both;
+			/*margin: 0 0 0 308px;*/
+			margin: 176px 0 0 31.49284253578732%;
+		}
+
+		#photoHeader {
+			margin: -2px 0 0 0;
+		}
+		#libHeader {
+			position: absolute;
+			letter-spacing: 5px;
+			float:right;
+			text-align:right;
+			/* margin: 132px 37px 0 0; 
+			margin: 0 3.67063492063492% 0 0;  top works better with absolute */
+			top: 438px;			
+			right: 7%;			
+		}
+		
+	#galleries {
+		width: 100%;
+		ul {
+			li{
+				/*width: 138px;*/
+				width: 14.11042944785276%;
+				display:inline;
+				float:left;
+				/*margin: 0 0 2px 30px;*/
+				margin: 0 0 2px 3.06748466257669%;
+				text-align:left;
+			}
+		}	
+
+		img {
+			margin-bottom: 8px;
+		}
+	} /* end galleries */
+	
+	#libFigure {
+		clear:both;
+		/*width: 138px; */
+		width: 14.11042944785276%; 
+		margin: 150px 0 0 0; 
+	}
+
+		p#libIntro {
+			/*width: 558px;*/
+			width: 57.05521472392638%; 
+			/*margin: -100px 0 0 168px;*/
+			margin: $lineHeight*9 0 0 17.17791411042945%;
+		}
+			
+		#photo a, #lib a, #photo li, #lib li {
+				border:none;
+				background:none;
+				font-size: $fontSize+4;
+				font-weight:normal;
+				color:$navBasicColor;
+		}
+
+
+		nav#photo {
+			width: 14.11042944785276%;
+			position: absolute;			
+			top: 110px;
+			margin:0;
+			padding: 0;
+			left:7%;
+			border-left: 2px solid $homePageBorder;
+			ul {
+				li {
+					margin: 0 8px;
+				/*width: 138px;*/
+					clear:both;
+				}
+			}
+		}
+		
+		nav#lib {
+			width: 14.11042944785276%;
+			position: absolute;
+			margin:0;
+			padding:0;
+			right: 7%;
+			text-align: right;
+			top: 484px;			
+			border-right: 2px solid $homePageBorder;
+			ul li {
+				width:100%;
+				margin: 0 -4px;
+				clear:both;
+				text-align: right;
+			}	
+		}	
+		
+				
+	} /* end homePage*/
+
+
+
+			
+
+	
+} /* *** end min-width: 1008 *** */
+
+/* Since using absolute positioning, handle those elements as screen width grows */
+
+@media screen and (min-width: 1100px) {
+
+
+	header{
+		h1{
+			font-size: $lineHeight*2;
+			margin: 0 0 0 4%;			
+		}
+		p{
+				margin: 24px 4% 0 0;
+		}
+	}			
+
+	#homePage {
+		header{
+			margin: $lineHeight*13 0 0 0;
+		}	
+		#libIntro {
+			margin: -114px 0 0 17.17791411042945%;
+		}			
+
+		footer {
+			margin: $lineHeight*3 0 0 0;
+		}
+	}		
+
+	div.columnBlock { /* THREE COLUMNS Only need to change width */
+			width: 30%; /*236/978*/
+	}		
+
+}
+
+
+@media screen and (min-width: 1238px) { /* where photoIntro goes to two lines */
+	#homePage {
+		p#photoIntro {
+		margin: 198px 0 0 31.49284253578732%;
+		} 
+
+		#libIntro {
+			margin: -106px 0 0 17.17791411042945%;
+		}
+		footer {
+			margin: $lineHeight*4 0 0 0;
+		}
+	}
+}
+
+
+
+
+@media screen and (min-width: 1300px) {
+	#homePage {
+		#libIntro {
+			margin: -118px 0 0 17.17791411042945%;
+		}
+		#libHeader {
+			top: 460px;
+		}
+		nav#lib {
+			top: 506px;			
+		}
+	}
+}
+
+@media screen and (min-width: 1400px) {
+
+	header{
+		p {
+			font-size: 14px;
+			margin: 22px 4% 0 0;
+		}
+	}
+
+
+	#homePage {
+		header{
+			margin: $lineHeight*14 0 0 0;
+		}
+		#libHeader {
+			top: 482px;
+		}
+		nav#lib {
+			top: 528px;			
+		}
+		footer {
+			margin: $lineHeight*5 0 0 0;
+		}
+	}
+	
+	
+}
+
