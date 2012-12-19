@@ -17,9 +17,16 @@
         <p>I've been learning a bit about the Ruby programming language using the Rails framework. It's slow-going because it's such a terse language, but you can see a small example of an application I'm currently developing at <a href="http://whispering-mesa-7403.herokuapp.com/">the Heroku site.</a></p>
     </div>
 
+		<div class="columnEven">
+      <h2>WordPress</h2>
+        <p>This is my first outing with WordPress. I purchased a flexible, grid-based theme (Modernize) and modified it to suit my needs. I got to know my way around
+        plugins as well, using them to simplify the admin interface for editors and pull feed information from a google calendar. Done for one of
+        Chicago's <a href="http://caryslounge.com/">finest neighborhood pubs</a>.</p>
+    </div>
+
     <div class="columnEven">
 	    <h2>Background Designs</h2>
-      <p>This first entry used to be "redesigning my site," but now that it's up and running I'm playing around with some of these great background ideas from <a href="http://www.noupe.com/design/outstanding-website-background-guide-60-impressive-resources.html">this article</a>.</p>
+      <p>This entry used to be "redesigning my site," but now that it's up and running I'm playing around with some of these great background ideas from <a href="http://www.noupe.com/design/outstanding-website-background-guide-60-impressive-resources.html">this article</a>.</p>
     </div>  	
     
     <div class="columnEven">
