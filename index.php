@@ -25,6 +25,7 @@
     	<li><a href="/about">about</a></li>
     	<li><a href="/pricing">pricing</a></li>
     	<li><a href="/contactPhoto">contact</a></li>
+    	<li><a href="http://christinemcclure.zenfolio.com">order prints</a></li>
     </ul>
   </nav>
 
