@@ -1,3 +1,4 @@
+<!-- test -->
 <?php include($_SERVER['DOCUMENT_ROOT']."/includes/head-stub.html"); ?>
 
   <title>Christine McClure</title>
