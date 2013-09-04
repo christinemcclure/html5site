@@ -1,6 +1,3 @@
-THIS REPO IS OBSOLETED  
-
-Since this will go on christinemcclure.com, avoiding conflicts with that repo. 
-This work will be continued under the "com528project" folder/branch on the HTML5Site repo.
+Continuation of COM528 repo. Folded it into this repo as it will all live in the public_html root of hosting site. 
 
 
