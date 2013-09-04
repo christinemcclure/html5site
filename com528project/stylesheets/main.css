@@ -39,3 +39,9 @@ blockquote {
   font-size: 20px;
   font-style: italic;
 }
+
+/* line 34, ../sass/main.scss */
+img {
+  margin: 20px;
+  border: 2px solid #cfcfcf;
+}
