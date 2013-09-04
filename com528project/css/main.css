@@ -1,0 +1,10 @@
+ul {list-style:none;}
+nav li {
+  display: inline-block;
+  width: 150px;
+  float:left;
+}
+
+.clear {clear:both;}
+
+nav + h1 {clear:both;}
