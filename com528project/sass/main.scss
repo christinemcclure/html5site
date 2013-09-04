@@ -1,0 +1,19 @@
+ul {list-style:none;}
+
+nav li {
+  display: inline-block;
+  width: 150px;
+  float:left;
+  text-align: center;
+  margin: 30px 0;
+}
+
+.clear {clear:both;}
+
+nav + .container {clear:both;}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 30px 20px;
+}
