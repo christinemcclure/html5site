@@ -3,6 +3,8 @@ nav li {
   display: inline-block;
   width: 150px;
   float:left;
+  text-align: center;
+  margin: 30px 0;
 }
 
 .clear {clear:both;}
