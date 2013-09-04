@@ -4,18 +4,20 @@ html {
 }
 
 ul {list-style:none;}
-
-nav li {
-  display: inline-block;
-  width: 150px;
-  float:left;
-  text-align: center;
-  margin: 30px 0;
+nav + .container {clear:both;}
+nav {
+  li {
+    display: inline-block;
+    width: 150px;
+    float:left;
+    text-align: center;
+    margin: 30px 0;
+  }
 }
 
 .clear {clear:both;}
 
-nav + .container {clear:both;}
+
 
 .container {
   width: 80%;
