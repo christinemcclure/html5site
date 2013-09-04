@@ -3,8 +3,8 @@
 <body id="toc">
   
   <div class="container">
-  <h1>Portfolio</h1>
-  <? include "nav.html"; ?>
+    <h1>Table of Contents</h1>
+    <? include "nav.html"; ?>
   </div>
 
 </body>
