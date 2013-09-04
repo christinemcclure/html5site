@@ -1,3 +1,6 @@
+
+.clear {clear:both;}
+
 $font-size: 16px;
 html {
   font-size: $font-size;
@@ -13,11 +16,8 @@ nav {
     text-align: center;
     margin: 30px 0;
   }
+  .hide {display:none;}
 }
-
-.clear {clear:both;}
-
-
 
 .container {
   width: 80%;
@@ -34,4 +34,23 @@ blockquote {
 img {
   margin: 20px;
   border: 2px solid rgb(207,207,207);
+}
+
+#toc {
+  .container {
+    width: 400px;
+  }
+  nav {
+      .hide {display:inline-block;}
+    li {
+      width: 100%;
+      display: block;
+      text-align:left;
+      margin: 15px 0;
+    }
+
+    #nav-toc{display:none;}
+    
+  }
+
 }

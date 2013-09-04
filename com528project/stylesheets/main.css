@@ -1,19 +1,24 @@
 /* line 2, ../sass/main.scss */
+.clear {
+  clear: both;
+}
+
+/* line 5, ../sass/main.scss */
 html {
   font-size: 16px;
 }
 
-/* line 6, ../sass/main.scss */
+/* line 9, ../sass/main.scss */
 ul {
   list-style: none;
 }
 
-/* line 7, ../sass/main.scss */
+/* line 10, ../sass/main.scss */
 nav + .container {
   clear: both;
 }
 
-/* line 9, ../sass/main.scss */
+/* line 12, ../sass/main.scss */
 nav li {
   display: inline-block;
   width: 150px;
@@ -21,10 +26,9 @@ nav li {
   text-align: center;
   margin: 30px 0;
 }
-
-/* line 18, ../sass/main.scss */
-.clear {
-  clear: both;
+/* line 19, ../sass/main.scss */
+nav .hide {
+  display: none;
 }
 
 /* line 22, ../sass/main.scss */
@@ -44,4 +48,24 @@ blockquote {
 img {
   margin: 20px;
   border: 2px solid #cfcfcf;
+}
+
+/* line 40, ../sass/main.scss */
+#toc .container {
+  width: 400px;
+}
+/* line 44, ../sass/main.scss */
+#toc nav .hide {
+  display: inline-block;
+}
+/* line 45, ../sass/main.scss */
+#toc nav li {
+  width: 100%;
+  display: block;
+  text-align: left;
+  margin: 15px 0;
+}
+/* line 52, ../sass/main.scss */
+#toc nav #nav-toc {
+  display: none;
 }
