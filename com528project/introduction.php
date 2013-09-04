@@ -31,10 +31,11 @@
     </p>
     <ul>
       <li>
-        <a href="draw-letters.php">Drawing Letterforms</a>: recreate--by hand drawing or using graphic software, the following letters: "A," "a," and "<em>a</em>--as shown in the Adobe Garamond font."
+        <a href="draw-letters.php">Drawing Letterforms</a>: recreate--by hand drawing or using graphic software--the following letters: "A," "a," and "<em>a</em>--as shown in the Adobe Garamond font."
       </li>
       <li>
-        <a href="words.php">Words</a>: Use two of the following words and convey the design concepts of space and meaning by modifying only the font size, spacing and/or placement of the letters.
+        <a href="words.php">Words</a>: Use two of the following words and convey the design concepts of space and meaning by modifying only the font size, spacing and/or placement 
+        of letters in a square format.
         Adapted from an exercise in one of the <a href="http://www.amazon.com/Thinking-Type-2nd-revised-expanded/dp/1568989695/ref=sr_1_1?s=books&ie=UTF8&qid=1378260924&sr=1-1&keywords=thinking+with+type">
           course textbooks</a>.
         <ul>
