@@ -1,7 +1,10 @@
 $(document).ready(function() {
 
   initBook=function(ele){
-    $(ele).booklet();    
+    $(ele).booklet({
+        closed: true
+    });
   }
+  
   
 });    
