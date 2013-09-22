@@ -23,6 +23,9 @@
         <img src="images/words-1.jpg" />
         <img src="images/words-2.jpg" />
     </div>
+    <div> 
+        <h2>Back cover</h2>
+    </div>
 </div>
 
   <script>
