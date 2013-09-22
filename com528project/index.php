@@ -1,4 +1,4 @@
-<? include "header.html"; ?>
+<?php include "header.html"; ?>
 <body id="home">
   <div class="container">
     <h1>Christine McClure - Portfolio</h1>
