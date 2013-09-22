@@ -28,7 +28,32 @@
     <div> 
         <h2>Words</h2>
         <img src="images/words-2.jpg" />
-    </div>    <div> 
+    </div>    
+    <div>
+        <h2>Text</h2>
+        <img src="images/text.png" />
+    </div>
+    <div> 
+        <h2>Symmetry</h2>
+        <img src="images/symmetry.png" />
+    </div>
+    <div>
+        <h2>Asymmetry</h2>
+        <img src="images/asymmetry.png" />
+    </div>
+    <div>
+        <h2>Point</h2>
+        <img src="images/point.jpg" />
+    </div>
+    <div>
+        <h2>Line</h2>
+        <img src="images/line.jpg" />
+    </div>
+    <div>
+        <h2>Plane</h2>
+        <img src="images/plane.jpg" />
+    </div>
+    <div>
         <h2>Back cover</h2>
     </div>
 </div>
