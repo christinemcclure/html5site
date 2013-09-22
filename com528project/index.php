@@ -12,9 +12,12 @@
     </div>
     <div> 
         <h2>Introduction</h2>
-        <?php include "includes/introduction.html"; ?>
+        <?php include "includes/about-me.html"; ?>
     </div>
     <div> 
+        <h2>Introduction</h2>
+        <?php include "includes/about-portfolio.html"; ?>
+    </div>    <div> 
         <h2>Draw Letters</h2>
         <img src="images/draw-letters.jpg" />
     </div>
@@ -24,6 +27,10 @@
         <img src="images/words-2.jpg" />
     </div>
     <div> 
+        <h2>Words</h2>
+        <img src="images/words-1.jpg" />
+        <img src="images/words-2.jpg" />
+    </div>    <div> 
         <h2>Back cover</h2>
     </div>
 </div>
