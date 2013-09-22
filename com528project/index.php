@@ -24,11 +24,9 @@
     <div> 
         <h2>Words</h2>
         <img src="images/words-1.jpg" />
-        <img src="images/words-2.jpg" />
     </div>
     <div> 
         <h2>Words</h2>
-        <img src="images/words-1.jpg" />
         <img src="images/words-2.jpg" />
     </div>    <div> 
         <h2>Back cover</h2>
