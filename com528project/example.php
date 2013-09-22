@@ -17,9 +17,9 @@
 </div>
 
   <script>
-    $(function() {
+    $(document).ready(function() {
         //single book
-        $('#mybook').booklet();
+        initBook('#mybook');
     });    
   </script>    
 </body>
