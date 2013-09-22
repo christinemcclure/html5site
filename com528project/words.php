@@ -1,6 +1,6 @@
-<? include "header.html"; ?>
+<?php include "header.html"; ?>
 <body id="words">
-  <? include "nav.html"; ?>
+  <?php include "nav.html"; ?>
   <div class="container">
     <h1>Words</h1>
     <p><img src="images/words-1.jpg" /></p>
