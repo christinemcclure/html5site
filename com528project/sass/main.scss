@@ -6,51 +6,6 @@ html {
   font-size: $font-size;
 }
 
-ul {list-style:none;}
-nav + .container {clear:both;}
-nav {
-  li {
-    display: inline-block;
-    width: 150px;
-    float:left;
-    text-align: center;
-    margin: 30px 0;
-  }
-  .hide {display:none;}
-}
-
-.container {
-  width: 80%;
-  margin: 0 auto;
-  padding: 30px 20px;
-}
-
-
-blockquote {
-  font-size: $font-size + 4px;
-  font-style: italic;
-}
-
 img {
-  margin: 20px;
-  border: 2px solid rgb(207,207,207);
-}
-
-#toc {
-  .container {
-    width: 400px;
-  }
-  nav {
-      .hide {display:inline-block;}
-    li {
-      width: 100%;
-      display: block;
-      text-align:left;
-      margin: 15px 0;
-    }
-
-    #nav-toc{display:none;}
-    
-  }
-
+  max-width: 100%;
 }
