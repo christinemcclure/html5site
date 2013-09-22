@@ -4,7 +4,8 @@ $(document).ready(function() {
     $(ele).booklet({
         closed: true,
         width: '90%',
-        height: '80%'
+        height: '80%',
+        hash: true
     });
   }
   
