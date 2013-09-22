@@ -44,14 +44,6 @@
         <h2>Text</h2>
         <img src="images/text.png" />
     </div>
-    <div> 
-        <h2>Symmetry</h2>
-        <img src="images/symmetry.png" />
-    </div>
-    <div>
-        <h2>Asymmetry</h2>
-        <img src="images/asymmetry.png" />
-    </div>
     <div>
         <h2>Point</h2>
         <img src="images/point.jpg" />
@@ -65,6 +57,14 @@
         <img src="images/plane.jpg" />
     </div>
     <div>
+        <h2>Symmetry</h2>
+        <img src="images/symmetry.png" />
+    </div>
+    <div>
+        <h2>Asymmetry</h2>
+        <img src="images/asymmetry.png" />
+    </div>
+  <div>
         <h2>Back cover</h2>
     </div>
 </div>
