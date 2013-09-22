@@ -35,7 +35,6 @@
     <div> 
         <h2>Words</h2>
         <?php include "includes/words-intro.html"?>
-        <img src="images/words-1.jpg" />
     </div>
     <div>
         <h3>Word Choices</h3>
