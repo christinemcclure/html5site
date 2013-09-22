@@ -6,6 +6,10 @@
       <h1>Christine McClure - Portfolio</h1>
       <p>(Image or logo placeholder)</p>
     </div>
+    <div>
+      <p>Verso, copyright, etc.</p>
+    </div>
+
     <div> 
         <h2>Table of Contents</h2>
         <?php include "includes/toc.html"; ?>
@@ -17,9 +21,16 @@
     <div> 
         <h2>Introduction</h2>
         <?php include "includes/about-portfolio.html"; ?>
-    </div>    <div> 
+    </div>
+    <div>
         <h2>Draw Letters</h2>
-        <img src="images/draw-letters.jpg" />
+        <?php include "includes/draw-letters-intro.html"?>
+        <img src="images/draw-letters-orig.png" />
+    </div>
+    <div>
+        <h2>My Letters</h2>
+        <img src="images/draw-letters.png" />
+        <?php include "includes/draw-letters-comments.html"?>
     </div>
     <div> 
         <h2>Words</h2>
