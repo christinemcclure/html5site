@@ -16,7 +16,7 @@
     </div>
     <div> 
         <h2>Draw Letters</h2>
-        <img src="includes/images/draw-letters.jpg" />
+        <img src="images/draw-letters.jpg" />
     </div>
     <div> 
         <h2>Words</h2>
