@@ -8,15 +8,15 @@
     </div>
     <div> 
         <h2>Table of Contents</h2>
-        <?php include "toc.html"; ?>
+        <?php include "includes/toc.html"; ?>
     </div>
     <div> 
         <h2>Introduction</h2>
-        <?php include "introduction.html"; ?>
+        <?php include "includes/introduction.html"; ?>
     </div>
     <div> 
         <h2>Draw Letters</h2>
-        <img src="images/draw-letters.jpg" />
+        <img src="includes/images/draw-letters.jpg" />
     </div>
     <div> 
         <h2>Words</h2>
