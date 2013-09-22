@@ -34,12 +34,27 @@
     </div>
     <div> 
         <h2>Words</h2>
+        <?php include "includes/words-intro.html"?>
         <img src="images/words-1.jpg" />
     </div>
+    <div>
+        <h3>Word Choices</h3>
+        <?php include "includes/words-intro2.html"?>
+    </div>
     <div> 
-        <h2>Words</h2>
+        <h2>Expansion</h2>
+        <?php include "includes/expansion-comments.html"?>
+    </div>
+    <div>
+        <img src="images/words-1.jpg" />
+    </div>
+    <div>
+        <h2>Contraction</h2>
+        <?php include "includes/contraction-comments.html"?>
+    </div>
+    <div>
         <img src="images/words-2.jpg" />
-    </div>    
+    </div>
     <div>
         <h2>Text</h2>
         <img src="images/text.png" />
