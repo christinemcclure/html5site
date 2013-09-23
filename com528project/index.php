@@ -32,7 +32,9 @@
         <img src="images/draw-letters.png" />
         <?php include "includes/draw-letters-comments.html"?>
     </div>
-    <div> 
+
+
+    <div>
         <h2>Words</h2>
         <?php include "includes/words-intro.html"?>
     </div>
@@ -54,10 +56,28 @@
     <div>
         <img src="images/words-2.jpg" />
     </div>
+
     <div>
         <h2>Text</h2>
+        <?php include "includes/text-intro.html"?>
+    </div>
+
+    <div>
+        <h2>Quote to use</h2>
+        <?php include "includes/text-intro2.html"?>
+    </div>
+
+      <div>
+        <h2>My Text</h2>
+        <?php include "includes/text-comments.html"?>
+    </div>
+
+    <div>
         <img src="images/text.png" />
     </div>
+
+
+
     <div>
         <h2>Point</h2>
         <img src="images/point.jpg" />
