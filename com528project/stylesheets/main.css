@@ -3,12 +3,17 @@
   clear: both;
 }
 
-/* line 5, ../sass/main.scss */
+/* line 3, ../sass/main.scss */
+.hide {
+  display: none;
+}
+
+/* line 6, ../sass/main.scss */
 html {
   font-size: 16px;
 }
 
-/* line 9, ../sass/main.scss */
+/* line 10, ../sass/main.scss */
 img {
   max-width: 400px;
 }
