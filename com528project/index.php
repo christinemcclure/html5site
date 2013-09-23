@@ -10,6 +10,7 @@
       <p>Verso, copyright, etc.</p>
     </div>
 
+<!-- INTRO-->
     <div> 
         <h2>Table of Contents</h2>
         <?php include "includes/toc.html"; ?>
@@ -22,6 +23,9 @@
         <h2>Introduction</h2>
         <?php include "includes/about-portfolio.html"; ?>
     </div>
+
+ <!-- DRAW LETTERS-->
+
     <div>
         <h2>Draw Letters</h2>
         <?php include "includes/draw-letters-intro.html"?>
@@ -34,6 +38,7 @@
     </div>
 
 
+<!-- WORDS-->
     <div>
         <h2>Words</h2>
         <?php include "includes/words-intro.html"?>
@@ -57,6 +62,8 @@
         <img src="images/words-2.jpg" />
     </div>
 
+
+<!-- TEXT -->
     <div>
         <h2>Text</h2>
         <?php include "includes/text-intro.html"?>
@@ -77,19 +84,31 @@
     </div>
 
 
-
+<!-- POINT/LINE/PLANE-->
+    <div>
+        <h2>Point/Line/Plane</h2>
+        <?php include "includes/plp-intro.html"?>
+    </div>
+    <div>
+        <h2>My Images</h2>
+        <?php include "includes/plp-comments.html"?>
+        <img src="images/plp-small.jpg" />
+    </div>
     <div>
         <h2>Point</h2>
         <img src="images/point.jpg" />
     </div>
     <div>
-        <h2>Line</h2>
-        <img src="images/line.jpg" />
-    </div>
-    <div>
         <h2>Plane</h2>
         <img src="images/plane.jpg" />
     </div>
+    <div>
+        <h2>Line</h2>
+        <img src="images/line.jpg" />
+    </div>
+
+
+<!-- SYMMETRY/ASYMMETRY-->
     <div>
         <h2>Symmetry</h2>
         <img src="images/symmetry.png" />
