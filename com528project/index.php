@@ -114,8 +114,24 @@
 
 <!-- SYMMETRY/ASYMMETRY-->
     <div>
+        <h2>Symmetry/Asymmetry</h2>
+        <h4>Symmetry</h4>
+        <?php include "includes/symmetry-intro.html"?>
+    </div>
+    <div>
+        <h4>Asymmetry</h4>
+        <?php include "includes/asymmetry-intro.html"?>
+    </div>
+    <div>
+      <h2>Symmetry</h2>
+        <?php include "includes/symmetry-comments.html"?>
+    </div>
+    <div>
         <h2>Symmetry</h2>
         <img src="images/symmetry.png" />
+    </div>    <div>
+        <h2>Asymmetry</h2>
+        <?php include "includes/asymmetry-comments.html"?>
     </div>
     <div>
         <h2>Asymmetry</h2>
