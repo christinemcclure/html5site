@@ -3,9 +3,9 @@
 <nav id="main">
   <ul>
     <li><a href="http://www.christinemcclure.com">Website</a></li>
-    <li><a href="#/page/1">Cover</a></li>
-    <li><a href="#/page/3">Table of Contents</a></li>
-    <li><a href="#/page/31">Back Cover</a></li> 
+    <li><a title="Front Cover" href="#/page/1"><img src="images/ico-front.png" /></a></li>
+    <li><a title="Table of Contents" href="#/page/3"><img src="images/ico-toc.png" /></a></li>
+    <li><a title="Back Cover" href="#/page/31"><img src="images/ico-back.png" /></a></li> 
 <!--        NOTE: This will need updating with each new page added. -->
   </ul>
 </nav>
