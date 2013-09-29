@@ -1,6 +1,6 @@
 <?php include "includes/header.html"; ?>
 <body>
-<nav>
+<nav id="main">
   <ul>
     <li><a href="http://www.christinemcclure.com">Website</a></li>
     <li><a href="#/page/1">Cover</a></li>
