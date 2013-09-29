@@ -1,6 +1,14 @@
 <?php include "includes/header.html"; ?>
 <body>
-
+<nav>
+  <ul>
+    <li><a href="http://www.christinemcclure.com">Website</a></li>
+    <li><a href="#/page/1">Cover</a></li>
+    <li><a href="#/page/3">Table of Contents</a></li>
+    <li><a href="#/page/31">Back Cover</a></li> 
+<!--        NOTE: This will need updating with each new page added. -->
+  </ul>
+</nav>
 <div id="portfolio">
     <div> 
       <h1>Christine McClure - Portfolio</h1>
