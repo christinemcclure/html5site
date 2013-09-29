@@ -9,7 +9,7 @@
 <!--        NOTE: This will need updating with each new page added. -->
   </ul>
 </nav>
-<div id="portfolio">
+<div id="portfolio" class="clear">
     <div> 
       <h1>Christine McClure - Portfolio</h1>
       <p>(Image or logo placeholder)</p>
