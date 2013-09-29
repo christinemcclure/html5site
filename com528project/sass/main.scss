@@ -1,6 +1,24 @@
-
 .clear {clear:both;}
 .hide {display:none;}
+
+body {margin: 0; padding: 0;}
+
+ul {list-style:none;}
+
+nav#main {
+  li {
+    top: 0;
+    display: inline-block;
+    float:left;
+    margin: 0 0 20px 0;
+    a {
+      padding: 20px 10px;
+    }
+  }
+  li:first-child {
+    margin-right:100px;
+  }
+}
 
 $font-size: 16px;
 html {

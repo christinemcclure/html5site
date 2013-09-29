@@ -1,19 +1,46 @@
-/* line 2, ../sass/main.scss */
+/* line 1, ../sass/main.scss */
 .clear {
   clear: both;
 }
 
-/* line 3, ../sass/main.scss */
+/* line 2, ../sass/main.scss */
 .hide {
   display: none;
 }
 
+/* line 4, ../sass/main.scss */
+body {
+  margin: 0;
+  padding: 0;
+}
+
 /* line 6, ../sass/main.scss */
+ul {
+  list-style: none;
+}
+
+/* line 9, ../sass/main.scss */
+nav#main li {
+  top: 0;
+  display: inline-block;
+  float: left;
+  margin: 0 0 20px 0;
+}
+/* line 14, ../sass/main.scss */
+nav#main li a {
+  padding: 20px 10px;
+}
+/* line 18, ../sass/main.scss */
+nav#main li:first-child {
+  margin-right: 100px;
+}
+
+/* line 24, ../sass/main.scss */
 html {
   font-size: 16px;
 }
 
-/* line 10, ../sass/main.scss */
+/* line 28, ../sass/main.scss */
 img {
   max-width: 400px;
 }
