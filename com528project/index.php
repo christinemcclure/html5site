@@ -24,7 +24,7 @@
         <?php include "includes/toc.html"; ?>
     </div>
     <div> 
-        <h2>Text</h2>
+        <h2>Table of Contents</h2>
         <?php include "includes/toc-text.html"; ?>
     </div>
     <div> 
