@@ -14,15 +14,8 @@
       <h1>Christine McClure - Portfolio</h1>
       <p>(Image or logo placeholder)</p>
     </div>
-    <div>
-      <p>Verso, copyright, etc.</p>
-    </div>
 
-<!-- INTRO-->
-    <div> 
-        <h2>Table of Contents</h2>
-        <?php include "includes/toc.html"; ?>
-    </div>
+
     <div> 
         <h2>Table of Contents</h2>
         <?php include "includes/toc-text.html"; ?>
@@ -31,7 +24,9 @@
         <h2>Images</h2>
         <?php include "includes/toc-images.html"; ?>
     </div>
-    <div> 
+
+  <!-- INTRO-->
+  <div> 
         <h2>Introduction</h2>
         <?php include "includes/about-me.html"; ?>
     </div>
