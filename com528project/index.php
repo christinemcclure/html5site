@@ -24,6 +24,14 @@
         <?php include "includes/toc.html"; ?>
     </div>
     <div> 
+        <h2>Text</h2>
+        <?php include "includes/toc-text.html"; ?>
+    </div>
+    <div> 
+        <h2>Images</h2>
+        <?php include "includes/toc-images.html"; ?>
+    </div>
+    <div> 
         <h2>Introduction</h2>
         <?php include "includes/about-me.html"; ?>
     </div>
