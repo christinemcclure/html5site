@@ -44,3 +44,12 @@ html {
 img {
   max-width: 400px;
 }
+
+/* line 2, ../sass/toc.scss */
+#tocImages img {
+  width: 200px;
+  position: absolute;
+  zoom: 1;
+  filter: alpha(opacity=10);
+  opacity: 0.1;
+}
