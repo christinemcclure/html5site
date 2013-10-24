@@ -1,9 +1,11 @@
 #tocImages {
-  img {
-    width: 200px;
+  div {
     position: absolute;
     zoom: 1;
     filter: alpha(opacity=10);
     opacity: 0.1;    
+  }
+  img {
+    width: 200px;
   }
 }
