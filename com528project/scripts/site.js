@@ -10,6 +10,9 @@ $(document).ready(function() {
       return; // don't initialize for small screens
     }
 
+    // remove no JS/size message
+    $('p#noJS').addClass('hide');
+
     if (winHeight > 1200)
       winHeight = 900;
     else

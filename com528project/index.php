@@ -12,6 +12,8 @@
 <div id="portfolio" class="clear">
     <div> 
       <h1>Christine McClure - Portfolio</h1>
+      <p id="noJS">All elements of this portfolio are visible, but viewing it in
+      booklet form requires JavaScript and a minimum screen size of 800x550 pixels.</p>
       <p>(Image or logo placeholder)</p>
     </div>
 
