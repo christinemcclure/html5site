@@ -1,11 +1,10 @@
 /* line 2, ../sass/toc.scss */
 #tocImages div {
   position: absolute;
-  zoom: 1;
   filter: alpha(opacity=10);
   opacity: 0.1;
 }
-/* line 8, ../sass/toc.scss */
+/* line 7, ../sass/toc.scss */
 #tocImages img {
   width: 200px;
 }
