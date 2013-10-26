@@ -4,18 +4,15 @@ $(document).ready(function() {
     // Account for varying window sizes
     var winHeight = $(window).height();
     var winWidth = $(window).width();
-    if (winHeight < 800){
-      winHeight = '100%';
+//    alert('height: '+winHeight+' width: '+winWidth);
+ 
+    if ((winHeight < 550) || (winWidth < 800)){
+      return; // don't initialize for small screens
     }
-    else {
-      winHeight = '800px'; // change these setting when font size is determined. 
-    }                      // Also include making font size smaller via a class
-    if (winWidth < 1100){
-      winWidth = '100%';
-    }
-    else {
-      winWidth = '1200px';
-    }
+
+    winHeight='80%';
+    winWidth='80%';
+
     
     // Initialize booklet object
     $(ele).booklet({
