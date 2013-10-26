@@ -10,8 +10,12 @@ $(document).ready(function() {
       return; // don't initialize for small screens
     }
 
-    winHeight='80%';
-    winWidth='80%';
+    if (winHeight > 1200)
+      winHeight = 900;
+    else
+      winHeight= 480;
+
+    winWidth=winHeight*2;
 
     
     // Initialize booklet object
