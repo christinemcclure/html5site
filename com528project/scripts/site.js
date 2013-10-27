@@ -29,6 +29,18 @@ $(document).ready(function() {
         hash: true
     });
   }
+
+$("#introLink").hover(
+  function() {
+    $("#introImg").addClass("hover");
+    $("#introImg").fadeIn('slow');
+
+
+  }, function() {
+    $("#introImg").fadeOut('slow');
+    $("#introImg").removeClass("hover");
+  }
+);
   
   
 });    
