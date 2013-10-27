@@ -159,6 +159,7 @@
     $(document).ready(function() {
         //single book
         initBook('#portfolio');
+        tocImageListeners();
     });    
   </script>    
 </body>
