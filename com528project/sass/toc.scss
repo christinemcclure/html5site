@@ -8,12 +8,11 @@
 }
 
 #tocImages {
-  div {
+  img {
+    width: 60%;
     position: absolute;
     filter: alpha(opacity=10);
     opacity: 0.1;    
   }
-  img {
-    width: 60%;
-  }
+
 }

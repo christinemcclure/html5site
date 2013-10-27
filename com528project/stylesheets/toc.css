@@ -7,12 +7,9 @@
 }
 
 /* line 11, ../sass/toc.scss */
-#tocImages div {
+#tocImages img {
+  width: 60%;
   position: absolute;
   filter: alpha(opacity=10);
   opacity: 0.1;
-}
-/* line 16, ../sass/toc.scss */
-#tocImages img {
-  width: 60%;
 }
