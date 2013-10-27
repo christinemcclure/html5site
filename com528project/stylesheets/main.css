@@ -46,12 +46,20 @@ img {
 }
 
 /* line 2, ../sass/toc.scss */
+#tocText a {
+  display: inline-block;
+  margin: 20px;
+  padding: 10px;
+  background: yellow;
+}
+
+/* line 11, ../sass/toc.scss */
 #tocImages div {
   position: absolute;
   filter: alpha(opacity=10);
   opacity: 0.1;
 }
-/* line 7, ../sass/toc.scss */
+/* line 16, ../sass/toc.scss */
 #tocImages img {
   width: 60%;
 }
