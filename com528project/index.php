@@ -23,7 +23,6 @@
         <?php include "includes/toc-text.html"; ?>
     </div>
     <div> 
-        <h2>Images</h2>
         <?php include "includes/toc-images.html"; ?>
     </div>
 

@@ -10,7 +10,7 @@ var tocImages = new Array ('intro','letters','words','text','plp','symmAsymm',
     var winWidth = $(window).width();
 //    alert('height: '+winHeight+' width: '+winWidth);
  
-    if ((winHeight < 550) || (winWidth < 800)){
+    if ((winHeight < 520) || (winWidth < 780)){
       return; // don't initialize for small screens
     }
 
@@ -36,13 +36,11 @@ var tocImages = new Array ('intro','letters','words','text','plp','symmAsymm',
 
 
 imageHighlightOn=function(elementStub){
-  $('#'+elementStub+'Img').fadeIn('slow');
-  $('#'+elementStub+'Img').addClass("hover");
+  $('#'+elementStub+'Img').removeClass('hide');
 }
 
 imageHighlightOff=function(elementStub){
-  $('#'+elementStub+'Img').fadeOut('slow');
-  $('#'+elementStub+'Img').removeClass("hover");
+  $('#'+elementStub+'Img').addClass('hide');
 }
 
 tocImageListeners=function(){
