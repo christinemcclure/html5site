@@ -36,11 +36,11 @@ var tocImages = new Array ('intro','letters','words','text','plp','symmAsymm',
 
 
 imageHighlightOn=function(elementStub){
-  $('#'+elementStub+'Img').removeClass('hide');
+  $('#'+elementStub+'Img').fadeIn('slow');
 }
 
 imageHighlightOff=function(elementStub){
-  $('#'+elementStub+'Img').addClass('hide');
+  $('#'+elementStub+'Img').fadeOut('slow');
 }
 
 tocImageListeners=function(){
