@@ -5,9 +5,16 @@ Continuation of COM528 repo. Folded it into this repo as it will all live in the
 + [x] Use a fixed width for certain size. No need to keep scaling up
 + [x] Disable for less than a certain width
 + [x] Make book pages square. They will display as a rectangle nicely, and fits the square component of many of the exercises. 
++ [ ] Create front cover for branding "librarian. photograhper. web developer. geek." branding.
++ [ ] Re-write exercise instructions to be mroe consise.
++ [ ] Review exercise comments to see if you want to change anything. 
++ [ ] Review samples of portfolio/notebook images.
++ [ ] Create background images of spiral notebook binding and edges (with shadow).
++ [ ] Make final decisions on color scheme and fonts.
 + [ ] Place each ToC image in its own location
 + [ ] Place ToC text
-+ [ ] Create hover function
++ [x] Create hover function
++ [ ] JUST PRIOR TO TURNING IN: Verify every page anchor in ToC.
 
 
 
