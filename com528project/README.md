@@ -8,7 +8,7 @@ Continuation of COM528 repo. Folded it into this repo as it will all live in the
 + [ ] Create front cover for branding "librarian. photograhper. web developer. geek." branding.
 + [ ] Re-write exercise instructions to be mroe consise.
 + [ ] Review exercise comments to see if you want to change anything. 
-+ [ ] Review samples of portfolio/notebook images.
++ [x] Review samples of portfolio/notebook images. Use similar to [this](a href="http://bookhistory.harvard.edu/takenote/sites/default/files/collection_images/Godard%20field%20notebook_0.jpg").
 + [ ] Create background images of spiral notebook binding and edges (with shadow).
 + [ ] Make final decisions on color scheme and fonts.
 + [ ] Place each ToC image in its own location
