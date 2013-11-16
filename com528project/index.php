@@ -171,6 +171,20 @@
         <img id="portrait" src="images/texture-2.jpg" />
     </div>
 
+ <!-- COLOR -->
+
+    <div>
+        <h1>Color</h1>
+        <?php include "includes/color-intro.html"?>
+    </div>
+    <div>
+        <?php include "includes/color-comments.html"?>
+    </div>
+    <div>
+        <img id="portrait" src="images/color.png" />
+    </div>
+
+
 
 
   <div>
