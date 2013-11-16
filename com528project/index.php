@@ -28,11 +28,10 @@
 
   <!-- INTRO-->
   <div> 
-        <h2>Introduction</h2>
+        <h1>Introduction</h1>
         <?php include "includes/about-me.html"; ?>
     </div>
     <div> 
-        <h2>Introduction</h2>
         <?php include "includes/about-portfolio.html"; ?>
     </div>
 
