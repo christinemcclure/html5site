@@ -64,3 +64,8 @@ img {
   background:url(background.jpg) 100% 100%;
 }
 */
+/* line 35, ../sass/main.scss */
+img#portrait {
+  max-height: 450px;
+  margin-left: 15%;
+}
