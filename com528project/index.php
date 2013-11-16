@@ -124,13 +124,8 @@
 
 <!-- SYMMETRY/ASYMMETRY-->
     <div>
-        <h2>Symmetry/Asymmetry</h2>
-        <h4>Symmetry</h4>
-        <?php include "includes/symmetry-intro.html"?>
-    </div>
-    <div>
-        <h4>Asymmetry</h4>
-        <?php include "includes/asymmetry-intro.html"?>
+        <h1>Symmetry&mdash;Asymmetry</h1>
+        <?php include "includes/sym-asym-intro.html"?>
     </div>
     <div>
       <h2>Symmetry</h2>
