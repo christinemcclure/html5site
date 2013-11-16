@@ -132,14 +132,12 @@
         <?php include "includes/symmetry-comments.html"?>
     </div>
     <div>
-        <h2>Symmetry</h2>
         <img src="images/symmetry.png" />
     </div>    <div>
-        <h2>Asymmetry</h2>
+        <h1>Asymmetry</h1>
         <?php include "includes/asymmetry-comments.html"?>
     </div>
     <div>
-        <h2>Asymmetry</h2>
         <img src="images/asymmetry.png" />
     </div>
   <div>
