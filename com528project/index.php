@@ -181,7 +181,30 @@
         <?php include "includes/color-comments.html"?>
     </div>
     <div>
-        <img id="portrait" src="images/color.png" />
+        <img src="images/color.png" />
+    </div>
+
+
+ <!-- FIGURE/GROUND -->
+
+    <div>
+        <h1>Figure&mdash;Ground</h1>
+        <?php include "includes/fg-intro.html"?>
+    </div>
+    <div>
+        <?php include "includes/fg-comments.html"?>
+    </div>
+    <div>
+      <h1>Stable</h1>
+        <img src="images/fg-stable.png" />
+    </div>
+    <div>
+      <h1>Reversible</h1>
+        <img src="images/fg-reversible.png" />
+    </div>
+    <div>
+      <h1>Ambiguous</h1>
+        <img src="images/fg-ambiguous.png" />
     </div>
 
 
