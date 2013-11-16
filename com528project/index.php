@@ -128,7 +128,7 @@
         <?php include "includes/sym-asym-intro.html"?>
     </div>
     <div>
-      <h2>Symmetry</h2>
+      <h1>Symmetry</h1>
         <?php include "includes/symmetry-comments.html"?>
     </div>
     <div>
