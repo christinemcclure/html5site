@@ -105,15 +105,15 @@
         <img src="images/plp-small.jpg" />
     </div>
     <div>
-        <h2>Point</h2>
+        <h1>Point</h1>
         <img src="images/point.jpg" />
     </div>
     <div>
-        <h2>Plane</h2>
+        <h1>Plane</h1>
         <img src="images/plane.jpg" />
     </div>
     <div>
-        <h2>Line</h2>
+        <h1>Line</h1>
         <img src="images/line.jpg" />
     </div>
 
