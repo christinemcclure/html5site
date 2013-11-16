@@ -76,12 +76,11 @@
 
 <!-- TEXT -->
     <div>
-        <h2>Text</h2>
+        <h1>Text</h1>
         <?php include "includes/text-intro.html"?>
     </div>
 
     <div>
-        <h2>Quote to use</h2>
         <?php include "includes/text-intro2.html"?>
     </div>
 
