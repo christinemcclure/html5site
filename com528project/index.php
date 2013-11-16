@@ -59,7 +59,7 @@
         <?php include "includes/words-intro2.html"?>
     </div>
     <div> 
-        <h2>Expansion</h2>
+        <h1>Expansion</h1>
         <?php include "includes/expansion-comments.html"?>
     </div>
     <div>
