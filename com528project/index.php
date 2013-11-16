@@ -96,11 +96,11 @@
 
 <!-- POINT/LINE/PLANE-->
     <div>
-        <h2>Point/Line/Plane</h2>
+        <h1>Point&mdash;Line&mdash;Plane</h1>
         <?php include "includes/plp-intro.html"?>
     </div>
     <div>
-        <h2>My Images</h2>
+        <h1>My Images</h1>
         <?php include "includes/plp-comments.html"?>
         <img src="images/plp-small.jpg" />
     </div>
