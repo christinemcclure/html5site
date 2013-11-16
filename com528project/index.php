@@ -51,11 +51,11 @@
 
 <!-- WORDS-->
     <div>
-        <h2>Words</h2>
+        <h1>Words</h1>
         <?php include "includes/words-intro.html"?>
     </div>
     <div>
-        <h3>Word Choices</h3>
+        <h2>Word Choices</h2>
         <?php include "includes/words-intro2.html"?>
     </div>
     <div> 
