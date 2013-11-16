@@ -85,7 +85,7 @@
     </div>
 
       <div>
-        <h2>My Text</h2>
+        <h1>My Text</h1>
         <?php include "includes/text-comments.html"?>
     </div>
 
