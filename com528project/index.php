@@ -141,7 +141,6 @@
     </div>
 
 
-
  <!-- SCALE -->
 
     <div>
@@ -153,6 +152,23 @@
     </div>
     <div>
         <img id="portrait" src="images/scale.jpg" />
+    </div>
+
+
+ <!-- TEXTURE -->
+
+    <div>
+        <h1>Texture</h1>
+        <?php include "includes/texture-intro.html"?>
+    </div>
+    <div>
+        <?php include "includes/texture-comments.html"?>
+    </div>
+    <div>
+        <img id="portrait" src="images/texture-1.jpg" />
+    </div>
+    <div>
+        <img id="portrait" src="images/texture-2.jpg" />
     </div>
 
 
