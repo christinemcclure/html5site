@@ -139,9 +139,11 @@
     <div>
         <img src="images/asymmetry.png" />
     </div>
+
+
   <div>
-        <h2>Back cover</h2>
-    </div>
+     <h1>Back cover</h1>
+  </div>
 </div>
 
   <script>
