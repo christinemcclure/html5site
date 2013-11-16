@@ -39,12 +39,11 @@
  <!-- DRAW LETTERS-->
 
     <div>
-        <h2>Draw Letters</h2>
+        <h1>Letters</h1>
         <?php include "includes/draw-letters-intro.html"?>
         <img src="images/draw-letters-orig.png" />
     </div>
     <div>
-        <h2>My Letters</h2>
         <img src="images/draw-letters.png" />
         <?php include "includes/draw-letters-comments.html"?>
     </div>
