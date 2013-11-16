@@ -141,6 +141,22 @@
     </div>
 
 
+
+ <!-- SCALE -->
+
+    <div>
+        <h1>Scale</h1>
+        <?php include "includes/scale-intro.html"?>
+    </div>
+    <div>
+        <?php include "includes/scale-comments.html"?>
+    </div>
+    <div>
+        <img id="portrait" src="images/scale.jpg" />
+    </div>
+
+
+
   <div>
      <h1>Back cover</h1>
   </div>
