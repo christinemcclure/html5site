@@ -66,7 +66,7 @@
         <img src="images/words-1.jpg" />
     </div>
     <div>
-        <h2>Contraction</h2>
+        <h1>Contraction</h1>
         <?php include "includes/contraction-comments.html"?>
     </div>
     <div>
