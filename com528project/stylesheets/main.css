@@ -55,15 +55,20 @@ img {
 
 /* line 11, ../sass/toc.scss */
 #tocImages img {
-  max-width: 102%;
-  overflow: visible;
+  max-width: 100%;
 }
 
-/*
-.booklet .b-wrap-right {
-  background:url(background.jpg) 100% 100%;
+/* line 17, ../sass/toc.scss */
+.booklet .b-page-3 {
+  background: url(background.jpg);
+  background-size: contain;
 }
-*/
+/* line 18, ../sass/toc.scss */
+.booklet .b-page-3 .b-wrap-right {
+  background: none;
+  padding: 5-px;
+}
+
 /* line 35, ../sass/main.scss */
 img#portrait {
   max-height: 450px;

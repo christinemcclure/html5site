@@ -9,13 +9,17 @@
 
 #tocImages {
   img {
-      max-width:102%;
-      overflow:visible;
+    max-width:100%;
   }
 }
 
-/*
-.booklet .b-wrap-right {
-  background:url(background.jpg) 100% 100%;
+
+.booklet .b-page-3 {
+  .b-wrap-right{
+    background:none;
+    padding:5-px;
+  }
+  background:url(background.jpg);
+  background-size:contain;
 }
-*/
+
