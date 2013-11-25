@@ -10,7 +10,7 @@ var tocImages = new Array ('intro','letters','words','text','plp','symmAsymm',
     var winWidth = $(window).width();
 //    alert('height: '+winHeight+' width: '+winWidth);
  
-    if ((winHeight < 520) || (winWidth < 780)){
+    if ((winHeight < 520) || (winWidth < winHeight*2.25)){
       return; // don't initialize for small screens
     }
 
@@ -18,9 +18,8 @@ var tocImages = new Array ('intro','letters','words','text','plp','symmAsymm',
     $('p#noJS').addClass('hide');
 
     var winPadding = 40; // show page edges
-
     winHeight -= winPadding;
-    winWidth -= winPadding;
+    winWidth = winHeight*2.25; // keep aspect ratio same regardless of monitor size
 
     
     // Initialize booklet object
