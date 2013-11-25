@@ -17,12 +17,10 @@ var tocImages = new Array ('intro','letters','words','text','plp','symmAsymm',
     // remove no JS/size message
     $('p#noJS').addClass('hide');
 
-    if (winHeight > 1200)
-      winHeight = 900;
-    else
-      winHeight= 480;
+    var winPadding = 40; // show page edges
 
-    winWidth=winHeight*2;
+    winHeight -= winPadding;
+    winWidth -= winPadding;
 
     
     // Initialize booklet object
