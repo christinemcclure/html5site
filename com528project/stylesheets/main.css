@@ -43,7 +43,7 @@ html {
 
 /* line 32, ../sass/main.scss */
 img {
-  max-width: 400px;
+  max-height: 100%;
 }
 
 /* line 2, ../sass/toc.scss */
@@ -69,10 +69,4 @@ img {
 .booklet .b-page-3 .b-wrap-right {
   background: none;
   padding: 5-px;
-}
-
-/* line 39, ../sass/main.scss */
-img#portrait {
-  max-height: 450px;
-  margin-left: 15%;
 }

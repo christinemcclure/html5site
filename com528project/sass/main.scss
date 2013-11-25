@@ -30,13 +30,9 @@ html {
 }
 
 img {
-  max-width: 400px; //make this more elegant later
+  max-height: 100%; 
 }
 
-// Import ToC file
+
+// Import ToC file to supercede normal rules
 @import 'toc';
-
-img#portrait{
-  max-height:450px;
-  margin-left:15%;
-}
