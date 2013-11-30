@@ -8,11 +8,15 @@ var tocImages = new Array ('intro','letters','words','text','plp','symmAsymm',
     // Account for varying window sizes
     var winHeight = $(window).height();
     var winWidth = $(window).width();
-//    alert('height: '+winHeight+' width: '+winWidth);
+    var aspectRatio = Math.round((winWidth/winHeight)*100)/100;
+//    alert('width: '+ winWidth + ' height: '+winHeight +' aspect ratio: ' + aspectRatio);
  
-    if ((winHeight < 520) || (winWidth < winHeight*2.25)){
+    if ( (winWidth < 900) || (winHeight < winWidth/2.5) ){
+      $('#noJS').text('All elements of this portfolio are visible, but viewing it in booklet form requires JavaScript and a minimum screen size of 900 pixels wide and '+ Math.round(winWidth/2.5) + ' pixels high.');
       return; // don't initialize for small screens
     }
+
+    winHeight = winWidth/2.4;
 
     // remove no JS/size message
     $('p#noJS').addClass('hide');
