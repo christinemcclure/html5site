@@ -33,6 +33,7 @@ var tocImages = new Array ('intro','letters','words','text','plp','symmAsymm',
         height: winHeight,
         pagePadding: 0,
         arrows: true,
+        pageNumbers: false,
         hash: true
     });
   }
