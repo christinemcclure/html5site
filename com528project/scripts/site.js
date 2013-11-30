@@ -31,6 +31,7 @@ var tocImages = new Array ('intro','letters','words','text','plp','symmAsymm',
         closed: false,
         width: winWidth,
         height: winHeight,
+        pagePadding: 0,
         hash: true
     });
   }

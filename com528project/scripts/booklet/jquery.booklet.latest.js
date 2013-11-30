@@ -2080,7 +2080,7 @@
         covers:               false,                           // used with "closed", makes first and last pages into covers, without page numbers (if enabled)
         autoCenter:           false,                           // used with "closed", makes book position in center of container when closed
 
-        pagePadding:          0, // cam change                             // padding for each page wrapper
+        pagePadding:          10,                              // padding for each page wrapper
         pageNumbers:          true,                            // display page numbers on each page
         pageBorder:           0,                               // size of the border around each page
 
