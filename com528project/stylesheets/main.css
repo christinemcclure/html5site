@@ -67,10 +67,10 @@ img {
 }
 
 /* line 50, ../sass/main.scss */
-.booklet .b-page-1 .b-wrap {
+.booklet .b-page-1 .b-wrap-right {
   background: url(/com528project/images/cover.png);
   background-size: contain;
-  background-repeat: no-repeat;
+  background-position: top right;
 }
 
 /* line 2, ../sass/toc.scss */
@@ -82,13 +82,9 @@ img {
 }
 
 /* line 12, ../sass/toc.scss */
-.booklet .b-page-3 {
-  background: url(background.jpg);
+.booklet .b-page-3 .b-wrap-right {
+  background: url(/com528project/images/background.jpg);
   background-size: contain;
   background-repeat: no-repeat;
-}
-/* line 13, ../sass/toc.scss */
-.booklet .b-page-3 .b-wrap-right {
-  background: none;
-  padding: 5-px;
+  background-position: top right;
 }

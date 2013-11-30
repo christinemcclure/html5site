@@ -47,10 +47,10 @@ img {
   }
 }
 
-.booklet .b-page-1 .b-wrap {
-  background:url(/com528project/images/cover.png);
+.booklet .b-page-1 .b-wrap-right {
+  background: url(/com528project/images/cover.png);
   background-size:contain;
-  background-repeat:no-repeat;
+  background-position: top right;
 }
 
 
