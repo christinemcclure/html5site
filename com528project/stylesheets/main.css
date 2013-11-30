@@ -46,6 +46,24 @@ img {
   max-height: 100%;
 }
 
+/* line 36, ../sass/main.scss */
+.b-p1 .b-wrap-left {
+  background: none;
+}
+/* line 38, ../sass/main.scss */
+.b-p1 .b-wrap-left .b-counter {
+  display: none;
+}
+
+/* line 41, ../sass/main.scss */
+#not-a-page {
+  background: none;
+}
+/* line 43, ../sass/main.scss */
+#not-a-page p {
+  margin: 30% 20% 0 20%;
+}
+
 /* line 2, ../sass/toc.scss */
 #tocText a {
   display: inline-block;

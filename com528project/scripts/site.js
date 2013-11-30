@@ -24,7 +24,7 @@ var tocImages = new Array ('intro','letters','words','text','plp','symmAsymm',
     
     // Initialize booklet object
     $(ele).booklet({
-        closed: true,
+        closed: false,
         width: winWidth,
         height: winHeight,
         hash: true

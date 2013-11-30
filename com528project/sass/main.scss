@@ -33,6 +33,17 @@ img {
   max-height: 100%; 
 }
 
+.b-p1 .b-wrap-left {
+  background:none;
+  .b-counter{display:none;}
+}
+
+#not-a-page{
+  background:none;
+  p{
+    margin: 30% 20% 0 20%;
+  }
+}
 
 // Import ToC file to supercede normal rules
 @import 'toc';
