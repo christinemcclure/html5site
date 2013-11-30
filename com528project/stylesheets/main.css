@@ -66,6 +66,13 @@ img {
   margin: 30% 20% 0 20%;
 }
 
+/* line 50, ../sass/main.scss */
+.booklet .b-page-1 .b-wrap {
+  background: url(/com528project/images/cover.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
 /* line 2, ../sass/toc.scss */
 #tocText a {
   display: inline-block;

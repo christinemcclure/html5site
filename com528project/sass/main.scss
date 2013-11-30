@@ -47,5 +47,13 @@ img {
   }
 }
 
+.booklet .b-page-1 .b-wrap {
+  background:url(/com528project/images/cover.png);
+  background-size:contain;
+  background-repeat:no-repeat;
+}
+
+
+
 // Import ToC file to supercede normal rules
 @import 'toc';
