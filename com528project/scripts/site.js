@@ -9,9 +9,9 @@ var tocImages = new Array ('intro','letters','words','text','plp','symmAsymm',
     var winHeight = $(window).height();
     var winWidth = $(window).width();
     var aspectRatio = Math.round((winWidth/winHeight)*100)/100;
-//    alert('width: '+ winWidth + ' height: '+winHeight +' aspect ratio: ' + aspectRatio);
+    alert('width: '+ winWidth + ' height: '+winHeight +' aspect ratio: ' + aspectRatio);
  
-    if ( (winWidth < 900) || (winHeight < winWidth/2.5) ){
+    if ( (winHeight < winWidth/2.3) ){
       $('#noJS').text('All elements of this portfolio are visible, but viewing it in booklet form requires a minimum screen size of 900 pixels wide and '+ Math.round(winWidth/2.5) + ' pixels high.');
       return; // don't initialize for small screens
     }
