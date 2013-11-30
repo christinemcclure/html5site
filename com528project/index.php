@@ -18,9 +18,7 @@
     <p>Intro to portfolio (make look not like book).</p>
   </div>
 
-    <div>
-      <img id="cover" src="images/cover.png" />
-<!--      need to auto size this to fit div-->
+    <div id="cover">
     </div>
 
 
