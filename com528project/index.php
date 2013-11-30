@@ -15,7 +15,9 @@
 
   <div id="not-a-page">
         <p id="noJS">All elements of this portfolio are visible, but viewing it in booklet form requires JavaScript</p>
-    <p>Intro to portfolio (make look not like book).</p>
+    <p id="desc">This portfolio consists of various assignments from a Document Design class I took as part of the <br/>
+      <a href="http://www.iit.edu/human-sciences/hum/programs/grad/iarc.shtml">Information Architecture</a> curriculum at 
+      <a href="http://www.iit.edu">Illinois Institute of Technology</a>.</p>
   </div>
 
     <div id="cover">
