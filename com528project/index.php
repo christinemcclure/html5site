@@ -14,6 +14,7 @@
 <div id="portfolio" class="clear">
 
   <div id="not-a-page">
+        <p id="noJS">All elements of this portfolio are visible, but viewing it in booklet form requires JavaScript</p>
     <p>Intro to portfolio (make look not like book).</p>
   </div>
 

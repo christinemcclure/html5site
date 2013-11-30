@@ -12,7 +12,7 @@ var tocImages = new Array ('intro','letters','words','text','plp','symmAsymm',
 //    alert('width: '+ winWidth + ' height: '+winHeight +' aspect ratio: ' + aspectRatio);
  
     if ( (winWidth < 900) || (winHeight < winWidth/2.5) ){
-      $('#noJS').text('All elements of this portfolio are visible, but viewing it in booklet form requires JavaScript and a minimum screen size of 900 pixels wide and '+ Math.round(winWidth/2.5) + ' pixels high.');
+      $('#noJS').text('All elements of this portfolio are visible, but viewing it in booklet form requires a minimum screen size of 900 pixels wide and '+ Math.round(winWidth/2.5) + ' pixels high.');
       return; // don't initialize for small screens
     }
 
