@@ -1,3 +1,6 @@
+$bodyFont: 'Questrial', Verdana, Arial,  sans-serif;
+$headingFont: 'Rammetto One', cursive;
+
 .clear {clear:both;}
 .hide {display:none;}
 
@@ -5,6 +8,10 @@ body {
   margin: 0; 
   padding: 10px 20px 20px 20px;
   background:green;
+  font-family: $bodyFont;
+  h1, h2, h3 {
+    font-family: $headingFont;
+  }
 }
 
 ul {list-style:none;}

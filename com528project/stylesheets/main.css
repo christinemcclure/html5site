@@ -1,72 +1,77 @@
-/* line 1, ../sass/main.scss */
+/* line 4, ../sass/main.scss */
 .clear {
   clear: both;
 }
 
-/* line 2, ../sass/main.scss */
+/* line 5, ../sass/main.scss */
 .hide {
   display: none;
 }
 
-/* line 4, ../sass/main.scss */
+/* line 7, ../sass/main.scss */
 body {
   margin: 0;
   padding: 10px 20px 20px 20px;
   background: green;
+  font-family: "Questrial", Verdana, Arial, sans-serif;
+}
+/* line 12, ../sass/main.scss */
+body h1, body h2, body h3 {
+  font-family: "Rammetto One", cursive;
 }
 
-/* line 10, ../sass/main.scss */
+/* line 17, ../sass/main.scss */
 ul {
   list-style: none;
 }
 
-/* line 13, ../sass/main.scss */
+/* line 20, ../sass/main.scss */
 nav#main li {
   top: 0;
   display: inline-block;
   float: left;
   margin: 0 0 20px 0;
 }
-/* line 18, ../sass/main.scss */
+/* line 25, ../sass/main.scss */
 nav#main li a {
   padding: 20px 10px;
 }
-/* line 22, ../sass/main.scss */
+/* line 29, ../sass/main.scss */
 nav#main li:first-child {
   margin-right: 100px;
 }
 
-/* line 28, ../sass/main.scss */
+/* line 35, ../sass/main.scss */
 html {
   font-size: 16px;
 }
 
-/* line 32, ../sass/main.scss */
+/* line 39, ../sass/main.scss */
 img {
   max-width: 100%;
   max-height: 100%;
   width: 100%;
 }
 
-/* line 38, ../sass/main.scss */
+/* line 45, ../sass/main.scss */
 .b-p1 .b-wrap-left {
   background: none;
 }
-/* line 40, ../sass/main.scss */
+/* line 47, ../sass/main.scss */
 .b-p1 .b-wrap-left .b-counter {
   display: none;
 }
 
-/* line 43, ../sass/main.scss */
+/* line 50, ../sass/main.scss */
 #not-a-page {
   background: none;
 }
-/* line 45, ../sass/main.scss */
+/* line 52, ../sass/main.scss */
 #not-a-page p {
   margin: 30% 20% 0 20%;
 }
 
-/* line 50, ../sass/main.scss */
+/* line 57, ../sass/main.scss */
 .booklet .b-page-1 .b-wrap-right {
   background: url(/com528project/images/cover.png);
   background-size: contain;
