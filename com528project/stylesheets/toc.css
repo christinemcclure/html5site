@@ -6,18 +6,13 @@
   background: yellow;
 }
 
-/* line 11, ../sass/toc.scss */
-#tocImages img {
-  max-width: 100%;
-}
-
-/* line 17, ../sass/toc.scss */
+/* line 12, ../sass/toc.scss */
 .booklet .b-page-3 {
   background: url(background.jpg);
   background-size: contain;
   background-repeat: no-repeat;
 }
-/* line 18, ../sass/toc.scss */
+/* line 13, ../sass/toc.scss */
 .booklet .b-page-3 .b-wrap-right {
   background: none;
   padding: 5-px;

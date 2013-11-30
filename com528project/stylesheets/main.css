@@ -43,23 +43,25 @@ html {
 
 /* line 32, ../sass/main.scss */
 img {
+  max-width: 100%;
   max-height: 100%;
+  width: 100%;
 }
 
-/* line 36, ../sass/main.scss */
+/* line 38, ../sass/main.scss */
 .b-p1 .b-wrap-left {
   background: none;
 }
-/* line 38, ../sass/main.scss */
+/* line 40, ../sass/main.scss */
 .b-p1 .b-wrap-left .b-counter {
   display: none;
 }
 
-/* line 41, ../sass/main.scss */
+/* line 43, ../sass/main.scss */
 #not-a-page {
   background: none;
 }
-/* line 43, ../sass/main.scss */
+/* line 45, ../sass/main.scss */
 #not-a-page p {
   margin: 30% 20% 0 20%;
 }
@@ -72,18 +74,13 @@ img {
   background: yellow;
 }
 
-/* line 11, ../sass/toc.scss */
-#tocImages img {
-  max-width: 100%;
-}
-
-/* line 17, ../sass/toc.scss */
+/* line 12, ../sass/toc.scss */
 .booklet .b-page-3 {
   background: url(background.jpg);
   background-size: contain;
   background-repeat: no-repeat;
 }
-/* line 18, ../sass/toc.scss */
+/* line 13, ../sass/toc.scss */
 .booklet .b-page-3 .b-wrap-right {
   background: none;
   padding: 5-px;
