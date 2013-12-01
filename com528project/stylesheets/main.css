@@ -12,70 +12,72 @@
 body {
   margin: 0;
   padding: 10px 20px 20px 20px;
-  background: green;
+  background: url(/com528project/images/wood.png);
+  background-size: contain;
   font-family: "Questrial", Verdana, Arial, sans-serif;
 }
-/* line 12, ../sass/main.scss */
+/* line 15, ../sass/main.scss */
 body h1, body h2, body h3 {
   font-family: "Rammetto One", cursive;
 }
 
-/* line 17, ../sass/main.scss */
+/* line 20, ../sass/main.scss */
 ul {
   list-style: none;
 }
 
-/* line 20, ../sass/main.scss */
+/* line 23, ../sass/main.scss */
 nav#main li {
   top: 0;
   display: inline-block;
   float: left;
   margin: 0 0 20px 0;
 }
-/* line 25, ../sass/main.scss */
+/* line 28, ../sass/main.scss */
 nav#main li a {
   padding: 20px 10px;
 }
-/* line 29, ../sass/main.scss */
+/* line 32, ../sass/main.scss */
 nav#main li:first-child {
   margin-right: 100px;
 }
 
-/* line 35, ../sass/main.scss */
+/* line 38, ../sass/main.scss */
 html {
   font-size: 16px;
 }
 
-/* line 39, ../sass/main.scss */
+/* line 42, ../sass/main.scss */
 img {
   max-width: 100%;
   max-height: 100%;
   width: 100%;
 }
 
-/* line 45, ../sass/main.scss */
+/* line 48, ../sass/main.scss */
 .b-p1 .b-wrap-left {
   background: none;
 }
-/* line 47, ../sass/main.scss */
+/* line 50, ../sass/main.scss */
 .b-p1 .b-wrap-left .b-counter {
   display: none;
 }
 
-/* line 50, ../sass/main.scss */
+/* line 53, ../sass/main.scss */
 #not-a-page {
   background: none;
 }
-/* line 52, ../sass/main.scss */
+/* line 55, ../sass/main.scss */
 #not-a-page p {
   margin: 30% 20% 0 20%;
 }
 
-/* line 57, ../sass/main.scss */
+/* line 60, ../sass/main.scss */
 .booklet .b-page-1 .b-wrap-right {
   background: url(/com528project/images/cover.png);
   background-size: contain;
   background-position: top right;
+  background-repeat: no-repeat;
 }
 
 /* line 2, ../sass/toc.scss */

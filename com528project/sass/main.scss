@@ -7,7 +7,10 @@ $headingFont: 'Rammetto One', cursive;
 body {
   margin: 0; 
   padding: 10px 20px 20px 20px;
-  background:green;
+
+  background: url(/com528project/images/wood.png);
+  background-size:contain;
+
   font-family: $bodyFont;
   h1, h2, h3 {
     font-family: $headingFont;
@@ -58,6 +61,7 @@ img {
   background: url(/com528project/images/cover.png);
   background-size:contain;
   background-position: top right;
+  background-repeat: no-repeat;
 }
 
 
