@@ -55,24 +55,36 @@ img {
 }
 
 /* line 48, ../sass/main.scss */
-.b-p1 .b-wrap-left {
+.booklet .b-p1 .b-wrap-left {
   background: none;
 }
-/* line 50, ../sass/main.scss */
-.b-p1 .b-wrap-left .b-counter {
-  display: none;
-}
 
-/* line 53, ../sass/main.scss */
+/* line 52, ../sass/main.scss */
 #not-a-page {
   background: none;
 }
-/* line 55, ../sass/main.scss */
+/* line 54, ../sass/main.scss */
 #not-a-page p {
   margin: 30% 20% 0 20%;
 }
 
-/* line 60, ../sass/main.scss */
+/* line 59, ../sass/main.scss */
+.booklet .b-wrap-right {
+  background: url(/com528project/images/notebook-right.png);
+  background-size: contain;
+  background-position: top left;
+  background-repeat: no-repeat;
+}
+
+/* line 66, ../sass/main.scss */
+.booklet .b-wrap-left {
+  background: url(/com528project/images/notebook-left.png);
+  background-size: contain;
+  background-position: top right;
+  background-repeat: no-repeat;
+}
+
+/* line 73, ../sass/main.scss */
 .booklet .b-page-1 .b-wrap-right {
   background: url(/com528project/images/cover.png);
   background-size: contain;

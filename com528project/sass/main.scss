@@ -45,9 +45,8 @@ img {
   width: 100%;
 }
 
-.b-p1 .b-wrap-left {
+.booklet .b-p1 .b-wrap-left {
   background:none;
-  .b-counter{display:none;}
 }
 
 #not-a-page{
@@ -55,6 +54,20 @@ img {
   p{
     margin: 30% 20% 0 20%;
   }
+}
+
+.booklet .b-wrap-right {
+  background: url(/com528project/images/notebook-right.png);
+  background-size:contain;
+  background-position: top left;
+  background-repeat: no-repeat;
+}
+
+.booklet .b-wrap-left {
+  background: url(/com528project/images/notebook-left.png);
+  background-size:contain;
+  background-position: top right;
+  background-repeat: no-repeat;
 }
 
 .booklet .b-page-1 .b-wrap-right {
