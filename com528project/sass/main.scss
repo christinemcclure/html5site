@@ -77,7 +77,7 @@ img {
   max-height: 100%;
 }
 
-.booklet .b-p1 .b-wrap-left {
+.booklet .b-p1 .b-wrap-left, .booklet .b-p2 .b-wrap-right{
   background:none;
 }
 
@@ -107,7 +107,7 @@ img {
 }
 
 
-//cover only
+//covers only
 .booklet .b-page-1 .b-wrap-right {
   background: url(/com528project/images/cover.png);
   background-size:contain;
@@ -115,6 +115,12 @@ img {
   background-repeat: no-repeat;
 }
 
+.booklet .b-page-60 .b-wrap-left {
+  background: url(/com528project/images/back-cover.png);
+  background-size:contain;
+  background-position: top left;
+  background-repeat: no-repeat;
+}
 
 
 

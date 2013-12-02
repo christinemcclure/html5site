@@ -262,9 +262,9 @@
     <div class="right">
       <img src="images/paper.png" />
     </div>
-  <div class="left">
-      <img src="images/paper.png" />
+  <div id="back-cover">
   </div>
+
 </div>
 
   <script>
