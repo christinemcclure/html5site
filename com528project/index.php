@@ -36,12 +36,17 @@
     <div class="left">
       <img src="images/paper.png" />
     </div>
+    <div class="right">
+        <h1>Introduction</h1>
+    </div>
+
+
 
     <div class="right">
         <h1>Introduction</h1>
         <?php include "includes/about-me.html"; ?>
     </div>
-    <div> 
+    <div class="left">
         <?php include "includes/about-portfolio.html"; ?>
     </div>
 
