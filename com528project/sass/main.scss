@@ -21,6 +21,11 @@ body {
 
 ul {list-style:none;}
 
+a {
+  padding: 2px 6px;
+  text-decoration:none;
+}
+
 .left, .right {
   background: url(/images/paper.png);
   img {
@@ -56,10 +61,6 @@ nav {
   width: 60%;
   margin: 0 auto;
   text-align:center;
-  a {
-    padding: 2px 6px;
-    text-decoration:none;
-  }
 }
 
 $font-size: 16px;
@@ -122,12 +123,7 @@ img {
 // Table of Contents rules
 
 #tocText {
-  a {
-    display:inline-block;
-    margin: 20px;
-    padding: 10px;
-    background:yellow;
-  }
+  li  {margin: 20px 0;}
 }
 
 #tocImages img{
