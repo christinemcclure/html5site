@@ -195,62 +195,75 @@
 
 
  <!-- TEXTURE -->
-
-    <div>
+    <div class="left">
+      <img src="images/paper.png" />
+    </div>
+    <div class="right">
+        (image for texture chapter)
+    </div>
+    <div class="left">
         <h1>Texture</h1>
         <?php include "includes/texture-intro.html"?>
     </div>
-    <div>
+    <div class="right">
         <?php include "includes/texture-comments.html"?>
     </div>
-    <div>
+    <div class="left">
         <img id="portrait" src="images/texture-1.jpg" />
     </div>
-    <div>
+    <div class="right">
         <img id="portrait" src="images/texture-2.jpg" />
     </div>
 
  <!-- COLOR -->
-
-    <div>
+    <div class="left">
+      <img src="images/paper.png" />
+    </div>
+    <div class="right">
+        (image for color chapter)
+    </div>
+    <div class="left">
         <h1>Color</h1>
         <?php include "includes/color-intro.html"?>
-    </div>
-    <div>
         <?php include "includes/color-comments.html"?>
     </div>
-    <div>
+    <div class="right">
         <img src="images/color.png" />
     </div>
 
 
  <!-- FIGURE/GROUND -->
-
-    <div>
+    <div class="left">
+      <img src="images/paper.png" />
+    </div>
+    <div class="right">
+        (image for figure/ground chapter)
+    </div>
+    <div class="left">
         <h1>Figure&mdash;Ground</h1>
         <?php include "includes/fg-intro.html"?>
     </div>
-    <div>
+    <div class="right">
         <?php include "includes/fg-comments.html"?>
     </div>
-    <div>
-      <h1>Stable</h1>
-        <img src="images/fg-stable.png" />
+    <div class="left">
+      <h2>Stable</h2>
+        <img class="fit" src="images/fg-stable.png" />
     </div>
-    <div>
-      <h1>Reversible</h1>
-        <img src="images/fg-reversible.png" />
+    <div class="right">
+      <h2>Reversible</h2>
+        <img class="fit" src="images/fg-reversible.png" />
     </div>
-    <div>
-      <h1>Ambiguous</h1>
-        <img src="images/fg-ambiguous.png" />
+    <div class="left">
+      <h2>Ambiguous</h2>
+        <img class="fit" src="images/fg-ambiguous.png" />
     </div>
 
-
-
-
-  <div>
-     <h1>Back cover</h1>
+    <div class="right">
+      <img src="images/paper.png" />
+    </div>
+  <div class="left">
+      <img src="images/paper.png" />
   </div>
 </div>
 
