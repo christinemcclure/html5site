@@ -52,8 +52,8 @@
     <div class="left">
       <img src="/images/paper.png" />
     </div>
-    <div class="right">
-        (image for letters chapter)
+    <div class="right chapter">
+       <img src="/images/chap-letters.png" />
     </div>
     <div class="left">
         <h1>Letters</h1>

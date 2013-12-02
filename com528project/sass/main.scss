@@ -20,9 +20,6 @@ body {
   background: url(/images/wood.jpg); // from http://www.pixeden.com/graphic-web-backgrounds/wood-pattern-background
   background-size:contain;
   font-size: $fontSize;
-
-
-
   font-family: $bodyFont;
   h1, h2, h3 {
     font-family: $headingFont;
@@ -83,6 +80,12 @@ img {
   background:none;
 }
 
+.chapter{
+  img {
+    width: 90%;
+    margin: 2% 5% 0 5%;
+  }
+}
 
 #not-a-page{
   background:none;
