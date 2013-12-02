@@ -74,10 +74,11 @@
         (image for words chapter)
     </div>
     <div class="left">
-        <h1>Words</h1>
-        <?php include "includes/words-intro.html"?>
+      <img src="images/paper.png" />
     </div>
     <div class="right">
+      <h1>Words</h1>
+        <?php include "includes/words-intro.html"?>
         <h2>Word Choices</h2>
         <?php include "includes/words-intro2.html"?>
     </div>
@@ -98,84 +99,98 @@
 
 
 <!-- TEXT -->
-    <div>
+    <div class="left">
+      <img src="images/paper.png" />
+    </div>
+    <div class="right">
+        (image for text chapter)
+    </div>
+    <div class="left">
         <h1>Text</h1>
         <?php include "includes/text-intro.html"?>
     </div>
 
-    <div>
+    <div class="right">
         <?php include "includes/text-intro2.html"?>
     </div>
 
-      <div>
+    <div class="left">
         <h1>My Text</h1>
         <?php include "includes/text-comments.html"?>
     </div>
 
-    <div>
+    <div class="right">
         <img src="images/text.png" />
     </div>
 
 
 <!-- POINT/LINE/PLANE-->
-    <div>
+    <div class="left">
+      <img src="images/paper.png" />
+    </div>
+    <div class="right">
+        (image for plp chapter)
+    </div>
+    <div class="left">
         <h1>Point&mdash;Line&mdash;Plane</h1>
         <?php include "includes/plp-intro.html"?>
-    </div>
-    <div>
         <h1>My Images</h1>
         <?php include "includes/plp-comments.html"?>
         <img src="images/plp-small.jpg" />
     </div>
-    <div>
+    <div class="right">
         <h1>Point</h1>
-        <img src="images/point.jpg" />
+        <img class="fit" src="images/point.jpg" />
     </div>
-    <div>
+    <div class="left">
         <h1>Plane</h1>
-        <img src="images/plane.jpg" />
+        <img class="fit" src="images/plane.jpg" />
     </div>
-    <div>
+    <div class="right">
         <h1>Line</h1>
-        <img src="images/line.jpg" />
+        <img class="fit" src="images/line.jpg" />
     </div>
 
-    <div>
-      <p class="hide">This page left intentionally blank</p>
-    </div>
 
 
 <!-- SYMMETRY/ASYMMETRY-->
-    <div>
-        <h1>Symmetry&mdash;Asymmetry</h1>
-        <?php include "includes/sym-asym-intro.html"?>
+    <div class="left">
+      <img src="images/paper.png" />
     </div>
-    <div>
+    <div class="right">
+        (image for symmetry chapter)
+    </div>
+    <div class="left">
+        <?php include "includes/sym-asym-intro.html"?>
       <h1>Symmetry</h1>
         <?php include "includes/symmetry-comments.html"?>
     </div>
-    <div>
+    <div class="right">
         <img src="images/symmetry.png" />
-    </div>    <div>
+    </div>    
+    <div class="left">
         <h1>Asymmetry</h1>
         <?php include "includes/asymmetry-comments.html"?>
     </div>
-    <div>
+    <div class="right">
         <img src="images/asymmetry.png" />
     </div>
 
 
  <!-- SCALE -->
-
-    <div>
+    <div class="left">
+      <img src="images/paper.png" />
+    </div>
+    <div class="right">
+        (image for scale chapter)
+    </div>
+    <div class="left">
         <h1>Scale</h1>
         <?php include "includes/scale-intro.html"?>
-    </div>
-    <div>
         <?php include "includes/scale-comments.html"?>
     </div>
-    <div>
-        <img id="portrait" src="images/scale.jpg" />
+    <div class="right">
+        <img src="images/scale.png" />
     </div>
 
 

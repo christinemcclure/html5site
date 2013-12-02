@@ -23,11 +23,12 @@ ul {list-style:none;}
 
 .left, .right {
   background: url(/com528project/images/paper.png);
-  background-size:contain;
   img {
     width: 80%;
   }
 }
+
+
 .left {
   margin: 10px 30px 20px 10px;
   img {
@@ -146,3 +147,4 @@ img {
 .booklet .b-arrow-prev {
   left: -50px;
 }
+
