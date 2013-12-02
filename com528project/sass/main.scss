@@ -1,6 +1,7 @@
 $bodyFont: 'Questrial', Verdana, Arial,  sans-serif;
 $headingFont: 'Rammetto One', cursive;
 $normalSpacing: 1px;
+$fontSize: 16px;
 
 // Colors
 $orange: rbg(246,146,30);
@@ -18,8 +19,9 @@ body {
 
   background: url(/images/wood.jpg); // from http://www.pixeden.com/graphic-web-backgrounds/wood-pattern-background
   background-size:contain;
+  font-size: $fontSize;
 
-  font-size: 100%;
+
 
   font-family: $bodyFont;
   h1, h2, h3 {
@@ -70,11 +72,6 @@ nav {
   width: 60%;
   margin: 0 auto;
   text-align:center;
-}
-
-$font-size: 16px;
-html {
-  font-size: $font-size;
 }
 
 img {

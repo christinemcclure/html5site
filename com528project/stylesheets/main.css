@@ -1,112 +1,107 @@
-/* line 12, ../sass/main.scss */
+/* line 13, ../sass/main.scss */
 .clear {
   clear: both;
 }
 
-/* line 13, ../sass/main.scss */
+/* line 14, ../sass/main.scss */
 .hide {
   display: none;
 }
 
-/* line 15, ../sass/main.scss */
+/* line 16, ../sass/main.scss */
 body {
   margin: 0;
   padding: 10px 20px 20px 20px;
   background: url(/images/wood.jpg);
   background-size: contain;
-  font-size: 100%;
+  font-size: 16px;
   font-family: "Questrial", Verdana, Arial, sans-serif;
 }
-/* line 25, ../sass/main.scss */
+/* line 27, ../sass/main.scss */
 body h1, body h2, body h3 {
   font-family: "Rammetto One", cursive;
 }
-/* line 28, ../sass/main.scss */
+/* line 30, ../sass/main.scss */
 body p, body li {
   letter-spacing: 1px;
 }
 
-/* line 31, ../sass/main.scss */
+/* line 33, ../sass/main.scss */
 ul {
   list-style: none;
 }
 
-/* line 33, ../sass/main.scss */
+/* line 35, ../sass/main.scss */
 a {
   padding: 2px 6px;
   text-decoration: none;
 }
 
-/* line 38, ../sass/main.scss */
+/* line 40, ../sass/main.scss */
 .left, .right {
   background: url(/images/paper.png);
 }
-/* line 40, ../sass/main.scss */
+/* line 42, ../sass/main.scss */
 .left img, .right img {
   width: 80%;
 }
 
-/* line 46, ../sass/main.scss */
+/* line 48, ../sass/main.scss */
 .left {
   margin: 10px 30px 20px 10px;
 }
-/* line 48, ../sass/main.scss */
+/* line 50, ../sass/main.scss */
 .left img {
   margin: 0 10% 0 0;
 }
-/* line 51, ../sass/main.scss */
+/* line 53, ../sass/main.scss */
 .left .fit {
   width: 70%;
   margin: 0 20% 0 0;
 }
 
-/* line 57, ../sass/main.scss */
+/* line 59, ../sass/main.scss */
 .right {
   margin: 10px 10px 20px 30px;
 }
-/* line 59, ../sass/main.scss */
+/* line 61, ../sass/main.scss */
 .right img {
   margin: 0 0 0 10%;
 }
-/* line 62, ../sass/main.scss */
+/* line 64, ../sass/main.scss */
 .right .fit {
   width: 70%;
   margin: 0 0 0 20%;
 }
 
-/* line 69, ../sass/main.scss */
+/* line 71, ../sass/main.scss */
 nav {
   width: 60%;
   margin: 0 auto;
   text-align: center;
 }
 
-/* line 76, ../sass/main.scss */
-html {
-  font-size: 16px;
-}
-
-/* line 80, ../sass/main.scss */
+/* line 77, ../sass/main.scss */
 img {
   max-width: 100%;
   max-height: 100%;
 }
 
-/* line 85, ../sass/main.scss */
+/* line 82, ../sass/main.scss */
 .booklet .b-p1 .b-wrap-left, .booklet .b-p2 .b-wrap-right {
   background: none;
 }
 
-/* line 90, ../sass/main.scss */
+/* line 87, ../sass/main.scss */
 #not-a-page {
   background: none;
 }
-/* line 92, ../sass/main.scss */
+/* line 89, ../sass/main.scss */
 #not-a-page p {
   margin: 30% 20% 0 20%;
 }
 
-/* line 98, ../sass/main.scss */
+/* line 95, ../sass/main.scss */
 .booklet .b-wrap-left {
   background: url(/images/notebook-left.png);
   background-size: contain;
@@ -114,7 +109,7 @@ img {
   background-repeat: no-repeat;
 }
 
-/* line 107, ../sass/main.scss */
+/* line 104, ../sass/main.scss */
 .booklet .b-wrap-right {
   background: url(/images/notebook-right.png);
   background-size: contain;
@@ -122,7 +117,7 @@ img {
   background-repeat: no-repeat;
 }
 
-/* line 116, ../sass/main.scss */
+/* line 113, ../sass/main.scss */
 .booklet .b-page-1 .b-wrap-right {
   background: url(/images/cover.png);
   background-size: contain;
@@ -130,7 +125,7 @@ img {
   background-repeat: no-repeat;
 }
 
-/* line 123, ../sass/main.scss */
+/* line 120, ../sass/main.scss */
 .booklet .b-page-60 .b-wrap-left {
   background: url(/images/back-cover.png);
   background-size: contain;
@@ -138,44 +133,44 @@ img {
   background-repeat: no-repeat;
 }
 
-/* line 135, ../sass/main.scss */
+/* line 132, ../sass/main.scss */
 #tocText li {
   width: 100%;
   margin: 20px 0;
   letter-spacing: 4px;
 }
-/* line 141, ../sass/main.scss */
+/* line 138, ../sass/main.scss */
 #tocText a:hover {
   letter-spacing: 2px;
   font-weight: 900;
   text-align: right;
 }
 
-/* line 148, ../sass/main.scss */
+/* line 145, ../sass/main.scss */
 #tocImages img {
   top: 0;
   right: 0;
 }
 
-/* line 155, ../sass/main.scss */
+/* line 152, ../sass/main.scss */
 nav p {
   width: 150px;
   display: inline-block;
 }
-/* line 159, ../sass/main.scss */
+/* line 156, ../sass/main.scss */
 nav .nav-left {
   width: 40%;
   display: inline-block;
   float: right;
 }
-/* line 164, ../sass/main.scss */
+/* line 161, ../sass/main.scss */
 nav .nav-right {
   width: 40%;
   display: inline-block;
   float: left;
 }
 
-/* line 171, ../sass/main.scss */
+/* line 168, ../sass/main.scss */
 .booklet .b-page-3 .b-wrap-right {
   background: url(/images/toc-background.png);
   background-size: contain;
@@ -183,7 +178,7 @@ nav .nav-right {
   background-position: top right;
 }
 
-/* line 179, ../sass/main.scss */
+/* line 176, ../sass/main.scss */
 .booklet .b-arrow-prev {
   left: -50px;
 }
