@@ -51,7 +51,6 @@ html {
 img {
   max-width: 100%;
   max-height: 100%;
-  width: 100%;
 }
 
 .booklet .b-p1 .b-wrap-left {
@@ -66,13 +65,7 @@ img {
   }
 }
 
-.booklet .b-wrap-right {
-  background: url(/com528project/images/notebook-right.png);
-  background-size:contain;
-  background-position: top left;
-  background-repeat: no-repeat;
-}
-
+// left hand side of notebook
 .booklet .b-wrap-left {
   background: url(/com528project/images/notebook-left.png);
   background-size:contain;
@@ -80,6 +73,17 @@ img {
   background-repeat: no-repeat;
 }
 
+
+// right hand side of notebook
+.booklet .b-wrap-right {
+  background: url(/com528project/images/notebook-right.png);
+  background-size:contain;
+  background-position: top left;
+  background-repeat: no-repeat;
+}
+
+
+//cover only
 .booklet .b-page-1 .b-wrap-right {
   background: url(/com528project/images/cover.png);
   background-size:contain;
@@ -89,5 +93,29 @@ img {
 
 
 
-// Import ToC file to supercede normal rules
-@import 'toc';
+
+// Table of Contents rules
+
+#tocText {
+  a {
+    display:inline-block;
+    margin: 20px;
+    padding: 10px;
+    background:yellow;
+  }
+}
+
+#tocImages img{
+  top: 0;
+  right: 0;
+
+}
+
+
+.booklet .b-page-3 .b-wrap-right {
+  background:url(/com528project/images/background.jpg);
+  background-size:contain;
+  background-repeat:no-repeat;
+  background-position: top right;
+}
+
