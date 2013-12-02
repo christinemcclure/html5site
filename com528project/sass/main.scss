@@ -21,23 +21,32 @@ body {
 
 ul {list-style:none;}
 
-.left {
-  margin: 10px 30px 20px 10px;
+.left, .right {
   background: url(/com528project/images/paper.png);
   background-size:contain;
   img {
     width: 80%;
+  }
+}
+.left {
+  margin: 10px 30px 20px 10px;
+  img {
     margin: 0 10% 0 0;
+  }
+  .fit{
+    width: 70%;
+    margin: 0 20% 0 0;
   }
 }
 
 .right{
   margin: 10px 10px 20px 30px;
-  background: url(/com528project/images/paper.png);
-  background-size:contain;
   img {
-    width: 80%;
     margin: 0 0 0 10%;
+  }
+  .fit{
+    width: 70%;
+    margin: 0 0 0 20%;
   }
 }
 
