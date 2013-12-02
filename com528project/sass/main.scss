@@ -1,5 +1,6 @@
 $bodyFont: 'Questrial', Verdana, Arial,  sans-serif;
 $headingFont: 'Rammetto One', cursive;
+$normalSpacing: 1px;
 
 .clear {clear:both;}
 .hide {display:none;}
@@ -17,6 +18,7 @@ body {
   h1, h2, h3 {
     font-family: $headingFont;
   }
+  p, li {letter-spacing: $normalSpacing;}
 }
 
 ul {list-style:none;}
@@ -123,7 +125,17 @@ img {
 // Table of Contents rules
 
 #tocText {
-  li  {margin: 20px 0;}
+  li  {
+    width: 100%;
+    margin: 20px 0;
+    letter-spacing:4px;
+  }
+  
+  a:hover {
+    letter-spacing: 2px;
+    font-weight:900;
+    text-align:right;
+  }
 }
 
 #tocImages img{
