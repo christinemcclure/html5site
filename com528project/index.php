@@ -128,8 +128,8 @@
     <div class="left">
       <img src="/images/paper.png" />
     </div>
-    <div class="right">
-        (image for plp chapter)
+    <div class="right chapter">
+       <img src="/images/chap-plp.png" />
     </div>
     <div class="left">
         <h1>Point&mdash;Line&mdash;Plane</h1>
