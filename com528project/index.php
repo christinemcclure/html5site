@@ -157,8 +157,8 @@
     <div class="left">
       <img src="/images/paper.png" />
     </div>
-    <div class="right">
-        (image for symmetry chapter)
+    <div class="right chapter">
+       <img src="/images/chap-symmetry.png" />
     </div>
     <div class="left">
         <?php include "includes/sym-asym-intro.html"?>
@@ -181,8 +181,8 @@
     <div class="left">
       <img src="/images/paper.png" />
     </div>
-    <div class="right">
-        (image for scale chapter)
+    <div class="right chapter">
+       <img src="/images/chap-scale.png" />
     </div>
     <div class="left">
         <h1>Scale</h1>
@@ -198,8 +198,8 @@
     <div class="left">
       <img src="/images/paper.png" />
     </div>
-    <div class="right">
-        (image for texture chapter)
+    <div class="right chapter">
+       <img src="/images/chap-texture.png" />
     </div>
     <div class="left">
         <h1>Texture</h1>
