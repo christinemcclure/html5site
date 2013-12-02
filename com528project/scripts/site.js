@@ -31,7 +31,6 @@ var tocImages = new Array ('intro','letters','words','text','plp','symmAsymm',
         closed: false,
         width: winWidth,
         height: winHeight,
-        pagePadding: 0,
         arrows: true,
         pageNumbers: false,
         hash: true
