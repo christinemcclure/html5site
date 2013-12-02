@@ -12,7 +12,7 @@
 body {
   margin: 0;
   padding: 10px 20px 20px 20px;
-  background: url(/com528project/images/wood.jpg);
+  background: url(/images/wood.jpg);
   background-size: contain;
   font-size: 100%;
   font-family: "Questrial", Verdana, Arial, sans-serif;
@@ -29,7 +29,7 @@ ul {
 
 /* line 24, ../sass/main.scss */
 .left, .right {
-  background: url(/com528project/images/paper.png);
+  background: url(/images/paper.png);
 }
 /* line 26, ../sass/main.scss */
 .left img, .right img {
@@ -103,7 +103,7 @@ img {
 
 /* line 88, ../sass/main.scss */
 .booklet .b-wrap-left {
-  background: url(/com528project/images/notebook-left.png);
+  background: url(/images/notebook-left.png);
   background-size: contain;
   background-position: top right;
   background-repeat: no-repeat;
@@ -111,7 +111,7 @@ img {
 
 /* line 97, ../sass/main.scss */
 .booklet .b-wrap-right {
-  background: url(/com528project/images/notebook-right.png);
+  background: url(/images/notebook-right.png);
   background-size: contain;
   background-position: top left;
   background-repeat: no-repeat;
@@ -119,7 +119,7 @@ img {
 
 /* line 106, ../sass/main.scss */
 .booklet .b-page-1 .b-wrap-right {
-  background: url(/com528project/images/cover.png);
+  background: url(/images/cover.png);
   background-size: contain;
   background-position: top right;
   background-repeat: no-repeat;
@@ -127,7 +127,7 @@ img {
 
 /* line 113, ../sass/main.scss */
 .booklet .b-page-60 .b-wrap-left {
-  background: url(/com528project/images/back-cover.png);
+  background: url(/images/back-cover.png);
   background-size: contain;
   background-position: top left;
   background-repeat: no-repeat;
@@ -167,7 +167,7 @@ nav .nav-right {
 
 /* line 156, ../sass/main.scss */
 .booklet .b-page-3 .b-wrap-right {
-  background: url(/com528project/images/background.jpg);
+  background: url(/images/background.jpg);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: top right;

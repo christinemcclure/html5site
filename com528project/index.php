@@ -34,7 +34,7 @@
 
   <!-- INTRO-->
     <div class="left">
-      <img src="images/paper.png" />
+      <img src="/images/paper.png" />
     </div>
     <div class="right chapter">
         (image for introduction chapter)
@@ -50,7 +50,7 @@
 
  <!-- DRAW LETTERS-->
     <div class="left">
-      <img src="images/paper.png" />
+      <img src="/images/paper.png" />
     </div>
     <div class="right">
         (image for letters chapter)
@@ -68,13 +68,13 @@
 
 <!-- WORDS-->
     <div class="left">
-      <img src="images/paper.png" />
+      <img src="/images/paper.png" />
     </div>
     <div class="right">
         (image for words chapter)
     </div>
     <div class="left">
-      <img src="images/paper.png" />
+      <img src="/images/paper.png" />
     </div>
     <div class="right">
       <h1>Words</h1>
@@ -100,7 +100,7 @@
 
 <!-- TEXT -->
     <div class="left">
-      <img src="images/paper.png" />
+      <img src="/images/paper.png" />
     </div>
     <div class="right">
         (image for text chapter)
@@ -126,7 +126,7 @@
 
 <!-- POINT/LINE/PLANE-->
     <div class="left">
-      <img src="images/paper.png" />
+      <img src="/images/paper.png" />
     </div>
     <div class="right">
         (image for plp chapter)
@@ -155,7 +155,7 @@
 
 <!-- SYMMETRY/ASYMMETRY-->
     <div class="left">
-      <img src="images/paper.png" />
+      <img src="/images/paper.png" />
     </div>
     <div class="right">
         (image for symmetry chapter)
@@ -179,7 +179,7 @@
 
  <!-- SCALE -->
     <div class="left">
-      <img src="images/paper.png" />
+      <img src="/images/paper.png" />
     </div>
     <div class="right">
         (image for scale chapter)
@@ -196,7 +196,7 @@
 
  <!-- TEXTURE -->
     <div class="left">
-      <img src="images/paper.png" />
+      <img src="/images/paper.png" />
     </div>
     <div class="right">
         (image for texture chapter)
@@ -217,7 +217,7 @@
 
  <!-- COLOR -->
     <div class="left">
-      <img src="images/paper.png" />
+      <img src="/images/paper.png" />
     </div>
     <div class="right">
         (image for color chapter)
@@ -234,7 +234,7 @@
 
  <!-- FIGURE/GROUND -->
     <div class="left">
-      <img src="images/paper.png" />
+      <img src="/images/paper.png" />
     </div>
     <div class="right">
         (image for figure/ground chapter)
@@ -260,7 +260,7 @@
     </div>
 
     <div class="right">
-      <img src="images/paper.png" />
+      <img src="/images/paper.png" />
     </div>
   <div id="back-cover">
   </div>

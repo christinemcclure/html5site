@@ -8,7 +8,7 @@ body {
   margin: 0; 
   padding: 10px 20px 20px 20px;
 
-  background: url(/com528project/images/wood.jpg); // from http://www.pixeden.com/graphic-web-backgrounds/wood-pattern-background
+  background: url(/images/wood.jpg); // from http://www.pixeden.com/graphic-web-backgrounds/wood-pattern-background
   background-size:contain;
 
   font-size: 100%;
@@ -22,7 +22,7 @@ body {
 ul {list-style:none;}
 
 .left, .right {
-  background: url(/com528project/images/paper.png);
+  background: url(/images/paper.png);
   img {
     width: 80%;
   }
@@ -86,7 +86,7 @@ img {
 
 // left hand side of notebook
 .booklet .b-wrap-left {
-  background: url(/com528project/images/notebook-left.png);
+  background: url(/images/notebook-left.png);
   background-size:contain;
   background-position: top right;
   background-repeat: no-repeat;
@@ -95,7 +95,7 @@ img {
 
 // right hand side of notebook
 .booklet .b-wrap-right {
-  background: url(/com528project/images/notebook-right.png);
+  background: url(/images/notebook-right.png);
   background-size:contain;
   background-position: top left;
   background-repeat: no-repeat;
@@ -104,14 +104,14 @@ img {
 
 //covers only
 .booklet .b-page-1 .b-wrap-right {
-  background: url(/com528project/images/cover.png);
+  background: url(/images/cover.png);
   background-size:contain;
   background-position: top right;
   background-repeat: no-repeat;
 }
 
 .booklet .b-page-60 .b-wrap-left {
-  background: url(/com528project/images/back-cover.png);
+  background: url(/images/back-cover.png);
   background-size:contain;
   background-position: top left;
   background-repeat: no-repeat;
@@ -154,7 +154,7 @@ nav{
 }
 
 .booklet .b-page-3 .b-wrap-right {
-  background:url(/com528project/images/background.jpg);
+  background:url(/images/background.jpg);
   background-size:contain;
   background-repeat:no-repeat;
   background-position: top right;
