@@ -30,55 +30,69 @@ ul {
 /* line 24, ../sass/main.scss */
 .left {
   margin: 10px 30px 20px 10px;
+  background: url(/com528project/images/paper.png);
+  background-size: contain;
 }
-
 /* line 28, ../sass/main.scss */
-.right {
-  margin: 10px 10px 20px 30px;
+.left img {
+  width: 80%;
+  margin: 0 10% 0 0;
 }
 
 /* line 34, ../sass/main.scss */
+.right {
+  margin: 10px 10px 20px 30px;
+  background: url(/com528project/images/paper.png);
+  background-size: contain;
+}
+/* line 38, ../sass/main.scss */
+.right img {
+  width: 80%;
+  margin: 0 0 0 10%;
+}
+
+/* line 46, ../sass/main.scss */
 nav#main li {
   top: 0;
   display: inline-block;
   float: left;
   margin: 0 0 20px 0;
 }
-/* line 39, ../sass/main.scss */
+/* line 51, ../sass/main.scss */
 nav#main li a {
   padding: 20px 10px;
 }
-/* line 43, ../sass/main.scss */
+/* line 55, ../sass/main.scss */
 nav#main li:first-child {
   margin-right: 100px;
 }
 
-/* line 49, ../sass/main.scss */
+/* line 61, ../sass/main.scss */
 html {
   font-size: 16px;
 }
 
-/* line 53, ../sass/main.scss */
+/* line 65, ../sass/main.scss */
 img {
   max-width: 100%;
   max-height: 100%;
 }
 
-/* line 58, ../sass/main.scss */
+/* line 70, ../sass/main.scss */
 .booklet .b-p1 .b-wrap-left {
   background: none;
 }
 
-/* line 63, ../sass/main.scss */
+/* line 75, ../sass/main.scss */
 #not-a-page {
   background: none;
 }
-/* line 65, ../sass/main.scss */
+/* line 77, ../sass/main.scss */
 #not-a-page p {
   margin: 30% 20% 0 20%;
 }
 
-/* line 71, ../sass/main.scss */
+/* line 83, ../sass/main.scss */
 .booklet .b-wrap-left {
   background: url(/com528project/images/notebook-left.png);
   background-size: contain;
@@ -86,7 +100,7 @@ img {
   background-repeat: no-repeat;
 }
 
-/* line 80, ../sass/main.scss */
+/* line 92, ../sass/main.scss */
 .booklet .b-wrap-right {
   background: url(/com528project/images/notebook-right.png);
   background-size: contain;
@@ -94,7 +108,7 @@ img {
   background-repeat: no-repeat;
 }
 
-/* line 89, ../sass/main.scss */
+/* line 101, ../sass/main.scss */
 .booklet .b-page-1 .b-wrap-right {
   background: url(/com528project/images/cover.png);
   background-size: contain;
@@ -102,7 +116,7 @@ img {
   background-repeat: no-repeat;
 }
 
-/* line 102, ../sass/main.scss */
+/* line 114, ../sass/main.scss */
 #tocText a {
   display: inline-block;
   margin: 20px;
@@ -110,13 +124,13 @@ img {
   background: yellow;
 }
 
-/* line 110, ../sass/main.scss */
+/* line 122, ../sass/main.scss */
 #tocImages img {
   top: 0;
   right: 0;
 }
 
-/* line 117, ../sass/main.scss */
+/* line 129, ../sass/main.scss */
 .booklet .b-page-3 .b-wrap-right {
   background: url(/com528project/images/background.jpg);
   background-size: contain;
@@ -124,7 +138,7 @@ img {
   background-position: top right;
 }
 
-/* line 125, ../sass/main.scss */
+/* line 137, ../sass/main.scss */
 .booklet .b-arrow-prev {
   left: -50px;
 }
