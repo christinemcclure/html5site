@@ -52,18 +52,13 @@ ul {list-style:none;}
 }
 
 
-nav#main {
-  li {
-    top: 0;
-    display: inline-block;
-    float:left;
-    margin: 0 0 20px 0;
-    a {
-      padding: 20px 10px;
-    }
-  }
-  li:first-child {
-    margin-right:100px;
+nav {
+  width: 60%;
+  margin: 0 auto;
+  text-align:center;
+  a {
+    padding: 2px 6px;
+    text-decoration:none;
   }
 }
 
@@ -141,6 +136,22 @@ img {
 
 }
 
+nav{
+  p{
+    width: 150px;
+    display: inline-block;
+  }
+  .nav-left{
+    width: 40%;
+    display:inline-block;
+    float:right;
+  }
+  .nav-right{
+    width: 40%;
+    display:inline-block;
+    float:left;
+  }
+}
 
 .booklet .b-page-3 .b-wrap-right {
   background:url(/com528project/images/background.jpg);
