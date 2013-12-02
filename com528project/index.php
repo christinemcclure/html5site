@@ -219,8 +219,8 @@
     <div class="left">
       <img src="/images/paper.png" />
     </div>
-    <div class="right">
-        (image for color chapter)
+    <div class="right chapter">
+       <img src="/images/chap-color.png" />
     </div>
     <div class="left">
         <h1>Color</h1>
@@ -236,8 +236,8 @@
     <div class="left">
       <img src="/images/paper.png" />
     </div>
-    <div class="right">
-        (image for figure/ground chapter)
+    <div class="right chapter">
+       <img src="/images/chap-figure.png" />
     </div>
     <div class="left">
         <h1>Figure&mdash;Ground</h1>
