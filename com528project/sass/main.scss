@@ -76,9 +76,6 @@ img {
   max-height: 100%;
 }
 
-.booklet .b-p1 .b-wrap-left, .booklet .b-p2 .b-wrap-right{
-  background:none;
-}
 
 .chapter{
   img {
@@ -88,7 +85,6 @@ img {
 }
 
 #not-a-page{
-  background:none;
   p{
     margin: 30% 20% 0 20%;
   }
@@ -120,6 +116,7 @@ img {
   background-repeat: no-repeat;
 }
 
+
 .booklet .b-page-60 .b-wrap-left {
   background: url(/images/back-cover.png);
   background-size:contain;
@@ -127,7 +124,10 @@ img {
   background-repeat: no-repeat;
 }
 
-
+// first and end pages that shouldn't look like part of the book
+.booklet .b-page-0 .b-wrap-left, .booklet .b-page-61 .b-wrap-right {
+  background: none;
+}
 
 // Table of Contents rules
 

@@ -87,27 +87,18 @@ img {
   max-height: 100%;
 }
 
-/* line 79, ../sass/main.scss */
-.booklet .b-p1 .b-wrap-left, .booklet .b-p2 .b-wrap-right {
-  background: none;
-}
-
-/* line 84, ../sass/main.scss */
+/* line 81, ../sass/main.scss */
 .chapter img {
   width: 90%;
   margin: 2% 5% 0 5%;
 }
 
-/* line 90, ../sass/main.scss */
-#not-a-page {
-  background: none;
-}
-/* line 92, ../sass/main.scss */
+/* line 88, ../sass/main.scss */
 #not-a-page p {
   margin: 30% 20% 0 20%;
 }
 
-/* line 98, ../sass/main.scss */
+/* line 94, ../sass/main.scss */
 .booklet .b-wrap-left {
   background: url(/images/notebook-left.png);
   background-size: contain;
@@ -115,7 +106,7 @@ img {
   background-repeat: no-repeat;
 }
 
-/* line 107, ../sass/main.scss */
+/* line 103, ../sass/main.scss */
 .booklet .b-wrap-right {
   background: url(/images/notebook-right.png);
   background-size: contain;
@@ -123,7 +114,7 @@ img {
   background-repeat: no-repeat;
 }
 
-/* line 116, ../sass/main.scss */
+/* line 112, ../sass/main.scss */
 .booklet .b-page-1 .b-wrap-right {
   background: url(/images/cover.png);
   background-size: contain;
@@ -131,12 +122,17 @@ img {
   background-repeat: no-repeat;
 }
 
-/* line 123, ../sass/main.scss */
+/* line 120, ../sass/main.scss */
 .booklet .b-page-60 .b-wrap-left {
   background: url(/images/back-cover.png);
   background-size: contain;
   background-position: top left;
   background-repeat: no-repeat;
+}
+
+/* line 128, ../sass/main.scss */
+.booklet .b-page-0 .b-wrap-left, .booklet .b-page-61 .b-wrap-right {
+  background: none;
 }
 
 /* line 135, ../sass/main.scss */
