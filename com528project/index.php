@@ -70,8 +70,8 @@
     <div class="left">
       <img src="/images/paper.png" />
     </div>
-    <div class="right">
-        (image for words chapter)
+    <div class="right chapter">
+       <img src="/images/chap-words.png" />
     </div>
     <div class="left">
       <img src="/images/paper.png" />
