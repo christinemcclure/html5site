@@ -24,16 +24,20 @@
     </div>
 
 
-    <div> 
+    <div class="left">
         <h2>Table of Contents</h2>
         <?php include "includes/toc-text.html"; ?>
     </div>
-    <div> 
+    <div class="right">
         <?php include "includes/toc-images.html"; ?>
     </div>
 
   <!-- INTRO-->
-  <div> 
+    <div class="left">
+      <img src="images/paper.png" />
+    </div>
+
+    <div class="right">
         <h1>Introduction</h1>
         <?php include "includes/about-me.html"; ?>
     </div>

@@ -19,6 +19,15 @@ body {
 
 ul {list-style:none;}
 
+.left {
+  margin: 10px 30px 20px 10px;
+}
+
+.right{
+  margin: 10px 10px 20px 30px;
+}
+
+
 nav#main {
   li {
     top: 0;
@@ -48,6 +57,7 @@ img {
 .booklet .b-p1 .b-wrap-left {
   background:none;
 }
+
 
 #not-a-page{
   background:none;

@@ -26,49 +26,59 @@ ul {
   list-style: none;
 }
 
-/* line 23, ../sass/main.scss */
+/* line 22, ../sass/main.scss */
+.left {
+  margin: 10px 30px 20px 10px;
+}
+
+/* line 26, ../sass/main.scss */
+.right {
+  margin: 10px 10px 20px 30px;
+}
+
+/* line 32, ../sass/main.scss */
 nav#main li {
   top: 0;
   display: inline-block;
   float: left;
   margin: 0 0 20px 0;
 }
-/* line 28, ../sass/main.scss */
+/* line 37, ../sass/main.scss */
 nav#main li a {
   padding: 20px 10px;
 }
-/* line 32, ../sass/main.scss */
+/* line 41, ../sass/main.scss */
 nav#main li:first-child {
   margin-right: 100px;
 }
 
-/* line 38, ../sass/main.scss */
+/* line 47, ../sass/main.scss */
 html {
   font-size: 16px;
 }
 
-/* line 42, ../sass/main.scss */
+/* line 51, ../sass/main.scss */
 img {
   max-width: 100%;
   max-height: 100%;
   width: 100%;
 }
 
-/* line 48, ../sass/main.scss */
+/* line 57, ../sass/main.scss */
 .booklet .b-p1 .b-wrap-left {
   background: none;
 }
 
-/* line 52, ../sass/main.scss */
+/* line 62, ../sass/main.scss */
 #not-a-page {
   background: none;
 }
-/* line 54, ../sass/main.scss */
+/* line 64, ../sass/main.scss */
 #not-a-page p {
   margin: 30% 20% 0 20%;
 }
 
-/* line 59, ../sass/main.scss */
+/* line 69, ../sass/main.scss */
 .booklet .b-wrap-right {
   background: url(/com528project/images/notebook-right.png);
   background-size: contain;
@@ -76,7 +86,7 @@ img {
   background-repeat: no-repeat;
 }
 
-/* line 66, ../sass/main.scss */
+/* line 76, ../sass/main.scss */
 .booklet .b-wrap-left {
   background: url(/com528project/images/notebook-left.png);
   background-size: contain;
@@ -84,7 +94,7 @@ img {
   background-repeat: no-repeat;
 }
 
-/* line 73, ../sass/main.scss */
+/* line 83, ../sass/main.scss */
 .booklet .b-page-1 .b-wrap-right {
   background: url(/com528project/images/cover.png);
   background-size: contain;
