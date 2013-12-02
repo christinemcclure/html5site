@@ -36,54 +36,63 @@
     <div class="left">
       <img src="images/paper.png" />
     </div>
-    <div class="right">
-        <h1>Introduction</h1>
+    <div class="right chapter">
+        (image for introduction chapter)
     </div>
 
 
-
-    <div class="right">
-        <h1>Introduction</h1>
+    <div class="left">
         <?php include "includes/about-me.html"; ?>
     </div>
-    <div class="left">
+    <div class="right">
         <?php include "includes/about-portfolio.html"; ?>
     </div>
 
  <!-- DRAW LETTERS-->
-
-    <div>
+    <div class="left">
+      <img src="images/paper.png" />
+    </div>
+    <div class="right">
+        (image for letters chapter)
+    </div>
+    <div class="left">
         <h1>Letters</h1>
         <?php include "includes/draw-letters-intro.html"?>
         <img src="images/draw-letters-orig.png" />
     </div>
-    <div>
+    <div class="right">
         <img src="images/draw-letters.png" />
         <?php include "includes/draw-letters-comments.html"?>
     </div>
 
 
 <!-- WORDS-->
-    <div>
+    <div class="left">
+      <img src="images/paper.png" />
+    </div>
+    <div class="right">
+        (image for words chapter)
+    </div>
+    <div class="left">
         <h1>Words</h1>
         <?php include "includes/words-intro.html"?>
     </div>
-    <div>
+    <div class="right">
         <h2>Word Choices</h2>
         <?php include "includes/words-intro2.html"?>
     </div>
-    <div> 
+    <div class="left">
         <h1>Expansion</h1>
         <?php include "includes/expansion-comments.html"?>
     </div>
-    <div>
+    <div class="right">
         <img src="images/words-1.jpg" />
     </div>
-    <div>
+    <div class="left">
         <h1>Contraction</h1>
         <?php include "includes/contraction-comments.html"?>
     </div>
-    <div>
+    <div class="right">
         <img src="images/words-2.jpg" />
     </div>
 
