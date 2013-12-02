@@ -11,6 +11,8 @@ body {
   background: url(/com528project/images/wood.jpg); // from http://www.pixeden.com/graphic-web-backgrounds/wood-pattern-background
   background-size:contain;
 
+  font-size: 100%;
+
   font-family: $bodyFont;
   h1, h2, h3 {
     font-family: $headingFont;
@@ -119,3 +121,7 @@ img {
   background-position: top right;
 }
 
+
+.booklet .b-arrow-prev {
+  left: -50px;
+}
