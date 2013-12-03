@@ -128,28 +128,28 @@
     <div class="left">
         <h1>Point&mdash;Line&mdash;Plane</h1>
         <?php include "includes/plp-intro.html"?>
+    </div>
+    <div class="right">
         <h1>My Images</h1>
         <?php include "includes/plp-comments.html"?>
         <img src="images/plp-small.jpg" />
     </div>
-    <div class="right">
+    <div class="left">
         <h1>Point</h1>
         <img class="fit" src="images/point.jpg" />
     </div>
-    <div class="left">
+    <div class="right">
         <h1>Plane</h1>
         <img class="fit" src="images/plane.jpg" />
     </div>
-    <div class="right">
+    <div class="left">
         <h1>Line</h1>
         <img class="fit" src="images/line.jpg" />
     </div>
 
 
-
 <!-- SYMMETRY/ASYMMETRY-->
-    <div class="left">
-    </div>
+
     <div class="right chapter">
        <img src="/images/chap-symmetry.png" />
     </div>
