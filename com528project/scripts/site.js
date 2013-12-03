@@ -9,11 +9,14 @@ var tocImages = new Array ('intro','letters','words','text','plp','symmAsymm',
     var winHeight = $(window).height();
     var winWidth = $(window).width();
     var aspectRatio = Math.round((winWidth/winHeight)*100)/100;
+    var limit = 2.38
 //    alert('width: '+ winWidth + ' height: '+winHeight +' aspect ratio: ' + aspectRatio);
  
-    if ( (winHeight < winWidth/2.3) ){
-      $('#noJS').text('All elements of this portfolio are visible, but viewing it in booklet form requires a minimum screen size of 900 pixels wide and '+ Math.round(winWidth/2.5) + ' pixels high.');
-      return; // don't initialize for small screens
+    if ( (winHeight < winWidth/limit) ){
+//    alert(winHeight +' width/'+limit + winWidth/limit);
+      $('#noJS').text('All elements of this portfolio are visible, but viewing it in booklet form requires a screen width of at least 900 pixels a maximum aspect ratio of 1\\'+
+        limit+ '. Your browser is '+ winWidth + ' pixels wide and the aspect ratio is  1\\' + aspectRatio +'.');
+      return; // don't initialize for small screens or portrait mode
     }
 
     winHeight = winWidth/2.4;
