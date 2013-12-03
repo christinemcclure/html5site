@@ -2,7 +2,7 @@ $bodyFont: 'Questrial', Verdana, Arial,  sans-serif;
 $tocFont: 'Montserrat', Verdana, Arial,  sans-serif;
 $headingFont: 'Rammetto One', cursive;
 $normalSpacing: 1px;
-$fontSize: 16px;
+$fontSize: 12px;
 
 // Colors
 $orange: rbg(246,146,30);
@@ -30,6 +30,7 @@ body {
   p, li, h4 {letter-spacing: $normalSpacing;}
   h4 {font-family: $tocFont; font-weight:700;}
   color: $dkBrown;
+  font-size: $fontSize;
 }
 
 ul {list-style:none;}

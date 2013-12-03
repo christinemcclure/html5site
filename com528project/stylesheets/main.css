@@ -16,6 +16,7 @@ body {
   background-size: contain;
   font-family: "Questrial", Verdana, Arial, sans-serif;
   color: #281b12;
+  font-size: 12px;
 }
 /* line 27, ../sass/main.scss */
 body h1, body h2, body h3 {
@@ -31,74 +32,74 @@ body h4 {
   font-weight: 700;
 }
 
-/* line 35, ../sass/main.scss */
+/* line 36, ../sass/main.scss */
 ul {
   list-style: none;
 }
 
-/* line 37, ../sass/main.scss */
+/* line 38, ../sass/main.scss */
 a {
   padding: 2px 6px;
   text-decoration: none;
 }
 
-/* line 42, ../sass/main.scss */
+/* line 43, ../sass/main.scss */
 .left, .right {
   background: url(/images/paper.png);
 }
-/* line 44, ../sass/main.scss */
+/* line 45, ../sass/main.scss */
 .left img, .right img {
   width: 80%;
 }
 
-/* line 49, ../sass/main.scss */
+/* line 50, ../sass/main.scss */
 .no-background {
   background: none;
 }
 
-/* line 51, ../sass/main.scss */
+/* line 52, ../sass/main.scss */
 .left {
   margin: 10px 30px 20px 10px;
   text-align: right;
 }
-/* line 54, ../sass/main.scss */
+/* line 55, ../sass/main.scss */
 .left img {
   margin: 0 30px 0 0;
 }
-/* line 57, ../sass/main.scss */
+/* line 58, ../sass/main.scss */
 .left .fit {
   width: 70%;
   margin: 0 20% 0 0;
 }
 
-/* line 63, ../sass/main.scss */
+/* line 64, ../sass/main.scss */
 .right {
   margin: 10px 10px 20px 30px;
   text-align: left;
 }
-/* line 66, ../sass/main.scss */
+/* line 67, ../sass/main.scss */
 .right img {
   margin: 0 0 0 30px;
 }
-/* line 69, ../sass/main.scss */
+/* line 70, ../sass/main.scss */
 .right .fit {
   width: 70%;
   margin: 0 0 0 20%;
 }
 
-/* line 77, ../sass/main.scss */
+/* line 78, ../sass/main.scss */
 img {
   max-width: 100%;
   max-height: 100%;
 }
 
-/* line 84, ../sass/main.scss */
+/* line 85, ../sass/main.scss */
 .chapter img {
   width: 90%;
   margin: 2% 5% 0 5%;
 }
 
-/* line 90, ../sass/main.scss */
+/* line 91, ../sass/main.scss */
 .warning {
   font-style: "Montserrat", Verdana, Arial, sans-serif;
   font-weight: bold;
@@ -108,7 +109,7 @@ img {
   padding: 10px 20px;
 }
 
-/* line 99, ../sass/main.scss */
+/* line 100, ../sass/main.scss */
 #desc {
   background: rgba(240, 204, 153, 0.3);
   border: 3px solid rgba(171, 124, 67, 0.2);
@@ -119,11 +120,11 @@ img {
   font-family: "Montserrat", Verdana, Arial, sans-serif;
   font-weight: 500;
 }
-/* line 108, ../sass/main.scss */
+/* line 109, ../sass/main.scss */
 #desc a {
   padding: 0;
 }
-/* line 109, ../sass/main.scss */
+/* line 110, ../sass/main.scss */
 #desc .heading {
   width: 30%;
   display: inline-block;
@@ -132,19 +133,19 @@ img {
   font-weight: 600;
   margin: 2px 4px;
 }
-/* line 117, ../sass/main.scss */
+/* line 118, ../sass/main.scss */
 #desc .item {
   display: inline-block;
   float: left;
   margin: 2px 2px 4px 2px;
 }
 
-/* line 125, ../sass/main.scss */
+/* line 126, ../sass/main.scss */
 #rollover {
   cursor: pointer;
 }
 
-/* line 129, ../sass/main.scss */
+/* line 130, ../sass/main.scss */
 .booklet .b-wrap-left {
   background: url(/images/notebook-left.png);
   background-size: contain;
@@ -152,7 +153,7 @@ img {
   background-repeat: no-repeat;
 }
 
-/* line 138, ../sass/main.scss */
+/* line 139, ../sass/main.scss */
 .booklet .b-wrap-right {
   background: url(/images/notebook-right.png);
   background-size: contain;
@@ -160,7 +161,7 @@ img {
   background-repeat: no-repeat;
 }
 
-/* line 147, ../sass/main.scss */
+/* line 148, ../sass/main.scss */
 .booklet .b-page-1 .b-wrap-right {
   background: url(/images/cover.png);
   background-size: contain;
@@ -168,7 +169,7 @@ img {
   background-repeat: no-repeat;
 }
 
-/* line 155, ../sass/main.scss */
+/* line 156, ../sass/main.scss */
 .booklet .b-page-74 .b-wrap-left {
   background: url(/images/back-cover.png);
   background-size: contain;
@@ -176,12 +177,12 @@ img {
   background-repeat: no-repeat;
 }
 
-/* line 163, ../sass/main.scss */
+/* line 164, ../sass/main.scss */
 .booklet .b-page-0 .b-wrap-left, .booklet .b-page-75 .b-wrap-right {
   background: none;
 }
 
-/* line 170, ../sass/main.scss */
+/* line 171, ../sass/main.scss */
 #tocText li {
   font-family: "Montserrat", Verdana, Arial, sans-serif;
   font-weight: lighter;
@@ -190,47 +191,47 @@ img {
   letter-spacing: 4px;
   text-align: right;
 }
-/* line 179, ../sass/main.scss */
+/* line 180, ../sass/main.scss */
 #tocText a {
   padding: 4px 8px;
 }
-/* line 181, ../sass/main.scss */
+/* line 182, ../sass/main.scss */
 #tocText a:hover {
   letter-spacing: 8px;
   font-weight: 700;
 }
 
-/* line 187, ../sass/main.scss */
+/* line 188, ../sass/main.scss */
 #tocImages img {
   width: 100%;
   margin: 0 auto;
 }
 
-/* line 194, ../sass/main.scss */
+/* line 195, ../sass/main.scss */
 nav {
   width: 60%;
   margin: 0 auto;
   text-align: center;
 }
-/* line 198, ../sass/main.scss */
+/* line 199, ../sass/main.scss */
 nav p {
   width: 150px;
   display: inline-block;
 }
-/* line 202, ../sass/main.scss */
+/* line 203, ../sass/main.scss */
 nav .nav-left {
   width: 40%;
   display: inline-block;
   float: right;
 }
-/* line 207, ../sass/main.scss */
+/* line 208, ../sass/main.scss */
 nav .nav-right {
   width: 40%;
   display: inline-block;
   float: left;
 }
 
-/* line 214, ../sass/main.scss */
+/* line 215, ../sass/main.scss */
 .booklet .b-page-3 .b-wrap-right {
   background: url(/images/toc-background.png);
   background-size: contain;
@@ -238,7 +239,7 @@ nav .nav-right {
   background-position: top right;
 }
 
-/* line 222, ../sass/main.scss */
+/* line 223, ../sass/main.scss */
 .booklet .b-arrow-prev {
   left: -50px;
 }
