@@ -1,4 +1,5 @@
 $bodyFont: 'Questrial', Verdana, Arial,  sans-serif;
+$tocFont: 'Montserrat', Verdana, Arial,  sans-serif;
 $headingFont: 'Rammetto One', cursive;
 $normalSpacing: 1px;
 $fontSize: 16px;
@@ -136,6 +137,8 @@ img {
 
 #tocText {
   li  {
+    font-family: $tocFont;
+    font-weight:lighter;
     width: 100%;
     margin: 20px 0;
     letter-spacing:4px;
@@ -146,7 +149,7 @@ img {
   
   a:hover {
     letter-spacing: 8px;
-    font-weight: 900;
+    font-weight: 700;
   }
 }
 
