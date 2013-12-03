@@ -146,17 +146,17 @@ img {
 #tocText li {
   width: 100%;
   margin: 20px 0;
-  letter-spacing: 6px;
+  letter-spacing: 4px;
+  text-align: right;
 }
-/* line 144, ../sass/main.scss */
+/* line 145, ../sass/main.scss */
 #tocText a {
   padding: 4px 8px;
 }
-/* line 146, ../sass/main.scss */
+/* line 147, ../sass/main.scss */
 #tocText a:hover {
-  letter-spacing: 2px;
+  letter-spacing: 8px;
   font-weight: 900;
-  text-align: right;
 }
 
 /* line 153, ../sass/main.scss */
