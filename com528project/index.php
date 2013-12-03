@@ -285,6 +285,25 @@
         <img id="layersHover" class="hide" src="images/layers-hover.png" />
     </div>
 
+  <!-- GRID -->
+    <div class="left">
+    </div>
+    <div class="right chapter">
+       <img src="/images/chap-grid.png" />
+    </div>
+    <div class="left">
+        <h1>Grid</h1>
+        <?php include "includes/grid.html"?>
+    </div>
+    <div class="right">
+      <h2>Simple</h2>
+        <img class="fit" src="images/grid-simple.png" />
+    </div>
+    <div class="left">
+      <h2>Complex</h2>
+      <img class="fit" src="images/grid-complex.png" />
+    </div>
+
 <!--  BACK COVER-->
   <div class="right">
     </div>

@@ -25,7 +25,8 @@ body {
   h1, h2, h3 {
     font-family: $headingFont;
   }
-  p, li {letter-spacing: $normalSpacing;}
+  p, li, h4 {letter-spacing: $normalSpacing;}
+  h4 {font-family: $tocFont; font-weight:700;}
 }
 
 ul {list-style:none;}

@@ -11,11 +11,12 @@ Continuation of COM528 repo. Folded it into this repo as it will all live in the
 + [x] Review samples of portfolio/notebook images. Use similar to [this](http://bookhistory.harvard.edu/takenote/sites/default/files/collection_images/Godard%20field%20notebook_0.jpg).
 + [x] Create background images of spiral notebook binding and edges (with shadow).
 + [ ] Make final decisions on color scheme.
-+ [ ] Add Hierarchy, Layers, Modular Grid, Diagram, Rule and Randomness pages
++ [ ] Add Diagram, Rule and Randomness pages
 + [x] Place each ToC image in its own location
 + [x] Place ToC text
 + [x] Create hover function
 + [x] Create style for chapter headings
++ [ ] Verify heading styles and elements are consistent
 + [ ] Add logo icons to nav
 + [ ] Change style for images to match book layout
 + [ ] Consider layout of instruction text
