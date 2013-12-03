@@ -33,8 +33,7 @@
     </div>
 
   <!-- INTRO-->
-    <div class="left">
-      <img src="/images/paper.png" />
+    <div class="left">f
     </div>
     <div class="right chapter">
         (image for introduction chapter)
@@ -50,7 +49,6 @@
 
  <!-- DRAW LETTERS-->
     <div class="left">
-      <img src="/images/paper.png" />
     </div>
     <div class="right chapter">
        <img src="/images/chap-letters.png" />
@@ -68,7 +66,6 @@
 
 <!-- WORDS-->
     <div class="left">
-      <img src="/images/paper.png" />
     </div>
     <div class="right chapter">
        <img src="/images/chap-words.png" />
@@ -99,7 +96,6 @@
 
 <!-- TEXT -->
     <div class="left">
-      <img src="/images/paper.png" />
     </div>
     <div class="right chapter">
        <img src="/images/chap-text.png" />
@@ -125,7 +121,6 @@
 
 <!-- POINT/LINE/PLANE-->
     <div class="left">
-      <img src="/images/paper.png" />
     </div>
     <div class="right chapter">
        <img src="/images/chap-plp.png" />
@@ -154,7 +149,6 @@
 
 <!-- SYMMETRY/ASYMMETRY-->
     <div class="left">
-      <img src="/images/paper.png" />
     </div>
     <div class="right chapter">
        <img src="/images/chap-symmetry.png" />
@@ -178,7 +172,6 @@
 
  <!-- SCALE -->
     <div class="left">
-      <img src="/images/paper.png" />
     </div>
     <div class="right chapter">
        <img src="/images/chap-scale.png" />
@@ -195,7 +188,6 @@
 
  <!-- TEXTURE -->
     <div class="left">
-      <img src="/images/paper.png" />
     </div>
     <div class="right chapter">
        <img src="/images/chap-texture.png" />
@@ -216,7 +208,6 @@
 
  <!-- COLOR -->
     <div class="left">
-      <img src="/images/paper.png" />
     </div>
     <div class="right chapter">
        <img src="/images/chap-color.png" />
@@ -233,7 +224,6 @@
 
  <!-- FIGURE/GROUND -->
     <div class="left">
-      <img src="/images/paper.png" />
     </div>
     <div class="right chapter">
        <img src="/images/chap-figure.png" />
@@ -259,7 +249,6 @@
     </div>
 
     <div class="right">
-      <img src="/images/paper.png" />
     </div>
   <div id="back-cover">
   </div>
