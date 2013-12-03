@@ -14,8 +14,9 @@ var tocImages = new Array ('intro','letters','words','text','plp','symmAsymm',
  
     if ( (winHeight < winWidth/limit) ){
 //    alert(winHeight +' width/'+limit + winWidth/limit);
-      $('#noJS').text('All elements of this portfolio are visible, but viewing it in booklet form requires a screen width of at least 900 pixels a maximum aspect ratio of 1\\'+
-        limit+ '. Your browser is '+ winWidth + ' pixels wide and the aspect ratio is  1\\' + aspectRatio +'.');
+      $('#noJS').text('All elements of this portfolio are visible, but viewing it in booklet form requires a screen width of at least 900 pixels wide and '+
+        'a maximum height-to-width ratio of 1 to '+ limit+ '. Your browser is '+ winWidth + ' pixels wide with a height-to-width ratio is  1 to ' +
+        aspectRatio +'.');
       return; // don't initialize for small screens or portrait mode
     }
 

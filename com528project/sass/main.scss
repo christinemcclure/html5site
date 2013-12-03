@@ -89,12 +89,21 @@ img {
   }
 }
 
+.warning {
+  font-style: $tocFont;
+  font-weight: bold;
+  font-size: 18px;
+  margin: 50px 20% 0 20%;
+  border: 2px solid $dkBrown;
+  padding: 10px 20px;
+}
 #desc{
   font-size: 20px;
   margin: 30% 20% 0 20%;
 }
 
 #rollover{cursor:pointer;}
+
 
 // left hand side of notebook
 .booklet .b-wrap-left {
