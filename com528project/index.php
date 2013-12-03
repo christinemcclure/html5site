@@ -132,11 +132,10 @@
     </div>
     <div class="left">
         <h1>Point&mdash;Line&mdash;Plane</h1>
-        <?php include "includes/plp-intro.html"?>
+        <?php include "includes/plp1.html"?>
     </div>
     <div class="right">
-        <h1>My Images</h1>
-        <?php include "includes/plp-comments.html"?>
+        <?php include "includes/plp2.html"?>
         <img src="images/plp-small.jpg" />
     </div>
     <div class="left">
