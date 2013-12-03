@@ -153,7 +153,7 @@ img {
 }
 
 
-.booklet .b-page-74 .b-wrap-left { // VERIFY LAST PAGE
+.booklet .b-page-76 .b-wrap-left { // VERIFY LAST PAGE
   background: url(/images/back-cover.png);
   background-size:contain;
   background-position: top left;
@@ -161,7 +161,7 @@ img {
 }
 
 // first and end pages that shouldn't look like part of the book
-.booklet .b-page-0 .b-wrap-left, .booklet .b-page-75 .b-wrap-right {
+.booklet .b-page-0 .b-wrap-left, .booklet .b-page-77 .b-wrap-right {
   background: none;
 }
 
