@@ -248,7 +248,30 @@
         <img class="fit" src="images/fg-ambiguous.png" />
     </div>
 
+  <!-- HIERARCHY -->
+    <div class="right chapter">
+       <img src="/images/chap-hierarchy.png" />
+    </div>
+    <div class="left">
+        <h1>Hierarchy</h1>
+        <?php include "includes/hier-intro.html"?>
+    </div>
     <div class="right">
+        <?php include "includes/hier-comments.html"?>
+    </div>
+    <div class="left">
+      <h2>Example 1</h2>
+        <img class="fit" src="images/hier1.png" />
+    </div>
+    <div class="right">
+      <h2>Example 2</h2>
+        <img class="fit" src="images/hier2.png" />
+    </div>
+    <div class="left">
+      <h2>Example 3</h2>
+        <img class="fit" src="images/hier3.png" />
+    </div>
+  <div class="right">
     </div>
   <div id="back-cover">
   </div>

@@ -2,7 +2,7 @@ $(document).ready(function() {
 
 // arrary of element stub names to use for ToC images and text
 var tocImages = new Array ('intro','letters','words','text','plp','symmAsymm',
-  'scale','texture','color','fg');
+  'scale','texture','color','fg', 'hier');
 
   initBook=function(ele){
     // Account for varying window sizes
