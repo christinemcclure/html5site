@@ -33,10 +33,10 @@
     </div>
 
   <!-- INTRO-->
-    <div class="left">f
+    <div class="left">
     </div>
     <div class="right chapter">
-        (image for introduction chapter)
+        <img src="/images/chap-intro.png" />
     </div>
 
 
