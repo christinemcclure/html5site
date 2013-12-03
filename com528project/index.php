@@ -308,6 +308,15 @@
       <h2>Complex</h2>
       <img class="fit" src="images/grid-complex.png" />
     </div>
+  
+<!--  RULES AND RANDOMNESS-->
+    <!-- INTRO-->
+    <div class="right chapter">
+        <img src="/images/chap-rules.png" />
+    </div>
+    <div class="left">
+        <?php include "includes/rules1.html"; ?>
+    </div>
 
 <!--  BACK COVER-->
   <div class="right">
