@@ -41,6 +41,7 @@ a {
   }
 }
 
+.no-background{background:none;}
 
 .left {
   margin: 10px 30px 20px 10px;
@@ -148,9 +149,8 @@ img {
 }
 
 #tocImages img{
-  top: 0;
-  right: 0;
-
+  width: 100%;
+  margin: 0 auto;
 }
 
 nav{

@@ -28,7 +28,7 @@
         <h2>Table of Contents</h2>
         <?php include "includes/toc-text.html"; ?>
     </div>
-    <div class="right">
+    <div class="right no-background">
         <?php include "includes/toc-images.html"; ?>
     </div>
 
