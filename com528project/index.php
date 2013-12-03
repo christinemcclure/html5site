@@ -312,7 +312,7 @@
 
 </div>
 <nav>
-  <a href="/#/page/1">Front cover</a> | <a href="/#/page/3">Table of Contents</a> | <a href="/#/page/61">Back cover</a> | <a href="http://www.christinemcclure.com">Main website</a>
+  <a href="/#/page/1">Front cover</a> | <a href="/#/page/3">Table of Contents</a> | <a href="/#/page/75">Back cover</a> | <a href="http://www.christinemcclure.com">Main website</a>
 </nav>
 
 
