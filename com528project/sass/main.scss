@@ -138,8 +138,10 @@ img {
   li  {
     width: 100%;
     margin: 20px 0;
-    letter-spacing:4px;
+    letter-spacing:6px;
   }
+
+  a {padding: 4px 8px;}
   
   a:hover {
     letter-spacing: 2px;

@@ -146,40 +146,44 @@ img {
 #tocText li {
   width: 100%;
   margin: 20px 0;
-  letter-spacing: 4px;
+  letter-spacing: 6px;
 }
 /* line 144, ../sass/main.scss */
+#tocText a {
+  padding: 4px 8px;
+}
+/* line 146, ../sass/main.scss */
 #tocText a:hover {
   letter-spacing: 2px;
   font-weight: 900;
   text-align: right;
 }
 
-/* line 151, ../sass/main.scss */
+/* line 153, ../sass/main.scss */
 #tocImages img {
   width: 100%;
   margin: 0 auto;
 }
 
-/* line 157, ../sass/main.scss */
+/* line 159, ../sass/main.scss */
 nav p {
   width: 150px;
   display: inline-block;
 }
-/* line 161, ../sass/main.scss */
+/* line 163, ../sass/main.scss */
 nav .nav-left {
   width: 40%;
   display: inline-block;
   float: right;
 }
-/* line 166, ../sass/main.scss */
+/* line 168, ../sass/main.scss */
 nav .nav-right {
   width: 40%;
   display: inline-block;
   float: left;
 }
 
-/* line 173, ../sass/main.scss */
+/* line 175, ../sass/main.scss */
 .booklet .b-page-3 .b-wrap-right {
   background: url(/images/toc-background.png);
   background-size: contain;
@@ -187,7 +191,7 @@ nav .nav-right {
   background-position: top right;
 }
 
-/* line 181, ../sass/main.scss */
+/* line 183, ../sass/main.scss */
 .booklet .b-arrow-prev {
   left: -50px;
 }
