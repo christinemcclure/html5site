@@ -1,111 +1,104 @@
-/* line 14, ../sass/main.scss */
+/* line 17, ../sass/main.scss */
 .clear {
   clear: both;
 }
 
-/* line 15, ../sass/main.scss */
+/* line 18, ../sass/main.scss */
 .hide {
   display: none;
 }
 
-/* line 17, ../sass/main.scss */
+/* line 20, ../sass/main.scss */
 body {
   margin: 0;
   padding: 10px 20px 20px 20px;
   background: url(/images/wood.jpg);
   background-size: contain;
-  font-size: 16px;
   font-family: "Questrial", Verdana, Arial, sans-serif;
+  color: #281b12;
 }
-/* line 25, ../sass/main.scss */
+/* line 27, ../sass/main.scss */
 body h1, body h2, body h3 {
   font-family: "Rammetto One", cursive;
 }
-/* line 28, ../sass/main.scss */
+/* line 30, ../sass/main.scss */
 body p, body li, body h4 {
   letter-spacing: 1px;
 }
-/* line 29, ../sass/main.scss */
+/* line 31, ../sass/main.scss */
 body h4 {
   font-family: "Montserrat", Verdana, Arial, sans-serif;
   font-weight: 700;
 }
 
-/* line 32, ../sass/main.scss */
+/* line 35, ../sass/main.scss */
 ul {
   list-style: none;
 }
 
-/* line 34, ../sass/main.scss */
+/* line 37, ../sass/main.scss */
 a {
   padding: 2px 6px;
   text-decoration: none;
 }
 
-/* line 39, ../sass/main.scss */
+/* line 42, ../sass/main.scss */
 .left, .right {
   background: url(/images/paper.png);
 }
-/* line 41, ../sass/main.scss */
+/* line 44, ../sass/main.scss */
 .left img, .right img {
   width: 80%;
 }
 
-/* line 46, ../sass/main.scss */
+/* line 49, ../sass/main.scss */
 .no-background {
   background: none;
 }
 
-/* line 48, ../sass/main.scss */
+/* line 51, ../sass/main.scss */
 .left {
   margin: 10px 30px 20px 10px;
   text-align: right;
 }
-/* line 51, ../sass/main.scss */
+/* line 54, ../sass/main.scss */
 .left img {
   margin: 0 30px 0 0;
 }
-/* line 54, ../sass/main.scss */
+/* line 57, ../sass/main.scss */
 .left .fit {
   width: 70%;
   margin: 0 20% 0 0;
 }
 
-/* line 60, ../sass/main.scss */
+/* line 63, ../sass/main.scss */
 .right {
   margin: 10px 10px 20px 30px;
   text-align: left;
 }
-/* line 63, ../sass/main.scss */
+/* line 66, ../sass/main.scss */
 .right img {
   margin: 0 0 0 30px;
 }
-/* line 66, ../sass/main.scss */
+/* line 69, ../sass/main.scss */
 .right .fit {
   width: 70%;
   margin: 0 0 0 20%;
 }
 
-/* line 73, ../sass/main.scss */
-nav {
-  width: 60%;
-  margin: 0 auto;
-  text-align: center;
-}
-
-/* line 79, ../sass/main.scss */
+/* line 77, ../sass/main.scss */
 img {
   max-width: 100%;
   max-height: 100%;
 }
 
-/* line 86, ../sass/main.scss */
+/* line 84, ../sass/main.scss */
 .chapter img {
   width: 90%;
   margin: 2% 5% 0 5%;
 }
 
-/* line 92, ../sass/main.scss */
+/* line 90, ../sass/main.scss */
 .warning {
   font-style: "Montserrat", Verdana, Arial, sans-serif;
   font-weight: bold;
@@ -115,18 +108,43 @@ img {
   padding: 10px 20px;
 }
 
-/* line 100, ../sass/main.scss */
+/* line 99, ../sass/main.scss */
 #desc {
-  font-size: 20px;
-  margin: 30% 20% 0 20%;
+  background: rgba(240, 204, 153, 0.3);
+  border: 3px solid rgba(171, 124, 67, 0.2);
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 20%;
+  padding: 20px 10px;
+  font-family: "Montserrat", Verdana, Arial, sans-serif;
+  font-weight: 500;
+}
+/* line 108, ../sass/main.scss */
+#desc a {
+  padding: 0;
+}
+/* line 109, ../sass/main.scss */
+#desc .heading {
+  width: 30%;
+  display: inline-block;
+  float: left;
+  clear: both;
+  font-weight: 600;
+  margin: 2px 4px;
+}
+/* line 117, ../sass/main.scss */
+#desc .item {
+  display: inline-block;
+  float: left;
+  margin: 2px 2px 4px 2px;
 }
 
-/* line 105, ../sass/main.scss */
+/* line 125, ../sass/main.scss */
 #rollover {
   cursor: pointer;
 }
 
-/* line 109, ../sass/main.scss */
+/* line 129, ../sass/main.scss */
 .booklet .b-wrap-left {
   background: url(/images/notebook-left.png);
   background-size: contain;
@@ -134,7 +152,7 @@ img {
   background-repeat: no-repeat;
 }
 
-/* line 118, ../sass/main.scss */
+/* line 138, ../sass/main.scss */
 .booklet .b-wrap-right {
   background: url(/images/notebook-right.png);
   background-size: contain;
@@ -142,7 +160,7 @@ img {
   background-repeat: no-repeat;
 }
 
-/* line 127, ../sass/main.scss */
+/* line 147, ../sass/main.scss */
 .booklet .b-page-1 .b-wrap-right {
   background: url(/images/cover.png);
   background-size: contain;
@@ -150,7 +168,7 @@ img {
   background-repeat: no-repeat;
 }
 
-/* line 135, ../sass/main.scss */
+/* line 155, ../sass/main.scss */
 .booklet .b-page-74 .b-wrap-left {
   background: url(/images/back-cover.png);
   background-size: contain;
@@ -158,12 +176,12 @@ img {
   background-repeat: no-repeat;
 }
 
-/* line 143, ../sass/main.scss */
+/* line 163, ../sass/main.scss */
 .booklet .b-page-0 .b-wrap-left, .booklet .b-page-75 .b-wrap-right {
   background: none;
 }
 
-/* line 150, ../sass/main.scss */
+/* line 170, ../sass/main.scss */
 #tocText li {
   font-family: "Montserrat", Verdana, Arial, sans-serif;
   font-weight: lighter;
@@ -172,41 +190,47 @@ img {
   letter-spacing: 4px;
   text-align: right;
 }
-/* line 159, ../sass/main.scss */
+/* line 179, ../sass/main.scss */
 #tocText a {
   padding: 4px 8px;
 }
-/* line 161, ../sass/main.scss */
+/* line 181, ../sass/main.scss */
 #tocText a:hover {
   letter-spacing: 8px;
   font-weight: 700;
 }
 
-/* line 167, ../sass/main.scss */
+/* line 187, ../sass/main.scss */
 #tocImages img {
   width: 100%;
   margin: 0 auto;
 }
 
-/* line 173, ../sass/main.scss */
+/* line 194, ../sass/main.scss */
+nav {
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+}
+/* line 198, ../sass/main.scss */
 nav p {
   width: 150px;
   display: inline-block;
 }
-/* line 177, ../sass/main.scss */
+/* line 202, ../sass/main.scss */
 nav .nav-left {
   width: 40%;
   display: inline-block;
   float: right;
 }
-/* line 182, ../sass/main.scss */
+/* line 207, ../sass/main.scss */
 nav .nav-right {
   width: 40%;
   display: inline-block;
   float: left;
 }
 
-/* line 189, ../sass/main.scss */
+/* line 214, ../sass/main.scss */
 .booklet .b-page-3 .b-wrap-right {
   background: url(/images/toc-background.png);
   background-size: contain;
@@ -214,7 +238,7 @@ nav .nav-right {
   background-position: top right;
 }
 
-/* line 197, ../sass/main.scss */
+/* line 222, ../sass/main.scss */
 .booklet .b-arrow-prev {
   left: -50px;
 }

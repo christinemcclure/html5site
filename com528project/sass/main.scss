@@ -9,6 +9,9 @@ $orange: rbg(246,146,30);
 $ltBlue: rgb(27,117,187);
 $mdBlue: rgb(43,56,143);
 $dkBrown: rgb(40,27,18);
+$wood: rgb(240, 204, 153);
+$woodTransparent: rgba($wood, .3);
+$woodBorder: rgba(171, 124, 67, .2);
 
 
 .clear {clear:both;}
@@ -20,13 +23,13 @@ body {
 
   background: url(/images/wood.jpg); // from http://www.pixeden.com/graphic-web-backgrounds/wood-pattern-background
   background-size:contain;
-  font-size: $fontSize;
   font-family: $bodyFont;
   h1, h2, h3 {
     font-family: $headingFont;
   }
   p, li, h4 {letter-spacing: $normalSpacing;}
   h4 {font-family: $tocFont; font-weight:700;}
+  color: $dkBrown;
 }
 
 ul {list-style:none;}
@@ -70,11 +73,6 @@ a {
 }
 
 
-nav {
-  width: 60%;
-  margin: 0 auto;
-  text-align:center;
-}
 
 img {
   max-width: 100%;
@@ -97,9 +95,31 @@ img {
   border: 2px solid $dkBrown;
   padding: 10px 20px;
 }
+
 #desc{
-  font-size: 20px;
-  margin: 30% 20% 0 20%;
+  background: $woodTransparent;
+  border: 3px solid $woodBorder;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 20%;
+  padding: 20px 10px;
+  font-family:  $tocFont;
+  font-weight:500;
+  a {padding: 0;}
+  .heading{
+    width: 30%;
+    display:inline-block;
+    float:left;
+    clear:both;
+    font-weight:600;
+    margin: 2px 4px;
+  }
+  .item{
+    display:inline-block;
+    float:left;
+    margin: 2px 2px 4px 2px;
+  }
+
 }
 
 #rollover{cursor:pointer;}
@@ -169,7 +189,12 @@ img {
   margin: 0 auto;
 }
 
+
+
 nav{
+  width: 60%;
+  margin: 0 auto;
+  text-align:center;
   p{
     width: 150px;
     display: inline-block;

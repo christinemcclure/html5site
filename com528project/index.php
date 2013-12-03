@@ -15,8 +15,14 @@
 
   <div>
     <p id="noJS" class="warning">All elements of this portfolio are visible, but viewing it in booklet form requires JavaScript</p>
-    <p id="desc">This portfolio consists of various assignments from a Document Design class I took as part of the
-      <a href="http://www.iit.edu/human-sciences/hum/programs/grad/iarc.shtml">Information Architecture</a> curriculum at <a href="http://www.iit.edu">Illinois Institute of Technology</a>.</p>
+
+    <div id="desc">
+        <p class="heading">Project:</p>   <p class="item">Portfolio of assignments in book form</p>
+        <p class="heading">Class:</>      <p class="item">Document Design</p>
+        <p class="heading">Degree:</>     <p class="item"><a href="http://www.iit.edu/human-sciences/hum/programs/grad/iarc.shtml">M.S., Information Architecture</a></p>
+        <p class="heading">University:</p>  <p class="item"><a href="http://www.iit.edu">Illinois Institute of Technology</a></p>
+        <p class="clear"></p>
+    </div>
   </div>
 
     <div id="cover">
