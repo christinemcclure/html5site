@@ -8,8 +8,8 @@
 
     <div id="desc">
         <p class="heading">Project:</p>   <p class="item">Portfolio in book form</p>
-        <p class="heading">Class:</>      <p class="item">Document Design</p>
-        <p class="heading">Degree:</>     <p class="item"><a href="http://www.iit.edu/human-sciences/hum/programs/grad/iarc.shtml">M.S., Information Architecture</a></p>
+        <p class="heading">Class:</p>      <p class="item">Document Design</p>
+        <p class="heading">Degree:</p>     <p class="item"><a href="http://www.iit.edu/human-sciences/hum/programs/grad/iarc.shtml">M.S., Information Architecture</a></p>
         <p class="heading">University:</p>  <p class="item"><a href="http://www.iit.edu">Illinois Institute of Technology</a></p>
         <p class="clear"></p>
     </div>
