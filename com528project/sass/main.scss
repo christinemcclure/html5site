@@ -2,7 +2,6 @@ $bodyFont: 'Questrial', Verdana, Arial,  sans-serif;
 $tocFont: 'Montserrat', Verdana, Arial,  sans-serif;
 $headingFont: 'Rammetto One', cursive;
 $normalSpacing: 1px;
-$fontSize: 12px;
 
 // Colors
 $orange: rbg(246,146,30);
@@ -13,25 +12,37 @@ $wood: rgb(240, 204, 153);
 $woodTransparent: rgba($wood, .3);
 $woodBorder: rgba(171, 124, 67, .2);
 
-
 .clear {clear:both;}
 .hide {display:none;}
+
+  $fontSize: 12px;
+  p, li, h4{font-size: $fontSize;}
+  h3 {font-size: $fontSize;}
+  h2 {font-size: $fontSize+2;}
+  h2 {font-size: $fontSize+4;}
+  blockquote{font-size: $fontSize+4;}
+  #desc p {font-size: 10px;}
 
 body {
   margin: 0; 
   padding: 10px 20px 20px 20px;
+
+  // Font sizes for smallest layout (900px)
+  $fontSize: 12px;
 
   background: url(/images/wood.jpg); // from http://www.pixeden.com/graphic-web-backgrounds/wood-pattern-background
   background-size:contain;
   font-family: $bodyFont;
   h1, h2, h3 {
     font-family: $headingFont;
+    letter-spacing: $normalSpacing;
   }
   p, li, h4 {letter-spacing: $normalSpacing;}
   h4 {font-family: $tocFont; font-weight:700;}
   color: $dkBrown;
-  font-size: $fontSize;
+
 }
+
 
 ul {list-style:none;}
 
@@ -223,4 +234,5 @@ nav{
 .booklet .b-arrow-prev {
   left: -50px;
 }
+
 
