@@ -270,6 +270,22 @@
       <h2>Example 3</h2>
         <img class="fit" src="images/hier3.png" />
     </div>
+
+
+ <!-- LAYERS -->
+    <div class="right chapter">
+       <img src="/images/chap-layers.png" />
+    </div>
+    <div class="left">
+        <h1>Layers</h1>
+        <?php include "includes/layers.html"?>
+    </div>
+    <div class="right">
+        <img id="layers" src="images/layers.png" />
+        <img id="layersHover" class="hide" src="images/layers-hover.png" />
+    </div>
+
+<!--  BACK COVER-->
   <div class="right">
     </div>
   <div id="back-cover">

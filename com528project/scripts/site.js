@@ -2,7 +2,7 @@ $(document).ready(function() {
 
 // arrary of element stub names to use for ToC images and text
 var tocImages = new Array ('intro','letters','words','text','plp','symmAsymm',
-  'scale','texture','color','fg', 'hier');
+  'scale','texture','color','fg', 'hier', 'layers');
 
   initBook=function(ele){
     // Account for varying window sizes
@@ -62,17 +62,17 @@ tocImageListeners=function(){
 }
 
 
-//$("#introLink").hover(
-//  function() {
-//    $("#introImg").addClass("hover");
-//    $("#introImg").fadeIn('slow');
-//
-//
-//  }, function() {
-//    $("#introImg").fadeOut('slow');
-//    $("#introImg").removeClass("hover");
-//  }
-//);
-//
+$("#rollover").hover(
+  function() {
+  $("#layers").addClass("hide");
+  $("#layersHover").removeClass('hide');
+
+
+  }, function() {
+  $("#layersHover").addClass("hide");
+  $("#layers").removeClass('hide');
+  }
+);
+
   
 });    
