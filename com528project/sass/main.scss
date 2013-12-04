@@ -89,7 +89,7 @@ a {
   padding: 4px 2px;
   border: 1px solid $dkBrown;
   margin: 20px 0;
-  background: rgba($orange, .7);
+  background: lighten($orange, 20%);
   @include border-radius(100px);
 }
 img {
