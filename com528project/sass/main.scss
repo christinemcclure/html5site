@@ -6,7 +6,8 @@ $headingFont: 'Rammetto One', cursive;
 $normalSpacing: 1px;
 
 // Colors
-$orange: rbg(246,146,30);
+$orange: rbg(246,146,30); // rgb color doesn't work for orange?
+$orange: #F6921E;
 $ltBlue: rgb(27,117,187);
 $mdBlue: rgb(43,56,143);
 $dkBrown: rgb(40,27,18);
@@ -35,6 +36,7 @@ body {
     font-family: $headingFont;
     color: $ltBlue;
   }
+  h2 {border-top: 1px solid $orange;}
   h4 {
     font-family: $tocFont;
     font-weight:700;
@@ -216,13 +218,17 @@ nav{
 
 // RESPONSIVE SIZING
 
-  // smallest layout (900px)
+  // smallest/default layout (900px)
   $fontSize: 12px;
-  p, li, h4{font-size: $fontSize;}
+  p, li, h4{
+    font-size: $fontSize;
+    margin: 4px 0 8px 0;
+  }
   h3 {font-size: $fontSize;}
   h2 {
     font-size: $fontSize + 2px;
-    margin: 0 0 10px 0;
+    margin: 14px 0 6px 0;
+    padding: 10px 0 0 0;
   }
   h1 {
     font-size: $fontSize + 6px;
