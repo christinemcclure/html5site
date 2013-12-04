@@ -50,12 +50,12 @@
     </div>
     <div class="left">
         <h1>Letters</h1>
-        <?php include "includes/draw-letters-intro.html"?>
+        <?php include "includes/letters-1.html"?>
         <img src="images/draw-letters-orig.png" />
     </div>
     <div class="right">
+        <?php include "includes/letters-2.html"?>
         <img src="images/draw-letters.png" />
-        <?php include "includes/draw-letters-comments.html"?>
     </div>
 
 
