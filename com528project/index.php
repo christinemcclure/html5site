@@ -75,15 +75,13 @@
         <?php include "includes/words-intro2.html"?>
     </div>
     <div class="left">
-        <h1>Expansion</h1>
-        <?php include "includes/expansion-comments.html"?>
+        <?php include "includes/words-expansion.comments.html"?>
     </div>
     <div class="right">
         <img src="images/words-1.jpg" />
     </div>
     <div class="left">
-        <h1>Contraction</h1>
-        <?php include "includes/contraction-comments.html"?>
+        <?php include "includes/words-contraction-comments.html"?>
     </div>
     <div class="right">
         <img src="images/words-2.jpg" />
