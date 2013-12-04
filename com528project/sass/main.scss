@@ -12,22 +12,13 @@ $wood: rgb(240, 204, 153);
 $woodTransparent: rgba(darken($wood, 30%), .3);
 $woodBorder: rgba(darken($wood, 70%), .2);
 
+
+
+
 .clear {clear:both;}
 .hide {display:none;}
 // remove default margins
 h1, h2, h3, h4, p, li, a {margin:0;}
-  // Font sizes for smallest layout (900px)
-  $fontSize: 12px;
-  p, li, h4{font-size: $fontSize;}
-  h3 {font-size: $fontSize;}
-  h2 {font-size: $fontSize + 2px;}
-  h2 {font-size: $fontSize + 4px;}
-  blockquote{font-size: $fontSize + 4px;}
-  #desc p {font-size: $fontSize - 2px; letter-spacing:0;} // home page intro
-  #tocText a {
-    font-size: $fontSize - 2px;
-      margin: 1px 0;
-}
 
 body {
   margin: 0; 
@@ -36,16 +27,20 @@ body {
   background: $wood url(/images/wood.jpg); // from http://www.pixeden.com/graphic-web-backgrounds/wood-pattern-background
   background-size:contain;
   font-family: $bodyFont;
+  letter-spacing: $normalSpacing;
+  color: $dkBrown;
   h1, h2, h3 {
     font-family: $headingFont;
-    letter-spacing: $normalSpacing;
+    color: $ltBlue;
   }
-  p, li, h4 {letter-spacing: $normalSpacing;}
-  h4 {font-family: $tocFont; font-weight:700;}
-  color: $dkBrown;
+  h4 {
+    font-family: $tocFont;
+    font-weight:700;
+    color: $mdBlue;
+  }
+
 
 }
-
 
 ul {list-style:none;}
 
@@ -235,6 +230,21 @@ nav{
 
 .booklet .b-arrow-prev {
   left: -50px;
+}
+
+// Responsive sizes
+
+  // smallest layout (900px)
+  $fontSize: 12px;
+  p, li, h4{font-size: $fontSize;}
+  h3 {font-size: $fontSize;}
+  h2 {font-size: $fontSize + 2px;}
+  h2 {font-size: $fontSize + 4px;}
+  blockquote{font-size: $fontSize + 4px;}
+  #desc p {font-size: $fontSize - 2px; letter-spacing:0;} // home page intro
+  #tocText a {
+    font-size: $fontSize - 2px;
+      margin: 1px 0;
 }
 
 
