@@ -41,10 +41,11 @@
     <div class="right">
         <?php include "includes/intro-2.html"; ?>
     </div>
+    <div class="left">
+      <?php include "includes/intro-3.html"; ?>
+    </div>
 
  <!-- DRAW LETTERS-->
-    <div class="left">
-    </div>
     <div class="right chapter">
        <img src="/images/chap-letters.png" />
     </div>
