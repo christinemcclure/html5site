@@ -211,11 +211,10 @@
        <img src="/images/chap-figure.png" />
     </div>
     <div class="left">
-        <h1>Figure&mdash;Ground</h1>
-        <?php include "includes/fg-intro.html"?>
+        <?php include "includes/fg-1.html"?>
     </div>
     <div class="right">
-        <?php include "includes/fg-comments.html"?>
+        <?php include "includes/fg-2.html"?>
     </div>
     <div class="left">
       <h2>Stable</h2>
