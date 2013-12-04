@@ -177,11 +177,10 @@
        <img src="/images/chap-texture.png" />
     </div>
     <div class="left">
-        <h1>Texture</h1>
-        <?php include "includes/texture-intro.html"?>
+        <?php include "includes/texture-1.html"?>
     </div>
     <div class="right">
-        <?php include "includes/texture-comments.html"?>
+        <?php include "includes/texture-2.html"?>
     </div>
     <div class="left">
         <img id="portrait" src="images/texture-1.jpg" />
@@ -197,9 +196,8 @@
        <img src="/images/chap-color.png" />
     </div>
     <div class="left">
-        <h1>Color</h1>
-        <?php include "includes/color-intro.html"?>
-        <?php include "includes/color-comments.html"?>
+        <?php include "includes/color-1.html"?>
+        <?php include "includes/color-2.html"?>
     </div>
     <div class="right">
         <img src="images/color.png" />
