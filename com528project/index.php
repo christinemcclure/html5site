@@ -296,6 +296,19 @@
   <div class="right">
     </div>
   <div id="back-cover">
+    <h1>Early reviews for Portfolio:</h1>
+    <h4>James Maciukenas, Ph.D.</h4>
+    <p>professor and taskmaster</p>
+    <blockquote>
+      "Another great result driven by careful analysis, review, and editing what is 
+      necessary to shape the final composition. [...] Well done."
+    </blockquote>
+    <h4>Pete Valavanis</h4>
+    <p>spouse and E.E. Cummings fan</p>
+    <blockquote>"very, very cool."</blockquote>
+    <h4>Yvonne McClure</h4>
+    <p>skeptical parent</p>
+    <blockquote>"What's this degree you're getting again?"</blockquote>
   </div>
 
 </div>
