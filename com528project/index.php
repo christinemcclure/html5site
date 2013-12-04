@@ -258,7 +258,6 @@
        <img src="/images/chap-layers.png" />
     </div>
     <div class="left">
-        <h1>Layers</h1>
         <?php include "includes/layers.html"?>
     </div>
     <div class="right">
