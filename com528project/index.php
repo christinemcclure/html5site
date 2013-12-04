@@ -234,11 +234,10 @@
        <img src="/images/chap-hierarchy.png" />
     </div>
     <div class="left">
-        <h1>Hierarchy</h1>
-        <?php include "includes/hier-intro.html"?>
+        <?php include "includes/hier-1.html"?>
     </div>
     <div class="right">
-        <?php include "includes/hier-comments.html"?>
+        <?php include "includes/hier-2.html"?>
     </div>
     <div class="left">
       <h2>Example 1</h2>
