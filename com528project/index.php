@@ -293,7 +293,7 @@
     </div>
 
 <!--  BACK COVER-->
-  <div class="right">
+  <div class="left">
     </div>
   <div id="back-cover">
     <h1>Early reviews for Portfolio</h1>
