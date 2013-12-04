@@ -92,15 +92,15 @@
        <img src="/images/chap-text.png" />
     </div>
     <div class="left">
-        <?php include "includes/text-intro.html"?>
+        <?php include "includes/text-1.html"?>
     </div>
 
     <div class="right">
-        <?php include "includes/text-intro2.html"?>
+        <?php include "includes/text-2.html"?>
     </div>
 
     <div class="left">
-        <?php include "includes/text-comments.html"?>
+        <?php include "includes/text-3.html"?>
     </div>
 
     <div class="right">
@@ -122,15 +122,15 @@
         <img src="images/plp-small.jpg" />
     </div>
     <div class="left">
-        <h4>Point</h4>
+        <h3>point</h3>
         <img class="fit" src="images/point.jpg" />
     </div>
     <div class="right">
-        <h4>Plane</h4>
+        <h3>plane</h3>
         <img class="fit" src="images/plane.jpg" />
     </div>
     <div class="left">
-        <h4>Line</h4>
+        <h3>line</h3>
         <img class="fit" src="images/line.jpg" />
     </div>
 
@@ -217,15 +217,15 @@
         <?php include "includes/fg-2.html"?>
     </div>
     <div class="left">
-      <h2>Stable</h2>
+      <h3>Stable</h3>
         <img class="fit" src="images/fg-stable.png" />
     </div>
     <div class="right">
-      <h2>Reversible</h2>
+      <h3>Reversible</h3>
         <img class="fit" src="images/fg-reversible.png" />
     </div>
     <div class="left">
-      <h2>Ambiguous</h2>
+      <h3>Ambiguous</h3>
         <img class="fit" src="images/fg-ambiguous.png" />
     </div>
 
