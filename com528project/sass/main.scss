@@ -6,8 +6,9 @@ $headingFont: 'Rammetto One', cursive;
 $normalSpacing: 1px;
 
 // Colors
-$orange: rbg(246,146,30); // rgb color doesn't work for orange?
+//$orange: rbg(242,146,34); // rgb color doesn't work orange -- update ruby gem
 $orange: #F6921E;
+$ltOrange: #fbc282;
 $ltBlue: rgb(27,117,187);
 $mdBlue: rgb(43,56,143);
 $dkBrown: rgb(40,27,18);
@@ -42,6 +43,20 @@ body {
     font-weight:700;
     color: $mdBlue;
   }
+}
+
+blockquote {
+  margin: 20px;
+  padding: 10px;
+  text-align: center;
+  background: rgba($orange, .4);
+  border: 2px solid $orange;
+  font-family: $tocFont;
+  font-weight: 400;
+  font-size: 12px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
 }
 
 ul {list-style:none;}
@@ -246,7 +261,6 @@ nav{
     font-size: $fontSize + 6px;
     margin: 10px 0 20px 0;
   }
-  blockquote{font-size: $fontSize + 4px;}
   #desc p {font-size: $fontSize - 2px; letter-spacing:0;} // home page intro
   #tocText a {
     font-size: $fontSize - 2px;
@@ -270,4 +284,8 @@ nav{
 
 .right{
   margin: 10px 10px 20px 30px;
+}
+
+#text-quote{
+  margin: 30px 0 0 0;
 }
