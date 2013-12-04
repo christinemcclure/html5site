@@ -1,4 +1,4 @@
-/* line 17, ../../../.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 17, ../../../../RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -20,45 +20,45 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
-/* line 22, ../../../.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 22, ../../../../RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html {
   line-height: 1;
 }
 
-/* line 24, ../../../.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 24, ../../../../RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 26, ../../../.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 26, ../../../../RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 28, ../../../.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 28, ../../../../RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle;
 }
 
-/* line 30, ../../../.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 30, ../../../../RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
   quotes: none;
 }
-/* line 103, ../../../.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 103, ../../../../RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q:before, q:after, blockquote:before, blockquote:after {
   content: "";
   content: none;
 }
 
-/* line 32, ../../../.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 32, ../../../../RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 a img {
   border: none;
 }
 
-/* line 116, ../../../.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 116, ../../../../RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
   display: block;
 }
@@ -294,68 +294,59 @@ nav .nav-right {
 /* line 223, ../sass/main.scss */
 p, li, h4 {
   font-size: 12px;
-  margin: 4px 0 8px 0;
 }
 
-/* line 227, ../sass/main.scss */
+/* line 226, ../sass/main.scss */
 h3 {
   font-size: 12px;
 }
 
-/* line 228, ../sass/main.scss */
+/* line 227, ../sass/main.scss */
 h2 {
   font-size: 14px;
   margin: 14px 0 6px 0;
   padding: 10px 0 0 0;
 }
 
-/* line 233, ../sass/main.scss */
+/* line 232, ../sass/main.scss */
 h1 {
   font-size: 18px;
   margin: 10px 0 20px 0;
 }
 
-/* line 237, ../sass/main.scss */
+/* line 236, ../sass/main.scss */
 blockquote {
   font-size: 16px;
 }
 
-/* line 238, ../sass/main.scss */
+/* line 237, ../sass/main.scss */
 #desc p {
   font-size: 10px;
   letter-spacing: 0;
 }
 
-/* line 239, ../sass/main.scss */
+/* line 238, ../sass/main.scss */
 #tocText a {
   font-size: 10px;
   margin: 1px 0;
 }
 
 /* line 245, ../sass/main.scss */
+.left img, .right img {
+  width: 80%;
+  padding: 15px 0;
+}
+/* line 249, ../sass/main.scss */
+.left .fit, .right .fit {
+  width: 70%;
+}
+
+/* line 253, ../sass/main.scss */
 .left {
   margin: 10px 30px 20px 10px;
 }
-/* line 247, ../sass/main.scss */
-.left img {
-  margin: 0 30px 0 0;
-}
-/* line 250, ../sass/main.scss */
-.left .fit {
-  width: 70%;
-  margin: 0 20% 0 0;
-}
 
-/* line 256, ../sass/main.scss */
+/* line 257, ../sass/main.scss */
 .right {
   margin: 10px 10px 20px 30px;
-}
-/* line 258, ../sass/main.scss */
-.right img {
-  margin: 0 0 0 30px;
-}
-/* line 261, ../sass/main.scss */
-.right .fit {
-  width: 70%;
-  margin: 0 0 0 20%;
 }

@@ -222,7 +222,6 @@ nav{
   $fontSize: 12px;
   p, li, h4{
     font-size: $fontSize;
-    margin: 4px 0 8px 0;
   }
   h3 {font-size: $fontSize;}
   h2 {
@@ -242,24 +241,19 @@ nav{
 }
 
 
-.left {
-  margin: 10px 30px 20px 10px;
+.left, .right {
   img {
-    margin: 0 30px 0 0;
+   width: 80%;
+   padding: 15px 0;
   }
   .fit{
     width: 70%;
-    margin: 0 20% 0 0;
   }
+}
+.left {
+  margin: 10px 30px 20px 10px;
 }
 
 .right{
   margin: 10px 10px 20px 30px;
-  img {
-    margin: 0 0 0 30px;
-  }
-  .fit{
-    width: 70%;
-    margin: 0 0 0 20%;
-  }
 }
