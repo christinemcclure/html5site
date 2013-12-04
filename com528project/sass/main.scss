@@ -9,8 +9,8 @@ $ltBlue: rgb(27,117,187);
 $mdBlue: rgb(43,56,143);
 $dkBrown: rgb(40,27,18);
 $wood: rgb(240, 204, 153);
-$woodTransparent: rgba($wood, .3);
-$woodBorder: rgba(171, 124, 67, .2);
+$woodTransparent: rgba(darken($wood, 30%), .3);
+$woodBorder: rgba(darken($wood, 70%), .2);
 
 .clear {clear:both;}
 .hide {display:none;}
@@ -33,7 +33,7 @@ body {
   margin: 0; 
   padding: 10px 20px 20px 20px;
 
-  background: url(/images/wood.jpg); // from http://www.pixeden.com/graphic-web-backgrounds/wood-pattern-background
+  background: $wood url(/images/wood.jpg); // from http://www.pixeden.com/graphic-web-backgrounds/wood-pattern-background
   background-size:contain;
   font-family: $bodyFont;
   h1, h2, h3 {

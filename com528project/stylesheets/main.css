@@ -54,7 +54,7 @@ blockquote {
 body {
   margin: 0;
   padding: 10px 20px 20px 20px;
-  background: url(/images/wood.jpg);
+  background: #f0cc99 url(/images/wood.jpg);
   background-size: contain;
   font-family: "Questrial", Verdana, Arial, sans-serif;
   color: #281b12;
@@ -153,8 +153,8 @@ img {
 
 /* line 114, ../sass/main.scss */
 #desc {
-  background: rgba(240, 204, 153, 0.3);
-  border: 3px solid rgba(171, 124, 67, 0.2);
+  background: rgba(209, 135, 31, 0.3);
+  border: 3px solid rgba(31, 20, 5, 0.2);
   width: 80%;
   margin: 0 auto;
   margin-top: 20%;
