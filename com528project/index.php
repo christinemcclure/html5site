@@ -272,15 +272,14 @@
        <img src="/images/chap-grid.png" />
     </div>
     <div class="left">
-        <h1>Grid</h1>
         <?php include "includes/grid.html"?>
     </div>
     <div class="right">
-      <h2>Simple</h2>
+      <h3>simple</h3>
         <img class="fit" src="images/grid-simple.png" />
     </div>
     <div class="left">
-      <h2>Complex</h2>
+      <h3>complex</h3>
       <img class="fit" src="images/grid-complex.png" />
     </div>
   
