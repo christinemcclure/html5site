@@ -65,7 +65,20 @@ a {
   text-align:left;
 }
 
-
+#rollover{
+  width: 100px;
+  font-family: $tocFont;
+  font-size: 12px; // don't tie to variable
+  text-align:center;
+  float:right;
+  padding: 4px 2px;
+  border: 1px solid $dkBrown;
+  margin: 20px 0;
+  background: $orange;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  border-radius: 100px;
+}
 img {
   max-width: 100%;
   max-height: 100%;
