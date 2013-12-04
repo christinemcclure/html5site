@@ -221,7 +221,10 @@ nav{
   p, li, h4{font-size: $fontSize;}
   h3 {font-size: $fontSize;}
   h2 {font-size: $fontSize + 2px;}
-  h2 {font-size: $fontSize + 4px;}
+  h1 {
+    font-size: $fontSize + 6px;
+    margin: 10px 0;
+  }
   blockquote{font-size: $fontSize + 4px;}
   #desc p {font-size: $fontSize - 2px; letter-spacing:0;} // home page intro
   #tocText a {
