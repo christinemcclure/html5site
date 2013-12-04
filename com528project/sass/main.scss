@@ -36,6 +36,7 @@ body {
     font-family: $headingFont;
     color: $ltBlue;
   }
+  h1 {color: rgba($ltBlue, .8);}
   h4 {
     font-family: $tocFont;
     font-weight:700;
@@ -260,7 +261,7 @@ nav{
     padding: 10px 0 0 0;
   }
   h1 {
-    font-size: $fontSize + 6px;
+    font-size: $fontSize + 8px;
     margin: 10px 0 20px 0;
   }
   #desc p {font-size: $fontSize - 2px; letter-spacing:0;} // home page intro
