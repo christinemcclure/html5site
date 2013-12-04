@@ -36,10 +36,10 @@
 
 
     <div class="left">
-        <?php include "includes/about-me.html"; ?>
+        <?php include "includes/intro-1.html"; ?>
     </div>
     <div class="right">
-        <?php include "includes/about-portfolio.html"; ?>
+        <?php include "includes/intro-2.html"; ?>
     </div>
 
  <!-- DRAW LETTERS-->
