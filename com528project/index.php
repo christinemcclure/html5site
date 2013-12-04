@@ -95,7 +95,6 @@
        <img src="/images/chap-text.png" />
     </div>
     <div class="left">
-        <h1>Text</h1>
         <?php include "includes/text-intro.html"?>
     </div>
 
@@ -104,7 +103,6 @@
     </div>
 
     <div class="left">
-        <h1>My Text</h1>
         <?php include "includes/text-comments.html"?>
     </div>
 
