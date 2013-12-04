@@ -18,8 +18,6 @@ $woodTransparent: rgba(darken($wood, 30%), .3);
 $woodBorder: rgba(darken($wood, 70%), .2);
 
 
-
-
 .clear {clear:both;}
 .hide {display:none;}
 // remove default margins
@@ -55,6 +53,14 @@ blockquote {
   font-weight: 400;
   font-size: 12px;
   @include border-radius(10px);
+}
+
+.instructions {
+  background: rgba(lighten($ltBlue, 30%), .3);
+  border: 2px solid rgba($ltBlue, .2);
+  padding: 10px;
+  @include border-radius(10px);
+  margin: 20px 0;
 }
 
 ul {list-style:none;}
