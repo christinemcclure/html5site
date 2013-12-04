@@ -14,7 +14,8 @@ $woodBorder: rgba(171, 124, 67, .2);
 
 .clear {clear:both;}
 .hide {display:none;}
-
+// remove default margins
+h1, h2, h3, h4, p, li, a {margin:0;}
   // Font sizes for smallest layout (900px)
   $fontSize: 12px;
   p, li, h4{font-size: $fontSize;}
