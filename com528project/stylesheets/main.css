@@ -300,54 +300,55 @@ h3 {
 /* line 223, ../sass/main.scss */
 h2 {
   font-size: 14px;
+  margin: 0 0 10px 0;
 }
 
-/* line 224, ../sass/main.scss */
+/* line 227, ../sass/main.scss */
 h1 {
   font-size: 18px;
-  margin: 10px 0;
+  margin: 10px 0 20px 0;
 }
 
-/* line 228, ../sass/main.scss */
+/* line 231, ../sass/main.scss */
 blockquote {
   font-size: 16px;
 }
 
-/* line 229, ../sass/main.scss */
+/* line 232, ../sass/main.scss */
 #desc p {
   font-size: 10px;
   letter-spacing: 0;
 }
 
-/* line 230, ../sass/main.scss */
+/* line 233, ../sass/main.scss */
 #tocText a {
   font-size: 10px;
   margin: 1px 0;
 }
 
-/* line 236, ../sass/main.scss */
+/* line 239, ../sass/main.scss */
 .left {
   margin: 10px 30px 20px 10px;
 }
-/* line 238, ../sass/main.scss */
+/* line 241, ../sass/main.scss */
 .left img {
   margin: 0 30px 0 0;
 }
-/* line 241, ../sass/main.scss */
+/* line 244, ../sass/main.scss */
 .left .fit {
   width: 70%;
   margin: 0 20% 0 0;
 }
 
-/* line 247, ../sass/main.scss */
+/* line 250, ../sass/main.scss */
 .right {
   margin: 10px 10px 20px 30px;
 }
-/* line 249, ../sass/main.scss */
+/* line 252, ../sass/main.scss */
 .right img {
   margin: 0 0 0 30px;
 }
-/* line 252, ../sass/main.scss */
+/* line 255, ../sass/main.scss */
 .right .fit {
   width: 70%;
   margin: 0 0 0 20%;
