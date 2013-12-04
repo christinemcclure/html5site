@@ -241,15 +241,15 @@
     </div>
     <div class="left">
       <h2>Example 1</h2>
-        <img class="fit" src="images/hier1.png" />
+        <img class="small" src="images/hier1.png" />
     </div>
     <div class="right">
       <h2>Example 2</h2>
-        <img class="fit" src="images/hier2.png" />
+        <img class="small" src="images/hier2.png" />
     </div>
     <div class="left">
       <h2>Example 3</h2>
-        <img class="fit" src="images/hier3.png" />
+        <img class="small" src="images/hier3.png" />
     </div>
 
 

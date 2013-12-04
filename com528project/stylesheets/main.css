@@ -340,13 +340,17 @@ blockquote {
 .left .fit, .right .fit {
   width: 70%;
 }
+/* line 252, ../sass/main.scss */
+.left .small, .right .small {
+  width: 60%;
+}
 
-/* line 253, ../sass/main.scss */
+/* line 254, ../sass/main.scss */
 .left {
   margin: 10px 30px 20px 10px;
 }
 
-/* line 257, ../sass/main.scss */
+/* line 258, ../sass/main.scss */
 .right {
   margin: 10px 10px 20px 30px;
 }
