@@ -40,8 +40,6 @@ body {
     font-weight:700;
     color: $mdBlue;
   }
-
-
 }
 
 ul {list-style:none;}
@@ -57,12 +55,27 @@ a {
 
 .no-background{background:none;}
 
+.left {
+  text-align:right;
+}
+
+.right{
+  text-align:left;
+}
+
 
 img {
   max-width: 100%;
   max-height: 100%;
 }
 
+
+.chapter{
+  img {
+    width: 90%;
+    margin: 2% 5% 0 5%;
+  }
+}
 
 .warning {
   font-style: $tocFont;
@@ -101,6 +114,54 @@ img {
 
 #rollover{cursor:pointer;}
 
+
+// TABLE OF CONTENTS
+
+#tocText {
+  li  {
+    font-family: $tocFont;
+    font-weight:lighter;
+    width: 100%;
+    letter-spacing:4px;
+    text-align:right;
+  }
+
+  a {padding: 4px 8px;}
+
+  a:hover {
+    letter-spacing: 8px;
+    font-weight: 700;
+  }
+}
+
+#tocImages img{
+  width: 100%;
+  margin: 0 auto;
+}
+
+
+nav{
+  width: 60%;
+  margin: 0 auto;
+  text-align:center;
+  p{
+    width: 150px;
+    display: inline-block;
+  }
+  .nav-left{
+    width: 40%;
+    display:inline-block;
+    float:right;
+  }
+  .nav-right{
+    width: 40%;
+    display:inline-block;
+    float:left;
+  }
+}
+
+
+// BOOKLET
 
 // left hand side of notebook
 .booklet .b-wrap-left {
@@ -141,52 +202,6 @@ img {
   background: none;
 }
 
-// Table of Contents rules
-
-#tocText {
-  li  {
-    font-family: $tocFont;
-    font-weight:lighter;
-    width: 100%;
-    letter-spacing:4px;
-    text-align:right;
-  }
-
-  a {padding: 4px 8px;}
-  
-  a:hover {
-    letter-spacing: 8px;
-    font-weight: 700;
-  }
-}
-
-#tocImages img{
-  width: 100%;
-  margin: 0 auto;
-}
-
-
-
-nav{
-  width: 60%;
-  margin: 0 auto;
-  text-align:center;
-  p{
-    width: 150px;
-    display: inline-block;
-  }
-  .nav-left{
-    width: 40%;
-    display:inline-block;
-    float:right;
-  }
-  .nav-right{
-    width: 40%;
-    display:inline-block;
-    float:left;
-  }
-}
-
 .booklet .b-page-3 .b-wrap-right {
   background:url(/images/toc/toc-background.png);
   background-size:contain;
@@ -199,7 +214,7 @@ nav{
   left: -50px;
 }
 
-// Responsive sizes
+// RESPONSIVE SIZING
 
   // smallest layout (900px)
   $fontSize: 12px;
@@ -215,17 +230,8 @@ nav{
 }
 
 
-.chapter{
-  img {
-    width: 90%;
-    margin: 2% 5% 0 5%;
-  }
-}
-
-
 .left {
   margin: 10px 30px 20px 10px;
-  text-align:right;
   img {
     margin: 0 30px 0 0;
   }
@@ -237,7 +243,6 @@ nav{
 
 .right{
   margin: 10px 10px 20px 30px;
-  text-align:left;
   img {
     margin: 0 0 0 30px;
   }
