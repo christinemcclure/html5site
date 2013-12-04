@@ -20,7 +20,7 @@
 
 
     <div class="left">
-        <h2>Table of Contents</h2>
+        <h1>Table of Contents</h1>
         <?php include "includes/toc-text.html"; ?>
     </div>
     <div class="right no-background">
