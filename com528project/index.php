@@ -141,16 +141,14 @@
        <img src="/images/chap-symmetry.png" />
     </div>
     <div class="left">
-        <?php include "includes/sym-asym-intro.html"?>
-      <h1>Symmetry</h1>
-        <?php include "includes/symmetry-comments.html"?>
+        <?php include "includes/symmetry.html"?>
+        <?php include "includes/symmetry-comments-1.html"?>
     </div>
     <div class="right">
         <img src="images/symmetry.png" />
     </div>    
     <div class="left">
-        <h1>Asymmetry</h1>
-        <?php include "includes/asymmetry-comments.html"?>
+        <?php include "includes/symmetry-comments-2.html"?>
     </div>
     <div class="right">
         <img src="images/asymmetry.png" />
