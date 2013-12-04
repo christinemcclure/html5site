@@ -115,7 +115,6 @@
        <img src="/images/chap-plp.png" />
     </div>
     <div class="left">
-        <h1>Point&mdash;Line&mdash;Plane</h1>
         <?php include "includes/plp1.html"?>
     </div>
     <div class="right">
@@ -123,15 +122,15 @@
         <img src="images/plp-small.jpg" />
     </div>
     <div class="left">
-        <h1>Point</h1>
+        <h4>Point</h4>
         <img class="fit" src="images/point.jpg" />
     </div>
     <div class="right">
-        <h1>Plane</h1>
+        <h4>Plane</h4>
         <img class="fit" src="images/plane.jpg" />
     </div>
     <div class="left">
-        <h1>Line</h1>
+        <h4>Line</h4>
         <img class="fit" src="images/line.jpg" />
     </div>
 
