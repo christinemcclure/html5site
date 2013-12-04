@@ -50,7 +50,6 @@
        <img src="/images/chap-letters.png" />
     </div>
     <div class="left">
-        <h1>Letters</h1>
         <?php include "includes/letters-1.html"?>
         <img src="images/draw-letters-orig.png" />
     </div>
@@ -67,11 +66,9 @@
        <img src="/images/chap-words.png" />
     </div>
     <div class="left">
-      <h1>Words</h1>
         <?php include "includes/words-intro.html"?>
     </div>
     <div class="right">
-        <h2>Word Choices</h2>
         <?php include "includes/words-intro2.html"?>
     </div>
     <div class="left">
