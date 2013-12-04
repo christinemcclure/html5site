@@ -162,18 +162,17 @@
        <img src="/images/chap-scale.png" />
     </div>
     <div class="left">
-        <h1>Scale</h1>
-        <?php include "includes/scale-intro.html"?>
-        <?php include "includes/scale-comments.html"?>
+        <?php include "includes/scale-1.html"?>
     </div>
     <div class="right">
+        <?php include "includes/scale-2.html"?>
+    </div>
+ <div class="left">
         <img src="images/scale.png" />
     </div>
 
 
  <!-- TEXTURE -->
-    <div class="left">
-    </div>
     <div class="right chapter">
        <img src="/images/chap-texture.png" />
     </div>
