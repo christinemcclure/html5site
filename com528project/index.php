@@ -292,8 +292,16 @@
     <div class="left">
         <?php include "includes/rules1.html"; ?>
     </div>
-
-<!--  BACK COVER-->
+    <div class="right">
+        <?php include "includes/rules2.html"; ?>
+    </div>
+    <div class="left">
+        <?php include "includes/rules3.html"; ?>
+    </div>
+    <div class="right">
+      <p>&copy;2013 Christine McClure (design and content)</p>
+    </div>
+    <!--  BACK COVER-->
   <div class="left">
     </div>
   <div id="back-cover">
