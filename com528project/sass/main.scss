@@ -254,15 +254,15 @@ nav{
   p, li, h4{
     font-size: $fontSize;
   }
+  p {margin: 0 0 10px 0;}
   h3 {font-size: $fontSize;}
   h2 {
     font-size: $fontSize + 2px;
-    margin: 14px 0 6px 0;
-    padding: 10px 0 0 0;
+    margin: 0 0 15px 0;
   }
   h1 {
     font-size: $fontSize + 8px;
-    margin: 10px 0 20px 0;
+    margin: 0 0 20px 0;
   }
   #desc p {font-size: $fontSize - 2px; letter-spacing:0;} // home page intro
   #tocText a {
