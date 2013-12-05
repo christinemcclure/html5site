@@ -73,6 +73,7 @@ a {
 
 .left, .right {
   background: url(/images/paper.png);
+  img {border: 4px solid rgba($dkBrown, .3);}
 }
 
 .no-background{background:none;}
@@ -83,6 +84,15 @@ a {
 
 .right{
   text-align:left;
+}
+
+
+.chapter{
+  img {
+    width: 90%;
+    margin: 2% 5% 0 5%;
+    border: none;
+  }
 }
 
 #rollover{
@@ -103,13 +113,6 @@ img {
   max-height: 100%;
 }
 
-
-.chapter{
-  img {
-    width: 90%;
-    margin: 2% 5% 0 5%;
-  }
-}
 
 .warning {
   font-style: $tocFont;
@@ -275,7 +278,7 @@ nav{
 .left, .right {
   img {
    width: 80%;
-   padding: 15px 0;
+   margin: 15px 0;
   }
   .fit{
     width: 70%;
