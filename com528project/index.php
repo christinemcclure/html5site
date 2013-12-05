@@ -168,7 +168,7 @@
         <?php include "includes/scale-2.html"?>
     </div>
  <div class="left">
-        <img src="images/scale.png" />
+        <img class="small" src="images/scale.jpg" />
     </div>
 
 
