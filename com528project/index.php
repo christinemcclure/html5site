@@ -261,8 +261,9 @@
         <?php include "includes/layers.html"?>
     </div>
     <div class="right">
-        <img id="layers" src="images/layers.png" />
-        <img id="layersHover" class="hide" src="images/layers-hover.png" />
+        <img class="fit" id="layers" src="images/layers.png" />
+        <img class="fit hide" id="layersHover" src="images/layers-hover.png" />
+        <p id="rollover">Hover image</p>
     </div>
 
   <!-- GRID -->

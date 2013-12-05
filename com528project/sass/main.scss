@@ -101,10 +101,9 @@ a {
   font-family: $tocFont;
   font-size: 12px; // don't tie to variable
   text-align:center;
-  float:right;
+  float:left;
   padding: 4px 2px;
   border: 1px solid $dkBrown;
-  margin: 20px 0;
   background: lighten($orange, 20%);
   @include border-radius(100px);
 }

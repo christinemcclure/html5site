@@ -183,10 +183,9 @@ a {
   font-family: "Montserrat", Verdana, Arial, sans-serif;
   font-size: 12px;
   text-align: center;
-  float: right;
+  float: left;
   padding: 4px 2px;
   border: 1px solid #281b12;
-  margin: 20px 0;
   background: #fac280;
   -webkit-border-radius: 100px;
   -moz-border-radius: 100px;
@@ -195,13 +194,13 @@ a {
   border-radius: 100px;
 }
 
-/* line 111, ../sass/main.scss */
+/* line 110, ../sass/main.scss */
 img {
   max-width: 100%;
   max-height: 100%;
 }
 
-/* line 117, ../sass/main.scss */
+/* line 116, ../sass/main.scss */
 .warning {
   font-style: "Montserrat", Verdana, Arial, sans-serif;
   font-weight: bold;
@@ -211,7 +210,7 @@ img {
   padding: 10px 20px;
 }
 
-/* line 126, ../sass/main.scss */
+/* line 125, ../sass/main.scss */
 #desc {
   background: rgba(209, 135, 31, 0.3);
   border: 3px solid rgba(31, 20, 5, 0.2);
@@ -222,11 +221,11 @@ img {
   font-family: "Montserrat", Verdana, Arial, sans-serif;
   font-weight: 500;
 }
-/* line 135, ../sass/main.scss */
+/* line 134, ../sass/main.scss */
 #desc a {
   padding: 0;
 }
-/* line 136, ../sass/main.scss */
+/* line 135, ../sass/main.scss */
 #desc .heading {
   width: 30%;
   display: inline-block;
@@ -235,14 +234,14 @@ img {
   font-weight: 600;
   margin: 2px 4px;
 }
-/* line 144, ../sass/main.scss */
+/* line 143, ../sass/main.scss */
 #desc .item {
   display: inline-block;
   float: left;
   margin: 2px 2px 4px 2px;
 }
 
-/* line 157, ../sass/main.scss */
+/* line 156, ../sass/main.scss */
 #tocText li {
   font-family: "Montserrat", Verdana, Arial, sans-serif;
   font-weight: lighter;
@@ -250,47 +249,47 @@ img {
   letter-spacing: 4px;
   text-align: right;
 }
-/* line 165, ../sass/main.scss */
+/* line 164, ../sass/main.scss */
 #tocText a {
   padding: 4px 8px;
 }
-/* line 167, ../sass/main.scss */
+/* line 166, ../sass/main.scss */
 #tocText a:hover {
   letter-spacing: 8px;
   font-weight: 700;
 }
 
-/* line 173, ../sass/main.scss */
+/* line 172, ../sass/main.scss */
 #tocImages img {
   width: 100%;
   margin: 0 auto;
 }
 
-/* line 179, ../sass/main.scss */
+/* line 178, ../sass/main.scss */
 nav {
   width: 60%;
   margin: 0 auto;
   text-align: center;
 }
-/* line 183, ../sass/main.scss */
+/* line 182, ../sass/main.scss */
 nav p {
   width: 150px;
   display: inline-block;
 }
-/* line 187, ../sass/main.scss */
+/* line 186, ../sass/main.scss */
 nav .nav-left {
   width: 40%;
   display: inline-block;
   float: right;
 }
-/* line 192, ../sass/main.scss */
+/* line 191, ../sass/main.scss */
 nav .nav-right {
   width: 40%;
   display: inline-block;
   float: left;
 }
 
-/* line 203, ../sass/main.scss */
+/* line 202, ../sass/main.scss */
 .booklet .b-wrap-left {
   background: url(/images/notebook-left.png);
   background-size: contain;
@@ -298,7 +297,7 @@ nav .nav-right {
   background-repeat: no-repeat;
 }
 
-/* line 212, ../sass/main.scss */
+/* line 211, ../sass/main.scss */
 .booklet .b-wrap-right {
   background: url(/images/notebook-right.png);
   background-size: contain;
@@ -306,7 +305,7 @@ nav .nav-right {
   background-repeat: no-repeat;
 }
 
-/* line 221, ../sass/main.scss */
+/* line 220, ../sass/main.scss */
 .booklet .b-page-1 .b-wrap-right {
   background: url(/images/cover.png);
   background-size: contain;
@@ -314,7 +313,7 @@ nav .nav-right {
   background-repeat: no-repeat;
 }
 
-/* line 229, ../sass/main.scss */
+/* line 228, ../sass/main.scss */
 .booklet .b-page-76 .b-wrap-left {
   background: url(/images/back-cover.png);
   background-size: contain;
@@ -322,12 +321,12 @@ nav .nav-right {
   background-repeat: no-repeat;
 }
 
-/* line 237, ../sass/main.scss */
+/* line 236, ../sass/main.scss */
 .booklet .b-page-0 .b-wrap-left, .booklet .b-page-77 .b-wrap-right {
   background: none;
 }
 
-/* line 241, ../sass/main.scss */
+/* line 240, ../sass/main.scss */
 .booklet .b-page-3 .b-wrap-right {
   background: url(/images/toc/toc-background.png);
   background-size: contain;
@@ -335,81 +334,81 @@ nav .nav-right {
   background-position: top right;
 }
 
-/* line 249, ../sass/main.scss */
+/* line 248, ../sass/main.scss */
 .booklet .b-arrow-prev {
   left: -50px;
 }
 
-/* line 257, ../sass/main.scss */
+/* line 256, ../sass/main.scss */
 p, li, h4 {
   font-size: 12px;
 }
 
-/* line 260, ../sass/main.scss */
+/* line 259, ../sass/main.scss */
 p, li {
   margin: 0 0 10px 0;
 }
 
-/* line 261, ../sass/main.scss */
+/* line 260, ../sass/main.scss */
 h3, h4 {
   font-size: 12px;
   margin: 0 0 10px 0;
 }
 
-/* line 265, ../sass/main.scss */
+/* line 264, ../sass/main.scss */
 h2 {
   font-size: 14px;
   margin: 0 0 15px 0;
 }
 
-/* line 269, ../sass/main.scss */
+/* line 268, ../sass/main.scss */
 h1 {
   font-size: 20px;
   margin: 0 0 20px 0;
 }
 
-/* line 273, ../sass/main.scss */
+/* line 272, ../sass/main.scss */
 #desc p {
   font-size: 10px;
   letter-spacing: 0;
 }
 
-/* line 274, ../sass/main.scss */
+/* line 273, ../sass/main.scss */
 #tocText a {
   font-size: 10px;
   margin: 1px 0;
 }
 
-/* line 279, ../sass/main.scss */
+/* line 278, ../sass/main.scss */
 .introx li {
   width: 50%;
 }
 
-/* line 282, ../sass/main.scss */
+/* line 281, ../sass/main.scss */
 .left img, .right img {
   width: 80%;
   margin: 15px 0;
 }
-/* line 286, ../sass/main.scss */
+/* line 285, ../sass/main.scss */
 .left .fit, .right .fit {
   width: 70%;
 }
-/* line 289, ../sass/main.scss */
+/* line 288, ../sass/main.scss */
 .left .small, .right .small {
   width: 55%;
 }
 
-/* line 291, ../sass/main.scss */
+/* line 290, ../sass/main.scss */
 .left {
   margin: 10px 30px 20px 10px;
 }
 
-/* line 295, ../sass/main.scss */
+/* line 294, ../sass/main.scss */
 .right {
   margin: 10px 10px 20px 30px;
 }
 
-/* line 299, ../sass/main.scss */
+/* line 298, ../sass/main.scss */
 #text-quote {
   margin: 30px 0 0 0;
 }
