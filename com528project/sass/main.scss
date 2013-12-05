@@ -155,7 +155,7 @@ img {
 #tocText {
   li  {
     font-family: $tocFont;
-    font-weight:lighter;
+    font-weight:500;
     width: 100%;
     letter-spacing:4px;
     text-align:right;
@@ -256,7 +256,8 @@ nav{
   p, li, h4{
     font-size: $fontSize;
   }
-  p, li {margin: 0 0 10px 0;}
+  p{margin: 0 0 10px 0;}
+  li {margin: 0 0 4px 0;}
   h3, h4 {
     font-size: $fontSize;
     margin: 0 0 10px 0;
@@ -270,9 +271,9 @@ nav{
     margin: 0 0 20px 0;
   }
   #desc p {font-size: $fontSize - 2px; letter-spacing:0;} // home page intro
-  #tocText a {
-    font-size: $fontSize - 2px;
-      margin: 1px 0;
+  #tocText li {
+    font-size: $fontSize;
+    margin: 0 0 6px 0;
 }
 
 
