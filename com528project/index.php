@@ -299,7 +299,7 @@
         <?php include "includes/rules3.html"; ?>
     </div>
     <div class="right">
-      <p>&copy;2013 Christine McClure (design and content)</p>
+      <p class="copyright">&copy;2013 Christine McClure (design and content)</p>
     </div>
     <!--  BACK COVER-->
   <div id="back-cover">
