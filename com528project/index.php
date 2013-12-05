@@ -297,7 +297,7 @@
   <div class="left">
     </div>
   <div id="back-cover">
-    <h1>Early reviews for Portfolio</h1>
+    <h1>Early reviews for portfolio</h1>
     <h4>James Maciukenas, Ph.D.</h4>
     <p>professor and taskmaster</p>
     <blockquote class="review">
