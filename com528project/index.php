@@ -302,8 +302,6 @@
       <p>&copy;2013 Christine McClure (design and content)</p>
     </div>
     <!--  BACK COVER-->
-  <div class="left">
-    </div>
   <div id="back-cover">
     <h1>Early reviews for portfolio</h1>
     <h4>James Maciukenas, Ph.D.</h4>
