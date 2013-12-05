@@ -341,7 +341,7 @@ p, li, h4 {
 }
 
 /* line 257, ../sass/main.scss */
-p {
+p, li {
   margin: 0 0 10px 0;
 }
 
@@ -374,31 +374,36 @@ h1 {
   margin: 1px 0;
 }
 
-/* line 275, ../sass/main.scss */
+/* line 273, ../sass/main.scss */
+.introx li {
+  width: 50%;
+}
+
+/* line 276, ../sass/main.scss */
 .left img, .right img {
   width: 80%;
   padding: 15px 0;
 }
-/* line 279, ../sass/main.scss */
+/* line 280, ../sass/main.scss */
 .left .fit, .right .fit {
   width: 70%;
 }
-/* line 282, ../sass/main.scss */
+/* line 283, ../sass/main.scss */
 .left .small, .right .small {
   width: 60%;
 }
 
-/* line 284, ../sass/main.scss */
+/* line 285, ../sass/main.scss */
 .left {
   margin: 10px 30px 20px 10px;
 }
 
-/* line 288, ../sass/main.scss */
+/* line 289, ../sass/main.scss */
 .right {
   margin: 10px 10px 20px 30px;
 }
 
-/* line 292, ../sass/main.scss */
+/* line 293, ../sass/main.scss */
 #text-quote {
   margin: 30px 0 0 0;
 }

@@ -254,7 +254,7 @@ nav{
   p, li, h4{
     font-size: $fontSize;
   }
-  p {margin: 0 0 10px 0;}
+  p, li {margin: 0 0 10px 0;}
   h3 {font-size: $fontSize;}
   h2 {
     font-size: $fontSize + 2px;
@@ -270,6 +270,7 @@ nav{
       margin: 1px 0;
 }
 
+.introx li {width: 50%;}
 
 .left, .right {
   img {
