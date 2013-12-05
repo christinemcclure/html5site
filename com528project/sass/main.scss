@@ -258,7 +258,10 @@ nav{
     font-size: $fontSize;
   }
   p, li {margin: 0 0 10px 0;}
-  h3 {font-size: $fontSize;}
+  h3, h4 {
+    font-size: $fontSize;
+    margin: 0 0 10px 0;
+  }
   h2 {
     font-size: $fontSize + 2px;
     margin: 0 0 15px 0;

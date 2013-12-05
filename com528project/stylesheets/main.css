@@ -351,64 +351,65 @@ p, li {
 }
 
 /* line 261, ../sass/main.scss */
-h3 {
+h3, h4 {
   font-size: 12px;
+  margin: 0 0 10px 0;
 }
 
-/* line 262, ../sass/main.scss */
+/* line 265, ../sass/main.scss */
 h2 {
   font-size: 14px;
   margin: 0 0 15px 0;
 }
 
-/* line 266, ../sass/main.scss */
+/* line 269, ../sass/main.scss */
 h1 {
   font-size: 20px;
   margin: 0 0 20px 0;
 }
 
-/* line 270, ../sass/main.scss */
+/* line 273, ../sass/main.scss */
 #desc p {
   font-size: 10px;
   letter-spacing: 0;
 }
 
-/* line 271, ../sass/main.scss */
+/* line 274, ../sass/main.scss */
 #tocText a {
   font-size: 10px;
   margin: 1px 0;
 }
 
-/* line 276, ../sass/main.scss */
+/* line 279, ../sass/main.scss */
 .introx li {
   width: 50%;
 }
 
-/* line 279, ../sass/main.scss */
+/* line 282, ../sass/main.scss */
 .left img, .right img {
   width: 80%;
   margin: 15px 0;
 }
-/* line 283, ../sass/main.scss */
+/* line 286, ../sass/main.scss */
 .left .fit, .right .fit {
   width: 70%;
 }
-/* line 286, ../sass/main.scss */
+/* line 289, ../sass/main.scss */
 .left .small, .right .small {
   width: 55%;
 }
 
-/* line 288, ../sass/main.scss */
+/* line 291, ../sass/main.scss */
 .left {
   margin: 10px 30px 20px 10px;
 }
 
-/* line 292, ../sass/main.scss */
+/* line 295, ../sass/main.scss */
 .right {
   margin: 10px 10px 20px 30px;
 }
 
-/* line 296, ../sass/main.scss */
+/* line 299, ../sass/main.scss */
 #text-quote {
   margin: 30px 0 0 0;
 }
