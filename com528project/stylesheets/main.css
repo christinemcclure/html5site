@@ -379,36 +379,62 @@ h1 {
   margin: 1px 0;
 }
 
-/* line 278, ../sass/main.scss */
-.introx li {
-  width: 50%;
-}
-
-/* line 281, ../sass/main.scss */
+/* line 280, ../sass/main.scss */
 .left img, .right img {
   width: 80%;
   margin: 15px 0;
 }
-/* line 285, ../sass/main.scss */
+/* line 284, ../sass/main.scss */
 .left .fit, .right .fit {
   width: 70%;
 }
-/* line 288, ../sass/main.scss */
+/* line 287, ../sass/main.scss */
 .left .small, .right .small {
   width: 55%;
 }
 
-/* line 290, ../sass/main.scss */
+/* line 289, ../sass/main.scss */
 .left {
   margin: 10px 30px 20px 10px;
 }
 
-/* line 294, ../sass/main.scss */
+/* line 293, ../sass/main.scss */
 .right {
   margin: 10px 10px 20px 30px;
 }
 
-/* line 298, ../sass/main.scss */
+/* line 297, ../sass/main.scss */
 #text-quote {
   margin: 30px 0 0 0;
+}
+
+/* line 302, ../sass/main.scss */
+#back-cover {
+  padding: 10px 20px 10px 10px;
+  text-align: right;
+}
+/* line 305, ../sass/main.scss */
+#back-cover h1 {
+  font-size: 16px;
+  margin: 0 0 20px 0;
+}
+/* line 309, ../sass/main.scss */
+#back-cover p {
+  margin: 0;
+  color: #2b388f;
+}
+/* line 310, ../sass/main.scss */
+#back-cover h4 {
+  margin: 0;
+  color: #f6921e;
+}
+/* line 314, ../sass/main.scss */
+#back-cover blockquote.review {
+  font-size: 11px;
+  margin: 0 0 10px 0;
+  padding: 2px 0 6px 0;
+  text-align: right;
+  border: none;
+  background: none;
+  font-style: italic;
 }
