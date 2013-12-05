@@ -42,6 +42,8 @@ body {
     font-weight:700;
     color: $mdBlue;
   }
+  a, a:visited {color: $mdBlue;}
+  a:hover {color: lighten($ltBlue, 20%);}
 }
 
 blockquote {
