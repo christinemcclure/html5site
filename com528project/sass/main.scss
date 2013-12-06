@@ -500,14 +500,18 @@ nav{
   .copyright{font-size: $fontSize - 2px;}
   blockquote{font-size: $fontSize + 1px;}
 
+    blockquote.review {
+      font-size: $fontSize - 1px;
+    }
+
    #back-cover {
     h1 {
       font-size: $fontSize + 4px;
     }
-    blockquote.review {
-      font-size: $fontSize - 1px;
+    h4 {
+      margin: 50px 0 0 0;
     }
-  }
+   }
 
 
 }

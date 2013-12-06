@@ -688,65 +688,70 @@ h1 {
     font-size: 21px;
   }
 
-  /* line 504, ../sass/main.scss */
+  /* line 503, ../sass/main.scss */
+  blockquote.review {
+    font-size: 19px;
+  }
+
+  /* line 508, ../sass/main.scss */
   #back-cover h1 {
     font-size: 24px;
   }
-  /* line 507, ../sass/main.scss */
-  #back-cover blockquote.review {
-    font-size: 19px;
+  /* line 511, ../sass/main.scss */
+  #back-cover h4 {
+    margin: 50px 0 0 0;
   }
 }
 @media (min-width: 2000px) {
-  /* line 518, ../sass/main.scss */
+  /* line 522, ../sass/main.scss */
   p, li, h4 {
     font-size: 24px;
   }
 
-  /* line 521, ../sass/main.scss */
+  /* line 525, ../sass/main.scss */
   h3, h4 {
     font-size: 24px;
     margin: 0 0 30px 0;
   }
 
-  /* line 525, ../sass/main.scss */
+  /* line 529, ../sass/main.scss */
   h2 {
     font-size: 26px;
     margin: 0 0 40px 0;
   }
 
-  /* line 529, ../sass/main.scss */
+  /* line 533, ../sass/main.scss */
   h1 {
     font-size: 32px;
     margin: 0 0 50px 0;
   }
 
-  /* line 533, ../sass/main.scss */
+  /* line 537, ../sass/main.scss */
   p {
     margin: 0 0 30px 0;
   }
 
-  /* line 534, ../sass/main.scss */
+  /* line 538, ../sass/main.scss */
   #desc p {
     font-size: 22px;
     letter-spacing: 1px;
   }
 
-  /* line 539, ../sass/main.scss */
+  /* line 543, ../sass/main.scss */
   #tocText li {
     font-size: 24px;
   }
 
-  /* line 545, ../sass/main.scss */
+  /* line 549, ../sass/main.scss */
   #back-cover h1 {
     font-size: 28px;
   }
-  /* line 548, ../sass/main.scss */
+  /* line 552, ../sass/main.scss */
   #back-cover blockquote.review {
     font-size: 23px;
   }
 
-  /* line 553, ../sass/main.scss */
+  /* line 557, ../sass/main.scss */
   .copyright {
     font-size: 22px;
   }
