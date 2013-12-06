@@ -289,18 +289,13 @@
     <div class="right chapter">
         <img src="/images/chap-rules.png" />
     </div>
-    <div class="left">
+    <div class="left text-heavy">
         <?php include "includes/rules1.html"; ?>
     </div>
-    <div class="right">
+    <div class="right text-heavy">
         <?php include "includes/rules2.html"; ?>
     </div>
-    <div class="left">
-        <?php include "includes/rules3.html"; ?>
-    </div>
-    <div class="right">
-      <p class="copyright">&copy;2013 Christine McClure (design and content)</p>
-    </div>
+
     <!--  BACK COVER-->
   <div id="back-cover">
     <h1>Early reviews for portfolio</h1>
@@ -316,6 +311,7 @@
     <h4>Yvonne McClure</h4>
     <p>skeptical parent</p>
     <blockquote class="review">"What's this degree you're getting again?"</blockquote>
+    <p class="copyright">&copy;2013 Christine McClure (design and content)</p>
   </div>
 
 </div>
