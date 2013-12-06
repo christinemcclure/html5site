@@ -501,7 +501,7 @@ h1 {
 
 @media (min-width: 1100px) {
   /* line 363, ../sass/main.scss */
-  p, li, h4 {
+  p, li, h4, .text-heavy {
     font-size: 15px;
   }
 

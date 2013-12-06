@@ -360,7 +360,7 @@ nav{
 @media (min-width: 1100px) {
 
     body {$fontSize: 15px;}
-    p, li, h4{
+    p, li, h4, .text-heavy{
       font-size: $fontSize;
     }
     h3, h4 {
