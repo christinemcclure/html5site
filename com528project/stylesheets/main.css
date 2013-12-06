@@ -81,7 +81,7 @@ h1, h2, h3, h4, p, li, a {
 /* line 26, ../sass/main.scss */
 body {
   margin: 0;
-  padding: 10px 20px 20px 20px;
+  padding: 1% 1% 4% 1%;
   background: #f0cc99 url(/images/wood.jpg);
   background-size: contain;
   font-family: "Questrial", Verdana, Arial, sans-serif;
