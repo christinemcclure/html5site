@@ -107,8 +107,7 @@ a {
   width: 100px;
   font-family: $tocFont;
   font-size: 12px; // don't tie to variable
-  text-align:center;
-  float:left;
+  text-align:center; 
   padding: 4px 2px;
   border: 1px solid $dkBrown;
   background: lighten($orange, 20%);
