@@ -481,27 +481,52 @@ h1 {
   }
 
   /* line 348, ../sass/main.scss */
+  p {
+    margin: 0 0 16px 0;
+  }
+
+  /* line 349, ../sass/main.scss */
   #desc p {
     font-size: 13px;
     letter-spacing: 1px;
   }
 
-  /* line 353, ../sass/main.scss */
+  /* line 354, ../sass/main.scss */
   #tocText li {
     font-size: 15px;
   }
 
-  /* line 359, ../sass/main.scss */
+  /* line 360, ../sass/main.scss */
   #back-cover h1 {
     font-size: 19px;
   }
-  /* line 362, ../sass/main.scss */
+  /* line 363, ../sass/main.scss */
   #back-cover blockquote.review {
     font-size: 14px;
   }
 
-  /* line 367, ../sass/main.scss */
+  /* line 368, ../sass/main.scss */
   .copyright {
     font-size: 13px;
+  }
+}
+@media (min-width: 1300px) {
+  /* line 373, ../sass/main.scss */
+  .left {
+    margin: 30px 50px 40px 20px;
+  }
+
+  /* line 377, ../sass/main.scss */
+  .right {
+    margin: 30px 20px 40px 50px;
+  }
+
+  /* line 381, ../sass/main.scss */
+  #back-cover {
+    padding: 30px 50px 40px 30px;
+  }
+  /* line 383, ../sass/main.scss */
+  #back-cover blockquote.review {
+    margin: 0 0 20px 0;
   }
 }

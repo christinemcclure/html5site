@@ -308,7 +308,7 @@ nav{
 
 // BACK COVER
  #back-cover {
-  padding: 10px 20px 10px 10px;;
+  padding: 10px 20px 10px 10px;
   text-align: right;
   h1 {
     font-size: $fontSize + 4px;
@@ -345,6 +345,7 @@ nav{
     h1 {
       font-size: $fontSize + 8px;
     }
+    p{margin: 0 0 16px 0;}
     #desc p {
       font-size: $fontSize - 2px;
       letter-spacing: $normalSpacing;
@@ -366,4 +367,22 @@ nav{
 
   .copyright{font-size: $fontSize - 2px;}
 
+}
+
+@media (min-width: 1300px) {
+  .left {
+    margin: 30px 50px 40px 20px;
+  }
+
+  .right{
+    margin: 30px 20px 40px 50px;
+  }
+
+ #back-cover {
+    padding: 30px 50px 40px 30px;
+    blockquote.review {
+      margin: 0 0 20px 0;
+    }
+
+  }
 }
