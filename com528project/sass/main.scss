@@ -54,7 +54,6 @@ blockquote {
   border: 2px solid $orange;
   font-family: $tocFont;
   font-weight: 400;
-  font-size: 12px;
   @include border-radius(10px);
 }
 
@@ -281,6 +280,8 @@ nav{
   #tocText li {
     font-size: $fontSize;
     margin: 0 0 6px 0;
+
+
 }
 
 
@@ -303,6 +304,7 @@ nav{
 }
 
 #text-quote{
+  text-align:left;
   margin: 30px 0 0 0;
 }
 
@@ -423,5 +425,45 @@ nav{
   }
 
   .copyright{font-size: $fontSize - 2px;}
+
+}
+
+@media (min-width: 1600px) {
+
+    body {$fontSize: 20px;}
+    p, li, h4{
+      font-size: $fontSize;
+    }
+    h3, h4 {
+      font-size: $fontSize;
+    }
+    h2 {
+      font-size: $fontSize + 2px;
+    }
+    h1 {
+      font-size: $fontSize + 8px;
+    }
+    p{margin: 0 0 16px 0;}
+    #desc p {
+      font-size: $fontSize - 2px;
+      letter-spacing: $normalSpacing;
+    } // home page intro
+
+    #tocText li {
+      font-size: $fontSize;
+  }
+
+  .copyright{font-size: $fontSize - 2px;}
+  blockquote{font-size: $fontSize + 1px;}
+
+   #back-cover {
+    h1 {
+      font-size: $fontSize + 4px;
+    }
+    blockquote.review {
+      font-size: $fontSize - 1px;
+    }
+  }
+
 
 }
