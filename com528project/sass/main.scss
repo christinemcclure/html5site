@@ -110,8 +110,9 @@ a {
   text-align:center; 
   padding: 4px 2px;
   border: 1px solid $dkBrown;
-  background: lighten($orange, 20%);
-  @include border-radius(100px);
+  color: $dkBrown;
+  background: rgba(lighten($dkBrown, 30%), .3);
+  @include border-radius(8px);
 }
 img {
   max-width: 100%;

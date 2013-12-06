@@ -200,21 +200,22 @@ a {
   text-align: center;
   padding: 4px 2px;
   border: 1px solid #281b12;
-  background: #fac280;
-  -webkit-border-radius: 100px;
-  -moz-border-radius: 100px;
-  -ms-border-radius: 100px;
-  -o-border-radius: 100px;
-  border-radius: 100px;
+  color: #281b12;
+  background: rgba(146, 98, 65, 0.3);
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  border-radius: 8px;
 }
 
-/* line 116, ../sass/main.scss */
+/* line 117, ../sass/main.scss */
 img {
   max-width: 100%;
   max-height: 100%;
 }
 
-/* line 122, ../sass/main.scss */
+/* line 123, ../sass/main.scss */
 .warning {
   font-style: "Montserrat", Verdana, Arial, sans-serif;
   font-weight: bold;
@@ -224,7 +225,7 @@ img {
   padding: 10px 20px;
 }
 
-/* line 131, ../sass/main.scss */
+/* line 132, ../sass/main.scss */
 #desc {
   background: rgba(209, 135, 31, 0.3);
   border: 3px solid rgba(31, 20, 5, 0.2);
@@ -235,11 +236,11 @@ img {
   font-family: "Montserrat", Verdana, Arial, sans-serif;
   font-weight: 500;
 }
-/* line 140, ../sass/main.scss */
+/* line 141, ../sass/main.scss */
 #desc a {
   padding: 0;
 }
-/* line 141, ../sass/main.scss */
+/* line 142, ../sass/main.scss */
 #desc .heading {
   width: 30%;
   display: inline-block;
@@ -248,14 +249,14 @@ img {
   font-weight: 600;
   margin: 2px 4px;
 }
-/* line 149, ../sass/main.scss */
+/* line 150, ../sass/main.scss */
 #desc .item {
   display: inline-block;
   float: left;
   margin: 2px 2px 4px 2px;
 }
 
-/* line 162, ../sass/main.scss */
+/* line 163, ../sass/main.scss */
 #tocText li {
   font-family: "Montserrat", Verdana, Arial, sans-serif;
   font-weight: 500;
@@ -263,47 +264,47 @@ img {
   letter-spacing: 4px;
   text-align: right;
 }
-/* line 170, ../sass/main.scss */
+/* line 171, ../sass/main.scss */
 #tocText a {
   padding: 4px 8px;
 }
-/* line 172, ../sass/main.scss */
+/* line 173, ../sass/main.scss */
 #tocText a:hover {
   letter-spacing: 8px;
   font-weight: 700;
 }
 
-/* line 178, ../sass/main.scss */
+/* line 179, ../sass/main.scss */
 #tocImages img {
   width: 100%;
   margin: 0 auto;
 }
 
-/* line 184, ../sass/main.scss */
+/* line 185, ../sass/main.scss */
 nav {
   width: 60%;
   margin: 0 auto;
   text-align: center;
 }
-/* line 188, ../sass/main.scss */
+/* line 189, ../sass/main.scss */
 nav p {
   width: 150px;
   display: inline-block;
 }
-/* line 192, ../sass/main.scss */
+/* line 193, ../sass/main.scss */
 nav .nav-left {
   width: 40%;
   display: inline-block;
   float: right;
 }
-/* line 197, ../sass/main.scss */
+/* line 198, ../sass/main.scss */
 nav .nav-right {
   width: 40%;
   display: inline-block;
   float: left;
 }
 
-/* line 208, ../sass/main.scss */
+/* line 209, ../sass/main.scss */
 .booklet .b-wrap-left {
   background: url(/images/notebook-left.png);
   background-size: contain;
@@ -311,7 +312,7 @@ nav .nav-right {
   background-repeat: no-repeat;
 }
 
-/* line 217, ../sass/main.scss */
+/* line 218, ../sass/main.scss */
 .booklet .b-wrap-right {
   background: url(/images/notebook-right.png);
   background-size: contain;
@@ -319,7 +320,7 @@ nav .nav-right {
   background-repeat: no-repeat;
 }
 
-/* line 226, ../sass/main.scss */
+/* line 227, ../sass/main.scss */
 .booklet .b-page-1 .b-wrap-right {
   background: url(/images/cover.png);
   background-size: contain;
@@ -327,7 +328,7 @@ nav .nav-right {
   background-repeat: no-repeat;
 }
 
-/* line 234, ../sass/main.scss */
+/* line 235, ../sass/main.scss */
 .booklet .b-page-78 .b-wrap-left {
   background: url(/images/back-cover.png);
   background-size: contain;
@@ -335,12 +336,12 @@ nav .nav-right {
   background-repeat: no-repeat;
 }
 
-/* line 242, ../sass/main.scss */
+/* line 243, ../sass/main.scss */
 .booklet .b-page-0 .b-wrap-left, .booklet .b-page-79 .b-wrap-right {
   background: none;
 }
 
-/* line 246, ../sass/main.scss */
+/* line 247, ../sass/main.scss */
 .booklet .b-page-3 .b-wrap-right {
   background: url(/images/toc/toc-background.png);
   background-size: contain;
@@ -348,106 +349,106 @@ nav .nav-right {
   background-position: top right;
 }
 
-/* line 254, ../sass/main.scss */
+/* line 255, ../sass/main.scss */
 .booklet .b-arrow-prev {
   left: -50px;
 }
 
-/* line 262, ../sass/main.scss */
+/* line 263, ../sass/main.scss */
 p, li, h4 {
   font-size: 12px;
 }
 
-/* line 265, ../sass/main.scss */
+/* line 266, ../sass/main.scss */
 p {
   margin: 0 0 10px 0;
 }
 
-/* line 266, ../sass/main.scss */
+/* line 267, ../sass/main.scss */
 li {
   margin: 0 0 4px 0;
 }
 
-/* line 267, ../sass/main.scss */
+/* line 268, ../sass/main.scss */
 h3, h4 {
   font-size: 12px;
   margin: 0 0 10px 0;
 }
 
-/* line 271, ../sass/main.scss */
+/* line 272, ../sass/main.scss */
 h2 {
   font-size: 14px;
   margin: 0 0 15px 0;
 }
 
-/* line 275, ../sass/main.scss */
+/* line 276, ../sass/main.scss */
 h1 {
   font-size: 20px;
   margin: 0 0 20px 0;
 }
 
-/* line 279, ../sass/main.scss */
+/* line 280, ../sass/main.scss */
 #desc p {
   font-size: 10px;
   letter-spacing: 0;
 }
 
-/* line 280, ../sass/main.scss */
+/* line 281, ../sass/main.scss */
 #tocText li {
   font-size: 12px;
   margin: 0 0 6px 0;
 }
 
-/* line 287, ../sass/main.scss */
+/* line 288, ../sass/main.scss */
 .left img, .right img {
   width: 80%;
   margin: 15px 0;
 }
-/* line 291, ../sass/main.scss */
+/* line 292, ../sass/main.scss */
 .left .fit, .right .fit {
   width: 70%;
 }
-/* line 294, ../sass/main.scss */
+/* line 295, ../sass/main.scss */
 .left .small, .right .small {
   width: 55%;
 }
 
-/* line 296, ../sass/main.scss */
+/* line 297, ../sass/main.scss */
 .left {
   margin: 10px 30px 20px 10px;
 }
 
-/* line 300, ../sass/main.scss */
+/* line 301, ../sass/main.scss */
 .right {
   margin: 10px 10px 20px 30px;
 }
 
-/* line 304, ../sass/main.scss */
+/* line 305, ../sass/main.scss */
 #text-quote {
   margin: 30px 0 0 0;
 }
 
-/* line 309, ../sass/main.scss */
+/* line 310, ../sass/main.scss */
 #back-cover {
   padding: 10px 20px 10px 10px;
   text-align: right;
 }
-/* line 312, ../sass/main.scss */
+/* line 313, ../sass/main.scss */
 #back-cover h1 {
   font-size: 16px;
   margin: 0 0 30px 0;
 }
-/* line 316, ../sass/main.scss */
+/* line 317, ../sass/main.scss */
 #back-cover p {
   margin: 0;
   color: #2b388f;
 }
-/* line 317, ../sass/main.scss */
+/* line 318, ../sass/main.scss */
 #back-cover h4 {
   margin: 0;
   color: #f6921e;
 }
-/* line 321, ../sass/main.scss */
+/* line 322, ../sass/main.scss */
 #back-cover blockquote.review {
   font-size: 11px;
   margin: 0 0 12px 0;
@@ -459,47 +460,47 @@ h1 {
 }
 
 @media (min-width: 1100px) {
-  /* line 335, ../sass/main.scss */
+  /* line 336, ../sass/main.scss */
   p, li, h4 {
     font-size: 15px;
   }
 
-  /* line 338, ../sass/main.scss */
+  /* line 339, ../sass/main.scss */
   h3, h4 {
     font-size: 15px;
   }
 
-  /* line 341, ../sass/main.scss */
+  /* line 342, ../sass/main.scss */
   h2 {
     font-size: 17px;
   }
 
-  /* line 344, ../sass/main.scss */
+  /* line 345, ../sass/main.scss */
   h1 {
     font-size: 23px;
   }
 
-  /* line 347, ../sass/main.scss */
+  /* line 348, ../sass/main.scss */
   #desc p {
     font-size: 13px;
     letter-spacing: 1px;
   }
 
-  /* line 352, ../sass/main.scss */
+  /* line 353, ../sass/main.scss */
   #tocText li {
     font-size: 15px;
   }
 
-  /* line 358, ../sass/main.scss */
+  /* line 359, ../sass/main.scss */
   #back-cover h1 {
     font-size: 19px;
   }
-  /* line 361, ../sass/main.scss */
+  /* line 362, ../sass/main.scss */
   #back-cover blockquote.review {
     font-size: 14px;
   }
 
-  /* line 366, ../sass/main.scss */
+  /* line 367, ../sass/main.scss */
   .copyright {
     font-size: 13px;
   }
