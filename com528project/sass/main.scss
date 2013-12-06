@@ -276,6 +276,7 @@ nav{
     }
   }
 
+  nav{font-size: $fontSize + 4px;}
 
   h3, h4 {
     font-size: $fontSize;
@@ -440,7 +441,6 @@ nav{
   }
   #text-quote{font-size: $fontSize + 1px;}
 
-
   ul.fg li {
     margin: 0 0 20px 0;
   }
@@ -496,6 +496,8 @@ nav{
   .words-list li {
     font-size: $fontSize + 2px;
   }
+
+  nav{font-size: $fontSize + 6px;}
 
   .copyright{font-size: $fontSize - 2px;}
   blockquote{font-size: $fontSize + 1px;}
