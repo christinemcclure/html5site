@@ -530,3 +530,54 @@ h1 {
     margin: 0 0 20px 0;
   }
 }
+@media (min-width: 1400px) {
+  /* line 393, ../sass/main.scss */
+  p, li, h4 {
+    font-size: 18px;
+  }
+
+  /* line 396, ../sass/main.scss */
+  h3, h4 {
+    font-size: 18px;
+  }
+
+  /* line 399, ../sass/main.scss */
+  h2 {
+    font-size: 20px;
+  }
+
+  /* line 402, ../sass/main.scss */
+  h1 {
+    font-size: 26px;
+  }
+
+  /* line 405, ../sass/main.scss */
+  p {
+    margin: 0 0 16px 0;
+  }
+
+  /* line 406, ../sass/main.scss */
+  #desc p {
+    font-size: 16px;
+    letter-spacing: 1px;
+  }
+
+  /* line 411, ../sass/main.scss */
+  #tocText li {
+    font-size: 18px;
+  }
+
+  /* line 417, ../sass/main.scss */
+  #back-cover h1 {
+    font-size: 22px;
+  }
+  /* line 420, ../sass/main.scss */
+  #back-cover blockquote.review {
+    font-size: 17px;
+  }
+
+  /* line 425, ../sass/main.scss */
+  .copyright {
+    font-size: 16px;
+  }
+}
