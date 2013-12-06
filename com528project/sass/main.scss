@@ -264,6 +264,19 @@ nav{
   }
   p{margin: 0 0 10px 0;}
   li {margin: 0 0 4px 0;}
+
+
+  ul.fg li {
+    width: 60%;
+    float:right;
+    margin: 0 0 10px 0;
+    p {
+      margin: 0;
+      color: $mdBlue;
+    }
+  }
+
+
   h3, h4 {
     font-size: $fontSize;
     margin: 0 0 10px 0;
@@ -280,9 +293,7 @@ nav{
   #tocText li {
     font-size: $fontSize;
     margin: 0 0 6px 0;
-
-
-}
+  }
 
 
 .left, .right {
@@ -428,6 +439,12 @@ nav{
       font-size: $fontSize;
   }
   #text-quote{font-size: $fontSize + 1px;}
+
+
+  ul.fg li {
+    margin: 0 0 20px 0;
+  }
+
 
   .words-list li {
     font-size: $fontSize + 2px;
