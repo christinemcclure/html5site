@@ -11,7 +11,7 @@ Continuation of COM528 repo. Folded it into this repo as it will all live in the
 + [x] Review samples of portfolio/notebook images. Use similar to [this](http://bookhistory.harvard.edu/takenote/sites/default/files/collection_images/Godard%20field%20notebook_0.jpg).
 + [x] Create background images of spiral notebook binding and edges (with shadow).
 + [x] Make final decisions on color scheme.
-+ [ ] Add Rule and Randomness description
++ [x] Add Rule and Randomness description
 + [x] Place each ToC image in its own location
 + [x] Place ToC text
 + [x] Create hover function
@@ -20,8 +20,9 @@ Continuation of COM528 repo. Folded it into this repo as it will all live in the
 + [x] Add logo icons to nav (rejected)
 + [x] Change style for images to match book layout
 + [x] Consider layout of instruction text (rejected)
-+ [ ] Responsive style rules
-+ [ ] JUST PRIOR TO TURNING IN: Verify every page anchor in ToC.
++ [x] Responsive style rules
++ [x] JUST PRIOR TO TURNING IN: Verify every page anchor in ToC.
++ [ ] Clean up style rules -- make media queries more concise
 
 
 
