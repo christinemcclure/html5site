@@ -539,100 +539,103 @@ h1 {
   /* line 398, ../sass/main.scss */
   h3, h4 {
     font-size: 18px;
+    margin: 0 0 16px 0;
   }
 
-  /* line 401, ../sass/main.scss */
+  /* line 402, ../sass/main.scss */
   h2 {
     font-size: 20px;
+    margin: 0 0 20px 0;
   }
 
-  /* line 404, ../sass/main.scss */
+  /* line 406, ../sass/main.scss */
   h1 {
     font-size: 26px;
+    margin: 0 0 20px 0;
   }
 
-  /* line 407, ../sass/main.scss */
+  /* line 410, ../sass/main.scss */
   p {
     margin: 0 0 16px 0;
   }
 
-  /* line 408, ../sass/main.scss */
+  /* line 411, ../sass/main.scss */
   #desc p {
     font-size: 16px;
     letter-spacing: 1px;
   }
 
-  /* line 413, ../sass/main.scss */
+  /* line 416, ../sass/main.scss */
   #tocText li {
     font-size: 18px;
   }
 
-  /* line 419, ../sass/main.scss */
+  /* line 422, ../sass/main.scss */
   #back-cover h1 {
     font-size: 22px;
   }
-  /* line 422, ../sass/main.scss */
+  /* line 425, ../sass/main.scss */
   #back-cover blockquote.review {
     font-size: 17px;
   }
 
-  /* line 427, ../sass/main.scss */
+  /* line 430, ../sass/main.scss */
   .copyright {
     font-size: 16px;
   }
 }
 @media (min-width: 1600px) {
-  /* line 434, ../sass/main.scss */
+  /* line 437, ../sass/main.scss */
   p, li, h4 {
     font-size: 20px;
   }
 
-  /* line 437, ../sass/main.scss */
+  /* line 440, ../sass/main.scss */
   h3, h4 {
     font-size: 20px;
   }
 
-  /* line 440, ../sass/main.scss */
+  /* line 443, ../sass/main.scss */
   h2 {
     font-size: 22px;
   }
 
-  /* line 443, ../sass/main.scss */
+  /* line 446, ../sass/main.scss */
   h1 {
     font-size: 28px;
   }
 
-  /* line 446, ../sass/main.scss */
+  /* line 449, ../sass/main.scss */
   p {
     margin: 0 0 16px 0;
   }
 
-  /* line 447, ../sass/main.scss */
+  /* line 450, ../sass/main.scss */
   #desc p {
     font-size: 18px;
     letter-spacing: 1px;
   }
 
-  /* line 452, ../sass/main.scss */
+  /* line 455, ../sass/main.scss */
   #tocText li {
     font-size: 20px;
   }
 
-  /* line 456, ../sass/main.scss */
+  /* line 459, ../sass/main.scss */
   .copyright {
     font-size: 18px;
   }
 
-  /* line 457, ../sass/main.scss */
+  /* line 460, ../sass/main.scss */
   blockquote {
     font-size: 21px;
   }
 
-  /* line 460, ../sass/main.scss */
+  /* line 463, ../sass/main.scss */
   #back-cover h1 {
     font-size: 24px;
   }
-  /* line 463, ../sass/main.scss */
+  /* line 466, ../sass/main.scss */
   #back-cover blockquote.review {
     font-size: 19px;
   }

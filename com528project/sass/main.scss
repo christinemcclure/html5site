@@ -397,12 +397,15 @@ nav{
     }
     h3, h4 {
       font-size: $fontSize;
+      margin: 0 0 16px 0;
     }
     h2 {
       font-size: $fontSize + 2px;
+      margin: 0 0 20px 0;
     }
     h1 {
       font-size: $fontSize + 8px;
+      margin: 0 0 20px 0;
     }
     p{margin: 0 0 16px 0;}
     #desc p {
