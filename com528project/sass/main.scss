@@ -304,6 +304,7 @@ nav{
 }
 
 #text-quote{
+  font-size: $fontSize - 1px;
   text-align:left;
   margin: 30px 0 0 0;
 }
@@ -356,7 +357,7 @@ nav{
     #tocText li {
       font-size: $fontSize;
   }
-
+  #text-quote{font-size: $fontSize;}
 
    #back-cover {
     h1 {
@@ -416,6 +417,7 @@ nav{
     #tocText li {
       font-size: $fontSize;
   }
+  #text-quote{font-size: $fontSize + 1px;}
 
 
    #back-cover {
