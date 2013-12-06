@@ -585,6 +585,10 @@ h1 {
   #back-cover blockquote.review {
     margin: 0 0 20px 0;
   }
+  /* line 423, ../sass/main.scss */
+  #back-cover .copyright {
+    right: 60px;
+  }
 }
 @media (min-width: 1400px) {
   /* line 430, ../sass/main.scss */
