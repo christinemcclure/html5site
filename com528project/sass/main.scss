@@ -309,6 +309,12 @@ nav{
   margin: 30px 0 0 0;
 }
 
+.words-list li {
+  font-size: $fontSize + 2px;
+  list-style: disc;
+  margin-left: 30px;
+}
+
 // BACK COVER
  #back-cover {
   padding: 10px 20px 10px 10px;
@@ -358,6 +364,10 @@ nav{
       font-size: $fontSize;
   }
   #text-quote{font-size: $fontSize;}
+
+  .words-list li {
+    font-size: $fontSize + 2px;
+  }
 
    #back-cover {
     h1 {
@@ -419,6 +429,10 @@ nav{
   }
   #text-quote{font-size: $fontSize + 1px;}
 
+  .words-list li {
+    font-size: $fontSize + 2px;
+    margin-bottom: 10px;
+  }
 
    #back-cover {
     h1 {
@@ -461,6 +475,9 @@ nav{
 
     #tocText li {
       font-size: $fontSize;
+  }
+  .words-list li {
+    font-size: $fontSize + 2px;
   }
 
   .copyright{font-size: $fontSize - 2px;}
