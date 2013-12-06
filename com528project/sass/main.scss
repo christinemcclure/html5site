@@ -470,3 +470,45 @@ nav{
 
 
 }
+
+@media (min-width: 2000px) {
+
+    body {$fontSize: 24px;}
+    p, li, h4{
+      font-size: $fontSize;
+    }
+    h3, h4 {
+      font-size: $fontSize;
+      margin: 0 0 30px 0;
+    }
+    h2 {
+      font-size: $fontSize + 2px;
+      margin: 0 0 40px 0;
+    }
+    h1 {
+      font-size: $fontSize + 8px;
+      margin: 0 0 50px 0;
+    }
+    p{margin: 0 0 30px 0;}
+    #desc p {
+      font-size: $fontSize - 2px;
+      letter-spacing: $normalSpacing;
+    } // home page intro
+
+    #tocText li {
+      font-size: $fontSize;
+  }
+
+
+   #back-cover {
+    h1 {
+      font-size: $fontSize + 4px;
+    }
+    blockquote.review {
+      font-size: $fontSize - 1px;
+    }
+  }
+
+  .copyright{font-size: $fontSize - 2px;}
+
+}

@@ -640,3 +640,57 @@ h1 {
     font-size: 19px;
   }
 }
+@media (min-width: 2000px) {
+  /* line 477, ../sass/main.scss */
+  p, li, h4 {
+    font-size: 24px;
+  }
+
+  /* line 480, ../sass/main.scss */
+  h3, h4 {
+    font-size: 24px;
+    margin: 0 0 30px 0;
+  }
+
+  /* line 484, ../sass/main.scss */
+  h2 {
+    font-size: 26px;
+    margin: 0 0 40px 0;
+  }
+
+  /* line 488, ../sass/main.scss */
+  h1 {
+    font-size: 32px;
+    margin: 0 0 50px 0;
+  }
+
+  /* line 492, ../sass/main.scss */
+  p {
+    margin: 0 0 30px 0;
+  }
+
+  /* line 493, ../sass/main.scss */
+  #desc p {
+    font-size: 22px;
+    letter-spacing: 1px;
+  }
+
+  /* line 498, ../sass/main.scss */
+  #tocText li {
+    font-size: 24px;
+  }
+
+  /* line 504, ../sass/main.scss */
+  #back-cover h1 {
+    font-size: 28px;
+  }
+  /* line 507, ../sass/main.scss */
+  #back-cover blockquote.review {
+    font-size: 23px;
+  }
+
+  /* line 512, ../sass/main.scss */
+  .copyright {
+    font-size: 22px;
+  }
+}
