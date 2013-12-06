@@ -492,7 +492,8 @@ nav{
 
     #tocText li {
       font-size: $fontSize;
-  }
+      margin: 0 0 16px 0;
+    }
   .words-list li {
     font-size: $fontSize + 2px;
   }
