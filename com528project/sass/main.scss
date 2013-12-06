@@ -329,3 +329,41 @@ nav{
     font-style: italic;
   }
 }
+
+@media (min-width: 1100px) {
+
+    body {$fontSize: 15px;}
+    p, li, h4{
+      font-size: $fontSize;
+    }
+    h3, h4 {
+      font-size: $fontSize;
+    }
+    h2 {
+      font-size: $fontSize + 2px;
+    }
+    h1 {
+      font-size: $fontSize + 8px;
+    }
+    #desc p {
+      font-size: $fontSize - 2px;
+      letter-spacing: $normalSpacing;
+    } // home page intro
+
+    #tocText li {
+      font-size: $fontSize;
+  }
+
+
+   #back-cover {
+    h1 {
+      font-size: $fontSize + 4px;
+    }
+    blockquote.review {
+      font-size: $fontSize - 1px;
+    }
+  }
+
+  .copyright{font-size: $fontSize - 2px;}
+
+}
