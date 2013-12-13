@@ -576,3 +576,35 @@ nav{
   .copyright{font-size: $fontSize - 2px;bottom: 60px;}
 
 }
+
+
+body.noPortfolio {
+ $fontSize: 16px;
+  p, li, h4{
+    font-size: $fontSize;
+  }
+  .text-heavy p, blockquote {font-size: $fontSize - 1px;}
+
+  nav{font-size: $fontSize + 4px;}
+
+  h3, h4 {
+    font-size: $fontSize;
+  }
+  h2 {
+    font-size: $fontSize + 2px;
+  }
+  h1 {
+    font-size: $fontSize + 8px;
+  }
+  .left, .right{
+    padding: 20px;
+    width: 80%;
+    margin: 0 auto;
+  }
+  .copyright {
+    position: relative;
+    bottom: 0;
+    right: 0;
+  }
+ 
+}
