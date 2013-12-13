@@ -10,7 +10,7 @@ var tocImages = new Array ('intro','letters','words','text','plp','symmAsymm',
     var winWidth = $(window).width();
     var minWin = 900;
     var aspectRatio = Math.round((winWidth/winHeight)*100)/100;
-    var limit = 2.38
+    var limit = 2.38;
 //    alert('width: '+ winWidth + ' height: '+winHeight +' aspect ratio: ' + aspectRatio);
  
     if ( (winWidth < minWin) || (winHeight < winWidth/limit) ){
