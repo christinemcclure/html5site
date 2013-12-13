@@ -18,6 +18,7 @@ var tocImages = new Array ('intro','letters','words','text','plp','symmAsymm',
       $('#noJS').text('All elements of this portfolio are visible, but viewing it in booklet form requires a screen width of at least ' + minWin + ' pixels wide and '+
         'a maximum height-to-width ratio of 1 to '+ limit+ '. Your browser is '+ winWidth + ' pixels wide with a height-to-width ratio is  1 to ' +
         aspectRatio +'.');
+      $('body').addClass('noPortfolio');
       return; // don't initialize for small screens or portrait mode
     }
 
