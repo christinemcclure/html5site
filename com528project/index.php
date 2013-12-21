@@ -7,7 +7,7 @@
     <p id="noJS" class="warning">All elements of this portfolio are visible, but viewing it in booklet form requires JavaScript</p>
 
     <div id="desc">
-        <p class="heading">Project:</p>   <p class="item">Portfolio in book form</p>
+        <p class="heading">Project:</p>   <p class="item">Portfolio book</p>
         <p class="heading">Class:</p>      <p class="item">Document Design</p>
         <p class="heading">Semester:</p>      <p class="item">Fall 2013</p>
         <p class="heading">Degree:</p>     <p class="item"><a href="http://www.iit.edu/human-sciences/hum/programs/grad/iarc.shtml">M.S., Information Architecture</a></p>
