@@ -10,21 +10,19 @@ because they are still in development
 /* Generic references used in the other files */
 /* line 14, ../sass/css3.scss */
 #homePage img, header, .page, select, #homePage nav#photo li, #homePage nav#lib li {
-  -moz-border-radius: 10px;
   -webkit-border-radius: 10px;
-  -o-border-radius: 10px;
+  -moz-border-radius: 10px;
   -ms-border-radius: 10px;
-  -khtml-border-radius: 10px;
+  -o-border-radius: 10px;
   border-radius: 10px;
 }
 
 /* line 19, ../sass/css3.scss */
 #homePage img, header, .page, input, textarea {
-  -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
-  -o-border-radius: 5px;
+  -moz-border-radius: 5px;
   -ms-border-radius: 5px;
-  -khtml-border-radius: 5px;
+  -o-border-radius: 5px;
   border-radius: 5px;
 }
 

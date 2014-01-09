@@ -3,14 +3,14 @@
   <title>Christine McClure -- Portfolio</title>
 </head>
 
-<body id="portfolio">
+<body id="projects">
 
 <div class="page">
 <?php include($_SERVER['DOCUMENT_ROOT']."/includes/header.html"); ?>
 <?php include($_SERVER['DOCUMENT_ROOT']."/includes/nav.html"); ?>
 
 	<section>
-  	<h1 class="top">Portfolio</h1>
+  	<h1 class="top">Projects</h1>
 		<p>Here are a few things I've designed over the years...</p>
 		<h2>Websites</h2>
 		<p>This one, of course. The latest rendition of christinemcclure.com is an exercise in:</p>
@@ -35,10 +35,10 @@
 
     <h2>Images</h2>
 			<ul id="ulGallery1" class="print">
-				<li><p>Business card for a Chicago tavern</p><img src="/img/portfolio/carys_card.jpg" alt="Satirical book cover in pulp fiction style of a man telling a woman: Get your coat, dollface. We\'re going to Cary's." /></li>
-				<li><p>Logo for a software testing company</p><img src="/img/portfolio/11th-hr.png" alt="Eleventh Hour is the company name, and the logo features a stylized clock with the 11 marker in red." /></li>
-				<li><p>Promotional t-shirt for a software testing company</p><img src="/img/portfolio/shirtBack.jpg" alt="Photo of Dr. Frankenstein and Igor in the lab, about to bring the monster to life." /></li>
-				<li><p>Presentation slide</p><img src="/img/portfolio/kolb.png" alt="Image of Kolb\'s Experiential Learning Styles" /></li>
+				<li><p>Business card for a Chicago tavern</p><img src="/img/projects/carys_card.jpg" alt="Satirical book cover in pulp fiction style of a man telling a woman: Get your coat, dollface. We\'re going to Cary's." /></li>
+				<li><p>Logo for a software testing company</p><img src="/img/projects/11th-hr.png" alt="Eleventh Hour is the company name, and the logo features a stylized clock with the 11 marker in red." /></li>
+				<li><p>Promotional t-shirt for a software testing company</p><img src="/img/projects/shirtBack.jpg" alt="Photo of Dr. Frankenstein and Igor in the lab, about to bring the monster to life." /></li>
+				<li><p>Presentation slide</p><img src="/img/projects/kolb.png" alt="Image of Kolb\'s Experiential Learning Styles" /></li>
 			</ul>
     <div id="gallery1" class="photoSwipe">
 		</div>
@@ -53,16 +53,16 @@
 				var gallery1;		
 				gallery1 = PhotoSwipe.attach(
 					[
-						{ url: '/img/portfolio/carys_card.jpg', 
+						{ url: '/img/projects/carys_card.jpg', 
 								alt:'Satirical book cover in pulp fiction style of a man telling a woman: "Get your coat, dollface. We\'re going to Cary\'s."',
 								caption: 'Business card for a Chicago tavern'},
-						{ url: '/img/portfolio/11th-hr.png', 
+						{ url: '/img/projects/11th-hr.png', 
 								alt:'Eleventh Hour is the company name, and the logo features a stylized clock with the 11 marker in red.',
 								caption: 'Logo for a software testing company'},
-						{ url: '/img/portfolio/shirtBack.jpg', 
+						{ url: '/img/projects/shirtBack.jpg', 
 								alt:'photo of Dr. Frankenstein and Igor in the lab, about to bring the monster to life.',
 								caption:'Promotional t-shirt for a software testing company'},
-						{ url: '/img/portfolio/kolb.png', 
+						{ url: '/img/projects/kolb.png', 
 								alt:'image of Kolb\'s Experiential Learning Styles',
 								caption: 'Presentation graphic'}								
 					],

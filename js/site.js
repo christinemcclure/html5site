@@ -3,7 +3,7 @@ $(document).ready(function() {
 	var maxHeightPhoto = 500;
 	var maxWinHeight = 0.8;
 	var bodyID = $('body').attr('id'); // get bodyID so can set navType to lib or photo 
-	var libPageArray = new Array("resume","portfolio","lab", "contactLib");
+	var libPageArray = new Array("resume","projects","lab", "contactLib");
 	var navType;
 	for(var i=0; i<libPageArray.length; i++) {
 		if (libPageArray[i].indexOf(bodyID)>= 0) {
