@@ -467,12 +467,44 @@ header a {
 #homePage nav li {
   font-size: 9px;
 }
-/* line 197, ../sass/screen.scss */
+/* line 198, ../sass/screen.scss */
+#homePage #galleries ul li {
+  width: 20%;
+  margin: 0 0 0 6%;
+  float: left;
+  text-align: center;
+}
+/* line 204, ../sass/screen.scss */
+#homePage #galleries ul li:first-child {
+  margin: 0;
+}
+/* line 207, ../sass/screen.scss */
+#homePage #galleries ul a p {
+  margin: 0;
+  font-weight: normal;
+  color: #322938;
+}
+/* line 214, ../sass/screen.scss */
+#homePage #photoIntro {
+  clear: both;
+  margin: 134px 0 22px 0;
+}
+/* line 219, ../sass/screen.scss */
+#homePage #libFigure {
+  width: 20%;
+  margin: 0 6% 0 0;
+  float: left;
+}
+/* line 225, ../sass/screen.scss */
+#homePage #libIntro {
+  margin: 0 0 44px 0;
+}
+/* line 229, ../sass/screen.scss */
 #homePage #lib, #homePage #photo {
   clear: both;
   padding: 0 0 44px 0;
 }
-/* line 200, ../sass/screen.scss */
+/* line 232, ../sass/screen.scss */
 #homePage #lib li, #homePage #photo li {
   width: 20%;
   float: left;
@@ -481,43 +513,11 @@ header a {
   color: #322938;
   white-space: nowrap;
 }
-/* line 208, ../sass/screen.scss */
+/* line 240, ../sass/screen.scss */
 #homePage #lib a, #homePage #photo a {
   color: #a14016;
   font-weight: 900;
   padding: 4px 8px;
-}
-/* line 217, ../sass/screen.scss */
-#homePage #galleries ul li {
-  width: 20%;
-  margin: 0 0 0 6%;
-  float: left;
-  text-align: center;
-}
-/* line 223, ../sass/screen.scss */
-#homePage #galleries ul li:first-child {
-  margin: 0;
-}
-/* line 226, ../sass/screen.scss */
-#homePage #galleries ul a p {
-  margin: 0;
-  font-weight: normal;
-  color: #322938;
-}
-/* line 233, ../sass/screen.scss */
-#homePage #photoIntro {
-  clear: both;
-  margin: 134px 0 22px 0;
-}
-/* line 238, ../sass/screen.scss */
-#homePage #libFigure {
-  width: 20%;
-  margin: 0 6% 0 0;
-  float: left;
-}
-/* line 244, ../sass/screen.scss */
-#homePage #libIntro {
-  margin: 0 0 44px 0;
 }
 
 /* line 250, ../sass/screen.scss */

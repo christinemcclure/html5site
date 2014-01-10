@@ -194,25 +194,6 @@ header {
 		font-size: 9px;
 	}
 
-	#lib, #photo {
-		clear:both;
-		padding: 0 0 $lineHeight*2 0;
-		li {
-			width: 20%;
-			float:left;
-			text-align:center;
-			border: 2px solid $homePageNavBorder;
-			color:$navBasicColor;
-			white-space:nowrap;
-		}
-		a {
-			color:$linkColor1;
-			font-weight:900;
-			padding: 4px 8px;
-		}
-	}
-
-
 	#galleries ul {
 		li {
 		width: 20%;
@@ -244,7 +225,26 @@ header {
 	#libIntro {
 		margin: 0 0 $lineHeight*2 0;
 	}
-}
+
+	#lib, #photo {
+		clear:both;
+		padding: 0 0 $lineHeight*2 0;
+		li {
+			width: 20%;
+			float:left;
+			text-align:center;
+			border: 2px solid $homePageNavBorder;
+			color:$navBasicColor;
+			white-space:nowrap;
+		}
+		a {
+			color:$linkColor1;
+			font-weight:900;
+			padding: 4px 8px;
+		}
+	}
+
+} // end homePage
 
 
 footer {
