@@ -268,20 +268,27 @@ div.columnBlock, div.columnEven {
 }
 /* end mobile */
 
-@media screen and (min-width: 400px) {
-
-}
 
 @media screen and (min-width: 630px) {
-	#homePage #lib {
-		padding: $lineHeight*2 0;
-	}
-
   #homePage{
     #lib, #photo {
       li {
         width: 40%;
         margin-left: 30%;
+      }
+    }
+  #lib {
+      padding: $lineHeight*2 0;
+    }
+
+    #galleries ul {
+      li {
+      width: 20%;
+      margin: 0 0 0 6%;
+      float:left;
+      }
+     li:first-child {
+        margin:0;
       }
     }
   }
