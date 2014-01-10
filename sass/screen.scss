@@ -309,6 +309,13 @@ div.columnBlock, div.columnEven {
 		}
 	}
 
+	#lib, #photo {
+		li {
+			width: 20%;
+			float:left;
+		}
+	}
+
 	div.columnBlock, div.columnEven { 
 	/* TWO COLUMNS (columnEven does not stretch to three) */
 		width: 43.76278118609407%;		
