@@ -68,6 +68,7 @@ nav {
 	margin-top: $lineHeight*7;
 }
 
+
 #libNav.noJS { /* Need this to position in case user disables JS. Remove class with JS */
 	margin-top: $lineHeight*6;
 }
@@ -229,7 +230,7 @@ header {
 		li {
       width: 40%;
       float:left;
-      margin: 0 0 20px 6%;
+      margin: 0 0 30px 6%;
 			text-align:center;
 			border: 2px solid $homePageNavBorder;
 			color:$navBasicColor;
