@@ -11,9 +11,9 @@
 
 	<section>
   	<h1 class="top">Projects</h1>
-		<p>Here are a few things I've created over the years...</p>
+		<p>Here are a few things I've developed over the years...</p>
     <h2>Portfolio</h2>
-    <p><a href="http://portfolio.christinemcclure.com">portfolio.christinemcclure.com</a> is an online book of graphic design and typography assignments from a class in document design.</p>
+    <p><a href="http://portfolio.christinemcclure.com">portfolio.christinemcclure.com</a> is an online book of graphic design and typography assignments created for a document design course.</p>
 		<h2>Websites</h2>
 		<p>This one, of course. The latest rendition of christinemcclure.com is an exercise in:</p>
     <div class="columnBlock">
