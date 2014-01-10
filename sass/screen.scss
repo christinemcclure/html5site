@@ -191,7 +191,7 @@ header {
 		color:$homePageHeader;
 	}
 	nav li {
-		font-size: 12px;
+		font-size: 11px;
 	}
 
 	#galleries ul {
@@ -227,8 +227,9 @@ header {
 		clear:both;
 		padding: 0 0 $lineHeight*2 0;
 		li {
-			width: 80%;
-      margin: 20px 0 20px 10%;
+      width: 40%;
+      float:left;
+      margin: 0 0 20px 6%;
 			text-align:center;
 			border: 2px solid $homePageNavBorder;
 			color:$navBasicColor;
@@ -268,12 +269,7 @@ div.columnBlock, div.columnEven {
 
 @media screen and (min-width: 630px) {
   #homePage{
-    #lib, #photo {
-      li {
-        width: 40%;
-        margin-left: 30%;
-      }
-    }
+
   #lib {
       padding: $lineHeight*2 0;
     }
