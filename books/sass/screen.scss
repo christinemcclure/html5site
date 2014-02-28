@@ -3,28 +3,62 @@
  * Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
 
-// Color palette: Sunday Library: http://www.colourlovers.com/palette/1463595/Sunday_Library
-$white: rgb(231,231,229);
-$ltBlue: rgb(167,191,193);
-$green: rgb(170,176,128);
-$cream: rgb(236,216,183);
-$black: rgb(23,22,36);
-body{background:lighten($cream, 6%);}
+// Color palette: http://www.colourlovers.com/palette/2234363/In_the_Library_APC
+$grey:  #CDD5D7;
+$red:   #CD4104;
+$green: #A99E35;
+$cream: #FAF1C8;
+$black: #0C1B16;
+
+$buttonLight: $red;
+$buttonDark: darken($red, 10%);
+
+body{
+  background:lighten($cream, 4%);
+  color: $black;
+}
 
 div.container-fluid{
   width: 90%;
   margin: 0 auto;
   margin-top: 80px;
-  background: $ltBlue;
+  background: $grey;
 }
+
+
 
 .list-group-item {
   width: 45%;
   margin: 0 0 0 2%;
   float:left;
+  background: lighten($grey, 18%);
 }
 
-.btn-primary {
-  background-color: darken($ltBlue, 20%);
-  border-color: darken($ltBlue, 40%);
+h4.btn-custom, h4.btn:hover, h4.btn:focus{color:white;}
+
+.btn-custom {
+  background-color: #CD4104;
+  border-color: #CD4104;
+}
+.btn-custom:hover,
+.btn-custom:focus,
+.btn-custom:active,
+.btn-custom.active {
+  background-color: #b43904;
+  border-color: #9b3103;
+}
+.btn-custom.disabled:hover,
+.btn-custom.disabled:focus,
+.btn-custom.disabled:active,
+.btn-custom.disabled.active,
+.btn-custom[disabled]:hover,
+.btn-custom[disabled]:focus,
+.btn-custom[disabled]:active,
+.btn-custom[disabled].active,
+fieldset[disabled] .btn-custom:hover,
+fieldset[disabled] .btn-custom:focus,
+fieldset[disabled] .btn-custom:active,
+fieldset[disabled] .btn-custom.active {
+  background-color: #CD4104;
+  border-color: #CD4104;
 }
