@@ -3,4 +3,17 @@
  * Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
 
-@import "compass/reset";
+// Color palette: Sunday Library: http://www.colourlovers.com/palette/1463595/Sunday_Library
+$white: rgb(231,231,229);
+$ltBlue: rgb(167,191,193);
+$green: rgb(170,176,128);
+$cream: rgb(236,216,183);
+$black: rgb(23,22,36);
+body{background:$cream;}
+
+div.container-fluid{
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 80px;
+  background: $ltBlue;
+}
