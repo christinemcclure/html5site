@@ -4,7 +4,7 @@
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
 /* line 12, ../sass/screen.scss */
 body {
-  background: #ecd8b7;
+  background: #f2e5cf;
 }
 
 /* line 14, ../sass/screen.scss */
@@ -13,4 +13,17 @@ div.container-fluid {
   margin: 0 auto;
   margin-top: 80px;
   background: #a7bfc1;
+}
+
+/* line 21, ../sass/screen.scss */
+.list-group-item {
+  width: 45%;
+  margin: 0 0 0 2%;
+  float: left;
+}
+
+/* line 27, ../sass/screen.scss */
+.btn-primary {
+  background-color: #6b9397;
+  border-color: #40595c;
 }
