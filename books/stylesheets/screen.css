@@ -17,7 +17,7 @@ div.container-fluid {
 }
 
 /* line 30, ../sass/screen.scss */
-.list-group-item {
+nav .list-group-item {
   width: 20%;
   margin: 0 0 0 2%;
   float: left;
