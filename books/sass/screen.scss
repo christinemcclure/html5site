@@ -12,7 +12,7 @@ $red: #AF4A50;
 $burgundy: #945858;
 
 $buttonLight: $red;
-$buttonDark: $burgundy;
+$buttonDark: darken($burgundy,10%);
 $rowColor: lighten($cream, 10%);
 
 
@@ -39,7 +39,7 @@ h2.name-header {margin:20px 0 10px 0;}
     padding: 10px;
     background: $rowColor;
 }
-p.btn-custom, p.btn:hover, p.btn:focus{color:white;}
+p.btn-custom, p.btn:hover, p.btn:focus{color:lighten($cream,25%);}
 
 .btn-custom {
   width: 120px;

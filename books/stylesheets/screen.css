@@ -36,7 +36,7 @@ h2.name-header {
 
 /* line 42, ../sass/screen.scss */
 p.btn-custom, p.btn:hover, p.btn:focus {
-  color: white;
+  color: #efeee9;
 }
 
 /* line 44, ../sass/screen.scss */
@@ -44,7 +44,7 @@ p.btn-custom, p.btn:hover, p.btn:focus {
   width: 120px;
   margin: 4px;
   background-color: #af4a50;
-  border-color: #945858;
+  border-color: #744545;
   padding: 4px 6px;
 }
 
