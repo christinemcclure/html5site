@@ -3,20 +3,21 @@
  * Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
 
-// Color palette: http://www.colourlovers.com/palette/2234363/In_the_Library_APC
-$grey:  #CDD5D7;
-$red:   #CD4104;
-$green: #A99E35;
-$cream: #FAF1C8;
-$black: #0C1B16;
+// Color palette: http://www.colourlovers.com/palette/1635872/the_library_beckons
+$grey:  #969990;
+$cream: #BAB49E;
+$black: darken($grey, 40%);
+$blue: #6A7E7F;
+$red: #AF4A50;
+$burgundy: #945858;
 
 $buttonLight: $red;
-$buttonDark: darken($red, 10%);
-$rowColor: $cream;
+$buttonDark: $burgundy;
+$rowColor: lighten($cream, 10%);
 
 
 body{
-  background:lighten($cream, 4%);
+  background:$blue;
   color: $black;
 }
 
@@ -42,30 +43,12 @@ p.btn-custom, p.btn:hover, p.btn:focus{color:white;}
 .btn-custom {
   width: 120px;
   margin: 4px;
-  background-color: #CD4104;
-  border-color: #CD4104;
+  background-color: $buttonLight;
+  border-color: $buttonDark;
   padding: 4px 6px;
 }
 
-.btn-custom:hover,
-.btn-custom:focus,
-.btn-custom:active,
-.btn-custom.active {
-  background-color: #b43904;
-  border-color: #9b3103;
-}
-.btn-custom.disabled:hover,
-.btn-custom.disabled:focus,
-.btn-custom.disabled:active,
-.btn-custom.disabled.active,
-.btn-custom[disabled]:hover,
-.btn-custom[disabled]:focus,
-.btn-custom[disabled]:active,
-.btn-custom[disabled].active,
-fieldset[disabled] .btn-custom:hover,
-fieldset[disabled] .btn-custom:focus,
-fieldset[disabled] .btn-custom:active,
-fieldset[disabled] .btn-custom.active {
-  background-color: #CD4104;
-  border-color: #CD4104;
+.survey {
+  background-color: darken($blue,15%);
+  border-color: darken($blue,25%);    
 }

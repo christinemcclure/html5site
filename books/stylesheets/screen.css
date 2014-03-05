@@ -2,73 +2,53 @@
  * In this file you should write your main styles. (or centralize your imports)
  * Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
-/* line 18, ../sass/screen.scss */
+/* line 19, ../sass/screen.scss */
 body {
-  background: #fcf6db;
-  color: #0c1b16;
+  background: #6a7e7f;
+  color: #2f302d;
 }
 
-/* line 23, ../sass/screen.scss */
+/* line 24, ../sass/screen.scss */
 div.container-fluid {
   width: 90%;
   margin: 0 auto;
   margin-top: 80px;
-  background: #cdd5d7;
+  background: #969990;
 }
 
-/* line 30, ../sass/screen.scss */
+/* line 31, ../sass/screen.scss */
 .list-group-item {
   margin-bottom: 10px;
 }
 
-/* line 34, ../sass/screen.scss */
+/* line 35, ../sass/screen.scss */
 h2.name-header {
   margin: 20px 0 10px 0;
 }
 
-/* line 35, ../sass/screen.scss */
+/* line 36, ../sass/screen.scss */
 .row {
   margin: 20px 0;
   padding: 10px;
-  background: #faf1c8;
+  background: #cfcbbc;
 }
 
-/* line 40, ../sass/screen.scss */
+/* line 41, ../sass/screen.scss */
 p.btn-custom, p.btn:hover, p.btn:focus {
   color: white;
 }
 
-/* line 42, ../sass/screen.scss */
+/* line 43, ../sass/screen.scss */
 .btn-custom {
   width: 120px;
   margin: 4px;
-  background-color: #CD4104;
-  border-color: #CD4104;
+  background-color: #af4a50;
+  border-color: #945858;
   padding: 4px 6px;
 }
 
-/* line 53, ../sass/screen.scss */
-.btn-custom:hover,
-.btn-custom:focus,
-.btn-custom:active,
-.btn-custom.active {
-  background-color: #b43904;
-  border-color: #9b3103;
-}
-
-/* line 68, ../sass/screen.scss */
-.btn-custom.disabled:hover,
-.btn-custom.disabled:focus,
-.btn-custom.disabled:active,
-.btn-custom.disabled.active,
-.btn-custom[disabled]:hover,
-.btn-custom[disabled]:focus,
-.btn-custom[disabled]:active,
-.btn-custom[disabled].active,
-fieldset[disabled] .btn-custom:hover,
-fieldset[disabled] .btn-custom:focus,
-fieldset[disabled] .btn-custom:active,
-fieldset[disabled] .btn-custom.active {
-  background-color: #CD4104;
-  border-color: #CD4104;
+/* line 51, ../sass/screen.scss */
+.survey {
+  background-color: #475555;
+  border-color: #30393a;
 }
