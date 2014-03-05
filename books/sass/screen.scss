@@ -13,6 +13,7 @@ $black: #0C1B16;
 $buttonLight: $red;
 $buttonDark: darken($red, 10%);
 
+
 body{
   background:lighten($cream, 4%);
   color: $black;
@@ -25,21 +26,19 @@ div.container-fluid{
   background: $grey;
 }
 
-
-
-nav .list-group-item {
-  width: 20%;
-  margin: 0 0 0 2%;
-  float:left;
-  background: lighten($grey, 18%);
+.list-group-item{
+    margin-bottom: 10px;
 }
-
-h4.btn-custom, h4.btn:hover, h4.btn:focus{color:white;}
+p.btn-custom, p.btn:hover, p.btn:focus{color:white;}
 
 .btn-custom {
+  width: 120px;
+  margin: 4px;
   background-color: #CD4104;
   border-color: #CD4104;
+  padding: 4px 6px;
 }
+
 .btn-custom:hover,
 .btn-custom:focus,
 .btn-custom:active,

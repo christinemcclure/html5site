@@ -2,13 +2,13 @@
  * In this file you should write your main styles. (or centralize your imports)
  * Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
-/* line 16, ../sass/screen.scss */
+/* line 17, ../sass/screen.scss */
 body {
   background: #fcf6db;
   color: #0c1b16;
 }
 
-/* line 21, ../sass/screen.scss */
+/* line 22, ../sass/screen.scss */
 div.container-fluid {
   width: 90%;
   margin: 0 auto;
@@ -16,26 +16,26 @@ div.container-fluid {
   background: #cdd5d7;
 }
 
-/* line 30, ../sass/screen.scss */
-nav .list-group-item {
-  width: 20%;
-  margin: 0 0 0 2%;
-  float: left;
-  background: white;
+/* line 29, ../sass/screen.scss */
+.list-group-item {
+  margin-bottom: 10px;
 }
 
-/* line 37, ../sass/screen.scss */
-h4.btn-custom, h4.btn:hover, h4.btn:focus {
+/* line 32, ../sass/screen.scss */
+p.btn-custom, p.btn:hover, p.btn:focus {
   color: white;
 }
 
-/* line 39, ../sass/screen.scss */
+/* line 34, ../sass/screen.scss */
 .btn-custom {
+  width: 120px;
+  margin: 4px;
   background-color: #CD4104;
   border-color: #CD4104;
+  padding: 4px 6px;
 }
 
-/* line 46, ../sass/screen.scss */
+/* line 45, ../sass/screen.scss */
 .btn-custom:hover,
 .btn-custom:focus,
 .btn-custom:active,
@@ -44,7 +44,7 @@ h4.btn-custom, h4.btn:hover, h4.btn:focus {
   border-color: #9b3103;
 }
 
-/* line 61, ../sass/screen.scss */
+/* line 60, ../sass/screen.scss */
 .btn-custom.disabled:hover,
 .btn-custom.disabled:focus,
 .btn-custom.disabled:active,
