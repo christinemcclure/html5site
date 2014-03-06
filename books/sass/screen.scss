@@ -74,6 +74,8 @@ p.btn:hover {
   color:darken($grey,30%);
 }
 
+p.top:hover{background-color:$grey;}
+
 .survey {
   background-color: darken($blue,15%);
   border-color: darken($blue,25%);    

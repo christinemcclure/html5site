@@ -97,12 +97,17 @@ p.btn:hover {
 }
 
 /* line 77, ../sass/screen.scss */
+p.top:hover {
+  background-color: #969990;
+}
+
+/* line 79, ../sass/screen.scss */
 .survey {
   background-color: #475555;
   border-color: #30393a;
 }
 
-/* line 82, ../sass/screen.scss */
+/* line 84, ../sass/screen.scss */
 p.survey:hover {
   background-color: #6a7e7f;
 }
