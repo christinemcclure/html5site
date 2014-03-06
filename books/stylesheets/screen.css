@@ -80,7 +80,16 @@ p.btn-custom, p.btn:hover, p.btn:focus {
   padding: 4px 6px;
 }
 
-/* line 62, ../sass/screen.scss */
+/* line 63, ../sass/screen.scss */
+.top {
+  width: 40px;
+  background-color: #c8cac5;
+  border-color: #969990;
+  padding: 2px 4px;
+  color: #494b45;
+}
+
+/* line 71, ../sass/screen.scss */
 .survey {
   background-color: #475555;
   border-color: #30393a;
