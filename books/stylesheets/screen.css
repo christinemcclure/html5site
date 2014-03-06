@@ -2,13 +2,45 @@
  * In this file you should write your main styles. (or centralize your imports)
  * Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
-/* line 19, ../sass/screen.scss */
+/* line 20, ../sass/screen.scss */
+h1, h2, h3, h4 {
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 600;
+}
+
+/* line 24, ../sass/screen.scss */
+h1 {
+  color: #72766c;
+  font-weight: 900;
+  font-size: 42px;
+}
+
+/* line 25, ../sass/screen.scss */
+h2 {
+  color: #7d8076;
+  font-weight: 900;
+  font-size: 32px;
+}
+
+/* line 26, ../sass/screen.scss */
+h3 {
+  color: #92a3a4;
+  font-size: 24px;
+}
+
+/* line 27, ../sass/screen.scss */
+h4 {
+  color: #b6af98;
+  font-size: 16px;
+}
+
+/* line 29, ../sass/screen.scss */
 body {
   background: #6a7e7f;
   color: #2f302d;
 }
 
-/* line 24, ../sass/screen.scss */
+/* line 34, ../sass/screen.scss */
 div.container-fluid {
   width: 90%;
   margin: 0 auto;
@@ -17,29 +49,29 @@ div.container-fluid {
   border: 4px solid #63665d;
 }
 
-/* line 32, ../sass/screen.scss */
+/* line 42, ../sass/screen.scss */
 .list-group-item {
   margin-bottom: 10px;
 }
 
-/* line 36, ../sass/screen.scss */
+/* line 46, ../sass/screen.scss */
 h2.name-header {
   margin: 20px 0 10px 0;
 }
 
-/* line 37, ../sass/screen.scss */
+/* line 47, ../sass/screen.scss */
 .row {
   margin: 20px 0;
   padding: 10px;
   background: #cfcbbc;
 }
 
-/* line 42, ../sass/screen.scss */
+/* line 52, ../sass/screen.scss */
 p.btn-custom, p.btn:hover, p.btn:focus {
   color: #efeee9;
 }
 
-/* line 44, ../sass/screen.scss */
+/* line 54, ../sass/screen.scss */
 .btn-custom {
   width: 120px;
   margin: 4px;
@@ -48,7 +80,7 @@ p.btn-custom, p.btn:hover, p.btn:focus {
   padding: 4px 6px;
 }
 
-/* line 52, ../sass/screen.scss */
+/* line 62, ../sass/screen.scss */
 .survey {
   background-color: #475555;
   border-color: #30393a;
