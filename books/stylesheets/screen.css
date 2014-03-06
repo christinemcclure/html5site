@@ -80,7 +80,12 @@ p.btn-custom, p.btn:hover, p.btn:focus {
   padding: 4px 6px;
 }
 
-/* line 63, ../sass/screen.scss */
+/* line 62, ../sass/screen.scss */
+p.btn:hover {
+  background-color: #7d3539;
+}
+
+/* line 67, ../sass/screen.scss */
 .top {
   width: 40px;
   background-color: #c8cac5;
@@ -89,8 +94,13 @@ p.btn-custom, p.btn:hover, p.btn:focus {
   color: #494b45;
 }
 
-/* line 71, ../sass/screen.scss */
+/* line 75, ../sass/screen.scss */
 .survey {
   background-color: #475555;
   border-color: #30393a;
+}
+
+/* line 80, ../sass/screen.scss */
+p.survey:hover {
+  background-color: #6a7e7f;
 }

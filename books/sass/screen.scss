@@ -59,6 +59,10 @@ p.btn-custom, p.btn:hover, p.btn:focus{color:lighten($cream,25%);}
   padding: 4px 6px;
 }
 
+p.btn:hover {
+  background-color: darken($buttonLight,14%);
+}
+
 
 .top {
   width: 40px;
@@ -71,4 +75,8 @@ p.btn-custom, p.btn:hover, p.btn:focus{color:lighten($cream,25%);}
 .survey {
   background-color: darken($blue,15%);
   border-color: darken($blue,25%);    
+}
+
+p.survey:hover {
+  background-color: $blue;   
 }
