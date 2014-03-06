@@ -52,7 +52,9 @@ h2.name-header {margin:20px 0 10px 0;}
 p.btn-custom, p.btn:hover, p.btn:focus{color:lighten($cream,25%);}
 
 .btn-custom {
-  width: 120px;
+  font-size:12px;
+  width: 100px;
+  font-weight:900;
   margin: 4px;
   background-color: $buttonLight;
   border-color: $buttonDark;
