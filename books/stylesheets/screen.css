@@ -111,3 +111,9 @@ p.top:hover {
 p.survey:hover {
   background-color: #6a7e7f;
 }
+
+/* line 88, ../sass/screen.scss */
+h3.winner {
+  color: #af4a50;
+  font-size: 30px;
+}
