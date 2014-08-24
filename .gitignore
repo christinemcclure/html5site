@@ -1,2 +1,3 @@
 .sass*
 /nbproject*
+.DS_Store*
