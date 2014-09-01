@@ -1,3 +1,35 @@
+// my settings for custom fonts
+@import "compass/css3/font-face";
+
+@include font-face('notosans', 
+  font-files(
+    'notosansreg/notosans-regular-webfont.woff', woff,
+    'notosansreg/notosans-regular-webfont.ttf', ttf,
+    'notosansreg/notosans-regular-webfont.svg', svg),
+    'notosansreg/notosans-regular-webfont.eot');
+    
+@include font-face('notosansbold', 
+  font-files(
+    'notosansbold/notosans-bold-webfont.woff', woff,
+    'notosansbold/notosans-bold-webfont.ttf', ttf,
+    'notosansbold/notosans-bold-webfont.svg', svg),
+    'notosansbold/notosans-bold-webfont.eot');    
+
+@include font-face('oswald', 
+  font-files(
+    'oswaldreg/oswald-regular-webfont.woff', woff,
+    'oswaldreg/oswald-regular-webfont.ttf', ttf,
+    'oswaldreg/oswald-regular-webfont.svg', svg),
+    'oswaldreg/oswald-regular-webfont.eot');
+    
+@include font-face('oswaldbold', 
+  font-files(
+    'oswaldbold/oswald-bold-webfont.woff', woff,
+    'oswaldbold/oswald-bold-webfont.ttf', ttf,
+    'oswaldbold/oswald-bold-webfont.svg', svg),
+    'oswaldbold/oswald-bold-webfont.eot');    
+    
+
 // Foundation by ZURB
 // foundation.zurb.com
 // Licensed under MIT Open Source
